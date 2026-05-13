@@ -4,7 +4,7 @@
 
 ### GoogleSccV2FolderMuteConfig <a name="GoogleSccV2FolderMuteConfig" id="@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config google_scc_v2_folder_mute_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config google_scc_v2_folder_mute_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfig.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleSccV2FolderMuteConfi
 
 The id of the existing GoogleSccV2FolderMuteConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -987,7 +987,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesc
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigConfig.property.muteConfigId">MuteConfigId</a></code> | <code>*string</code> | Unique identifier provided by the client within the parent scope. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigConfig.property.type">Type</a></code> | <code>*string</code> | The type of the mute config. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigConfig.property.description">Description</a></code> | <code>*string</code> | A description of the mute config. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#id GoogleSccV2FolderMuteConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#id GoogleSccV2FolderMuteConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigConfig.property.location">Location</a></code> | <code>*string</code> | location Id is provided by folder. If not provided, Use global as default. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigTimeouts">GoogleSccV2FolderMuteConfigTimeouts</a></code> | timeouts block. |
 
@@ -1078,7 +1078,7 @@ the scope in which the mute configuration is being created. E.g.,
 If a filter contains project = X but is created under the
 project = Y scope, it might not match any findings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#filter GoogleSccV2FolderMuteConfig#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#filter GoogleSccV2FolderMuteConfig#filter}
 
 ---
 
@@ -1092,7 +1092,7 @@ Folder *string
 
 The folder whose Cloud Security Command Center the Mute Config lives in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#folder GoogleSccV2FolderMuteConfig#folder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#folder GoogleSccV2FolderMuteConfig#folder}
 
 ---
 
@@ -1106,7 +1106,7 @@ MuteConfigId *string
 
 Unique identifier provided by the client within the parent scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#mute_config_id GoogleSccV2FolderMuteConfig#mute_config_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#mute_config_id GoogleSccV2FolderMuteConfig#mute_config_id}
 
 ---
 
@@ -1120,7 +1120,7 @@ Type *string
 
 The type of the mute config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#type GoogleSccV2FolderMuteConfig#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#type GoogleSccV2FolderMuteConfig#type}
 
 ---
 
@@ -1134,7 +1134,7 @@ Description *string
 
 A description of the mute config.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#description GoogleSccV2FolderMuteConfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#description GoogleSccV2FolderMuteConfig#description}
 
 ---
 
@@ -1146,7 +1146,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#id GoogleSccV2FolderMuteConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#id GoogleSccV2FolderMuteConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1163,7 +1163,7 @@ Location *string
 
 location Id is provided by folder. If not provided, Use global as default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#location GoogleSccV2FolderMuteConfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#location GoogleSccV2FolderMuteConfig#location}
 
 ---
 
@@ -1177,7 +1177,7 @@ Timeouts GoogleSccV2FolderMuteConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#timeouts GoogleSccV2FolderMuteConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#timeouts GoogleSccV2FolderMuteConfig#timeouts}
 
 ---
 
@@ -1199,9 +1199,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#create GoogleSccV2FolderMuteConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#delete GoogleSccV2FolderMuteConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#update GoogleSccV2FolderMuteConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#create GoogleSccV2FolderMuteConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#delete GoogleSccV2FolderMuteConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2FolderMuteConfig.GoogleSccV2FolderMuteConfigTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#update GoogleSccV2FolderMuteConfig#update}. |
 
 ---
 
@@ -1213,7 +1213,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#create GoogleSccV2FolderMuteConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#create GoogleSccV2FolderMuteConfig#create}.
 
 ---
 
@@ -1225,7 +1225,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#delete GoogleSccV2FolderMuteConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#delete GoogleSccV2FolderMuteConfig#delete}.
 
 ---
 
@@ -1237,7 +1237,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_scc_v2_folder_mute_config#update GoogleSccV2FolderMuteConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_folder_mute_config#update GoogleSccV2FolderMuteConfig#update}.
 
 ---
 

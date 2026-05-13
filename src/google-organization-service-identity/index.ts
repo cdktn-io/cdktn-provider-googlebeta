@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,38 +13,38 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleOrganizationServiceIdentityConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity#id GoogleOrganizationServiceIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity#id GoogleOrganizationServiceIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity#organization GoogleOrganizationServiceIdentity#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity#organization GoogleOrganizationServiceIdentity#organization}
   */
   readonly organization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity#service GoogleOrganizationServiceIdentity#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity#service GoogleOrganizationServiceIdentity#service}
   */
   readonly service: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity#timeouts GoogleOrganizationServiceIdentity#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity#timeouts GoogleOrganizationServiceIdentity#timeouts}
   */
   readonly timeouts?: GoogleOrganizationServiceIdentityTimeouts;
 }
 export interface GoogleOrganizationServiceIdentityTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity#create GoogleOrganizationServiceIdentity#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity#create GoogleOrganizationServiceIdentity#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity#delete GoogleOrganizationServiceIdentity#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity#delete GoogleOrganizationServiceIdentity#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity#read GoogleOrganizationServiceIdentity#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity#read GoogleOrganizationServiceIdentity#read}
   */
   readonly read?: string;
 }
@@ -196,7 +196,7 @@ export class GoogleOrganizationServiceIdentityTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity google_organization_service_identity}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity google_organization_service_identity}
 */
 export class GoogleOrganizationServiceIdentity extends cdktn.TerraformResource {
 
@@ -212,7 +212,7 @@ export class GoogleOrganizationServiceIdentity extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleOrganizationServiceIdentity resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleOrganizationServiceIdentity to import
-  * @param importFromId The id of the existing GoogleOrganizationServiceIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleOrganizationServiceIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleOrganizationServiceIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -224,7 +224,7 @@ export class GoogleOrganizationServiceIdentity extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_organization_service_identity google_organization_service_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_organization_service_identity google_organization_service_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,7 +235,7 @@ export class GoogleOrganizationServiceIdentity extends cdktn.TerraformResource {
       terraformResourceType: 'google_organization_service_identity',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.31.0',
+        providerVersion: '7.32.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

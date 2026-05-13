@@ -4,7 +4,7 @@
 
 ### GoogleStorageAnywhereCache <a name="GoogleStorageAnywhereCache" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache google_storage_anywhere_cache}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache google_storage_anywhere_cache}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.resetAdmissionPolicy">ResetAdmissionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.resetId">ResetId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.resetIngestOnWrite">ResetIngestOnWrite</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.resetTtl">ResetTtl</a></code> | *No description.* |
 
@@ -415,6 +416,12 @@ func ResetAdmissionPolicy()
 func ResetId()
 ```
 
+##### `ResetIngestOnWrite` <a name="ResetIngestOnWrite" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.resetIngestOnWrite"></a>
+
+```go
+func ResetIngestOnWrite()
+```
+
 ##### `ResetTimeouts` <a name="ResetTimeouts" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.resetTimeouts"></a>
 
 ```go
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleStorageAnywhereCache
 
 The id of the existing GoogleStorageAnywhereCache that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -569,12 +576,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.admissionPolicyInput">AdmissionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.bucketInput">BucketInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.ingestOnWriteInput">IngestOnWriteInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.ttlInput">TtlInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.zoneInput">ZoneInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.admissionPolicy">AdmissionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.bucket">Bucket</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.id">Id</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.ingestOnWrite">IngestOnWrite</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.ttl">Ttl</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.zone">Zone</a></code> | <code>*string</code> | *No description.* |
 
@@ -812,6 +821,16 @@ func IdInput() *string
 
 ---
 
+##### `IngestOnWriteInput`<sup>Optional</sup> <a name="IngestOnWriteInput" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.ingestOnWriteInput"></a>
+
+```go
+func IngestOnWriteInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
 ##### `TimeoutsInput`<sup>Optional</sup> <a name="TimeoutsInput" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.timeoutsInput"></a>
 
 ```go
@@ -869,6 +888,16 @@ func Id() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `IngestOnWrite`<sup>Required</sup> <a name="IngestOnWrite" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCache.property.ingestOnWrite"></a>
+
+```go
+func IngestOnWrite() interface{}
+```
+
+- *Type:* interface{}
 
 ---
 
@@ -931,6 +960,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlest
 	Zone: *string,
 	AdmissionPolicy: *string,
 	Id: *string,
+	IngestOnWrite: interface{},
 	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts,
 	Ttl: *string,
 }
@@ -950,7 +980,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlest
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.property.bucket">Bucket</a></code> | <code>*string</code> | A reference to Bucket resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.property.zone">Zone</a></code> | <code>*string</code> | The zone in which the cache instance needs to be created. For example, 'us-central1-a.'. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.property.admissionPolicy">AdmissionPolicy</a></code> | <code>*string</code> | The cache admission policy dictates whether a block should be inserted upon a cache miss. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#id GoogleStorageAnywhereCache#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#id GoogleStorageAnywhereCache#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.property.ingestOnWrite">IngestOnWrite</a></code> | <code>interface{}</code> | Whether or not the cache ingests data as the data is written to the bucket. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts">GoogleStorageAnywhereCacheTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.property.ttl">Ttl</a></code> | <code>*string</code> | The TTL of all cache entries in whole seconds. e.g., "7200s". It defaults to '86400s'. |
 
@@ -1036,7 +1067,7 @@ Bucket *string
 
 A reference to Bucket resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#bucket GoogleStorageAnywhereCache#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#bucket GoogleStorageAnywhereCache#bucket}
 
 ---
 
@@ -1050,7 +1081,7 @@ Zone *string
 
 The zone in which the cache instance needs to be created. For example, 'us-central1-a.'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#zone GoogleStorageAnywhereCache#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#zone GoogleStorageAnywhereCache#zone}
 
 ---
 
@@ -1066,7 +1097,7 @@ The cache admission policy dictates whether a block should be inserted upon a ca
 
 Default value: "admit-on-first-miss" Possible values: ["admit-on-first-miss", "admit-on-second-miss"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#admission_policy GoogleStorageAnywhereCache#admission_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#admission_policy GoogleStorageAnywhereCache#admission_policy}
 
 ---
 
@@ -1078,10 +1109,24 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#id GoogleStorageAnywhereCache#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#id GoogleStorageAnywhereCache#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `IngestOnWrite`<sup>Optional</sup> <a name="IngestOnWrite" id="@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheConfig.property.ingestOnWrite"></a>
+
+```go
+IngestOnWrite interface{}
+```
+
+- *Type:* interface{}
+
+Whether or not the cache ingests data as the data is written to the bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#ingest_on_write GoogleStorageAnywhereCache#ingest_on_write}
 
 ---
 
@@ -1095,7 +1140,7 @@ Timeouts GoogleStorageAnywhereCacheTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#timeouts GoogleStorageAnywhereCache#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#timeouts GoogleStorageAnywhereCache#timeouts}
 
 ---
 
@@ -1109,7 +1154,7 @@ Ttl *string
 
 The TTL of all cache entries in whole seconds. e.g., "7200s". It defaults to '86400s'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#ttl GoogleStorageAnywhereCache#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#ttl GoogleStorageAnywhereCache#ttl}
 
 ---
 
@@ -1131,9 +1176,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlest
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#create GoogleStorageAnywhereCache#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#delete GoogleStorageAnywhereCache#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#update GoogleStorageAnywhereCache#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#create GoogleStorageAnywhereCache#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#delete GoogleStorageAnywhereCache#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageAnywhereCache.GoogleStorageAnywhereCacheTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#update GoogleStorageAnywhereCache#update}. |
 
 ---
 
@@ -1145,7 +1190,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#create GoogleStorageAnywhereCache#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#create GoogleStorageAnywhereCache#create}.
 
 ---
 
@@ -1157,7 +1202,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#delete GoogleStorageAnywhereCache#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#delete GoogleStorageAnywhereCache#delete}.
 
 ---
 
@@ -1169,7 +1214,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_storage_anywhere_cache#update GoogleStorageAnywhereCache#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_anywhere_cache#update GoogleStorageAnywhereCache#update}.
 
 ---
 

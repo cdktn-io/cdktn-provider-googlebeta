@@ -4,7 +4,7 @@
 
 ### GoogleDataformTeamFolder <a name="GoogleDataformTeamFolder" id="@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder google_dataform_team_folder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder google_dataform_team_folder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolder.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleDataformTeamFolder t
 
 The id of the existing GoogleDataformTeamFolder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -873,8 +873,8 @@ const googleDataformTeamFolderConfig: googleDataformTeamFolder.GoogleDataformTea
 | <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderConfig.property.displayName">displayName</a></code> | <code>string</code> | Required. The TeamFolder's user-friendly name. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderConfig.property.region">region</a></code> | <code>string</code> | A reference to the region. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#id GoogleDataformTeamFolder#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#project GoogleDataformTeamFolder#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#id GoogleDataformTeamFolder#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#project GoogleDataformTeamFolder#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderTimeouts">GoogleDataformTeamFolderTimeouts</a></code> | timeouts block. |
 
 ---
@@ -959,7 +959,7 @@ public readonly displayName: string;
 
 Required. The TeamFolder's user-friendly name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#display_name GoogleDataformTeamFolder#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#display_name GoogleDataformTeamFolder#display_name}
 
 ---
 
@@ -973,7 +973,7 @@ public readonly region: string;
 
 A reference to the region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#region GoogleDataformTeamFolder#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#region GoogleDataformTeamFolder#region}
 
 ---
 
@@ -985,7 +985,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#id GoogleDataformTeamFolder#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#id GoogleDataformTeamFolder#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1000,7 +1000,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#project GoogleDataformTeamFolder#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#project GoogleDataformTeamFolder#project}.
 
 ---
 
@@ -1014,7 +1014,7 @@ public readonly timeouts: GoogleDataformTeamFolderTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#timeouts GoogleDataformTeamFolder#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#timeouts GoogleDataformTeamFolder#timeouts}
 
 ---
 
@@ -1032,9 +1032,9 @@ const googleDataformTeamFolderTimeouts: googleDataformTeamFolder.GoogleDataformT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#create GoogleDataformTeamFolder#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#delete GoogleDataformTeamFolder#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#update GoogleDataformTeamFolder#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#create GoogleDataformTeamFolder#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#delete GoogleDataformTeamFolder#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformTeamFolder.GoogleDataformTeamFolderTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#update GoogleDataformTeamFolder#update}. |
 
 ---
 
@@ -1046,7 +1046,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#create GoogleDataformTeamFolder#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#create GoogleDataformTeamFolder#create}.
 
 ---
 
@@ -1058,7 +1058,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#delete GoogleDataformTeamFolder#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#delete GoogleDataformTeamFolder#delete}.
 
 ---
 
@@ -1070,7 +1070,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#update GoogleDataformTeamFolder#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#update GoogleDataformTeamFolder#update}.
 
 ---
 

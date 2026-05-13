@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,7 +19,7 @@ export interface GoogleChronicleDataTableConfig extends cdktn.TerraformMetaArgum
   * - Contains only letters, numbers and underscore.
   * - Must be unique and has length < 256.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#data_table_id GoogleChronicleDataTable#data_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#data_table_id GoogleChronicleDataTable#data_table_id}
   */
   readonly dataTableId: string;
   /**
@@ -28,17 +28,17 @@ export interface GoogleChronicleDataTableConfig extends cdktn.TerraformMetaArgum
   * If set to 'DEFAULT',or if the field is omitted, the data table must be empty before it can be deleted.
   * Possible values: DEFAULT, FORCE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#deletion_policy GoogleChronicleDataTable#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#deletion_policy GoogleChronicleDataTable#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A user-provided description of the data table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#description GoogleChronicleDataTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#description GoogleChronicleDataTable#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#id GoogleChronicleDataTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#id GoogleChronicleDataTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,41 +47,41 @@ export interface GoogleChronicleDataTableConfig extends cdktn.TerraformMetaArgum
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#instance GoogleChronicleDataTable#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#instance GoogleChronicleDataTable#instance}
   */
   readonly instance: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#location GoogleChronicleDataTable#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#location GoogleChronicleDataTable#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#project GoogleChronicleDataTable#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#project GoogleChronicleDataTable#project}
   */
   readonly project?: string;
   /**
   * User-provided TTL of the data table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#row_time_to_live GoogleChronicleDataTable#row_time_to_live}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#row_time_to_live GoogleChronicleDataTable#row_time_to_live}
   */
   readonly rowTimeToLive?: string;
   /**
   * column_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#column_info GoogleChronicleDataTable#column_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#column_info GoogleChronicleDataTable#column_info}
   */
   readonly columnInfo?: GoogleChronicleDataTableColumnInfo[] | cdktn.IResolvable;
   /**
   * scope_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#scope_info GoogleChronicleDataTable#scope_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#scope_info GoogleChronicleDataTable#scope_info}
   */
   readonly scopeInfo?: GoogleChronicleDataTableScopeInfo;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#timeouts GoogleChronicleDataTable#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#timeouts GoogleChronicleDataTable#timeouts}
   */
   readonly timeouts?: GoogleChronicleDataTableTimeouts;
 }
@@ -89,7 +89,7 @@ export interface GoogleChronicleDataTableColumnInfo {
   /**
   * Column Index. 0,1,2...
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#column_index GoogleChronicleDataTable#column_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#column_index GoogleChronicleDataTable#column_index}
   */
   readonly columnIndex: number;
   /**
@@ -100,7 +100,7 @@ export interface GoogleChronicleDataTableColumnInfo {
   * CIDR
   * NUMBER Possible values: ["STRING", "REGEX", "CIDR", "NUMBER"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#column_type GoogleChronicleDataTable#column_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#column_type GoogleChronicleDataTable#column_type}
   */
   readonly columnType?: string;
   /**
@@ -108,13 +108,13 @@ export interface GoogleChronicleDataTableColumnInfo {
   * If no columns have key_column = true, all columns will be included in the
   * calculation of the row ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#key_column GoogleChronicleDataTable#key_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#key_column GoogleChronicleDataTable#key_column}
   */
   readonly keyColumn?: boolean | cdktn.IResolvable;
   /**
   * Entity proto field path that the column is mapped to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#mapped_column_path GoogleChronicleDataTable#mapped_column_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#mapped_column_path GoogleChronicleDataTable#mapped_column_path}
   */
   readonly mappedColumnPath?: string;
   /**
@@ -125,13 +125,13 @@ export interface GoogleChronicleDataTableColumnInfo {
   * - Contains only letters, numbers and underscore.
   * - Must be unique and has length < 256
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#original_column GoogleChronicleDataTable#original_column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#original_column GoogleChronicleDataTable#original_column}
   */
   readonly originalColumn: string;
   /**
   * Whether the column is a repeated values column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#repeated_values GoogleChronicleDataTable#repeated_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#repeated_values GoogleChronicleDataTable#repeated_values}
   */
   readonly repeatedValues?: boolean | cdktn.IResolvable;
 }
@@ -391,7 +391,7 @@ export interface GoogleChronicleDataTableScopeInfo {
   * full resource names and should be of the format:
   * "projects/{project}/locations/{location}/instances/{instance}/dataAccessScopes/{scope_name}"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#data_access_scopes GoogleChronicleDataTable#data_access_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#data_access_scopes GoogleChronicleDataTable#data_access_scopes}
   */
   readonly dataAccessScopes: string[];
 }
@@ -472,15 +472,15 @@ export class GoogleChronicleDataTableScopeInfoOutputReference extends cdktn.Comp
 }
 export interface GoogleChronicleDataTableTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#create GoogleChronicleDataTable#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#create GoogleChronicleDataTable#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#delete GoogleChronicleDataTable#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#delete GoogleChronicleDataTable#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#update GoogleChronicleDataTable#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#update GoogleChronicleDataTable#update}
   */
   readonly update?: string;
 }
@@ -632,7 +632,7 @@ export class GoogleChronicleDataTableTimeoutsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table google_chronicle_data_table}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table google_chronicle_data_table}
 */
 export class GoogleChronicleDataTable extends cdktn.TerraformResource {
 
@@ -648,7 +648,7 @@ export class GoogleChronicleDataTable extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleChronicleDataTable resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleChronicleDataTable to import
-  * @param importFromId The id of the existing GoogleChronicleDataTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleChronicleDataTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleChronicleDataTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -660,7 +660,7 @@ export class GoogleChronicleDataTable extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_chronicle_data_table google_chronicle_data_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table google_chronicle_data_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -671,7 +671,7 @@ export class GoogleChronicleDataTable extends cdktn.TerraformResource {
       terraformResourceType: 'google_chronicle_data_table',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.31.0',
+        providerVersion: '7.32.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

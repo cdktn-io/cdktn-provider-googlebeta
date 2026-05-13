@@ -4,7 +4,7 @@
 
 ### GoogleVertexAiReasoningEngineIamBinding <a name="GoogleVertexAiReasoningEngineIamBinding" id="@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding google_vertex_ai_reasoning_engine_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding google_vertex_ai_reasoning_engine_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleVertexAiReasoningEng
 
 The id of the existing GoogleVertexAiReasoningEngineIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,9 +904,9 @@ const googleVertexAiReasoningEngineIamBindingCondition: googleVertexAiReasoningE
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#expression GoogleVertexAiReasoningEngineIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#title GoogleVertexAiReasoningEngineIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#description GoogleVertexAiReasoningEngineIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#expression GoogleVertexAiReasoningEngineIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#title GoogleVertexAiReasoningEngineIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#description GoogleVertexAiReasoningEngineIamBinding#description}. |
 
 ---
 
@@ -918,7 +918,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#expression GoogleVertexAiReasoningEngineIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#expression GoogleVertexAiReasoningEngineIamBinding#expression}.
 
 ---
 
@@ -930,7 +930,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#title GoogleVertexAiReasoningEngineIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#title GoogleVertexAiReasoningEngineIamBinding#title}.
 
 ---
 
@@ -942,7 +942,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#description GoogleVertexAiReasoningEngineIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#description GoogleVertexAiReasoningEngineIamBinding#description}.
 
 ---
 
@@ -967,13 +967,13 @@ const googleVertexAiReasoningEngineIamBindingConfig: googleVertexAiReasoningEngi
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#members GoogleVertexAiReasoningEngineIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.reasoningEngine">reasoningEngine</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#reasoning_engine GoogleVertexAiReasoningEngineIamBinding#reasoning_engine}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#role GoogleVertexAiReasoningEngineIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#members GoogleVertexAiReasoningEngineIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.reasoningEngine">reasoningEngine</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#reasoning_engine GoogleVertexAiReasoningEngineIamBinding#reasoning_engine}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#role GoogleVertexAiReasoningEngineIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingCondition">GoogleVertexAiReasoningEngineIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#id GoogleVertexAiReasoningEngineIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#project GoogleVertexAiReasoningEngineIamBinding#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#region GoogleVertexAiReasoningEngineIamBinding#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#id GoogleVertexAiReasoningEngineIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#project GoogleVertexAiReasoningEngineIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiReasoningEngineIamBinding.GoogleVertexAiReasoningEngineIamBindingConfig.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#region GoogleVertexAiReasoningEngineIamBinding#region}. |
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly members: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#members GoogleVertexAiReasoningEngineIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#members GoogleVertexAiReasoningEngineIamBinding#members}.
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly reasoningEngine: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#reasoning_engine GoogleVertexAiReasoningEngineIamBinding#reasoning_engine}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#reasoning_engine GoogleVertexAiReasoningEngineIamBinding#reasoning_engine}.
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#role GoogleVertexAiReasoningEngineIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#role GoogleVertexAiReasoningEngineIamBinding#role}.
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly condition: GoogleVertexAiReasoningEngineIamBindingCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#condition GoogleVertexAiReasoningEngineIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#condition GoogleVertexAiReasoningEngineIamBinding#condition}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#id GoogleVertexAiReasoningEngineIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#id GoogleVertexAiReasoningEngineIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1120,7 +1120,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#project GoogleVertexAiReasoningEngineIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#project GoogleVertexAiReasoningEngineIamBinding#project}.
 
 ---
 
@@ -1132,7 +1132,7 @@ public readonly region: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#region GoogleVertexAiReasoningEngineIamBinding#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_reasoning_engine_iam_binding#region GoogleVertexAiReasoningEngineIamBinding#region}.
 
 ---
 

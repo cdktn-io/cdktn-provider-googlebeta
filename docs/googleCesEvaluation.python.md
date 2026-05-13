@@ -4,7 +4,7 @@
 
 ### GoogleCesEvaluation <a name="GoogleCesEvaluation" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation google_ces_evaluation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation google_ces_evaluation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer"></a>
 
@@ -29,6 +29,7 @@ googleCesEvaluation.GoogleCesEvaluation(
   golden: GoogleCesEvaluationGolden = None,
   id: str = None,
   project: str = None,
+  scenario: GoogleCesEvaluationScenario = None,
   tags: typing.List[str] = None,
   timeouts: GoogleCesEvaluationTimeouts = None
 )
@@ -45,14 +46,15 @@ googleCesEvaluation.GoogleCesEvaluation(
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.app">app</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.app">app</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | User-defined display name of the evaluation. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.evaluationId">evaluation_id</a></code> | <code>str</code> | The ID to use for the evaluation, which will become the final component of the evaluation's resource name. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.description">description</a></code> | <code>str</code> | User-defined description of the evaluation. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.golden">golden</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGolden">GoogleCesEvaluationGolden</a></code> | golden block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.scenario">scenario</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario">GoogleCesEvaluationScenario</a></code> | scenario block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.tags">tags</a></code> | <code>typing.List[str]</code> | User defined tags to categorize the evaluation. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts">GoogleCesEvaluationTimeouts</a></code> | timeouts block. |
 
@@ -122,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}.
 
 ---
 
@@ -132,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-defined display name of the evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
 
 ---
 
@@ -145,7 +147,7 @@ The ID to use for the evaluation, which will become the final component of the e
 If not provided, a unique ID will be
 automatically assigned for the evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#evaluation_id GoogleCesEvaluation#evaluation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#evaluation_id GoogleCesEvaluation#evaluation_id}
 
 ---
 
@@ -153,7 +155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}.
 
 ---
 
@@ -163,7 +165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-defined description of the evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#description GoogleCesEvaluation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#description GoogleCesEvaluation#description}
 
 ---
 
@@ -173,7 +175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 golden block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#golden GoogleCesEvaluation#golden}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#golden GoogleCesEvaluation#golden}
 
 ---
 
@@ -181,7 +183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -192,7 +194,17 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}.
+
+---
+
+##### `scenario`<sup>Optional</sup> <a name="scenario" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.Initializer.parameter.scenario"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario">GoogleCesEvaluationScenario</a>
+
+scenario block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#scenario GoogleCesEvaluation#scenario}
 
 ---
 
@@ -202,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User defined tags to categorize the evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tags GoogleCesEvaluation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tags GoogleCesEvaluation#tags}
 
 ---
 
@@ -212,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#timeouts GoogleCesEvaluation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#timeouts GoogleCesEvaluation#timeouts}
 
 ---
 
@@ -245,11 +257,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putGolden">put_golden</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario">put_scenario</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.resetGolden">reset_golden</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.resetProject">reset_project</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.resetScenario">reset_scenario</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.resetTags">reset_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
@@ -618,7 +632,7 @@ def put_golden(
 
 turns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#turns GoogleCesEvaluation#turns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#turns GoogleCesEvaluation#turns}
 
 ---
 
@@ -628,7 +642,115 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The evaluation expectations to evaluate the replayed conversation against. Format: projects/{project}/locations/{location}/apps/{app}/evaluationExpectations/{evaluationExpectation}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
+
+---
+
+##### `put_scenario` <a name="put_scenario" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario"></a>
+
+```python
+def put_scenario(
+  rubrics: typing.List[str],
+  scenario_expectations: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectations],
+  task: str,
+  evaluation_expectations: typing.List[str] = None,
+  max_turns: typing.Union[int, float] = None,
+  task_completion_behavior: str = None,
+  user_facts: IResolvable | typing.List[GoogleCesEvaluationScenarioUserFacts] = None,
+  user_goal_behavior: str = None,
+  variable_overrides: typing.Mapping[str] = None
+) -> None
+```
+
+###### `rubrics`<sup>Required</sup> <a name="rubrics" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario.parameter.rubrics"></a>
+
+- *Type:* typing.List[str]
+
+Rubrics.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#rubrics GoogleCesEvaluation#rubrics}
+
+---
+
+###### `scenario_expectations`<sup>Required</sup> <a name="scenario_expectations" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario.parameter.scenarioExpectations"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a>]
+
+scenario_expectations block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#scenario_expectations GoogleCesEvaluation#scenario_expectations}
+
+---
+
+###### `task`<sup>Required</sup> <a name="task" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario.parameter.task"></a>
+
+- *Type:* str
+
+The task to evaluate.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#task GoogleCesEvaluation#task}
+
+---
+
+###### `evaluation_expectations`<sup>Optional</sup> <a name="evaluation_expectations" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario.parameter.evaluationExpectations"></a>
+
+- *Type:* typing.List[str]
+
+Evaluation expectations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
+
+---
+
+###### `max_turns`<sup>Optional</sup> <a name="max_turns" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario.parameter.maxTurns"></a>
+
+- *Type:* typing.Union[int, float]
+
+Max turns.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#max_turns GoogleCesEvaluation#max_turns}
+
+---
+
+###### `task_completion_behavior`<sup>Optional</sup> <a name="task_completion_behavior" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario.parameter.taskCompletionBehavior"></a>
+
+- *Type:* str
+
+Task completion behavior.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#task_completion_behavior GoogleCesEvaluation#task_completion_behavior}
+
+---
+
+###### `user_facts`<sup>Optional</sup> <a name="user_facts" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario.parameter.userFacts"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a>]
+
+user_facts block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#user_facts GoogleCesEvaluation#user_facts}
+
+---
+
+###### `user_goal_behavior`<sup>Optional</sup> <a name="user_goal_behavior" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario.parameter.userGoalBehavior"></a>
+
+- *Type:* str
+
+User goal behavior.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#user_goal_behavior GoogleCesEvaluation#user_goal_behavior}
+
+---
+
+###### `variable_overrides`<sup>Optional</sup> <a name="variable_overrides" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.putScenario.parameter.variableOverrides"></a>
+
+- *Type:* typing.Mapping[str]
+
+Variables / Session Parameters as context for the session, keyed by variable names.
+
+Members of this struct will override any default values set by the system.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#variable_overrides GoogleCesEvaluation#variable_overrides}
 
 ---
 
@@ -646,7 +768,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}.
 
 ---
 
@@ -654,7 +776,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}.
 
 ---
 
@@ -662,7 +784,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}.
 
 ---
 
@@ -688,6 +810,12 @@ def reset_id() -> None
 
 ```python
 def reset_project() -> None
+```
+
+##### `reset_scenario` <a name="reset_scenario" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.resetScenario"></a>
+
+```python
+def reset_scenario() -> None
 ```
 
 ##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.resetTags"></a>
@@ -816,7 +944,7 @@ The construct id used in the generated config for the GoogleCesEvaluation to imp
 
 The id of the existing GoogleCesEvaluation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -855,6 +983,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.invalid">invalid</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.lastUpdatedBy">last_updated_by</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.scenario">scenario</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference">GoogleCesEvaluationScenarioOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeoutsOutputReference">GoogleCesEvaluationTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.appInput">app_input</a></code> | <code>str</code> | *No description.* |
@@ -865,6 +994,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.scenarioInput">scenario_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario">GoogleCesEvaluationScenario</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.tagsInput">tags_input</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts">GoogleCesEvaluationTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.app">app</a></code> | <code>str</code> | *No description.* |
@@ -1110,6 +1240,16 @@ name: str
 
 ---
 
+##### `scenario`<sup>Required</sup> <a name="scenario" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.scenario"></a>
+
+```python
+scenario: GoogleCesEvaluationScenarioOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference">GoogleCesEvaluationScenarioOutputReference</a>
+
+---
+
 ##### `timeouts`<sup>Required</sup> <a name="timeouts" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.timeouts"></a>
 
 ```python
@@ -1207,6 +1347,16 @@ project_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `scenario_input`<sup>Optional</sup> <a name="scenario_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluation.property.scenarioInput"></a>
+
+```python
+scenario_input: GoogleCesEvaluationScenario
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario">GoogleCesEvaluationScenario</a>
 
 ---
 
@@ -1353,6 +1503,7 @@ googleCesEvaluation.GoogleCesEvaluationConfig(
   golden: GoogleCesEvaluationGolden = None,
   id: str = None,
   project: str = None,
+  scenario: GoogleCesEvaluationScenario = None,
   tags: typing.List[str] = None,
   timeouts: GoogleCesEvaluationTimeouts = None
 )
@@ -1369,14 +1520,15 @@ googleCesEvaluation.GoogleCesEvaluationConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.app">app</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.app">app</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.displayName">display_name</a></code> | <code>str</code> | User-defined display name of the evaluation. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.evaluationId">evaluation_id</a></code> | <code>str</code> | The ID to use for the evaluation, which will become the final component of the evaluation's resource name. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.description">description</a></code> | <code>str</code> | User-defined description of the evaluation. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.golden">golden</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGolden">GoogleCesEvaluationGolden</a></code> | golden block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.scenario">scenario</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario">GoogleCesEvaluationScenario</a></code> | scenario block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.tags">tags</a></code> | <code>typing.List[str]</code> | User defined tags to categorize the evaluation. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts">GoogleCesEvaluationTimeouts</a></code> | timeouts block. |
 
@@ -1460,7 +1612,7 @@ app: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}.
 
 ---
 
@@ -1474,7 +1626,7 @@ display_name: str
 
 User-defined display name of the evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
 
 ---
 
@@ -1491,7 +1643,7 @@ The ID to use for the evaluation, which will become the final component of the e
 If not provided, a unique ID will be
 automatically assigned for the evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#evaluation_id GoogleCesEvaluation#evaluation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#evaluation_id GoogleCesEvaluation#evaluation_id}
 
 ---
 
@@ -1503,7 +1655,7 @@ location: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}.
 
 ---
 
@@ -1517,7 +1669,7 @@ description: str
 
 User-defined description of the evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#description GoogleCesEvaluation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#description GoogleCesEvaluation#description}
 
 ---
 
@@ -1531,7 +1683,7 @@ golden: GoogleCesEvaluationGolden
 
 golden block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#golden GoogleCesEvaluation#golden}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#golden GoogleCesEvaluation#golden}
 
 ---
 
@@ -1543,7 +1695,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1558,7 +1710,21 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}.
+
+---
+
+##### `scenario`<sup>Optional</sup> <a name="scenario" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationConfig.property.scenario"></a>
+
+```python
+scenario: GoogleCesEvaluationScenario
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario">GoogleCesEvaluationScenario</a>
+
+scenario block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#scenario GoogleCesEvaluation#scenario}
 
 ---
 
@@ -1572,7 +1738,7 @@ tags: typing.List[str]
 
 User defined tags to categorize the evaluation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tags GoogleCesEvaluation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tags GoogleCesEvaluation#tags}
 
 ---
 
@@ -1586,7 +1752,7 @@ timeouts: GoogleCesEvaluationTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#timeouts GoogleCesEvaluation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#timeouts GoogleCesEvaluation#timeouts}
 
 ---
 
@@ -1622,7 +1788,7 @@ turns: IResolvable | typing.List[GoogleCesEvaluationGoldenTurns]
 
 turns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#turns GoogleCesEvaluation#turns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#turns GoogleCesEvaluation#turns}
 
 ---
 
@@ -1636,7 +1802,7 @@ evaluation_expectations: typing.List[str]
 
 The evaluation expectations to evaluate the replayed conversation against. Format: projects/{project}/locations/{location}/apps/{app}/evaluationExpectations/{evaluationExpectation}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
 
 ---
 
@@ -1670,7 +1836,7 @@ steps: IResolvable | typing.List[GoogleCesEvaluationGoldenTurnsSteps]
 
 steps block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#steps GoogleCesEvaluation#steps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#steps GoogleCesEvaluation#steps}
 
 ---
 
@@ -1719,7 +1885,7 @@ agent_transfer: GoogleCesEvaluationGoldenTurnsStepsAgentTransfer
 
 agent_transfer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
 
 ---
 
@@ -1733,7 +1899,7 @@ expectation: GoogleCesEvaluationGoldenTurnsStepsExpectation
 
 expectation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#expectation GoogleCesEvaluation#expectation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#expectation GoogleCesEvaluation#expectation}
 
 ---
 
@@ -1747,7 +1913,7 @@ user_input: GoogleCesEvaluationGoldenTurnsStepsUserInput
 
 user_input block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#user_input GoogleCesEvaluation#user_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#user_input GoogleCesEvaluation#user_input}
 
 ---
 
@@ -1781,7 +1947,7 @@ target_agent: str
 
 The resource name of the target agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
 
 ---
 
@@ -1827,7 +1993,7 @@ agent_response: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse
 
 agent_response block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
 
 ---
 
@@ -1841,7 +2007,7 @@ agent_transfer: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer
 
 agent_transfer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
 
 ---
 
@@ -1855,7 +2021,7 @@ mock_tool_response: GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolRespon
 
 mock_tool_response block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
 
 ---
 
@@ -1869,7 +2035,7 @@ note: str
 
 A note describing the expectation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#note GoogleCesEvaluation#note}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#note GoogleCesEvaluation#note}
 
 ---
 
@@ -1883,7 +2049,7 @@ tool_call: GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall
 
 tool_call block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
 
 ---
 
@@ -1897,7 +2063,7 @@ tool_response: GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse
 
 tool_response block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
 
 ---
 
@@ -1911,7 +2077,7 @@ updated_variables: GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariable
 
 updated_variables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
 
 ---
 
@@ -1947,7 +2113,7 @@ chunks: IResolvable | typing.List[GoogleCesEvaluationGoldenTurnsStepsExpectation
 
 chunks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
 
 ---
 
@@ -1961,7 +2127,7 @@ role: str
 
 The role within the conversation, e.g., user, agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
 
 ---
 
@@ -2007,7 +2173,7 @@ agent_transfer: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunk
 
 agent_transfer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
 
 ---
 
@@ -2021,7 +2187,7 @@ blob: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlob
 
 blob block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
 
 ---
 
@@ -2035,7 +2201,7 @@ image: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImage
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
 
 ---
 
@@ -2049,7 +2215,7 @@ text: str
 
 Text data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
 
 ---
 
@@ -2063,7 +2229,7 @@ tool_call: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksTool
 
 tool_call block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
 
 ---
 
@@ -2077,7 +2243,7 @@ tool_response: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunks
 
 tool_response block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
 
 ---
 
@@ -2091,7 +2257,7 @@ updated_variables: typing.Mapping[str]
 
 Updated variables in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
 
 ---
 
@@ -2125,7 +2291,7 @@ target_agent: str
 
 The agent to which the conversation is being transferred.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
 
 ---
 
@@ -2161,7 +2327,7 @@ data: str
 
 Raw bytes of the blob.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
 
 ---
 
@@ -2175,7 +2341,7 @@ mime_type: str
 
 The IANA standard MIME type of the source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
 
 ---
 
@@ -2211,7 +2377,7 @@ data: str
 
 Raw bytes of the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
 
 ---
 
@@ -2225,7 +2391,7 @@ mime_type: str
 
 The IANA standard MIME type of the source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
 
 ---
 
@@ -2265,7 +2431,7 @@ args: typing.Mapping[str]
 
 The input parameters and values for the tool in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
 
 ---
 
@@ -2279,7 +2445,7 @@ id: str
 
 The unique identifier of the tool call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2296,7 +2462,7 @@ tool: str
 
 The resource name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -2310,7 +2476,7 @@ toolset_tool: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksT
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -2346,7 +2512,7 @@ toolset: str
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -2360,7 +2526,7 @@ tool_id: str
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -2400,7 +2566,7 @@ id: str
 
 The matching ID of the tool call the response is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2417,7 +2583,7 @@ response: typing.Mapping[str]
 
 The tool execution result in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
 
 ---
 
@@ -2431,7 +2597,7 @@ tool: str
 
 The resource name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -2445,7 +2611,7 @@ toolset_tool: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksT
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -2481,7 +2647,7 @@ toolset: str
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -2495,7 +2661,7 @@ tool_id: str
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -2531,7 +2697,7 @@ display_name: str
 
 The display name of the target agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
 
 ---
 
@@ -2545,7 +2711,7 @@ target_agent: str
 
 The resource name of the target agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
 
 ---
 
@@ -2585,7 +2751,7 @@ id: str
 
 The matching ID of the tool call the response is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2602,7 +2768,7 @@ response: typing.Mapping[str]
 
 The tool execution result in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
 
 ---
 
@@ -2616,7 +2782,7 @@ tool: str
 
 The resource name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -2630,7 +2796,7 @@ toolset_tool: GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseTool
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -2666,7 +2832,7 @@ toolset: str
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -2680,7 +2846,7 @@ tool_id: str
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -2720,7 +2886,7 @@ args: typing.Mapping[str]
 
 The input parameters and values for the tool in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
 
 ---
 
@@ -2734,7 +2900,7 @@ id: str
 
 The unique identifier of the tool call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2751,7 +2917,7 @@ tool: str
 
 The resource name of the tool. Note: 'tool' and 'toolset_tool' are mutually exclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -2765,7 +2931,7 @@ toolset_tool: GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetTool
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -2801,7 +2967,7 @@ toolset: str
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -2815,7 +2981,7 @@ tool_id: str
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -2855,7 +3021,7 @@ id: str
 
 The matching ID of the tool call the response is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2872,7 +3038,7 @@ response: typing.Mapping[str]
 
 The tool execution result in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
 
 ---
 
@@ -2886,7 +3052,7 @@ tool: str
 
 The resource name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -2900,7 +3066,7 @@ toolset_tool: GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetT
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -2936,7 +3102,7 @@ toolset: str
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -2950,7 +3116,7 @@ tool_id: str
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -2984,7 +3150,7 @@ notes: str
 
 Dummy property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#notes GoogleCesEvaluation#notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#notes GoogleCesEvaluation#notes}
 
 ---
 
@@ -3034,7 +3200,7 @@ audio: str
 
 Audio data from the end user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#audio GoogleCesEvaluation#audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#audio GoogleCesEvaluation#audio}
 
 ---
 
@@ -3048,7 +3214,7 @@ blob: GoogleCesEvaluationGoldenTurnsStepsUserInputBlob
 
 blob block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
 
 ---
 
@@ -3062,7 +3228,7 @@ dtmf: str
 
 DTMF digits from the end user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#dtmf GoogleCesEvaluation#dtmf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#dtmf GoogleCesEvaluation#dtmf}
 
 ---
 
@@ -3076,7 +3242,7 @@ event: GoogleCesEvaluationGoldenTurnsStepsUserInputEvent
 
 event block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
 
 ---
 
@@ -3090,7 +3256,7 @@ image: GoogleCesEvaluationGoldenTurnsStepsUserInputImage
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
 
 ---
 
@@ -3104,7 +3270,7 @@ text: str
 
 Natural language query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
 
 ---
 
@@ -3118,7 +3284,7 @@ tool_responses: GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses
 
 tool_responses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
 
 ---
 
@@ -3132,7 +3298,7 @@ variables: typing.Mapping[str]
 
 Map of variables to set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#variables GoogleCesEvaluation#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#variables GoogleCesEvaluation#variables}
 
 ---
 
@@ -3146,7 +3312,7 @@ will_continue: bool | IResolvable
 
 Whether the session should continue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#will_continue GoogleCesEvaluation#will_continue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#will_continue GoogleCesEvaluation#will_continue}
 
 ---
 
@@ -3182,7 +3348,7 @@ data: str
 
 Raw bytes of the blob, base64-encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
 
 ---
 
@@ -3196,7 +3362,7 @@ mime_type: str
 
 The IANA standard MIME type of the source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
 
 ---
 
@@ -3230,7 +3396,7 @@ event: str
 
 Event name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
 
 ---
 
@@ -3266,7 +3432,7 @@ data: str
 
 Raw bytes of the image, base64-encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
 
 ---
 
@@ -3280,7 +3446,7 @@ mime_type: str
 
 The IANA standard MIME type of the source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
 
 ---
 
@@ -3314,7 +3480,7 @@ tool_responses: IResolvable | typing.List[GoogleCesEvaluationGoldenTurnsStepsUse
 
 tool_responses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
 
 ---
 
@@ -3354,7 +3520,7 @@ response: typing.Mapping[str]
 
 Required. The tool execution result in JSON.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
 
 ---
 
@@ -3368,7 +3534,7 @@ id: str
 
 Optional. Matching ID of the tool call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3385,7 +3551,7 @@ tool: str
 
 Name of the tool to execute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -3399,7 +3565,7 @@ toolset_tool: GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolRespo
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -3435,7 +3601,7 @@ toolset: str
 
 The toolset name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -3449,7 +3615,1175 @@ tool_id: str
 
 The tool ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+
+---
+
+### GoogleCesEvaluationScenario <a name="GoogleCesEvaluationScenario" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenario(
+  rubrics: typing.List[str],
+  scenario_expectations: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectations],
+  task: str,
+  evaluation_expectations: typing.List[str] = None,
+  max_turns: typing.Union[int, float] = None,
+  task_completion_behavior: str = None,
+  user_facts: IResolvable | typing.List[GoogleCesEvaluationScenarioUserFacts] = None,
+  user_goal_behavior: str = None,
+  variable_overrides: typing.Mapping[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.rubrics">rubrics</a></code> | <code>typing.List[str]</code> | Rubrics. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.scenarioExpectations">scenario_expectations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a>]</code> | scenario_expectations block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.task">task</a></code> | <code>str</code> | The task to evaluate. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.evaluationExpectations">evaluation_expectations</a></code> | <code>typing.List[str]</code> | Evaluation expectations. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.maxTurns">max_turns</a></code> | <code>typing.Union[int, float]</code> | Max turns. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.taskCompletionBehavior">task_completion_behavior</a></code> | <code>str</code> | Task completion behavior. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.userFacts">user_facts</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a>]</code> | user_facts block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.userGoalBehavior">user_goal_behavior</a></code> | <code>str</code> | User goal behavior. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.variableOverrides">variable_overrides</a></code> | <code>typing.Mapping[str]</code> | Variables / Session Parameters as context for the session, keyed by variable names. |
+
+---
+
+##### `rubrics`<sup>Required</sup> <a name="rubrics" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.rubrics"></a>
+
+```python
+rubrics: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Rubrics.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#rubrics GoogleCesEvaluation#rubrics}
+
+---
+
+##### `scenario_expectations`<sup>Required</sup> <a name="scenario_expectations" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.scenarioExpectations"></a>
+
+```python
+scenario_expectations: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectations]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a>]
+
+scenario_expectations block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#scenario_expectations GoogleCesEvaluation#scenario_expectations}
+
+---
+
+##### `task`<sup>Required</sup> <a name="task" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.task"></a>
+
+```python
+task: str
+```
+
+- *Type:* str
+
+The task to evaluate.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#task GoogleCesEvaluation#task}
+
+---
+
+##### `evaluation_expectations`<sup>Optional</sup> <a name="evaluation_expectations" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.evaluationExpectations"></a>
+
+```python
+evaluation_expectations: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Evaluation expectations.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
+
+---
+
+##### `max_turns`<sup>Optional</sup> <a name="max_turns" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.maxTurns"></a>
+
+```python
+max_turns: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Max turns.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#max_turns GoogleCesEvaluation#max_turns}
+
+---
+
+##### `task_completion_behavior`<sup>Optional</sup> <a name="task_completion_behavior" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.taskCompletionBehavior"></a>
+
+```python
+task_completion_behavior: str
+```
+
+- *Type:* str
+
+Task completion behavior.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#task_completion_behavior GoogleCesEvaluation#task_completion_behavior}
+
+---
+
+##### `user_facts`<sup>Optional</sup> <a name="user_facts" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.userFacts"></a>
+
+```python
+user_facts: IResolvable | typing.List[GoogleCesEvaluationScenarioUserFacts]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a>]
+
+user_facts block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#user_facts GoogleCesEvaluation#user_facts}
+
+---
+
+##### `user_goal_behavior`<sup>Optional</sup> <a name="user_goal_behavior" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.userGoalBehavior"></a>
+
+```python
+user_goal_behavior: str
+```
+
+- *Type:* str
+
+User goal behavior.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#user_goal_behavior GoogleCesEvaluation#user_goal_behavior}
+
+---
+
+##### `variable_overrides`<sup>Optional</sup> <a name="variable_overrides" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario.property.variableOverrides"></a>
+
+```python
+variable_overrides: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+Variables / Session Parameters as context for the session, keyed by variable names.
+
+Members of this struct will override any default values set by the system.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#variable_overrides GoogleCesEvaluation#variable_overrides}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectations <a name="GoogleCesEvaluationScenarioScenarioExpectations" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations(
+  agent_response: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse = None,
+  tool_expectation: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations.property.agentResponse">agent_response</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse</a></code> | agent_response block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations.property.toolExpectation">tool_expectation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation</a></code> | tool_expectation block. |
+
+---
+
+##### `agent_response`<sup>Optional</sup> <a name="agent_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations.property.agentResponse"></a>
+
+```python
+agent_response: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse</a>
+
+agent_response block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
+
+---
+
+##### `tool_expectation`<sup>Optional</sup> <a name="tool_expectation" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations.property.toolExpectation"></a>
+
+```python
+tool_expectation: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation</a>
+
+tool_expectation block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_expectation GoogleCesEvaluation#tool_expectation}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse(
+  chunks: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks] = None,
+  role: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse.property.chunks">chunks</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a>]</code> | chunks block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse.property.role">role</a></code> | <code>str</code> | The role within the conversation, e.g., user, agent. |
+
+---
+
+##### `chunks`<sup>Optional</sup> <a name="chunks" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse.property.chunks"></a>
+
+```python
+chunks: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a>]
+
+chunks block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
+
+---
+
+##### `role`<sup>Optional</sup> <a name="role" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse.property.role"></a>
+
+```python
+role: str
+```
+
+- *Type:* str
+
+The role within the conversation, e.g., user, agent.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks(
+  agent_transfer: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer = None,
+  blob: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob = None,
+  image: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage = None,
+  text: str = None,
+  tool_call: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall = None,
+  tool_response: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse = None,
+  updated_variables: typing.Mapping[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.agentTransfer">agent_transfer</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer</a></code> | agent_transfer block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.blob">blob</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob</a></code> | blob block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.image">image</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage</a></code> | image block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.text">text</a></code> | <code>str</code> | Text data. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.toolCall">tool_call</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall</a></code> | tool_call block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.toolResponse">tool_response</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse</a></code> | tool_response block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.updatedVariables">updated_variables</a></code> | <code>typing.Mapping[str]</code> | Updated variables in JSON object format. |
+
+---
+
+##### `agent_transfer`<sup>Optional</sup> <a name="agent_transfer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.agentTransfer"></a>
+
+```python
+agent_transfer: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer</a>
+
+agent_transfer block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+
+---
+
+##### `blob`<sup>Optional</sup> <a name="blob" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.blob"></a>
+
+```python
+blob: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob</a>
+
+blob block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+
+---
+
+##### `image`<sup>Optional</sup> <a name="image" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.image"></a>
+
+```python
+image: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage</a>
+
+image block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+
+---
+
+##### `text`<sup>Optional</sup> <a name="text" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.text"></a>
+
+```python
+text: str
+```
+
+- *Type:* str
+
+Text data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+
+---
+
+##### `tool_call`<sup>Optional</sup> <a name="tool_call" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.toolCall"></a>
+
+```python
+tool_call: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall</a>
+
+tool_call block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+
+---
+
+##### `tool_response`<sup>Optional</sup> <a name="tool_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.toolResponse"></a>
+
+```python
+tool_response: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse</a>
+
+tool_response block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+
+---
+
+##### `updated_variables`<sup>Optional</sup> <a name="updated_variables" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks.property.updatedVariables"></a>
+
+```python
+updated_variables: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+Updated variables in JSON object format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer(
+  target_agent: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer.property.targetAgent">target_agent</a></code> | <code>str</code> | The agent to which the conversation is being transferred. |
+
+---
+
+##### `target_agent`<sup>Required</sup> <a name="target_agent" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer.property.targetAgent"></a>
+
+```python
+target_agent: str
+```
+
+- *Type:* str
+
+The agent to which the conversation is being transferred.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob(
+  data: str,
+  mime_type: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob.property.data">data</a></code> | <code>str</code> | Raw bytes of the blob. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob.property.mimeType">mime_type</a></code> | <code>str</code> | The IANA standard MIME type of the source data. |
+
+---
+
+##### `data`<sup>Required</sup> <a name="data" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob.property.data"></a>
+
+```python
+data: str
+```
+
+- *Type:* str
+
+Raw bytes of the blob.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+
+---
+
+##### `mime_type`<sup>Required</sup> <a name="mime_type" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob.property.mimeType"></a>
+
+```python
+mime_type: str
+```
+
+- *Type:* str
+
+The IANA standard MIME type of the source data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage(
+  data: str,
+  mime_type: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage.property.data">data</a></code> | <code>str</code> | Raw bytes of the image. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage.property.mimeType">mime_type</a></code> | <code>str</code> | The IANA standard MIME type of the source data. |
+
+---
+
+##### `data`<sup>Required</sup> <a name="data" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage.property.data"></a>
+
+```python
+data: str
+```
+
+- *Type:* str
+
+Raw bytes of the image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+
+---
+
+##### `mime_type`<sup>Required</sup> <a name="mime_type" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage.property.mimeType"></a>
+
+```python
+mime_type: str
+```
+
+- *Type:* str
+
+The IANA standard MIME type of the source data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall(
+  args: typing.Mapping[str] = None,
+  id: str = None,
+  tool: str = None,
+  toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.property.args">args</a></code> | <code>typing.Mapping[str]</code> | The input parameters and values for the tool in JSON object format. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.property.id">id</a></code> | <code>str</code> | The unique identifier of the tool call. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.property.tool">tool</a></code> | <code>str</code> | The resource name of the tool. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.property.toolsetTool">toolset_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool</a></code> | toolset_tool block. |
+
+---
+
+##### `args`<sup>Optional</sup> <a name="args" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.property.args"></a>
+
+```python
+args: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+The input parameters and values for the tool in JSON object format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+
+---
+
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+The unique identifier of the tool call.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `tool`<sup>Optional</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.property.tool"></a>
+
+```python
+tool: str
+```
+
+- *Type:* str
+
+The resource name of the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+
+---
+
+##### `toolset_tool`<sup>Optional</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall.property.toolsetTool"></a>
+
+```python
+toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool</a>
+
+toolset_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool(
+  toolset: str,
+  tool_id: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool.property.toolset">toolset</a></code> | <code>str</code> | The resource name of the Toolset. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool.property.toolId">tool_id</a></code> | <code>str</code> | The tool ID to filter the tools to retrieve the schema for. |
+
+---
+
+##### `toolset`<sup>Required</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool.property.toolset"></a>
+
+```python
+toolset: str
+```
+
+- *Type:* str
+
+The resource name of the Toolset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+
+---
+
+##### `tool_id`<sup>Optional</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool.property.toolId"></a>
+
+```python
+tool_id: str
+```
+
+- *Type:* str
+
+The tool ID to filter the tools to retrieve the schema for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse(
+  id: str = None,
+  response: typing.Mapping[str] = None,
+  tool: str = None,
+  toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.property.id">id</a></code> | <code>str</code> | The matching ID of the tool call the response is for. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.property.response">response</a></code> | <code>typing.Mapping[str]</code> | The tool execution result in JSON object format. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.property.tool">tool</a></code> | <code>str</code> | The resource name of the tool. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.property.toolsetTool">toolset_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool</a></code> | toolset_tool block. |
+
+---
+
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+The matching ID of the tool call the response is for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `response`<sup>Optional</sup> <a name="response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.property.response"></a>
+
+```python
+response: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+The tool execution result in JSON object format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+
+---
+
+##### `tool`<sup>Optional</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.property.tool"></a>
+
+```python
+tool: str
+```
+
+- *Type:* str
+
+The resource name of the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+
+---
+
+##### `toolset_tool`<sup>Optional</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse.property.toolsetTool"></a>
+
+```python
+toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool</a>
+
+toolset_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool(
+  toolset: str,
+  tool_id: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool.property.toolset">toolset</a></code> | <code>str</code> | The resource name of the Toolset. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool.property.toolId">tool_id</a></code> | <code>str</code> | The tool ID to filter the tools to retrieve the schema for. |
+
+---
+
+##### `toolset`<sup>Required</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool.property.toolset"></a>
+
+```python
+toolset: str
+```
+
+- *Type:* str
+
+The resource name of the Toolset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+
+---
+
+##### `tool_id`<sup>Optional</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool.property.toolId"></a>
+
+```python
+tool_id: str
+```
+
+- *Type:* str
+
+The tool ID to filter the tools to retrieve the schema for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation(
+  expected_tool_call: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall = None,
+  mock_tool_response: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation.property.expectedToolCall">expected_tool_call</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall</a></code> | expected_tool_call block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation.property.mockToolResponse">mock_tool_response</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse</a></code> | mock_tool_response block. |
+
+---
+
+##### `expected_tool_call`<sup>Optional</sup> <a name="expected_tool_call" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation.property.expectedToolCall"></a>
+
+```python
+expected_tool_call: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall</a>
+
+expected_tool_call block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#expected_tool_call GoogleCesEvaluation#expected_tool_call}
+
+---
+
+##### `mock_tool_response`<sup>Optional</sup> <a name="mock_tool_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation.property.mockToolResponse"></a>
+
+```python
+mock_tool_response: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse</a>
+
+mock_tool_response block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall(
+  args: typing.Mapping[str] = None,
+  id: str = None,
+  tool: str = None,
+  toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.property.args">args</a></code> | <code>typing.Mapping[str]</code> | The input parameters and values for the tool in JSON object format. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.property.id">id</a></code> | <code>str</code> | Optional. The unique identifier of the tool call. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.property.tool">tool</a></code> | <code>str</code> | Name of the tool. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.property.toolsetTool">toolset_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool</a></code> | toolset_tool block. |
+
+---
+
+##### `args`<sup>Optional</sup> <a name="args" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.property.args"></a>
+
+```python
+args: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+The input parameters and values for the tool in JSON object format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+
+---
+
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+Optional. The unique identifier of the tool call.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `tool`<sup>Optional</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.property.tool"></a>
+
+```python
+tool: str
+```
+
+- *Type:* str
+
+Name of the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+
+---
+
+##### `toolset_tool`<sup>Optional</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall.property.toolsetTool"></a>
+
+```python
+toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool</a>
+
+toolset_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool(
+  tool_id: str = None,
+  toolset: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool.property.toolId">tool_id</a></code> | <code>str</code> | The tool ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool.property.toolset">toolset</a></code> | <code>str</code> | Required. The toolset name. |
+
+---
+
+##### `tool_id`<sup>Optional</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool.property.toolId"></a>
+
+```python
+tool_id: str
+```
+
+- *Type:* str
+
+The tool ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+
+---
+
+##### `toolset`<sup>Optional</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool.property.toolset"></a>
+
+```python
+toolset: str
+```
+
+- *Type:* str
+
+Required. The toolset name.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse(
+  id: str = None,
+  response: typing.Mapping[str] = None,
+  tool: str = None,
+  toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.property.id">id</a></code> | <code>str</code> | Optional. Matching ID of the tool call. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.property.response">response</a></code> | <code>typing.Mapping[str]</code> | The tool execution result in JSON object format. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.property.tool">tool</a></code> | <code>str</code> | Name of the tool to execute. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.property.toolsetTool">toolset_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool</a></code> | toolset_tool block. |
+
+---
+
+##### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+Optional. Matching ID of the tool call.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+##### `response`<sup>Optional</sup> <a name="response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.property.response"></a>
+
+```python
+response: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+The tool execution result in JSON object format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+
+---
+
+##### `tool`<sup>Optional</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.property.tool"></a>
+
+```python
+tool: str
+```
+
+- *Type:* str
+
+Name of the tool to execute.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+
+---
+
+##### `toolset_tool`<sup>Optional</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse.property.toolsetTool"></a>
+
+```python
+toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool</a>
+
+toolset_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+
+---
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool(
+  tool_id: str = None,
+  toolset: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool.property.toolId">tool_id</a></code> | <code>str</code> | The tool ID. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool.property.toolset">toolset</a></code> | <code>str</code> | Required. The toolset name. |
+
+---
+
+##### `tool_id`<sup>Optional</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool.property.toolId"></a>
+
+```python
+tool_id: str
+```
+
+- *Type:* str
+
+The tool ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+
+---
+
+##### `toolset`<sup>Optional</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool.property.toolset"></a>
+
+```python
+toolset: str
+```
+
+- *Type:* str
+
+Required. The toolset name.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+
+---
+
+### GoogleCesEvaluationScenarioUserFacts <a name="GoogleCesEvaluationScenarioUserFacts" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts(
+  name: str,
+  value: str
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts.property.name">name</a></code> | <code>str</code> | The name of the user fact. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts.property.value">value</a></code> | <code>str</code> | The value of the user fact. |
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+The name of the user fact.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#name GoogleCesEvaluation#name}
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+The value of the user fact.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#value GoogleCesEvaluation#value}
 
 ---
 
@@ -3471,9 +4805,9 @@ googleCesEvaluation.GoogleCesEvaluationTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}. |
 
 ---
 
@@ -3485,7 +4819,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}.
 
 ---
 
@@ -3497,7 +4831,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}.
 
 ---
 
@@ -3509,7 +4843,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}.
 
 ---
 
@@ -6580,7 +7914,7 @@ def put_agent_transfer(
 
 The agent to which the conversation is being transferred.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
 
 ---
 
@@ -6599,7 +7933,7 @@ def put_blob(
 
 Raw bytes of the blob.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
 
 ---
 
@@ -6609,7 +7943,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IANA standard MIME type of the source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
 
 ---
 
@@ -6628,7 +7962,7 @@ def put_image(
 
 Raw bytes of the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
 
 ---
 
@@ -6638,7 +7972,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IANA standard MIME type of the source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
 
 ---
 
@@ -6659,7 +7993,7 @@ def put_tool_call(
 
 The input parameters and values for the tool in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
 
 ---
 
@@ -6669,7 +8003,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique identifier of the tool call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6682,7 +8016,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The resource name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -6692,7 +8026,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -6713,7 +8047,7 @@ def put_tool_response(
 
 The matching ID of the tool call the response is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6726,7 +8060,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The tool execution result in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
 
 ---
 
@@ -6736,7 +8070,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -6746,7 +8080,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -7240,7 +8574,7 @@ def put_toolset_tool(
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -7250,7 +8584,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -7996,7 +9330,7 @@ def put_toolset_tool(
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -8006,7 +9340,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -9431,7 +10765,7 @@ def put_toolset_tool(
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -9441,7 +10775,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -10195,7 +11529,7 @@ def put_agent_response(
 
 chunks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
 
 ---
 
@@ -10205,7 +11539,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The role within the conversation, e.g., user, agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
 
 ---
 
@@ -10224,7 +11558,7 @@ def put_agent_transfer(
 
 The display name of the target agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
 
 ---
 
@@ -10234,7 +11568,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the target agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
 
 ---
 
@@ -10255,7 +11589,7 @@ def put_mock_tool_response(
 
 The matching ID of the tool call the response is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10268,7 +11602,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The tool execution result in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
 
 ---
 
@@ -10278,7 +11612,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -10288,7 +11622,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -10309,7 +11643,7 @@ def put_tool_call(
 
 The input parameters and values for the tool in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
 
 ---
 
@@ -10319,7 +11653,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique identifier of the tool call.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10332,7 +11666,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The resource name of the tool. Note: 'tool' and 'toolset_tool' are mutually exclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -10342,7 +11676,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -10363,7 +11697,7 @@ def put_tool_response(
 
 The matching ID of the tool call the response is for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10376,7 +11710,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The tool execution result in JSON object format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
 
 ---
 
@@ -10386,7 +11720,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the tool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
 
 ---
 
@@ -10396,7 +11730,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 toolset_tool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
 
 ---
 
@@ -10414,7 +11748,7 @@ def put_updated_variables(
 
 Dummy property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#notes GoogleCesEvaluation#notes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#notes GoogleCesEvaluation#notes}
 
 ---
 
@@ -10908,7 +12242,7 @@ def put_toolset_tool(
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -10918,7 +12252,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -11664,7 +12998,7 @@ def put_toolset_tool(
 
 The resource name of the Toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -11674,7 +13008,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tool ID to filter the tools to retrieve the schema for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -12913,7 +14247,7 @@ def put_agent_transfer(
 
 The resource name of the target agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
 
 ---
 
@@ -12937,7 +14271,7 @@ def put_expectation(
 
 agent_response block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
 
 ---
 
@@ -12947,7 +14281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 agent_transfer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
 
 ---
 
@@ -12957,7 +14291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 mock_tool_response block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
 
 ---
 
@@ -12967,7 +14301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A note describing the expectation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#note GoogleCesEvaluation#note}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#note GoogleCesEvaluation#note}
 
 ---
 
@@ -12977,7 +14311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 tool_call block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
 
 ---
 
@@ -12987,7 +14321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 tool_response block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
 
 ---
 
@@ -12997,7 +14331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 updated_variables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
 
 ---
 
@@ -13023,7 +14357,7 @@ def put_user_input(
 
 Audio data from the end user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#audio GoogleCesEvaluation#audio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#audio GoogleCesEvaluation#audio}
 
 ---
 
@@ -13033,7 +14367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 blob block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
 
 ---
 
@@ -13043,7 +14377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 DTMF digits from the end user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#dtmf GoogleCesEvaluation#dtmf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#dtmf GoogleCesEvaluation#dtmf}
 
 ---
 
@@ -13053,7 +14387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 event block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
 
 ---
 
@@ -13063,7 +14397,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
 
 ---
 
@@ -13073,7 +14407,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Natural language query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
 
 ---
 
@@ -13083,7 +14417,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 tool_responses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
 
 ---
 
@@ -13093,7 +14427,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Map of variables to set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#variables GoogleCesEvaluation#variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#variables GoogleCesEvaluation#variables}
 
 ---
 
@@ -13103,7 +14437,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Whether the session should continue.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#will_continue GoogleCesEvaluation#will_continue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#will_continue GoogleCesEvaluation#will_continue}
 
 ---
 
@@ -14425,7 +15759,7 @@ def put_blob(
 
 Raw bytes of the blob, base64-encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
 
 ---
 
@@ -14435,7 +15769,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IANA standard MIME type of the source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
 
 ---
 
@@ -14453,7 +15787,7 @@ def put_event(
 
 Event name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
 
 ---
 
@@ -14472,7 +15806,7 @@ def put_image(
 
 Raw bytes of the image, base64-encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
 
 ---
 
@@ -14482,7 +15816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The IANA standard MIME type of the source data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
 
 ---
 
@@ -14500,7 +15834,7 @@ def put_tool_responses(
 
 tool_responses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
 
 ---
 
@@ -15557,7 +16891,7 @@ def put_toolset_tool(
 
 The toolset name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
 
 ---
 
@@ -15567,7 +16901,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tool ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
 
 ---
 
@@ -16055,6 +17389,7266 @@ internal_value: GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolRes
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetTool">GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetTool</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioOutputReference <a name="GoogleCesEvaluationScenarioOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.putScenarioExpectations">put_scenario_expectations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.putUserFacts">put_user_facts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetEvaluationExpectations">reset_evaluation_expectations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetMaxTurns">reset_max_turns</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetTaskCompletionBehavior">reset_task_completion_behavior</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetUserFacts">reset_user_facts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetUserGoalBehavior">reset_user_goal_behavior</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetVariableOverrides">reset_variable_overrides</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_scenario_expectations` <a name="put_scenario_expectations" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.putScenarioExpectations"></a>
+
+```python
+def put_scenario_expectations(
+  value: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectations]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.putScenarioExpectations.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a>]
+
+---
+
+##### `put_user_facts` <a name="put_user_facts" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.putUserFacts"></a>
+
+```python
+def put_user_facts(
+  value: IResolvable | typing.List[GoogleCesEvaluationScenarioUserFacts]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.putUserFacts.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a>]
+
+---
+
+##### `reset_evaluation_expectations` <a name="reset_evaluation_expectations" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetEvaluationExpectations"></a>
+
+```python
+def reset_evaluation_expectations() -> None
+```
+
+##### `reset_max_turns` <a name="reset_max_turns" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetMaxTurns"></a>
+
+```python
+def reset_max_turns() -> None
+```
+
+##### `reset_task_completion_behavior` <a name="reset_task_completion_behavior" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetTaskCompletionBehavior"></a>
+
+```python
+def reset_task_completion_behavior() -> None
+```
+
+##### `reset_user_facts` <a name="reset_user_facts" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetUserFacts"></a>
+
+```python
+def reset_user_facts() -> None
+```
+
+##### `reset_user_goal_behavior` <a name="reset_user_goal_behavior" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetUserGoalBehavior"></a>
+
+```python
+def reset_user_goal_behavior() -> None
+```
+
+##### `reset_variable_overrides` <a name="reset_variable_overrides" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.resetVariableOverrides"></a>
+
+```python
+def reset_variable_overrides() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.scenarioExpectations">scenario_expectations</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList">GoogleCesEvaluationScenarioScenarioExpectationsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.userFacts">user_facts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList">GoogleCesEvaluationScenarioUserFactsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.evaluationExpectationsInput">evaluation_expectations_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.maxTurnsInput">max_turns_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.rubricsInput">rubrics_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.scenarioExpectationsInput">scenario_expectations_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.taskCompletionBehaviorInput">task_completion_behavior_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.taskInput">task_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.userFactsInput">user_facts_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.userGoalBehaviorInput">user_goal_behavior_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.variableOverridesInput">variable_overrides_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.evaluationExpectations">evaluation_expectations</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.maxTurns">max_turns</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.rubrics">rubrics</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.task">task</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.taskCompletionBehavior">task_completion_behavior</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.userGoalBehavior">user_goal_behavior</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.variableOverrides">variable_overrides</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario">GoogleCesEvaluationScenario</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `scenario_expectations`<sup>Required</sup> <a name="scenario_expectations" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.scenarioExpectations"></a>
+
+```python
+scenario_expectations: GoogleCesEvaluationScenarioScenarioExpectationsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList">GoogleCesEvaluationScenarioScenarioExpectationsList</a>
+
+---
+
+##### `user_facts`<sup>Required</sup> <a name="user_facts" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.userFacts"></a>
+
+```python
+user_facts: GoogleCesEvaluationScenarioUserFactsList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList">GoogleCesEvaluationScenarioUserFactsList</a>
+
+---
+
+##### `evaluation_expectations_input`<sup>Optional</sup> <a name="evaluation_expectations_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.evaluationExpectationsInput"></a>
+
+```python
+evaluation_expectations_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `max_turns_input`<sup>Optional</sup> <a name="max_turns_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.maxTurnsInput"></a>
+
+```python
+max_turns_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `rubrics_input`<sup>Optional</sup> <a name="rubrics_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.rubricsInput"></a>
+
+```python
+rubrics_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `scenario_expectations_input`<sup>Optional</sup> <a name="scenario_expectations_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.scenarioExpectationsInput"></a>
+
+```python
+scenario_expectations_input: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectations]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a>]
+
+---
+
+##### `task_completion_behavior_input`<sup>Optional</sup> <a name="task_completion_behavior_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.taskCompletionBehaviorInput"></a>
+
+```python
+task_completion_behavior_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `task_input`<sup>Optional</sup> <a name="task_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.taskInput"></a>
+
+```python
+task_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `user_facts_input`<sup>Optional</sup> <a name="user_facts_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.userFactsInput"></a>
+
+```python
+user_facts_input: IResolvable | typing.List[GoogleCesEvaluationScenarioUserFacts]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a>]
+
+---
+
+##### `user_goal_behavior_input`<sup>Optional</sup> <a name="user_goal_behavior_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.userGoalBehaviorInput"></a>
+
+```python
+user_goal_behavior_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `variable_overrides_input`<sup>Optional</sup> <a name="variable_overrides_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.variableOverridesInput"></a>
+
+```python
+variable_overrides_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `evaluation_expectations`<sup>Required</sup> <a name="evaluation_expectations" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.evaluationExpectations"></a>
+
+```python
+evaluation_expectations: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `max_turns`<sup>Required</sup> <a name="max_turns" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.maxTurns"></a>
+
+```python
+max_turns: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `rubrics`<sup>Required</sup> <a name="rubrics" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.rubrics"></a>
+
+```python
+rubrics: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `task`<sup>Required</sup> <a name="task" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.task"></a>
+
+```python
+task: str
+```
+
+- *Type:* str
+
+---
+
+##### `task_completion_behavior`<sup>Required</sup> <a name="task_completion_behavior" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.taskCompletionBehavior"></a>
+
+```python
+task_completion_behavior: str
+```
+
+- *Type:* str
+
+---
+
+##### `user_goal_behavior`<sup>Required</sup> <a name="user_goal_behavior" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.userGoalBehavior"></a>
+
+```python
+user_goal_behavior: str
+```
+
+- *Type:* str
+
+---
+
+##### `variable_overrides`<sup>Required</sup> <a name="variable_overrides" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.variableOverrides"></a>
+
+```python
+variable_overrides: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenario
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenario">GoogleCesEvaluationScenario</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.targetAgentInput">target_agent_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.targetAgent">target_agent</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.displayName"></a>
+
+```python
+display_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_agent_input`<sup>Optional</sup> <a name="target_agent_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.targetAgentInput"></a>
+
+```python
+target_agent_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_agent`<sup>Required</sup> <a name="target_agent" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.targetAgent"></a>
+
+```python
+target_agent: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.dataInput">data_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.mimeTypeInput">mime_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.data">data</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.mimeType">mime_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `data_input`<sup>Optional</sup> <a name="data_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.dataInput"></a>
+
+```python
+data_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `mime_type_input`<sup>Optional</sup> <a name="mime_type_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.mimeTypeInput"></a>
+
+```python
+mime_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `data`<sup>Required</sup> <a name="data" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.data"></a>
+
+```python
+data: str
+```
+
+- *Type:* str
+
+---
+
+##### `mime_type`<sup>Required</sup> <a name="mime_type" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.mimeType"></a>
+
+```python
+mime_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.dataInput">data_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.mimeTypeInput">mime_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.data">data</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.mimeType">mime_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `data_input`<sup>Optional</sup> <a name="data_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.dataInput"></a>
+
+```python
+data_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `mime_type_input`<sup>Optional</sup> <a name="mime_type_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.mimeTypeInput"></a>
+
+```python
+mime_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `data`<sup>Required</sup> <a name="data" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.data"></a>
+
+```python
+data: str
+```
+
+- *Type:* str
+
+---
+
+##### `mime_type`<sup>Required</sup> <a name="mime_type" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.mimeType"></a>
+
+```python
+mime_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a>]
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putAgentTransfer">put_agent_transfer</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putBlob">put_blob</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putImage">put_image</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolCall">put_tool_call</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolResponse">put_tool_response</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetAgentTransfer">reset_agent_transfer</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetBlob">reset_blob</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetImage">reset_image</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetText">reset_text</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetToolCall">reset_tool_call</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetToolResponse">reset_tool_response</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetUpdatedVariables">reset_updated_variables</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_agent_transfer` <a name="put_agent_transfer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putAgentTransfer"></a>
+
+```python
+def put_agent_transfer(
+  target_agent: str
+) -> None
+```
+
+###### `target_agent`<sup>Required</sup> <a name="target_agent" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putAgentTransfer.parameter.targetAgent"></a>
+
+- *Type:* str
+
+The agent to which the conversation is being transferred.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+
+---
+
+##### `put_blob` <a name="put_blob" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putBlob"></a>
+
+```python
+def put_blob(
+  data: str,
+  mime_type: str
+) -> None
+```
+
+###### `data`<sup>Required</sup> <a name="data" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putBlob.parameter.data"></a>
+
+- *Type:* str
+
+Raw bytes of the blob.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+
+---
+
+###### `mime_type`<sup>Required</sup> <a name="mime_type" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putBlob.parameter.mimeType"></a>
+
+- *Type:* str
+
+The IANA standard MIME type of the source data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+
+---
+
+##### `put_image` <a name="put_image" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putImage"></a>
+
+```python
+def put_image(
+  data: str,
+  mime_type: str
+) -> None
+```
+
+###### `data`<sup>Required</sup> <a name="data" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putImage.parameter.data"></a>
+
+- *Type:* str
+
+Raw bytes of the image.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+
+---
+
+###### `mime_type`<sup>Required</sup> <a name="mime_type" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putImage.parameter.mimeType"></a>
+
+- *Type:* str
+
+The IANA standard MIME type of the source data.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+
+---
+
+##### `put_tool_call` <a name="put_tool_call" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolCall"></a>
+
+```python
+def put_tool_call(
+  args: typing.Mapping[str] = None,
+  id: str = None,
+  tool: str = None,
+  toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool = None
+) -> None
+```
+
+###### `args`<sup>Optional</sup> <a name="args" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolCall.parameter.args"></a>
+
+- *Type:* typing.Mapping[str]
+
+The input parameters and values for the tool in JSON object format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+
+---
+
+###### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolCall.parameter.id"></a>
+
+- *Type:* str
+
+The unique identifier of the tool call.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+###### `tool`<sup>Optional</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolCall.parameter.tool"></a>
+
+- *Type:* str
+
+The resource name of the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+
+---
+
+###### `toolset_tool`<sup>Optional</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolCall.parameter.toolsetTool"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool</a>
+
+toolset_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+
+---
+
+##### `put_tool_response` <a name="put_tool_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolResponse"></a>
+
+```python
+def put_tool_response(
+  id: str = None,
+  response: typing.Mapping[str] = None,
+  tool: str = None,
+  toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool = None
+) -> None
+```
+
+###### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolResponse.parameter.id"></a>
+
+- *Type:* str
+
+The matching ID of the tool call the response is for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+###### `response`<sup>Optional</sup> <a name="response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolResponse.parameter.response"></a>
+
+- *Type:* typing.Mapping[str]
+
+The tool execution result in JSON object format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+
+---
+
+###### `tool`<sup>Optional</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolResponse.parameter.tool"></a>
+
+- *Type:* str
+
+The resource name of the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+
+---
+
+###### `toolset_tool`<sup>Optional</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.putToolResponse.parameter.toolsetTool"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool</a>
+
+toolset_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+
+---
+
+##### `reset_agent_transfer` <a name="reset_agent_transfer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetAgentTransfer"></a>
+
+```python
+def reset_agent_transfer() -> None
+```
+
+##### `reset_blob` <a name="reset_blob" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetBlob"></a>
+
+```python
+def reset_blob() -> None
+```
+
+##### `reset_image` <a name="reset_image" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetImage"></a>
+
+```python
+def reset_image() -> None
+```
+
+##### `reset_text` <a name="reset_text" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetText"></a>
+
+```python
+def reset_text() -> None
+```
+
+##### `reset_tool_call` <a name="reset_tool_call" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetToolCall"></a>
+
+```python
+def reset_tool_call() -> None
+```
+
+##### `reset_tool_response` <a name="reset_tool_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetToolResponse"></a>
+
+```python
+def reset_tool_response() -> None
+```
+
+##### `reset_updated_variables` <a name="reset_updated_variables" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.resetUpdatedVariables"></a>
+
+```python
+def reset_updated_variables() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.agentTransfer">agent_transfer</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.blob">blob</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.image">image</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.toolCall">tool_call</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.toolResponse">tool_response</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.agentTransferInput">agent_transfer_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.blobInput">blob_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.imageInput">image_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.textInput">text_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.toolCallInput">tool_call_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.toolResponseInput">tool_response_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.updatedVariablesInput">updated_variables_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.text">text</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.updatedVariables">updated_variables</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `agent_transfer`<sup>Required</sup> <a name="agent_transfer" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.agentTransfer"></a>
+
+```python
+agent_transfer: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference</a>
+
+---
+
+##### `blob`<sup>Required</sup> <a name="blob" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.blob"></a>
+
+```python
+blob: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference</a>
+
+---
+
+##### `image`<sup>Required</sup> <a name="image" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.image"></a>
+
+```python
+image: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference</a>
+
+---
+
+##### `tool_call`<sup>Required</sup> <a name="tool_call" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.toolCall"></a>
+
+```python
+tool_call: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference</a>
+
+---
+
+##### `tool_response`<sup>Required</sup> <a name="tool_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.toolResponse"></a>
+
+```python
+tool_response: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference</a>
+
+---
+
+##### `agent_transfer_input`<sup>Optional</sup> <a name="agent_transfer_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.agentTransferInput"></a>
+
+```python
+agent_transfer_input: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer</a>
+
+---
+
+##### `blob_input`<sup>Optional</sup> <a name="blob_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.blobInput"></a>
+
+```python
+blob_input: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob</a>
+
+---
+
+##### `image_input`<sup>Optional</sup> <a name="image_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.imageInput"></a>
+
+```python
+image_input: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage</a>
+
+---
+
+##### `text_input`<sup>Optional</sup> <a name="text_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.textInput"></a>
+
+```python
+text_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_call_input`<sup>Optional</sup> <a name="tool_call_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.toolCallInput"></a>
+
+```python
+tool_call_input: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall</a>
+
+---
+
+##### `tool_response_input`<sup>Optional</sup> <a name="tool_response_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.toolResponseInput"></a>
+
+```python
+tool_response_input: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse</a>
+
+---
+
+##### `updated_variables_input`<sup>Optional</sup> <a name="updated_variables_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.updatedVariablesInput"></a>
+
+```python
+updated_variables_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `text`<sup>Required</sup> <a name="text" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.text"></a>
+
+```python
+text: str
+```
+
+- *Type:* str
+
+---
+
+##### `updated_variables`<sup>Required</sup> <a name="updated_variables" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.updatedVariables"></a>
+
+```python
+updated_variables: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.putToolsetTool">put_toolset_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resetArgs">reset_args</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resetTool">reset_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resetToolsetTool">reset_toolset_tool</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_toolset_tool` <a name="put_toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.putToolsetTool"></a>
+
+```python
+def put_toolset_tool(
+  toolset: str,
+  tool_id: str = None
+) -> None
+```
+
+###### `toolset`<sup>Required</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.putToolsetTool.parameter.toolset"></a>
+
+- *Type:* str
+
+The resource name of the Toolset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+
+---
+
+###### `tool_id`<sup>Optional</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.putToolsetTool.parameter.toolId"></a>
+
+- *Type:* str
+
+The tool ID to filter the tools to retrieve the schema for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+
+---
+
+##### `reset_args` <a name="reset_args" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resetArgs"></a>
+
+```python
+def reset_args() -> None
+```
+
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resetId"></a>
+
+```python
+def reset_id() -> None
+```
+
+##### `reset_tool` <a name="reset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resetTool"></a>
+
+```python
+def reset_tool() -> None
+```
+
+##### `reset_toolset_tool` <a name="reset_toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.resetToolsetTool"></a>
+
+```python
+def reset_toolset_tool() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.toolsetTool">toolset_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.argsInput">args_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.toolInput">tool_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.toolsetToolInput">toolset_tool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.args">args</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.tool">tool</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.displayName"></a>
+
+```python
+display_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_tool`<sup>Required</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.toolsetTool"></a>
+
+```python
+toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference</a>
+
+---
+
+##### `args_input`<sup>Optional</sup> <a name="args_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.argsInput"></a>
+
+```python
+args_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.idInput"></a>
+
+```python
+id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_input`<sup>Optional</sup> <a name="tool_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.toolInput"></a>
+
+```python
+tool_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_tool_input`<sup>Optional</sup> <a name="toolset_tool_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.toolsetToolInput"></a>
+
+```python
+toolset_tool_input: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool</a>
+
+---
+
+##### `args`<sup>Required</sup> <a name="args" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.args"></a>
+
+```python
+args: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool`<sup>Required</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.tool"></a>
+
+```python
+tool: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.resetToolId">reset_tool_id</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_tool_id` <a name="reset_tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.resetToolId"></a>
+
+```python
+def reset_tool_id() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.toolIdInput">tool_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.toolsetInput">toolset_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.toolId">tool_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.toolset">toolset</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_id_input`<sup>Optional</sup> <a name="tool_id_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.toolIdInput"></a>
+
+```python
+tool_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_input`<sup>Optional</sup> <a name="toolset_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.toolsetInput"></a>
+
+```python
+toolset_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_id`<sup>Required</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.toolId"></a>
+
+```python
+tool_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset`<sup>Required</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.toolset"></a>
+
+```python
+toolset: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.putToolsetTool">put_toolset_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resetResponse">reset_response</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resetTool">reset_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resetToolsetTool">reset_toolset_tool</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_toolset_tool` <a name="put_toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.putToolsetTool"></a>
+
+```python
+def put_toolset_tool(
+  toolset: str,
+  tool_id: str = None
+) -> None
+```
+
+###### `toolset`<sup>Required</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.putToolsetTool.parameter.toolset"></a>
+
+- *Type:* str
+
+The resource name of the Toolset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+
+---
+
+###### `tool_id`<sup>Optional</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.putToolsetTool.parameter.toolId"></a>
+
+- *Type:* str
+
+The tool ID to filter the tools to retrieve the schema for.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+
+---
+
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resetId"></a>
+
+```python
+def reset_id() -> None
+```
+
+##### `reset_response` <a name="reset_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resetResponse"></a>
+
+```python
+def reset_response() -> None
+```
+
+##### `reset_tool` <a name="reset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resetTool"></a>
+
+```python
+def reset_tool() -> None
+```
+
+##### `reset_toolset_tool` <a name="reset_toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.resetToolsetTool"></a>
+
+```python
+def reset_toolset_tool() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.toolsetTool">toolset_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.responseInput">response_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.toolInput">tool_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.toolsetToolInput">toolset_tool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.response">response</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.tool">tool</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.displayName"></a>
+
+```python
+display_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_tool`<sup>Required</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.toolsetTool"></a>
+
+```python
+toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference</a>
+
+---
+
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.idInput"></a>
+
+```python
+id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `response_input`<sup>Optional</sup> <a name="response_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.responseInput"></a>
+
+```python
+response_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `tool_input`<sup>Optional</sup> <a name="tool_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.toolInput"></a>
+
+```python
+tool_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_tool_input`<sup>Optional</sup> <a name="toolset_tool_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.toolsetToolInput"></a>
+
+```python
+toolset_tool_input: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool</a>
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
+##### `response`<sup>Required</sup> <a name="response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.response"></a>
+
+```python
+response: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `tool`<sup>Required</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.tool"></a>
+
+```python
+tool: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.resetToolId">reset_tool_id</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_tool_id` <a name="reset_tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.resetToolId"></a>
+
+```python
+def reset_tool_id() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.toolIdInput">tool_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.toolsetInput">toolset_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.toolId">tool_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.toolset">toolset</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_id_input`<sup>Optional</sup> <a name="tool_id_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.toolIdInput"></a>
+
+```python
+tool_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_input`<sup>Optional</sup> <a name="toolset_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.toolsetInput"></a>
+
+```python
+toolset_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_id`<sup>Required</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.toolId"></a>
+
+```python
+tool_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset`<sup>Required</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.toolset"></a>
+
+```python
+toolset: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.putChunks">put_chunks</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.resetChunks">reset_chunks</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.resetRole">reset_role</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_chunks` <a name="put_chunks" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.putChunks"></a>
+
+```python
+def put_chunks(
+  value: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.putChunks.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a>]
+
+---
+
+##### `reset_chunks` <a name="reset_chunks" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.resetChunks"></a>
+
+```python
+def reset_chunks() -> None
+```
+
+##### `reset_role` <a name="reset_role" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.resetRole"></a>
+
+```python
+def reset_role() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.chunks">chunks</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.chunksInput">chunks_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.roleInput">role_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.role">role</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `chunks`<sup>Required</sup> <a name="chunks" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.chunks"></a>
+
+```python
+chunks: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList</a>
+
+---
+
+##### `chunks_input`<sup>Optional</sup> <a name="chunks_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.chunksInput"></a>
+
+```python
+chunks_input: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a>]
+
+---
+
+##### `role_input`<sup>Optional</sup> <a name="role_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.roleInput"></a>
+
+```python
+role_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.role"></a>
+
+```python
+role: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsList <a name="GoogleCesEvaluationScenarioScenarioExpectationsList" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesEvaluationScenarioScenarioExpectationsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectations]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a>]
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.putAgentResponse">put_agent_response</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.putToolExpectation">put_tool_expectation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.resetAgentResponse">reset_agent_response</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.resetToolExpectation">reset_tool_expectation</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_agent_response` <a name="put_agent_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.putAgentResponse"></a>
+
+```python
+def put_agent_response(
+  chunks: IResolvable | typing.List[GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks] = None,
+  role: str = None
+) -> None
+```
+
+###### `chunks`<sup>Optional</sup> <a name="chunks" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.putAgentResponse.parameter.chunks"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks</a>]
+
+chunks block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
+
+---
+
+###### `role`<sup>Optional</sup> <a name="role" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.putAgentResponse.parameter.role"></a>
+
+- *Type:* str
+
+The role within the conversation, e.g., user, agent.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
+
+---
+
+##### `put_tool_expectation` <a name="put_tool_expectation" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.putToolExpectation"></a>
+
+```python
+def put_tool_expectation(
+  expected_tool_call: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall = None,
+  mock_tool_response: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse = None
+) -> None
+```
+
+###### `expected_tool_call`<sup>Optional</sup> <a name="expected_tool_call" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.putToolExpectation.parameter.expectedToolCall"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall</a>
+
+expected_tool_call block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#expected_tool_call GoogleCesEvaluation#expected_tool_call}
+
+---
+
+###### `mock_tool_response`<sup>Optional</sup> <a name="mock_tool_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.putToolExpectation.parameter.mockToolResponse"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse</a>
+
+mock_tool_response block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
+
+---
+
+##### `reset_agent_response` <a name="reset_agent_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.resetAgentResponse"></a>
+
+```python
+def reset_agent_response() -> None
+```
+
+##### `reset_tool_expectation` <a name="reset_tool_expectation" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.resetToolExpectation"></a>
+
+```python
+def reset_tool_expectation() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.agentResponse">agent_response</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.toolExpectation">tool_expectation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.agentResponseInput">agent_response_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.toolExpectationInput">tool_expectation_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `agent_response`<sup>Required</sup> <a name="agent_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.agentResponse"></a>
+
+```python
+agent_response: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference</a>
+
+---
+
+##### `tool_expectation`<sup>Required</sup> <a name="tool_expectation" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.toolExpectation"></a>
+
+```python
+tool_expectation: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference</a>
+
+---
+
+##### `agent_response_input`<sup>Optional</sup> <a name="agent_response_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.agentResponseInput"></a>
+
+```python
+agent_response_input: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse">GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse</a>
+
+---
+
+##### `tool_expectation_input`<sup>Optional</sup> <a name="tool_expectation_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.toolExpectationInput"></a>
+
+```python
+tool_expectation_input: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | GoogleCesEvaluationScenarioScenarioExpectations
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectations">GoogleCesEvaluationScenarioScenarioExpectations</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.putToolsetTool">put_toolset_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resetArgs">reset_args</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resetTool">reset_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resetToolsetTool">reset_toolset_tool</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_toolset_tool` <a name="put_toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.putToolsetTool"></a>
+
+```python
+def put_toolset_tool(
+  tool_id: str = None,
+  toolset: str = None
+) -> None
+```
+
+###### `tool_id`<sup>Optional</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.putToolsetTool.parameter.toolId"></a>
+
+- *Type:* str
+
+The tool ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+
+---
+
+###### `toolset`<sup>Optional</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.putToolsetTool.parameter.toolset"></a>
+
+- *Type:* str
+
+Required. The toolset name.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+
+---
+
+##### `reset_args` <a name="reset_args" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resetArgs"></a>
+
+```python
+def reset_args() -> None
+```
+
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resetId"></a>
+
+```python
+def reset_id() -> None
+```
+
+##### `reset_tool` <a name="reset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resetTool"></a>
+
+```python
+def reset_tool() -> None
+```
+
+##### `reset_toolset_tool` <a name="reset_toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.resetToolsetTool"></a>
+
+```python
+def reset_toolset_tool() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.toolsetTool">toolset_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.argsInput">args_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.toolInput">tool_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.toolsetToolInput">toolset_tool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.args">args</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.tool">tool</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.displayName"></a>
+
+```python
+display_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_tool`<sup>Required</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.toolsetTool"></a>
+
+```python
+toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference</a>
+
+---
+
+##### `args_input`<sup>Optional</sup> <a name="args_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.argsInput"></a>
+
+```python
+args_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.idInput"></a>
+
+```python
+id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_input`<sup>Optional</sup> <a name="tool_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.toolInput"></a>
+
+```python
+tool_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_tool_input`<sup>Optional</sup> <a name="toolset_tool_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.toolsetToolInput"></a>
+
+```python
+toolset_tool_input: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool</a>
+
+---
+
+##### `args`<sup>Required</sup> <a name="args" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.args"></a>
+
+```python
+args: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool`<sup>Required</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.tool"></a>
+
+```python
+tool: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.resetToolId">reset_tool_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.resetToolset">reset_toolset</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_tool_id` <a name="reset_tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.resetToolId"></a>
+
+```python
+def reset_tool_id() -> None
+```
+
+##### `reset_toolset` <a name="reset_toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.resetToolset"></a>
+
+```python
+def reset_toolset() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.toolIdInput">tool_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.toolsetInput">toolset_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.toolId">tool_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.toolset">toolset</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_id_input`<sup>Optional</sup> <a name="tool_id_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.toolIdInput"></a>
+
+```python
+tool_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_input`<sup>Optional</sup> <a name="toolset_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.toolsetInput"></a>
+
+```python
+toolset_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_id`<sup>Required</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.toolId"></a>
+
+```python
+tool_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset`<sup>Required</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.toolset"></a>
+
+```python
+toolset: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.putToolsetTool">put_toolset_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resetId">reset_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resetResponse">reset_response</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resetTool">reset_tool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resetToolsetTool">reset_toolset_tool</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_toolset_tool` <a name="put_toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.putToolsetTool"></a>
+
+```python
+def put_toolset_tool(
+  tool_id: str = None,
+  toolset: str = None
+) -> None
+```
+
+###### `tool_id`<sup>Optional</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.putToolsetTool.parameter.toolId"></a>
+
+- *Type:* str
+
+The tool ID.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+
+---
+
+###### `toolset`<sup>Optional</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.putToolsetTool.parameter.toolset"></a>
+
+- *Type:* str
+
+Required. The toolset name.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+
+---
+
+##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resetId"></a>
+
+```python
+def reset_id() -> None
+```
+
+##### `reset_response` <a name="reset_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resetResponse"></a>
+
+```python
+def reset_response() -> None
+```
+
+##### `reset_tool` <a name="reset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resetTool"></a>
+
+```python
+def reset_tool() -> None
+```
+
+##### `reset_toolset_tool` <a name="reset_toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.resetToolsetTool"></a>
+
+```python
+def reset_toolset_tool() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.toolsetTool">toolset_tool</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.responseInput">response_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.toolInput">tool_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.toolsetToolInput">toolset_tool_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.response">response</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.tool">tool</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `display_name`<sup>Required</sup> <a name="display_name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.displayName"></a>
+
+```python
+display_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_tool`<sup>Required</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.toolsetTool"></a>
+
+```python
+toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference</a>
+
+---
+
+##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.idInput"></a>
+
+```python
+id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `response_input`<sup>Optional</sup> <a name="response_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.responseInput"></a>
+
+```python
+response_input: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `tool_input`<sup>Optional</sup> <a name="tool_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.toolInput"></a>
+
+```python
+tool_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_tool_input`<sup>Optional</sup> <a name="toolset_tool_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.toolsetToolInput"></a>
+
+```python
+toolset_tool_input: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool</a>
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
+##### `response`<sup>Required</sup> <a name="response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.response"></a>
+
+```python
+response: typing.Mapping[str]
+```
+
+- *Type:* typing.Mapping[str]
+
+---
+
+##### `tool`<sup>Required</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.tool"></a>
+
+```python
+tool: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.resetToolId">reset_tool_id</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.resetToolset">reset_toolset</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_tool_id` <a name="reset_tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.resetToolId"></a>
+
+```python
+def reset_tool_id() -> None
+```
+
+##### `reset_toolset` <a name="reset_toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.resetToolset"></a>
+
+```python
+def reset_toolset() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.toolIdInput">tool_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.toolsetInput">toolset_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.toolId">tool_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.toolset">toolset</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_id_input`<sup>Optional</sup> <a name="tool_id_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.toolIdInput"></a>
+
+```python
+tool_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset_input`<sup>Optional</sup> <a name="toolset_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.toolsetInput"></a>
+
+```python
+toolset_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `tool_id`<sup>Required</sup> <a name="tool_id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.toolId"></a>
+
+```python
+tool_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `toolset`<sup>Required</sup> <a name="toolset" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.toolset"></a>
+
+```python
+toolset: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference <a name="GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putExpectedToolCall">put_expected_tool_call</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putMockToolResponse">put_mock_tool_response</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.resetExpectedToolCall">reset_expected_tool_call</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.resetMockToolResponse">reset_mock_tool_response</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_expected_tool_call` <a name="put_expected_tool_call" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putExpectedToolCall"></a>
+
+```python
+def put_expected_tool_call(
+  args: typing.Mapping[str] = None,
+  id: str = None,
+  tool: str = None,
+  toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool = None
+) -> None
+```
+
+###### `args`<sup>Optional</sup> <a name="args" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putExpectedToolCall.parameter.args"></a>
+
+- *Type:* typing.Mapping[str]
+
+The input parameters and values for the tool in JSON object format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+
+---
+
+###### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putExpectedToolCall.parameter.id"></a>
+
+- *Type:* str
+
+Optional. The unique identifier of the tool call.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+###### `tool`<sup>Optional</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putExpectedToolCall.parameter.tool"></a>
+
+- *Type:* str
+
+Name of the tool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+
+---
+
+###### `toolset_tool`<sup>Optional</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putExpectedToolCall.parameter.toolsetTool"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool</a>
+
+toolset_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+
+---
+
+##### `put_mock_tool_response` <a name="put_mock_tool_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putMockToolResponse"></a>
+
+```python
+def put_mock_tool_response(
+  id: str = None,
+  response: typing.Mapping[str] = None,
+  tool: str = None,
+  toolset_tool: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool = None
+) -> None
+```
+
+###### `id`<sup>Optional</sup> <a name="id" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putMockToolResponse.parameter.id"></a>
+
+- *Type:* str
+
+Optional. Matching ID of the tool call.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+
+Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+
+---
+
+###### `response`<sup>Optional</sup> <a name="response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putMockToolResponse.parameter.response"></a>
+
+- *Type:* typing.Mapping[str]
+
+The tool execution result in JSON object format.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+
+---
+
+###### `tool`<sup>Optional</sup> <a name="tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putMockToolResponse.parameter.tool"></a>
+
+- *Type:* str
+
+Name of the tool to execute.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+
+---
+
+###### `toolset_tool`<sup>Optional</sup> <a name="toolset_tool" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.putMockToolResponse.parameter.toolsetTool"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool</a>
+
+toolset_tool block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+
+---
+
+##### `reset_expected_tool_call` <a name="reset_expected_tool_call" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.resetExpectedToolCall"></a>
+
+```python
+def reset_expected_tool_call() -> None
+```
+
+##### `reset_mock_tool_response` <a name="reset_mock_tool_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.resetMockToolResponse"></a>
+
+```python
+def reset_mock_tool_response() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.expectedToolCall">expected_tool_call</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.mockToolResponse">mock_tool_response</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.expectedToolCallInput">expected_tool_call_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.mockToolResponseInput">mock_tool_response_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `expected_tool_call`<sup>Required</sup> <a name="expected_tool_call" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.expectedToolCall"></a>
+
+```python
+expected_tool_call: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference</a>
+
+---
+
+##### `mock_tool_response`<sup>Required</sup> <a name="mock_tool_response" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.mockToolResponse"></a>
+
+```python
+mock_tool_response: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference</a>
+
+---
+
+##### `expected_tool_call_input`<sup>Optional</sup> <a name="expected_tool_call_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.expectedToolCallInput"></a>
+
+```python
+expected_tool_call_input: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall</a>
+
+---
+
+##### `mock_tool_response_input`<sup>Optional</sup> <a name="mock_tool_response_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.mockToolResponseInput"></a>
+
+```python
+mock_tool_response_input: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation">GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation</a>
+
+---
+
+
+### GoogleCesEvaluationScenarioUserFactsList <a name="GoogleCesEvaluationScenarioUserFactsList" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> GoogleCesEvaluationScenarioUserFactsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[GoogleCesEvaluationScenarioUserFacts]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a>]
+
+---
+
+
+### GoogleCesEvaluationScenarioUserFactsOutputReference <a name="GoogleCesEvaluationScenarioUserFactsOutputReference" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_google_beta import google_ces_evaluation
+
+googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `value_input`<sup>Optional</sup> <a name="value_input" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.valueInput"></a>
+
+```python
+value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFactsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | GoogleCesEvaluationScenarioUserFacts
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleCesEvaluation.GoogleCesEvaluationScenarioUserFacts">GoogleCesEvaluationScenarioUserFacts</a>
 
 ---
 

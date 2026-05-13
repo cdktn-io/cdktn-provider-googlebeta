@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -32,7 +32,7 @@ export interface GooglePubsubSubscriptionConfig extends cdktn.TerraformMetaArgum
   * If the subscriber never acknowledges the message, the Pub/Sub system
   * will eventually redeliver the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#ack_deadline_seconds GooglePubsubSubscription#ack_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#ack_deadline_seconds GooglePubsubSubscription#ack_deadline_seconds}
   */
   readonly ackDeadlineSeconds?: number;
   /**
@@ -46,7 +46,7 @@ export interface GooglePubsubSubscriptionConfig extends cdktn.TerraformMetaArgum
   * Note that subscribers may still receive multiple copies of a message when 'enable_exactly_once_delivery'
   * is true if the message was published multiple times by a publisher client. These copies are considered distinct by Pub/Sub and have distinct messageId values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#enable_exactly_once_delivery GooglePubsubSubscription#enable_exactly_once_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#enable_exactly_once_delivery GooglePubsubSubscription#enable_exactly_once_delivery}
   */
   readonly enableExactlyOnceDelivery?: boolean | cdktn.IResolvable;
   /**
@@ -54,7 +54,7 @@ export interface GooglePubsubSubscriptionConfig extends cdktn.TerraformMetaArgum
   * the subscribers in the order in which they are received by the Pub/Sub system. Otherwise, they
   * may be delivered in any order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#enable_message_ordering GooglePubsubSubscription#enable_message_ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#enable_message_ordering GooglePubsubSubscription#enable_message_ordering}
   */
   readonly enableMessageOrdering?: boolean | cdktn.IResolvable;
   /**
@@ -63,11 +63,11 @@ export interface GooglePubsubSubscriptionConfig extends cdktn.TerraformMetaArgum
   * by their attributes. The maximum length of a filter is 256 bytes. After creating the subscription,
   * you can't modify the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#filter GooglePubsubSubscription#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#filter GooglePubsubSubscription#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#id GooglePubsubSubscription#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ export interface GooglePubsubSubscriptionConfig extends cdktn.TerraformMetaArgum
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#labels GooglePubsubSubscription#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#labels GooglePubsubSubscription#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -94,17 +94,17 @@ export interface GooglePubsubSubscriptionConfig extends cdktn.TerraformMetaArgum
   * A duration in seconds with up to nine fractional digits, terminated
   * by 's'. Example: '"600.5s"'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#message_retention_duration GooglePubsubSubscription#message_retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#message_retention_duration GooglePubsubSubscription#message_retention_duration}
   */
   readonly messageRetentionDuration?: string;
   /**
   * Name of the subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#name GooglePubsubSubscription#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#name GooglePubsubSubscription#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#project GooglePubsubSubscription#project}
   */
   readonly project?: string;
   /**
@@ -113,7 +113,7 @@ export interface GooglePubsubSubscriptionConfig extends cdktn.TerraformMetaArgum
   * they are acknowledged, until they fall out of the
   * messageRetentionDuration window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#retain_acked_messages GooglePubsubSubscription#retain_acked_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#retain_acked_messages GooglePubsubSubscription#retain_acked_messages}
   */
   readonly retainAckedMessages?: boolean | cdktn.IResolvable;
   /**
@@ -126,7 +126,7 @@ export interface GooglePubsubSubscriptionConfig extends cdktn.TerraformMetaArgum
   * apply tags to an existing resource, see the 'google_tags_tag_value'
   * resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#tags GooglePubsubSubscription#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#tags GooglePubsubSubscription#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
@@ -134,55 +134,55 @@ export interface GooglePubsubSubscriptionConfig extends cdktn.TerraformMetaArgum
   * (as in the id property of a google_pubsub_topic), or just a topic name if
   * the topic is in the same project as the subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#topic GooglePubsubSubscription#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#topic GooglePubsubSubscription#topic}
   */
   readonly topic: string;
   /**
   * bigquery_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#bigquery_config GooglePubsubSubscription#bigquery_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#bigquery_config GooglePubsubSubscription#bigquery_config}
   */
   readonly bigqueryConfig?: GooglePubsubSubscriptionBigqueryConfig;
   /**
   * cloud_storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#cloud_storage_config GooglePubsubSubscription#cloud_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#cloud_storage_config GooglePubsubSubscription#cloud_storage_config}
   */
   readonly cloudStorageConfig?: GooglePubsubSubscriptionCloudStorageConfig;
   /**
   * dead_letter_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#dead_letter_policy GooglePubsubSubscription#dead_letter_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#dead_letter_policy GooglePubsubSubscription#dead_letter_policy}
   */
   readonly deadLetterPolicy?: GooglePubsubSubscriptionDeadLetterPolicy;
   /**
   * expiration_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#expiration_policy GooglePubsubSubscription#expiration_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#expiration_policy GooglePubsubSubscription#expiration_policy}
   */
   readonly expirationPolicy?: GooglePubsubSubscriptionExpirationPolicy;
   /**
   * message_transforms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#message_transforms GooglePubsubSubscription#message_transforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#message_transforms GooglePubsubSubscription#message_transforms}
   */
   readonly messageTransforms?: GooglePubsubSubscriptionMessageTransforms[] | cdktn.IResolvable;
   /**
   * push_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#push_config GooglePubsubSubscription#push_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#push_config GooglePubsubSubscription#push_config}
   */
   readonly pushConfig?: GooglePubsubSubscriptionPushConfig;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#retry_policy GooglePubsubSubscription#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#retry_policy GooglePubsubSubscription#retry_policy}
   */
   readonly retryPolicy?: GooglePubsubSubscriptionRetryPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#timeouts GooglePubsubSubscription#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#timeouts GooglePubsubSubscription#timeouts}
   */
   readonly timeouts?: GooglePubsubSubscriptionTimeouts;
 }
@@ -192,7 +192,7 @@ export interface GooglePubsubSubscriptionBigqueryConfig {
   * are not part of the BigQuery table schema are dropped when writing to BigQuery. Otherwise, the schemas must be kept in sync
   * and any messages with extra fields are not written and remain in the subscription's backlog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#drop_unknown_fields GooglePubsubSubscription#drop_unknown_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#drop_unknown_fields GooglePubsubSubscription#drop_unknown_fields}
   */
   readonly dropUnknownFields?: boolean | cdktn.IResolvable;
   /**
@@ -200,34 +200,34 @@ export interface GooglePubsubSubscriptionBigqueryConfig {
   * [service agent](https://cloud.google.com/iam/docs/service-agents),
   * service-{project_number}@gcp-sa-pubsub.iam.gserviceaccount.com, is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
   */
   readonly serviceAccountEmail?: string;
   /**
   * The name of the table to which to write data, of the form {projectId}.{datasetId}.{tableId}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#table GooglePubsubSubscription#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#table GooglePubsubSubscription#table}
   */
   readonly table: string;
   /**
   * When true, use the BigQuery table's schema as the columns to write to in BigQuery. Messages
   * must be published in JSON format. Only one of use_topic_schema and use_table_schema can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#use_table_schema GooglePubsubSubscription#use_table_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#use_table_schema GooglePubsubSubscription#use_table_schema}
   */
   readonly useTableSchema?: boolean | cdktn.IResolvable;
   /**
   * When true, use the topic's schema as the columns to write to in BigQuery, if it exists.
   * Only one of use_topic_schema and use_table_schema can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#use_topic_schema GooglePubsubSubscription#use_topic_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#use_topic_schema GooglePubsubSubscription#use_topic_schema}
   */
   readonly useTopicSchema?: boolean | cdktn.IResolvable;
   /**
   * When true, write the subscription name, messageId, publishTime, attributes, and orderingKey to additional columns in the table.
   * The subscription name, messageId, and publishTime fields are put in their own columns while all other message properties (other than data) are written to a JSON object in the attributes column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
   */
   readonly writeMetadata?: boolean | cdktn.IResolvable;
 }
@@ -455,13 +455,13 @@ export interface GooglePubsubSubscriptionCloudStorageConfigAvroConfig {
   /**
   * When true, the output Cloud Storage file will be serialized using the topic schema, if it exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#use_topic_schema GooglePubsubSubscription#use_topic_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#use_topic_schema GooglePubsubSubscription#use_topic_schema}
   */
   readonly useTopicSchema?: boolean | cdktn.IResolvable;
   /**
   * When true, write the subscription name, messageId, publishTime, attributes, and orderingKey as additional fields in the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
   */
   readonly writeMetadata?: boolean | cdktn.IResolvable;
 }
@@ -630,32 +630,32 @@ export interface GooglePubsubSubscriptionCloudStorageConfig {
   /**
   * User-provided name for the Cloud Storage bucket. The bucket must be created by the user. The bucket name must be without any prefix like "gs://".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#bucket GooglePubsubSubscription#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#bucket GooglePubsubSubscription#bucket}
   */
   readonly bucket: string;
   /**
   * User-provided format string specifying how to represent datetimes in Cloud Storage filenames.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#filename_datetime_format GooglePubsubSubscription#filename_datetime_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#filename_datetime_format GooglePubsubSubscription#filename_datetime_format}
   */
   readonly filenameDatetimeFormat?: string;
   /**
   * User-provided prefix for Cloud Storage filename.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#filename_prefix GooglePubsubSubscription#filename_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#filename_prefix GooglePubsubSubscription#filename_prefix}
   */
   readonly filenamePrefix?: string;
   /**
   * User-provided suffix for Cloud Storage filename. Must not end in "/".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#filename_suffix GooglePubsubSubscription#filename_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#filename_suffix GooglePubsubSubscription#filename_suffix}
   */
   readonly filenameSuffix?: string;
   /**
   * The maximum bytes that can be written to a Cloud Storage file before a new file is created. Min 1 KB, max 10 GiB.
   * The maxBytes limit may be exceeded in cases where messages are larger than the limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#max_bytes GooglePubsubSubscription#max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#max_bytes GooglePubsubSubscription#max_bytes}
   */
   readonly maxBytes?: number;
   /**
@@ -663,13 +663,13 @@ export interface GooglePubsubSubscriptionCloudStorageConfig {
   * May not exceed the subscription's acknowledgement deadline.
   * A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#max_duration GooglePubsubSubscription#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#max_duration GooglePubsubSubscription#max_duration}
   */
   readonly maxDuration?: string;
   /**
   * The maximum messages that can be written to a Cloud Storage file before a new file is created. Min 1000 messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#max_messages GooglePubsubSubscription#max_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#max_messages GooglePubsubSubscription#max_messages}
   */
   readonly maxMessages?: number;
   /**
@@ -677,19 +677,19 @@ export interface GooglePubsubSubscriptionCloudStorageConfig {
   * [service agent](https://cloud.google.com/iam/docs/service-agents),
   * service-{project_number}@gcp-sa-pubsub.iam.gserviceaccount.com, is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
   */
   readonly serviceAccountEmail?: string;
   /**
   * avro_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#avro_config GooglePubsubSubscription#avro_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#avro_config GooglePubsubSubscription#avro_config}
   */
   readonly avroConfig?: GooglePubsubSubscriptionCloudStorageConfigAvroConfig;
   /**
   * text_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#text_config GooglePubsubSubscription#text_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#text_config GooglePubsubSubscription#text_config}
   */
   readonly textConfig?: GooglePubsubSubscriptionCloudStorageConfigTextConfig;
 }
@@ -1048,7 +1048,7 @@ export interface GooglePubsubSubscriptionDeadLetterPolicy {
   * Users should ensure that there is a subscription attached to this topic
   * since messages published to a topic with no subscriptions are lost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#dead_letter_topic GooglePubsubSubscription#dead_letter_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#dead_letter_topic GooglePubsubSubscription#dead_letter_topic}
   */
   readonly deadLetterTopic?: string;
   /**
@@ -1065,7 +1065,7 @@ export interface GooglePubsubSubscriptionDeadLetterPolicy {
   * 
   * If this parameter is 0, a default value of 5 is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#max_delivery_attempts GooglePubsubSubscription#max_delivery_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#max_delivery_attempts GooglePubsubSubscription#max_delivery_attempts}
   */
   readonly maxDeliveryAttempts?: number;
 }
@@ -1184,7 +1184,7 @@ export interface GooglePubsubSubscriptionExpirationPolicy {
   * A duration in seconds with up to nine fractional digits, terminated by 's'.
   * Example - "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#ttl GooglePubsubSubscription#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#ttl GooglePubsubSubscription#ttl}
   */
   readonly ttl: string;
 }
@@ -1269,7 +1269,7 @@ export interface GooglePubsubSubscriptionMessageTransformsAiInferenceUnstructure
   * The parameters object is combined with the data field of the Pub/Sub
   * message to form the inference request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#parameters GooglePubsubSubscription#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#parameters GooglePubsubSubscription#parameters}
   */
   readonly parameters?: { [key: string]: string };
 }
@@ -1358,20 +1358,20 @@ export interface GooglePubsubSubscriptionMessageTransformsAiInference {
   * 'projects/{project}/locations/{location}/publishers/{publisher}/models/{model}'.
   * Vertex AI API requests will be sent to this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#endpoint GooglePubsubSubscription#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#endpoint GooglePubsubSubscription#endpoint}
   */
   readonly endpoint: string;
   /**
   * The service account to use to make prediction requests against
   * endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
   */
   readonly serviceAccountEmail?: string;
   /**
   * unstructured_inference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#unstructured_inference GooglePubsubSubscription#unstructured_inference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#unstructured_inference GooglePubsubSubscription#unstructured_inference}
   */
   readonly unstructuredInference?: GooglePubsubSubscriptionMessageTransformsAiInferenceUnstructuredInference;
 }
@@ -1539,7 +1539,7 @@ export interface GooglePubsubSubscriptionMessageTransformsJavascriptUdf {
   *   }
   * ```
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#code GooglePubsubSubscription#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#code GooglePubsubSubscription#code}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -1547,7 +1547,7 @@ export interface GooglePubsubSubscriptionMessageTransformsJavascriptUdf {
   /**
   * Name of the JavaScript function that should be applied to Pub/Sub messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#function_name GooglePubsubSubscription#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#function_name GooglePubsubSubscription#function_name}
   */
   readonly functionName: string;
 }
@@ -1657,19 +1657,19 @@ export interface GooglePubsubSubscriptionMessageTransforms {
   * Controls whether or not to use this transform. If not set or 'false',
   * the transform will be applied to messages. Default: 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#disabled GooglePubsubSubscription#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#disabled GooglePubsubSubscription#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * ai_inference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#ai_inference GooglePubsubSubscription#ai_inference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#ai_inference GooglePubsubSubscription#ai_inference}
   */
   readonly aiInference?: GooglePubsubSubscriptionMessageTransformsAiInference;
   /**
   * javascript_udf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#javascript_udf GooglePubsubSubscription#javascript_udf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#javascript_udf GooglePubsubSubscription#javascript_udf}
   */
   readonly javascriptUdf?: GooglePubsubSubscriptionMessageTransformsJavascriptUdf;
 }
@@ -1847,7 +1847,7 @@ export interface GooglePubsubSubscriptionPushConfigNoWrapper {
   * 'x-goog-pubsub-<KEY>:<VAL>' headers of the HTTP request. Writes the
   * Pub/Sub message attributes to '<KEY>:<VAL>' headers of the HTTP request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#write_metadata GooglePubsubSubscription#write_metadata}
   */
   readonly writeMetadata: boolean | cdktn.IResolvable;
 }
@@ -1935,7 +1935,7 @@ export interface GooglePubsubSubscriptionPushConfigOidcToken {
   * token audience here: https://tools.ietf.org/html/rfc7519#section-4.1.3
   * Note: if not specified, the Push endpoint URL will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#audience GooglePubsubSubscription#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#audience GooglePubsubSubscription#audience}
   */
   readonly audience?: string;
   /**
@@ -1944,7 +1944,7 @@ export interface GooglePubsubSubscriptionPushConfigOidcToken {
   * subscriptions.modifyPushConfig RPCs) must have the
   * iam.serviceAccounts.actAs permission for the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#service_account_email GooglePubsubSubscription#service_account_email}
   */
   readonly serviceAccountEmail: string;
 }
@@ -2078,7 +2078,7 @@ export interface GooglePubsubSubscriptionPushConfig {
   * - v1beta1: uses the push format defined in the v1beta1 Pub/Sub API.
   * - v1 or v1beta2: uses the push format defined in the v1 Pub/Sub API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#attributes GooglePubsubSubscription#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#attributes GooglePubsubSubscription#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
@@ -2086,19 +2086,19 @@ export interface GooglePubsubSubscriptionPushConfig {
   * For example, a Webhook endpoint might use
   * "https://example.com/push".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#push_endpoint GooglePubsubSubscription#push_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#push_endpoint GooglePubsubSubscription#push_endpoint}
   */
   readonly pushEndpoint: string;
   /**
   * no_wrapper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#no_wrapper GooglePubsubSubscription#no_wrapper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#no_wrapper GooglePubsubSubscription#no_wrapper}
   */
   readonly noWrapper?: GooglePubsubSubscriptionPushConfigNoWrapper;
   /**
   * oidc_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#oidc_token GooglePubsubSubscription#oidc_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#oidc_token GooglePubsubSubscription#oidc_token}
   */
   readonly oidcToken?: GooglePubsubSubscriptionPushConfigOidcToken;
 }
@@ -2269,14 +2269,14 @@ export interface GooglePubsubSubscriptionRetryPolicy {
   * The maximum delay between consecutive deliveries of a given message. Value should be between 0 and 600 seconds. Defaults to 600 seconds.
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#maximum_backoff GooglePubsubSubscription#maximum_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#maximum_backoff GooglePubsubSubscription#maximum_backoff}
   */
   readonly maximumBackoff?: string;
   /**
   * The minimum delay between consecutive deliveries of a given message. Value should be between 0 and 600 seconds. Defaults to 10 seconds.
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#minimum_backoff GooglePubsubSubscription#minimum_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#minimum_backoff GooglePubsubSubscription#minimum_backoff}
   */
   readonly minimumBackoff?: string;
 }
@@ -2389,15 +2389,15 @@ export class GooglePubsubSubscriptionRetryPolicyOutputReference extends cdktn.Co
 }
 export interface GooglePubsubSubscriptionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#create GooglePubsubSubscription#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#create GooglePubsubSubscription#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#delete GooglePubsubSubscription#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#delete GooglePubsubSubscription#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#update GooglePubsubSubscription#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#update GooglePubsubSubscription#update}
   */
   readonly update?: string;
 }
@@ -2549,7 +2549,7 @@ export class GooglePubsubSubscriptionTimeoutsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription google_pubsub_subscription}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription google_pubsub_subscription}
 */
 export class GooglePubsubSubscription extends cdktn.TerraformResource {
 
@@ -2565,7 +2565,7 @@ export class GooglePubsubSubscription extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GooglePubsubSubscription resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GooglePubsubSubscription to import
-  * @param importFromId The id of the existing GooglePubsubSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GooglePubsubSubscription that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GooglePubsubSubscription to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2577,7 +2577,7 @@ export class GooglePubsubSubscription extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_pubsub_subscription google_pubsub_subscription} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_subscription google_pubsub_subscription} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2588,7 +2588,7 @@ export class GooglePubsubSubscription extends cdktn.TerraformResource {
       terraformResourceType: 'google_pubsub_subscription',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.31.0',
+        providerVersion: '7.32.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

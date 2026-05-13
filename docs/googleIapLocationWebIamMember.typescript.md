@@ -4,7 +4,7 @@
 
 ### GoogleIapLocationWebIamMember <a name="GoogleIapLocationWebIamMember" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member google_iap_location_web_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member google_iap_location_web_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMember.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the GoogleIapLocationWebIamMem
 
 The id of the existing GoogleIapLocationWebIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -875,9 +875,9 @@ const googleIapLocationWebIamMemberCondition: googleIapLocationWebIamMember.Goog
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#expression GoogleIapLocationWebIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#title GoogleIapLocationWebIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#description GoogleIapLocationWebIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#expression GoogleIapLocationWebIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#title GoogleIapLocationWebIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#description GoogleIapLocationWebIamMember#description}. |
 
 ---
 
@@ -889,7 +889,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#expression GoogleIapLocationWebIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#expression GoogleIapLocationWebIamMember#expression}.
 
 ---
 
@@ -901,7 +901,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#title GoogleIapLocationWebIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#title GoogleIapLocationWebIamMember#title}.
 
 ---
 
@@ -913,7 +913,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#description GoogleIapLocationWebIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#description GoogleIapLocationWebIamMember#description}.
 
 ---
 
@@ -938,12 +938,12 @@ const googleIapLocationWebIamMemberConfig: googleIapLocationWebIamMember.GoogleI
 | <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#location GoogleIapLocationWebIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#member GoogleIapLocationWebIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#role GoogleIapLocationWebIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#location GoogleIapLocationWebIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#member GoogleIapLocationWebIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#role GoogleIapLocationWebIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberCondition">GoogleIapLocationWebIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#id GoogleIapLocationWebIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#project GoogleIapLocationWebIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#id GoogleIapLocationWebIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIapLocationWebIamMember.GoogleIapLocationWebIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#project GoogleIapLocationWebIamMember#project}. |
 
 ---
 
@@ -1025,7 +1025,7 @@ public readonly location: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#location GoogleIapLocationWebIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#location GoogleIapLocationWebIamMember#location}.
 
 ---
 
@@ -1037,7 +1037,7 @@ public readonly member: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#member GoogleIapLocationWebIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#member GoogleIapLocationWebIamMember#member}.
 
 ---
 
@@ -1049,7 +1049,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#role GoogleIapLocationWebIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#role GoogleIapLocationWebIamMember#role}.
 
 ---
 
@@ -1063,7 +1063,7 @@ public readonly condition: GoogleIapLocationWebIamMemberCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#condition GoogleIapLocationWebIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#condition GoogleIapLocationWebIamMember#condition}
 
 ---
 
@@ -1075,7 +1075,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#id GoogleIapLocationWebIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#id GoogleIapLocationWebIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1090,7 +1090,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_iap_location_web_iam_member#project GoogleIapLocationWebIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iap_location_web_iam_member#project GoogleIapLocationWebIamMember#project}.
 
 ---
 

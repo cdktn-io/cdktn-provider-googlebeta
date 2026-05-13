@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,44 +15,44 @@ export interface GoogleDataformTeamFolderConfig extends cdktn.TerraformMetaArgum
   /**
   * Required. The TeamFolder's user-friendly name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#display_name GoogleDataformTeamFolder#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#display_name GoogleDataformTeamFolder#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#id GoogleDataformTeamFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#id GoogleDataformTeamFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#project GoogleDataformTeamFolder#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#project GoogleDataformTeamFolder#project}
   */
   readonly project?: string;
   /**
   * A reference to the region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#region GoogleDataformTeamFolder#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#region GoogleDataformTeamFolder#region}
   */
   readonly region: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#timeouts GoogleDataformTeamFolder#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#timeouts GoogleDataformTeamFolder#timeouts}
   */
   readonly timeouts?: GoogleDataformTeamFolderTimeouts;
 }
 export interface GoogleDataformTeamFolderTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#create GoogleDataformTeamFolder#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#create GoogleDataformTeamFolder#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#delete GoogleDataformTeamFolder#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#delete GoogleDataformTeamFolder#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#update GoogleDataformTeamFolder#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#update GoogleDataformTeamFolder#update}
   */
   readonly update?: string;
 }
@@ -204,7 +204,7 @@ export class GoogleDataformTeamFolderTimeoutsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder google_dataform_team_folder}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder google_dataform_team_folder}
 */
 export class GoogleDataformTeamFolder extends cdktn.TerraformResource {
 
@@ -220,7 +220,7 @@ export class GoogleDataformTeamFolder extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDataformTeamFolder resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataformTeamFolder to import
-  * @param importFromId The id of the existing GoogleDataformTeamFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDataformTeamFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataformTeamFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -232,7 +232,7 @@ export class GoogleDataformTeamFolder extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_team_folder google_dataform_team_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,7 +243,7 @@ export class GoogleDataformTeamFolder extends cdktn.TerraformResource {
       terraformResourceType: 'google_dataform_team_folder',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.31.0',
+        providerVersion: '7.32.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

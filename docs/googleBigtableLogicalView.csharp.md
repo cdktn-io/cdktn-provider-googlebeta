@@ -4,7 +4,7 @@
 
 ### GoogleBigtableLogicalView <a name="GoogleBigtableLogicalView" id="@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view google_bigtable_logical_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view google_bigtable_logical_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalView.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleBigtableLogicalView 
 
 The id of the existing GoogleBigtableLogicalView that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -936,9 +936,9 @@ new GoogleBigtableLogicalViewConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewConfig.property.logicalViewId">LogicalViewId</a></code> | <code>string</code> | The unique name of the logical view in the form '[_a-zA-Z0-9][-_.a-zA-Z0-9]*'. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewConfig.property.query">Query</a></code> | <code>string</code> | The logical view's select query. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewConfig.property.deletionProtection">DeletionProtection</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Set to true to make the logical view protected against deletion. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#id GoogleBigtableLogicalView#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#id GoogleBigtableLogicalView#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewConfig.property.instance">Instance</a></code> | <code>string</code> | The name of the instance to create the logical view within. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#project GoogleBigtableLogicalView#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#project GoogleBigtableLogicalView#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewTimeouts">GoogleBigtableLogicalViewTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1023,7 +1023,7 @@ public string LogicalViewId { get; set; }
 
 The unique name of the logical view in the form '[_a-zA-Z0-9][-_.a-zA-Z0-9]*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#logical_view_id GoogleBigtableLogicalView#logical_view_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#logical_view_id GoogleBigtableLogicalView#logical_view_id}
 
 ---
 
@@ -1037,7 +1037,7 @@ public string Query { get; set; }
 
 The logical view's select query.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#query GoogleBigtableLogicalView#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#query GoogleBigtableLogicalView#query}
 
 ---
 
@@ -1051,7 +1051,7 @@ public bool|IResolvable DeletionProtection { get; set; }
 
 Set to true to make the logical view protected against deletion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#deletion_protection GoogleBigtableLogicalView#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#deletion_protection GoogleBigtableLogicalView#deletion_protection}
 
 ---
 
@@ -1063,7 +1063,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#id GoogleBigtableLogicalView#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#id GoogleBigtableLogicalView#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1080,7 +1080,7 @@ public string Instance { get; set; }
 
 The name of the instance to create the logical view within.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#instance GoogleBigtableLogicalView#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#instance GoogleBigtableLogicalView#instance}
 
 ---
 
@@ -1092,7 +1092,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#project GoogleBigtableLogicalView#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#project GoogleBigtableLogicalView#project}.
 
 ---
 
@@ -1106,7 +1106,7 @@ public GoogleBigtableLogicalViewTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#timeouts GoogleBigtableLogicalView#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#timeouts GoogleBigtableLogicalView#timeouts}
 
 ---
 
@@ -1128,9 +1128,9 @@ new GoogleBigtableLogicalViewTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#create GoogleBigtableLogicalView#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#delete GoogleBigtableLogicalView#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#update GoogleBigtableLogicalView#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#create GoogleBigtableLogicalView#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#delete GoogleBigtableLogicalView#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigtableLogicalView.GoogleBigtableLogicalViewTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#update GoogleBigtableLogicalView#update}. |
 
 ---
 
@@ -1142,7 +1142,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#create GoogleBigtableLogicalView#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#create GoogleBigtableLogicalView#create}.
 
 ---
 
@@ -1154,7 +1154,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#delete GoogleBigtableLogicalView#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#delete GoogleBigtableLogicalView#delete}.
 
 ---
 
@@ -1166,7 +1166,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_bigtable_logical_view#update GoogleBigtableLogicalView#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigtable_logical_view#update GoogleBigtableLogicalView#update}.
 
 ---
 

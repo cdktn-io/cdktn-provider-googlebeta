@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionBackendBucket <a name="GoogleComputeRegionBackendBucket" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket google_compute_region_backend_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket google_compute_region_backend_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the GoogleComputeRegionBackend
 
 The id of the existing GoogleComputeRegionBackendBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -971,9 +971,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.name">Name</a></code> | <code>*string</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.region">Region</a></code> | <code>*string</code> | The region where the backend bucket resides. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.description">Description</a></code> | <code>*string</code> | An optional textual description of the resource; provided by the client when the resource is created. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.loadBalancingScheme">LoadBalancingScheme</a></code> | <code>*string</code> | Specifies the load balancer type this backend bucket will be used with. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts">GoogleComputeRegionBackendBucketTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1058,7 +1058,7 @@ BucketName *string
 
 Cloud Storage bucket name. The bucket must be in the same region as this backend bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#bucket_name GoogleComputeRegionBackendBucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#bucket_name GoogleComputeRegionBackendBucket#bucket_name}
 
 ---
 
@@ -1080,7 +1080,7 @@ the first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the
 last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#name GoogleComputeRegionBackendBucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#name GoogleComputeRegionBackendBucket#name}
 
 ---
 
@@ -1094,7 +1094,7 @@ Region *string
 
 The region where the backend bucket resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#region GoogleComputeRegionBackendBucket#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#region GoogleComputeRegionBackendBucket#region}
 
 ---
 
@@ -1108,7 +1108,7 @@ Description *string
 
 An optional textual description of the resource; provided by the client when the resource is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#description GoogleComputeRegionBackendBucket#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#description GoogleComputeRegionBackendBucket#description}
 
 ---
 
@@ -1120,7 +1120,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1144,7 +1144,7 @@ Possible values:
 
 This field is required for regional backend buckets. Possible values: ["INTERNAL_MANAGED", "EXTERNAL_MANAGED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#load_balancing_scheme GoogleComputeRegionBackendBucket#load_balancing_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#load_balancing_scheme GoogleComputeRegionBackendBucket#load_balancing_scheme}
 
 ---
 
@@ -1156,7 +1156,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}.
 
 ---
 
@@ -1170,7 +1170,7 @@ Timeouts GoogleComputeRegionBackendBucketTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#timeouts GoogleComputeRegionBackendBucket#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#timeouts GoogleComputeRegionBackendBucket#timeouts}
 
 ---
 
@@ -1192,9 +1192,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#create GoogleComputeRegionBackendBucket#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#delete GoogleComputeRegionBackendBucket#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#update GoogleComputeRegionBackendBucket#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#create GoogleComputeRegionBackendBucket#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#delete GoogleComputeRegionBackendBucket#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#update GoogleComputeRegionBackendBucket#update}. |
 
 ---
 
@@ -1206,7 +1206,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#create GoogleComputeRegionBackendBucket#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#create GoogleComputeRegionBackendBucket#create}.
 
 ---
 
@@ -1218,7 +1218,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#delete GoogleComputeRegionBackendBucket#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#delete GoogleComputeRegionBackendBucket#delete}.
 
 ---
 
@@ -1230,7 +1230,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_region_backend_bucket#update GoogleComputeRegionBackendBucket#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#update GoogleComputeRegionBackendBucket#update}.
 
 ---
 

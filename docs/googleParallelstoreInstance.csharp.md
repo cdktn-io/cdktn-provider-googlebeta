@@ -4,7 +4,7 @@
 
 ### GoogleParallelstoreInstance <a name="GoogleParallelstoreInstance" id="@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance google_parallelstore_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance google_parallelstore_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstance.Initializer"></a>
 
@@ -572,7 +572,7 @@ The construct id used in the generated config for the GoogleParallelstoreInstanc
 
 The id of the existing GoogleParallelstoreInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1201,10 +1201,10 @@ new GoogleParallelstoreInstanceConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.description">Description</a></code> | <code>string</code> | The description of the instance. 2048 characters or less. |
 | <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.directoryStripeLevel">DirectoryStripeLevel</a></code> | <code>string</code> | Stripe level for directories. |
 | <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.fileStripeLevel">FileStripeLevel</a></code> | <code>string</code> | Stripe level for files. |
-| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#id GoogleParallelstoreInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#id GoogleParallelstoreInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Cloud Labels are a flexible and lightweight mechanism for organizing cloud resources into groups that reflect a customer's organizational needs and deployment strategies. |
 | <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.network">Network</a></code> | <code>string</code> | Immutable. The name of the Google Compute Engine [VPC network](https://cloud.google.com/vpc/docs/vpc) to which the instance is connected. |
-| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#project GoogleParallelstoreInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#project GoogleParallelstoreInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.reservedIpRange">ReservedIpRange</a></code> | <code>string</code> | Immutable. |
 | <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeouts">GoogleParallelstoreInstanceTimeouts</a></code> | timeouts block. |
 
@@ -1290,7 +1290,7 @@ public string CapacityGib { get; set; }
 
 Required. Immutable. Storage capacity of Parallelstore instance in Gibibytes (GiB).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#capacity_gib GoogleParallelstoreInstance#capacity_gib}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#capacity_gib GoogleParallelstoreInstance#capacity_gib}
 
 ---
 
@@ -1310,7 +1310,7 @@ The logical name of the Parallelstore instance in the user project with the foll
   * Must end with a number or a letter.
   * Must be unique within the customer project/ location
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#instance_id GoogleParallelstoreInstance#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#instance_id GoogleParallelstoreInstance#instance_id}
 
 ---
 
@@ -1324,7 +1324,7 @@ public string Location { get; set; }
 
 Part of 'parent'. See documentation of 'projectsId'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#location GoogleParallelstoreInstance#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#location GoogleParallelstoreInstance#location}
 
 ---
 
@@ -1338,7 +1338,7 @@ public string DeploymentType { get; set; }
 
 Parallelstore Instance deployment type.   Possible values:   DEPLOYMENT_TYPE_UNSPECIFIED   SCRATCH   PERSISTENT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#deployment_type GoogleParallelstoreInstance#deployment_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#deployment_type GoogleParallelstoreInstance#deployment_type}
 
 ---
 
@@ -1352,7 +1352,7 @@ public string Description { get; set; }
 
 The description of the instance. 2048 characters or less.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#description GoogleParallelstoreInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#description GoogleParallelstoreInstance#description}
 
 ---
 
@@ -1374,7 +1374,7 @@ DIRECTORY_STRIPE_LEVEL_MIN
 DIRECTORY_STRIPE_LEVEL_BALANCED
 DIRECTORY_STRIPE_LEVEL_MAX
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#directory_stripe_level GoogleParallelstoreInstance#directory_stripe_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#directory_stripe_level GoogleParallelstoreInstance#directory_stripe_level}
 
 ---
 
@@ -1396,7 +1396,7 @@ FILE_STRIPE_LEVEL_MIN
 FILE_STRIPE_LEVEL_BALANCED
 FILE_STRIPE_LEVEL_MAX
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#file_stripe_level GoogleParallelstoreInstance#file_stripe_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#file_stripe_level GoogleParallelstoreInstance#file_stripe_level}
 
 ---
 
@@ -1408,7 +1408,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#id GoogleParallelstoreInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#id GoogleParallelstoreInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1448,7 +1448,7 @@ allow '"*"' in a future release. "
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#labels GoogleParallelstoreInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#labels GoogleParallelstoreInstance#labels}
 
 ---
 
@@ -1462,7 +1462,7 @@ public string Network { get; set; }
 
 Immutable. The name of the Google Compute Engine [VPC network](https://cloud.google.com/vpc/docs/vpc) to which the instance is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#network GoogleParallelstoreInstance#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#network GoogleParallelstoreInstance#network}
 
 ---
 
@@ -1474,7 +1474,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#project GoogleParallelstoreInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#project GoogleParallelstoreInstance#project}.
 
 ---
 
@@ -1493,7 +1493,7 @@ associated with the private service access connection for example, "test-default
 associated with IP range 10.0.0.0/29. If no range id is provided all ranges will
 be considered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#reserved_ip_range GoogleParallelstoreInstance#reserved_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#reserved_ip_range GoogleParallelstoreInstance#reserved_ip_range}
 
 ---
 
@@ -1507,7 +1507,7 @@ public GoogleParallelstoreInstanceTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#timeouts GoogleParallelstoreInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#timeouts GoogleParallelstoreInstance#timeouts}
 
 ---
 
@@ -1529,9 +1529,9 @@ new GoogleParallelstoreInstanceTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#create GoogleParallelstoreInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#delete GoogleParallelstoreInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#update GoogleParallelstoreInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#create GoogleParallelstoreInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#delete GoogleParallelstoreInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleParallelstoreInstance.GoogleParallelstoreInstanceTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#update GoogleParallelstoreInstance#update}. |
 
 ---
 
@@ -1543,7 +1543,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#create GoogleParallelstoreInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#create GoogleParallelstoreInstance#create}.
 
 ---
 
@@ -1555,7 +1555,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#delete GoogleParallelstoreInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#delete GoogleParallelstoreInstance#delete}.
 
 ---
 
@@ -1567,7 +1567,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_parallelstore_instance#update GoogleParallelstoreInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_parallelstore_instance#update GoogleParallelstoreInstance#update}.
 
 ---
 

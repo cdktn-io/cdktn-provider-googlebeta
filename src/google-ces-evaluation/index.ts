@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,19 +13,19 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleCesEvaluationConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#app GoogleCesEvaluation#app}
   */
   readonly app: string;
   /**
   * User-defined description of the evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#description GoogleCesEvaluation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#description GoogleCesEvaluation#description}
   */
   readonly description?: string;
   /**
   * User-defined display name of the evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
   */
   readonly displayName: string;
   /**
@@ -33,40 +33,46 @@ export interface GoogleCesEvaluationConfig extends cdktn.TerraformMetaArguments 
   * the evaluation's resource name. If not provided, a unique ID will be
   * automatically assigned for the evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#evaluation_id GoogleCesEvaluation#evaluation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#evaluation_id GoogleCesEvaluation#evaluation_id}
   */
   readonly evaluationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#location GoogleCesEvaluation#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#project GoogleCesEvaluation#project}
   */
   readonly project?: string;
   /**
   * User defined tags to categorize the evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tags GoogleCesEvaluation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tags GoogleCesEvaluation#tags}
   */
   readonly tags?: string[];
   /**
   * golden block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#golden GoogleCesEvaluation#golden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#golden GoogleCesEvaluation#golden}
   */
   readonly golden?: GoogleCesEvaluationGolden;
   /**
+  * scenario block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#scenario GoogleCesEvaluation#scenario}
+  */
+  readonly scenario?: GoogleCesEvaluationScenario;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#timeouts GoogleCesEvaluation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#timeouts GoogleCesEvaluation#timeouts}
   */
   readonly timeouts?: GoogleCesEvaluationTimeouts;
 }
@@ -174,7 +180,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsAgentTransfer {
   /**
   * The resource name of the target agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
   */
   readonly targetAgent: string;
 }
@@ -262,7 +268,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The agent to which the conversation is being transferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
   */
   readonly targetAgent: string;
 }
@@ -350,13 +356,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * Raw bytes of the blob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -465,13 +471,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * Raw bytes of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -580,13 +586,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -698,13 +704,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The input parameters and values for the tool in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
   */
   readonly args?: { [key: string]: string };
   /**
   * The unique identifier of the tool call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -713,13 +719,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCallToolsetTool;
 }
@@ -897,13 +903,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -1015,7 +1021,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The matching ID of the tool call the response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1024,19 +1030,19 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * The tool execution result in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response?: { [key: string]: string };
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponseToolsetTool;
 }
@@ -1214,43 +1220,43 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChun
   /**
   * Text data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
   */
   readonly text?: string;
   /**
   * Updated variables in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
   */
   readonly updatedVariables?: { [key: string]: string };
   /**
   * agent_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
   */
   readonly agentTransfer?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksAgentTransfer;
   /**
   * blob block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
   */
   readonly blob?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksBlob;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
   */
   readonly image?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksImage;
   /**
   * tool_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
   */
   readonly toolCall?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolCall;
   /**
   * tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
   */
   readonly toolResponse?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunksToolResponse;
 }
@@ -1542,13 +1548,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse {
   /**
   * The role within the conversation, e.g., user, agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
   */
   readonly role?: string;
   /**
   * chunks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
   */
   readonly chunks?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponseChunks[] | cdktn.IResolvable;
 }
@@ -1663,13 +1669,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer {
   /**
   * The display name of the target agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#display_name GoogleCesEvaluation#display_name}
   */
   readonly displayName?: string;
   /**
   * The resource name of the target agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
   */
   readonly targetAgent?: string;
 }
@@ -1784,13 +1790,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseT
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -1902,7 +1908,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse 
   /**
   * The matching ID of the tool call the response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1911,19 +1917,19 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse 
   /**
   * The tool execution result in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response?: { [key: string]: string };
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponseToolsetTool;
 }
@@ -2101,13 +2107,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetTo
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -2219,13 +2225,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall {
   /**
   * The input parameters and values for the tool in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
   */
   readonly args?: { [key: string]: string };
   /**
   * The unique identifier of the tool call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2234,13 +2240,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall {
   /**
   * The resource name of the tool. Note: 'tool' and 'toolset_tool' are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationToolCallToolsetTool;
 }
@@ -2418,13 +2424,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseTools
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The resource name of the Toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -2536,7 +2542,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse {
   /**
   * The matching ID of the tool call the response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2545,19 +2551,19 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse {
   /**
   * The tool execution result in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response?: { [key: string]: string };
   /**
   * The resource name of the tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponseToolsetTool;
 }
@@ -2735,7 +2741,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariables 
   /**
   * Dummy property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#notes GoogleCesEvaluation#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#notes GoogleCesEvaluation#notes}
   */
   readonly notes?: string;
 }
@@ -2821,43 +2827,43 @@ export interface GoogleCesEvaluationGoldenTurnsStepsExpectation {
   /**
   * A note describing the expectation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#note GoogleCesEvaluation#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#note GoogleCesEvaluation#note}
   */
   readonly note?: string;
   /**
   * agent_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
   */
   readonly agentResponse?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentResponse;
   /**
   * agent_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
   */
   readonly agentTransfer?: GoogleCesEvaluationGoldenTurnsStepsExpectationAgentTransfer;
   /**
   * mock_tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
   */
   readonly mockToolResponse?: GoogleCesEvaluationGoldenTurnsStepsExpectationMockToolResponse;
   /**
   * tool_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
   */
   readonly toolCall?: GoogleCesEvaluationGoldenTurnsStepsExpectationToolCall;
   /**
   * tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
   */
   readonly toolResponse?: GoogleCesEvaluationGoldenTurnsStepsExpectationToolResponse;
   /**
   * updated_variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
   */
   readonly updatedVariables?: GoogleCesEvaluationGoldenTurnsStepsExpectationUpdatedVariables;
 }
@@ -3117,13 +3123,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputBlob {
   /**
   * Raw bytes of the blob, base64-encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -3232,7 +3238,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputEvent {
   /**
   * Event name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
   */
   readonly event: string;
 }
@@ -3315,13 +3321,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputImage {
   /**
   * Raw bytes of the image, base64-encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
   */
   readonly data: string;
   /**
   * The IANA standard MIME type of the source data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
   */
   readonly mimeType: string;
 }
@@ -3430,13 +3436,13 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolRe
   /**
   * The tool ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
   */
   readonly toolId?: string;
   /**
   * The toolset name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
   */
   readonly toolset: string;
 }
@@ -3548,7 +3554,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolRe
   /**
   * Optional. Matching ID of the tool call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3557,19 +3563,19 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolRe
   /**
   * Required. The tool execution result in JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
   */
   readonly response: { [key: string]: string };
   /**
   * Name of the tool to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponsesToolsetTool;
 }
@@ -3776,7 +3782,7 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses {
   /**
   * tool_responses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
   */
   readonly toolResponses?: GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponsesToolResponses[] | cdktn.IResolvable;
 }
@@ -3862,55 +3868,55 @@ export interface GoogleCesEvaluationGoldenTurnsStepsUserInput {
   /**
   * Audio data from the end user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#audio GoogleCesEvaluation#audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#audio GoogleCesEvaluation#audio}
   */
   readonly audio?: string;
   /**
   * DTMF digits from the end user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#dtmf GoogleCesEvaluation#dtmf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#dtmf GoogleCesEvaluation#dtmf}
   */
   readonly dtmf?: string;
   /**
   * Natural language query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
   */
   readonly text?: string;
   /**
   * Map of variables to set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#variables GoogleCesEvaluation#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#variables GoogleCesEvaluation#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * Whether the session should continue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#will_continue GoogleCesEvaluation#will_continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#will_continue GoogleCesEvaluation#will_continue}
   */
   readonly willContinue?: boolean | cdktn.IResolvable;
   /**
   * blob block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
   */
   readonly blob?: GoogleCesEvaluationGoldenTurnsStepsUserInputBlob;
   /**
   * event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#event GoogleCesEvaluation#event}
   */
   readonly event?: GoogleCesEvaluationGoldenTurnsStepsUserInputEvent;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
   */
   readonly image?: GoogleCesEvaluationGoldenTurnsStepsUserInputImage;
   /**
   * tool_responses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_responses GoogleCesEvaluation#tool_responses}
   */
   readonly toolResponses?: GoogleCesEvaluationGoldenTurnsStepsUserInputToolResponses;
 }
@@ -4228,19 +4234,19 @@ export interface GoogleCesEvaluationGoldenTurnsSteps {
   /**
   * agent_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
   */
   readonly agentTransfer?: GoogleCesEvaluationGoldenTurnsStepsAgentTransfer;
   /**
   * expectation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#expectation GoogleCesEvaluation#expectation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#expectation GoogleCesEvaluation#expectation}
   */
   readonly expectation?: GoogleCesEvaluationGoldenTurnsStepsExpectation;
   /**
   * user_input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#user_input GoogleCesEvaluation#user_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#user_input GoogleCesEvaluation#user_input}
   */
   readonly userInput?: GoogleCesEvaluationGoldenTurnsStepsUserInput;
 }
@@ -4416,7 +4422,7 @@ export interface GoogleCesEvaluationGoldenTurns {
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#steps GoogleCesEvaluation#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#steps GoogleCesEvaluation#steps}
   */
   readonly steps: GoogleCesEvaluationGoldenTurnsSteps[] | cdktn.IResolvable;
 }
@@ -4537,13 +4543,13 @@ export interface GoogleCesEvaluationGolden {
   /**
   * The evaluation expectations to evaluate the replayed conversation against. Format: projects/{project}/locations/{location}/apps/{app}/evaluationExpectations/{evaluationExpectation}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
   */
   readonly evaluationExpectations?: string[];
   /**
   * turns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#turns GoogleCesEvaluation#turns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#turns GoogleCesEvaluation#turns}
   */
   readonly turns: GoogleCesEvaluationGoldenTurns[] | cdktn.IResolvable;
 }
@@ -4651,17 +4657,2836 @@ export class GoogleCesEvaluationGoldenOutputReference extends cdktn.ComplexObjec
     return this._turns.internalValue;
   }
 }
+export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer {
+  /**
+  * The agent to which the conversation is being transferred.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#target_agent GoogleCesEvaluation#target_agent}
+  */
+  readonly targetAgent: string;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    target_agent: cdktn.stringToTerraform(struct!.targetAgent),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    target_agent: {
+      value: cdktn.stringToHclTerraform(struct!.targetAgent),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._targetAgent !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.targetAgent = this._targetAgent;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._targetAgent = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._targetAgent = value.targetAgent;
+    }
+  }
+
+  // display_name - computed: true, optional: false, required: false
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+
+  // target_agent - computed: false, optional: false, required: true
+  private _targetAgent?: string; 
+  public get targetAgent() {
+    return this.getStringAttribute('target_agent');
+  }
+  public set targetAgent(value: string) {
+    this._targetAgent = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get targetAgentInput() {
+    return this._targetAgent;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob {
+  /**
+  * Raw bytes of the blob.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  */
+  readonly data: string;
+  /**
+  * The IANA standard MIME type of the source data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  */
+  readonly mimeType: string;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    data: cdktn.stringToTerraform(struct!.data),
+    mime_type: cdktn.stringToTerraform(struct!.mimeType),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    data: {
+      value: cdktn.stringToHclTerraform(struct!.data),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mime_type: {
+      value: cdktn.stringToHclTerraform(struct!.mimeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._data !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.data = this._data;
+    }
+    if (this._mimeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mimeType = this._mimeType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._data = undefined;
+      this._mimeType = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._data = value.data;
+      this._mimeType = value.mimeType;
+    }
+  }
+
+  // data - computed: false, optional: false, required: true
+  private _data?: string; 
+  public get data() {
+    return this.getStringAttribute('data');
+  }
+  public set data(value: string) {
+    this._data = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataInput() {
+    return this._data;
+  }
+
+  // mime_type - computed: false, optional: false, required: true
+  private _mimeType?: string; 
+  public get mimeType() {
+    return this.getStringAttribute('mime_type');
+  }
+  public set mimeType(value: string) {
+    this._mimeType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mimeTypeInput() {
+    return this._mimeType;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage {
+  /**
+  * Raw bytes of the image.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#data GoogleCesEvaluation#data}
+  */
+  readonly data: string;
+  /**
+  * The IANA standard MIME type of the source data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mime_type GoogleCesEvaluation#mime_type}
+  */
+  readonly mimeType: string;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    data: cdktn.stringToTerraform(struct!.data),
+    mime_type: cdktn.stringToTerraform(struct!.mimeType),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    data: {
+      value: cdktn.stringToHclTerraform(struct!.data),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    mime_type: {
+      value: cdktn.stringToHclTerraform(struct!.mimeType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._data !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.data = this._data;
+    }
+    if (this._mimeType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mimeType = this._mimeType;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._data = undefined;
+      this._mimeType = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._data = value.data;
+      this._mimeType = value.mimeType;
+    }
+  }
+
+  // data - computed: false, optional: false, required: true
+  private _data?: string; 
+  public get data() {
+    return this.getStringAttribute('data');
+  }
+  public set data(value: string) {
+    this._data = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dataInput() {
+    return this._data;
+  }
+
+  // mime_type - computed: false, optional: false, required: true
+  private _mimeType?: string; 
+  public get mimeType() {
+    return this.getStringAttribute('mime_type');
+  }
+  public set mimeType(value: string) {
+    this._mimeType = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mimeTypeInput() {
+    return this._mimeType;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool {
+  /**
+  * The tool ID to filter the tools to retrieve the schema for.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  */
+  readonly toolId?: string;
+  /**
+  * The resource name of the Toolset.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  */
+  readonly toolset: string;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tool_id: cdktn.stringToTerraform(struct!.toolId),
+    toolset: cdktn.stringToTerraform(struct!.toolset),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tool_id: {
+      value: cdktn.stringToHclTerraform(struct!.toolId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    toolset: {
+      value: cdktn.stringToHclTerraform(struct!.toolset),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._toolId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolId = this._toolId;
+    }
+    if (this._toolset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolset = this._toolset;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._toolId = undefined;
+      this._toolset = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._toolId = value.toolId;
+      this._toolset = value.toolset;
+    }
+  }
+
+  // tool_id - computed: false, optional: true, required: false
+  private _toolId?: string; 
+  public get toolId() {
+    return this.getStringAttribute('tool_id');
+  }
+  public set toolId(value: string) {
+    this._toolId = value;
+  }
+  public resetToolId() {
+    this._toolId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolIdInput() {
+    return this._toolId;
+  }
+
+  // toolset - computed: false, optional: false, required: true
+  private _toolset?: string; 
+  public get toolset() {
+    return this.getStringAttribute('toolset');
+  }
+  public set toolset(value: string) {
+    this._toolset = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolsetInput() {
+    return this._toolset;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall {
+  /**
+  * The input parameters and values for the tool in JSON object format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+  */
+  readonly args?: { [key: string]: string };
+  /**
+  * The unique identifier of the tool call.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * The resource name of the tool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  */
+  readonly tool?: string;
+  /**
+  * toolset_tool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  */
+  readonly toolsetTool?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    args: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.args),
+    id: cdktn.stringToTerraform(struct!.id),
+    tool: cdktn.stringToTerraform(struct!.tool),
+    toolset_tool: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolToTerraform(struct!.toolsetTool),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    args: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.args),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    id: {
+      value: cdktn.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tool: {
+      value: cdktn.stringToHclTerraform(struct!.tool),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    toolset_tool: {
+      value: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolToHclTerraform(struct!.toolsetTool),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._args !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.args = this._args;
+    }
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._tool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tool = this._tool;
+    }
+    if (this._toolsetTool?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolsetTool = this._toolsetTool?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._args = undefined;
+      this._id = undefined;
+      this._tool = undefined;
+      this._toolsetTool.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._args = value.args;
+      this._id = value.id;
+      this._tool = value.tool;
+      this._toolsetTool.internalValue = value.toolsetTool;
+    }
+  }
+
+  // args - computed: false, optional: true, required: false
+  private _args?: { [key: string]: string }; 
+  public get args() {
+    return this.getStringMapAttribute('args');
+  }
+  public set args(value: { [key: string]: string }) {
+    this._args = value;
+  }
+  public resetArgs() {
+    this._args = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get argsInput() {
+    return this._args;
+  }
+
+  // display_name - computed: true, optional: false, required: false
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // tool - computed: false, optional: true, required: false
+  private _tool?: string; 
+  public get tool() {
+    return this.getStringAttribute('tool');
+  }
+  public set tool(value: string) {
+    this._tool = value;
+  }
+  public resetTool() {
+    this._tool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolInput() {
+    return this._tool;
+  }
+
+  // toolset_tool - computed: false, optional: true, required: false
+  private _toolsetTool = new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetToolOutputReference(this, "toolset_tool");
+  public get toolsetTool() {
+    return this._toolsetTool;
+  }
+  public putToolsetTool(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToolsetTool) {
+    this._toolsetTool.internalValue = value;
+  }
+  public resetToolsetTool() {
+    this._toolsetTool.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolsetToolInput() {
+    return this._toolsetTool.internalValue;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool {
+  /**
+  * The tool ID to filter the tools to retrieve the schema for.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  */
+  readonly toolId?: string;
+  /**
+  * The resource name of the Toolset.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  */
+  readonly toolset: string;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tool_id: cdktn.stringToTerraform(struct!.toolId),
+    toolset: cdktn.stringToTerraform(struct!.toolset),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tool_id: {
+      value: cdktn.stringToHclTerraform(struct!.toolId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    toolset: {
+      value: cdktn.stringToHclTerraform(struct!.toolset),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._toolId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolId = this._toolId;
+    }
+    if (this._toolset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolset = this._toolset;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._toolId = undefined;
+      this._toolset = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._toolId = value.toolId;
+      this._toolset = value.toolset;
+    }
+  }
+
+  // tool_id - computed: false, optional: true, required: false
+  private _toolId?: string; 
+  public get toolId() {
+    return this.getStringAttribute('tool_id');
+  }
+  public set toolId(value: string) {
+    this._toolId = value;
+  }
+  public resetToolId() {
+    this._toolId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolIdInput() {
+    return this._toolId;
+  }
+
+  // toolset - computed: false, optional: false, required: true
+  private _toolset?: string; 
+  public get toolset() {
+    return this.getStringAttribute('toolset');
+  }
+  public set toolset(value: string) {
+    this._toolset = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolsetInput() {
+    return this._toolset;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse {
+  /**
+  * The matching ID of the tool call the response is for.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * The tool execution result in JSON object format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  */
+  readonly response?: { [key: string]: string };
+  /**
+  * The resource name of the tool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  */
+  readonly tool?: string;
+  /**
+  * toolset_tool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  */
+  readonly toolsetTool?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktn.stringToTerraform(struct!.id),
+    response: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.response),
+    tool: cdktn.stringToTerraform(struct!.tool),
+    toolset_tool: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolToTerraform(struct!.toolsetTool),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktn.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    response: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.response),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    tool: {
+      value: cdktn.stringToHclTerraform(struct!.tool),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    toolset_tool: {
+      value: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolToHclTerraform(struct!.toolsetTool),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._response !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.response = this._response;
+    }
+    if (this._tool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tool = this._tool;
+    }
+    if (this._toolsetTool?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolsetTool = this._toolsetTool?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._id = undefined;
+      this._response = undefined;
+      this._tool = undefined;
+      this._toolsetTool.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._id = value.id;
+      this._response = value.response;
+      this._tool = value.tool;
+      this._toolsetTool.internalValue = value.toolsetTool;
+    }
+  }
+
+  // display_name - computed: true, optional: false, required: false
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // response - computed: false, optional: true, required: false
+  private _response?: { [key: string]: string }; 
+  public get response() {
+    return this.getStringMapAttribute('response');
+  }
+  public set response(value: { [key: string]: string }) {
+    this._response = value;
+  }
+  public resetResponse() {
+    this._response = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseInput() {
+    return this._response;
+  }
+
+  // tool - computed: false, optional: true, required: false
+  private _tool?: string; 
+  public get tool() {
+    return this.getStringAttribute('tool');
+  }
+  public set tool(value: string) {
+    this._tool = value;
+  }
+  public resetTool() {
+    this._tool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolInput() {
+    return this._tool;
+  }
+
+  // toolset_tool - computed: false, optional: true, required: false
+  private _toolsetTool = new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetToolOutputReference(this, "toolset_tool");
+  public get toolsetTool() {
+    return this._toolsetTool;
+  }
+  public putToolsetTool(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToolsetTool) {
+    this._toolsetTool.internalValue = value;
+  }
+  public resetToolsetTool() {
+    this._toolsetTool.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolsetToolInput() {
+    return this._toolsetTool.internalValue;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks {
+  /**
+  * Text data.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#text GoogleCesEvaluation#text}
+  */
+  readonly text?: string;
+  /**
+  * Updated variables in JSON object format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#updated_variables GoogleCesEvaluation#updated_variables}
+  */
+  readonly updatedVariables?: { [key: string]: string };
+  /**
+  * agent_transfer block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_transfer GoogleCesEvaluation#agent_transfer}
+  */
+  readonly agentTransfer?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer;
+  /**
+  * blob block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#blob GoogleCesEvaluation#blob}
+  */
+  readonly blob?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob;
+  /**
+  * image block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#image GoogleCesEvaluation#image}
+  */
+  readonly image?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage;
+  /**
+  * tool_call block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_call GoogleCesEvaluation#tool_call}
+  */
+  readonly toolCall?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall;
+  /**
+  * tool_response block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_response GoogleCesEvaluation#tool_response}
+  */
+  readonly toolResponse?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    text: cdktn.stringToTerraform(struct!.text),
+    updated_variables: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.updatedVariables),
+    agent_transfer: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferToTerraform(struct!.agentTransfer),
+    blob: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobToTerraform(struct!.blob),
+    image: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageToTerraform(struct!.image),
+    tool_call: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToTerraform(struct!.toolCall),
+    tool_response: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToTerraform(struct!.toolResponse),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    text: {
+      value: cdktn.stringToHclTerraform(struct!.text),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    updated_variables: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.updatedVariables),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    agent_transfer: {
+      value: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferToHclTerraform(struct!.agentTransfer),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferList",
+    },
+    blob: {
+      value: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobToHclTerraform(struct!.blob),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobList",
+    },
+    image: {
+      value: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageToHclTerraform(struct!.image),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageList",
+    },
+    tool_call: {
+      value: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallToHclTerraform(struct!.toolCall),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallList",
+    },
+    tool_response: {
+      value: googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseToHclTerraform(struct!.toolResponse),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._text !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.text = this._text;
+    }
+    if (this._updatedVariables !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.updatedVariables = this._updatedVariables;
+    }
+    if (this._agentTransfer?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentTransfer = this._agentTransfer?.internalValue;
+    }
+    if (this._blob?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.blob = this._blob?.internalValue;
+    }
+    if (this._image?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.image = this._image?.internalValue;
+    }
+    if (this._toolCall?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolCall = this._toolCall?.internalValue;
+    }
+    if (this._toolResponse?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolResponse = this._toolResponse?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._text = undefined;
+      this._updatedVariables = undefined;
+      this._agentTransfer.internalValue = undefined;
+      this._blob.internalValue = undefined;
+      this._image.internalValue = undefined;
+      this._toolCall.internalValue = undefined;
+      this._toolResponse.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._text = value.text;
+      this._updatedVariables = value.updatedVariables;
+      this._agentTransfer.internalValue = value.agentTransfer;
+      this._blob.internalValue = value.blob;
+      this._image.internalValue = value.image;
+      this._toolCall.internalValue = value.toolCall;
+      this._toolResponse.internalValue = value.toolResponse;
+    }
+  }
+
+  // text - computed: false, optional: true, required: false
+  private _text?: string; 
+  public get text() {
+    return this.getStringAttribute('text');
+  }
+  public set text(value: string) {
+    this._text = value;
+  }
+  public resetText() {
+    this._text = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get textInput() {
+    return this._text;
+  }
+
+  // updated_variables - computed: false, optional: true, required: false
+  private _updatedVariables?: { [key: string]: string }; 
+  public get updatedVariables() {
+    return this.getStringMapAttribute('updated_variables');
+  }
+  public set updatedVariables(value: { [key: string]: string }) {
+    this._updatedVariables = value;
+  }
+  public resetUpdatedVariables() {
+    this._updatedVariables = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get updatedVariablesInput() {
+    return this._updatedVariables;
+  }
+
+  // agent_transfer - computed: false, optional: true, required: false
+  private _agentTransfer = new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransferOutputReference(this, "agent_transfer");
+  public get agentTransfer() {
+    return this._agentTransfer;
+  }
+  public putAgentTransfer(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksAgentTransfer) {
+    this._agentTransfer.internalValue = value;
+  }
+  public resetAgentTransfer() {
+    this._agentTransfer.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentTransferInput() {
+    return this._agentTransfer.internalValue;
+  }
+
+  // blob - computed: false, optional: true, required: false
+  private _blob = new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlobOutputReference(this, "blob");
+  public get blob() {
+    return this._blob;
+  }
+  public putBlob(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksBlob) {
+    this._blob.internalValue = value;
+  }
+  public resetBlob() {
+    this._blob.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get blobInput() {
+    return this._blob.internalValue;
+  }
+
+  // image - computed: false, optional: true, required: false
+  private _image = new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImageOutputReference(this, "image");
+  public get image() {
+    return this._image;
+  }
+  public putImage(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksImage) {
+    this._image.internalValue = value;
+  }
+  public resetImage() {
+    this._image.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageInput() {
+    return this._image.internalValue;
+  }
+
+  // tool_call - computed: false, optional: true, required: false
+  private _toolCall = new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCallOutputReference(this, "tool_call");
+  public get toolCall() {
+    return this._toolCall;
+  }
+  public putToolCall(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolCall) {
+    this._toolCall.internalValue = value;
+  }
+  public resetToolCall() {
+    this._toolCall.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolCallInput() {
+    return this._toolCall.internalValue;
+  }
+
+  // tool_response - computed: false, optional: true, required: false
+  private _toolResponse = new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponseOutputReference(this, "tool_response");
+  public get toolResponse() {
+    return this._toolResponse;
+  }
+  public putToolResponse(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToolResponse) {
+    this._toolResponse.internalValue = value;
+  }
+  public resetToolResponse() {
+    this._toolResponse.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolResponseInput() {
+    return this._toolResponse.internalValue;
+  }
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList extends cdktn.ComplexList {
+  public internalValue? : GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference {
+    return new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse {
+  /**
+  * The role within the conversation, e.g., user, agent.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#role GoogleCesEvaluation#role}
+  */
+  readonly role?: string;
+  /**
+  * chunks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#chunks GoogleCesEvaluation#chunks}
+  */
+  readonly chunks?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks[] | cdktn.IResolvable;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    role: cdktn.stringToTerraform(struct!.role),
+    chunks: cdktn.listMapper(googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToTerraform, true)(struct!.chunks),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsAgentResponseToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    role: {
+      value: cdktn.stringToHclTerraform(struct!.role),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    chunks: {
+      value: cdktn.listMapperHcl(googleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksToHclTerraform, true)(struct!.chunks),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._role !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.role = this._role;
+    }
+    if (this._chunks?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.chunks = this._chunks?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._role = undefined;
+      this._chunks.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._role = value.role;
+      this._chunks.internalValue = value.chunks;
+    }
+  }
+
+  // role - computed: false, optional: true, required: false
+  private _role?: string; 
+  public get role() {
+    return this.getStringAttribute('role');
+  }
+  public set role(value: string) {
+    this._role = value;
+  }
+  public resetRole() {
+    this._role = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleInput() {
+    return this._role;
+  }
+
+  // chunks - computed: false, optional: true, required: false
+  private _chunks = new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunksList(this, "chunks", false);
+  public get chunks() {
+    return this._chunks;
+  }
+  public putChunks(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseChunks[] | cdktn.IResolvable) {
+    this._chunks.internalValue = value;
+  }
+  public resetChunks() {
+    this._chunks.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get chunksInput() {
+    return this._chunks.internalValue;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool {
+  /**
+  * The tool ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  */
+  readonly toolId?: string;
+  /**
+  * Required. The toolset name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  */
+  readonly toolset?: string;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tool_id: cdktn.stringToTerraform(struct!.toolId),
+    toolset: cdktn.stringToTerraform(struct!.toolset),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tool_id: {
+      value: cdktn.stringToHclTerraform(struct!.toolId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    toolset: {
+      value: cdktn.stringToHclTerraform(struct!.toolset),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._toolId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolId = this._toolId;
+    }
+    if (this._toolset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolset = this._toolset;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._toolId = undefined;
+      this._toolset = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._toolId = value.toolId;
+      this._toolset = value.toolset;
+    }
+  }
+
+  // tool_id - computed: false, optional: true, required: false
+  private _toolId?: string; 
+  public get toolId() {
+    return this.getStringAttribute('tool_id');
+  }
+  public set toolId(value: string) {
+    this._toolId = value;
+  }
+  public resetToolId() {
+    this._toolId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolIdInput() {
+    return this._toolId;
+  }
+
+  // toolset - computed: false, optional: true, required: false
+  private _toolset?: string; 
+  public get toolset() {
+    return this.getStringAttribute('toolset');
+  }
+  public set toolset(value: string) {
+    this._toolset = value;
+  }
+  public resetToolset() {
+    this._toolset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolsetInput() {
+    return this._toolset;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall {
+  /**
+  * The input parameters and values for the tool in JSON object format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#args GoogleCesEvaluation#args}
+  */
+  readonly args?: { [key: string]: string };
+  /**
+  * Optional. The unique identifier of the tool call.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Name of the tool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  */
+  readonly tool?: string;
+  /**
+  * toolset_tool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  */
+  readonly toolsetTool?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    args: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.args),
+    id: cdktn.stringToTerraform(struct!.id),
+    tool: cdktn.stringToTerraform(struct!.tool),
+    toolset_tool: googleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolToTerraform(struct!.toolsetTool),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    args: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.args),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    id: {
+      value: cdktn.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tool: {
+      value: cdktn.stringToHclTerraform(struct!.tool),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    toolset_tool: {
+      value: googleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolToHclTerraform(struct!.toolsetTool),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._args !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.args = this._args;
+    }
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._tool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tool = this._tool;
+    }
+    if (this._toolsetTool?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolsetTool = this._toolsetTool?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._args = undefined;
+      this._id = undefined;
+      this._tool = undefined;
+      this._toolsetTool.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._args = value.args;
+      this._id = value.id;
+      this._tool = value.tool;
+      this._toolsetTool.internalValue = value.toolsetTool;
+    }
+  }
+
+  // args - computed: false, optional: true, required: false
+  private _args?: { [key: string]: string }; 
+  public get args() {
+    return this.getStringMapAttribute('args');
+  }
+  public set args(value: { [key: string]: string }) {
+    this._args = value;
+  }
+  public resetArgs() {
+    this._args = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get argsInput() {
+    return this._args;
+  }
+
+  // display_name - computed: true, optional: false, required: false
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // tool - computed: false, optional: true, required: false
+  private _tool?: string; 
+  public get tool() {
+    return this.getStringAttribute('tool');
+  }
+  public set tool(value: string) {
+    this._tool = value;
+  }
+  public resetTool() {
+    this._tool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolInput() {
+    return this._tool;
+  }
+
+  // toolset_tool - computed: false, optional: true, required: false
+  private _toolsetTool = new GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetToolOutputReference(this, "toolset_tool");
+  public get toolsetTool() {
+    return this._toolsetTool;
+  }
+  public putToolsetTool(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToolsetTool) {
+    this._toolsetTool.internalValue = value;
+  }
+  public resetToolsetTool() {
+    this._toolsetTool.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolsetToolInput() {
+    return this._toolsetTool.internalValue;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool {
+  /**
+  * The tool ID.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_id GoogleCesEvaluation#tool_id}
+  */
+  readonly toolId?: string;
+  /**
+  * Required. The toolset name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset GoogleCesEvaluation#toolset}
+  */
+  readonly toolset?: string;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    tool_id: cdktn.stringToTerraform(struct!.toolId),
+    toolset: cdktn.stringToTerraform(struct!.toolset),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    tool_id: {
+      value: cdktn.stringToHclTerraform(struct!.toolId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    toolset: {
+      value: cdktn.stringToHclTerraform(struct!.toolset),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._toolId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolId = this._toolId;
+    }
+    if (this._toolset !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolset = this._toolset;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._toolId = undefined;
+      this._toolset = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._toolId = value.toolId;
+      this._toolset = value.toolset;
+    }
+  }
+
+  // tool_id - computed: false, optional: true, required: false
+  private _toolId?: string; 
+  public get toolId() {
+    return this.getStringAttribute('tool_id');
+  }
+  public set toolId(value: string) {
+    this._toolId = value;
+  }
+  public resetToolId() {
+    this._toolId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolIdInput() {
+    return this._toolId;
+  }
+
+  // toolset - computed: false, optional: true, required: false
+  private _toolset?: string; 
+  public get toolset() {
+    return this.getStringAttribute('toolset');
+  }
+  public set toolset(value: string) {
+    this._toolset = value;
+  }
+  public resetToolset() {
+    this._toolset = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolsetInput() {
+    return this._toolset;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse {
+  /**
+  * Optional. Matching ID of the tool call.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#id GoogleCesEvaluation#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * The tool execution result in JSON object format.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#response GoogleCesEvaluation#response}
+  */
+  readonly response?: { [key: string]: string };
+  /**
+  * Name of the tool to execute.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool GoogleCesEvaluation#tool}
+  */
+  readonly tool?: string;
+  /**
+  * toolset_tool block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#toolset_tool GoogleCesEvaluation#toolset_tool}
+  */
+  readonly toolsetTool?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    id: cdktn.stringToTerraform(struct!.id),
+    response: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.response),
+    tool: cdktn.stringToTerraform(struct!.tool),
+    toolset_tool: googleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolToTerraform(struct!.toolsetTool),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    id: {
+      value: cdktn.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    response: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.response),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    tool: {
+      value: cdktn.stringToHclTerraform(struct!.tool),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    toolset_tool: {
+      value: googleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolToHclTerraform(struct!.toolsetTool),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    if (this._response !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.response = this._response;
+    }
+    if (this._tool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tool = this._tool;
+    }
+    if (this._toolsetTool?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolsetTool = this._toolsetTool?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._id = undefined;
+      this._response = undefined;
+      this._tool = undefined;
+      this._toolsetTool.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._id = value.id;
+      this._response = value.response;
+      this._tool = value.tool;
+      this._toolsetTool.internalValue = value.toolsetTool;
+    }
+  }
+
+  // display_name - computed: true, optional: false, required: false
+  public get displayName() {
+    return this.getStringAttribute('display_name');
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // response - computed: false, optional: true, required: false
+  private _response?: { [key: string]: string }; 
+  public get response() {
+    return this.getStringMapAttribute('response');
+  }
+  public set response(value: { [key: string]: string }) {
+    this._response = value;
+  }
+  public resetResponse() {
+    this._response = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get responseInput() {
+    return this._response;
+  }
+
+  // tool - computed: false, optional: true, required: false
+  private _tool?: string; 
+  public get tool() {
+    return this.getStringAttribute('tool');
+  }
+  public set tool(value: string) {
+    this._tool = value;
+  }
+  public resetTool() {
+    this._tool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolInput() {
+    return this._tool;
+  }
+
+  // toolset_tool - computed: false, optional: true, required: false
+  private _toolsetTool = new GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetToolOutputReference(this, "toolset_tool");
+  public get toolsetTool() {
+    return this._toolsetTool;
+  }
+  public putToolsetTool(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToolsetTool) {
+    this._toolsetTool.internalValue = value;
+  }
+  public resetToolsetTool() {
+    this._toolsetTool.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolsetToolInput() {
+    return this._toolsetTool.internalValue;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation {
+  /**
+  * expected_tool_call block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#expected_tool_call GoogleCesEvaluation#expected_tool_call}
+  */
+  readonly expectedToolCall?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall;
+  /**
+  * mock_tool_response block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#mock_tool_response GoogleCesEvaluation#mock_tool_response}
+  */
+  readonly mockToolResponse?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    expected_tool_call: googleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToTerraform(struct!.expectedToolCall),
+    mock_tool_response: googleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToTerraform(struct!.mockToolResponse),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsToolExpectationToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference | GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    expected_tool_call: {
+      value: googleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallToHclTerraform(struct!.expectedToolCall),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallList",
+    },
+    mock_tool_response: {
+      value: googleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseToHclTerraform(struct!.mockToolResponse),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._expectedToolCall?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.expectedToolCall = this._expectedToolCall?.internalValue;
+    }
+    if (this._mockToolResponse?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mockToolResponse = this._mockToolResponse?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._expectedToolCall.internalValue = undefined;
+      this._mockToolResponse.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._expectedToolCall.internalValue = value.expectedToolCall;
+      this._mockToolResponse.internalValue = value.mockToolResponse;
+    }
+  }
+
+  // expected_tool_call - computed: false, optional: true, required: false
+  private _expectedToolCall = new GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCallOutputReference(this, "expected_tool_call");
+  public get expectedToolCall() {
+    return this._expectedToolCall;
+  }
+  public putExpectedToolCall(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationExpectedToolCall) {
+    this._expectedToolCall.internalValue = value;
+  }
+  public resetExpectedToolCall() {
+    this._expectedToolCall.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expectedToolCallInput() {
+    return this._expectedToolCall.internalValue;
+  }
+
+  // mock_tool_response - computed: false, optional: true, required: false
+  private _mockToolResponse = new GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponseOutputReference(this, "mock_tool_response");
+  public get mockToolResponse() {
+    return this._mockToolResponse;
+  }
+  public putMockToolResponse(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationMockToolResponse) {
+    this._mockToolResponse.internalValue = value;
+  }
+  public resetMockToolResponse() {
+    this._mockToolResponse.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mockToolResponseInput() {
+    return this._mockToolResponse.internalValue;
+  }
+}
+export interface GoogleCesEvaluationScenarioScenarioExpectations {
+  /**
+  * agent_response block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#agent_response GoogleCesEvaluation#agent_response}
+  */
+  readonly agentResponse?: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse;
+  /**
+  * tool_expectation block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#tool_expectation GoogleCesEvaluation#tool_expectation}
+  */
+  readonly toolExpectation?: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation;
+}
+
+export function googleCesEvaluationScenarioScenarioExpectationsToTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    agent_response: googleCesEvaluationScenarioScenarioExpectationsAgentResponseToTerraform(struct!.agentResponse),
+    tool_expectation: googleCesEvaluationScenarioScenarioExpectationsToolExpectationToTerraform(struct!.toolExpectation),
+  }
+}
+
+
+export function googleCesEvaluationScenarioScenarioExpectationsToHclTerraform(struct?: GoogleCesEvaluationScenarioScenarioExpectations | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    agent_response: {
+      value: googleCesEvaluationScenarioScenarioExpectationsAgentResponseToHclTerraform(struct!.agentResponse),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseList",
+    },
+    tool_expectation: {
+      value: googleCesEvaluationScenarioScenarioExpectationsToolExpectationToHclTerraform(struct!.toolExpectation),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioScenarioExpectations | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._agentResponse?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.agentResponse = this._agentResponse?.internalValue;
+    }
+    if (this._toolExpectation?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.toolExpectation = this._toolExpectation?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioScenarioExpectations | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._agentResponse.internalValue = undefined;
+      this._toolExpectation.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._agentResponse.internalValue = value.agentResponse;
+      this._toolExpectation.internalValue = value.toolExpectation;
+    }
+  }
+
+  // agent_response - computed: false, optional: true, required: false
+  private _agentResponse = new GoogleCesEvaluationScenarioScenarioExpectationsAgentResponseOutputReference(this, "agent_response");
+  public get agentResponse() {
+    return this._agentResponse;
+  }
+  public putAgentResponse(value: GoogleCesEvaluationScenarioScenarioExpectationsAgentResponse) {
+    this._agentResponse.internalValue = value;
+  }
+  public resetAgentResponse() {
+    this._agentResponse.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentResponseInput() {
+    return this._agentResponse.internalValue;
+  }
+
+  // tool_expectation - computed: false, optional: true, required: false
+  private _toolExpectation = new GoogleCesEvaluationScenarioScenarioExpectationsToolExpectationOutputReference(this, "tool_expectation");
+  public get toolExpectation() {
+    return this._toolExpectation;
+  }
+  public putToolExpectation(value: GoogleCesEvaluationScenarioScenarioExpectationsToolExpectation) {
+    this._toolExpectation.internalValue = value;
+  }
+  public resetToolExpectation() {
+    this._toolExpectation.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get toolExpectationInput() {
+    return this._toolExpectation.internalValue;
+  }
+}
+
+export class GoogleCesEvaluationScenarioScenarioExpectationsList extends cdktn.ComplexList {
+  public internalValue? : GoogleCesEvaluationScenarioScenarioExpectations[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesEvaluationScenarioScenarioExpectationsOutputReference {
+    return new GoogleCesEvaluationScenarioScenarioExpectationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesEvaluationScenarioUserFacts {
+  /**
+  * The name of the user fact.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#name GoogleCesEvaluation#name}
+  */
+  readonly name: string;
+  /**
+  * The value of the user fact.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#value GoogleCesEvaluation#value}
+  */
+  readonly value: string;
+}
+
+export function googleCesEvaluationScenarioUserFactsToTerraform(struct?: GoogleCesEvaluationScenarioUserFacts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktn.stringToTerraform(struct!.name),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function googleCesEvaluationScenarioUserFactsToHclTerraform(struct?: GoogleCesEvaluationScenarioUserFacts | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktn.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioUserFactsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenarioUserFacts | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenarioUserFacts | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._name = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._name = value.name;
+      this._value = value.value;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // value - computed: false, optional: false, required: true
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class GoogleCesEvaluationScenarioUserFactsList extends cdktn.ComplexList {
+  public internalValue? : GoogleCesEvaluationScenarioUserFacts[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): GoogleCesEvaluationScenarioUserFactsOutputReference {
+    return new GoogleCesEvaluationScenarioUserFactsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface GoogleCesEvaluationScenario {
+  /**
+  * Evaluation expectations.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#evaluation_expectations GoogleCesEvaluation#evaluation_expectations}
+  */
+  readonly evaluationExpectations?: string[];
+  /**
+  * Max turns.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#max_turns GoogleCesEvaluation#max_turns}
+  */
+  readonly maxTurns?: number;
+  /**
+  * Rubrics.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#rubrics GoogleCesEvaluation#rubrics}
+  */
+  readonly rubrics: string[];
+  /**
+  * The task to evaluate.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#task GoogleCesEvaluation#task}
+  */
+  readonly task: string;
+  /**
+  * Task completion behavior.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#task_completion_behavior GoogleCesEvaluation#task_completion_behavior}
+  */
+  readonly taskCompletionBehavior?: string;
+  /**
+  * User goal behavior.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#user_goal_behavior GoogleCesEvaluation#user_goal_behavior}
+  */
+  readonly userGoalBehavior?: string;
+  /**
+  * Variables / Session Parameters as context for the session, keyed by variable names. Members of this struct will override any default values set by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#variable_overrides GoogleCesEvaluation#variable_overrides}
+  */
+  readonly variableOverrides?: { [key: string]: string };
+  /**
+  * scenario_expectations block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#scenario_expectations GoogleCesEvaluation#scenario_expectations}
+  */
+  readonly scenarioExpectations: GoogleCesEvaluationScenarioScenarioExpectations[] | cdktn.IResolvable;
+  /**
+  * user_facts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#user_facts GoogleCesEvaluation#user_facts}
+  */
+  readonly userFacts?: GoogleCesEvaluationScenarioUserFacts[] | cdktn.IResolvable;
+}
+
+export function googleCesEvaluationScenarioToTerraform(struct?: GoogleCesEvaluationScenarioOutputReference | GoogleCesEvaluationScenario): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    evaluation_expectations: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.evaluationExpectations),
+    max_turns: cdktn.numberToTerraform(struct!.maxTurns),
+    rubrics: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.rubrics),
+    task: cdktn.stringToTerraform(struct!.task),
+    task_completion_behavior: cdktn.stringToTerraform(struct!.taskCompletionBehavior),
+    user_goal_behavior: cdktn.stringToTerraform(struct!.userGoalBehavior),
+    variable_overrides: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.variableOverrides),
+    scenario_expectations: cdktn.listMapper(googleCesEvaluationScenarioScenarioExpectationsToTerraform, true)(struct!.scenarioExpectations),
+    user_facts: cdktn.listMapper(googleCesEvaluationScenarioUserFactsToTerraform, true)(struct!.userFacts),
+  }
+}
+
+
+export function googleCesEvaluationScenarioToHclTerraform(struct?: GoogleCesEvaluationScenarioOutputReference | GoogleCesEvaluationScenario): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    evaluation_expectations: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.evaluationExpectations),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    max_turns: {
+      value: cdktn.numberToHclTerraform(struct!.maxTurns),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    rubrics: {
+      value: cdktn.listMapperHcl(cdktn.stringToHclTerraform, false)(struct!.rubrics),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
+    },
+    task: {
+      value: cdktn.stringToHclTerraform(struct!.task),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    task_completion_behavior: {
+      value: cdktn.stringToHclTerraform(struct!.taskCompletionBehavior),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    user_goal_behavior: {
+      value: cdktn.stringToHclTerraform(struct!.userGoalBehavior),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    variable_overrides: {
+      value: cdktn.hashMapperHcl(cdktn.stringToHclTerraform)(struct!.variableOverrides),
+      isBlock: false,
+      type: "map",
+      storageClassType: "stringMap",
+    },
+    scenario_expectations: {
+      value: cdktn.listMapperHcl(googleCesEvaluationScenarioScenarioExpectationsToHclTerraform, true)(struct!.scenarioExpectations),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioScenarioExpectationsList",
+    },
+    user_facts: {
+      value: cdktn.listMapperHcl(googleCesEvaluationScenarioUserFactsToHclTerraform, true)(struct!.userFacts),
+      isBlock: true,
+      type: "list",
+      storageClassType: "GoogleCesEvaluationScenarioUserFactsList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleCesEvaluationScenarioOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleCesEvaluationScenario | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._evaluationExpectations !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.evaluationExpectations = this._evaluationExpectations;
+    }
+    if (this._maxTurns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxTurns = this._maxTurns;
+    }
+    if (this._rubrics !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rubrics = this._rubrics;
+    }
+    if (this._task !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.task = this._task;
+    }
+    if (this._taskCompletionBehavior !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.taskCompletionBehavior = this._taskCompletionBehavior;
+    }
+    if (this._userGoalBehavior !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userGoalBehavior = this._userGoalBehavior;
+    }
+    if (this._variableOverrides !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.variableOverrides = this._variableOverrides;
+    }
+    if (this._scenarioExpectations?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scenarioExpectations = this._scenarioExpectations?.internalValue;
+    }
+    if (this._userFacts?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.userFacts = this._userFacts?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleCesEvaluationScenario | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._evaluationExpectations = undefined;
+      this._maxTurns = undefined;
+      this._rubrics = undefined;
+      this._task = undefined;
+      this._taskCompletionBehavior = undefined;
+      this._userGoalBehavior = undefined;
+      this._variableOverrides = undefined;
+      this._scenarioExpectations.internalValue = undefined;
+      this._userFacts.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._evaluationExpectations = value.evaluationExpectations;
+      this._maxTurns = value.maxTurns;
+      this._rubrics = value.rubrics;
+      this._task = value.task;
+      this._taskCompletionBehavior = value.taskCompletionBehavior;
+      this._userGoalBehavior = value.userGoalBehavior;
+      this._variableOverrides = value.variableOverrides;
+      this._scenarioExpectations.internalValue = value.scenarioExpectations;
+      this._userFacts.internalValue = value.userFacts;
+    }
+  }
+
+  // evaluation_expectations - computed: false, optional: true, required: false
+  private _evaluationExpectations?: string[]; 
+  public get evaluationExpectations() {
+    return this.getListAttribute('evaluation_expectations');
+  }
+  public set evaluationExpectations(value: string[]) {
+    this._evaluationExpectations = value;
+  }
+  public resetEvaluationExpectations() {
+    this._evaluationExpectations = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get evaluationExpectationsInput() {
+    return this._evaluationExpectations;
+  }
+
+  // max_turns - computed: false, optional: true, required: false
+  private _maxTurns?: number; 
+  public get maxTurns() {
+    return this.getNumberAttribute('max_turns');
+  }
+  public set maxTurns(value: number) {
+    this._maxTurns = value;
+  }
+  public resetMaxTurns() {
+    this._maxTurns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxTurnsInput() {
+    return this._maxTurns;
+  }
+
+  // rubrics - computed: false, optional: false, required: true
+  private _rubrics?: string[]; 
+  public get rubrics() {
+    return this.getListAttribute('rubrics');
+  }
+  public set rubrics(value: string[]) {
+    this._rubrics = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rubricsInput() {
+    return this._rubrics;
+  }
+
+  // task - computed: false, optional: false, required: true
+  private _task?: string; 
+  public get task() {
+    return this.getStringAttribute('task');
+  }
+  public set task(value: string) {
+    this._task = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskInput() {
+    return this._task;
+  }
+
+  // task_completion_behavior - computed: false, optional: true, required: false
+  private _taskCompletionBehavior?: string; 
+  public get taskCompletionBehavior() {
+    return this.getStringAttribute('task_completion_behavior');
+  }
+  public set taskCompletionBehavior(value: string) {
+    this._taskCompletionBehavior = value;
+  }
+  public resetTaskCompletionBehavior() {
+    this._taskCompletionBehavior = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get taskCompletionBehaviorInput() {
+    return this._taskCompletionBehavior;
+  }
+
+  // user_goal_behavior - computed: false, optional: true, required: false
+  private _userGoalBehavior?: string; 
+  public get userGoalBehavior() {
+    return this.getStringAttribute('user_goal_behavior');
+  }
+  public set userGoalBehavior(value: string) {
+    this._userGoalBehavior = value;
+  }
+  public resetUserGoalBehavior() {
+    this._userGoalBehavior = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userGoalBehaviorInput() {
+    return this._userGoalBehavior;
+  }
+
+  // variable_overrides - computed: false, optional: true, required: false
+  private _variableOverrides?: { [key: string]: string }; 
+  public get variableOverrides() {
+    return this.getStringMapAttribute('variable_overrides');
+  }
+  public set variableOverrides(value: { [key: string]: string }) {
+    this._variableOverrides = value;
+  }
+  public resetVariableOverrides() {
+    this._variableOverrides = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get variableOverridesInput() {
+    return this._variableOverrides;
+  }
+
+  // scenario_expectations - computed: false, optional: false, required: true
+  private _scenarioExpectations = new GoogleCesEvaluationScenarioScenarioExpectationsList(this, "scenario_expectations", false);
+  public get scenarioExpectations() {
+    return this._scenarioExpectations;
+  }
+  public putScenarioExpectations(value: GoogleCesEvaluationScenarioScenarioExpectations[] | cdktn.IResolvable) {
+    this._scenarioExpectations.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scenarioExpectationsInput() {
+    return this._scenarioExpectations.internalValue;
+  }
+
+  // user_facts - computed: false, optional: true, required: false
+  private _userFacts = new GoogleCesEvaluationScenarioUserFactsList(this, "user_facts", false);
+  public get userFacts() {
+    return this._userFacts;
+  }
+  public putUserFacts(value: GoogleCesEvaluationScenarioUserFacts[] | cdktn.IResolvable) {
+    this._userFacts.internalValue = value;
+  }
+  public resetUserFacts() {
+    this._userFacts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get userFactsInput() {
+    return this._userFacts.internalValue;
+  }
+}
 export interface GoogleCesEvaluationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#create GoogleCesEvaluation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#delete GoogleCesEvaluation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#update GoogleCesEvaluation#update}
   */
   readonly update?: string;
 }
@@ -4813,7 +7638,7 @@ export class GoogleCesEvaluationTimeoutsOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation google_ces_evaluation}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation google_ces_evaluation}
 */
 export class GoogleCesEvaluation extends cdktn.TerraformResource {
 
@@ -4829,7 +7654,7 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesEvaluation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesEvaluation to import
-  * @param importFromId The id of the existing GoogleCesEvaluation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesEvaluation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesEvaluation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4841,7 +7666,7 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_evaluation google_ces_evaluation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4852,7 +7677,7 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_evaluation',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.31.0',
+        providerVersion: '7.32.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -4872,6 +7697,7 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
     this._project = config.project;
     this._tags = config.tags;
     this._golden.internalValue = config.golden;
+    this._scenario.internalValue = config.scenario;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -5056,6 +7882,22 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
     return this._golden.internalValue;
   }
 
+  // scenario - computed: false, optional: true, required: false
+  private _scenario = new GoogleCesEvaluationScenarioOutputReference(this, "scenario");
+  public get scenario() {
+    return this._scenario;
+  }
+  public putScenario(value: GoogleCesEvaluationScenario) {
+    this._scenario.internalValue = value;
+  }
+  public resetScenario() {
+    this._scenario.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scenarioInput() {
+    return this._scenario.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new GoogleCesEvaluationTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -5087,6 +7929,7 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
       project: cdktn.stringToTerraform(this._project),
       tags: cdktn.listMapper(cdktn.stringToTerraform, false)(this._tags),
       golden: googleCesEvaluationGoldenToTerraform(this._golden.internalValue),
+      scenario: googleCesEvaluationScenarioToTerraform(this._scenario.internalValue),
       timeouts: googleCesEvaluationTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -5146,6 +7989,12 @@ export class GoogleCesEvaluation extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "GoogleCesEvaluationGoldenList",
+      },
+      scenario: {
+        value: googleCesEvaluationScenarioToHclTerraform(this._scenario.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleCesEvaluationScenarioList",
       },
       timeouts: {
         value: googleCesEvaluationTimeoutsToHclTerraform(this._timeouts.internalValue),
