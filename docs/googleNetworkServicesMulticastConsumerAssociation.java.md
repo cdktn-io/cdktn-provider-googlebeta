@@ -4,7 +4,7 @@
 
 ### GoogleNetworkServicesMulticastConsumerAssociation <a name="GoogleNetworkServicesMulticastConsumerAssociation" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association google_network_services_multicast_consumer_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association google_network_services_multicast_consumer_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer"></a>
 
@@ -47,9 +47,9 @@ GoogleNetworkServicesMulticastConsumerAssociation.Builder.create(Construct scope
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer.parameter.multicastDomainActivation">multicastDomainActivation</a></code> | <code>java.lang.String</code> | The resource name of the multicast domain activation that is in the same zone as this multicast consumer association. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer.parameter.network">network</a></code> | <code>java.lang.String</code> | The resource name of the multicast consumer VPC network. Use following format: 'projects/{project}/locations/global/networks/{network}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional text description of the multicast consumer association. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#id GoogleNetworkServicesMulticastConsumerAssociation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#id GoogleNetworkServicesMulticastConsumerAssociation#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key-value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#project GoogleNetworkServicesMulticastConsumerAssociation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#project GoogleNetworkServicesMulticastConsumerAssociation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociation.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationTimeouts">GoogleNetworkServicesMulticastConsumerAssociationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#location GoogleNetworkServicesMulticastConsumerAssociation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#location GoogleNetworkServicesMulticastConsumerAssociation#location}
 
 ---
 
@@ -134,7 +134,7 @@ The name is restricted to letters, numbers, and hyphen, with the first
 character a letter, and the last a letter or a number. The name must not
 exceed 48 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#multicast_consumer_association_id GoogleNetworkServicesMulticastConsumerAssociation#multicast_consumer_association_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#multicast_consumer_association_id GoogleNetworkServicesMulticastConsumerAssociation#multicast_consumer_association_id}
 
 ---
 
@@ -147,7 +147,7 @@ The resource name of the multicast domain activation that is in the same zone as
 Use the following format:
 // 'projects/* /locations/* /multicastDomainActivations/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#multicast_domain_activation GoogleNetworkServicesMulticastConsumerAssociation#multicast_domain_activation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#multicast_domain_activation GoogleNetworkServicesMulticastConsumerAssociation#multicast_domain_activation}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -159,7 +159,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 
 The resource name of the multicast consumer VPC network. Use following format: 'projects/{project}/locations/global/networks/{network}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#network GoogleNetworkServicesMulticastConsumerAssociation#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#network GoogleNetworkServicesMulticastConsumerAssociation#network}
 
 ---
 
@@ -169,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional text description of the multicast consumer association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#description GoogleNetworkServicesMulticastConsumerAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#description GoogleNetworkServicesMulticastConsumerAssociation#description}
 
 ---
 
@@ -177,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#id GoogleNetworkServicesMulticastConsumerAssociation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#id GoogleNetworkServicesMulticastConsumerAssociation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -193,7 +193,7 @@ Labels as key-value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#labels GoogleNetworkServicesMulticastConsumerAssociation#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#labels GoogleNetworkServicesMulticastConsumerAssociation#labels}
 
 ---
 
@@ -201,7 +201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#project GoogleNetworkServicesMulticastConsumerAssociation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#project GoogleNetworkServicesMulticastConsumerAssociation#project}.
 
 ---
 
@@ -211,7 +211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#timeouts GoogleNetworkServicesMulticastConsumerAssociation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#timeouts GoogleNetworkServicesMulticastConsumerAssociation#timeouts}
 
 ---
 
@@ -708,7 +708,7 @@ The construct id used in the generated config for the GoogleNetworkServicesMulti
 
 The id of the existing GoogleNetworkServicesMulticastConsumerAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1232,9 +1232,9 @@ GoogleNetworkServicesMulticastConsumerAssociationConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationConfig.property.multicastDomainActivation">multicastDomainActivation</a></code> | <code>java.lang.String</code> | The resource name of the multicast domain activation that is in the same zone as this multicast consumer association. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationConfig.property.network">network</a></code> | <code>java.lang.String</code> | The resource name of the multicast consumer VPC network. Use following format: 'projects/{project}/locations/global/networks/{network}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional text description of the multicast consumer association. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#id GoogleNetworkServicesMulticastConsumerAssociation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#id GoogleNetworkServicesMulticastConsumerAssociation#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key-value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#project GoogleNetworkServicesMulticastConsumerAssociation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#project GoogleNetworkServicesMulticastConsumerAssociation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationTimeouts">GoogleNetworkServicesMulticastConsumerAssociationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1319,7 +1319,7 @@ public java.lang.String getLocation();
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#location GoogleNetworkServicesMulticastConsumerAssociation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#location GoogleNetworkServicesMulticastConsumerAssociation#location}
 
 ---
 
@@ -1337,7 +1337,7 @@ The name is restricted to letters, numbers, and hyphen, with the first
 character a letter, and the last a letter or a number. The name must not
 exceed 48 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#multicast_consumer_association_id GoogleNetworkServicesMulticastConsumerAssociation#multicast_consumer_association_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#multicast_consumer_association_id GoogleNetworkServicesMulticastConsumerAssociation#multicast_consumer_association_id}
 
 ---
 
@@ -1354,7 +1354,7 @@ The resource name of the multicast domain activation that is in the same zone as
 Use the following format:
 // 'projects/* /locations/* /multicastDomainActivations/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#multicast_domain_activation GoogleNetworkServicesMulticastConsumerAssociation#multicast_domain_activation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#multicast_domain_activation GoogleNetworkServicesMulticastConsumerAssociation#multicast_domain_activation}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1370,7 +1370,7 @@ public java.lang.String getNetwork();
 
 The resource name of the multicast consumer VPC network. Use following format: 'projects/{project}/locations/global/networks/{network}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#network GoogleNetworkServicesMulticastConsumerAssociation#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#network GoogleNetworkServicesMulticastConsumerAssociation#network}
 
 ---
 
@@ -1384,7 +1384,7 @@ public java.lang.String getDescription();
 
 An optional text description of the multicast consumer association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#description GoogleNetworkServicesMulticastConsumerAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#description GoogleNetworkServicesMulticastConsumerAssociation#description}
 
 ---
 
@@ -1396,7 +1396,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#id GoogleNetworkServicesMulticastConsumerAssociation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#id GoogleNetworkServicesMulticastConsumerAssociation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1416,7 +1416,7 @@ Labels as key-value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#labels GoogleNetworkServicesMulticastConsumerAssociation#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#labels GoogleNetworkServicesMulticastConsumerAssociation#labels}
 
 ---
 
@@ -1428,7 +1428,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#project GoogleNetworkServicesMulticastConsumerAssociation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#project GoogleNetworkServicesMulticastConsumerAssociation#project}.
 
 ---
 
@@ -1442,7 +1442,7 @@ public GoogleNetworkServicesMulticastConsumerAssociationTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#timeouts GoogleNetworkServicesMulticastConsumerAssociation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#timeouts GoogleNetworkServicesMulticastConsumerAssociation#timeouts}
 
 ---
 
@@ -1476,9 +1476,9 @@ GoogleNetworkServicesMulticastConsumerAssociationTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#create GoogleNetworkServicesMulticastConsumerAssociation#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#delete GoogleNetworkServicesMulticastConsumerAssociation#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#update GoogleNetworkServicesMulticastConsumerAssociation#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#create GoogleNetworkServicesMulticastConsumerAssociation#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#delete GoogleNetworkServicesMulticastConsumerAssociation#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastConsumerAssociation.GoogleNetworkServicesMulticastConsumerAssociationTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#update GoogleNetworkServicesMulticastConsumerAssociation#update}. |
 
 ---
 
@@ -1490,7 +1490,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#create GoogleNetworkServicesMulticastConsumerAssociation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#create GoogleNetworkServicesMulticastConsumerAssociation#create}.
 
 ---
 
@@ -1502,7 +1502,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#delete GoogleNetworkServicesMulticastConsumerAssociation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#delete GoogleNetworkServicesMulticastConsumerAssociation#delete}.
 
 ---
 
@@ -1514,7 +1514,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_network_services_multicast_consumer_association#update GoogleNetworkServicesMulticastConsumerAssociation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_consumer_association#update GoogleNetworkServicesMulticastConsumerAssociation#update}.
 
 ---
 

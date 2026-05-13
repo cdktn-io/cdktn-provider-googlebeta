@@ -4,7 +4,7 @@
 
 ### GoogleComputeInstantSnapshotIamPolicy <a name="GoogleComputeInstantSnapshotIamPolicy" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy google_compute_instant_snapshot_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy google_compute_instant_snapshot_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer"></a>
 
@@ -38,11 +38,11 @@ GoogleComputeInstantSnapshotIamPolicy.Builder.create(Construct scope, java.lang.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#name GoogleComputeInstantSnapshotIamPolicy#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#policy_data GoogleComputeInstantSnapshotIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#id GoogleComputeInstantSnapshotIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#project GoogleComputeInstantSnapshotIamPolicy#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.zone">zone</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#zone GoogleComputeInstantSnapshotIamPolicy#zone}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#name GoogleComputeInstantSnapshotIamPolicy#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#policy_data GoogleComputeInstantSnapshotIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#id GoogleComputeInstantSnapshotIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#project GoogleComputeInstantSnapshotIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicy.Initializer.parameter.zone">zone</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#zone GoogleComputeInstantSnapshotIamPolicy#zone}. |
 
 ---
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#name GoogleComputeInstantSnapshotIamPolicy#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#name GoogleComputeInstantSnapshotIamPolicy#name}.
 
 ---
 
@@ -118,7 +118,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#policy_data GoogleComputeInstantSnapshotIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#policy_data GoogleComputeInstantSnapshotIamPolicy#policy_data}.
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#id GoogleComputeInstantSnapshotIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#id GoogleComputeInstantSnapshotIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#project GoogleComputeInstantSnapshotIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#project GoogleComputeInstantSnapshotIamPolicy#project}.
 
 ---
 
@@ -145,7 +145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#zone GoogleComputeInstantSnapshotIamPolicy#zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#zone GoogleComputeInstantSnapshotIamPolicy#zone}.
 
 ---
 
@@ -615,7 +615,7 @@ The construct id used in the generated config for the GoogleComputeInstantSnapsh
 
 The id of the existing GoogleComputeInstantSnapshotIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -965,11 +965,11 @@ GoogleComputeInstantSnapshotIamPolicyConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#name GoogleComputeInstantSnapshotIamPolicy#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#policy_data GoogleComputeInstantSnapshotIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#id GoogleComputeInstantSnapshotIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#project GoogleComputeInstantSnapshotIamPolicy#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.zone">zone</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#zone GoogleComputeInstantSnapshotIamPolicy#zone}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#name GoogleComputeInstantSnapshotIamPolicy#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.policyData">policyData</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#policy_data GoogleComputeInstantSnapshotIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#id GoogleComputeInstantSnapshotIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#project GoogleComputeInstantSnapshotIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamPolicy.GoogleComputeInstantSnapshotIamPolicyConfig.property.zone">zone</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#zone GoogleComputeInstantSnapshotIamPolicy#zone}. |
 
 ---
 
@@ -1051,7 +1051,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#name GoogleComputeInstantSnapshotIamPolicy#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#name GoogleComputeInstantSnapshotIamPolicy#name}.
 
 ---
 
@@ -1063,7 +1063,7 @@ public java.lang.String getPolicyData();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#policy_data GoogleComputeInstantSnapshotIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#policy_data GoogleComputeInstantSnapshotIamPolicy#policy_data}.
 
 ---
 
@@ -1075,7 +1075,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#id GoogleComputeInstantSnapshotIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#id GoogleComputeInstantSnapshotIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1090,7 +1090,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#project GoogleComputeInstantSnapshotIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#project GoogleComputeInstantSnapshotIamPolicy#project}.
 
 ---
 
@@ -1102,7 +1102,7 @@ public java.lang.String getZone();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_compute_instant_snapshot_iam_policy#zone GoogleComputeInstantSnapshotIamPolicy#zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_instant_snapshot_iam_policy#zone GoogleComputeInstantSnapshotIamPolicy#zone}.
 
 ---
 

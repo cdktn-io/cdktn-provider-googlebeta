@@ -4,7 +4,7 @@
 
 ### GoogleDataformFolder <a name="GoogleDataformFolder" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder google_dataform_folder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder google_dataform_folder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolder.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleDataformFolder to im
 
 The id of the existing GoogleDataformFolder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -903,8 +903,8 @@ const googleDataformFolderConfig: googleDataformFolder.GoogleDataformFolderConfi
 | <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderConfig.property.displayName">displayName</a></code> | <code>string</code> | Required. The Folder's user-friendly name. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderConfig.property.region">region</a></code> | <code>string</code> | A reference to the region. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderConfig.property.containingFolder">containingFolder</a></code> | <code>string</code> | Optional. The containing Folder resource name. Format: 'projects/* /locations/* /folders/*' or 'projects/* /locations/* /teamFolders/*'. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#id GoogleDataformFolder#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#project GoogleDataformFolder#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#id GoogleDataformFolder#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#project GoogleDataformFolder#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderTimeouts">GoogleDataformFolderTimeouts</a></code> | timeouts block. |
 
 ---
@@ -989,7 +989,7 @@ public readonly displayName: string;
 
 Required. The Folder's user-friendly name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#display_name GoogleDataformFolder#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#display_name GoogleDataformFolder#display_name}
 
 ---
 
@@ -1003,7 +1003,7 @@ public readonly region: string;
 
 A reference to the region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#region GoogleDataformFolder#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#region GoogleDataformFolder#region}
 
 ---
 
@@ -1017,7 +1017,7 @@ public readonly containingFolder: string;
 
 Optional. The containing Folder resource name. Format: 'projects/* /locations/* /folders/*' or 'projects/* /locations/* /teamFolders/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#containing_folder GoogleDataformFolder#containing_folder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#containing_folder GoogleDataformFolder#containing_folder}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1031,7 +1031,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#id GoogleDataformFolder#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#id GoogleDataformFolder#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1046,7 +1046,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#project GoogleDataformFolder#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#project GoogleDataformFolder#project}.
 
 ---
 
@@ -1060,7 +1060,7 @@ public readonly timeouts: GoogleDataformFolderTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#timeouts GoogleDataformFolder#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#timeouts GoogleDataformFolder#timeouts}
 
 ---
 
@@ -1078,9 +1078,9 @@ const googleDataformFolderTimeouts: googleDataformFolder.GoogleDataformFolderTim
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#create GoogleDataformFolder#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#delete GoogleDataformFolder#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#update GoogleDataformFolder#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#create GoogleDataformFolder#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#delete GoogleDataformFolder#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformFolder.GoogleDataformFolderTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#update GoogleDataformFolder#update}. |
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#create GoogleDataformFolder#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#create GoogleDataformFolder#create}.
 
 ---
 
@@ -1104,7 +1104,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#delete GoogleDataformFolder#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#delete GoogleDataformFolder#delete}.
 
 ---
 
@@ -1116,7 +1116,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataform_folder#update GoogleDataformFolder#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataform_folder#update GoogleDataformFolder#update}.
 
 ---
 

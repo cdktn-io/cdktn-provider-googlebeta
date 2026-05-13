@@ -4,7 +4,7 @@
 
 ### GoogleDataplexAspectType <a name="GoogleDataplexAspectType" id="@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type google_dataplex_aspect_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectType.Initializer"></a>
 
@@ -572,7 +572,7 @@ The construct id used in the generated config for the GoogleDataplexAspectType t
 
 The id of the existing GoogleDataplexAspectType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1107,11 +1107,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleda
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.dataClassification">DataClassification</a></code> | <code>*string</code> | Classifies the data stored by the aspect. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.description">Description</a></code> | <code>*string</code> | Description of the AspectType. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | User friendly display name. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#id GoogleDataplexAspectType#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#id GoogleDataplexAspectType#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | User-defined labels for the AspectType. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.location">Location</a></code> | <code>*string</code> | The location where aspect type will be created in. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.metadataTemplate">MetadataTemplate</a></code> | <code>*string</code> | MetadataTemplate of the Aspect. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#project GoogleDataplexAspectType#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#project GoogleDataplexAspectType#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeTimeouts">GoogleDataplexAspectTypeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1196,7 +1196,7 @@ AspectTypeId *string
 
 The aspect type id of the aspect type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#aspect_type_id GoogleDataplexAspectType#aspect_type_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#aspect_type_id GoogleDataplexAspectType#aspect_type_id}
 
 ---
 
@@ -1214,7 +1214,7 @@ Classifies the data stored by the aspect.
 while 'METADATA_AND_DATA' indicates data derived content.
 <br><br> Possible values: ["DATA_CLASSIFICATION_UNSPECIFIED", "METADATA_AND_DATA"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#data_classification GoogleDataplexAspectType#data_classification}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#data_classification GoogleDataplexAspectType#data_classification}
 
 ---
 
@@ -1228,7 +1228,7 @@ Description *string
 
 Description of the AspectType.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#description GoogleDataplexAspectType#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#description GoogleDataplexAspectType#description}
 
 ---
 
@@ -1242,7 +1242,7 @@ DisplayName *string
 
 User friendly display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#display_name GoogleDataplexAspectType#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#display_name GoogleDataplexAspectType#display_name}
 
 ---
 
@@ -1254,7 +1254,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#id GoogleDataplexAspectType#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#id GoogleDataplexAspectType#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1274,7 +1274,7 @@ User-defined labels for the AspectType.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#labels GoogleDataplexAspectType#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#labels GoogleDataplexAspectType#labels}
 
 ---
 
@@ -1288,7 +1288,7 @@ Location *string
 
 The location where aspect type will be created in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#location GoogleDataplexAspectType#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#location GoogleDataplexAspectType#location}
 
 ---
 
@@ -1302,7 +1302,7 @@ MetadataTemplate *string
 
 MetadataTemplate of the Aspect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#metadata_template GoogleDataplexAspectType#metadata_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#metadata_template GoogleDataplexAspectType#metadata_template}
 
 ---
 
@@ -1314,7 +1314,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#project GoogleDataplexAspectType#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#project GoogleDataplexAspectType#project}.
 
 ---
 
@@ -1328,7 +1328,7 @@ Timeouts GoogleDataplexAspectTypeTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#timeouts GoogleDataplexAspectType#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#timeouts GoogleDataplexAspectType#timeouts}
 
 ---
 
@@ -1350,9 +1350,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleda
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#create GoogleDataplexAspectType#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#delete GoogleDataplexAspectType#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#update GoogleDataplexAspectType#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#create GoogleDataplexAspectType#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#delete GoogleDataplexAspectType#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexAspectType.GoogleDataplexAspectTypeTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#update GoogleDataplexAspectType#update}. |
 
 ---
 
@@ -1364,7 +1364,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#create GoogleDataplexAspectType#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#create GoogleDataplexAspectType#create}.
 
 ---
 
@@ -1376,7 +1376,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#delete GoogleDataplexAspectType#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#delete GoogleDataplexAspectType#delete}.
 
 ---
 
@@ -1388,7 +1388,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dataplex_aspect_type#update GoogleDataplexAspectType#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_aspect_type#update GoogleDataplexAspectType#update}.
 
 ---
 

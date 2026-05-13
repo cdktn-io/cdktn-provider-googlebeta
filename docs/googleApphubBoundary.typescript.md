@@ -4,7 +4,7 @@
 
 ### GoogleApphubBoundary <a name="GoogleApphubBoundary" id="@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary google_apphub_boundary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary google_apphub_boundary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundary.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleApphubBoundary to im
 
 The id of the existing GoogleApphubBoundary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -902,8 +902,8 @@ const googleApphubBoundaryConfig: googleApphubBoundary.GoogleApphubBoundaryConfi
 | <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryConfig.property.location">location</a></code> | <code>string</code> | The location for the Boundary resource. Must be global. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryConfig.property.crmNode">crmNode</a></code> | <code>string</code> | Optional. The resource name of the CRM node being attached to the boundary. Format: 'projects/{project-number}'. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#id GoogleApphubBoundary#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#project GoogleApphubBoundary#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#id GoogleApphubBoundary#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#project GoogleApphubBoundary#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryTimeouts">GoogleApphubBoundaryTimeouts</a></code> | timeouts block. |
 
 ---
@@ -988,7 +988,7 @@ public readonly location: string;
 
 The location for the Boundary resource. Must be global.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#location GoogleApphubBoundary#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#location GoogleApphubBoundary#location}
 
 ---
 
@@ -1002,7 +1002,7 @@ public readonly crmNode: string;
 
 Optional. The resource name of the CRM node being attached to the boundary. Format: 'projects/{project-number}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#crm_node GoogleApphubBoundary#crm_node}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#crm_node GoogleApphubBoundary#crm_node}
 
 ---
 
@@ -1014,7 +1014,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#id GoogleApphubBoundary#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#id GoogleApphubBoundary#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1029,7 +1029,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#project GoogleApphubBoundary#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#project GoogleApphubBoundary#project}.
 
 ---
 
@@ -1043,7 +1043,7 @@ public readonly timeouts: GoogleApphubBoundaryTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#timeouts GoogleApphubBoundary#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#timeouts GoogleApphubBoundary#timeouts}
 
 ---
 
@@ -1061,9 +1061,9 @@ const googleApphubBoundaryTimeouts: googleApphubBoundary.GoogleApphubBoundaryTim
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#create GoogleApphubBoundary#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#delete GoogleApphubBoundary#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#update GoogleApphubBoundary#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#create GoogleApphubBoundary#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#delete GoogleApphubBoundary#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubBoundary.GoogleApphubBoundaryTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#update GoogleApphubBoundary#update}. |
 
 ---
 
@@ -1075,7 +1075,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#create GoogleApphubBoundary#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#create GoogleApphubBoundary#create}.
 
 ---
 
@@ -1087,7 +1087,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#delete GoogleApphubBoundary#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#delete GoogleApphubBoundary#delete}.
 
 ---
 
@@ -1099,7 +1099,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apphub_boundary#update GoogleApphubBoundary#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_boundary#update GoogleApphubBoundary#update}.
 
 ---
 

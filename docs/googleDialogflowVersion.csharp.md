@@ -4,7 +4,7 @@
 
 ### GoogleDialogflowVersion <a name="GoogleDialogflowVersion" id="@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version google_dialogflow_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version google_dialogflow_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersion.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleDialogflowVersion to
 
 The id of the existing GoogleDialogflowVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -880,7 +880,7 @@ new GoogleDialogflowVersionConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionConfig.property.description">Description</a></code> | <code>string</code> | The developer-provided description of this version. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#id GoogleDialogflowVersion#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#id GoogleDialogflowVersion#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionConfig.property.parent">Parent</a></code> | <code>string</code> | The Flow to create an Version for. Format: projects/<Project ID>/agent. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionTimeouts">GoogleDialogflowVersionTimeouts</a></code> | timeouts block. |
 
@@ -966,7 +966,7 @@ public string Description { get; set; }
 
 The developer-provided description of this version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#description GoogleDialogflowVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#description GoogleDialogflowVersion#description}
 
 ---
 
@@ -978,7 +978,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#id GoogleDialogflowVersion#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#id GoogleDialogflowVersion#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -995,7 +995,7 @@ public string Parent { get; set; }
 
 The Flow to create an Version for. Format: projects/<Project ID>/agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#parent GoogleDialogflowVersion#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#parent GoogleDialogflowVersion#parent}
 
 ---
 
@@ -1009,7 +1009,7 @@ public GoogleDialogflowVersionTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#timeouts GoogleDialogflowVersion#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#timeouts GoogleDialogflowVersion#timeouts}
 
 ---
 
@@ -1031,9 +1031,9 @@ new GoogleDialogflowVersionTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#create GoogleDialogflowVersion#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#delete GoogleDialogflowVersion#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#update GoogleDialogflowVersion#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#create GoogleDialogflowVersion#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#delete GoogleDialogflowVersion#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowVersion.GoogleDialogflowVersionTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#update GoogleDialogflowVersion#update}. |
 
 ---
 
@@ -1045,7 +1045,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#create GoogleDialogflowVersion#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#create GoogleDialogflowVersion#create}.
 
 ---
 
@@ -1057,7 +1057,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#delete GoogleDialogflowVersion#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#delete GoogleDialogflowVersion#delete}.
 
 ---
 
@@ -1069,7 +1069,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_dialogflow_version#update GoogleDialogflowVersion#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_version#update GoogleDialogflowVersion#update}.
 
 ---
 

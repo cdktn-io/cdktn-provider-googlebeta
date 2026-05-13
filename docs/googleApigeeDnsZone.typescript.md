@@ -4,7 +4,7 @@
 
 ### GoogleApigeeDnsZone <a name="GoogleApigeeDnsZone" id="@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZone"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone google_apigee_dns_zone}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZone.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the GoogleApigeeDnsZone to imp
 
 The id of the existing GoogleApigeeDnsZone that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -915,7 +915,7 @@ const googleApigeeDnsZoneConfig: googleApigeeDnsZone.GoogleApigeeDnsZoneConfig =
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneConfig.property.domain">domain</a></code> | <code>string</code> | Doamin for the zone. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneConfig.property.orgId">orgId</a></code> | <code>string</code> | The Apigee Organization associated with the Apigee instance, in the format 'organizations/{{org_name}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneConfig.property.peeringConfig">peeringConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZonePeeringConfig">GoogleApigeeDnsZonePeeringConfig</a></code> | peering_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#id GoogleApigeeDnsZone#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#id GoogleApigeeDnsZone#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneTimeouts">GoogleApigeeDnsZoneTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1000,7 +1000,7 @@ public readonly description: string;
 
 Description for the zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#description GoogleApigeeDnsZone#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#description GoogleApigeeDnsZone#description}
 
 ---
 
@@ -1014,7 +1014,7 @@ public readonly dnsZoneId: string;
 
 ID of the dns zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#dns_zone_id GoogleApigeeDnsZone#dns_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#dns_zone_id GoogleApigeeDnsZone#dns_zone_id}
 
 ---
 
@@ -1028,7 +1028,7 @@ public readonly domain: string;
 
 Doamin for the zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#domain GoogleApigeeDnsZone#domain}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#domain GoogleApigeeDnsZone#domain}
 
 ---
 
@@ -1042,7 +1042,7 @@ public readonly orgId: string;
 
 The Apigee Organization associated with the Apigee instance, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#org_id GoogleApigeeDnsZone#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#org_id GoogleApigeeDnsZone#org_id}
 
 ---
 
@@ -1056,7 +1056,7 @@ public readonly peeringConfig: GoogleApigeeDnsZonePeeringConfig;
 
 peering_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#peering_config GoogleApigeeDnsZone#peering_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#peering_config GoogleApigeeDnsZone#peering_config}
 
 ---
 
@@ -1068,7 +1068,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#id GoogleApigeeDnsZone#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#id GoogleApigeeDnsZone#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1085,7 +1085,7 @@ public readonly timeouts: GoogleApigeeDnsZoneTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#timeouts GoogleApigeeDnsZone#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#timeouts GoogleApigeeDnsZone#timeouts}
 
 ---
 
@@ -1118,7 +1118,7 @@ public readonly targetNetworkId: string;
 
 The name of the producer VPC network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#target_network_id GoogleApigeeDnsZone#target_network_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#target_network_id GoogleApigeeDnsZone#target_network_id}
 
 ---
 
@@ -1132,7 +1132,7 @@ public readonly targetProjectId: string;
 
 The ID of the project that contains the producer VPC network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#target_project_id GoogleApigeeDnsZone#target_project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#target_project_id GoogleApigeeDnsZone#target_project_id}
 
 ---
 
@@ -1150,8 +1150,8 @@ const googleApigeeDnsZoneTimeouts: googleApigeeDnsZone.GoogleApigeeDnsZoneTimeou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#create GoogleApigeeDnsZone#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#delete GoogleApigeeDnsZone#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#create GoogleApigeeDnsZone#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeDnsZone.GoogleApigeeDnsZoneTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#delete GoogleApigeeDnsZone#delete}. |
 
 ---
 
@@ -1163,7 +1163,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#create GoogleApigeeDnsZone#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#create GoogleApigeeDnsZone#create}.
 
 ---
 
@@ -1175,7 +1175,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_apigee_dns_zone#delete GoogleApigeeDnsZone#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_dns_zone#delete GoogleApigeeDnsZone#delete}.
 
 ---
 
