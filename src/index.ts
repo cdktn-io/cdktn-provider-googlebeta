@@ -424,6 +424,10 @@ export * as googleComputeRegionHealthCheck from './google-compute-region-health-
 export * as googleComputeRegionHealthSource from './google-compute-region-health-source';
 export * as googleComputeRegionInstanceGroupManager from './google-compute-region-instance-group-manager';
 export * as googleComputeRegionInstanceTemplate from './google-compute-region-instance-template';
+export * as googleComputeRegionInstantSnapshot from './google-compute-region-instant-snapshot';
+export * as googleComputeRegionInstantSnapshotIamBinding from './google-compute-region-instant-snapshot-iam-binding';
+export * as googleComputeRegionInstantSnapshotIamMember from './google-compute-region-instant-snapshot-iam-member';
+export * as googleComputeRegionInstantSnapshotIamPolicy from './google-compute-region-instant-snapshot-iam-policy';
 export * as googleComputeRegionNetworkEndpoint from './google-compute-region-network-endpoint';
 export * as googleComputeRegionNetworkEndpointGroup from './google-compute-region-network-endpoint-group';
 export * as googleComputeRegionNetworkFirewallPolicy from './google-compute-region-network-firewall-policy';
@@ -1535,6 +1539,7 @@ export * as dataGoogleComputeRegionDiskIamPolicy from './data-google-compute-reg
 export * as dataGoogleComputeRegionInstanceGroup from './data-google-compute-region-instance-group';
 export * as dataGoogleComputeRegionInstanceGroupManager from './data-google-compute-region-instance-group-manager';
 export * as dataGoogleComputeRegionInstanceTemplate from './data-google-compute-region-instance-template';
+export * as dataGoogleComputeRegionInstantSnapshotIamPolicy from './data-google-compute-region-instant-snapshot-iam-policy';
 export * as dataGoogleComputeRegionNetworkEndpointGroup from './data-google-compute-region-network-endpoint-group';
 export * as dataGoogleComputeRegionSecurityPolicy from './data-google-compute-region-security-policy';
 export * as dataGoogleComputeRegionSslCertificate from './data-google-compute-region-ssl-certificate';

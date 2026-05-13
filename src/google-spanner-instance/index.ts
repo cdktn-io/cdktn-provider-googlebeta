@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,7 +20,7 @@ export interface GoogleSpannerInstanceConfig extends cdktn.TerraformMetaArgument
   * In order to obtain a valid list please consult the
   * [Configuration section of the docs](https://cloud.google.com/spanner/docs/instances).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#config GoogleSpannerInstance#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#config GoogleSpannerInstance#config}
   */
   readonly config: string;
   /**
@@ -28,31 +28,31 @@ export interface GoogleSpannerInstanceConfig extends cdktn.TerraformMetaArgument
   * Note that 'AUTOMATIC' is not permitted for free instances, as backups and backup schedules are not allowed for free instances.
   * if unset or NONE, no default backup schedule will be created for new databases within the instance. Possible values: ["NONE", "AUTOMATIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#default_backup_schedule_type GoogleSpannerInstance#default_backup_schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#default_backup_schedule_type GoogleSpannerInstance#default_backup_schedule_type}
   */
   readonly defaultBackupScheduleType?: string;
   /**
   * The descriptive name for this instance as it appears in UIs. Must be
   * unique per project and between 4 and 30 characters in length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#display_name GoogleSpannerInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#display_name GoogleSpannerInstance#display_name}
   */
   readonly displayName: string;
   /**
   * The edition selected for this instance. Different editions provide different capabilities at different price points. Possible values: ["EDITION_UNSPECIFIED", "STANDARD", "ENTERPRISE", "ENTERPRISE_PLUS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#edition GoogleSpannerInstance#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#edition GoogleSpannerInstance#edition}
   */
   readonly edition?: string;
   /**
   * When deleting a spanner instance, this boolean option will delete all backups of this instance.
   * This must be set to true if you created a backup manually in the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#force_destroy GoogleSpannerInstance#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#force_destroy GoogleSpannerInstance#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#id GoogleSpannerInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#id GoogleSpannerInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ export interface GoogleSpannerInstanceConfig extends cdktn.TerraformMetaArgument
   * usage restrictions, quotas and billing. Currently this is used to distinguish FREE_INSTANCE vs PROVISIONED instances.
   * When configured as FREE_INSTANCE, the field 'edition' should not be configured. Possible values: ["PROVISIONED", "FREE_INSTANCE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#instance_type GoogleSpannerInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#instance_type GoogleSpannerInstance#instance_type}
   */
   readonly instanceType?: string;
   /**
@@ -74,7 +74,7 @@ export interface GoogleSpannerInstanceConfig extends cdktn.TerraformMetaArgument
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#labels GoogleSpannerInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#labels GoogleSpannerInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -83,37 +83,37 @@ export interface GoogleSpannerInstanceConfig extends cdktn.TerraformMetaArgument
   * in length.
   * If not provided, a random string starting with 'tf-' will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#name GoogleSpannerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#name GoogleSpannerInstance#name}
   */
   readonly name?: string;
   /**
   * The number of nodes allocated to this instance. Exactly one of either num_nodes, processing_units or
   * autoscaling_config must be present in terraform except when instance_type = FREE_INSTANCE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#num_nodes GoogleSpannerInstance#num_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#num_nodes GoogleSpannerInstance#num_nodes}
   */
   readonly numNodes?: number;
   /**
   * The number of processing units allocated to this instance. Exactly one of either num_nodes,
   * processing_units or autoscaling_config must be present in terraform except when instance_type = FREE_INSTANCE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#processing_units GoogleSpannerInstance#processing_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#processing_units GoogleSpannerInstance#processing_units}
   */
   readonly processingUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#project GoogleSpannerInstance#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#project GoogleSpannerInstance#project}
   */
   readonly project?: string;
   /**
   * autoscaling_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_config GoogleSpannerInstance#autoscaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#autoscaling_config GoogleSpannerInstance#autoscaling_config}
   */
   readonly autoscalingConfig?: GoogleSpannerInstanceAutoscalingConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#timeouts GoogleSpannerInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#timeouts GoogleSpannerInstance#timeouts}
   */
   readonly timeouts?: GoogleSpannerInstanceTimeouts;
 }
@@ -121,7 +121,7 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
   /**
   * The maximum number of nodes for this specific replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#max_nodes GoogleSpannerInstance#max_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#max_nodes GoogleSpannerInstance#max_nodes}
   */
   readonly maxNodes?: number;
   /**
@@ -129,20 +129,20 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
   * If set, this number should be multiples of 1000 and be greater than or equal to
   * min_processing_units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#max_processing_units GoogleSpannerInstance#max_processing_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#max_processing_units GoogleSpannerInstance#max_processing_units}
   */
   readonly maxProcessingUnits?: number;
   /**
   * The minimum number of nodes for this specific replica.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#min_nodes GoogleSpannerInstance#min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#min_nodes GoogleSpannerInstance#min_nodes}
   */
   readonly minNodes?: number;
   /**
   * The minimum number of processing units for this specific replica.
   * If set, this number should be multiples of 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#min_processing_units GoogleSpannerInstance#min_processing_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#min_processing_units GoogleSpannerInstance#min_processing_units}
   */
   readonly minProcessingUnits?: number;
 }
@@ -317,7 +317,7 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
   * should be trying to achieve for this replica.
   * This number is on a scale from 0 (no utilization) to 100 (full utilization).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_target_high_priority_cpu_utilization_percent GoogleSpannerInstance#autoscaling_target_high_priority_cpu_utilization_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#autoscaling_target_high_priority_cpu_utilization_percent GoogleSpannerInstance#autoscaling_target_high_priority_cpu_utilization_percent}
   */
   readonly autoscalingTargetHighPriorityCpuUtilizationPercent?: number;
   /**
@@ -325,27 +325,27 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
   * should be trying to achieve for this replica.
   * This number is on a scale from 0 (no utilization) to 100 (full utilization).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_target_total_cpu_utilization_percent GoogleSpannerInstance#autoscaling_target_total_cpu_utilization_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#autoscaling_target_total_cpu_utilization_percent GoogleSpannerInstance#autoscaling_target_total_cpu_utilization_percent}
   */
   readonly autoscalingTargetTotalCpuUtilizationPercent?: number;
   /**
   * If true, disables high priority CPU autoscaling for this replica and ignores
   * high_priority_cpu_utilization_percent in the top-level autoscaling configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#disable_high_priority_cpu_autoscaling GoogleSpannerInstance#disable_high_priority_cpu_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#disable_high_priority_cpu_autoscaling GoogleSpannerInstance#disable_high_priority_cpu_autoscaling}
   */
   readonly disableHighPriorityCpuAutoscaling?: boolean | cdktn.IResolvable;
   /**
   * If true, disables total CPU autoscaling for this replica and ignores
   * total_cpu_utilization_percent in the top-level autoscaling configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#disable_total_cpu_autoscaling GoogleSpannerInstance#disable_total_cpu_autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#disable_total_cpu_autoscaling GoogleSpannerInstance#disable_total_cpu_autoscaling}
   */
   readonly disableTotalCpuAutoscaling?: boolean | cdktn.IResolvable;
   /**
   * autoscaling_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_limits GoogleSpannerInstance#autoscaling_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#autoscaling_limits GoogleSpannerInstance#autoscaling_limits}
   */
   readonly autoscalingLimits?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverridesAutoscalingLimits;
 }
@@ -547,7 +547,7 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
   /**
   * The location of the replica to apply asymmetric autoscaling options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#location GoogleSpannerInstance#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#location GoogleSpannerInstance#location}
   */
   readonly location: string;
 }
@@ -630,13 +630,13 @@ export interface GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOpti
   /**
   * overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#overrides GoogleSpannerInstance#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#overrides GoogleSpannerInstance#overrides}
   */
   readonly overrides: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsOverrides;
   /**
   * replica_selection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#replica_selection GoogleSpannerInstance#replica_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#replica_selection GoogleSpannerInstance#replica_selection}
   */
   readonly replicaSelection: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptionsReplicaSelection;
 }
@@ -778,7 +778,7 @@ export interface GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits {
   * Specifies maximum number of nodes allocated to the instance. If set, this number
   * should be greater than or equal to min_nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#max_nodes GoogleSpannerInstance#max_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#max_nodes GoogleSpannerInstance#max_nodes}
   */
   readonly maxNodes?: number;
   /**
@@ -786,21 +786,21 @@ export interface GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits {
   * If set, this number should be multiples of 1000 and be greater than or equal to
   * min_processing_units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#max_processing_units GoogleSpannerInstance#max_processing_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#max_processing_units GoogleSpannerInstance#max_processing_units}
   */
   readonly maxProcessingUnits?: number;
   /**
   * Specifies number of nodes allocated to the instance. If set, this number
   * should be greater than or equal to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#min_nodes GoogleSpannerInstance#min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#min_nodes GoogleSpannerInstance#min_nodes}
   */
   readonly minNodes?: number;
   /**
   * Specifies minimum number of processing units allocated to the instance.
   * If set, this number should be multiples of 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#min_processing_units GoogleSpannerInstance#min_processing_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#min_processing_units GoogleSpannerInstance#min_processing_units}
   */
   readonly minProcessingUnits?: number;
 }
@@ -975,7 +975,7 @@ export interface GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets {
   * should be trying to achieve for the instance.
   * This number is on a scale from 0 (no utilization) to 100 (full utilization)..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#high_priority_cpu_utilization_percent GoogleSpannerInstance#high_priority_cpu_utilization_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#high_priority_cpu_utilization_percent GoogleSpannerInstance#high_priority_cpu_utilization_percent}
   */
   readonly highPriorityCpuUtilizationPercent?: number;
   /**
@@ -983,7 +983,7 @@ export interface GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets {
   * should be trying to achieve for the instance.
   * This number is on a scale from 0 (no utilization) to 100 (full utilization).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#storage_utilization_percent GoogleSpannerInstance#storage_utilization_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#storage_utilization_percent GoogleSpannerInstance#storage_utilization_percent}
   */
   readonly storageUtilizationPercent?: number;
   /**
@@ -992,7 +992,7 @@ export interface GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets {
   * If not specified or set to 0, the autoscaler will skip scaling based on total cpu utilization.
   * The value should be higher than high_priority_cpu_utilization_percent if present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#total_cpu_utilization_percent GoogleSpannerInstance#total_cpu_utilization_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#total_cpu_utilization_percent GoogleSpannerInstance#total_cpu_utilization_percent}
   */
   readonly totalCpuUtilizationPercent?: number;
 }
@@ -1136,19 +1136,19 @@ export interface GoogleSpannerInstanceAutoscalingConfig {
   /**
   * asymmetric_autoscaling_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#asymmetric_autoscaling_options GoogleSpannerInstance#asymmetric_autoscaling_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#asymmetric_autoscaling_options GoogleSpannerInstance#asymmetric_autoscaling_options}
   */
   readonly asymmetricAutoscalingOptions?: GoogleSpannerInstanceAutoscalingConfigAsymmetricAutoscalingOptions[] | cdktn.IResolvable;
   /**
   * autoscaling_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_limits GoogleSpannerInstance#autoscaling_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#autoscaling_limits GoogleSpannerInstance#autoscaling_limits}
   */
   readonly autoscalingLimits?: GoogleSpannerInstanceAutoscalingConfigAutoscalingLimits;
   /**
   * autoscaling_targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#autoscaling_targets GoogleSpannerInstance#autoscaling_targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#autoscaling_targets GoogleSpannerInstance#autoscaling_targets}
   */
   readonly autoscalingTargets?: GoogleSpannerInstanceAutoscalingConfigAutoscalingTargets;
 }
@@ -1290,15 +1290,15 @@ export class GoogleSpannerInstanceAutoscalingConfigOutputReference extends cdktn
 }
 export interface GoogleSpannerInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#create GoogleSpannerInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#create GoogleSpannerInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#delete GoogleSpannerInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#delete GoogleSpannerInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#update GoogleSpannerInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#update GoogleSpannerInstance#update}
   */
   readonly update?: string;
 }
@@ -1450,7 +1450,7 @@ export class GoogleSpannerInstanceTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance google_spanner_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance google_spanner_instance}
 */
 export class GoogleSpannerInstance extends cdktn.TerraformResource {
 
@@ -1466,7 +1466,7 @@ export class GoogleSpannerInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleSpannerInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSpannerInstance to import
-  * @param importFromId The id of the existing GoogleSpannerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSpannerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSpannerInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1478,7 +1478,7 @@ export class GoogleSpannerInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.31.0/docs/resources/google_spanner_instance google_spanner_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_spanner_instance google_spanner_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1489,7 +1489,7 @@ export class GoogleSpannerInstance extends cdktn.TerraformResource {
       terraformResourceType: 'google_spanner_instance',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.31.0',
+        providerVersion: '7.32.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
