@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,7 +13,19 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleApigeeAddonsConfigConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#id GoogleApigeeAddonsConfig#id}
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#deletion_policy GoogleApigeeAddonsConfig#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#id GoogleApigeeAddonsConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,19 +34,19 @@ export interface GoogleApigeeAddonsConfigConfig extends cdktn.TerraformMetaArgum
   /**
   * Name of the Apigee organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#org GoogleApigeeAddonsConfig#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#org GoogleApigeeAddonsConfig#org}
   */
   readonly org: string;
   /**
   * addons_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#addons_config GoogleApigeeAddonsConfig#addons_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#addons_config GoogleApigeeAddonsConfig#addons_config}
   */
   readonly addonsConfig?: GoogleApigeeAddonsConfigAddonsConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#timeouts GoogleApigeeAddonsConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#timeouts GoogleApigeeAddonsConfig#timeouts}
   */
   readonly timeouts?: GoogleApigeeAddonsConfigTimeouts;
 }
@@ -42,7 +54,7 @@ export interface GoogleApigeeAddonsConfigAddonsConfigAdvancedApiOpsConfig {
   /**
   * Flag that specifies whether the Advanced API Ops add-on is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -128,7 +140,7 @@ export interface GoogleApigeeAddonsConfigAddonsConfigApiSecurityConfig {
   /**
   * Flag that specifies whether the API security add-on is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -219,7 +231,7 @@ export interface GoogleApigeeAddonsConfigAddonsConfigConnectorsPlatformConfig {
   /**
   * Flag that specifies whether the Connectors Platform add-on is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -310,7 +322,7 @@ export interface GoogleApigeeAddonsConfigAddonsConfigIntegrationConfig {
   /**
   * Flag that specifies whether the Integration add-on is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -396,7 +408,7 @@ export interface GoogleApigeeAddonsConfigAddonsConfigMonetizationConfig {
   /**
   * Flag that specifies whether the Monetization add-on is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#enabled GoogleApigeeAddonsConfig#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
 }
@@ -482,31 +494,31 @@ export interface GoogleApigeeAddonsConfigAddonsConfig {
   /**
   * advanced_api_ops_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#advanced_api_ops_config GoogleApigeeAddonsConfig#advanced_api_ops_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#advanced_api_ops_config GoogleApigeeAddonsConfig#advanced_api_ops_config}
   */
   readonly advancedApiOpsConfig?: GoogleApigeeAddonsConfigAddonsConfigAdvancedApiOpsConfig;
   /**
   * api_security_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#api_security_config GoogleApigeeAddonsConfig#api_security_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#api_security_config GoogleApigeeAddonsConfig#api_security_config}
   */
   readonly apiSecurityConfig?: GoogleApigeeAddonsConfigAddonsConfigApiSecurityConfig;
   /**
   * connectors_platform_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#connectors_platform_config GoogleApigeeAddonsConfig#connectors_platform_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#connectors_platform_config GoogleApigeeAddonsConfig#connectors_platform_config}
   */
   readonly connectorsPlatformConfig?: GoogleApigeeAddonsConfigAddonsConfigConnectorsPlatformConfig;
   /**
   * integration_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#integration_config GoogleApigeeAddonsConfig#integration_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#integration_config GoogleApigeeAddonsConfig#integration_config}
   */
   readonly integrationConfig?: GoogleApigeeAddonsConfigAddonsConfigIntegrationConfig;
   /**
   * monetization_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#monetization_config GoogleApigeeAddonsConfig#monetization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#monetization_config GoogleApigeeAddonsConfig#monetization_config}
   */
   readonly monetizationConfig?: GoogleApigeeAddonsConfigAddonsConfigMonetizationConfig;
 }
@@ -706,15 +718,15 @@ export class GoogleApigeeAddonsConfigAddonsConfigOutputReference extends cdktn.C
 }
 export interface GoogleApigeeAddonsConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#create GoogleApigeeAddonsConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#create GoogleApigeeAddonsConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#delete GoogleApigeeAddonsConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#delete GoogleApigeeAddonsConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#update GoogleApigeeAddonsConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#update GoogleApigeeAddonsConfig#update}
   */
   readonly update?: string;
 }
@@ -866,7 +878,7 @@ export class GoogleApigeeAddonsConfigTimeoutsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config google_apigee_addons_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config google_apigee_addons_config}
 */
 export class GoogleApigeeAddonsConfig extends cdktn.TerraformResource {
 
@@ -882,7 +894,7 @@ export class GoogleApigeeAddonsConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleApigeeAddonsConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleApigeeAddonsConfig to import
-  * @param importFromId The id of the existing GoogleApigeeAddonsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleApigeeAddonsConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleApigeeAddonsConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -894,7 +906,7 @@ export class GoogleApigeeAddonsConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_addons_config google_apigee_addons_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -905,7 +917,7 @@ export class GoogleApigeeAddonsConfig extends cdktn.TerraformResource {
       terraformResourceType: 'google_apigee_addons_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -916,6 +928,7 @@ export class GoogleApigeeAddonsConfig extends cdktn.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deletionPolicy = config.deletionPolicy;
     this._id = config.id;
     this._org = config.org;
     this._addonsConfig.internalValue = config.addonsConfig;
@@ -925,6 +938,22 @@ export class GoogleApigeeAddonsConfig extends cdktn.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
+  }
 
   // id - computed: true, optional: true, required: false
   private _id?: string; 
@@ -993,6 +1022,7 @@ export class GoogleApigeeAddonsConfig extends cdktn.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       id: cdktn.stringToTerraform(this._id),
       org: cdktn.stringToTerraform(this._org),
       addons_config: googleApigeeAddonsConfigAddonsConfigToTerraform(this._addonsConfig.internalValue),
@@ -1002,6 +1032,12 @@ export class GoogleApigeeAddonsConfig extends cdktn.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktn.stringToHclTerraform(this._id),
         isBlock: false,

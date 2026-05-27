@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,17 +16,29 @@ export interface GoogleComputeTargetTcpProxyConfig extends cdktn.TerraformMetaAr
   * A reference to the BackendService resource. This field is optional when
   * the loadBalancingScheme (available in beta) is set to INTERNAL_MANAGED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#backend_service GoogleComputeTargetTcpProxy#backend_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#backend_service GoogleComputeTargetTcpProxy#backend_service}
   */
   readonly backendService?: string;
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#deletion_policy GoogleComputeTargetTcpProxy#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * An optional description of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#description GoogleComputeTargetTcpProxy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#description GoogleComputeTargetTcpProxy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#id GoogleComputeTargetTcpProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#id GoogleComputeTargetTcpProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,7 +49,7 @@ export interface GoogleComputeTargetTcpProxyConfig extends cdktn.TerraformMetaAr
   * of load balancer cannot be used with another. For more information, refer
   * to [Summary of types of Google Cloud load balancers](https://docs.cloud.google.com/load-balancing/docs/load-balancing-overview#summary-gclb). Possible values: ["EXTERNAL", "EXTERNAL_MANAGED", "INTERNAL_MANAGED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#load_balancing_scheme GoogleComputeTargetTcpProxy#load_balancing_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#load_balancing_scheme GoogleComputeTargetTcpProxy#load_balancing_scheme}
   */
   readonly loadBalancingScheme?: string;
   /**
@@ -49,45 +61,45 @@ export interface GoogleComputeTargetTcpProxyConfig extends cdktn.TerraformMetaAr
   * characters must be a dash, lowercase letter, or digit, except the last
   * character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#name GoogleComputeTargetTcpProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#name GoogleComputeTargetTcpProxy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#project GoogleComputeTargetTcpProxy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#project GoogleComputeTargetTcpProxy#project}
   */
   readonly project?: string;
   /**
   * This field only applies when the forwarding rule that references
   * this target proxy has a loadBalancingScheme set to INTERNAL_SELF_MANAGED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#proxy_bind GoogleComputeTargetTcpProxy#proxy_bind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#proxy_bind GoogleComputeTargetTcpProxy#proxy_bind}
   */
   readonly proxyBind?: boolean | cdktn.IResolvable;
   /**
   * Specifies the type of proxy header to append before sending data to
   * the backend. Default value: "NONE" Possible values: ["NONE", "PROXY_V1"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#proxy_header GoogleComputeTargetTcpProxy#proxy_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#proxy_header GoogleComputeTargetTcpProxy#proxy_header}
   */
   readonly proxyHeader?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#timeouts GoogleComputeTargetTcpProxy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#timeouts GoogleComputeTargetTcpProxy#timeouts}
   */
   readonly timeouts?: GoogleComputeTargetTcpProxyTimeouts;
 }
 export interface GoogleComputeTargetTcpProxyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#create GoogleComputeTargetTcpProxy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#create GoogleComputeTargetTcpProxy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#delete GoogleComputeTargetTcpProxy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#delete GoogleComputeTargetTcpProxy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#update GoogleComputeTargetTcpProxy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#update GoogleComputeTargetTcpProxy#update}
   */
   readonly update?: string;
 }
@@ -239,7 +251,7 @@ export class GoogleComputeTargetTcpProxyTimeoutsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy}
 */
 export class GoogleComputeTargetTcpProxy extends cdktn.TerraformResource {
 
@@ -255,7 +267,7 @@ export class GoogleComputeTargetTcpProxy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeTargetTcpProxy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeTargetTcpProxy to import
-  * @param importFromId The id of the existing GoogleComputeTargetTcpProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeTargetTcpProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeTargetTcpProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -267,7 +279,7 @@ export class GoogleComputeTargetTcpProxy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,7 +290,7 @@ export class GoogleComputeTargetTcpProxy extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_target_tcp_proxy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -290,6 +302,7 @@ export class GoogleComputeTargetTcpProxy extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._backendService = config.backendService;
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._id = config.id;
     this._loadBalancingScheme = config.loadBalancingScheme;
@@ -323,6 +336,22 @@ export class GoogleComputeTargetTcpProxy extends cdktn.TerraformResource {
   // creation_timestamp - computed: true, optional: false, required: false
   public get creationTimestamp() {
     return this.getStringAttribute('creation_timestamp');
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // description - computed: false, optional: true, required: false
@@ -467,6 +496,7 @@ export class GoogleComputeTargetTcpProxy extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       backend_service: cdktn.stringToTerraform(this._backendService),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       id: cdktn.stringToTerraform(this._id),
       load_balancing_scheme: cdktn.stringToTerraform(this._loadBalancingScheme),
@@ -482,6 +512,12 @@ export class GoogleComputeTargetTcpProxy extends cdktn.TerraformResource {
     const attrs = {
       backend_service: {
         value: cdktn.stringToHclTerraform(this._backendService),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

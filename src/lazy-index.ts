@@ -48,6 +48,7 @@ Object.defineProperty(exports, 'googleApigeeApiDeployment', { get: function () {
 Object.defineProperty(exports, 'googleApigeeApiProduct', { get: function () { return require('./google-apigee-api-product'); } });
 Object.defineProperty(exports, 'googleApigeeAppGroup', { get: function () { return require('./google-apigee-app-group'); } });
 Object.defineProperty(exports, 'googleApigeeControlPlaneAccess', { get: function () { return require('./google-apigee-control-plane-access'); } });
+Object.defineProperty(exports, 'googleApigeeDataCollector', { get: function () { return require('./google-apigee-data-collector'); } });
 Object.defineProperty(exports, 'googleApigeeDeveloper', { get: function () { return require('./google-apigee-developer'); } });
 Object.defineProperty(exports, 'googleApigeeDeveloperApp', { get: function () { return require('./google-apigee-developer-app'); } });
 Object.defineProperty(exports, 'googleApigeeDnsZone', { get: function () { return require('./google-apigee-dns-zone'); } });
@@ -491,6 +492,7 @@ Object.defineProperty(exports, 'googleComputeWireGroup', { get: function () { re
 Object.defineProperty(exports, 'googleContactCenterInsightsAnalysisRule', { get: function () { return require('./google-contact-center-insights-analysis-rule'); } });
 Object.defineProperty(exports, 'googleContactCenterInsightsAssessmentRule', { get: function () { return require('./google-contact-center-insights-assessment-rule'); } });
 Object.defineProperty(exports, 'googleContactCenterInsightsAutoLabelingRule', { get: function () { return require('./google-contact-center-insights-auto-labeling-rule'); } });
+Object.defineProperty(exports, 'googleContactCenterInsightsEncryptionSpec', { get: function () { return require('./google-contact-center-insights-encryption-spec'); } });
 Object.defineProperty(exports, 'googleContactCenterInsightsQaQuestion', { get: function () { return require('./google-contact-center-insights-qa-question'); } });
 Object.defineProperty(exports, 'googleContactCenterInsightsQaScorecard', { get: function () { return require('./google-contact-center-insights-qa-scorecard'); } });
 Object.defineProperty(exports, 'googleContactCenterInsightsQaScorecardRevision', { get: function () { return require('./google-contact-center-insights-qa-scorecard-revision'); } });
@@ -1679,6 +1681,7 @@ Object.defineProperty(exports, 'dataGoogleKmsSecret', { get: function () { retur
 Object.defineProperty(exports, 'dataGoogleKmsSecretAsymmetric', { get: function () { return require('./data-google-kms-secret-asymmetric'); } });
 Object.defineProperty(exports, 'dataGoogleKmsSecretCiphertext', { get: function () { return require('./data-google-kms-secret-ciphertext'); } });
 Object.defineProperty(exports, 'dataGoogleLoggingFolderSettings', { get: function () { return require('./data-google-logging-folder-settings'); } });
+Object.defineProperty(exports, 'dataGoogleLoggingLogView', { get: function () { return require('./data-google-logging-log-view'); } });
 Object.defineProperty(exports, 'dataGoogleLoggingLogViewIamPolicy', { get: function () { return require('./data-google-logging-log-view-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleLoggingOrganizationSettings', { get: function () { return require('./data-google-logging-organization-settings'); } });
 Object.defineProperty(exports, 'dataGoogleLoggingProjectCmekSettings', { get: function () { return require('./data-google-logging-project-cmek-settings'); } });

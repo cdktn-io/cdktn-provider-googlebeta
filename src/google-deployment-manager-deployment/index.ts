@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,7 +19,7 @@ export interface GoogleDeploymentManagerDeploymentConfig extends cdktn.Terraform
   * the deployment will fail. Note that updating this field does not
   * actually affect the deployment, just how it is updated. Default value: "CREATE_OR_ACQUIRE" Possible values: ["ACQUIRE", "CREATE_OR_ACQUIRE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#create_policy GoogleDeploymentManagerDeployment#create_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#create_policy GoogleDeploymentManagerDeployment#create_policy}
   */
   readonly createPolicy?: string;
   /**
@@ -30,17 +30,29 @@ export interface GoogleDeploymentManagerDeploymentConfig extends cdktn.Terraform
   * and is not actually deleted. Note that updating this field does not
   * actually change the deployment, just how it is updated. Default value: "DELETE" Possible values: ["ABANDON", "DELETE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#delete_policy GoogleDeploymentManagerDeployment#delete_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#delete_policy GoogleDeploymentManagerDeployment#delete_policy}
   */
   readonly deletePolicy?: string;
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#deletion_policy GoogleDeploymentManagerDeployment#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * Optional user-provided description of deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#description GoogleDeploymentManagerDeployment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#description GoogleDeploymentManagerDeployment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#id GoogleDeploymentManagerDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#id GoogleDeploymentManagerDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +61,7 @@ export interface GoogleDeploymentManagerDeploymentConfig extends cdktn.Terraform
   /**
   * Unique name for the deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#name GoogleDeploymentManagerDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#name GoogleDeploymentManagerDeployment#name}
   */
   readonly name: string;
   /**
@@ -62,29 +74,29 @@ export interface GoogleDeploymentManagerDeploymentConfig extends cdktn.Terraform
   * Terraform will force-recreate deployments if either preview is updated
   * to true or if other fields are updated while preview is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#preview GoogleDeploymentManagerDeployment#preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#preview GoogleDeploymentManagerDeployment#preview}
   */
   readonly preview?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#project GoogleDeploymentManagerDeployment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#project GoogleDeploymentManagerDeployment#project}
   */
   readonly project?: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#labels GoogleDeploymentManagerDeployment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#labels GoogleDeploymentManagerDeployment#labels}
   */
   readonly labels?: GoogleDeploymentManagerDeploymentLabels[] | cdktn.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#target GoogleDeploymentManagerDeployment#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#target GoogleDeploymentManagerDeployment#target}
   */
   readonly target: GoogleDeploymentManagerDeploymentTarget;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#timeouts GoogleDeploymentManagerDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#timeouts GoogleDeploymentManagerDeployment#timeouts}
   */
   readonly timeouts?: GoogleDeploymentManagerDeploymentTimeouts;
 }
@@ -92,13 +104,13 @@ export interface GoogleDeploymentManagerDeploymentLabels {
   /**
   * Key for label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#key GoogleDeploymentManagerDeployment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#key GoogleDeploymentManagerDeployment#key}
   */
   readonly key?: string;
   /**
   * Value of label.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#value GoogleDeploymentManagerDeployment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#value GoogleDeploymentManagerDeployment#value}
   */
   readonly value?: string;
 }
@@ -231,7 +243,7 @@ export class GoogleDeploymentManagerDeploymentLabelsList extends cdktn.ComplexLi
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -245,7 +257,7 @@ export interface GoogleDeploymentManagerDeploymentTargetConfig {
   /**
   * The full YAML contents of your configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#content GoogleDeploymentManagerDeployment#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#content GoogleDeploymentManagerDeployment#content}
   */
   readonly content: string;
 }
@@ -328,14 +340,14 @@ export interface GoogleDeploymentManagerDeploymentTargetImports {
   /**
   * The full contents of the template that you want to import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#content GoogleDeploymentManagerDeployment#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#content GoogleDeploymentManagerDeployment#content}
   */
   readonly content?: string;
   /**
   * The name of the template to import, as declared in the YAML
   * configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#name GoogleDeploymentManagerDeployment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#name GoogleDeploymentManagerDeployment#name}
   */
   readonly name?: string;
 }
@@ -468,7 +480,7 @@ export class GoogleDeploymentManagerDeploymentTargetImportsList extends cdktn.Co
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -482,13 +494,13 @@ export interface GoogleDeploymentManagerDeploymentTarget {
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#config GoogleDeploymentManagerDeployment#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#config GoogleDeploymentManagerDeployment#config}
   */
   readonly config: GoogleDeploymentManagerDeploymentTargetConfig;
   /**
   * imports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#imports GoogleDeploymentManagerDeployment#imports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#imports GoogleDeploymentManagerDeployment#imports}
   */
   readonly imports?: GoogleDeploymentManagerDeploymentTargetImports[] | cdktn.IResolvable;
 }
@@ -598,15 +610,15 @@ export class GoogleDeploymentManagerDeploymentTargetOutputReference extends cdkt
 }
 export interface GoogleDeploymentManagerDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#create GoogleDeploymentManagerDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#create GoogleDeploymentManagerDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#delete GoogleDeploymentManagerDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#delete GoogleDeploymentManagerDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#update GoogleDeploymentManagerDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#update GoogleDeploymentManagerDeployment#update}
   */
   readonly update?: string;
 }
@@ -758,7 +770,7 @@ export class GoogleDeploymentManagerDeploymentTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment google_deployment_manager_deployment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment google_deployment_manager_deployment}
 */
 export class GoogleDeploymentManagerDeployment extends cdktn.TerraformResource {
 
@@ -774,7 +786,7 @@ export class GoogleDeploymentManagerDeployment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDeploymentManagerDeployment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDeploymentManagerDeployment to import
-  * @param importFromId The id of the existing GoogleDeploymentManagerDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDeploymentManagerDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDeploymentManagerDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -786,7 +798,7 @@ export class GoogleDeploymentManagerDeployment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_deployment_manager_deployment google_deployment_manager_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_deployment_manager_deployment google_deployment_manager_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -797,7 +809,7 @@ export class GoogleDeploymentManagerDeployment extends cdktn.TerraformResource {
       terraformResourceType: 'google_deployment_manager_deployment',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -810,6 +822,7 @@ export class GoogleDeploymentManagerDeployment extends cdktn.TerraformResource {
     });
     this._createPolicy = config.createPolicy;
     this._deletePolicy = config.deletePolicy;
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._id = config.id;
     this._name = config.name;
@@ -854,6 +867,22 @@ export class GoogleDeploymentManagerDeployment extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get deletePolicyInput() {
     return this._deletePolicy;
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // deployment_id - computed: true, optional: false, required: false
@@ -1001,6 +1030,7 @@ export class GoogleDeploymentManagerDeployment extends cdktn.TerraformResource {
     return {
       create_policy: cdktn.stringToTerraform(this._createPolicy),
       delete_policy: cdktn.stringToTerraform(this._deletePolicy),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       id: cdktn.stringToTerraform(this._id),
       name: cdktn.stringToTerraform(this._name),
@@ -1022,6 +1052,12 @@ export class GoogleDeploymentManagerDeployment extends cdktn.TerraformResource {
       },
       delete_policy: {
         value: cdktn.stringToHclTerraform(this._deletePolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
