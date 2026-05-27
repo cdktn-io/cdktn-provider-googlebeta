@@ -4,7 +4,7 @@
 
 ### GoogleSqlDatabase <a name="GoogleSqlDatabase" id="@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database google_sql_database}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database google_sql_database}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabase.Initializer"></a>
 
@@ -544,7 +544,7 @@ The construct id used in the generated config for the GoogleSqlDatabase to impor
 
 The id of the existing GoogleSqlDatabase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -951,9 +951,9 @@ const googleSqlDatabaseConfig: googleSqlDatabase.GoogleSqlDatabaseConfig = { ...
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.name">name</a></code> | <code>string</code> | The name of the database in the Cloud SQL instance. This does not include the project ID or instance name. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.charset">charset</a></code> | <code>string</code> | The charset value. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.collation">collation</a></code> | <code>string</code> | The collation value. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | The deletion policy for the database. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#id GoogleSqlDatabase#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#project GoogleSqlDatabase#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#id GoogleSqlDatabase#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#project GoogleSqlDatabase#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeouts">GoogleSqlDatabaseTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1038,7 +1038,7 @@ public readonly instance: string;
 
 The name of the Cloud SQL instance. This does not include the project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#instance GoogleSqlDatabase#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#instance GoogleSqlDatabase#instance}
 
 ---
 
@@ -1052,7 +1052,7 @@ public readonly name: string;
 
 The name of the database in the Cloud SQL instance. This does not include the project ID or instance name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#name GoogleSqlDatabase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#name GoogleSqlDatabase#name}
 
 ---
 
@@ -1072,7 +1072,7 @@ and Postgres' [Character Set Support](https://www.postgresql.org/docs/9.6/static
 for more details and supported values. Postgres databases only support
 a value of 'UTF8' at creation time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#charset GoogleSqlDatabase#charset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#charset GoogleSqlDatabase#charset}
 
 ---
 
@@ -1092,7 +1092,7 @@ and Postgres' [Collation Support](https://www.postgresql.org/docs/9.6/static/col
 for more details and supported values. Postgres databases only support
 a value of 'en_US.UTF8' at creation time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#collation GoogleSqlDatabase#collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#collation GoogleSqlDatabase#collation}
 
 ---
 
@@ -1104,14 +1104,17 @@ public readonly deletionPolicy: string;
 
 - *Type:* string
 
-The deletion policy for the database.
+Whether Terraform will be prevented from destroying the instance.
 
-Setting ABANDON allows the resource
-to be abandoned rather than deleted. This is useful for Postgres, where databases cannot be
-deleted from the API if there are users other than cloudsqlsuperuser with access. Possible
-values are: "ABANDON", "DELETE". Defaults to "DELETE".
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#deletion_policy GoogleSqlDatabase#deletion_policy}
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#deletion_policy GoogleSqlDatabase#deletion_policy}
 
 ---
 
@@ -1123,7 +1126,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#id GoogleSqlDatabase#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#id GoogleSqlDatabase#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1138,7 +1141,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#project GoogleSqlDatabase#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#project GoogleSqlDatabase#project}.
 
 ---
 
@@ -1152,7 +1155,7 @@ public readonly timeouts: GoogleSqlDatabaseTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#timeouts GoogleSqlDatabase#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#timeouts GoogleSqlDatabase#timeouts}
 
 ---
 
@@ -1170,9 +1173,9 @@ const googleSqlDatabaseTimeouts: googleSqlDatabase.GoogleSqlDatabaseTimeouts = {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#create GoogleSqlDatabase#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#delete GoogleSqlDatabase#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#update GoogleSqlDatabase#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#create GoogleSqlDatabase#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#delete GoogleSqlDatabase#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlDatabase.GoogleSqlDatabaseTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#update GoogleSqlDatabase#update}. |
 
 ---
 
@@ -1184,7 +1187,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#create GoogleSqlDatabase#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#create GoogleSqlDatabase#create}.
 
 ---
 
@@ -1196,7 +1199,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#delete GoogleSqlDatabase#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#delete GoogleSqlDatabase#delete}.
 
 ---
 
@@ -1208,7 +1211,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_database#update GoogleSqlDatabase#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_database#update GoogleSqlDatabase#update}.
 
 ---
 

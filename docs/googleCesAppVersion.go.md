@@ -4,7 +4,7 @@
 
 ### GoogleCesAppVersion <a name="GoogleCesAppVersion" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version google_ces_app_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version google_ces_app_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.resetDisplayName">ResetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.resetId">ResetId</a></code> | *No description.* |
@@ -404,6 +405,12 @@ func PutTimeouts(value GoogleCesAppVersionTimeouts)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.resetDescription"></a>
 
 ```go
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleCesAppVersion to imp
 
 The id of the existing GoogleCesAppVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -575,6 +582,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeoutsOutputReference">GoogleCesAppVersionTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.appInput">AppInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.appVersionIdInput">AppVersionIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.displayNameInput">DisplayNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
@@ -583,6 +591,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.app">App</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.appVersionId">AppVersionId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.displayName">DisplayName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.id">Id</a></code> | <code>*string</code> | *No description.* |
@@ -813,6 +822,16 @@ func AppVersionIdInput() *string
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.descriptionInput"></a>
 
 ```go
@@ -887,6 +906,16 @@ func App() *string
 
 ```go
 func AppVersionId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersion.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
 ```
 
 - *Type:* *string
@@ -981,6 +1010,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 	App: *string,
 	AppVersionId: *string,
 	Location: *string,
+	DeletionPolicy: *string,
 	Description: *string,
 	DisplayName: *string,
 	Id: *string,
@@ -1003,10 +1033,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.app">App</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.appVersionId">AppVersionId</a></code> | <code>*string</code> | The ID to use for the app version, which will become the final component of the app version's resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.location">Location</a></code> | <code>*string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.description">Description</a></code> | <code>*string</code> | The description of the app version. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | The display name of the app version. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#id GoogleCesAppVersion#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#project GoogleCesAppVersion#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#id GoogleCesAppVersion#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#project GoogleCesAppVersion#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts">GoogleCesAppVersionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1091,7 +1122,7 @@ App *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#app GoogleCesAppVersion#app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#app GoogleCesAppVersion#app}
 
 ---
 
@@ -1108,7 +1139,7 @@ The ID to use for the app version, which will become the final component of the 
 If not provided, a unique ID will be
 automatically assigned for the app version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#app_version_id GoogleCesAppVersion#app_version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#app_version_id GoogleCesAppVersion#app_version_id}
 
 ---
 
@@ -1122,7 +1153,28 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#location GoogleCesAppVersion#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#location GoogleCesAppVersion#location}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#deletion_policy GoogleCesAppVersion#deletion_policy}
 
 ---
 
@@ -1136,7 +1188,7 @@ Description *string
 
 The description of the app version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#description GoogleCesAppVersion#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#description GoogleCesAppVersion#description}
 
 ---
 
@@ -1150,7 +1202,7 @@ DisplayName *string
 
 The display name of the app version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#display_name GoogleCesAppVersion#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#display_name GoogleCesAppVersion#display_name}
 
 ---
 
@@ -1162,7 +1214,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#id GoogleCesAppVersion#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#id GoogleCesAppVersion#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1177,7 +1229,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#project GoogleCesAppVersion#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#project GoogleCesAppVersion#project}.
 
 ---
 
@@ -1191,7 +1243,7 @@ Timeouts GoogleCesAppVersionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#timeouts GoogleCesAppVersion#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#timeouts GoogleCesAppVersion#timeouts}
 
 ---
 
@@ -2642,8 +2694,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppVersion.GoogleCesAppVersionTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}. |
 
 ---
 
@@ -2655,7 +2707,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}.
 
 ---
 
@@ -2667,7 +2719,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}.
 
 ---
 

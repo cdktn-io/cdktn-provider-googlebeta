@@ -4,7 +4,7 @@
 
 ### GoogleComputePacketMirroring <a name="GoogleComputePacketMirroring" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring google_compute_packet_mirroring}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring google_compute_packet_mirroring}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.Initializer"></a>
 
@@ -79,6 +79,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.putMirroredResources">putMirroredResources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.putNetwork">putNetwork</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.resetEnable">resetEnable</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.resetFilter">resetFilter</a></code> | *No description.* |
@@ -459,6 +460,12 @@ public putTimeouts(value: GoogleComputePacketMirroringTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.resetDescription"></a>
 
 ```typescript
@@ -610,7 +617,7 @@ The construct id used in the generated config for the GoogleComputePacketMirrori
 
 The id of the existing GoogleComputePacketMirroring that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -646,6 +653,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.network">network</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringNetworkOutputReference">GoogleComputePacketMirroringNetworkOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeoutsOutputReference">GoogleComputePacketMirroringTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.collectorIlbInput">collectorIlbInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringCollectorIlb">GoogleComputePacketMirroringCollectorIlb</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.enableInput">enableInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.filterInput">filterInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringFilter">GoogleComputePacketMirroringFilter</a></code> | *No description.* |
@@ -657,6 +665,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.regionInput">regionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts">GoogleComputePacketMirroringTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.enable">enable</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -869,6 +878,16 @@ public readonly collectorIlbInput: GoogleComputePacketMirroringCollectorIlb;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.descriptionInput"></a>
 
 ```typescript
@@ -976,6 +995,16 @@ public readonly timeoutsInput: IResolvable | GoogleComputePacketMirroringTimeout
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts">GoogleComputePacketMirroringTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroring.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -1097,7 +1126,7 @@ public readonly url: string;
 
 The URL of the forwarding rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#url GoogleComputePacketMirroring#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#url GoogleComputePacketMirroring#url}
 
 ---
 
@@ -1126,12 +1155,13 @@ const googleComputePacketMirroringConfig: googleComputePacketMirroring.GoogleCom
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.mirroredResources">mirroredResources</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringMirroredResources">GoogleComputePacketMirroringMirroredResources</a></code> | mirrored_resources block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.name">name</a></code> | <code>string</code> | The name of the packet mirroring rule. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.network">network</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringNetwork">GoogleComputePacketMirroringNetwork</a></code> | network block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.description">description</a></code> | <code>string</code> | A human-readable description of the rule. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.enable">enable</a></code> | <code>string</code> | Indicates whether or not this packet mirroring takes effect. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.filter">filter</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringFilter">GoogleComputePacketMirroringFilter</a></code> | filter block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#id GoogleComputePacketMirroring#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#id GoogleComputePacketMirroring#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.priority">priority</a></code> | <code>number</code> | Since only one rule can be active at a time, priority is used to break ties in the case of two rules that apply to the same instances. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#project GoogleComputePacketMirroring#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#project GoogleComputePacketMirroring#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.region">region</a></code> | <code>string</code> | The Region in which the created address should reside. If it is not provided, the provider region is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts">GoogleComputePacketMirroringTimeouts</a></code> | timeouts block. |
 
@@ -1217,7 +1247,7 @@ public readonly collectorIlb: GoogleComputePacketMirroringCollectorIlb;
 
 collector_ilb block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#collector_ilb GoogleComputePacketMirroring#collector_ilb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#collector_ilb GoogleComputePacketMirroring#collector_ilb}
 
 ---
 
@@ -1231,7 +1261,7 @@ public readonly mirroredResources: GoogleComputePacketMirroringMirroredResources
 
 mirrored_resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#mirrored_resources GoogleComputePacketMirroring#mirrored_resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#mirrored_resources GoogleComputePacketMirroring#mirrored_resources}
 
 ---
 
@@ -1245,7 +1275,7 @@ public readonly name: string;
 
 The name of the packet mirroring rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#name GoogleComputePacketMirroring#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#name GoogleComputePacketMirroring#name}
 
 ---
 
@@ -1259,7 +1289,29 @@ public readonly network: GoogleComputePacketMirroringNetwork;
 
 network block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#network GoogleComputePacketMirroring#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#network GoogleComputePacketMirroring#network}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#deletion_policy GoogleComputePacketMirroring#deletion_policy}
 
 ---
 
@@ -1273,7 +1325,7 @@ public readonly description: string;
 
 A human-readable description of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#description GoogleComputePacketMirroring#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#description GoogleComputePacketMirroring#description}
 
 ---
 
@@ -1290,7 +1342,7 @@ Indicates whether or not this packet mirroring takes effect.
 If set to FALSE, this packet mirroring
 policy will not be enforced on the network. The default is TRUE. Possible values: ["TRUE", "FALSE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#enable GoogleComputePacketMirroring#enable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#enable GoogleComputePacketMirroring#enable}
 
 ---
 
@@ -1304,7 +1356,7 @@ public readonly filter: GoogleComputePacketMirroringFilter;
 
 filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#filter GoogleComputePacketMirroring#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#filter GoogleComputePacketMirroring#filter}
 
 ---
 
@@ -1316,7 +1368,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#id GoogleComputePacketMirroring#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#id GoogleComputePacketMirroring#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1333,7 +1385,7 @@ public readonly priority: number;
 
 Since only one rule can be active at a time, priority is used to break ties in the case of two rules that apply to the same instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#priority GoogleComputePacketMirroring#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#priority GoogleComputePacketMirroring#priority}
 
 ---
 
@@ -1345,7 +1397,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#project GoogleComputePacketMirroring#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#project GoogleComputePacketMirroring#project}.
 
 ---
 
@@ -1359,7 +1411,7 @@ public readonly region: string;
 
 The Region in which the created address should reside. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#region GoogleComputePacketMirroring#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#region GoogleComputePacketMirroring#region}
 
 ---
 
@@ -1373,7 +1425,7 @@ public readonly timeouts: GoogleComputePacketMirroringTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#timeouts GoogleComputePacketMirroring#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#timeouts GoogleComputePacketMirroring#timeouts}
 
 ---
 
@@ -1409,7 +1461,7 @@ IP CIDR ranges that apply as a filter on the source (ingress) or destination (eg
 
 Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#cidr_ranges GoogleComputePacketMirroring#cidr_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#cidr_ranges GoogleComputePacketMirroring#cidr_ranges}
 
 ---
 
@@ -1423,7 +1475,7 @@ public readonly direction: string;
 
 Direction of traffic to mirror. Default value: "BOTH" Possible values: ["INGRESS", "EGRESS", "BOTH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#direction GoogleComputePacketMirroring#direction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#direction GoogleComputePacketMirroring#direction}
 
 ---
 
@@ -1437,7 +1489,7 @@ public readonly ipProtocols: string[];
 
 Possible IP protocols including tcp, udp, icmp and esp.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#ip_protocols GoogleComputePacketMirroring#ip_protocols}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#ip_protocols GoogleComputePacketMirroring#ip_protocols}
 
 ---
 
@@ -1471,7 +1523,7 @@ public readonly instances: IResolvable | GoogleComputePacketMirroringMirroredRes
 
 instances block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#instances GoogleComputePacketMirroring#instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#instances GoogleComputePacketMirroring#instances}
 
 ---
 
@@ -1485,7 +1537,7 @@ public readonly subnetworks: IResolvable | GoogleComputePacketMirroringMirroredR
 
 subnetworks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#subnetworks GoogleComputePacketMirroring#subnetworks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#subnetworks GoogleComputePacketMirroring#subnetworks}
 
 ---
 
@@ -1499,7 +1551,7 @@ public readonly tags: string[];
 
 All instances with these tags will be mirrored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#tags GoogleComputePacketMirroring#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#tags GoogleComputePacketMirroring#tags}
 
 ---
 
@@ -1531,7 +1583,7 @@ public readonly url: string;
 
 The URL of the instances where this rule should be active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#url GoogleComputePacketMirroring#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#url GoogleComputePacketMirroring#url}
 
 ---
 
@@ -1563,7 +1615,7 @@ public readonly url: string;
 
 The URL of the subnetwork where this rule should be active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#url GoogleComputePacketMirroring#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#url GoogleComputePacketMirroring#url}
 
 ---
 
@@ -1595,7 +1647,7 @@ public readonly url: string;
 
 The full self_link URL of the network where this rule is active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#url GoogleComputePacketMirroring#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#url GoogleComputePacketMirroring#url}
 
 ---
 
@@ -1613,9 +1665,9 @@ const googleComputePacketMirroringTimeouts: googleComputePacketMirroring.GoogleC
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#create GoogleComputePacketMirroring#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#delete GoogleComputePacketMirroring#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#update GoogleComputePacketMirroring#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#create GoogleComputePacketMirroring#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#delete GoogleComputePacketMirroring#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputePacketMirroring.GoogleComputePacketMirroringTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#update GoogleComputePacketMirroring#update}. |
 
 ---
 
@@ -1627,7 +1679,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#create GoogleComputePacketMirroring#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#create GoogleComputePacketMirroring#create}.
 
 ---
 
@@ -1639,7 +1691,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#delete GoogleComputePacketMirroring#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#delete GoogleComputePacketMirroring#delete}.
 
 ---
 
@@ -1651,7 +1703,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_packet_mirroring#update GoogleComputePacketMirroring#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_packet_mirroring#update GoogleComputePacketMirroring#update}.
 
 ---
 

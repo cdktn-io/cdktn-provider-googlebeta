@@ -4,7 +4,7 @@
 
 ### GoogleBiglakeDatabase <a name="GoogleBiglakeDatabase" id="@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database google_biglake_database}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database google_biglake_database}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.putHiveOptions">putHiveOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
@@ -414,6 +415,12 @@ public putTimeouts(value: GoogleBiglakeDatabaseTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.resetId"></a>
 
 ```typescript
@@ -529,7 +536,7 @@ The construct id used in the generated config for the GoogleBiglakeDatabase to i
 
 The id of the existing GoogleBiglakeDatabase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -566,12 +573,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeoutsOutputReference">GoogleBiglakeDatabaseTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.catalogInput">catalogInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.hiveOptionsInput">hiveOptionsInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseHiveOptions">GoogleBiglakeDatabaseHiveOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts">GoogleBiglakeDatabaseTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.typeInput">typeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.catalog">catalog</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.type">type</a></code> | <code>string</code> | *No description.* |
@@ -790,6 +799,16 @@ public readonly catalogInput: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `hiveOptionsInput`<sup>Optional</sup> <a name="hiveOptionsInput" id="@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.hiveOptionsInput"></a>
 
 ```typescript
@@ -844,6 +863,16 @@ public readonly typeInput: string;
 
 ```typescript
 public readonly catalog: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabase.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -925,7 +954,8 @@ const googleBiglakeDatabaseConfig: googleBiglakeDatabase.GoogleBiglakeDatabaseCo
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig.property.hiveOptions">hiveOptions</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseHiveOptions">GoogleBiglakeDatabaseHiveOptions</a></code> | hive_options block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig.property.name">name</a></code> | <code>string</code> | The name of the database. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig.property.type">type</a></code> | <code>string</code> | The database type. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#id GoogleBiglakeDatabase#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#id GoogleBiglakeDatabase#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts">GoogleBiglakeDatabaseTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1010,7 +1040,7 @@ public readonly catalog: string;
 
 The parent catalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#catalog GoogleBiglakeDatabase#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#catalog GoogleBiglakeDatabase#catalog}
 
 ---
 
@@ -1024,7 +1054,7 @@ public readonly hiveOptions: GoogleBiglakeDatabaseHiveOptions;
 
 hive_options block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#hive_options GoogleBiglakeDatabase#hive_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#hive_options GoogleBiglakeDatabase#hive_options}
 
 ---
 
@@ -1038,7 +1068,7 @@ public readonly name: string;
 
 The name of the database.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#name GoogleBiglakeDatabase#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#name GoogleBiglakeDatabase#name}
 
 ---
 
@@ -1052,7 +1082,29 @@ public readonly type: string;
 
 The database type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#type GoogleBiglakeDatabase#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#type GoogleBiglakeDatabase#type}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#deletion_policy GoogleBiglakeDatabase#deletion_policy}
 
 ---
 
@@ -1064,7 +1116,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#id GoogleBiglakeDatabase#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#id GoogleBiglakeDatabase#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1081,7 +1133,7 @@ public readonly timeouts: GoogleBiglakeDatabaseTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#timeouts GoogleBiglakeDatabase#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#timeouts GoogleBiglakeDatabase#timeouts}
 
 ---
 
@@ -1114,7 +1166,7 @@ public readonly locationUri: string;
 
 Cloud Storage folder URI where the database data is stored, starting with "gs://".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#location_uri GoogleBiglakeDatabase#location_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#location_uri GoogleBiglakeDatabase#location_uri}
 
 ---
 
@@ -1132,7 +1184,7 @@ An object containing a
 list of"key": value pairs.
 Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#parameters GoogleBiglakeDatabase#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#parameters GoogleBiglakeDatabase#parameters}
 
 ---
 
@@ -1150,9 +1202,9 @@ const googleBiglakeDatabaseTimeouts: googleBiglakeDatabase.GoogleBiglakeDatabase
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#create GoogleBiglakeDatabase#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#delete GoogleBiglakeDatabase#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#update GoogleBiglakeDatabase#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#create GoogleBiglakeDatabase#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#delete GoogleBiglakeDatabase#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeDatabase.GoogleBiglakeDatabaseTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#update GoogleBiglakeDatabase#update}. |
 
 ---
 
@@ -1164,7 +1216,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#create GoogleBiglakeDatabase#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#create GoogleBiglakeDatabase#create}.
 
 ---
 
@@ -1176,7 +1228,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#delete GoogleBiglakeDatabase#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#delete GoogleBiglakeDatabase#delete}.
 
 ---
 
@@ -1188,7 +1240,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_database#update GoogleBiglakeDatabase#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_database#update GoogleBiglakeDatabase#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleIamWorkforcePoolProviderScimToken <a name="GoogleIamWorkforcePoolProviderScimToken" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer"></a>
 
@@ -26,6 +26,7 @@ googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken(
   scim_tenant_id: str,
   scim_token_id: str,
   workforce_pool_id: str,
+  deletion_policy: str = None,
   display_name: str = None,
   id: str = None,
   timeouts: GoogleIamWorkforcePoolProviderScimTokenTimeouts = None
@@ -48,8 +49,9 @@ googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken(
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer.parameter.scimTenantId">scim_tenant_id</a></code> | <code>str</code> | The ID of the SCIM Tenant. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer.parameter.scimTokenId">scim_token_id</a></code> | <code>str</code> | The ID to use for the SCIM Token, which becomes the final component of the resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer.parameter.workforcePoolId">workforce_pool_id</a></code> | <code>str</code> | The ID of the Workforce Pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | A user-specified display name for the scim token. Cannot exceed 32 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeouts">GoogleIamWorkforcePoolProviderScimTokenTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#location GoogleIamWorkforcePoolProviderScimToken#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#location GoogleIamWorkforcePoolProviderScimToken#location}
 
 ---
 
@@ -130,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the Provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#provider_id GoogleIamWorkforcePoolProviderScimToken#provider_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#provider_id GoogleIamWorkforcePoolProviderScimToken#provider_id}
 
 ---
 
@@ -140,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the SCIM Tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_tenant_id GoogleIamWorkforcePoolProviderScimToken#scim_tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_tenant_id GoogleIamWorkforcePoolProviderScimToken#scim_tenant_id}
 
 ---
 
@@ -152,7 +154,7 @@ The ID to use for the SCIM Token, which becomes the final component of the resou
 
 This value should be 4-32 characters and follow the pattern: '([a-z](%5Ba-z0-9%5C-%5D%7B2,30%7D%5Ba-z0-9%5D))'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_token_id GoogleIamWorkforcePoolProviderScimToken#scim_token_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_token_id GoogleIamWorkforcePoolProviderScimToken#scim_token_id}
 
 ---
 
@@ -162,7 +164,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the Workforce Pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#workforce_pool_id GoogleIamWorkforcePoolProviderScimToken#workforce_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#workforce_pool_id GoogleIamWorkforcePoolProviderScimToken#workforce_pool_id}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#deletion_policy GoogleIamWorkforcePoolProviderScimToken#deletion_policy}
 
 ---
 
@@ -172,7 +191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A user-specified display name for the scim token. Cannot exceed 32 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#display_name GoogleIamWorkforcePoolProviderScimToken#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#display_name GoogleIamWorkforcePoolProviderScimToken#display_name}
 
 ---
 
@@ -180,7 +199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -193,7 +212,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#timeouts GoogleIamWorkforcePoolProviderScimToken#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#timeouts GoogleIamWorkforcePoolProviderScimToken#timeouts}
 
 ---
 
@@ -226,6 +245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.resetDisplayName">reset_display_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.resetTimeouts">reset_timeouts</a></code> | *No description.* |
@@ -594,7 +614,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#create GoogleIamWorkforcePoolProviderScimToken#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#create GoogleIamWorkforcePoolProviderScimToken#create}.
 
 ---
 
@@ -602,7 +622,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#delete GoogleIamWorkforcePoolProviderScimToken#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#delete GoogleIamWorkforcePoolProviderScimToken#delete}.
 
 ---
 
@@ -610,9 +630,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#update GoogleIamWorkforcePoolProviderScimToken#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#update GoogleIamWorkforcePoolProviderScimToken#update}.
 
 ---
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
+```
 
 ##### `reset_display_name` <a name="reset_display_name" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.resetDisplayName"></a>
 
@@ -746,7 +772,7 @@ The construct id used in the generated config for the GoogleIamWorkforcePoolProv
 
 The id of the existing GoogleIamWorkforcePoolProviderScimToken that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -780,6 +806,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.securityToken">security_token</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.state">state</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeoutsOutputReference">GoogleIamWorkforcePoolProviderScimTokenTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
@@ -788,6 +815,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.scimTokenIdInput">scim_token_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeouts">GoogleIamWorkforcePoolProviderScimTokenTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.workforcePoolIdInput">workforce_pool_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.location">location</a></code> | <code>str</code> | *No description.* |
@@ -980,6 +1008,16 @@ timeouts: GoogleIamWorkforcePoolProviderScimTokenTimeoutsOutputReference
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `display_name_input`<sup>Optional</sup> <a name="display_name_input" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.displayNameInput"></a>
 
 ```python
@@ -1054,6 +1092,16 @@ timeouts_input: IResolvable | GoogleIamWorkforcePoolProviderScimTokenTimeouts
 
 ```python
 workforce_pool_id_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimToken.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
 ```
 
 - *Type:* str
@@ -1170,6 +1218,7 @@ googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenC
   scim_tenant_id: str,
   scim_token_id: str,
   workforce_pool_id: str,
+  deletion_policy: str = None,
   display_name: str = None,
   id: str = None,
   timeouts: GoogleIamWorkforcePoolProviderScimTokenTimeouts = None
@@ -1192,8 +1241,9 @@ googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenC
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenConfig.property.scimTenantId">scim_tenant_id</a></code> | <code>str</code> | The ID of the SCIM Tenant. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenConfig.property.scimTokenId">scim_token_id</a></code> | <code>str</code> | The ID to use for the SCIM Token, which becomes the final component of the resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenConfig.property.workforcePoolId">workforce_pool_id</a></code> | <code>str</code> | The ID of the Workforce Pool. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenConfig.property.displayName">display_name</a></code> | <code>str</code> | A user-specified display name for the scim token. Cannot exceed 32 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeouts">GoogleIamWorkforcePoolProviderScimTokenTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1278,7 +1328,7 @@ location: str
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#location GoogleIamWorkforcePoolProviderScimToken#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#location GoogleIamWorkforcePoolProviderScimToken#location}
 
 ---
 
@@ -1292,7 +1342,7 @@ provider_id: str
 
 The ID of the Provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#provider_id GoogleIamWorkforcePoolProviderScimToken#provider_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#provider_id GoogleIamWorkforcePoolProviderScimToken#provider_id}
 
 ---
 
@@ -1306,7 +1356,7 @@ scim_tenant_id: str
 
 The ID of the SCIM Tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_tenant_id GoogleIamWorkforcePoolProviderScimToken#scim_tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_tenant_id GoogleIamWorkforcePoolProviderScimToken#scim_tenant_id}
 
 ---
 
@@ -1322,7 +1372,7 @@ The ID to use for the SCIM Token, which becomes the final component of the resou
 
 This value should be 4-32 characters and follow the pattern: '([a-z](%5Ba-z0-9%5C-%5D%7B2,30%7D%5Ba-z0-9%5D))'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_token_id GoogleIamWorkforcePoolProviderScimToken#scim_token_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_token_id GoogleIamWorkforcePoolProviderScimToken#scim_token_id}
 
 ---
 
@@ -1336,7 +1386,28 @@ workforce_pool_id: str
 
 The ID of the Workforce Pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#workforce_pool_id GoogleIamWorkforcePoolProviderScimToken#workforce_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#workforce_pool_id GoogleIamWorkforcePoolProviderScimToken#workforce_pool_id}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#deletion_policy GoogleIamWorkforcePoolProviderScimToken#deletion_policy}
 
 ---
 
@@ -1350,7 +1421,7 @@ display_name: str
 
 A user-specified display name for the scim token. Cannot exceed 32 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#display_name GoogleIamWorkforcePoolProviderScimToken#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#display_name GoogleIamWorkforcePoolProviderScimToken#display_name}
 
 ---
 
@@ -1362,7 +1433,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1379,7 +1450,7 @@ timeouts: GoogleIamWorkforcePoolProviderScimTokenTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#timeouts GoogleIamWorkforcePoolProviderScimToken#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#timeouts GoogleIamWorkforcePoolProviderScimToken#timeouts}
 
 ---
 
@@ -1401,9 +1472,9 @@ googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#create GoogleIamWorkforcePoolProviderScimToken#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#delete GoogleIamWorkforcePoolProviderScimToken#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#update GoogleIamWorkforcePoolProviderScimToken#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#create GoogleIamWorkforcePoolProviderScimToken#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#delete GoogleIamWorkforcePoolProviderScimToken#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimToken.GoogleIamWorkforcePoolProviderScimTokenTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#update GoogleIamWorkforcePoolProviderScimToken#update}. |
 
 ---
 
@@ -1415,7 +1486,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#create GoogleIamWorkforcePoolProviderScimToken#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#create GoogleIamWorkforcePoolProviderScimToken#create}.
 
 ---
 
@@ -1427,7 +1498,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#delete GoogleIamWorkforcePoolProviderScimToken#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#delete GoogleIamWorkforcePoolProviderScimToken#delete}.
 
 ---
 
@@ -1439,7 +1510,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_token#update GoogleIamWorkforcePoolProviderScimToken#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_token#update GoogleIamWorkforcePoolProviderScimToken#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleStorageBucketAcl <a name="GoogleStorageBucketAcl" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_acl google_storage_bucket_acl}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_bucket_acl google_storage_bucket_acl}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetDefaultAcl">resetDefaultAcl</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetPredefinedAcl">resetPredefinedAcl</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetRoleEntity">resetRoleEntity</a></code> | *No description.* |
@@ -396,6 +397,12 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 public resetDefaultAcl(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.resetId"></a>
 
 ```typescript
@@ -517,7 +524,7 @@ The construct id used in the generated config for the GoogleStorageBucketAcl to 
 
 The id of the existing GoogleStorageBucketAcl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_acl#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_bucket_acl#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -549,11 +556,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucketInput">bucketInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAclInput">defaultAclInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAclInput">predefinedAclInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntityInput">roleEntityInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.bucket">bucket</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.defaultAcl">defaultAcl</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.predefinedAcl">predefinedAcl</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.roleEntity">roleEntity</a></code> | <code>string[]</code> | *No description.* |
@@ -722,6 +731,16 @@ public readonly defaultAclInput: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.idInput"></a>
 
 ```typescript
@@ -766,6 +785,16 @@ public readonly bucket: string;
 
 ```typescript
 public readonly defaultAcl: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAcl.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -845,7 +874,8 @@ const googleStorageBucketAclConfig: googleStorageBucketAcl.GoogleStorageBucketAc
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.bucket">bucket</a></code> | <code>string</code> | The name of the bucket it applies to. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.defaultAcl">defaultAcl</a></code> | <code>string</code> | Configure this ACL to be the default ACL. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_acl#id GoogleStorageBucketAcl#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_bucket_acl#id GoogleStorageBucketAcl#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.predefinedAcl">predefinedAcl</a></code> | <code>string</code> | The canned GCS ACL to apply. Must be set if role_entity is not. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.roleEntity">roleEntity</a></code> | <code>string[]</code> | List of role/entity pairs in the form ROLE:entity. |
 
@@ -931,7 +961,7 @@ public readonly bucket: string;
 
 The name of the bucket it applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_acl#bucket GoogleStorageBucketAcl#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_bucket_acl#bucket GoogleStorageBucketAcl#bucket}
 
 ---
 
@@ -945,7 +975,29 @@ public readonly defaultAcl: string;
 
 Configure this ACL to be the default ACL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_acl#default_acl GoogleStorageBucketAcl#default_acl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_bucket_acl#default_acl GoogleStorageBucketAcl#default_acl}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleStorageBucketAcl.GoogleStorageBucketAclConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_bucket_acl#deletion_policy GoogleStorageBucketAcl#deletion_policy}
 
 ---
 
@@ -957,7 +1009,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_acl#id GoogleStorageBucketAcl#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_bucket_acl#id GoogleStorageBucketAcl#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -974,7 +1026,7 @@ public readonly predefinedAcl: string;
 
 The canned GCS ACL to apply. Must be set if role_entity is not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_acl#predefined_acl GoogleStorageBucketAcl#predefined_acl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_bucket_acl#predefined_acl GoogleStorageBucketAcl#predefined_acl}
 
 ---
 
@@ -990,7 +1042,7 @@ List of role/entity pairs in the form ROLE:entity.
 
 See GCS Bucket ACL documentation  for more details. Must be set if predefined_acl is not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_bucket_acl#role_entity GoogleStorageBucketAcl#role_entity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_bucket_acl#role_entity GoogleStorageBucketAcl#role_entity}
 
 ---
 
