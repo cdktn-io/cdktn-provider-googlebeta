@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArgu
   /**
   * Enable or disable the Application Aware Interconnect(AAI) feature on this interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#aai_enabled GoogleComputeInterconnect#aai_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#aai_enabled GoogleComputeInterconnect#aai_enabled}
   */
   readonly aaiEnabled?: boolean | cdktn.IResolvable;
   /**
@@ -23,7 +23,7 @@ export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArgu
   * functional and can carry traffic. When set to false, no packets can be carried over the
   * interconnect and no BGP routes are exchanged over it. By default, the status is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#admin_enabled GoogleComputeInterconnect#admin_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#admin_enabled GoogleComputeInterconnect#admin_enabled}
   */
   readonly adminEnabled?: boolean | cdktn.IResolvable;
   /**
@@ -31,17 +31,29 @@ export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArgu
   * crossconnect. This field is required for Dedicated and Partner Interconnect, should not be specified
   * for cross-cloud interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#customer_name GoogleComputeInterconnect#customer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#customer_name GoogleComputeInterconnect#customer_name}
   */
   readonly customerName?: string;
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#deletion_policy GoogleComputeInterconnect#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * An optional description of this resource. Provide this property when you create the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#description GoogleComputeInterconnect#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#description GoogleComputeInterconnect#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#id GoogleComputeInterconnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#id GoogleComputeInterconnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +65,7 @@ export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArgu
   *   - PARTNER: A partner-managed interconnection shared between customers though a partner.
   *   - DEDICATED: A dedicated physical interconnection with the customer. Possible values: ["DEDICATED", "PARTNER", "IT_PRIVATE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#interconnect_type GoogleComputeInterconnect#interconnect_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#interconnect_type GoogleComputeInterconnect#interconnect_type}
   */
   readonly interconnectType: string;
   /**
@@ -64,7 +76,7 @@ export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArgu
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#labels GoogleComputeInterconnect#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#labels GoogleComputeInterconnect#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -74,21 +86,21 @@ export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArgu
   *   - LINK_TYPE_ETHERNET_100G_LR: A 100G Ethernet with LR optics.
   *   - LINK_TYPE_ETHERNET_400G_LR4: A 400G Ethernet with LR4 optics Possible values: ["LINK_TYPE_ETHERNET_10G_LR", "LINK_TYPE_ETHERNET_100G_LR", "LINK_TYPE_ETHERNET_400G_LR4"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#link_type GoogleComputeInterconnect#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#link_type GoogleComputeInterconnect#link_type}
   */
   readonly linkType: string;
   /**
   * URL of the InterconnectLocation object that represents where this connection is to be provisioned.
   * Specifies the location inside Google's Networks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#location GoogleComputeInterconnect#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#location GoogleComputeInterconnect#location}
   */
   readonly location: string;
   /**
   * Enable or disable MACsec on this Interconnect connection.
   * MACsec enablement fails if the MACsec object is not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#macsec_enabled GoogleComputeInterconnect#macsec_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#macsec_enabled GoogleComputeInterconnect#macsec_enabled}
   */
   readonly macsecEnabled?: boolean | cdktn.IResolvable;
   /**
@@ -98,7 +110,7 @@ export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArgu
   * character must be a lowercase letter, and all following characters must be a dash,
   * lowercase letter, or digit, except the last character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#name GoogleComputeInterconnect#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#name GoogleComputeInterconnect#name}
   */
   readonly name: string;
   /**
@@ -108,18 +120,18 @@ export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArgu
   * This field is required for users who sign up for Cloud Interconnect using workforce identity
   * federation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#noc_contact_email GoogleComputeInterconnect#noc_contact_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#noc_contact_email GoogleComputeInterconnect#noc_contact_email}
   */
   readonly nocContactEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#project GoogleComputeInterconnect#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#project GoogleComputeInterconnect#project}
   */
   readonly project?: string;
   /**
   * Indicates that this is a Cross-Cloud Interconnect. This field specifies the location outside
   * of Google's network that the interconnect is connected to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#remote_location GoogleComputeInterconnect#remote_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#remote_location GoogleComputeInterconnect#remote_location}
   */
   readonly remoteLocation?: string;
   /**
@@ -130,37 +142,37 @@ export interface GoogleComputeInterconnectConfig extends cdktn.TerraformMetaArgu
   * - 'IF_CROSS_SITE_NETWORK': Provisions the connection exclusively for Cross-Site Networking.
   * Note: 'MACSEC' is a legacy value for compatibility reasons and has the same effect as 'IF_MACSEC'. 'IF_MACSEC' is preferred. Possible values: ["MACSEC", "CROSS_SITE_NETWORK", "IF_MACSEC", "IF_L2_FORWARDING"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#requested_features GoogleComputeInterconnect#requested_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#requested_features GoogleComputeInterconnect#requested_features}
   */
   readonly requestedFeatures?: string[];
   /**
   * Target number of physical links in the link bundle, as requested by the customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#requested_link_count GoogleComputeInterconnect#requested_link_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#requested_link_count GoogleComputeInterconnect#requested_link_count}
   */
   readonly requestedLinkCount: number;
   /**
   * application_aware_interconnect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#application_aware_interconnect GoogleComputeInterconnect#application_aware_interconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#application_aware_interconnect GoogleComputeInterconnect#application_aware_interconnect}
   */
   readonly applicationAwareInterconnect?: GoogleComputeInterconnectApplicationAwareInterconnect;
   /**
   * macsec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#macsec GoogleComputeInterconnect#macsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#macsec GoogleComputeInterconnect#macsec}
   */
   readonly macsec?: GoogleComputeInterconnectMacsec;
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#params GoogleComputeInterconnect#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#params GoogleComputeInterconnect#params}
   */
   readonly params?: GoogleComputeInterconnectParams;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#timeouts GoogleComputeInterconnect#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#timeouts GoogleComputeInterconnect#timeouts}
   */
   readonly timeouts?: GoogleComputeInterconnectTimeouts;
 }
@@ -239,7 +251,7 @@ export class GoogleComputeInterconnectCircuitInfosList extends cdktn.ComplexList
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -349,7 +361,7 @@ export class GoogleComputeInterconnectExpectedOutagesList extends cdktn.ComplexL
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -363,13 +375,13 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnectBandwidthP
   /**
   * Bandwidth percentage for a specific traffic class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#percentage GoogleComputeInterconnect#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#percentage GoogleComputeInterconnect#percentage}
   */
   readonly percentage?: number;
   /**
   * Enum representing the various traffic classes offered by AAI. Default value: "TC_UNSPECIFIED" Possible values: ["TC_UNSPECIFIED", "TC1", "TC2", "TC3", "TC4", "TC5", "TC6"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#traffic_class GoogleComputeInterconnect#traffic_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#traffic_class GoogleComputeInterconnect#traffic_class}
   */
   readonly trafficClass?: string;
 }
@@ -502,7 +514,7 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPerce
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -516,7 +528,7 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnectBandwidthP
   /**
   * bandwidth_percentage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#bandwidth_percentage GoogleComputeInterconnect#bandwidth_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#bandwidth_percentage GoogleComputeInterconnect#bandwidth_percentage}
   */
   readonly bandwidthPercentage?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicyBandwidthPercentage[] | cdktn.IResolvable;
 }
@@ -602,13 +614,13 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnectShapeAvera
   /**
   * Bandwidth percentage for a specific traffic class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#percentage GoogleComputeInterconnect#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#percentage GoogleComputeInterconnect#percentage}
   */
   readonly percentage?: number;
   /**
   * Enum representing the various traffic classes offered by AAI. Default value: "TC_UNSPECIFIED" Possible values: ["TC_UNSPECIFIED", "TC1", "TC2", "TC3", "TC4", "TC5", "TC6"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#traffic_class GoogleComputeInterconnect#traffic_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#traffic_class GoogleComputeInterconnect#traffic_class}
   */
   readonly trafficClass?: string;
 }
@@ -741,7 +753,7 @@ export class GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePe
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -804,25 +816,25 @@ export interface GoogleComputeInterconnectApplicationAwareInterconnect {
   /**
   * A description for the AAI profile on this interconnect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#profile_description GoogleComputeInterconnect#profile_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#profile_description GoogleComputeInterconnect#profile_description}
   */
   readonly profileDescription?: string;
   /**
   * bandwidth_percentage_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#bandwidth_percentage_policy GoogleComputeInterconnect#bandwidth_percentage_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#bandwidth_percentage_policy GoogleComputeInterconnect#bandwidth_percentage_policy}
   */
   readonly bandwidthPercentagePolicy?: GoogleComputeInterconnectApplicationAwareInterconnectBandwidthPercentagePolicy;
   /**
   * shape_average_percentage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#shape_average_percentage GoogleComputeInterconnect#shape_average_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#shape_average_percentage GoogleComputeInterconnect#shape_average_percentage}
   */
   readonly shapeAveragePercentage?: GoogleComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage[] | cdktn.IResolvable;
   /**
   * strict_priority_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#strict_priority_policy GoogleComputeInterconnect#strict_priority_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#strict_priority_policy GoogleComputeInterconnect#strict_priority_policy}
   */
   readonly strictPriorityPolicy?: GoogleComputeInterconnectApplicationAwareInterconnectStrictPriorityPolicy;
 }
@@ -999,7 +1011,7 @@ export interface GoogleComputeInterconnectMacsecPreSharedKeys {
   * connection is configured with a must-secure security policy that drops all traffic
   * if the MKA session cannot be established with your router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#fail_open GoogleComputeInterconnect#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#fail_open GoogleComputeInterconnect#fail_open}
   */
   readonly failOpen?: boolean | cdktn.IResolvable;
   /**
@@ -1009,7 +1021,7 @@ export interface GoogleComputeInterconnectMacsecPreSharedKeys {
   *  must be a lowercase letter, and all following characters must be a dash, lowercase
   *  letter, or digit, except the last character, which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#name GoogleComputeInterconnect#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#name GoogleComputeInterconnect#name}
   */
   readonly name: string;
   /**
@@ -1019,7 +1031,7 @@ export interface GoogleComputeInterconnectMacsecPreSharedKeys {
   * be in increasing order. The start times of two consecutive keys must be at least 6
   * hours apart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#start_time GoogleComputeInterconnect#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#start_time GoogleComputeInterconnect#start_time}
   */
   readonly startTime?: string;
 }
@@ -1178,7 +1190,7 @@ export class GoogleComputeInterconnectMacsecPreSharedKeysList extends cdktn.Comp
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -1196,13 +1208,13 @@ export interface GoogleComputeInterconnectMacsec {
   * connection is configured with a must-secure security policy that drops all traffic
   * if the MKA session cannot be established with your router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#fail_open GoogleComputeInterconnect#fail_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#fail_open GoogleComputeInterconnect#fail_open}
   */
   readonly failOpen?: boolean | cdktn.IResolvable;
   /**
   * pre_shared_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#pre_shared_keys GoogleComputeInterconnect#pre_shared_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#pre_shared_keys GoogleComputeInterconnect#pre_shared_keys}
   */
   readonly preSharedKeys: GoogleComputeInterconnectMacsecPreSharedKeys[] | cdktn.IResolvable;
 }
@@ -1316,7 +1328,7 @@ export interface GoogleComputeInterconnectParams {
   * same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
   * and values are in the format tagValues/456.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#resource_manager_tags GoogleComputeInterconnect#resource_manager_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#resource_manager_tags GoogleComputeInterconnect#resource_manager_tags}
   */
   readonly resourceManagerTags?: { [key: string]: string };
 }
@@ -1400,15 +1412,15 @@ export class GoogleComputeInterconnectParamsOutputReference extends cdktn.Comple
 }
 export interface GoogleComputeInterconnectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#create GoogleComputeInterconnect#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#create GoogleComputeInterconnect#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#delete GoogleComputeInterconnect#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#delete GoogleComputeInterconnect#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#update GoogleComputeInterconnect#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#update GoogleComputeInterconnect#update}
   */
   readonly update?: string;
 }
@@ -1560,7 +1572,7 @@ export class GoogleComputeInterconnectTimeoutsOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect google_compute_interconnect}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect google_compute_interconnect}
 */
 export class GoogleComputeInterconnect extends cdktn.TerraformResource {
 
@@ -1576,7 +1588,7 @@ export class GoogleComputeInterconnect extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeInterconnect resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeInterconnect to import
-  * @param importFromId The id of the existing GoogleComputeInterconnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeInterconnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeInterconnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1588,7 +1600,7 @@ export class GoogleComputeInterconnect extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_interconnect google_compute_interconnect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_interconnect google_compute_interconnect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1599,7 +1611,7 @@ export class GoogleComputeInterconnect extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_interconnect',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -1613,6 +1625,7 @@ export class GoogleComputeInterconnect extends cdktn.TerraformResource {
     this._aaiEnabled = config.aaiEnabled;
     this._adminEnabled = config.adminEnabled;
     this._customerName = config.customerName;
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._id = config.id;
     this._interconnectType = config.interconnectType;
@@ -1698,6 +1711,22 @@ export class GoogleComputeInterconnect extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get customerNameInput() {
     return this._customerName;
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // description - computed: false, optional: true, required: false
@@ -2039,6 +2068,7 @@ export class GoogleComputeInterconnect extends cdktn.TerraformResource {
       aai_enabled: cdktn.booleanToTerraform(this._aaiEnabled),
       admin_enabled: cdktn.booleanToTerraform(this._adminEnabled),
       customer_name: cdktn.stringToTerraform(this._customerName),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       id: cdktn.stringToTerraform(this._id),
       interconnect_type: cdktn.stringToTerraform(this._interconnectType),
@@ -2075,6 +2105,12 @@ export class GoogleComputeInterconnect extends cdktn.TerraformResource {
       },
       customer_name: {
         value: cdktn.stringToHclTerraform(this._customerName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
