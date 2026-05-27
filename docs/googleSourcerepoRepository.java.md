@@ -4,7 +4,7 @@
 
 ### GoogleSourcerepoRepository <a name="GoogleSourcerepoRepository" id="@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository google_sourcerepo_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer"></a>
 
@@ -21,6 +21,7 @@ GoogleSourcerepoRepository.Builder.create(Construct scope, java.lang.String id)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
 //  .createIgnoreAlreadyExists(java.lang.Boolean|IResolvable)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .pubsubConfigs(IResolvable|java.util.List<GoogleSourcerepoRepositoryPubsubConfigs>)
@@ -41,8 +42,9 @@ GoogleSourcerepoRepository.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Resource name of the repository, of the form '{{repo}}'. The repo name may contain slashes. eg, 'name/with/slash'. |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.createIgnoreAlreadyExists">createIgnoreAlreadyExists</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If set to true, skip repository creation if a repository with the same name already exists. |
-| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#id GoogleSourcerepoRepository#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#project GoogleSourcerepoRepository#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#id GoogleSourcerepoRepository#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#project GoogleSourcerepoRepository#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.pubsubConfigs">pubsubConfigs</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryPubsubConfigs">GoogleSourcerepoRepositoryPubsubConfigs</a>></code> | pubsub_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeouts">GoogleSourcerepoRepositoryTimeouts</a></code> | timeouts block. |
 
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 Resource name of the repository, of the form '{{repo}}'. The repo name may contain slashes. eg, 'name/with/slash'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#name GoogleSourcerepoRepository#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#name GoogleSourcerepoRepository#name}
 
 ---
 
@@ -124,7 +126,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 If set to true, skip repository creation if a repository with the same name already exists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#create_ignore_already_exists GoogleSourcerepoRepository#create_ignore_already_exists}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#create_ignore_already_exists GoogleSourcerepoRepository#create_ignore_already_exists}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#deletion_policy GoogleSourcerepoRepository#deletion_policy}
 
 ---
 
@@ -132,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#id GoogleSourcerepoRepository#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#id GoogleSourcerepoRepository#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,7 +162,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#project GoogleSourcerepoRepository#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#project GoogleSourcerepoRepository#project}.
 
 ---
 
@@ -153,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 pubsub_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#pubsub_configs GoogleSourcerepoRepository#pubsub_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#pubsub_configs GoogleSourcerepoRepository#pubsub_configs}
 
 ---
 
@@ -163,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#timeouts GoogleSourcerepoRepository#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#timeouts GoogleSourcerepoRepository#timeouts}
 
 ---
 
@@ -198,6 +217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.putPubsubConfigs">putPubsubConfigs</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.resetCreateIgnoreAlreadyExists">resetCreateIgnoreAlreadyExists</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.resetPubsubConfigs">resetPubsubConfigs</a></code> | *No description.* |
@@ -546,6 +566,12 @@ public void putTimeouts(GoogleSourcerepoRepositoryTimeouts value)
 public void resetCreateIgnoreAlreadyExists()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.resetId"></a>
 
 ```java
@@ -673,7 +699,7 @@ The construct id used in the generated config for the GoogleSourcerepoRepository
 
 The id of the existing GoogleSourcerepoRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,12 +734,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeoutsOutputReference">GoogleSourcerepoRepositoryTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.url">url</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.createIgnoreAlreadyExistsInput">createIgnoreAlreadyExistsInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.pubsubConfigsInput">pubsubConfigsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryPubsubConfigs">GoogleSourcerepoRepositoryPubsubConfigs</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeouts">GoogleSourcerepoRepositoryTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.createIgnoreAlreadyExists">createIgnoreAlreadyExists</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -912,6 +940,16 @@ public java.lang.Boolean|IResolvable getCreateIgnoreAlreadyExistsInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.idInput"></a>
 
 ```java
@@ -969,6 +1007,16 @@ public java.lang.Boolean|IResolvable getCreateIgnoreAlreadyExists();
 ```
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepository.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1039,6 +1087,7 @@ GoogleSourcerepoRepositoryConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
 //  .createIgnoreAlreadyExists(java.lang.Boolean|IResolvable)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .pubsubConfigs(IResolvable|java.util.List<GoogleSourcerepoRepositoryPubsubConfigs>)
@@ -1059,8 +1108,9 @@ GoogleSourcerepoRepositoryConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.name">name</a></code> | <code>java.lang.String</code> | Resource name of the repository, of the form '{{repo}}'. The repo name may contain slashes. eg, 'name/with/slash'. |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.createIgnoreAlreadyExists">createIgnoreAlreadyExists</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | If set to true, skip repository creation if a repository with the same name already exists. |
-| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#id GoogleSourcerepoRepository#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#project GoogleSourcerepoRepository#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#id GoogleSourcerepoRepository#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#project GoogleSourcerepoRepository#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.pubsubConfigs">pubsubConfigs</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryPubsubConfigs">GoogleSourcerepoRepositoryPubsubConfigs</a>></code> | pubsub_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeouts">GoogleSourcerepoRepositoryTimeouts</a></code> | timeouts block. |
 
@@ -1146,7 +1196,7 @@ public java.lang.String getName();
 
 Resource name of the repository, of the form '{{repo}}'. The repo name may contain slashes. eg, 'name/with/slash'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#name GoogleSourcerepoRepository#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#name GoogleSourcerepoRepository#name}
 
 ---
 
@@ -1160,7 +1210,28 @@ public java.lang.Boolean|IResolvable getCreateIgnoreAlreadyExists();
 
 If set to true, skip repository creation if a repository with the same name already exists.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#create_ignore_already_exists GoogleSourcerepoRepository#create_ignore_already_exists}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#create_ignore_already_exists GoogleSourcerepoRepository#create_ignore_already_exists}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#deletion_policy GoogleSourcerepoRepository#deletion_policy}
 
 ---
 
@@ -1172,7 +1243,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#id GoogleSourcerepoRepository#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#id GoogleSourcerepoRepository#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1187,7 +1258,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#project GoogleSourcerepoRepository#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#project GoogleSourcerepoRepository#project}.
 
 ---
 
@@ -1201,7 +1272,7 @@ public IResolvable|java.util.List<GoogleSourcerepoRepositoryPubsubConfigs> getPu
 
 pubsub_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#pubsub_configs GoogleSourcerepoRepository#pubsub_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#pubsub_configs GoogleSourcerepoRepository#pubsub_configs}
 
 ---
 
@@ -1215,7 +1286,7 @@ public GoogleSourcerepoRepositoryTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#timeouts GoogleSourcerepoRepository#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#timeouts GoogleSourcerepoRepository#timeouts}
 
 ---
 
@@ -1238,7 +1309,7 @@ GoogleSourcerepoRepositoryPubsubConfigs.builder()
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryPubsubConfigs.property.messageFormat">messageFormat</a></code> | <code>java.lang.String</code> | The format of the Cloud Pub/Sub messages. |
-| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryPubsubConfigs.property.topic">topic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#topic GoogleSourcerepoRepository#topic}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryPubsubConfigs.property.topic">topic</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#topic GoogleSourcerepoRepository#topic}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryPubsubConfigs.property.serviceAccountEmail">serviceAccountEmail</a></code> | <code>java.lang.String</code> | Email address of the service account used for publishing Cloud Pub/Sub messages. |
 
 ---
@@ -1256,7 +1327,7 @@ The format of the Cloud Pub/Sub messages.
 * PROTOBUF: The message payload is a serialized protocol buffer of SourceRepoEvent.
 * JSON: The message payload is a JSON string of SourceRepoEvent. Possible values: ["PROTOBUF", "JSON"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#message_format GoogleSourcerepoRepository#message_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#message_format GoogleSourcerepoRepository#message_format}
 
 ---
 
@@ -1268,7 +1339,7 @@ public java.lang.String getTopic();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#topic GoogleSourcerepoRepository#topic}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#topic GoogleSourcerepoRepository#topic}.
 
 ---
 
@@ -1286,7 +1357,7 @@ This service account needs to be in the same project as the PubsubConfig. When a
 the caller needs to have iam.serviceAccounts.actAs permission on this service account.
 If unspecified, it defaults to the compute engine default service account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#service_account_email GoogleSourcerepoRepository#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#service_account_email GoogleSourcerepoRepository#service_account_email}
 
 ---
 
@@ -1308,9 +1379,9 @@ GoogleSourcerepoRepositoryTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#create GoogleSourcerepoRepository#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#delete GoogleSourcerepoRepository#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#update GoogleSourcerepoRepository#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#create GoogleSourcerepoRepository#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#delete GoogleSourcerepoRepository#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSourcerepoRepository.GoogleSourcerepoRepositoryTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#update GoogleSourcerepoRepository#update}. |
 
 ---
 
@@ -1322,7 +1393,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#create GoogleSourcerepoRepository#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#create GoogleSourcerepoRepository#create}.
 
 ---
 
@@ -1334,7 +1405,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#delete GoogleSourcerepoRepository#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#delete GoogleSourcerepoRepository#delete}.
 
 ---
 
@@ -1346,7 +1417,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sourcerepo_repository#update GoogleSourcerepoRepository#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sourcerepo_repository#update GoogleSourcerepoRepository#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleCloudbuildv2Repository <a name="GoogleCloudbuildv2Repository" id="@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository google_cloudbuildv2_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository google_cloudbuildv2_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer"></a>
 
@@ -23,6 +23,7 @@ GoogleCloudbuildv2Repository.Builder.create(Construct scope, java.lang.String id
     .parentConnection(java.lang.String)
     .remoteUri(java.lang.String)
 //  .annotations(java.util.Map<java.lang.String, java.lang.String>)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .location(java.lang.String)
 //  .project(java.lang.String)
@@ -45,9 +46,10 @@ GoogleCloudbuildv2Repository.Builder.create(Construct scope, java.lang.String id
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.parentConnection">parentConnection</a></code> | <code>java.lang.String</code> | The connection for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.remoteUri">remoteUri</a></code> | <code>java.lang.String</code> | Required. Git Clone HTTPS URI. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.annotations">annotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Allows clients to store small amounts of arbitrary data. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#id GoogleCloudbuildv2Repository#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#id GoogleCloudbuildv2Repository#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location for the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#project GoogleCloudbuildv2Repository#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#project GoogleCloudbuildv2Repository#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryTimeouts">GoogleCloudbuildv2RepositoryTimeouts</a></code> | timeouts block. |
 
 ---
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#name GoogleCloudbuildv2Repository#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#name GoogleCloudbuildv2Repository#name}
 
 ---
 
@@ -128,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The connection for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#parent_connection GoogleCloudbuildv2Repository#parent_connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#parent_connection GoogleCloudbuildv2Repository#parent_connection}
 
 ---
 
@@ -138,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Required. Git Clone HTTPS URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#remote_uri GoogleCloudbuildv2Repository#remote_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#remote_uri GoogleCloudbuildv2Repository#remote_uri}
 
 ---
 
@@ -151,7 +153,24 @@ Allows clients to store small amounts of arbitrary data.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#annotations GoogleCloudbuildv2Repository#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#annotations GoogleCloudbuildv2Repository#annotations}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#deletion_policy GoogleCloudbuildv2Repository#deletion_policy}
 
 ---
 
@@ -159,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#id GoogleCloudbuildv2Repository#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#id GoogleCloudbuildv2Repository#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -172,7 +191,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#location GoogleCloudbuildv2Repository#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#location GoogleCloudbuildv2Repository#location}
 
 ---
 
@@ -180,7 +199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#project GoogleCloudbuildv2Repository#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#project GoogleCloudbuildv2Repository#project}.
 
 ---
 
@@ -190,7 +209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#timeouts GoogleCloudbuildv2Repository#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#timeouts GoogleCloudbuildv2Repository#timeouts}
 
 ---
 
@@ -224,6 +243,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.resetAnnotations">resetAnnotations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.resetLocation">resetLocation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.resetProject">resetProject</a></code> | *No description.* |
@@ -560,6 +580,12 @@ public void putTimeouts(GoogleCloudbuildv2RepositoryTimeouts value)
 public void resetAnnotations()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.resetId"></a>
 
 ```java
@@ -687,7 +713,7 @@ The construct id used in the generated config for the GoogleCloudbuildv2Reposito
 
 The id of the existing GoogleCloudbuildv2Repository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -723,6 +749,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryTimeoutsOutputReference">GoogleCloudbuildv2RepositoryTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.updateTime">updateTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.annotationsInput">annotationsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.locationInput">locationInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -731,6 +758,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.remoteUriInput">remoteUriInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryTimeouts">GoogleCloudbuildv2RepositoryTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.annotations">annotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.location">location</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -942,6 +970,16 @@ public java.util.Map<java.lang.String, java.lang.String> getAnnotationsInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.idInput"></a>
 
 ```java
@@ -1019,6 +1057,16 @@ public java.util.Map<java.lang.String, java.lang.String> getAnnotations();
 ```
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2Repository.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1121,6 +1169,7 @@ GoogleCloudbuildv2RepositoryConfig.builder()
     .parentConnection(java.lang.String)
     .remoteUri(java.lang.String)
 //  .annotations(java.util.Map<java.lang.String, java.lang.String>)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .location(java.lang.String)
 //  .project(java.lang.String)
@@ -1143,9 +1192,10 @@ GoogleCloudbuildv2RepositoryConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.parentConnection">parentConnection</a></code> | <code>java.lang.String</code> | The connection for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.remoteUri">remoteUri</a></code> | <code>java.lang.String</code> | Required. Git Clone HTTPS URI. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.annotations">annotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Allows clients to store small amounts of arbitrary data. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#id GoogleCloudbuildv2Repository#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#id GoogleCloudbuildv2Repository#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location for the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#project GoogleCloudbuildv2Repository#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#project GoogleCloudbuildv2Repository#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryTimeouts">GoogleCloudbuildv2RepositoryTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1230,7 +1280,7 @@ public java.lang.String getName();
 
 Name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#name GoogleCloudbuildv2Repository#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#name GoogleCloudbuildv2Repository#name}
 
 ---
 
@@ -1244,7 +1294,7 @@ public java.lang.String getParentConnection();
 
 The connection for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#parent_connection GoogleCloudbuildv2Repository#parent_connection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#parent_connection GoogleCloudbuildv2Repository#parent_connection}
 
 ---
 
@@ -1258,7 +1308,7 @@ public java.lang.String getRemoteUri();
 
 Required. Git Clone HTTPS URI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#remote_uri GoogleCloudbuildv2Repository#remote_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#remote_uri GoogleCloudbuildv2Repository#remote_uri}
 
 ---
 
@@ -1275,7 +1325,28 @@ Allows clients to store small amounts of arbitrary data.
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#annotations GoogleCloudbuildv2Repository#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#annotations GoogleCloudbuildv2Repository#annotations}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#deletion_policy GoogleCloudbuildv2Repository#deletion_policy}
 
 ---
 
@@ -1287,7 +1358,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#id GoogleCloudbuildv2Repository#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#id GoogleCloudbuildv2Repository#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1304,7 +1375,7 @@ public java.lang.String getLocation();
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#location GoogleCloudbuildv2Repository#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#location GoogleCloudbuildv2Repository#location}
 
 ---
 
@@ -1316,7 +1387,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#project GoogleCloudbuildv2Repository#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#project GoogleCloudbuildv2Repository#project}.
 
 ---
 
@@ -1330,7 +1401,7 @@ public GoogleCloudbuildv2RepositoryTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#timeouts GoogleCloudbuildv2Repository#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#timeouts GoogleCloudbuildv2Repository#timeouts}
 
 ---
 
@@ -1351,8 +1422,8 @@ GoogleCloudbuildv2RepositoryTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#create GoogleCloudbuildv2Repository#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#delete GoogleCloudbuildv2Repository#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#create GoogleCloudbuildv2Repository#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudbuildv2Repository.GoogleCloudbuildv2RepositoryTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#delete GoogleCloudbuildv2Repository#delete}. |
 
 ---
 
@@ -1364,7 +1435,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#create GoogleCloudbuildv2Repository#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#create GoogleCloudbuildv2Repository#create}.
 
 ---
 
@@ -1376,7 +1447,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudbuildv2_repository#delete GoogleCloudbuildv2Repository#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudbuildv2_repository#delete GoogleCloudbuildv2Repository#delete}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleApigeeApiDeployment <a name="GoogleApigeeApiDeployment" id="@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment google_apigee_api_deployment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 
 ---
@@ -400,6 +401,12 @@ func PutTimeouts(value GoogleApigeeApiDeploymentTimeouts)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetTimeouts` <a name="ResetTimeouts" id="@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.resetTimeouts"></a>
 
 ```go
@@ -509,7 +516,7 @@ The construct id used in the generated config for the GoogleApigeeApiDeployment 
 
 The id of the existing GoogleApigeeApiDeployment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -541,11 +548,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentTimeoutsOutputReference">GoogleApigeeApiDeploymentTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.environmentInput">EnvironmentInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.orgIdInput">OrgIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.proxyIdInput">ProxyIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.revisionInput">RevisionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.environment">Environment</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.orgId">OrgId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.proxyId">ProxyId</a></code> | <code>*string</code> | *No description.* |
@@ -715,6 +724,16 @@ func Timeouts() GoogleApigeeApiDeploymentTimeoutsOutputReference
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `EnvironmentInput`<sup>Optional</sup> <a name="EnvironmentInput" id="@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.environmentInput"></a>
 
 ```go
@@ -762,6 +781,16 @@ func TimeoutsInput() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeployment.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -844,6 +873,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 	OrgId: *string,
 	ProxyId: *string,
 	Revision: *string,
+	DeletionPolicy: *string,
 	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApigeeApiDeployment.GoogleApigeeApiDeploymentTimeouts,
 }
 ```
@@ -863,6 +893,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentConfig.property.orgId">OrgId</a></code> | <code>*string</code> | The Apigee Organization associated with the Apigee API deployment. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentConfig.property.proxyId">ProxyId</a></code> | <code>*string</code> | The Apigee API associated with the Apigee API deployment. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentConfig.property.revision">Revision</a></code> | <code>*string</code> | The revision of the API proxy to be deployed. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentTimeouts">GoogleApigeeApiDeploymentTimeouts</a></code> | timeouts block. |
 
 ---
@@ -947,7 +978,7 @@ Environment *string
 
 The Apigee Environment associated with the Apigee API deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#environment GoogleApigeeApiDeployment#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#environment GoogleApigeeApiDeployment#environment}
 
 ---
 
@@ -961,7 +992,7 @@ OrgId *string
 
 The Apigee Organization associated with the Apigee API deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#org_id GoogleApigeeApiDeployment#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#org_id GoogleApigeeApiDeployment#org_id}
 
 ---
 
@@ -975,7 +1006,7 @@ ProxyId *string
 
 The Apigee API associated with the Apigee API deployment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#proxy_id GoogleApigeeApiDeployment#proxy_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#proxy_id GoogleApigeeApiDeployment#proxy_id}
 
 ---
 
@@ -989,7 +1020,28 @@ Revision *string
 
 The revision of the API proxy to be deployed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#revision GoogleApigeeApiDeployment#revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#revision GoogleApigeeApiDeployment#revision}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#deletion_policy GoogleApigeeApiDeployment#deletion_policy}
 
 ---
 
@@ -1003,7 +1055,7 @@ Timeouts GoogleApigeeApiDeploymentTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#timeouts GoogleApigeeApiDeployment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#timeouts GoogleApigeeApiDeployment#timeouts}
 
 ---
 
@@ -1024,8 +1076,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#create GoogleApigeeApiDeployment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#delete GoogleApigeeApiDeployment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#create GoogleApigeeApiDeployment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeApiDeployment.GoogleApigeeApiDeploymentTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#delete GoogleApigeeApiDeployment#delete}. |
 
 ---
 
@@ -1037,7 +1089,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#create GoogleApigeeApiDeployment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#create GoogleApigeeApiDeployment#create}.
 
 ---
 
@@ -1049,7 +1101,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_api_deployment#delete GoogleApigeeApiDeployment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_api_deployment#delete GoogleApigeeApiDeployment#delete}.
 
 ---
 

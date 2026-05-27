@@ -4,7 +4,7 @@
 
 ### GoogleObservabilityTraceScope <a name="GoogleObservabilityTraceScope" id="@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope google_observability_trace_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope google_observability_trace_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.resetProject">resetProject</a></code> | *No description.* |
@@ -403,6 +404,12 @@ public putTimeouts(value: GoogleObservabilityTraceScopeTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.resetDescription"></a>
 
 ```typescript
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleObservabilityTraceSc
 
 The id of the existing GoogleObservabilityTraceScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -564,6 +571,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeTimeoutsOutputReference">GoogleObservabilityTraceScopeTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
@@ -571,6 +579,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.resourceNamesInput">resourceNamesInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeTimeouts">GoogleObservabilityTraceScopeTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.traceScopeIdInput">traceScopeIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.location">location</a></code> | <code>string</code> | *No description.* |
@@ -762,6 +771,16 @@ public readonly updateTime: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.descriptionInput"></a>
 
 ```typescript
@@ -826,6 +845,16 @@ public readonly timeoutsInput: IResolvable | GoogleObservabilityTraceScopeTimeou
 
 ```typescript
 public readonly traceScopeIdInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScope.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -936,9 +965,10 @@ const googleObservabilityTraceScopeConfig: googleObservabilityTraceScope.GoogleO
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.location">location</a></code> | <code>string</code> | GCP region the TraceScope is stored in. Only 'global' is supported. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.resourceNames">resourceNames</a></code> | <code>string[]</code> | Names of the projects that are included in this trace scope. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.traceScopeId">traceScopeId</a></code> | <code>string</code> | A client-assigned identifier for the trace scope. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.description">description</a></code> | <code>string</code> | Describes this trace scope. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#id GoogleObservabilityTraceScope#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#project GoogleObservabilityTraceScope#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#id GoogleObservabilityTraceScope#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#project GoogleObservabilityTraceScope#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeTimeouts">GoogleObservabilityTraceScopeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1023,7 +1053,7 @@ public readonly location: string;
 
 GCP region the TraceScope is stored in. Only 'global' is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#location GoogleObservabilityTraceScope#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#location GoogleObservabilityTraceScope#location}
 
 ---
 
@@ -1041,7 +1071,7 @@ Names of the projects that are included in this trace scope.
 
 A trace scope can include a maximum of 20 projects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#resource_names GoogleObservabilityTraceScope#resource_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#resource_names GoogleObservabilityTraceScope#resource_names}
 
 ---
 
@@ -1055,7 +1085,29 @@ public readonly traceScopeId: string;
 
 A client-assigned identifier for the trace scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#trace_scope_id GoogleObservabilityTraceScope#trace_scope_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#trace_scope_id GoogleObservabilityTraceScope#trace_scope_id}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#deletion_policy GoogleObservabilityTraceScope#deletion_policy}
 
 ---
 
@@ -1071,7 +1123,7 @@ Describes this trace scope.
 
 The maximum length of the description is 8000 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#description GoogleObservabilityTraceScope#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#description GoogleObservabilityTraceScope#description}
 
 ---
 
@@ -1083,7 +1135,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#id GoogleObservabilityTraceScope#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#id GoogleObservabilityTraceScope#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1098,7 +1150,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#project GoogleObservabilityTraceScope#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#project GoogleObservabilityTraceScope#project}.
 
 ---
 
@@ -1112,7 +1164,7 @@ public readonly timeouts: GoogleObservabilityTraceScopeTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#timeouts GoogleObservabilityTraceScope#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#timeouts GoogleObservabilityTraceScope#timeouts}
 
 ---
 
@@ -1130,9 +1182,9 @@ const googleObservabilityTraceScopeTimeouts: googleObservabilityTraceScope.Googl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#create GoogleObservabilityTraceScope#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#delete GoogleObservabilityTraceScope#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#update GoogleObservabilityTraceScope#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#create GoogleObservabilityTraceScope#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#delete GoogleObservabilityTraceScope#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityTraceScope.GoogleObservabilityTraceScopeTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#update GoogleObservabilityTraceScope#update}. |
 
 ---
 
@@ -1144,7 +1196,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#create GoogleObservabilityTraceScope#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#create GoogleObservabilityTraceScope#create}.
 
 ---
 
@@ -1156,7 +1208,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#delete GoogleObservabilityTraceScope#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#delete GoogleObservabilityTraceScope#delete}.
 
 ---
 
@@ -1168,7 +1220,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_trace_scope#update GoogleObservabilityTraceScope#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_trace_scope#update GoogleObservabilityTraceScope#update}.
 
 ---
 

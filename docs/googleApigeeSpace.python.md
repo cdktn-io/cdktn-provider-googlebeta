@@ -4,7 +4,7 @@
 
 ### GoogleApigeeSpace <a name="GoogleApigeeSpace" id="@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space google_apigee_space}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space google_apigee_space}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.Initializer"></a>
 
@@ -24,6 +24,7 @@ googleApigeeSpace.GoogleApigeeSpace(
   display_name: str,
   org_id: str,
   space_id: str,
+  deletion_policy: str = None,
   id: str = None,
   timeouts: GoogleApigeeSpaceTimeouts = None
 )
@@ -43,7 +44,8 @@ googleApigeeSpace.GoogleApigeeSpace(
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | The display name of the Space. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.Initializer.parameter.orgId">org_id</a></code> | <code>str</code> | The Apigee Organization associated with the Apigee Space, in the format 'organizations/{{org_name}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.Initializer.parameter.spaceId">space_id</a></code> | <code>str</code> | Space ID of the Apigee Space. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#id GoogleApigeeSpace#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#id GoogleApigeeSpace#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts">GoogleApigeeSpaceTimeouts</a></code> | timeouts block. |
 
 ---
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The display name of the Space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#display_name GoogleApigeeSpace#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#display_name GoogleApigeeSpace#display_name}
 
 ---
 
@@ -124,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Apigee Organization associated with the Apigee Space, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#org_id GoogleApigeeSpace#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#org_id GoogleApigeeSpace#org_id}
 
 ---
 
@@ -134,7 +136,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Space ID of the Apigee Space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#space_id GoogleApigeeSpace#space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#space_id GoogleApigeeSpace#space_id}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#deletion_policy GoogleApigeeSpace#deletion_policy}
 
 ---
 
@@ -142,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#id GoogleApigeeSpace#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#id GoogleApigeeSpace#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,7 +174,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#timeouts GoogleApigeeSpace#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#timeouts GoogleApigeeSpace#timeouts}
 
 ---
 
@@ -188,6 +207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
@@ -555,7 +575,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#create GoogleApigeeSpace#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#create GoogleApigeeSpace#create}.
 
 ---
 
@@ -563,7 +583,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#delete GoogleApigeeSpace#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#delete GoogleApigeeSpace#delete}.
 
 ---
 
@@ -571,9 +591,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#update GoogleApigeeSpace#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#update GoogleApigeeSpace#update}.
 
 ---
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
+```
 
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.resetId"></a>
 
@@ -701,7 +727,7 @@ The construct id used in the generated config for the GoogleApigeeSpace to impor
 
 The id of the existing GoogleApigeeSpace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -735,11 +761,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeoutsOutputReference">GoogleApigeeSpaceTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.orgIdInput">org_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.spaceIdInput">space_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts">GoogleApigeeSpaceTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.orgId">org_id</a></code> | <code>str</code> | *No description.* |
@@ -929,6 +957,16 @@ update_time: str
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `display_name_input`<sup>Optional</sup> <a name="display_name_input" id="@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.displayNameInput"></a>
 
 ```python
@@ -976,6 +1014,16 @@ timeouts_input: IResolvable | GoogleApigeeSpaceTimeouts
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts">GoogleApigeeSpaceTimeouts</a>
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpace.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
 
 ---
 
@@ -1057,6 +1105,7 @@ googleApigeeSpace.GoogleApigeeSpaceConfig(
   display_name: str,
   org_id: str,
   space_id: str,
+  deletion_policy: str = None,
   id: str = None,
   timeouts: GoogleApigeeSpaceTimeouts = None
 )
@@ -1076,7 +1125,8 @@ googleApigeeSpace.GoogleApigeeSpaceConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceConfig.property.displayName">display_name</a></code> | <code>str</code> | The display name of the Space. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceConfig.property.orgId">org_id</a></code> | <code>str</code> | The Apigee Organization associated with the Apigee Space, in the format 'organizations/{{org_name}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceConfig.property.spaceId">space_id</a></code> | <code>str</code> | Space ID of the Apigee Space. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#id GoogleApigeeSpace#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#id GoogleApigeeSpace#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts">GoogleApigeeSpaceTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1161,7 +1211,7 @@ display_name: str
 
 The display name of the Space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#display_name GoogleApigeeSpace#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#display_name GoogleApigeeSpace#display_name}
 
 ---
 
@@ -1175,7 +1225,7 @@ org_id: str
 
 The Apigee Organization associated with the Apigee Space, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#org_id GoogleApigeeSpace#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#org_id GoogleApigeeSpace#org_id}
 
 ---
 
@@ -1189,7 +1239,28 @@ space_id: str
 
 Space ID of the Apigee Space.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#space_id GoogleApigeeSpace#space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#space_id GoogleApigeeSpace#space_id}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#deletion_policy GoogleApigeeSpace#deletion_policy}
 
 ---
 
@@ -1201,7 +1272,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#id GoogleApigeeSpace#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#id GoogleApigeeSpace#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1218,7 +1289,7 @@ timeouts: GoogleApigeeSpaceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#timeouts GoogleApigeeSpace#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#timeouts GoogleApigeeSpace#timeouts}
 
 ---
 
@@ -1240,9 +1311,9 @@ googleApigeeSpace.GoogleApigeeSpaceTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#create GoogleApigeeSpace#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#delete GoogleApigeeSpace#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#update GoogleApigeeSpace#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#create GoogleApigeeSpace#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#delete GoogleApigeeSpace#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeSpace.GoogleApigeeSpaceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#update GoogleApigeeSpace#update}. |
 
 ---
 
@@ -1254,7 +1325,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#create GoogleApigeeSpace#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#create GoogleApigeeSpace#create}.
 
 ---
 
@@ -1266,7 +1337,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#delete GoogleApigeeSpace#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#delete GoogleApigeeSpace#delete}.
 
 ---
 
@@ -1278,7 +1349,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_space#update GoogleApigeeSpace#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_space#update GoogleApigeeSpace#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleTagsTagBinding <a name="GoogleTagsTagBinding" id="@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding google_tags_tag_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding google_tags_tag_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 
@@ -401,6 +402,12 @@ private void PutTimeouts(GoogleTagsTagBindingTimeouts Value)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.resetId"></a>
 
 ```csharp
@@ -516,7 +523,7 @@ The construct id used in the generated config for the GoogleTagsTagBinding to im
 
 The id of the existing GoogleTagsTagBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -548,10 +555,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.name">Name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingTimeoutsOutputReference">GoogleTagsTagBindingTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.parentInput">ParentInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.tagValueInput">TagValueInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingTimeouts">GoogleTagsTagBindingTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.parent">Parent</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.tagValue">TagValue</a></code> | <code>string</code> | *No description.* |
@@ -720,6 +729,16 @@ public GoogleTagsTagBindingTimeoutsOutputReference Timeouts { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.idInput"></a>
 
 ```csharp
@@ -757,6 +776,16 @@ public IResolvable|GoogleTagsTagBindingTimeouts TimeoutsInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingTimeouts">GoogleTagsTagBindingTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBinding.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -827,6 +856,7 @@ new GoogleTagsTagBindingConfig {
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string Parent,
     string TagValue,
+    string DeletionPolicy = null,
     string Id = null,
     GoogleTagsTagBindingTimeouts Timeouts = null
 };
@@ -845,7 +875,8 @@ new GoogleTagsTagBindingConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingConfig.property.parent">Parent</a></code> | <code>string</code> | The full resource name of the resource the TagValue is bound to. E.g. //cloudresourcemanager.googleapis.com/projects/123. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingConfig.property.tagValue">TagValue</a></code> | <code>string</code> | The TagValue of the TagBinding. Must be either in id format 'tagValues/{tag-value-id}', or namespaced format '{parent-id}/{tag-key-short-name}/{tag-value-short-name}'. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#id GoogleTagsTagBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#id GoogleTagsTagBinding#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingTimeouts">GoogleTagsTagBindingTimeouts</a></code> | timeouts block. |
 
 ---
@@ -930,7 +961,7 @@ public string Parent { get; set; }
 
 The full resource name of the resource the TagValue is bound to. E.g. //cloudresourcemanager.googleapis.com/projects/123.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#parent GoogleTagsTagBinding#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#parent GoogleTagsTagBinding#parent}
 
 ---
 
@@ -944,7 +975,28 @@ public string TagValue { get; set; }
 
 The TagValue of the TagBinding. Must be either in id format 'tagValues/{tag-value-id}', or namespaced format '{parent-id}/{tag-key-short-name}/{tag-value-short-name}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#tag_value GoogleTagsTagBinding#tag_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#tag_value GoogleTagsTagBinding#tag_value}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#deletion_policy GoogleTagsTagBinding#deletion_policy}
 
 ---
 
@@ -956,7 +1008,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#id GoogleTagsTagBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#id GoogleTagsTagBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -973,7 +1025,7 @@ public GoogleTagsTagBindingTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#timeouts GoogleTagsTagBinding#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#timeouts GoogleTagsTagBinding#timeouts}
 
 ---
 
@@ -994,8 +1046,8 @@ new GoogleTagsTagBindingTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#create GoogleTagsTagBinding#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#delete GoogleTagsTagBinding#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#create GoogleTagsTagBinding#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTagsTagBinding.GoogleTagsTagBindingTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#delete GoogleTagsTagBinding#delete}. |
 
 ---
 
@@ -1007,7 +1059,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#create GoogleTagsTagBinding#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#create GoogleTagsTagBinding#create}.
 
 ---
 
@@ -1019,7 +1071,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tags_tag_binding#delete GoogleTagsTagBinding#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tags_tag_binding#delete GoogleTagsTagBinding#delete}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionHealthSource <a name="GoogleComputeRegionHealthSource" id="@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source google_compute_region_health_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source google_compute_region_health_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.resetHealthAggregationPolicy">ResetHealthAggregationPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.resetProject">ResetProject</a></code> | *No description.* |
@@ -404,6 +405,12 @@ func PutTimeouts(value GoogleComputeRegionHealthSourceTimeouts)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.resetDescription"></a>
 
 ```go
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleComputeRegionHealthS
 
 The id of the existing GoogleComputeRegionHealthSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -572,6 +579,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.selfLinkWithId">SelfLinkWithId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceTimeoutsOutputReference">GoogleComputeRegionHealthSourceTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.healthAggregationPolicyInput">HealthAggregationPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
@@ -580,6 +588,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.sourcesInput">SourcesInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.sourceTypeInput">SourceTypeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.healthAggregationPolicy">HealthAggregationPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.name">Name</a></code> | <code>*string</code> | *No description.* |
@@ -782,6 +791,16 @@ func Timeouts() GoogleComputeRegionHealthSourceTimeoutsOutputReference
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.descriptionInput"></a>
 
 ```go
@@ -859,6 +878,16 @@ func TimeoutsInput() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSource.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -970,6 +999,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Name: *string,
 	Region: *string,
 	SourceType: *string,
+	DeletionPolicy: *string,
 	Description: *string,
 	HealthAggregationPolicy: *string,
 	Project: *string,
@@ -992,9 +1022,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.name">Name</a></code> | <code>*string</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.region">Region</a></code> | <code>*string</code> | URL of the region where the health source resides. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.sourceType">SourceType</a></code> | <code>*string</code> | Specifies the type of the 'HealthSource'. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.healthAggregationPolicy">HealthAggregationPolicy</a></code> | <code>*string</code> | URL to the 'HealthAggregationPolicy' resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#project GoogleComputeRegionHealthSource#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#project GoogleComputeRegionHealthSource#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.sources">Sources</a></code> | <code>*[]*string</code> | URLs to the source resources. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceTimeouts">GoogleComputeRegionHealthSourceTimeouts</a></code> | timeouts block. |
 
@@ -1088,7 +1119,7 @@ character must be a lowercase letter, and all following characters must
 be a dash, lowercase letter, or digit, except the last character, which
 cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#name GoogleComputeRegionHealthSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#name GoogleComputeRegionHealthSource#name}
 
 ---
 
@@ -1102,7 +1133,7 @@ Region *string
 
 URL of the region where the health source resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#region GoogleComputeRegionHealthSource#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#region GoogleComputeRegionHealthSource#region}
 
 ---
 
@@ -1120,7 +1151,28 @@ The only allowed value
 is 'BACKEND_SERVICE'. Must be specified when the
 'HealthSource' is created, and cannot be mutated. Possible values: ["BACKEND_SERVICE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#source_type GoogleComputeRegionHealthSource#source_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#source_type GoogleComputeRegionHealthSource#source_type}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#deletion_policy GoogleComputeRegionHealthSource#deletion_policy}
 
 ---
 
@@ -1134,7 +1186,7 @@ Description *string
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#description GoogleComputeRegionHealthSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#description GoogleComputeRegionHealthSource#description}
 
 ---
 
@@ -1152,7 +1204,7 @@ Must be set. Must
 be regional and in the same region as the 'HealthSource'. Can be
 mutated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#health_aggregation_policy GoogleComputeRegionHealthSource#health_aggregation_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#health_aggregation_policy GoogleComputeRegionHealthSource#health_aggregation_policy}
 
 ---
 
@@ -1164,7 +1216,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#project GoogleComputeRegionHealthSource#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#project GoogleComputeRegionHealthSource#project}.
 
 ---
 
@@ -1189,7 +1241,7 @@ deployment for 'INTERNAL_MANAGED' is not supported). The
 'BackendService' may not use 'haPolicy'. Can be
 mutated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#sources GoogleComputeRegionHealthSource#sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#sources GoogleComputeRegionHealthSource#sources}
 
 ---
 
@@ -1203,7 +1255,7 @@ Timeouts GoogleComputeRegionHealthSourceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#timeouts GoogleComputeRegionHealthSource#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#timeouts GoogleComputeRegionHealthSource#timeouts}
 
 ---
 
@@ -1225,9 +1277,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#create GoogleComputeRegionHealthSource#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#delete GoogleComputeRegionHealthSource#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#update GoogleComputeRegionHealthSource#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#create GoogleComputeRegionHealthSource#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#delete GoogleComputeRegionHealthSource#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthSource.GoogleComputeRegionHealthSourceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#update GoogleComputeRegionHealthSource#update}. |
 
 ---
 
@@ -1239,7 +1291,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#create GoogleComputeRegionHealthSource#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#create GoogleComputeRegionHealthSource#create}.
 
 ---
 
@@ -1251,7 +1303,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#delete GoogleComputeRegionHealthSource#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#delete GoogleComputeRegionHealthSource#delete}.
 
 ---
 
@@ -1263,7 +1315,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_source#update GoogleComputeRegionHealthSource#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_source#update GoogleComputeRegionHealthSource#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleComputeWireGroup <a name="GoogleComputeWireGroup" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group google_compute_wire_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group google_compute_wire_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer"></a>
 
@@ -22,6 +22,7 @@ GoogleComputeWireGroup.Builder.create(Construct scope, java.lang.String id)
     .crossSiteNetwork(java.lang.String)
     .name(java.lang.String)
 //  .adminEnabled(java.lang.Boolean|IResolvable)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .endpoints(IResolvable|java.util.List<GoogleComputeWireGroupEndpoints>)
 //  .id(java.lang.String)
@@ -46,10 +47,11 @@ GoogleComputeWireGroup.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.crossSiteNetwork">crossSiteNetwork</a></code> | <code>java.lang.String</code> | Required cross site network to which wire group belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.adminEnabled">adminEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Indicates whether the wire group is administratively enabled. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.endpoints">endpoints</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints">GoogleComputeWireGroupEndpoints</a>></code> | endpoints block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts">GoogleComputeWireGroupTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.wireGroupProperties">wireGroupProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireGroupProperties">GoogleComputeWireGroupWireGroupProperties</a></code> | wire_group_properties block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.wireProperties">wireProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties">GoogleComputeWireGroupWireProperties</a></code> | wire_properties block. |
@@ -122,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 Required cross site network to which wire group belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#cross_site_network GoogleComputeWireGroup#cross_site_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#cross_site_network GoogleComputeWireGroup#cross_site_network}
 
 ---
 
@@ -138,7 +140,7 @@ long and match the regular expression '[a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?' which
 character must be a lowercase letter, and all following characters must be a dash,
 lowercase letter, or digit, except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#name GoogleComputeWireGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#name GoogleComputeWireGroup#name}
 
 ---
 
@@ -148,7 +150,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether the wire group is administratively enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#admin_enabled GoogleComputeWireGroup#admin_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#admin_enabled GoogleComputeWireGroup#admin_enabled}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#deletion_policy GoogleComputeWireGroup#deletion_policy}
 
 ---
 
@@ -158,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#description GoogleComputeWireGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#description GoogleComputeWireGroup#description}
 
 ---
 
@@ -168,7 +187,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 endpoints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#endpoints GoogleComputeWireGroup#endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#endpoints GoogleComputeWireGroup#endpoints}
 
 ---
 
@@ -176,7 +195,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -187,7 +206,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}.
 
 ---
 
@@ -197,7 +216,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#timeouts GoogleComputeWireGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#timeouts GoogleComputeWireGroup#timeouts}
 
 ---
 
@@ -207,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 wire_group_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#wire_group_properties GoogleComputeWireGroup#wire_group_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#wire_group_properties GoogleComputeWireGroup#wire_group_properties}
 
 ---
 
@@ -217,7 +236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 wire_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#wire_properties GoogleComputeWireGroup#wire_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#wire_properties GoogleComputeWireGroup#wire_properties}
 
 ---
 
@@ -254,6 +273,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.putWireGroupProperties">putWireGroupProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.putWireProperties">putWireProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.resetAdminEnabled">resetAdminEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.resetEndpoints">resetEndpoints</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.resetId">resetId</a></code> | *No description.* |
@@ -629,6 +649,12 @@ public void putWireProperties(GoogleComputeWireGroupWireProperties value)
 public void resetAdminEnabled()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.resetDescription"></a>
 
 ```java
@@ -774,7 +800,7 @@ The construct id used in the generated config for the GoogleComputeWireGroup to 
 
 The id of the existing GoogleComputeWireGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,6 +839,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.wires">wires</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWiresList">GoogleComputeWireGroupWiresList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.adminEnabledInput">adminEnabledInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.crossSiteNetworkInput">crossSiteNetworkInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.endpointsInput">endpointsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints">GoogleComputeWireGroupEndpoints</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -823,6 +850,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.wirePropertiesInput">wirePropertiesInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties">GoogleComputeWireGroupWireProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.adminEnabled">adminEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.crossSiteNetwork">crossSiteNetwork</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1062,6 +1090,16 @@ public java.lang.String getCrossSiteNetworkInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.descriptionInput"></a>
 
 ```java
@@ -1162,6 +1200,16 @@ public java.lang.String getCrossSiteNetwork();
 
 ---
 
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroup.property.description"></a>
 
 ```java
@@ -1240,6 +1288,7 @@ GoogleComputeWireGroupConfig.builder()
     .crossSiteNetwork(java.lang.String)
     .name(java.lang.String)
 //  .adminEnabled(java.lang.Boolean|IResolvable)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .endpoints(IResolvable|java.util.List<GoogleComputeWireGroupEndpoints>)
 //  .id(java.lang.String)
@@ -1264,10 +1313,11 @@ GoogleComputeWireGroupConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.crossSiteNetwork">crossSiteNetwork</a></code> | <code>java.lang.String</code> | Required cross site network to which wire group belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.adminEnabled">adminEnabled</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Indicates whether the wire group is administratively enabled. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.endpoints">endpoints</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints">GoogleComputeWireGroupEndpoints</a>></code> | endpoints block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts">GoogleComputeWireGroupTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.wireGroupProperties">wireGroupProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireGroupProperties">GoogleComputeWireGroupWireGroupProperties</a></code> | wire_group_properties block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.wireProperties">wireProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupWireProperties">GoogleComputeWireGroupWireProperties</a></code> | wire_properties block. |
@@ -1354,7 +1404,7 @@ public java.lang.String getCrossSiteNetwork();
 
 Required cross site network to which wire group belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#cross_site_network GoogleComputeWireGroup#cross_site_network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#cross_site_network GoogleComputeWireGroup#cross_site_network}
 
 ---
 
@@ -1374,7 +1424,7 @@ long and match the regular expression '[a-z](%5B-a-z0-9%5D*%5Ba-z0-9%5D)?' which
 character must be a lowercase letter, and all following characters must be a dash,
 lowercase letter, or digit, except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#name GoogleComputeWireGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#name GoogleComputeWireGroup#name}
 
 ---
 
@@ -1388,7 +1438,28 @@ public java.lang.Boolean|IResolvable getAdminEnabled();
 
 Indicates whether the wire group is administratively enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#admin_enabled GoogleComputeWireGroup#admin_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#admin_enabled GoogleComputeWireGroup#admin_enabled}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#deletion_policy GoogleComputeWireGroup#deletion_policy}
 
 ---
 
@@ -1402,7 +1473,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#description GoogleComputeWireGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#description GoogleComputeWireGroup#description}
 
 ---
 
@@ -1416,7 +1487,7 @@ public IResolvable|java.util.List<GoogleComputeWireGroupEndpoints> getEndpoints(
 
 endpoints block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#endpoints GoogleComputeWireGroup#endpoints}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#endpoints GoogleComputeWireGroup#endpoints}
 
 ---
 
@@ -1428,7 +1499,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#id GoogleComputeWireGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1443,7 +1514,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#project GoogleComputeWireGroup#project}.
 
 ---
 
@@ -1457,7 +1528,7 @@ public GoogleComputeWireGroupTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#timeouts GoogleComputeWireGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#timeouts GoogleComputeWireGroup#timeouts}
 
 ---
 
@@ -1471,7 +1542,7 @@ public GoogleComputeWireGroupWireGroupProperties getWireGroupProperties();
 
 wire_group_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#wire_group_properties GoogleComputeWireGroup#wire_group_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#wire_group_properties GoogleComputeWireGroup#wire_group_properties}
 
 ---
 
@@ -1485,7 +1556,7 @@ public GoogleComputeWireGroupWireProperties getWireProperties();
 
 wire_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#wire_properties GoogleComputeWireGroup#wire_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#wire_properties GoogleComputeWireGroup#wire_properties}
 
 ---
 
@@ -1506,7 +1577,7 @@ GoogleComputeWireGroupEndpoints.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints.property.endpoint">endpoint</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#endpoint GoogleComputeWireGroup#endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints.property.endpoint">endpoint</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#endpoint GoogleComputeWireGroup#endpoint}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpoints.property.interconnects">interconnects</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects">GoogleComputeWireGroupEndpointsInterconnects</a>></code> | interconnects block. |
 
 ---
@@ -1519,7 +1590,7 @@ public java.lang.String getEndpoint();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#endpoint GoogleComputeWireGroup#endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#endpoint GoogleComputeWireGroup#endpoint}.
 
 ---
 
@@ -1533,7 +1604,7 @@ public IResolvable|java.util.List<GoogleComputeWireGroupEndpointsInterconnects> 
 
 interconnects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#interconnects GoogleComputeWireGroup#interconnects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#interconnects GoogleComputeWireGroup#interconnects}
 
 ---
 
@@ -1555,8 +1626,8 @@ GoogleComputeWireGroupEndpointsInterconnects.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.interconnectName">interconnectName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#interconnect_name GoogleComputeWireGroup#interconnect_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.interconnect">interconnect</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#interconnect GoogleComputeWireGroup#interconnect}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.interconnectName">interconnectName</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#interconnect_name GoogleComputeWireGroup#interconnect_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.interconnect">interconnect</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#interconnect GoogleComputeWireGroup#interconnect}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupEndpointsInterconnects.property.vlanTags">vlanTags</a></code> | <code>java.util.List<java.lang.Number></code> | VLAN tags for the interconnect. |
 
 ---
@@ -1569,7 +1640,7 @@ public java.lang.String getInterconnectName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#interconnect_name GoogleComputeWireGroup#interconnect_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#interconnect_name GoogleComputeWireGroup#interconnect_name}.
 
 ---
 
@@ -1581,7 +1652,7 @@ public java.lang.String getInterconnect();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#interconnect GoogleComputeWireGroup#interconnect}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#interconnect GoogleComputeWireGroup#interconnect}.
 
 ---
 
@@ -1595,7 +1666,7 @@ public java.util.List<java.lang.Number> getVlanTags();
 
 VLAN tags for the interconnect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#vlan_tags GoogleComputeWireGroup#vlan_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#vlan_tags GoogleComputeWireGroup#vlan_tags}
 
 ---
 
@@ -1617,9 +1688,9 @@ GoogleComputeWireGroupTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#create GoogleComputeWireGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#delete GoogleComputeWireGroup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#update GoogleComputeWireGroup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#create GoogleComputeWireGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#delete GoogleComputeWireGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeWireGroup.GoogleComputeWireGroupTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#update GoogleComputeWireGroup#update}. |
 
 ---
 
@@ -1631,7 +1702,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#create GoogleComputeWireGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#create GoogleComputeWireGroup#create}.
 
 ---
 
@@ -1643,7 +1714,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#delete GoogleComputeWireGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#delete GoogleComputeWireGroup#delete}.
 
 ---
 
@@ -1655,7 +1726,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#update GoogleComputeWireGroup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#update GoogleComputeWireGroup#update}.
 
 ---
 
@@ -1717,7 +1788,7 @@ WIRE: a single pseudowire over two Interconnect connections   with no redundancy
 REDUNDANT: two pseudowires over four Interconnect connections, with two connections in one metro and two connections in another metro.
 BOX_AND_CROSS: four pseudowires over four Interconnect connections, with two connections in one metro and two connections in another metro.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#type GoogleComputeWireGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#type GoogleComputeWireGroup#type}
 
 ---
 
@@ -1759,7 +1830,7 @@ ALLOCATE_PER_WIRE: configures a separate unmetered bandwidth allocation (and ass
 SHARED_WITH_WIRE_GROUP: this is the default behavior, which configures one unmetered bandwidth allocation for the wire group. The unmetered bandwidth is divided equally across each wire in the group, but dynamic
 throttling reallocates unused unmetered bandwidth from unused or underused wires to other wires in the group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#bandwidth_allocation GoogleComputeWireGroup#bandwidth_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#bandwidth_allocation GoogleComputeWireGroup#bandwidth_allocation}
 
 ---
 
@@ -1773,7 +1844,7 @@ public java.lang.Number getBandwidthUnmetered();
 
 The unmetered bandwidth setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#bandwidth_unmetered GoogleComputeWireGroup#bandwidth_unmetered}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#bandwidth_unmetered GoogleComputeWireGroup#bandwidth_unmetered}
 
 ---
 
@@ -1789,7 +1860,7 @@ Response when a fault is detected in a pseudowire: NONE: default.
 
 DISABLE_PORT: set the port line protocol down when inline probes detect a fault. This setting is only permitted on port mode pseudowires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_wire_group#fault_response GoogleComputeWireGroup#fault_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_wire_group#fault_response GoogleComputeWireGroup#fault_response}
 
 ---
 

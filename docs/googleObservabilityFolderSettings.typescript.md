@@ -4,7 +4,7 @@
 
 ### GoogleObservabilityFolderSettings <a name="GoogleObservabilityFolderSettings" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings google_observability_folder_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings google_observability_folder_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleObservabilityFolderS
 
 The id of the existing GoogleObservabilityFolderSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -903,7 +903,7 @@ const googleObservabilityFolderSettingsConfig: googleObservabilityFolderSettings
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.folder">folder</a></code> | <code>string</code> | The folder ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.location">location</a></code> | <code>string</code> | The location of the settings. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.defaultStorageLocation">defaultStorageLocation</a></code> | <code>string</code> | The default storage location for new resources, e.g. buckets. Only valid for global location. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.kmsKeyName">kmsKeyName</a></code> | <code>string</code> | The default Cloud KMS key to use for new resources. Only valid for regional locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts">GoogleObservabilityFolderSettingsTimeouts</a></code> | timeouts block. |
 
@@ -989,7 +989,7 @@ public readonly folder: string;
 
 The folder ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#folder GoogleObservabilityFolderSettings#folder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#folder GoogleObservabilityFolderSettings#folder}
 
 ---
 
@@ -1003,7 +1003,7 @@ public readonly location: string;
 
 The location of the settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#location GoogleObservabilityFolderSettings#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#location GoogleObservabilityFolderSettings#location}
 
 ---
 
@@ -1017,7 +1017,7 @@ public readonly defaultStorageLocation: string;
 
 The default storage location for new resources, e.g. buckets. Only valid for global location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#default_storage_location GoogleObservabilityFolderSettings#default_storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#default_storage_location GoogleObservabilityFolderSettings#default_storage_location}
 
 ---
 
@@ -1029,7 +1029,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1046,7 +1046,7 @@ public readonly kmsKeyName: string;
 
 The default Cloud KMS key to use for new resources. Only valid for regional locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#kms_key_name GoogleObservabilityFolderSettings#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#kms_key_name GoogleObservabilityFolderSettings#kms_key_name}
 
 ---
 
@@ -1060,7 +1060,7 @@ public readonly timeouts: GoogleObservabilityFolderSettingsTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#timeouts GoogleObservabilityFolderSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#timeouts GoogleObservabilityFolderSettings#timeouts}
 
 ---
 
@@ -1078,9 +1078,9 @@ const googleObservabilityFolderSettingsTimeouts: googleObservabilityFolderSettin
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#create GoogleObservabilityFolderSettings#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#delete GoogleObservabilityFolderSettings#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#update GoogleObservabilityFolderSettings#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#create GoogleObservabilityFolderSettings#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#delete GoogleObservabilityFolderSettings#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#update GoogleObservabilityFolderSettings#update}. |
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#create GoogleObservabilityFolderSettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#create GoogleObservabilityFolderSettings#create}.
 
 ---
 
@@ -1104,7 +1104,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#delete GoogleObservabilityFolderSettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#delete GoogleObservabilityFolderSettings#delete}.
 
 ---
 
@@ -1116,7 +1116,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#update GoogleObservabilityFolderSettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#update GoogleObservabilityFolderSettings#update}.
 
 ---
 

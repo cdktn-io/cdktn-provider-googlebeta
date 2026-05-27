@@ -4,7 +4,7 @@
 
 ### GoogleNetworkServicesMulticastDomainGroup <a name="GoogleNetworkServicesMulticastDomainGroup" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group google_network_services_multicast_domain_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group google_network_services_multicast_domain_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.resetLabels">resetLabels</a></code> | *No description.* |
@@ -404,6 +405,12 @@ public putTimeouts(value: GoogleNetworkServicesMulticastDomainGroupTimeouts): vo
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.resetDescription"></a>
 
 ```typescript
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleNetworkServicesMulti
 
 The id of the existing GoogleNetworkServicesMulticastDomainGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -576,6 +583,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeoutsOutputReference">GoogleNetworkServicesMulticastDomainGroupTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.uniqueId">uniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.labelsInput">labelsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
@@ -583,6 +591,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.multicastDomainGroupIdInput">multicastDomainGroupIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts">GoogleNetworkServicesMulticastDomainGroupTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
@@ -824,6 +833,16 @@ public readonly updateTime: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.descriptionInput"></a>
 
 ```typescript
@@ -891,6 +910,16 @@ public readonly timeoutsInput: IResolvable | GoogleNetworkServicesMulticastDomai
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts">GoogleNetworkServicesMulticastDomainGroupTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroup.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -997,10 +1026,11 @@ const googleNetworkServicesMulticastDomainGroupConfig: googleNetworkServicesMult
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.location">location</a></code> | <code>string</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.multicastDomainGroupId">multicastDomainGroupId</a></code> | <code>string</code> | A unique name for the multicast domain group. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.description">description</a></code> | <code>string</code> | An optional text description of the multicast domain group. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#id GoogleNetworkServicesMulticastDomainGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#id GoogleNetworkServicesMulticastDomainGroup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Labels as key-value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#project GoogleNetworkServicesMulticastDomainGroup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#project GoogleNetworkServicesMulticastDomainGroup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts">GoogleNetworkServicesMulticastDomainGroupTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1085,7 +1115,7 @@ public readonly location: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#location GoogleNetworkServicesMulticastDomainGroup#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#location GoogleNetworkServicesMulticastDomainGroup#location}
 
 ---
 
@@ -1103,7 +1133,29 @@ The name is restricted to letters, numbers, and hyphen, with the first
 character a letter, and the last a letter or a number. The name must not
 exceed 48 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#multicast_domain_group_id GoogleNetworkServicesMulticastDomainGroup#multicast_domain_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#multicast_domain_group_id GoogleNetworkServicesMulticastDomainGroup#multicast_domain_group_id}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#deletion_policy GoogleNetworkServicesMulticastDomainGroup#deletion_policy}
 
 ---
 
@@ -1117,7 +1169,7 @@ public readonly description: string;
 
 An optional text description of the multicast domain group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#description GoogleNetworkServicesMulticastDomainGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#description GoogleNetworkServicesMulticastDomainGroup#description}
 
 ---
 
@@ -1129,7 +1181,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#id GoogleNetworkServicesMulticastDomainGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#id GoogleNetworkServicesMulticastDomainGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1149,7 +1201,7 @@ Labels as key-value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#labels GoogleNetworkServicesMulticastDomainGroup#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#labels GoogleNetworkServicesMulticastDomainGroup#labels}
 
 ---
 
@@ -1161,7 +1213,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#project GoogleNetworkServicesMulticastDomainGroup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#project GoogleNetworkServicesMulticastDomainGroup#project}.
 
 ---
 
@@ -1175,7 +1227,7 @@ public readonly timeouts: GoogleNetworkServicesMulticastDomainGroupTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#timeouts GoogleNetworkServicesMulticastDomainGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#timeouts GoogleNetworkServicesMulticastDomainGroup#timeouts}
 
 ---
 
@@ -1204,9 +1256,9 @@ const googleNetworkServicesMulticastDomainGroupTimeouts: googleNetworkServicesMu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#create GoogleNetworkServicesMulticastDomainGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#delete GoogleNetworkServicesMulticastDomainGroup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#update GoogleNetworkServicesMulticastDomainGroup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#create GoogleNetworkServicesMulticastDomainGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#delete GoogleNetworkServicesMulticastDomainGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastDomainGroup.GoogleNetworkServicesMulticastDomainGroupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#update GoogleNetworkServicesMulticastDomainGroup#update}. |
 
 ---
 
@@ -1218,7 +1270,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#create GoogleNetworkServicesMulticastDomainGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#create GoogleNetworkServicesMulticastDomainGroup#create}.
 
 ---
 
@@ -1230,7 +1282,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#delete GoogleNetworkServicesMulticastDomainGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#delete GoogleNetworkServicesMulticastDomainGroup#delete}.
 
 ---
 
@@ -1242,7 +1294,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_domain_group#update GoogleNetworkServicesMulticastDomainGroup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_domain_group#update GoogleNetworkServicesMulticastDomainGroup#update}.
 
 ---
 

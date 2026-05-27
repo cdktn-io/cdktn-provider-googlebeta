@@ -4,7 +4,7 @@
 
 ### GoogleBeyondcorpSecurityGatewayIamMember <a name="GoogleBeyondcorpSecurityGatewayIamMember" id="@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member google_beyondcorp_security_gateway_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMember.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleBeyondcorpSecurityGa
 
 The id of the existing GoogleBeyondcorpSecurityGatewayIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,9 +904,9 @@ const googleBeyondcorpSecurityGatewayIamMemberCondition: googleBeyondcorpSecurit
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#expression GoogleBeyondcorpSecurityGatewayIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#title GoogleBeyondcorpSecurityGatewayIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#description GoogleBeyondcorpSecurityGatewayIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#expression GoogleBeyondcorpSecurityGatewayIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#title GoogleBeyondcorpSecurityGatewayIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#description GoogleBeyondcorpSecurityGatewayIamMember#description}. |
 
 ---
 
@@ -918,7 +918,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#expression GoogleBeyondcorpSecurityGatewayIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#expression GoogleBeyondcorpSecurityGatewayIamMember#expression}.
 
 ---
 
@@ -930,7 +930,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#title GoogleBeyondcorpSecurityGatewayIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#title GoogleBeyondcorpSecurityGatewayIamMember#title}.
 
 ---
 
@@ -942,7 +942,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#description GoogleBeyondcorpSecurityGatewayIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#description GoogleBeyondcorpSecurityGatewayIamMember#description}.
 
 ---
 
@@ -967,13 +967,13 @@ const googleBeyondcorpSecurityGatewayIamMemberConfig: googleBeyondcorpSecurityGa
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#member GoogleBeyondcorpSecurityGatewayIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#role GoogleBeyondcorpSecurityGatewayIamMember#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.securityGatewayId">securityGatewayId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#security_gateway_id GoogleBeyondcorpSecurityGatewayIamMember#security_gateway_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#member GoogleBeyondcorpSecurityGatewayIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#role GoogleBeyondcorpSecurityGatewayIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.securityGatewayId">securityGatewayId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#security_gateway_id GoogleBeyondcorpSecurityGatewayIamMember#security_gateway_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberCondition">GoogleBeyondcorpSecurityGatewayIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#id GoogleBeyondcorpSecurityGatewayIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#location GoogleBeyondcorpSecurityGatewayIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#project GoogleBeyondcorpSecurityGatewayIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#id GoogleBeyondcorpSecurityGatewayIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#location GoogleBeyondcorpSecurityGatewayIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpSecurityGatewayIamMember.GoogleBeyondcorpSecurityGatewayIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#project GoogleBeyondcorpSecurityGatewayIamMember#project}. |
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly member: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#member GoogleBeyondcorpSecurityGatewayIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#member GoogleBeyondcorpSecurityGatewayIamMember#member}.
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#role GoogleBeyondcorpSecurityGatewayIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#role GoogleBeyondcorpSecurityGatewayIamMember#role}.
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly securityGatewayId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#security_gateway_id GoogleBeyondcorpSecurityGatewayIamMember#security_gateway_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#security_gateway_id GoogleBeyondcorpSecurityGatewayIamMember#security_gateway_id}.
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly condition: GoogleBeyondcorpSecurityGatewayIamMemberCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#condition GoogleBeyondcorpSecurityGatewayIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#condition GoogleBeyondcorpSecurityGatewayIamMember#condition}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#id GoogleBeyondcorpSecurityGatewayIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#id GoogleBeyondcorpSecurityGatewayIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1120,7 +1120,7 @@ public readonly location: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#location GoogleBeyondcorpSecurityGatewayIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#location GoogleBeyondcorpSecurityGatewayIamMember#location}.
 
 ---
 
@@ -1132,7 +1132,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_security_gateway_iam_member#project GoogleBeyondcorpSecurityGatewayIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_security_gateway_iam_member#project GoogleBeyondcorpSecurityGatewayIamMember#project}.
 
 ---
 

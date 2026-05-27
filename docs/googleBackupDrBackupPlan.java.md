@@ -4,7 +4,7 @@
 
 ### GoogleBackupDrBackupPlan <a name="GoogleBackupDrBackupPlan" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan google_backup_dr_backup_plan}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan google_backup_dr_backup_plan}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer"></a>
 
@@ -24,6 +24,8 @@ GoogleBackupDrBackupPlan.Builder.create(Construct scope, java.lang.String id)
     .location(java.lang.String)
     .resourceType(java.lang.String)
 //  .backupRules(IResolvable|java.util.List<GoogleBackupDrBackupPlanBackupRules>)
+//  .computeInstanceBackupPlanProperties(GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .diskBackupPlanProperties(GoogleBackupDrBackupPlanDiskBackupPlanProperties)
 //  .id(java.lang.String)
@@ -50,12 +52,14 @@ GoogleBackupDrBackupPlan.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location for the backup plan. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.resourceType">resourceType</a></code> | <code>java.lang.String</code> | The resource type to which the 'BackupPlan' will be applied. Examples include, "compute.googleapis.com/Instance", "compute.googleapis.com/Disk", "sqladmin.googleapis.com/Instance", "alloydb.googleapis.com/Cluster", "file.googleapis.com/Instance" and "storage.googleapis.com/Bucket". |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.backupRules">backupRules</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRules">GoogleBackupDrBackupPlanBackupRules</a>></code> | backup_rules block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.computeInstanceBackupPlanProperties">computeInstanceBackupPlanProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties">GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties</a></code> | compute_instance_backup_plan_properties block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The description allows for additional details about 'BackupPlan' and its use cases to be provided. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.diskBackupPlanProperties">diskBackupPlanProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanDiskBackupPlanProperties">GoogleBackupDrBackupPlanDiskBackupPlanProperties</a></code> | disk_backup_plan_properties block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#id GoogleBackupDrBackupPlan#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#id GoogleBackupDrBackupPlan#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.logRetentionDays">logRetentionDays</a></code> | <code>java.lang.Number</code> | This is only applicable for CloudSql resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.maxCustomOnDemandRetentionDays">maxCustomOnDemandRetentionDays</a></code> | <code>java.lang.Number</code> | The maximum number of days for which an on-demand backup taken with custom retention can be retained. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#project GoogleBackupDrBackupPlan#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#project GoogleBackupDrBackupPlan#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts">GoogleBackupDrBackupPlanTimeouts</a></code> | timeouts block. |
 
 ---
@@ -126,7 +130,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the backup plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#backup_plan_id GoogleBackupDrBackupPlan#backup_plan_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#backup_plan_id GoogleBackupDrBackupPlan#backup_plan_id}
 
 ---
 
@@ -136,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Backup vault where the backups gets stored using this Backup plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#backup_vault GoogleBackupDrBackupPlan#backup_vault}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#backup_vault GoogleBackupDrBackupPlan#backup_vault}
 
 ---
 
@@ -146,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location for the backup plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#location GoogleBackupDrBackupPlan#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#location GoogleBackupDrBackupPlan#location}
 
 ---
 
@@ -156,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource type to which the 'BackupPlan' will be applied. Examples include, "compute.googleapis.com/Instance", "compute.googleapis.com/Disk", "sqladmin.googleapis.com/Instance", "alloydb.googleapis.com/Cluster", "file.googleapis.com/Instance" and "storage.googleapis.com/Bucket".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#resource_type GoogleBackupDrBackupPlan#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#resource_type GoogleBackupDrBackupPlan#resource_type}
 
 ---
 
@@ -166,7 +170,34 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 backup_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#backup_rules GoogleBackupDrBackupPlan#backup_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#backup_rules GoogleBackupDrBackupPlan#backup_rules}
+
+---
+
+##### `computeInstanceBackupPlanProperties`<sup>Optional</sup> <a name="computeInstanceBackupPlanProperties" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.computeInstanceBackupPlanProperties"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties">GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties</a>
+
+compute_instance_backup_plan_properties block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#compute_instance_backup_plan_properties GoogleBackupDrBackupPlan#compute_instance_backup_plan_properties}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#deletion_policy GoogleBackupDrBackupPlan#deletion_policy}
 
 ---
 
@@ -176,7 +207,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description allows for additional details about 'BackupPlan' and its use cases to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#description GoogleBackupDrBackupPlan#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#description GoogleBackupDrBackupPlan#description}
 
 ---
 
@@ -186,7 +217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 disk_backup_plan_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#disk_backup_plan_properties GoogleBackupDrBackupPlan#disk_backup_plan_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#disk_backup_plan_properties GoogleBackupDrBackupPlan#disk_backup_plan_properties}
 
 ---
 
@@ -194,7 +225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#id GoogleBackupDrBackupPlan#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#id GoogleBackupDrBackupPlan#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -209,7 +240,7 @@ This is only applicable for CloudSql resource.
 
 Days for which logs will be stored. This value should be greater than or equal to minimum enforced log retention duration of the backup vault.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#log_retention_days GoogleBackupDrBackupPlan#log_retention_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#log_retention_days GoogleBackupDrBackupPlan#log_retention_days}
 
 ---
 
@@ -219,7 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The maximum number of days for which an on-demand backup taken with custom retention can be retained.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#max_custom_on_demand_retention_days GoogleBackupDrBackupPlan#max_custom_on_demand_retention_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#max_custom_on_demand_retention_days GoogleBackupDrBackupPlan#max_custom_on_demand_retention_days}
 
 ---
 
@@ -227,7 +258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#project GoogleBackupDrBackupPlan#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#project GoogleBackupDrBackupPlan#project}.
 
 ---
 
@@ -237,7 +268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#timeouts GoogleBackupDrBackupPlan#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#timeouts GoogleBackupDrBackupPlan#timeouts}
 
 ---
 
@@ -270,9 +301,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.putBackupRules">putBackupRules</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.putComputeInstanceBackupPlanProperties">putComputeInstanceBackupPlanProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.putDiskBackupPlanProperties">putDiskBackupPlanProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.resetBackupRules">resetBackupRules</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.resetComputeInstanceBackupPlanProperties">resetComputeInstanceBackupPlanProperties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.resetDiskBackupPlanProperties">resetDiskBackupPlanProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.resetId">resetId</a></code> | *No description.* |
@@ -606,6 +640,18 @@ public void putBackupRules(IResolvable|java.util.List<GoogleBackupDrBackupPlanBa
 
 ---
 
+##### `putComputeInstanceBackupPlanProperties` <a name="putComputeInstanceBackupPlanProperties" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.putComputeInstanceBackupPlanProperties"></a>
+
+```java
+public void putComputeInstanceBackupPlanProperties(GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.putComputeInstanceBackupPlanProperties.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties">GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties</a>
+
+---
+
 ##### `putDiskBackupPlanProperties` <a name="putDiskBackupPlanProperties" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.putDiskBackupPlanProperties"></a>
 
 ```java
@@ -634,6 +680,18 @@ public void putTimeouts(GoogleBackupDrBackupPlanTimeouts value)
 
 ```java
 public void resetBackupRules()
+```
+
+##### `resetComputeInstanceBackupPlanProperties` <a name="resetComputeInstanceBackupPlanProperties" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.resetComputeInstanceBackupPlanProperties"></a>
+
+```java
+public void resetComputeInstanceBackupPlanProperties()
+```
+
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
 ```
 
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.resetDescription"></a>
@@ -781,7 +839,7 @@ The construct id used in the generated config for the GoogleBackupDrBackupPlan t
 
 The id of the existing GoogleBackupDrBackupPlan that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -813,6 +871,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.backupRules">backupRules</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesList">GoogleBackupDrBackupPlanBackupRulesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.backupVaultServiceAccount">backupVaultServiceAccount</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.computeInstanceBackupPlanProperties">computeInstanceBackupPlanProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference">GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.createTime">createTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.diskBackupPlanProperties">diskBackupPlanProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanDiskBackupPlanPropertiesOutputReference">GoogleBackupDrBackupPlanDiskBackupPlanPropertiesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -822,6 +881,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.backupPlanIdInput">backupPlanIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.backupRulesInput">backupRulesInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRules">GoogleBackupDrBackupPlanBackupRules</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.backupVaultInput">backupVaultInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.computeInstanceBackupPlanPropertiesInput">computeInstanceBackupPlanPropertiesInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties">GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.diskBackupPlanPropertiesInput">diskBackupPlanPropertiesInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanDiskBackupPlanProperties">GoogleBackupDrBackupPlanDiskBackupPlanProperties</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -833,6 +894,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts">GoogleBackupDrBackupPlanTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.backupPlanId">backupPlanId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.backupVault">backupVault</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.location">location</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1005,6 +1067,16 @@ public java.lang.String getBackupVaultServiceAccount();
 
 ---
 
+##### `computeInstanceBackupPlanProperties`<sup>Required</sup> <a name="computeInstanceBackupPlanProperties" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.computeInstanceBackupPlanProperties"></a>
+
+```java
+public GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference getComputeInstanceBackupPlanProperties();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference">GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference</a>
+
+---
+
 ##### `createTime`<sup>Required</sup> <a name="createTime" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.createTime"></a>
 
 ```java
@@ -1089,6 +1161,26 @@ public IResolvable|java.util.List<GoogleBackupDrBackupPlanBackupRules> getBackup
 
 ```java
 public java.lang.String getBackupVaultInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `computeInstanceBackupPlanPropertiesInput`<sup>Optional</sup> <a name="computeInstanceBackupPlanPropertiesInput" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.computeInstanceBackupPlanPropertiesInput"></a>
+
+```java
+public GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties getComputeInstanceBackupPlanPropertiesInput();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties">GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties</a>
+
+---
+
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
 ```
 
 - *Type:* java.lang.String
@@ -1199,6 +1291,16 @@ public java.lang.String getBackupPlanId();
 
 ```java
 public java.lang.String getBackupVault();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlan.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1331,7 +1433,7 @@ Configures the duration for which backup data will be kept.
 
 The value should be greater than or equal to minimum enforced retention of the backup vault.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#backup_retention_days GoogleBackupDrBackupPlan#backup_retention_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#backup_retention_days GoogleBackupDrBackupPlan#backup_retention_days}
 
 ---
 
@@ -1345,7 +1447,7 @@ public java.lang.String getRuleId();
 
 The unique ID of this 'BackupRule'. The 'rule_id' is unique per 'BackupPlan'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#rule_id GoogleBackupDrBackupPlan#rule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#rule_id GoogleBackupDrBackupPlan#rule_id}
 
 ---
 
@@ -1359,7 +1461,7 @@ public GoogleBackupDrBackupPlanBackupRulesStandardSchedule getStandardSchedule()
 
 standard_schedule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#standard_schedule GoogleBackupDrBackupPlan#standard_schedule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#standard_schedule GoogleBackupDrBackupPlan#standard_schedule}
 
 ---
 
@@ -1407,7 +1509,7 @@ public java.lang.String getRecurrenceType();
 
 RecurrenceType enumerates the applicable periodicity for the schedule. Possible values: ["HOURLY", "DAILY", "WEEKLY", "MONTHLY", "YEARLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#recurrence_type GoogleBackupDrBackupPlan#recurrence_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#recurrence_type GoogleBackupDrBackupPlan#recurrence_type}
 
 ---
 
@@ -1421,7 +1523,7 @@ public java.lang.String getTimeZone();
 
 The time zone to be used when interpreting the schedule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#time_zone GoogleBackupDrBackupPlan#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#time_zone GoogleBackupDrBackupPlan#time_zone}
 
 ---
 
@@ -1435,7 +1537,7 @@ public GoogleBackupDrBackupPlanBackupRulesStandardScheduleBackupWindow getBackup
 
 backup_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#backup_window GoogleBackupDrBackupPlan#backup_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#backup_window GoogleBackupDrBackupPlan#backup_window}
 
 ---
 
@@ -1449,7 +1551,7 @@ public java.util.List<java.lang.Number> getDaysOfMonth();
 
 Specifies days of months like 1, 5, or 14 on which jobs will run.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#days_of_month GoogleBackupDrBackupPlan#days_of_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#days_of_month GoogleBackupDrBackupPlan#days_of_month}
 
 ---
 
@@ -1465,7 +1567,7 @@ Specifies days of week like MONDAY or TUESDAY, on which jobs will run.
 
 This is required for 'recurrence_type', 'WEEKLY' and is not applicable otherwise. Possible values: ["DAY_OF_WEEK_UNSPECIFIED", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#days_of_week GoogleBackupDrBackupPlan#days_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#days_of_week GoogleBackupDrBackupPlan#days_of_week}
 
 ---
 
@@ -1482,7 +1584,7 @@ Specifies frequency for hourly backups.
 An hourly frequency of 2 means jobs will run every 2 hours from start time till end time defined.
 This is required for 'recurrence_type', 'HOURLY' and is not applicable otherwise.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#hourly_frequency GoogleBackupDrBackupPlan#hourly_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#hourly_frequency GoogleBackupDrBackupPlan#hourly_frequency}
 
 ---
 
@@ -1496,7 +1598,7 @@ public java.util.List<java.lang.String> getMonths();
 
 Specifies values of months Possible values: ["MONTH_UNSPECIFIED", "JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#months GoogleBackupDrBackupPlan#months}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#months GoogleBackupDrBackupPlan#months}
 
 ---
 
@@ -1510,7 +1612,7 @@ public GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonth getWeek
 
 week_day_of_month block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#week_day_of_month GoogleBackupDrBackupPlan#week_day_of_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#week_day_of_month GoogleBackupDrBackupPlan#week_day_of_month}
 
 ---
 
@@ -1546,7 +1648,7 @@ public java.lang.Number getStartHourOfDay();
 
 The hour of the day (0-23) when the window starts, for example, if the value of the start hour of the day is 6, that means the backup window starts at 6:00.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#start_hour_of_day GoogleBackupDrBackupPlan#start_hour_of_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#start_hour_of_day GoogleBackupDrBackupPlan#start_hour_of_day}
 
 ---
 
@@ -1562,7 +1664,7 @@ The hour of the day (1-24) when the window ends, for example, if the value of en
 
 The end hour of the day should be greater than the start
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#end_hour_of_day GoogleBackupDrBackupPlan#end_hour_of_day}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#end_hour_of_day GoogleBackupDrBackupPlan#end_hour_of_day}
 
 ---
 
@@ -1598,7 +1700,7 @@ public java.lang.String getDayOfWeek();
 
 Specifies the day of the week. Possible values: ["DAY_OF_WEEK_UNSPECIFIED", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#day_of_week GoogleBackupDrBackupPlan#day_of_week}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#day_of_week GoogleBackupDrBackupPlan#day_of_week}
 
 ---
 
@@ -1612,7 +1714,44 @@ public java.lang.String getWeekOfMonth();
 
 WeekOfMonth enumerates possible weeks in the month, e.g. the first, third, or last week of the month. Possible values: ["WEEK_OF_MONTH_UNSPECIFIED", "FIRST", "SECOND", "THIRD", "FOURTH", "LAST"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#week_of_month GoogleBackupDrBackupPlan#week_of_month}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#week_of_month GoogleBackupDrBackupPlan#week_of_month}
+
+---
+
+### GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties <a name="GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_backup_dr_backup_plan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties;
+
+GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties.builder()
+    .guestFlush(java.lang.Boolean|IResolvable)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties.property.guestFlush">guestFlush</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Indicates whether to perform a guest flush operation before taking a compute instance backup. |
+
+---
+
+##### `guestFlush`<sup>Required</sup> <a name="guestFlush" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties.property.guestFlush"></a>
+
+```java
+public java.lang.Boolean|IResolvable getGuestFlush();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+Indicates whether to perform a guest flush operation before taking a compute instance backup.
+
+When set to true, the system will attempt
+to ensure application-consistent backups.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#guest_flush GoogleBackupDrBackupPlan#guest_flush}
 
 ---
 
@@ -1636,6 +1775,8 @@ GoogleBackupDrBackupPlanConfig.builder()
     .location(java.lang.String)
     .resourceType(java.lang.String)
 //  .backupRules(IResolvable|java.util.List<GoogleBackupDrBackupPlanBackupRules>)
+//  .computeInstanceBackupPlanProperties(GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .diskBackupPlanProperties(GoogleBackupDrBackupPlanDiskBackupPlanProperties)
 //  .id(java.lang.String)
@@ -1662,12 +1803,14 @@ GoogleBackupDrBackupPlanConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location for the backup plan. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.resourceType">resourceType</a></code> | <code>java.lang.String</code> | The resource type to which the 'BackupPlan' will be applied. Examples include, "compute.googleapis.com/Instance", "compute.googleapis.com/Disk", "sqladmin.googleapis.com/Instance", "alloydb.googleapis.com/Cluster", "file.googleapis.com/Instance" and "storage.googleapis.com/Bucket". |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.backupRules">backupRules</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRules">GoogleBackupDrBackupPlanBackupRules</a>></code> | backup_rules block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.computeInstanceBackupPlanProperties">computeInstanceBackupPlanProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties">GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties</a></code> | compute_instance_backup_plan_properties block. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.description">description</a></code> | <code>java.lang.String</code> | The description allows for additional details about 'BackupPlan' and its use cases to be provided. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.diskBackupPlanProperties">diskBackupPlanProperties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanDiskBackupPlanProperties">GoogleBackupDrBackupPlanDiskBackupPlanProperties</a></code> | disk_backup_plan_properties block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#id GoogleBackupDrBackupPlan#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#id GoogleBackupDrBackupPlan#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.logRetentionDays">logRetentionDays</a></code> | <code>java.lang.Number</code> | This is only applicable for CloudSql resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.maxCustomOnDemandRetentionDays">maxCustomOnDemandRetentionDays</a></code> | <code>java.lang.Number</code> | The maximum number of days for which an on-demand backup taken with custom retention can be retained. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#project GoogleBackupDrBackupPlan#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#project GoogleBackupDrBackupPlan#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts">GoogleBackupDrBackupPlanTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1752,7 +1895,7 @@ public java.lang.String getBackupPlanId();
 
 The ID of the backup plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#backup_plan_id GoogleBackupDrBackupPlan#backup_plan_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#backup_plan_id GoogleBackupDrBackupPlan#backup_plan_id}
 
 ---
 
@@ -1766,7 +1909,7 @@ public java.lang.String getBackupVault();
 
 Backup vault where the backups gets stored using this Backup plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#backup_vault GoogleBackupDrBackupPlan#backup_vault}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#backup_vault GoogleBackupDrBackupPlan#backup_vault}
 
 ---
 
@@ -1780,7 +1923,7 @@ public java.lang.String getLocation();
 
 The location for the backup plan.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#location GoogleBackupDrBackupPlan#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#location GoogleBackupDrBackupPlan#location}
 
 ---
 
@@ -1794,7 +1937,7 @@ public java.lang.String getResourceType();
 
 The resource type to which the 'BackupPlan' will be applied. Examples include, "compute.googleapis.com/Instance", "compute.googleapis.com/Disk", "sqladmin.googleapis.com/Instance", "alloydb.googleapis.com/Cluster", "file.googleapis.com/Instance" and "storage.googleapis.com/Bucket".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#resource_type GoogleBackupDrBackupPlan#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#resource_type GoogleBackupDrBackupPlan#resource_type}
 
 ---
 
@@ -1808,7 +1951,42 @@ public IResolvable|java.util.List<GoogleBackupDrBackupPlanBackupRules> getBackup
 
 backup_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#backup_rules GoogleBackupDrBackupPlan#backup_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#backup_rules GoogleBackupDrBackupPlan#backup_rules}
+
+---
+
+##### `computeInstanceBackupPlanProperties`<sup>Optional</sup> <a name="computeInstanceBackupPlanProperties" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.computeInstanceBackupPlanProperties"></a>
+
+```java
+public GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties getComputeInstanceBackupPlanProperties();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties">GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties</a>
+
+compute_instance_backup_plan_properties block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#compute_instance_backup_plan_properties GoogleBackupDrBackupPlan#compute_instance_backup_plan_properties}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#deletion_policy GoogleBackupDrBackupPlan#deletion_policy}
 
 ---
 
@@ -1822,7 +2000,7 @@ public java.lang.String getDescription();
 
 The description allows for additional details about 'BackupPlan' and its use cases to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#description GoogleBackupDrBackupPlan#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#description GoogleBackupDrBackupPlan#description}
 
 ---
 
@@ -1836,7 +2014,7 @@ public GoogleBackupDrBackupPlanDiskBackupPlanProperties getDiskBackupPlanPropert
 
 disk_backup_plan_properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#disk_backup_plan_properties GoogleBackupDrBackupPlan#disk_backup_plan_properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#disk_backup_plan_properties GoogleBackupDrBackupPlan#disk_backup_plan_properties}
 
 ---
 
@@ -1848,7 +2026,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#id GoogleBackupDrBackupPlan#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#id GoogleBackupDrBackupPlan#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1867,7 +2045,7 @@ This is only applicable for CloudSql resource.
 
 Days for which logs will be stored. This value should be greater than or equal to minimum enforced log retention duration of the backup vault.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#log_retention_days GoogleBackupDrBackupPlan#log_retention_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#log_retention_days GoogleBackupDrBackupPlan#log_retention_days}
 
 ---
 
@@ -1881,7 +2059,7 @@ public java.lang.Number getMaxCustomOnDemandRetentionDays();
 
 The maximum number of days for which an on-demand backup taken with custom retention can be retained.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#max_custom_on_demand_retention_days GoogleBackupDrBackupPlan#max_custom_on_demand_retention_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#max_custom_on_demand_retention_days GoogleBackupDrBackupPlan#max_custom_on_demand_retention_days}
 
 ---
 
@@ -1893,7 +2071,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#project GoogleBackupDrBackupPlan#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#project GoogleBackupDrBackupPlan#project}.
 
 ---
 
@@ -1907,7 +2085,7 @@ public GoogleBackupDrBackupPlanTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#timeouts GoogleBackupDrBackupPlan#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#timeouts GoogleBackupDrBackupPlan#timeouts}
 
 ---
 
@@ -1945,7 +2123,7 @@ When set to true, the system will attempt to ensure
 application-consistent backups. When set to false, the system will
 create crash-consistent backups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#guest_flush GoogleBackupDrBackupPlan#guest_flush}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#guest_flush GoogleBackupDrBackupPlan#guest_flush}
 
 ---
 
@@ -1967,9 +2145,9 @@ GoogleBackupDrBackupPlanTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#create GoogleBackupDrBackupPlan#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#delete GoogleBackupDrBackupPlan#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#update GoogleBackupDrBackupPlan#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#create GoogleBackupDrBackupPlan#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#delete GoogleBackupDrBackupPlan#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#update GoogleBackupDrBackupPlan#update}. |
 
 ---
 
@@ -1981,7 +2159,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#create GoogleBackupDrBackupPlan#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#create GoogleBackupDrBackupPlan#create}.
 
 ---
 
@@ -1993,7 +2171,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#delete GoogleBackupDrBackupPlan#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#delete GoogleBackupDrBackupPlan#delete}.
 
 ---
 
@@ -2005,7 +2183,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_backup_plan#update GoogleBackupDrBackupPlan#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_backup_plan#update GoogleBackupDrBackupPlan#update}.
 
 ---
 
@@ -3599,6 +3777,277 @@ public GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonth getInte
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonth">GoogleBackupDrBackupPlanBackupRulesStandardScheduleWeekDayOfMonth</a>
+
+---
+
+
+### GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference <a name="GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.google_beta.google_backup_dr_backup_plan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference;
+
+new GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.guestFlushInput">guestFlushInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.guestFlush">guestFlush</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties">GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `guestFlushInput`<sup>Optional</sup> <a name="guestFlushInput" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.guestFlushInput"></a>
+
+```java
+public java.lang.Boolean|IResolvable getGuestFlushInput();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `guestFlush`<sup>Required</sup> <a name="guestFlush" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.guestFlush"></a>
+
+```java
+public java.lang.Boolean|IResolvable getGuestFlush();
+```
+
+- *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanPropertiesOutputReference.property.internalValue"></a>
+
+```java
+public GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleBackupDrBackupPlan.GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties">GoogleBackupDrBackupPlanComputeInstanceBackupPlanProperties</a>
 
 ---
 

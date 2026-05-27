@@ -4,7 +4,7 @@
 
 ### GoogleSecretManagerSecret <a name="GoogleSecretManagerSecret" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret google_secret_manager_secret}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret google_secret_manager_secret}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer"></a>
 
@@ -22,6 +22,7 @@ GoogleSecretManagerSecret.Builder.create(Construct scope, java.lang.String id)
     .replication(GoogleSecretManagerSecretReplication)
     .secretId(java.lang.String)
 //  .annotations(java.util.Map<java.lang.String, java.lang.String>)
+//  .deletionPolicy(java.lang.String)
 //  .deletionProtection(java.lang.Boolean|IResolvable)
 //  .expireTime(java.lang.String)
 //  .id(java.lang.String)
@@ -51,11 +52,12 @@ GoogleSecretManagerSecret.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.replication">replication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretReplication">GoogleSecretManagerSecretReplication</a></code> | replication block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.secretId">secretId</a></code> | <code>java.lang.String</code> | This must be unique within the project. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.annotations">annotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Custom metadata about the secret. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.deletionProtection">deletionProtection</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the secret. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.expireTime">expireTime</a></code> | <code>java.lang.String</code> | Timestamp in UTC when the Secret is scheduled to expire. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#id GoogleSecretManagerSecret#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#id GoogleSecretManagerSecret#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | The labels assigned to this Secret. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#project GoogleSecretManagerSecret#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#project GoogleSecretManagerSecret#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.rotation">rotation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretRotation">GoogleSecretManagerSecretRotation</a></code> | rotation block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A map of resource manager tags. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTimeouts">GoogleSecretManagerSecretTimeouts</a></code> | timeouts block. |
@@ -132,7 +134,7 @@ Must be unique amongst siblings in the same scope
 
 replication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#replication GoogleSecretManagerSecret#replication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#replication GoogleSecretManagerSecret#replication}
 
 ---
 
@@ -142,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This must be unique within the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#secret_id GoogleSecretManagerSecret#secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#secret_id GoogleSecretManagerSecret#secret_id}
 
 ---
 
@@ -168,7 +170,24 @@ An object containing a list of "key": value pairs. Example:
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#annotations GoogleSecretManagerSecret#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#annotations GoogleSecretManagerSecret#annotations}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#deletion_policy GoogleSecretManagerSecret#deletion_policy}
 
 ---
 
@@ -182,7 +201,7 @@ Defaults to false.
 When the field is set to true in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the secret will fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#deletion_protection GoogleSecretManagerSecret#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#deletion_protection GoogleSecretManagerSecret#deletion_protection}
 
 ---
 
@@ -196,7 +215,7 @@ This is always provided on output, regardless of what was sent on input.
 A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
 Only one of 'expire_time' or 'ttl' can be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#expire_time GoogleSecretManagerSecret#expire_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#expire_time GoogleSecretManagerSecret#expire_time}
 
 ---
 
@@ -204,7 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#id GoogleSecretManagerSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#id GoogleSecretManagerSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -231,7 +250,7 @@ An object containing a list of "key": value pairs. Example:
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#labels GoogleSecretManagerSecret#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#labels GoogleSecretManagerSecret#labels}
 
 ---
 
@@ -239,7 +258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#project GoogleSecretManagerSecret#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#project GoogleSecretManagerSecret#project}.
 
 ---
 
@@ -249,7 +268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 rotation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#rotation GoogleSecretManagerSecret#rotation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#rotation GoogleSecretManagerSecret#rotation}
 
 ---
 
@@ -262,7 +281,7 @@ A map of resource manager tags.
 Resource manager tag keys and values have the same definition as resource manager tags.
 Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/{tag_value_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#tags GoogleSecretManagerSecret#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#tags GoogleSecretManagerSecret#tags}
 
 ---
 
@@ -272,7 +291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#timeouts GoogleSecretManagerSecret#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#timeouts GoogleSecretManagerSecret#timeouts}
 
 ---
 
@@ -282,7 +301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 topics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#topics GoogleSecretManagerSecret#topics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#topics GoogleSecretManagerSecret#topics}
 
 ---
 
@@ -295,7 +314,7 @@ The TTL for the Secret.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 Only one of 'ttl' or 'expire_time' can be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#ttl GoogleSecretManagerSecret#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#ttl GoogleSecretManagerSecret#ttl}
 
 ---
 
@@ -313,7 +332,7 @@ characters. An alias string must start with a letter and cannot be the string
 An object containing a list of "key": value pairs. Example:
 { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#version_aliases GoogleSecretManagerSecret#version_aliases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#version_aliases GoogleSecretManagerSecret#version_aliases}
 
 ---
 
@@ -328,7 +347,7 @@ For secret with versionDestroyTtl>0, version destruction doesn't happen immediat
 on calling destroy instead the version goes to a disabled state and
 the actual destruction happens after this TTL expires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#version_destroy_ttl GoogleSecretManagerSecret#version_destroy_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#version_destroy_ttl GoogleSecretManagerSecret#version_destroy_ttl}
 
 ---
 
@@ -365,6 +384,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.putTopics">putTopics</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.resetAnnotations">resetAnnotations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.resetDeletionProtection">resetDeletionProtection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.resetExpireTime">resetExpireTime</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.resetId">resetId</a></code> | *No description.* |
@@ -745,6 +765,12 @@ public void putTopics(IResolvable|java.util.List<GoogleSecretManagerSecretTopics
 public void resetAnnotations()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDeletionProtection` <a name="resetDeletionProtection" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.resetDeletionProtection"></a>
 
 ```java
@@ -920,7 +946,7 @@ The construct id used in the generated config for the GoogleSecretManagerSecret 
 
 The id of the existing GoogleSecretManagerSecret that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -960,6 +986,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTimeoutsOutputReference">GoogleSecretManagerSecretTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.topics">topics</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTopicsList">GoogleSecretManagerSecretTopicsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.annotationsInput">annotationsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.deletionProtectionInput">deletionProtectionInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.expireTimeInput">expireTimeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -975,6 +1002,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.versionAliasesInput">versionAliasesInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.versionDestroyTtlInput">versionDestroyTtlInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.annotations">annotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.deletionProtection">deletionProtection</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.expireTime">expireTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1230,6 +1258,16 @@ public java.util.Map<java.lang.String, java.lang.String> getAnnotationsInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `deletionProtectionInput`<sup>Optional</sup> <a name="deletionProtectionInput" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.deletionProtectionInput"></a>
 
 ```java
@@ -1380,6 +1418,16 @@ public java.util.Map<java.lang.String, java.lang.String> getAnnotations();
 
 ---
 
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `deletionProtection`<sup>Required</sup> <a name="deletionProtection" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecret.property.deletionProtection"></a>
 
 ```java
@@ -1518,6 +1566,7 @@ GoogleSecretManagerSecretConfig.builder()
     .replication(GoogleSecretManagerSecretReplication)
     .secretId(java.lang.String)
 //  .annotations(java.util.Map<java.lang.String, java.lang.String>)
+//  .deletionPolicy(java.lang.String)
 //  .deletionProtection(java.lang.Boolean|IResolvable)
 //  .expireTime(java.lang.String)
 //  .id(java.lang.String)
@@ -1547,11 +1596,12 @@ GoogleSecretManagerSecretConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.replication">replication</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretReplication">GoogleSecretManagerSecretReplication</a></code> | replication block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.secretId">secretId</a></code> | <code>java.lang.String</code> | This must be unique within the project. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.annotations">annotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Custom metadata about the secret. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.deletionProtection">deletionProtection</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the secret. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.expireTime">expireTime</a></code> | <code>java.lang.String</code> | Timestamp in UTC when the Secret is scheduled to expire. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#id GoogleSecretManagerSecret#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#id GoogleSecretManagerSecret#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | The labels assigned to this Secret. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#project GoogleSecretManagerSecret#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#project GoogleSecretManagerSecret#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.rotation">rotation</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretRotation">GoogleSecretManagerSecretRotation</a></code> | rotation block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.tags">tags</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A map of resource manager tags. |
 | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTimeouts">GoogleSecretManagerSecretTimeouts</a></code> | timeouts block. |
@@ -1642,7 +1692,7 @@ public GoogleSecretManagerSecretReplication getReplication();
 
 replication block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#replication GoogleSecretManagerSecret#replication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#replication GoogleSecretManagerSecret#replication}
 
 ---
 
@@ -1656,7 +1706,7 @@ public java.lang.String getSecretId();
 
 This must be unique within the project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#secret_id GoogleSecretManagerSecret#secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#secret_id GoogleSecretManagerSecret#secret_id}
 
 ---
 
@@ -1686,7 +1736,28 @@ An object containing a list of "key": value pairs. Example:
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#annotations GoogleSecretManagerSecret#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#annotations GoogleSecretManagerSecret#annotations}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#deletion_policy GoogleSecretManagerSecret#deletion_policy}
 
 ---
 
@@ -1704,7 +1775,7 @@ Defaults to false.
 When the field is set to true in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the secret will fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#deletion_protection GoogleSecretManagerSecret#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#deletion_protection GoogleSecretManagerSecret#deletion_protection}
 
 ---
 
@@ -1722,7 +1793,7 @@ This is always provided on output, regardless of what was sent on input.
 A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
 Only one of 'expire_time' or 'ttl' can be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#expire_time GoogleSecretManagerSecret#expire_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#expire_time GoogleSecretManagerSecret#expire_time}
 
 ---
 
@@ -1734,7 +1805,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#id GoogleSecretManagerSecret#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#id GoogleSecretManagerSecret#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1765,7 +1836,7 @@ An object containing a list of "key": value pairs. Example:
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#labels GoogleSecretManagerSecret#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#labels GoogleSecretManagerSecret#labels}
 
 ---
 
@@ -1777,7 +1848,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#project GoogleSecretManagerSecret#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#project GoogleSecretManagerSecret#project}.
 
 ---
 
@@ -1791,7 +1862,7 @@ public GoogleSecretManagerSecretRotation getRotation();
 
 rotation block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#rotation GoogleSecretManagerSecret#rotation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#rotation GoogleSecretManagerSecret#rotation}
 
 ---
 
@@ -1808,7 +1879,7 @@ A map of resource manager tags.
 Resource manager tag keys and values have the same definition as resource manager tags.
 Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/{tag_value_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#tags GoogleSecretManagerSecret#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#tags GoogleSecretManagerSecret#tags}
 
 ---
 
@@ -1822,7 +1893,7 @@ public GoogleSecretManagerSecretTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#timeouts GoogleSecretManagerSecret#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#timeouts GoogleSecretManagerSecret#timeouts}
 
 ---
 
@@ -1836,7 +1907,7 @@ public IResolvable|java.util.List<GoogleSecretManagerSecretTopics> getTopics();
 
 topics block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#topics GoogleSecretManagerSecret#topics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#topics GoogleSecretManagerSecret#topics}
 
 ---
 
@@ -1853,7 +1924,7 @@ The TTL for the Secret.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 Only one of 'ttl' or 'expire_time' can be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#ttl GoogleSecretManagerSecret#ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#ttl GoogleSecretManagerSecret#ttl}
 
 ---
 
@@ -1875,7 +1946,7 @@ characters. An alias string must start with a letter and cannot be the string
 An object containing a list of "key": value pairs. Example:
 { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#version_aliases GoogleSecretManagerSecret#version_aliases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#version_aliases GoogleSecretManagerSecret#version_aliases}
 
 ---
 
@@ -1894,7 +1965,7 @@ For secret with versionDestroyTtl>0, version destruction doesn't happen immediat
 on calling destroy instead the version goes to a disabled state and
 the actual destruction happens after this TTL expires.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#version_destroy_ttl GoogleSecretManagerSecret#version_destroy_ttl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#version_destroy_ttl GoogleSecretManagerSecret#version_destroy_ttl}
 
 ---
 
@@ -1930,7 +2001,7 @@ public GoogleSecretManagerSecretReplicationAuto getAuto();
 
 auto block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#auto GoogleSecretManagerSecret#auto}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#auto GoogleSecretManagerSecret#auto}
 
 ---
 
@@ -1944,7 +2015,7 @@ public GoogleSecretManagerSecretReplicationUserManaged getUserManaged();
 
 user_managed block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#user_managed GoogleSecretManagerSecret#user_managed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#user_managed GoogleSecretManagerSecret#user_managed}
 
 ---
 
@@ -1978,7 +2049,7 @@ public GoogleSecretManagerSecretReplicationAutoCustomerManagedEncryption getCust
 
 customer_managed_encryption block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#customer_managed_encryption GoogleSecretManagerSecret#customer_managed_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#customer_managed_encryption GoogleSecretManagerSecret#customer_managed_encryption}
 
 ---
 
@@ -2012,7 +2083,7 @@ public java.lang.String getKmsKeyName();
 
 The resource name of the Cloud KMS CryptoKey used to encrypt secret payloads.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#kms_key_name GoogleSecretManagerSecret#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#kms_key_name GoogleSecretManagerSecret#kms_key_name}
 
 ---
 
@@ -2046,7 +2117,7 @@ public IResolvable|java.util.List<GoogleSecretManagerSecretReplicationUserManage
 
 replicas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#replicas GoogleSecretManagerSecret#replicas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#replicas GoogleSecretManagerSecret#replicas}
 
 ---
 
@@ -2082,7 +2153,7 @@ public java.lang.String getLocation();
 
 The canonical IDs of the location to replicate data. For example: "us-east1".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#location GoogleSecretManagerSecret#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#location GoogleSecretManagerSecret#location}
 
 ---
 
@@ -2096,7 +2167,7 @@ public GoogleSecretManagerSecretReplicationUserManagedReplicasCustomerManagedEnc
 
 customer_managed_encryption block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#customer_managed_encryption GoogleSecretManagerSecret#customer_managed_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#customer_managed_encryption GoogleSecretManagerSecret#customer_managed_encryption}
 
 ---
 
@@ -2130,7 +2201,7 @@ public java.lang.String getKmsKeyName();
 
 Describes the Cloud KMS encryption key that will be used to protect destination secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#kms_key_name GoogleSecretManagerSecret#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#kms_key_name GoogleSecretManagerSecret#kms_key_name}
 
 ---
 
@@ -2168,7 +2239,7 @@ Timestamp in UTC at which the Secret is scheduled to rotate.
 
 A timestamp in RFC3339 UTC "Zulu" format, with nanosecond resolution and up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and "2014-10-02T15:01:23.045123456Z".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#next_rotation_time GoogleSecretManagerSecret#next_rotation_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#next_rotation_time GoogleSecretManagerSecret#next_rotation_time}
 
 ---
 
@@ -2185,7 +2256,7 @@ The Duration between rotation notifications.
 Must be in seconds and at least 3600s (1h) and at most 3153600000s (100 years).
 If rotationPeriod is set, 'next_rotation_time' must be set. 'next_rotation_time' will be advanced by this period when the service automatically sends rotation notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#rotation_period GoogleSecretManagerSecret#rotation_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#rotation_period GoogleSecretManagerSecret#rotation_period}
 
 ---
 
@@ -2207,9 +2278,9 @@ GoogleSecretManagerSecretTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#create GoogleSecretManagerSecret#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#delete GoogleSecretManagerSecret#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#update GoogleSecretManagerSecret#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#create GoogleSecretManagerSecret#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#delete GoogleSecretManagerSecret#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecretManagerSecret.GoogleSecretManagerSecretTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#update GoogleSecretManagerSecret#update}. |
 
 ---
 
@@ -2221,7 +2292,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#create GoogleSecretManagerSecret#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#create GoogleSecretManagerSecret#create}.
 
 ---
 
@@ -2233,7 +2304,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#delete GoogleSecretManagerSecret#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#delete GoogleSecretManagerSecret#delete}.
 
 ---
 
@@ -2245,7 +2316,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#update GoogleSecretManagerSecret#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#update GoogleSecretManagerSecret#update}.
 
 ---
 
@@ -2281,7 +2352,7 @@ The resource name of the Pub/Sub topic that will be published to, in the followi
 
 For publication to succeed, the Secret Manager Service Agent service account must have pubsub.publisher permissions on the topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_secret_manager_secret#name GoogleSecretManagerSecret#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_secret_manager_secret#name GoogleSecretManagerSecret#name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 

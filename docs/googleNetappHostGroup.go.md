@@ -4,7 +4,7 @@
 
 ### GoogleNetappHostGroup <a name="GoogleNetappHostGroup" id="@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group google_netapp_host_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group google_netapp_host_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.resetLabels">ResetLabels</a></code> | *No description.* |
@@ -404,6 +405,12 @@ func PutTimeouts(value GoogleNetappHostGroupTimeouts)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.resetDescription"></a>
 
 ```go
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleNetappHostGroup to i
 
 The id of the existing GoogleNetappHostGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -572,6 +579,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.state">State</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.terraformLabels">TerraformLabels</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupTimeoutsOutputReference">GoogleNetappHostGroupTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.hostsInput">HostsInput</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
@@ -582,6 +590,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.typeInput">TypeInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.hosts">Hosts</a></code> | <code>*[]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.id">Id</a></code> | <code>*string</code> | *No description.* |
@@ -786,6 +795,16 @@ func Timeouts() GoogleNetappHostGroupTimeoutsOutputReference
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.descriptionInput"></a>
 
 ```go
@@ -880,6 +899,16 @@ func TimeoutsInput() interface{}
 
 ```go
 func TypeInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroup.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
 ```
 
 - *Type:* *string
@@ -1016,6 +1045,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 	Name: *string,
 	OsType: *string,
 	Type: *string,
+	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
@@ -1040,10 +1070,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.name">Name</a></code> | <code>*string</code> | The resource name of the Host Group. Needs to be unique per location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.osType">OsType</a></code> | <code>*string</code> | The OS type of the host group. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.type">Type</a></code> | <code>*string</code> | Type of the host group. Possible values: ["ISCSI_INITIATOR"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#id GoogleNetappHostGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#id GoogleNetappHostGroup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#project GoogleNetappHostGroup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#project GoogleNetappHostGroup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupTimeouts">GoogleNetappHostGroupTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1128,7 +1159,7 @@ Hosts *[]*string
 
 The list of hosts associated with the host group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#hosts GoogleNetappHostGroup#hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#hosts GoogleNetappHostGroup#hosts}
 
 ---
 
@@ -1142,7 +1173,7 @@ Location *string
 
 Location (region) of the Host Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#location GoogleNetappHostGroup#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#location GoogleNetappHostGroup#location}
 
 ---
 
@@ -1156,7 +1187,7 @@ Name *string
 
 The resource name of the Host Group. Needs to be unique per location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#name GoogleNetappHostGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#name GoogleNetappHostGroup#name}
 
 ---
 
@@ -1174,7 +1205,7 @@ It indicates the type of operating system
 used by all of the hosts in the HostGroup. All hosts in a HostGroup must be
 of the same OS type. This can be set only when creating a HostGroup. Possible values: ["LINUX", "WINDOWS", "ESXI"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#os_type GoogleNetappHostGroup#os_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#os_type GoogleNetappHostGroup#os_type}
 
 ---
 
@@ -1188,7 +1219,28 @@ Type *string
 
 Type of the host group. Possible values: ["ISCSI_INITIATOR"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#type GoogleNetappHostGroup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#type GoogleNetappHostGroup#type}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#deletion_policy GoogleNetappHostGroup#deletion_policy}
 
 ---
 
@@ -1202,7 +1254,7 @@ Description *string
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#description GoogleNetappHostGroup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#description GoogleNetappHostGroup#description}
 
 ---
 
@@ -1214,7 +1266,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#id GoogleNetappHostGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#id GoogleNetappHostGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1234,7 +1286,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#labels GoogleNetappHostGroup#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#labels GoogleNetappHostGroup#labels}
 
 ---
 
@@ -1246,7 +1298,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#project GoogleNetappHostGroup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#project GoogleNetappHostGroup#project}.
 
 ---
 
@@ -1260,7 +1312,7 @@ Timeouts GoogleNetappHostGroupTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#timeouts GoogleNetappHostGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#timeouts GoogleNetappHostGroup#timeouts}
 
 ---
 
@@ -1282,9 +1334,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#create GoogleNetappHostGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#delete GoogleNetappHostGroup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#update GoogleNetappHostGroup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#create GoogleNetappHostGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#delete GoogleNetappHostGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappHostGroup.GoogleNetappHostGroupTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#update GoogleNetappHostGroup#update}. |
 
 ---
 
@@ -1296,7 +1348,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#create GoogleNetappHostGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#create GoogleNetappHostGroup#create}.
 
 ---
 
@@ -1308,7 +1360,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#delete GoogleNetappHostGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#delete GoogleNetappHostGroup#delete}.
 
 ---
 
@@ -1320,7 +1372,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_host_group#update GoogleNetappHostGroup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_host_group#update GoogleNetappHostGroup#update}.
 
 ---
 

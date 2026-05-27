@@ -4,7 +4,7 @@
 
 ### GoogleNetappBackupVault <a name="GoogleNetappBackupVault" id="@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault google_netapp_backup_vault}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault google_netapp_backup_vault}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer"></a>
 
@@ -24,6 +24,7 @@ GoogleNetappBackupVault.Builder.create(Construct scope, java.lang.String id)
 //  .backupRegion(java.lang.String)
 //  .backupRetentionPolicy(GoogleNetappBackupVaultBackupRetentionPolicy)
 //  .backupVaultType(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .kmsConfig(java.lang.String)
@@ -49,11 +50,12 @@ GoogleNetappBackupVault.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.backupRegion">backupRegion</a></code> | <code>java.lang.String</code> | Region in which backup is stored. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.backupRetentionPolicy">backupRetentionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultBackupRetentionPolicy">GoogleNetappBackupVaultBackupRetentionPolicy</a></code> | backup_retention_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.backupVaultType">backupVaultType</a></code> | <code>java.lang.String</code> | Type of the backup vault to be created. Default is IN_REGION. Possible values: ["BACKUP_VAULT_TYPE_UNSPECIFIED", "IN_REGION", "CROSS_REGION"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#id GoogleNetappBackupVault#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#id GoogleNetappBackupVault#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.kmsConfig">kmsConfig</a></code> | <code>java.lang.String</code> | Specifies the Key Management System (KMS) configuration to be used for backup encryption. Format: 'projects/{{project}}/locations/{{location}}/kmsConfigs/{{kms_config}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#project GoogleNetappBackupVault#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#project GoogleNetappBackupVault#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts">GoogleNetappBackupVaultTimeouts</a></code> | timeouts block. |
 
 ---
@@ -124,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 Location (region) of the backup vault.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#location GoogleNetappBackupVault#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#location GoogleNetappBackupVault#location}
 
 ---
 
@@ -134,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the backup vault. Needs to be unique per location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#name GoogleNetappBackupVault#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#name GoogleNetappBackupVault#name}
 
 ---
 
@@ -144,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Region in which backup is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#backup_region GoogleNetappBackupVault#backup_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#backup_region GoogleNetappBackupVault#backup_region}
 
 ---
 
@@ -154,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 backup_retention_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#backup_retention_policy GoogleNetappBackupVault#backup_retention_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#backup_retention_policy GoogleNetappBackupVault#backup_retention_policy}
 
 ---
 
@@ -164,7 +166,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Type of the backup vault to be created. Default is IN_REGION. Possible values: ["BACKUP_VAULT_TYPE_UNSPECIFIED", "IN_REGION", "CROSS_REGION"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#backup_vault_type GoogleNetappBackupVault#backup_vault_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#backup_vault_type GoogleNetappBackupVault#backup_vault_type}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#deletion_policy GoogleNetappBackupVault#deletion_policy}
 
 ---
 
@@ -174,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#description GoogleNetappBackupVault#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#description GoogleNetappBackupVault#description}
 
 ---
 
@@ -182,7 +201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#id GoogleNetappBackupVault#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#id GoogleNetappBackupVault#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -195,7 +214,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 Specifies the Key Management System (KMS) configuration to be used for backup encryption. Format: 'projects/{{project}}/locations/{{location}}/kmsConfigs/{{kms_config}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#kms_config GoogleNetappBackupVault#kms_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#kms_config GoogleNetappBackupVault#kms_config}
 
 ---
 
@@ -208,7 +227,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#labels GoogleNetappBackupVault#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#labels GoogleNetappBackupVault#labels}
 
 ---
 
@@ -216,7 +235,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#project GoogleNetappBackupVault#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#project GoogleNetappBackupVault#project}.
 
 ---
 
@@ -226,7 +245,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#timeouts GoogleNetappBackupVault#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#timeouts GoogleNetappBackupVault#timeouts}
 
 ---
 
@@ -263,6 +282,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.resetBackupRegion">resetBackupRegion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.resetBackupRetentionPolicy">resetBackupRetentionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.resetBackupVaultType">resetBackupVaultType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.resetKmsConfig">resetKmsConfig</a></code> | *No description.* |
@@ -625,6 +645,12 @@ public void resetBackupRetentionPolicy()
 public void resetBackupVaultType()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.resetDescription"></a>
 
 ```java
@@ -764,7 +790,7 @@ The construct id used in the generated config for the GoogleNetappBackupVault to
 
 The id of the existing GoogleNetappBackupVault that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -808,6 +834,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.backupRegionInput">backupRegionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.backupRetentionPolicyInput">backupRetentionPolicyInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultBackupRetentionPolicy">GoogleNetappBackupVaultBackupRetentionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.backupVaultTypeInput">backupVaultTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.kmsConfigInput">kmsConfigInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -818,6 +845,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts">GoogleNetappBackupVaultTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.backupRegion">backupRegion</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.backupVaultType">backupVaultType</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.kmsConfig">kmsConfig</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1110,6 +1138,16 @@ public java.lang.String getBackupVaultTypeInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.descriptionInput"></a>
 
 ```java
@@ -1204,6 +1242,16 @@ public java.lang.String getBackupRegion();
 
 ```java
 public java.lang.String getBackupVaultType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVault.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1338,7 +1386,7 @@ public java.lang.Number getBackupMinimumEnforcedRetentionDays();
 
 Minimum retention duration in days for backups in the backup vault.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#backup_minimum_enforced_retention_days GoogleNetappBackupVault#backup_minimum_enforced_retention_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#backup_minimum_enforced_retention_days GoogleNetappBackupVault#backup_minimum_enforced_retention_days}
 
 ---
 
@@ -1352,7 +1400,7 @@ public java.lang.Boolean|IResolvable getDailyBackupImmutable();
 
 Indicates if the daily backups are immutable. At least one of daily_backup_immutable, weekly_backup_immutable, monthly_backup_immutable and manual_backup_immutable must be true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#daily_backup_immutable GoogleNetappBackupVault#daily_backup_immutable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#daily_backup_immutable GoogleNetappBackupVault#daily_backup_immutable}
 
 ---
 
@@ -1366,7 +1414,7 @@ public java.lang.Boolean|IResolvable getManualBackupImmutable();
 
 Indicates if the manual backups are immutable. At least one of daily_backup_immutable, weekly_backup_immutable, monthly_backup_immutable and manual_backup_immutable must be true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#manual_backup_immutable GoogleNetappBackupVault#manual_backup_immutable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#manual_backup_immutable GoogleNetappBackupVault#manual_backup_immutable}
 
 ---
 
@@ -1380,7 +1428,7 @@ public java.lang.Boolean|IResolvable getMonthlyBackupImmutable();
 
 Indicates if the monthly backups are immutable. At least one of daily_backup_immutable, weekly_backup_immutable, monthly_backup_immutable and manual_backup_immutable must be true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#monthly_backup_immutable GoogleNetappBackupVault#monthly_backup_immutable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#monthly_backup_immutable GoogleNetappBackupVault#monthly_backup_immutable}
 
 ---
 
@@ -1394,7 +1442,7 @@ public java.lang.Boolean|IResolvable getWeeklyBackupImmutable();
 
 Indicates if the weekly backups are immutable. At least one of daily_backup_immutable, weekly_backup_immutable, monthly_backup_immutable and manual_backup_immutable must be true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#weekly_backup_immutable GoogleNetappBackupVault#weekly_backup_immutable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#weekly_backup_immutable GoogleNetappBackupVault#weekly_backup_immutable}
 
 ---
 
@@ -1418,6 +1466,7 @@ GoogleNetappBackupVaultConfig.builder()
 //  .backupRegion(java.lang.String)
 //  .backupRetentionPolicy(GoogleNetappBackupVaultBackupRetentionPolicy)
 //  .backupVaultType(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .kmsConfig(java.lang.String)
@@ -1443,11 +1492,12 @@ GoogleNetappBackupVaultConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.backupRegion">backupRegion</a></code> | <code>java.lang.String</code> | Region in which backup is stored. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.backupRetentionPolicy">backupRetentionPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultBackupRetentionPolicy">GoogleNetappBackupVaultBackupRetentionPolicy</a></code> | backup_retention_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.backupVaultType">backupVaultType</a></code> | <code>java.lang.String</code> | Type of the backup vault to be created. Default is IN_REGION. Possible values: ["BACKUP_VAULT_TYPE_UNSPECIFIED", "IN_REGION", "CROSS_REGION"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#id GoogleNetappBackupVault#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#id GoogleNetappBackupVault#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.kmsConfig">kmsConfig</a></code> | <code>java.lang.String</code> | Specifies the Key Management System (KMS) configuration to be used for backup encryption. Format: 'projects/{{project}}/locations/{{location}}/kmsConfigs/{{kms_config}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#project GoogleNetappBackupVault#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#project GoogleNetappBackupVault#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts">GoogleNetappBackupVaultTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1532,7 +1582,7 @@ public java.lang.String getLocation();
 
 Location (region) of the backup vault.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#location GoogleNetappBackupVault#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#location GoogleNetappBackupVault#location}
 
 ---
 
@@ -1546,7 +1596,7 @@ public java.lang.String getName();
 
 The resource name of the backup vault. Needs to be unique per location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#name GoogleNetappBackupVault#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#name GoogleNetappBackupVault#name}
 
 ---
 
@@ -1560,7 +1610,7 @@ public java.lang.String getBackupRegion();
 
 Region in which backup is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#backup_region GoogleNetappBackupVault#backup_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#backup_region GoogleNetappBackupVault#backup_region}
 
 ---
 
@@ -1574,7 +1624,7 @@ public GoogleNetappBackupVaultBackupRetentionPolicy getBackupRetentionPolicy();
 
 backup_retention_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#backup_retention_policy GoogleNetappBackupVault#backup_retention_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#backup_retention_policy GoogleNetappBackupVault#backup_retention_policy}
 
 ---
 
@@ -1588,7 +1638,28 @@ public java.lang.String getBackupVaultType();
 
 Type of the backup vault to be created. Default is IN_REGION. Possible values: ["BACKUP_VAULT_TYPE_UNSPECIFIED", "IN_REGION", "CROSS_REGION"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#backup_vault_type GoogleNetappBackupVault#backup_vault_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#backup_vault_type GoogleNetappBackupVault#backup_vault_type}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#deletion_policy GoogleNetappBackupVault#deletion_policy}
 
 ---
 
@@ -1602,7 +1673,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#description GoogleNetappBackupVault#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#description GoogleNetappBackupVault#description}
 
 ---
 
@@ -1614,7 +1685,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#id GoogleNetappBackupVault#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#id GoogleNetappBackupVault#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1631,7 +1702,7 @@ public java.lang.String getKmsConfig();
 
 Specifies the Key Management System (KMS) configuration to be used for backup encryption. Format: 'projects/{{project}}/locations/{{location}}/kmsConfigs/{{kms_config}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#kms_config GoogleNetappBackupVault#kms_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#kms_config GoogleNetappBackupVault#kms_config}
 
 ---
 
@@ -1648,7 +1719,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#labels GoogleNetappBackupVault#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#labels GoogleNetappBackupVault#labels}
 
 ---
 
@@ -1660,7 +1731,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#project GoogleNetappBackupVault#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#project GoogleNetappBackupVault#project}.
 
 ---
 
@@ -1674,7 +1745,7 @@ public GoogleNetappBackupVaultTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#timeouts GoogleNetappBackupVault#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#timeouts GoogleNetappBackupVault#timeouts}
 
 ---
 
@@ -1696,9 +1767,9 @@ GoogleNetappBackupVaultTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#create GoogleNetappBackupVault#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#delete GoogleNetappBackupVault#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#update GoogleNetappBackupVault#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#create GoogleNetappBackupVault#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#delete GoogleNetappBackupVault#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackupVault.GoogleNetappBackupVaultTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#update GoogleNetappBackupVault#update}. |
 
 ---
 
@@ -1710,7 +1781,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#create GoogleNetappBackupVault#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#create GoogleNetappBackupVault#create}.
 
 ---
 
@@ -1722,7 +1793,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#delete GoogleNetappBackupVault#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#delete GoogleNetappBackupVault#delete}.
 
 ---
 
@@ -1734,7 +1805,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup_vault#update GoogleNetappBackupVault#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup_vault#update GoogleNetappBackupVault#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleFirebaseAppCheckResourcePolicy <a name="GoogleFirebaseAppCheckResourcePolicy" id="@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy google_firebase_app_check_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy google_firebase_app_check_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.resetEnforcementMode">ResetEnforcementMode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.resetProject">ResetProject</a></code> | *No description.* |
@@ -403,6 +404,12 @@ private void PutTimeouts(GoogleFirebaseAppCheckResourcePolicyTimeouts Value)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetEnforcementMode` <a name="ResetEnforcementMode" id="@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.resetEnforcementMode"></a>
 
 ```csharp
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleFirebaseAppCheckReso
 
 The id of the existing GoogleFirebaseAppCheckResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -564,12 +571,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.resourcePolicyId">ResourcePolicyId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeoutsOutputReference">GoogleFirebaseAppCheckResourcePolicyTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.updateTime">UpdateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.enforcementModeInput">EnforcementModeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.serviceIdInput">ServiceIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.targetResourceInput">TargetResourceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeouts">GoogleFirebaseAppCheckResourcePolicyTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.enforcementMode">EnforcementMode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.project">Project</a></code> | <code>string</code> | *No description.* |
@@ -760,6 +769,16 @@ public string UpdateTime { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `EnforcementModeInput`<sup>Optional</sup> <a name="EnforcementModeInput" id="@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.enforcementModeInput"></a>
 
 ```csharp
@@ -817,6 +836,16 @@ public IResolvable|GoogleFirebaseAppCheckResourcePolicyTimeouts TimeoutsInput { 
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeouts">GoogleFirebaseAppCheckResourcePolicyTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicy.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -907,6 +936,7 @@ new GoogleFirebaseAppCheckResourcePolicyConfig {
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string ServiceId,
     string TargetResource,
+    string DeletionPolicy = null,
     string EnforcementMode = null,
     string Id = null,
     string Project = null,
@@ -927,9 +957,10 @@ new GoogleFirebaseAppCheckResourcePolicyConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.serviceId">ServiceId</a></code> | <code>string</code> | The identifier of the service to configure a Resource Policy for. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.targetResource">TargetResource</a></code> | <code>string</code> | Service specific name of the resource object to which this policy applies, in the format: * iOS OAuth clients (Google Identity for iOS):   '//oauth2.googleapis.com/projects/{project_number}/oauthClients/{oauthClientId}'. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.enforcementMode">EnforcementMode</a></code> | <code>string</code> | The App Check enforcement mode for a service supported by App Check. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#id GoogleFirebaseAppCheckResourcePolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#project GoogleFirebaseAppCheckResourcePolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#id GoogleFirebaseAppCheckResourcePolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#project GoogleFirebaseAppCheckResourcePolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeouts">GoogleFirebaseAppCheckResourcePolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1018,7 +1049,7 @@ Currently, the following service IDs are supported:
 
 * 'oauth2.googleapis.com' (Google Identity for iOS)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#service_id GoogleFirebaseAppCheckResourcePolicy#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#service_id GoogleFirebaseAppCheckResourcePolicy#service_id}
 
 ---
 
@@ -1032,7 +1063,28 @@ public string TargetResource { get; set; }
 
 Service specific name of the resource object to which this policy applies, in the format: * iOS OAuth clients (Google Identity for iOS):   '//oauth2.googleapis.com/projects/{project_number}/oauthClients/{oauthClientId}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#target_resource GoogleFirebaseAppCheckResourcePolicy#target_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#target_resource GoogleFirebaseAppCheckResourcePolicy#target_resource}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#deletion_policy GoogleFirebaseAppCheckResourcePolicy#deletion_policy}
 
 ---
 
@@ -1078,7 +1130,7 @@ Check on your Firebase services.
 If your app has not launched yet, you should enable enforcement immediately, since there are no outdated
 clients in use. Possible values: ["UNENFORCED", "ENFORCED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#enforcement_mode GoogleFirebaseAppCheckResourcePolicy#enforcement_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#enforcement_mode GoogleFirebaseAppCheckResourcePolicy#enforcement_mode}
 
 ---
 
@@ -1090,7 +1142,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#id GoogleFirebaseAppCheckResourcePolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#id GoogleFirebaseAppCheckResourcePolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1105,7 +1157,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#project GoogleFirebaseAppCheckResourcePolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#project GoogleFirebaseAppCheckResourcePolicy#project}.
 
 ---
 
@@ -1119,7 +1171,7 @@ public GoogleFirebaseAppCheckResourcePolicyTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#timeouts GoogleFirebaseAppCheckResourcePolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#timeouts GoogleFirebaseAppCheckResourcePolicy#timeouts}
 
 ---
 
@@ -1141,9 +1193,9 @@ new GoogleFirebaseAppCheckResourcePolicyTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#create GoogleFirebaseAppCheckResourcePolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#delete GoogleFirebaseAppCheckResourcePolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#update GoogleFirebaseAppCheckResourcePolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#create GoogleFirebaseAppCheckResourcePolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#delete GoogleFirebaseAppCheckResourcePolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseAppCheckResourcePolicy.GoogleFirebaseAppCheckResourcePolicyTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#update GoogleFirebaseAppCheckResourcePolicy#update}. |
 
 ---
 
@@ -1155,7 +1207,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#create GoogleFirebaseAppCheckResourcePolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#create GoogleFirebaseAppCheckResourcePolicy#create}.
 
 ---
 
@@ -1167,7 +1219,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#delete GoogleFirebaseAppCheckResourcePolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#delete GoogleFirebaseAppCheckResourcePolicy#delete}.
 
 ---
 
@@ -1179,7 +1231,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firebase_app_check_resource_policy#update GoogleFirebaseAppCheckResourcePolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firebase_app_check_resource_policy#update GoogleFirebaseAppCheckResourcePolicy#update}.
 
 ---
 

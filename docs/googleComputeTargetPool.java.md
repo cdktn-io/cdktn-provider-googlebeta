@@ -4,7 +4,7 @@
 
 ### GoogleComputeTargetPool <a name="GoogleComputeTargetPool" id="@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool google_compute_target_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool google_compute_target_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer"></a>
 
@@ -21,6 +21,7 @@ GoogleComputeTargetPool.Builder.create(Construct scope, java.lang.String id)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
 //  .backupPool(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .failoverRatio(java.lang.Number)
 //  .healthChecks(java.util.List<java.lang.String>)
@@ -47,10 +48,11 @@ GoogleComputeTargetPool.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | A unique name for the resource, required by GCE. Changing this forces a new resource to be created. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.backupPool">backupPool</a></code> | <code>java.lang.String</code> | URL to the backup target pool. Must also set failover_ratio. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Textual description field. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.failoverRatio">failoverRatio</a></code> | <code>java.lang.Number</code> | Ratio (0 to 1) of failed nodes before using the backup pool (which must also be set). |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.healthChecks">healthChecks</a></code> | <code>java.util.List<java.lang.String></code> | List of zero or one health check name or self_link. Only legacy google_compute_http_health_check is supported. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.instances">instances</a></code> | <code>java.util.List<java.lang.String></code> | List of instances in the pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | Where the target pool resides. Defaults to project region. |
@@ -126,7 +128,7 @@ Must be unique amongst siblings in the same scope
 
 A unique name for the resource, required by GCE. Changing this forces a new resource to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#name GoogleComputeTargetPool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#name GoogleComputeTargetPool#name}
 
 ---
 
@@ -136,7 +138,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 URL to the backup target pool. Must also set failover_ratio.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#backup_pool GoogleComputeTargetPool#backup_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#backup_pool GoogleComputeTargetPool#backup_pool}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#deletion_policy GoogleComputeTargetPool#deletion_policy}
 
 ---
 
@@ -146,7 +165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Textual description field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#description GoogleComputeTargetPool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#description GoogleComputeTargetPool#description}
 
 ---
 
@@ -156,7 +175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Ratio (0 to 1) of failed nodes before using the backup pool (which must also be set).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#failover_ratio GoogleComputeTargetPool#failover_ratio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#failover_ratio GoogleComputeTargetPool#failover_ratio}
 
 ---
 
@@ -166,7 +185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of zero or one health check name or self_link. Only legacy google_compute_http_health_check is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#health_checks GoogleComputeTargetPool#health_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#health_checks GoogleComputeTargetPool#health_checks}
 
 ---
 
@@ -174,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -189,7 +208,7 @@ List of instances in the pool.
 
 They can be given as URLs, or in the form of "zone/name". Note that the instances need not exist at the time of target pool creation, so there is no need to use the Terraform interpolators to create a dependency on the instances from the target pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#instances GoogleComputeTargetPool#instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#instances GoogleComputeTargetPool#instances}
 
 ---
 
@@ -201,7 +220,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#project GoogleComputeTargetPool#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#project GoogleComputeTargetPool#project}
 
 ---
 
@@ -211,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Where the target pool resides. Defaults to project region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#region GoogleComputeTargetPool#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#region GoogleComputeTargetPool#region}
 
 ---
 
@@ -221,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource URL for the security policy associated with this target pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#security_policy GoogleComputeTargetPool#security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#security_policy GoogleComputeTargetPool#security_policy}
 
 ---
 
@@ -233,7 +252,7 @@ How to distribute load.
 
 Options are "NONE" (no affinity). "CLIENT_IP" (hash of the source/dest addresses / ports), and "CLIENT_IP_PROTO" also includes the protocol (default "NONE").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#session_affinity GoogleComputeTargetPool#session_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#session_affinity GoogleComputeTargetPool#session_affinity}
 
 ---
 
@@ -243,7 +262,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#timeouts GoogleComputeTargetPool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#timeouts GoogleComputeTargetPool#timeouts}
 
 ---
 
@@ -277,6 +296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.resetBackupPool">resetBackupPool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.resetFailoverRatio">resetFailoverRatio</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.resetHealthChecks">resetHealthChecks</a></code> | *No description.* |
@@ -619,6 +639,12 @@ public void putTimeouts(GoogleComputeTargetPoolTimeouts value)
 public void resetBackupPool()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.resetDescription"></a>
 
 ```java
@@ -782,7 +808,7 @@ The construct id used in the generated config for the GoogleComputeTargetPool to
 
 The id of the existing GoogleComputeTargetPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -815,6 +841,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.selfLink">selfLink</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolTimeoutsOutputReference">GoogleComputeTargetPoolTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.backupPoolInput">backupPoolInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.failoverRatioInput">failoverRatioInput</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.healthChecksInput">healthChecksInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
@@ -827,6 +854,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.sessionAffinityInput">sessionAffinityInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolTimeouts">GoogleComputeTargetPoolTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.backupPool">backupPool</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.failoverRatio">failoverRatio</a></code> | <code>java.lang.Number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.healthChecks">healthChecks</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
@@ -1012,6 +1040,16 @@ public java.lang.String getBackupPoolInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.descriptionInput"></a>
 
 ```java
@@ -1126,6 +1164,16 @@ public IResolvable|GoogleComputeTargetPoolTimeouts getTimeoutsInput();
 
 ```java
 public java.lang.String getBackupPool();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPool.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1269,6 +1317,7 @@ GoogleComputeTargetPoolConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
 //  .backupPool(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .failoverRatio(java.lang.Number)
 //  .healthChecks(java.util.List<java.lang.String>)
@@ -1295,10 +1344,11 @@ GoogleComputeTargetPoolConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.name">name</a></code> | <code>java.lang.String</code> | A unique name for the resource, required by GCE. Changing this forces a new resource to be created. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.backupPool">backupPool</a></code> | <code>java.lang.String</code> | URL to the backup target pool. Must also set failover_ratio. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.description">description</a></code> | <code>java.lang.String</code> | Textual description field. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.failoverRatio">failoverRatio</a></code> | <code>java.lang.Number</code> | Ratio (0 to 1) of failed nodes before using the backup pool (which must also be set). |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.healthChecks">healthChecks</a></code> | <code>java.util.List<java.lang.String></code> | List of zero or one health check name or self_link. Only legacy google_compute_http_health_check is supported. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.instances">instances</a></code> | <code>java.util.List<java.lang.String></code> | List of instances in the pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.project">project</a></code> | <code>java.lang.String</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.region">region</a></code> | <code>java.lang.String</code> | Where the target pool resides. Defaults to project region. |
@@ -1388,7 +1438,7 @@ public java.lang.String getName();
 
 A unique name for the resource, required by GCE. Changing this forces a new resource to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#name GoogleComputeTargetPool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#name GoogleComputeTargetPool#name}
 
 ---
 
@@ -1402,7 +1452,28 @@ public java.lang.String getBackupPool();
 
 URL to the backup target pool. Must also set failover_ratio.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#backup_pool GoogleComputeTargetPool#backup_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#backup_pool GoogleComputeTargetPool#backup_pool}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#deletion_policy GoogleComputeTargetPool#deletion_policy}
 
 ---
 
@@ -1416,7 +1487,7 @@ public java.lang.String getDescription();
 
 Textual description field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#description GoogleComputeTargetPool#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#description GoogleComputeTargetPool#description}
 
 ---
 
@@ -1430,7 +1501,7 @@ public java.lang.Number getFailoverRatio();
 
 Ratio (0 to 1) of failed nodes before using the backup pool (which must also be set).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#failover_ratio GoogleComputeTargetPool#failover_ratio}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#failover_ratio GoogleComputeTargetPool#failover_ratio}
 
 ---
 
@@ -1444,7 +1515,7 @@ public java.util.List<java.lang.String> getHealthChecks();
 
 List of zero or one health check name or self_link. Only legacy google_compute_http_health_check is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#health_checks GoogleComputeTargetPool#health_checks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#health_checks GoogleComputeTargetPool#health_checks}
 
 ---
 
@@ -1456,7 +1527,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1475,7 +1546,7 @@ List of instances in the pool.
 
 They can be given as URLs, or in the form of "zone/name". Note that the instances need not exist at the time of target pool creation, so there is no need to use the Terraform interpolators to create a dependency on the instances from the target pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#instances GoogleComputeTargetPool#instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#instances GoogleComputeTargetPool#instances}
 
 ---
 
@@ -1491,7 +1562,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#project GoogleComputeTargetPool#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#project GoogleComputeTargetPool#project}
 
 ---
 
@@ -1505,7 +1576,7 @@ public java.lang.String getRegion();
 
 Where the target pool resides. Defaults to project region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#region GoogleComputeTargetPool#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#region GoogleComputeTargetPool#region}
 
 ---
 
@@ -1519,7 +1590,7 @@ public java.lang.String getSecurityPolicy();
 
 The resource URL for the security policy associated with this target pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#security_policy GoogleComputeTargetPool#security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#security_policy GoogleComputeTargetPool#security_policy}
 
 ---
 
@@ -1535,7 +1606,7 @@ How to distribute load.
 
 Options are "NONE" (no affinity). "CLIENT_IP" (hash of the source/dest addresses / ports), and "CLIENT_IP_PROTO" also includes the protocol (default "NONE").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#session_affinity GoogleComputeTargetPool#session_affinity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#session_affinity GoogleComputeTargetPool#session_affinity}
 
 ---
 
@@ -1549,7 +1620,7 @@ public GoogleComputeTargetPoolTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#timeouts GoogleComputeTargetPool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#timeouts GoogleComputeTargetPool#timeouts}
 
 ---
 
@@ -1571,9 +1642,9 @@ GoogleComputeTargetPoolTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#create GoogleComputeTargetPool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#delete GoogleComputeTargetPool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#update GoogleComputeTargetPool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#create GoogleComputeTargetPool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#delete GoogleComputeTargetPool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetPool.GoogleComputeTargetPoolTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#update GoogleComputeTargetPool#update}. |
 
 ---
 
@@ -1585,7 +1656,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#create GoogleComputeTargetPool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#create GoogleComputeTargetPool#create}.
 
 ---
 
@@ -1597,7 +1668,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#delete GoogleComputeTargetPool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#delete GoogleComputeTargetPool#delete}.
 
 ---
 
@@ -1609,7 +1680,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#update GoogleComputeTargetPool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#update GoogleComputeTargetPool#update}.
 
 ---
 

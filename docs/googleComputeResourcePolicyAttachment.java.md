@@ -4,7 +4,7 @@
 
 ### GoogleComputeResourcePolicyAttachment <a name="GoogleComputeResourcePolicyAttachment" id="@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment google_compute_resource_policy_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment google_compute_resource_policy_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer"></a>
 
@@ -21,6 +21,7 @@ GoogleComputeResourcePolicyAttachment.Builder.create(Construct scope, java.lang.
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .instance(java.lang.String)
     .name(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleComputeResourcePolicyAttachmentTimeouts)
@@ -41,8 +42,9 @@ GoogleComputeResourcePolicyAttachment.Builder.create(Construct scope, java.lang.
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.instance">instance</a></code> | <code>java.lang.String</code> | The name of the instance in which the resource policies are attached to. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | The resource policy to be attached to the instance for scheduling start/stop operations. Do not specify the self link. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#id GoogleComputeResourcePolicyAttachment#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#project GoogleComputeResourcePolicyAttachment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#id GoogleComputeResourcePolicyAttachment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#project GoogleComputeResourcePolicyAttachment#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentTimeouts">GoogleComputeResourcePolicyAttachmentTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.zone">zone</a></code> | <code>java.lang.String</code> | A reference to the zone where the instance resides. |
 
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the instance in which the resource policies are attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#instance GoogleComputeResourcePolicyAttachment#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#instance GoogleComputeResourcePolicyAttachment#instance}
 
 ---
 
@@ -124,7 +126,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource policy to be attached to the instance for scheduling start/stop operations. Do not specify the self link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#name GoogleComputeResourcePolicyAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#name GoogleComputeResourcePolicyAttachment#name}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#deletion_policy GoogleComputeResourcePolicyAttachment#deletion_policy}
 
 ---
 
@@ -132,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#id GoogleComputeResourcePolicyAttachment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#id GoogleComputeResourcePolicyAttachment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,7 +162,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#project GoogleComputeResourcePolicyAttachment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#project GoogleComputeResourcePolicyAttachment#project}.
 
 ---
 
@@ -153,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#timeouts GoogleComputeResourcePolicyAttachment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#timeouts GoogleComputeResourcePolicyAttachment#timeouts}
 
 ---
 
@@ -163,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A reference to the zone where the instance resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#zone GoogleComputeResourcePolicyAttachment#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#zone GoogleComputeResourcePolicyAttachment#zone}
 
 ---
 
@@ -196,6 +215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -526,6 +546,12 @@ public void putTimeouts(GoogleComputeResourcePolicyAttachmentTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.resetId"></a>
 
 ```java
@@ -653,7 +679,7 @@ The construct id used in the generated config for the GoogleComputeResourcePolic
 
 The id of the existing GoogleComputeResourcePolicyAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -684,12 +710,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentTimeoutsOutputReference">GoogleComputeResourcePolicyAttachmentTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.instanceInput">instanceInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentTimeouts">GoogleComputeResourcePolicyAttachmentTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.zoneInput">zoneInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.instance">instance</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -850,6 +878,16 @@ public GoogleComputeResourcePolicyAttachmentTimeoutsOutputReference getTimeouts(
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.idInput"></a>
 
 ```java
@@ -904,6 +942,16 @@ public IResolvable|GoogleComputeResourcePolicyAttachmentTimeouts getTimeoutsInpu
 
 ```java
 public java.lang.String getZoneInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachment.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -997,6 +1045,7 @@ GoogleComputeResourcePolicyAttachmentConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .instance(java.lang.String)
     .name(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleComputeResourcePolicyAttachmentTimeouts)
@@ -1017,8 +1066,9 @@ GoogleComputeResourcePolicyAttachmentConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.instance">instance</a></code> | <code>java.lang.String</code> | The name of the instance in which the resource policies are attached to. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.name">name</a></code> | <code>java.lang.String</code> | The resource policy to be attached to the instance for scheduling start/stop operations. Do not specify the self link. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#id GoogleComputeResourcePolicyAttachment#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#project GoogleComputeResourcePolicyAttachment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#id GoogleComputeResourcePolicyAttachment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#project GoogleComputeResourcePolicyAttachment#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentTimeouts">GoogleComputeResourcePolicyAttachmentTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.zone">zone</a></code> | <code>java.lang.String</code> | A reference to the zone where the instance resides. |
 
@@ -1104,7 +1154,7 @@ public java.lang.String getInstance();
 
 The name of the instance in which the resource policies are attached to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#instance GoogleComputeResourcePolicyAttachment#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#instance GoogleComputeResourcePolicyAttachment#instance}
 
 ---
 
@@ -1118,7 +1168,28 @@ public java.lang.String getName();
 
 The resource policy to be attached to the instance for scheduling start/stop operations. Do not specify the self link.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#name GoogleComputeResourcePolicyAttachment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#name GoogleComputeResourcePolicyAttachment#name}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#deletion_policy GoogleComputeResourcePolicyAttachment#deletion_policy}
 
 ---
 
@@ -1130,7 +1201,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#id GoogleComputeResourcePolicyAttachment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#id GoogleComputeResourcePolicyAttachment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1145,7 +1216,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#project GoogleComputeResourcePolicyAttachment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#project GoogleComputeResourcePolicyAttachment#project}.
 
 ---
 
@@ -1159,7 +1230,7 @@ public GoogleComputeResourcePolicyAttachmentTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#timeouts GoogleComputeResourcePolicyAttachment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#timeouts GoogleComputeResourcePolicyAttachment#timeouts}
 
 ---
 
@@ -1173,7 +1244,7 @@ public java.lang.String getZone();
 
 A reference to the zone where the instance resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#zone GoogleComputeResourcePolicyAttachment#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#zone GoogleComputeResourcePolicyAttachment#zone}
 
 ---
 
@@ -1194,8 +1265,8 @@ GoogleComputeResourcePolicyAttachmentTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#create GoogleComputeResourcePolicyAttachment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#delete GoogleComputeResourcePolicyAttachment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#create GoogleComputeResourcePolicyAttachment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeResourcePolicyAttachment.GoogleComputeResourcePolicyAttachmentTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#delete GoogleComputeResourcePolicyAttachment#delete}. |
 
 ---
 
@@ -1207,7 +1278,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#create GoogleComputeResourcePolicyAttachment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#create GoogleComputeResourcePolicyAttachment#create}.
 
 ---
 
@@ -1219,7 +1290,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy_attachment#delete GoogleComputeResourcePolicyAttachment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy_attachment#delete GoogleComputeResourcePolicyAttachment#delete}.
 
 ---
 

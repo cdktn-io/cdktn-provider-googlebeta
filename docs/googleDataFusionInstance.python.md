@@ -4,7 +4,7 @@
 
 ### GoogleDataFusionInstance <a name="GoogleDataFusionInstance" id="@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance google_data_fusion_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance google_data_fusion_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer"></a>
 
@@ -26,6 +26,7 @@ googleDataFusionInstance.GoogleDataFusionInstance(
   accelerators: IResolvable | typing.List[GoogleDataFusionInstanceAccelerators] = None,
   crypto_key_config: GoogleDataFusionInstanceCryptoKeyConfig = None,
   dataproc_service_account: str = None,
+  deletion_policy: str = None,
   description: str = None,
   display_name: str = None,
   enable_rbac: bool | IResolvable = None,
@@ -63,19 +64,20 @@ googleDataFusionInstance.GoogleDataFusionInstance(
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.accelerators">accelerators</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceAccelerators">GoogleDataFusionInstanceAccelerators</a>]</code> | accelerators block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.cryptoKeyConfig">crypto_key_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceCryptoKeyConfig">GoogleDataFusionInstanceCryptoKeyConfig</a></code> | crypto_key_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.dataprocServiceAccount">dataproc_service_account</a></code> | <code>str</code> | User-managed service account to set on Dataproc when Cloud Data Fusion creates Dataproc to run data processing pipelines. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.description">description</a></code> | <code>str</code> | An optional description of the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | Display name for an instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.enableRbac">enable_rbac</a></code> | <code>bool \| cdktn.IResolvable</code> | Option to enable granular role-based access control. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.enableStackdriverLogging">enable_stackdriver_logging</a></code> | <code>bool \| cdktn.IResolvable</code> | Option to enable Stackdriver Logging. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.enableStackdriverMonitoring">enable_stackdriver_monitoring</a></code> | <code>bool \| cdktn.IResolvable</code> | Option to enable Stackdriver Monitoring. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.eventPublishConfig">event_publish_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceEventPublishConfig">GoogleDataFusionInstanceEventPublishConfig</a></code> | event_publish_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#id GoogleDataFusionInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#id GoogleDataFusionInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | The resource labels for instance to use to annotate any related underlying resources, such as Compute Engine VMs. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.networkConfig">network_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceNetworkConfig">GoogleDataFusionInstanceNetworkConfig</a></code> | network_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.options">options</a></code> | <code>typing.Mapping[str]</code> | Map of additional options used to configure the behavior of Data Fusion instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.patchRevision">patch_revision</a></code> | <code>str</code> | Current patch revision of the Data Fusion. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.privateInstance">private_instance</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether the Data Fusion instance should be private. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#project GoogleDataFusionInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#project GoogleDataFusionInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.region">region</a></code> | <code>str</code> | The region of the Data Fusion instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A map of resource manager tags. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceTimeouts">GoogleDataFusionInstanceTimeouts</a></code> | timeouts block. |
@@ -150,7 +152,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the instance or a fully qualified identifier for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#name GoogleDataFusionInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#name GoogleDataFusionInstance#name}
 
 ---
 
@@ -172,7 +174,7 @@ the default settings for processing and memory.
   with restrictive capabilities. This is to help enterprises design and develop their data ingestion and integration
   pipelines at low cost. Possible values: ["BASIC", "ENTERPRISE", "DEVELOPER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#type GoogleDataFusionInstance#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#type GoogleDataFusionInstance#type}
 
 ---
 
@@ -182,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#accelerators GoogleDataFusionInstance#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#accelerators GoogleDataFusionInstance#accelerators}
 
 ---
 
@@ -192,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 crypto_key_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#crypto_key_config GoogleDataFusionInstance#crypto_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#crypto_key_config GoogleDataFusionInstance#crypto_key_config}
 
 ---
 
@@ -202,7 +204,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-managed service account to set on Dataproc when Cloud Data Fusion creates Dataproc to run data processing pipelines.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#dataproc_service_account GoogleDataFusionInstance#dataproc_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#dataproc_service_account GoogleDataFusionInstance#dataproc_service_account}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#deletion_policy GoogleDataFusionInstance#deletion_policy}
 
 ---
 
@@ -212,7 +231,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#description GoogleDataFusionInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#description GoogleDataFusionInstance#description}
 
 ---
 
@@ -222,7 +241,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Display name for an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#display_name GoogleDataFusionInstance#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#display_name GoogleDataFusionInstance#display_name}
 
 ---
 
@@ -232,7 +251,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Option to enable granular role-based access control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#enable_rbac GoogleDataFusionInstance#enable_rbac}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#enable_rbac GoogleDataFusionInstance#enable_rbac}
 
 ---
 
@@ -242,7 +261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Option to enable Stackdriver Logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#enable_stackdriver_logging GoogleDataFusionInstance#enable_stackdriver_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#enable_stackdriver_logging GoogleDataFusionInstance#enable_stackdriver_logging}
 
 ---
 
@@ -252,7 +271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Option to enable Stackdriver Monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#enable_stackdriver_monitoring GoogleDataFusionInstance#enable_stackdriver_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#enable_stackdriver_monitoring GoogleDataFusionInstance#enable_stackdriver_monitoring}
 
 ---
 
@@ -262,7 +281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 event_publish_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#event_publish_config GoogleDataFusionInstance#event_publish_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#event_publish_config GoogleDataFusionInstance#event_publish_config}
 
 ---
 
@@ -270,7 +289,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#id GoogleDataFusionInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#id GoogleDataFusionInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -286,7 +305,7 @@ The resource labels for instance to use to annotate any related underlying resou
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#labels GoogleDataFusionInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#labels GoogleDataFusionInstance#labels}
 
 ---
 
@@ -296,7 +315,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#network_config GoogleDataFusionInstance#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#network_config GoogleDataFusionInstance#network_config}
 
 ---
 
@@ -306,7 +325,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Map of additional options used to configure the behavior of Data Fusion instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#options GoogleDataFusionInstance#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#options GoogleDataFusionInstance#options}
 
 ---
 
@@ -316,7 +335,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Current patch revision of the Data Fusion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#patch_revision GoogleDataFusionInstance#patch_revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#patch_revision GoogleDataFusionInstance#patch_revision}
 
 ---
 
@@ -330,7 +349,7 @@ If set to
 true, all Data Fusion nodes will have private IP addresses and will not be
 able to access the public internet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#private_instance GoogleDataFusionInstance#private_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#private_instance GoogleDataFusionInstance#private_instance}
 
 ---
 
@@ -338,7 +357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#project GoogleDataFusionInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#project GoogleDataFusionInstance#project}.
 
 ---
 
@@ -348,7 +367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The region of the Data Fusion instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#region GoogleDataFusionInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#region GoogleDataFusionInstance#region}
 
 ---
 
@@ -362,7 +381,7 @@ Resource manager tag keys and values have the same definition as resource manage
 Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/{tag_value_id}.
 The field is ignored (both PUT & PATCH) when empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#tags GoogleDataFusionInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#tags GoogleDataFusionInstance#tags}
 
 ---
 
@@ -372,7 +391,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#timeouts GoogleDataFusionInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#timeouts GoogleDataFusionInstance#timeouts}
 
 ---
 
@@ -382,7 +401,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Current version of the Data Fusion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#version GoogleDataFusionInstance#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#version GoogleDataFusionInstance#version}
 
 ---
 
@@ -392,7 +411,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the zone in which the Data Fusion instance will be created. Only DEVELOPER instances use this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#zone GoogleDataFusionInstance#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#zone GoogleDataFusionInstance#zone}
 
 ---
 
@@ -432,6 +451,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.resetAccelerators">reset_accelerators</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.resetCryptoKeyConfig">reset_crypto_key_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.resetDataprocServiceAccount">reset_dataproc_service_account</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.resetDisplayName">reset_display_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.resetEnableRbac">reset_enable_rbac</a></code> | *No description.* |
@@ -831,7 +851,7 @@ The name of the key which is used to encrypt/decrypt customer data.
 
 For key in Cloud KMS, the key should be in the format of projects/* /locations/* /keyRings/* /cryptoKeys/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#key_reference GoogleDataFusionInstance#key_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#key_reference GoogleDataFusionInstance#key_reference}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -852,7 +872,7 @@ def put_event_publish_config(
 
 Option to enable Event Publishing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#enabled GoogleDataFusionInstance#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#enabled GoogleDataFusionInstance#enabled}
 
 ---
 
@@ -862,7 +882,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name of the Pub/Sub topic. Format: projects/{projectId}/topics/{topic_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#topic GoogleDataFusionInstance#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#topic GoogleDataFusionInstance#topic}
 
 ---
 
@@ -887,7 +907,7 @@ Type of connection for establishing private IP connectivity between the Data Fus
 the corresponding tenant project from a predefined list of available connection modes.
 If this field is unspecified for a private instance, VPC peering is used. Possible values: ["VPC_PEERING", "PRIVATE_SERVICE_CONNECT_INTERFACES"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#connection_type GoogleDataFusionInstance#connection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#connection_type GoogleDataFusionInstance#connection_type}
 
 ---
 
@@ -899,7 +919,7 @@ The IP range in CIDR notation to use for the managed Data Fusion instance nodes.
 
 This range must not overlap with any other ranges used in the Data Fusion instance network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#ip_allocation GoogleDataFusionInstance#ip_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#ip_allocation GoogleDataFusionInstance#ip_allocation}
 
 ---
 
@@ -912,7 +932,7 @@ Name of the network in the project with which the tenant project will be peered 
 In case of shared VPC where the network resides in another host
 project the network should specified in the form of projects/{host-project-id}/global/networks/{network}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#network GoogleDataFusionInstance#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#network GoogleDataFusionInstance#network}
 
 ---
 
@@ -922,7 +942,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 private_service_connect_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#private_service_connect_config GoogleDataFusionInstance#private_service_connect_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#private_service_connect_config GoogleDataFusionInstance#private_service_connect_config}
 
 ---
 
@@ -940,7 +960,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#create GoogleDataFusionInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#create GoogleDataFusionInstance#create}.
 
 ---
 
@@ -948,7 +968,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#delete GoogleDataFusionInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#delete GoogleDataFusionInstance#delete}.
 
 ---
 
@@ -956,7 +976,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#update GoogleDataFusionInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#update GoogleDataFusionInstance#update}.
 
 ---
 
@@ -976,6 +996,12 @@ def reset_crypto_key_config() -> None
 
 ```python
 def reset_dataproc_service_account() -> None
+```
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
 ```
 
 ##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.resetDescription"></a>
@@ -1200,7 +1226,7 @@ The construct id used in the generated config for the GoogleDataFusionInstance t
 
 The id of the existing GoogleDataFusionInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1250,6 +1276,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.acceleratorsInput">accelerators_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceAccelerators">GoogleDataFusionInstanceAccelerators</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.cryptoKeyConfigInput">crypto_key_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceCryptoKeyConfig">GoogleDataFusionInstanceCryptoKeyConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.dataprocServiceAccountInput">dataproc_service_account_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.enableRbacInput">enable_rbac_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -1271,6 +1298,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.versionInput">version_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.zoneInput">zone_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.dataprocServiceAccount">dataproc_service_account</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.enableRbac">enable_rbac</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -1633,6 +1661,16 @@ dataproc_service_account_input: str
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.descriptionInput"></a>
 
 ```python
@@ -1837,6 +1875,16 @@ zone_input: str
 
 ```python
 dataproc_service_account: str
+```
+
+- *Type:* str
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstance.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
 ```
 
 - *Type:* str
@@ -2065,7 +2113,7 @@ accelerator_type: str
 
 The type of an accelator for a CDF instance. Possible values: ["CDC", "HEALTHCARE", "CCAI_INSIGHTS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#accelerator_type GoogleDataFusionInstance#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#accelerator_type GoogleDataFusionInstance#accelerator_type}
 
 ---
 
@@ -2079,7 +2127,7 @@ state: str
 
 The type of an accelator for a CDF instance. Possible values: ["ENABLED", "DISABLED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#state GoogleDataFusionInstance#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#state GoogleDataFusionInstance#state}
 
 ---
 
@@ -2103,6 +2151,7 @@ googleDataFusionInstance.GoogleDataFusionInstanceConfig(
   accelerators: IResolvable | typing.List[GoogleDataFusionInstanceAccelerators] = None,
   crypto_key_config: GoogleDataFusionInstanceCryptoKeyConfig = None,
   dataproc_service_account: str = None,
+  deletion_policy: str = None,
   description: str = None,
   display_name: str = None,
   enable_rbac: bool | IResolvable = None,
@@ -2140,19 +2189,20 @@ googleDataFusionInstance.GoogleDataFusionInstanceConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.accelerators">accelerators</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceAccelerators">GoogleDataFusionInstanceAccelerators</a>]</code> | accelerators block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.cryptoKeyConfig">crypto_key_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceCryptoKeyConfig">GoogleDataFusionInstanceCryptoKeyConfig</a></code> | crypto_key_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.dataprocServiceAccount">dataproc_service_account</a></code> | <code>str</code> | User-managed service account to set on Dataproc when Cloud Data Fusion creates Dataproc to run data processing pipelines. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.description">description</a></code> | <code>str</code> | An optional description of the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.displayName">display_name</a></code> | <code>str</code> | Display name for an instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.enableRbac">enable_rbac</a></code> | <code>bool \| cdktn.IResolvable</code> | Option to enable granular role-based access control. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.enableStackdriverLogging">enable_stackdriver_logging</a></code> | <code>bool \| cdktn.IResolvable</code> | Option to enable Stackdriver Logging. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.enableStackdriverMonitoring">enable_stackdriver_monitoring</a></code> | <code>bool \| cdktn.IResolvable</code> | Option to enable Stackdriver Monitoring. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.eventPublishConfig">event_publish_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceEventPublishConfig">GoogleDataFusionInstanceEventPublishConfig</a></code> | event_publish_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#id GoogleDataFusionInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#id GoogleDataFusionInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | The resource labels for instance to use to annotate any related underlying resources, such as Compute Engine VMs. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.networkConfig">network_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceNetworkConfig">GoogleDataFusionInstanceNetworkConfig</a></code> | network_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.options">options</a></code> | <code>typing.Mapping[str]</code> | Map of additional options used to configure the behavior of Data Fusion instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.patchRevision">patch_revision</a></code> | <code>str</code> | Current patch revision of the Data Fusion. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.privateInstance">private_instance</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether the Data Fusion instance should be private. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#project GoogleDataFusionInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#project GoogleDataFusionInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.region">region</a></code> | <code>str</code> | The region of the Data Fusion instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.tags">tags</a></code> | <code>typing.Mapping[str]</code> | A map of resource manager tags. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceTimeouts">GoogleDataFusionInstanceTimeouts</a></code> | timeouts block. |
@@ -2241,7 +2291,7 @@ name: str
 
 The ID of the instance or a fully qualified identifier for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#name GoogleDataFusionInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#name GoogleDataFusionInstance#name}
 
 ---
 
@@ -2267,7 +2317,7 @@ the default settings for processing and memory.
   with restrictive capabilities. This is to help enterprises design and develop their data ingestion and integration
   pipelines at low cost. Possible values: ["BASIC", "ENTERPRISE", "DEVELOPER"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#type GoogleDataFusionInstance#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#type GoogleDataFusionInstance#type}
 
 ---
 
@@ -2281,7 +2331,7 @@ accelerators: IResolvable | typing.List[GoogleDataFusionInstanceAccelerators]
 
 accelerators block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#accelerators GoogleDataFusionInstance#accelerators}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#accelerators GoogleDataFusionInstance#accelerators}
 
 ---
 
@@ -2295,7 +2345,7 @@ crypto_key_config: GoogleDataFusionInstanceCryptoKeyConfig
 
 crypto_key_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#crypto_key_config GoogleDataFusionInstance#crypto_key_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#crypto_key_config GoogleDataFusionInstance#crypto_key_config}
 
 ---
 
@@ -2309,7 +2359,28 @@ dataproc_service_account: str
 
 User-managed service account to set on Dataproc when Cloud Data Fusion creates Dataproc to run data processing pipelines.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#dataproc_service_account GoogleDataFusionInstance#dataproc_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#dataproc_service_account GoogleDataFusionInstance#dataproc_service_account}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#deletion_policy GoogleDataFusionInstance#deletion_policy}
 
 ---
 
@@ -2323,7 +2394,7 @@ description: str
 
 An optional description of the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#description GoogleDataFusionInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#description GoogleDataFusionInstance#description}
 
 ---
 
@@ -2337,7 +2408,7 @@ display_name: str
 
 Display name for an instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#display_name GoogleDataFusionInstance#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#display_name GoogleDataFusionInstance#display_name}
 
 ---
 
@@ -2351,7 +2422,7 @@ enable_rbac: bool | IResolvable
 
 Option to enable granular role-based access control.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#enable_rbac GoogleDataFusionInstance#enable_rbac}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#enable_rbac GoogleDataFusionInstance#enable_rbac}
 
 ---
 
@@ -2365,7 +2436,7 @@ enable_stackdriver_logging: bool | IResolvable
 
 Option to enable Stackdriver Logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#enable_stackdriver_logging GoogleDataFusionInstance#enable_stackdriver_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#enable_stackdriver_logging GoogleDataFusionInstance#enable_stackdriver_logging}
 
 ---
 
@@ -2379,7 +2450,7 @@ enable_stackdriver_monitoring: bool | IResolvable
 
 Option to enable Stackdriver Monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#enable_stackdriver_monitoring GoogleDataFusionInstance#enable_stackdriver_monitoring}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#enable_stackdriver_monitoring GoogleDataFusionInstance#enable_stackdriver_monitoring}
 
 ---
 
@@ -2393,7 +2464,7 @@ event_publish_config: GoogleDataFusionInstanceEventPublishConfig
 
 event_publish_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#event_publish_config GoogleDataFusionInstance#event_publish_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#event_publish_config GoogleDataFusionInstance#event_publish_config}
 
 ---
 
@@ -2405,7 +2476,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#id GoogleDataFusionInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#id GoogleDataFusionInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2425,7 +2496,7 @@ The resource labels for instance to use to annotate any related underlying resou
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#labels GoogleDataFusionInstance#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#labels GoogleDataFusionInstance#labels}
 
 ---
 
@@ -2439,7 +2510,7 @@ network_config: GoogleDataFusionInstanceNetworkConfig
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#network_config GoogleDataFusionInstance#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#network_config GoogleDataFusionInstance#network_config}
 
 ---
 
@@ -2453,7 +2524,7 @@ options: typing.Mapping[str]
 
 Map of additional options used to configure the behavior of Data Fusion instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#options GoogleDataFusionInstance#options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#options GoogleDataFusionInstance#options}
 
 ---
 
@@ -2467,7 +2538,7 @@ patch_revision: str
 
 Current patch revision of the Data Fusion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#patch_revision GoogleDataFusionInstance#patch_revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#patch_revision GoogleDataFusionInstance#patch_revision}
 
 ---
 
@@ -2485,7 +2556,7 @@ If set to
 true, all Data Fusion nodes will have private IP addresses and will not be
 able to access the public internet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#private_instance GoogleDataFusionInstance#private_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#private_instance GoogleDataFusionInstance#private_instance}
 
 ---
 
@@ -2497,7 +2568,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#project GoogleDataFusionInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#project GoogleDataFusionInstance#project}.
 
 ---
 
@@ -2511,7 +2582,7 @@ region: str
 
 The region of the Data Fusion instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#region GoogleDataFusionInstance#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#region GoogleDataFusionInstance#region}
 
 ---
 
@@ -2529,7 +2600,7 @@ Resource manager tag keys and values have the same definition as resource manage
 Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/{tag_value_id}.
 The field is ignored (both PUT & PATCH) when empty.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#tags GoogleDataFusionInstance#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#tags GoogleDataFusionInstance#tags}
 
 ---
 
@@ -2543,7 +2614,7 @@ timeouts: GoogleDataFusionInstanceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#timeouts GoogleDataFusionInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#timeouts GoogleDataFusionInstance#timeouts}
 
 ---
 
@@ -2557,7 +2628,7 @@ version: str
 
 Current version of the Data Fusion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#version GoogleDataFusionInstance#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#version GoogleDataFusionInstance#version}
 
 ---
 
@@ -2571,7 +2642,7 @@ zone: str
 
 Name of the zone in which the Data Fusion instance will be created. Only DEVELOPER instances use this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#zone GoogleDataFusionInstance#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#zone GoogleDataFusionInstance#zone}
 
 ---
 
@@ -2607,7 +2678,7 @@ The name of the key which is used to encrypt/decrypt customer data.
 
 For key in Cloud KMS, the key should be in the format of projects/* /locations/* /keyRings/* /cryptoKeys/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#key_reference GoogleDataFusionInstance#key_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#key_reference GoogleDataFusionInstance#key_reference}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2645,7 +2716,7 @@ enabled: bool | IResolvable
 
 Option to enable Event Publishing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#enabled GoogleDataFusionInstance#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#enabled GoogleDataFusionInstance#enabled}
 
 ---
 
@@ -2659,7 +2730,7 @@ topic: str
 
 The resource name of the Pub/Sub topic. Format: projects/{projectId}/topics/{topic_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#topic GoogleDataFusionInstance#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#topic GoogleDataFusionInstance#topic}
 
 ---
 
@@ -2703,7 +2774,7 @@ Type of connection for establishing private IP connectivity between the Data Fus
 the corresponding tenant project from a predefined list of available connection modes.
 If this field is unspecified for a private instance, VPC peering is used. Possible values: ["VPC_PEERING", "PRIVATE_SERVICE_CONNECT_INTERFACES"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#connection_type GoogleDataFusionInstance#connection_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#connection_type GoogleDataFusionInstance#connection_type}
 
 ---
 
@@ -2719,7 +2790,7 @@ The IP range in CIDR notation to use for the managed Data Fusion instance nodes.
 
 This range must not overlap with any other ranges used in the Data Fusion instance network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#ip_allocation GoogleDataFusionInstance#ip_allocation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#ip_allocation GoogleDataFusionInstance#ip_allocation}
 
 ---
 
@@ -2736,7 +2807,7 @@ Name of the network in the project with which the tenant project will be peered 
 In case of shared VPC where the network resides in another host
 project the network should specified in the form of projects/{host-project-id}/global/networks/{network}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#network GoogleDataFusionInstance#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#network GoogleDataFusionInstance#network}
 
 ---
 
@@ -2750,7 +2821,7 @@ private_service_connect_config: GoogleDataFusionInstanceNetworkConfigPrivateServ
 
 private_service_connect_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#private_service_connect_config GoogleDataFusionInstance#private_service_connect_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#private_service_connect_config GoogleDataFusionInstance#private_service_connect_config}
 
 ---
 
@@ -2790,7 +2861,7 @@ The reference to the network attachment used to establish private connectivity.
 It will be of the form projects/{project-id}/regions/{region}/networkAttachments/{network-attachment-id}.
 This is required only when using connection type PRIVATE_SERVICE_CONNECT_INTERFACES.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#network_attachment GoogleDataFusionInstance#network_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#network_attachment GoogleDataFusionInstance#network_attachment}
 
 ---
 
@@ -2809,7 +2880,7 @@ The size of this block should be at least /25. This range should not overlap wit
 This range can be used for other purposes in the consumer VPC as long as there is no requirement for CDF to reach destinations using these addresses.
 If this value is not provided, the server chooses a non RFC 1918 address range. The format of this field is governed by RFC 4632.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#unreachable_cidr_block GoogleDataFusionInstance#unreachable_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#unreachable_cidr_block GoogleDataFusionInstance#unreachable_cidr_block}
 
 ---
 
@@ -2831,9 +2902,9 @@ googleDataFusionInstance.GoogleDataFusionInstanceTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#create GoogleDataFusionInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#delete GoogleDataFusionInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#update GoogleDataFusionInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#create GoogleDataFusionInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#delete GoogleDataFusionInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataFusionInstance.GoogleDataFusionInstanceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#update GoogleDataFusionInstance#update}. |
 
 ---
 
@@ -2845,7 +2916,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#create GoogleDataFusionInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#create GoogleDataFusionInstance#create}.
 
 ---
 
@@ -2857,7 +2928,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#delete GoogleDataFusionInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#delete GoogleDataFusionInstance#delete}.
 
 ---
 
@@ -2869,7 +2940,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#update GoogleDataFusionInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#update GoogleDataFusionInstance#update}.
 
 ---
 
@@ -4249,7 +4320,7 @@ The reference to the network attachment used to establish private connectivity.
 It will be of the form projects/{project-id}/regions/{region}/networkAttachments/{network-attachment-id}.
 This is required only when using connection type PRIVATE_SERVICE_CONNECT_INTERFACES.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#network_attachment GoogleDataFusionInstance#network_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#network_attachment GoogleDataFusionInstance#network_attachment}
 
 ---
 
@@ -4264,7 +4335,7 @@ The size of this block should be at least /25. This range should not overlap wit
 This range can be used for other purposes in the consumer VPC as long as there is no requirement for CDF to reach destinations using these addresses.
 If this value is not provided, the server chooses a non RFC 1918 address range. The format of this field is governed by RFC 4632.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_data_fusion_instance#unreachable_cidr_block GoogleDataFusionInstance#unreachable_cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_data_fusion_instance#unreachable_cidr_block GoogleDataFusionInstance#unreachable_cidr_block}
 
 ---
 

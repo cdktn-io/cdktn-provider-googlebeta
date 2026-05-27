@@ -4,7 +4,7 @@
 
 ### GoogleAlloydbBackup <a name="GoogleAlloydbBackup" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup google_alloydb_backup}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup google_alloydb_backup}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer"></a>
 
@@ -25,6 +25,7 @@ googleAlloydbBackup.GoogleAlloydbBackup(
   cluster_name: str,
   location: str,
   annotations: typing.Mapping[str] = None,
+  deletion_policy: str = None,
   description: str = None,
   display_name: str = None,
   encryption_config: GoogleAlloydbBackupEncryptionConfig = None,
@@ -51,12 +52,13 @@ googleAlloydbBackup.GoogleAlloydbBackup(
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.clusterName">cluster_name</a></code> | <code>str</code> | The full resource name of the backup source cluster (e.g., projects/{project}/locations/{location}/clusters/{clusterId}). |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.location">location</a></code> | <code>str</code> | The location where the alloydb backup should reside. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.annotations">annotations</a></code> | <code>typing.Mapping[str]</code> | Annotations to allow client tools to store small amount of arbitrary data. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.description">description</a></code> | <code>str</code> | User-provided description of the backup. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | User-settable and human-readable display name for the Backup. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.encryptionConfig">encryption_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupEncryptionConfig">GoogleAlloydbBackupEncryptionConfig</a></code> | encryption_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#id GoogleAlloydbBackup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#id GoogleAlloydbBackup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | User-defined labels for the alloydb backup. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#project GoogleAlloydbBackup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#project GoogleAlloydbBackup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupTimeouts">GoogleAlloydbBackupTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.type">type</a></code> | <code>str</code> | The backup type, which suggests the trigger for the backup. Possible values: ["TYPE_UNSPECIFIED", "ON_DEMAND", "AUTOMATED", "CONTINUOUS"]. |
 
@@ -128,7 +130,7 @@ Must be unique amongst siblings in the same scope
 
 The ID of the alloydb backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#backup_id GoogleAlloydbBackup#backup_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#backup_id GoogleAlloydbBackup#backup_id}
 
 ---
 
@@ -138,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The full resource name of the backup source cluster (e.g., projects/{project}/locations/{location}/clusters/{clusterId}).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#cluster_name GoogleAlloydbBackup#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#cluster_name GoogleAlloydbBackup#cluster_name}
 
 ---
 
@@ -148,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location where the alloydb backup should reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#location GoogleAlloydbBackup#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#location GoogleAlloydbBackup#location}
 
 ---
 
@@ -164,7 +166,24 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#annotations GoogleAlloydbBackup#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#annotations GoogleAlloydbBackup#annotations}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#deletion_policy GoogleAlloydbBackup#deletion_policy}
 
 ---
 
@@ -174,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-provided description of the backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#description GoogleAlloydbBackup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#description GoogleAlloydbBackup#description}
 
 ---
 
@@ -184,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-settable and human-readable display name for the Backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#display_name GoogleAlloydbBackup#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#display_name GoogleAlloydbBackup#display_name}
 
 ---
 
@@ -194,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#encryption_config GoogleAlloydbBackup#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#encryption_config GoogleAlloydbBackup#encryption_config}
 
 ---
 
@@ -202,7 +221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#id GoogleAlloydbBackup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#id GoogleAlloydbBackup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -220,7 +239,7 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#labels GoogleAlloydbBackup#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#labels GoogleAlloydbBackup#labels}
 
 ---
 
@@ -228,7 +247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#project GoogleAlloydbBackup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#project GoogleAlloydbBackup#project}.
 
 ---
 
@@ -238,7 +257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#timeouts GoogleAlloydbBackup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#timeouts GoogleAlloydbBackup#timeouts}
 
 ---
 
@@ -248,7 +267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The backup type, which suggests the trigger for the backup. Possible values: ["TYPE_UNSPECIFIED", "ON_DEMAND", "AUTOMATED", "CONTINUOUS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#type GoogleAlloydbBackup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#type GoogleAlloydbBackup#type}
 
 ---
 
@@ -283,6 +302,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.putEncryptionConfig">put_encryption_config</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.resetAnnotations">reset_annotations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.resetDisplayName">reset_display_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.resetEncryptionConfig">reset_encryption_config</a></code> | *No description.* |
@@ -658,7 +678,7 @@ The fully-qualified resource name of the KMS key.
 
 Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#kms_key_name GoogleAlloydbBackup#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#kms_key_name GoogleAlloydbBackup#kms_key_name}
 
 ---
 
@@ -676,7 +696,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#create GoogleAlloydbBackup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#create GoogleAlloydbBackup#create}.
 
 ---
 
@@ -684,7 +704,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#delete GoogleAlloydbBackup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#delete GoogleAlloydbBackup#delete}.
 
 ---
 
@@ -692,7 +712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#update GoogleAlloydbBackup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#update GoogleAlloydbBackup#update}.
 
 ---
 
@@ -700,6 +720,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def reset_annotations() -> None
+```
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
 ```
 
 ##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.resetDescription"></a>
@@ -864,7 +890,7 @@ The construct id used in the generated config for the GoogleAlloydbBackup to imp
 
 The id of the existing GoogleAlloydbBackup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -915,6 +941,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.annotationsInput">annotations_input</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.backupIdInput">backup_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.clusterNameInput">cluster_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.encryptionConfigInput">encryption_config_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupEncryptionConfig">GoogleAlloydbBackupEncryptionConfig</a></code> | *No description.* |
@@ -927,6 +954,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.annotations">annotations</a></code> | <code>typing.Mapping[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.backupId">backup_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.clusterName">cluster_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -1289,6 +1317,16 @@ cluster_name_input: str
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.descriptionInput"></a>
 
 ```python
@@ -1409,6 +1447,16 @@ cluster_name: str
 
 ---
 
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+---
+
 ##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackup.property.description"></a>
 
 ```python
@@ -1518,6 +1566,7 @@ googleAlloydbBackup.GoogleAlloydbBackupConfig(
   cluster_name: str,
   location: str,
   annotations: typing.Mapping[str] = None,
+  deletion_policy: str = None,
   description: str = None,
   display_name: str = None,
   encryption_config: GoogleAlloydbBackupEncryptionConfig = None,
@@ -1544,12 +1593,13 @@ googleAlloydbBackup.GoogleAlloydbBackupConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.clusterName">cluster_name</a></code> | <code>str</code> | The full resource name of the backup source cluster (e.g., projects/{project}/locations/{location}/clusters/{clusterId}). |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.location">location</a></code> | <code>str</code> | The location where the alloydb backup should reside. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.annotations">annotations</a></code> | <code>typing.Mapping[str]</code> | Annotations to allow client tools to store small amount of arbitrary data. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.description">description</a></code> | <code>str</code> | User-provided description of the backup. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.displayName">display_name</a></code> | <code>str</code> | User-settable and human-readable display name for the Backup. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.encryptionConfig">encryption_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupEncryptionConfig">GoogleAlloydbBackupEncryptionConfig</a></code> | encryption_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#id GoogleAlloydbBackup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#id GoogleAlloydbBackup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | User-defined labels for the alloydb backup. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#project GoogleAlloydbBackup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#project GoogleAlloydbBackup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupTimeouts">GoogleAlloydbBackupTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.type">type</a></code> | <code>str</code> | The backup type, which suggests the trigger for the backup. Possible values: ["TYPE_UNSPECIFIED", "ON_DEMAND", "AUTOMATED", "CONTINUOUS"]. |
 
@@ -1635,7 +1685,7 @@ backup_id: str
 
 The ID of the alloydb backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#backup_id GoogleAlloydbBackup#backup_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#backup_id GoogleAlloydbBackup#backup_id}
 
 ---
 
@@ -1649,7 +1699,7 @@ cluster_name: str
 
 The full resource name of the backup source cluster (e.g., projects/{project}/locations/{location}/clusters/{clusterId}).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#cluster_name GoogleAlloydbBackup#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#cluster_name GoogleAlloydbBackup#cluster_name}
 
 ---
 
@@ -1663,7 +1713,7 @@ location: str
 
 The location where the alloydb backup should reside.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#location GoogleAlloydbBackup#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#location GoogleAlloydbBackup#location}
 
 ---
 
@@ -1683,7 +1733,28 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#annotations GoogleAlloydbBackup#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#annotations GoogleAlloydbBackup#annotations}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#deletion_policy GoogleAlloydbBackup#deletion_policy}
 
 ---
 
@@ -1697,7 +1768,7 @@ description: str
 
 User-provided description of the backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#description GoogleAlloydbBackup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#description GoogleAlloydbBackup#description}
 
 ---
 
@@ -1711,7 +1782,7 @@ display_name: str
 
 User-settable and human-readable display name for the Backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#display_name GoogleAlloydbBackup#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#display_name GoogleAlloydbBackup#display_name}
 
 ---
 
@@ -1725,7 +1796,7 @@ encryption_config: GoogleAlloydbBackupEncryptionConfig
 
 encryption_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#encryption_config GoogleAlloydbBackup#encryption_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#encryption_config GoogleAlloydbBackup#encryption_config}
 
 ---
 
@@ -1737,7 +1808,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#id GoogleAlloydbBackup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#id GoogleAlloydbBackup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1759,7 +1830,7 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#labels GoogleAlloydbBackup#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#labels GoogleAlloydbBackup#labels}
 
 ---
 
@@ -1771,7 +1842,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#project GoogleAlloydbBackup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#project GoogleAlloydbBackup#project}.
 
 ---
 
@@ -1785,7 +1856,7 @@ timeouts: GoogleAlloydbBackupTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#timeouts GoogleAlloydbBackup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#timeouts GoogleAlloydbBackup#timeouts}
 
 ---
 
@@ -1799,7 +1870,7 @@ type: str
 
 The backup type, which suggests the trigger for the backup. Possible values: ["TYPE_UNSPECIFIED", "ON_DEMAND", "AUTOMATED", "CONTINUOUS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#type GoogleAlloydbBackup#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#type GoogleAlloydbBackup#type}
 
 ---
 
@@ -1835,7 +1906,7 @@ The fully-qualified resource name of the KMS key.
 
 Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#kms_key_name GoogleAlloydbBackup#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#kms_key_name GoogleAlloydbBackup#kms_key_name}
 
 ---
 
@@ -1879,9 +1950,9 @@ googleAlloydbBackup.GoogleAlloydbBackupTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#create GoogleAlloydbBackup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#delete GoogleAlloydbBackup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#update GoogleAlloydbBackup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#create GoogleAlloydbBackup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#delete GoogleAlloydbBackup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAlloydbBackup.GoogleAlloydbBackupTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#update GoogleAlloydbBackup#update}. |
 
 ---
 
@@ -1893,7 +1964,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#create GoogleAlloydbBackup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#create GoogleAlloydbBackup#create}.
 
 ---
 
@@ -1905,7 +1976,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#delete GoogleAlloydbBackup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#delete GoogleAlloydbBackup#delete}.
 
 ---
 
@@ -1917,7 +1988,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_backup#update GoogleAlloydbBackup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_backup#update GoogleAlloydbBackup#update}.
 
 ---
 

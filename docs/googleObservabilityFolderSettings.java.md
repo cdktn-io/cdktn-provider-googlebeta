@@ -4,7 +4,7 @@
 
 ### GoogleObservabilityFolderSettings <a name="GoogleObservabilityFolderSettings" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings google_observability_folder_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings google_observability_folder_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer"></a>
 
@@ -42,7 +42,7 @@ GoogleObservabilityFolderSettings.Builder.create(Construct scope, java.lang.Stri
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer.parameter.folder">folder</a></code> | <code>java.lang.String</code> | The folder ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location of the settings. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer.parameter.defaultStorageLocation">defaultStorageLocation</a></code> | <code>java.lang.String</code> | The default storage location for new resources, e.g. buckets. Only valid for global location. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer.parameter.kmsKeyName">kmsKeyName</a></code> | <code>java.lang.String</code> | The default Cloud KMS key to use for new resources. Only valid for regional locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettings.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts">GoogleObservabilityFolderSettingsTimeouts</a></code> | timeouts block. |
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The folder ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#folder GoogleObservabilityFolderSettings#folder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#folder GoogleObservabilityFolderSettings#folder}
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location of the settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#location GoogleObservabilityFolderSettings#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#location GoogleObservabilityFolderSettings#location}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The default storage location for new resources, e.g. buckets. Only valid for global location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#default_storage_location GoogleObservabilityFolderSettings#default_storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#default_storage_location GoogleObservabilityFolderSettings#default_storage_location}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,7 +155,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The default Cloud KMS key to use for new resources. Only valid for regional locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#kms_key_name GoogleObservabilityFolderSettings#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#kms_key_name GoogleObservabilityFolderSettings#kms_key_name}
 
 ---
 
@@ -165,7 +165,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#timeouts GoogleObservabilityFolderSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#timeouts GoogleObservabilityFolderSettings#timeouts}
 
 ---
 
@@ -655,7 +655,7 @@ The construct id used in the generated config for the GoogleObservabilityFolderS
 
 The id of the existing GoogleObservabilityFolderSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1042,7 +1042,7 @@ GoogleObservabilityFolderSettingsConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.folder">folder</a></code> | <code>java.lang.String</code> | The folder ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location of the settings. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.defaultStorageLocation">defaultStorageLocation</a></code> | <code>java.lang.String</code> | The default storage location for new resources, e.g. buckets. Only valid for global location. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.kmsKeyName">kmsKeyName</a></code> | <code>java.lang.String</code> | The default Cloud KMS key to use for new resources. Only valid for regional locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts">GoogleObservabilityFolderSettingsTimeouts</a></code> | timeouts block. |
 
@@ -1128,7 +1128,7 @@ public java.lang.String getFolder();
 
 The folder ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#folder GoogleObservabilityFolderSettings#folder}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#folder GoogleObservabilityFolderSettings#folder}
 
 ---
 
@@ -1142,7 +1142,7 @@ public java.lang.String getLocation();
 
 The location of the settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#location GoogleObservabilityFolderSettings#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#location GoogleObservabilityFolderSettings#location}
 
 ---
 
@@ -1156,7 +1156,7 @@ public java.lang.String getDefaultStorageLocation();
 
 The default storage location for new resources, e.g. buckets. Only valid for global location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#default_storage_location GoogleObservabilityFolderSettings#default_storage_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#default_storage_location GoogleObservabilityFolderSettings#default_storage_location}
 
 ---
 
@@ -1168,7 +1168,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#id GoogleObservabilityFolderSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1185,7 +1185,7 @@ public java.lang.String getKmsKeyName();
 
 The default Cloud KMS key to use for new resources. Only valid for regional locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#kms_key_name GoogleObservabilityFolderSettings#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#kms_key_name GoogleObservabilityFolderSettings#kms_key_name}
 
 ---
 
@@ -1199,7 +1199,7 @@ public GoogleObservabilityFolderSettingsTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#timeouts GoogleObservabilityFolderSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#timeouts GoogleObservabilityFolderSettings#timeouts}
 
 ---
 
@@ -1221,9 +1221,9 @@ GoogleObservabilityFolderSettingsTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#create GoogleObservabilityFolderSettings#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#delete GoogleObservabilityFolderSettings#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#update GoogleObservabilityFolderSettings#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#create GoogleObservabilityFolderSettings#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#delete GoogleObservabilityFolderSettings#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleObservabilityFolderSettings.GoogleObservabilityFolderSettingsTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#update GoogleObservabilityFolderSettings#update}. |
 
 ---
 
@@ -1235,7 +1235,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#create GoogleObservabilityFolderSettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#create GoogleObservabilityFolderSettings#create}.
 
 ---
 
@@ -1247,7 +1247,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#delete GoogleObservabilityFolderSettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#delete GoogleObservabilityFolderSettings#delete}.
 
 ---
 
@@ -1259,7 +1259,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_observability_folder_settings#update GoogleObservabilityFolderSettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_observability_folder_settings#update GoogleObservabilityFolderSettings#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleComputeProjectMetadata <a name="GoogleComputeProjectMetadata" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata google_compute_project_metadata}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata google_compute_project_metadata}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
@@ -402,6 +403,12 @@ func PutTimeouts(value GoogleComputeProjectMetadataTimeouts)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.resetId"></a>
 
 ```go
@@ -523,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeProjectMetada
 
 The id of the existing GoogleComputeProjectMetadata that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -554,10 +561,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeoutsOutputReference">GoogleComputeProjectMetadataTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.metadataInput">MetadataInput</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.metadata">Metadata</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.project">Project</a></code> | <code>*string</code> | *No description.* |
@@ -716,6 +725,16 @@ func Timeouts() GoogleComputeProjectMetadataTimeoutsOutputReference
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.idInput"></a>
 
 ```go
@@ -753,6 +772,16 @@ func TimeoutsInput() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadata.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -822,6 +851,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	Metadata: *map[string]*string,
+	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
 	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeouts,
@@ -840,7 +870,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.property.metadata">Metadata</a></code> | <code>*map[string]*string</code> | A series of key value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#id GoogleComputeProjectMetadata#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#id GoogleComputeProjectMetadata#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.property.project">Project</a></code> | <code>*string</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeouts">GoogleComputeProjectMetadataTimeouts</a></code> | timeouts block. |
 
@@ -926,7 +957,28 @@ Metadata *map[string]*string
 
 A series of key value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#metadata GoogleComputeProjectMetadata#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#metadata GoogleComputeProjectMetadata#metadata}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#deletion_policy GoogleComputeProjectMetadata#deletion_policy}
 
 ---
 
@@ -938,7 +990,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#id GoogleComputeProjectMetadata#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#id GoogleComputeProjectMetadata#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -957,7 +1009,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#project GoogleComputeProjectMetadata#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#project GoogleComputeProjectMetadata#project}
 
 ---
 
@@ -971,7 +1023,7 @@ Timeouts GoogleComputeProjectMetadataTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#timeouts GoogleComputeProjectMetadata#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#timeouts GoogleComputeProjectMetadata#timeouts}
 
 ---
 
@@ -992,8 +1044,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#create GoogleComputeProjectMetadata#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#delete GoogleComputeProjectMetadata#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#create GoogleComputeProjectMetadata#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectMetadata.GoogleComputeProjectMetadataTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#delete GoogleComputeProjectMetadata#delete}. |
 
 ---
 
@@ -1005,7 +1057,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#create GoogleComputeProjectMetadata#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#create GoogleComputeProjectMetadata#create}.
 
 ---
 
@@ -1017,7 +1069,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_metadata#delete GoogleComputeProjectMetadata#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_metadata#delete GoogleComputeProjectMetadata#delete}.
 
 ---
 

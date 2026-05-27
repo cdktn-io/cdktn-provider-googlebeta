@@ -4,7 +4,7 @@
 
 ### GoogleNetworkSecurityMirroringEndpoint <a name="GoogleNetworkSecurityMirroringEndpoint" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint google_network_security_mirroring_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint google_network_security_mirroring_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.resetLabels">resetLabels</a></code> | *No description.* |
@@ -404,6 +405,12 @@ public putTimeouts(value: GoogleNetworkSecurityMirroringEndpointTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.resetDescription"></a>
 
 ```typescript
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleNetworkSecurityMirro
 
 The id of the existing GoogleNetworkSecurityMirroringEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -575,6 +582,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.terraformLabels">terraformLabels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeoutsOutputReference">GoogleNetworkSecurityMirroringEndpointTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.labelsInput">labelsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
@@ -583,6 +591,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.mirroringEndpointIdInput">mirroringEndpointIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeouts">GoogleNetworkSecurityMirroringEndpointTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
@@ -815,6 +824,16 @@ public readonly updateTime: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.descriptionInput"></a>
 
 ```typescript
@@ -892,6 +911,16 @@ public readonly timeoutsInput: IResolvable | GoogleNetworkSecurityMirroringEndpo
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeouts">GoogleNetworkSecurityMirroringEndpointTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpoint.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -1009,10 +1038,11 @@ const googleNetworkSecurityMirroringEndpointConfig: googleNetworkSecurityMirrori
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.location">location</a></code> | <code>string</code> | The cloud location of the endpoint, e.g. 'us-central1-a' or 'asia-south1-b'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.mirroringEndpointGroup">mirroringEndpointGroup</a></code> | <code>string</code> | The endpoint group that this endpoint belongs to. Format is: 'projects/{project}/locations/{location}/mirroringEndpointGroups/{mirroringEndpointGroup}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.mirroringEndpointId">mirroringEndpointId</a></code> | <code>string</code> | The ID to use for the new endpoint, which will become the final component of the endpoint's resource name. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.description">description</a></code> | <code>string</code> | User-provided description of the endpoint. Used as additional context for the endpoint. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#id GoogleNetworkSecurityMirroringEndpoint#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#id GoogleNetworkSecurityMirroringEndpoint#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Labels are key/value pairs that help to organize and filter resources. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#project GoogleNetworkSecurityMirroringEndpoint#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#project GoogleNetworkSecurityMirroringEndpoint#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeouts">GoogleNetworkSecurityMirroringEndpointTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1097,7 +1127,7 @@ public readonly location: string;
 
 The cloud location of the endpoint, e.g. 'us-central1-a' or 'asia-south1-b'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#location GoogleNetworkSecurityMirroringEndpoint#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#location GoogleNetworkSecurityMirroringEndpoint#location}
 
 ---
 
@@ -1111,7 +1141,7 @@ public readonly mirroringEndpointGroup: string;
 
 The endpoint group that this endpoint belongs to. Format is: 'projects/{project}/locations/{location}/mirroringEndpointGroups/{mirroringEndpointGroup}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#mirroring_endpoint_group GoogleNetworkSecurityMirroringEndpoint#mirroring_endpoint_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#mirroring_endpoint_group GoogleNetworkSecurityMirroringEndpoint#mirroring_endpoint_group}
 
 ---
 
@@ -1125,7 +1155,29 @@ public readonly mirroringEndpointId: string;
 
 The ID to use for the new endpoint, which will become the final component of the endpoint's resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#mirroring_endpoint_id GoogleNetworkSecurityMirroringEndpoint#mirroring_endpoint_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#mirroring_endpoint_id GoogleNetworkSecurityMirroringEndpoint#mirroring_endpoint_id}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#deletion_policy GoogleNetworkSecurityMirroringEndpoint#deletion_policy}
 
 ---
 
@@ -1139,7 +1191,7 @@ public readonly description: string;
 
 User-provided description of the endpoint. Used as additional context for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#description GoogleNetworkSecurityMirroringEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#description GoogleNetworkSecurityMirroringEndpoint#description}
 
 ---
 
@@ -1151,7 +1203,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#id GoogleNetworkSecurityMirroringEndpoint#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#id GoogleNetworkSecurityMirroringEndpoint#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1171,7 +1223,7 @@ Labels are key/value pairs that help to organize and filter resources.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#labels GoogleNetworkSecurityMirroringEndpoint#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#labels GoogleNetworkSecurityMirroringEndpoint#labels}
 
 ---
 
@@ -1183,7 +1235,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#project GoogleNetworkSecurityMirroringEndpoint#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#project GoogleNetworkSecurityMirroringEndpoint#project}.
 
 ---
 
@@ -1197,7 +1249,7 @@ public readonly timeouts: GoogleNetworkSecurityMirroringEndpointTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#timeouts GoogleNetworkSecurityMirroringEndpoint#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#timeouts GoogleNetworkSecurityMirroringEndpoint#timeouts}
 
 ---
 
@@ -1215,9 +1267,9 @@ const googleNetworkSecurityMirroringEndpointTimeouts: googleNetworkSecurityMirro
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#create GoogleNetworkSecurityMirroringEndpoint#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#delete GoogleNetworkSecurityMirroringEndpoint#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#update GoogleNetworkSecurityMirroringEndpoint#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#create GoogleNetworkSecurityMirroringEndpoint#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#delete GoogleNetworkSecurityMirroringEndpoint#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityMirroringEndpoint.GoogleNetworkSecurityMirroringEndpointTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#update GoogleNetworkSecurityMirroringEndpoint#update}. |
 
 ---
 
@@ -1229,7 +1281,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#create GoogleNetworkSecurityMirroringEndpoint#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#create GoogleNetworkSecurityMirroringEndpoint#create}.
 
 ---
 
@@ -1241,7 +1293,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#delete GoogleNetworkSecurityMirroringEndpoint#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#delete GoogleNetworkSecurityMirroringEndpoint#delete}.
 
 ---
 
@@ -1253,7 +1305,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_mirroring_endpoint#update GoogleNetworkSecurityMirroringEndpoint#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_mirroring_endpoint#update GoogleNetworkSecurityMirroringEndpoint#update}.
 
 ---
 

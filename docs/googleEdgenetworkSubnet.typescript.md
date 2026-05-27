@@ -4,7 +4,7 @@
 
 ### GoogleEdgenetworkSubnet <a name="GoogleEdgenetworkSubnet" id="@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet google_edgenetwork_subnet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet google_edgenetwork_subnet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.resetIpv4Cidr">resetIpv4Cidr</a></code> | *No description.* |
@@ -407,6 +408,12 @@ public putTimeouts(value: GoogleEdgenetworkSubnetTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.resetDescription"></a>
 
 ```typescript
@@ -558,7 +565,7 @@ The construct id used in the generated config for the GoogleEdgenetworkSubnet to
 
 The id of the existing GoogleEdgenetworkSubnet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -595,6 +602,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.terraformLabels">terraformLabels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeoutsOutputReference">GoogleEdgenetworkSubnetTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.ipv4CidrInput">ipv4CidrInput</a></code> | <code>string[]</code> | *No description.* |
@@ -607,6 +615,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts">GoogleEdgenetworkSubnetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.vlanIdInput">vlanIdInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.zoneInput">zoneInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.ipv4Cidr">ipv4Cidr</a></code> | <code>string[]</code> | *No description.* |
@@ -833,6 +842,16 @@ public readonly updateTime: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.descriptionInput"></a>
 
 ```typescript
@@ -947,6 +966,16 @@ public readonly vlanIdInput: number;
 
 ```typescript
 public readonly zoneInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnet.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -1108,12 +1137,13 @@ const googleEdgenetworkSubnetConfig: googleEdgenetworkSubnet.GoogleEdgenetworkSu
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.network">network</a></code> | <code>string</code> | The ID of the network to which this router belongs. Must be of the form: 'projects/{{project}}/locations/{{location}}/zones/{{zone}}/networks/{{network_id}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.subnetId">subnetId</a></code> | <code>string</code> | A unique ID that identifies this subnet. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.zone">zone</a></code> | <code>string</code> | The name of the target Distributed Cloud Edge zone. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.description">description</a></code> | <code>string</code> | A free-text description of the resource. Max length 1024 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#id GoogleEdgenetworkSubnet#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#id GoogleEdgenetworkSubnet#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.ipv4Cidr">ipv4Cidr</a></code> | <code>string[]</code> | The ranges of ipv4 addresses that are owned by this subnetwork, in CIDR format. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.ipv6Cidr">ipv6Cidr</a></code> | <code>string[]</code> | The ranges of ipv6 addresses that are owned by this subnetwork, in CIDR format. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Labels associated with this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#project GoogleEdgenetworkSubnet#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#project GoogleEdgenetworkSubnet#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts">GoogleEdgenetworkSubnetTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.vlanId">vlanId</a></code> | <code>number</code> | VLAN ID for this subnetwork. If not specified, one is assigned automatically. |
 
@@ -1199,7 +1229,7 @@ public readonly location: string;
 
 The Google Cloud region to which the target Distributed Cloud Edge zone belongs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#location GoogleEdgenetworkSubnet#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#location GoogleEdgenetworkSubnet#location}
 
 ---
 
@@ -1213,7 +1243,7 @@ public readonly network: string;
 
 The ID of the network to which this router belongs. Must be of the form: 'projects/{{project}}/locations/{{location}}/zones/{{zone}}/networks/{{network_id}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#network GoogleEdgenetworkSubnet#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#network GoogleEdgenetworkSubnet#network}
 
 ---
 
@@ -1227,7 +1257,7 @@ public readonly subnetId: string;
 
 A unique ID that identifies this subnet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#subnet_id GoogleEdgenetworkSubnet#subnet_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#subnet_id GoogleEdgenetworkSubnet#subnet_id}
 
 ---
 
@@ -1241,7 +1271,29 @@ public readonly zone: string;
 
 The name of the target Distributed Cloud Edge zone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#zone GoogleEdgenetworkSubnet#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#zone GoogleEdgenetworkSubnet#zone}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#deletion_policy GoogleEdgenetworkSubnet#deletion_policy}
 
 ---
 
@@ -1255,7 +1307,7 @@ public readonly description: string;
 
 A free-text description of the resource. Max length 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#description GoogleEdgenetworkSubnet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#description GoogleEdgenetworkSubnet#description}
 
 ---
 
@@ -1267,7 +1319,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#id GoogleEdgenetworkSubnet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#id GoogleEdgenetworkSubnet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1284,7 +1336,7 @@ public readonly ipv4Cidr: string[];
 
 The ranges of ipv4 addresses that are owned by this subnetwork, in CIDR format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#ipv4_cidr GoogleEdgenetworkSubnet#ipv4_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#ipv4_cidr GoogleEdgenetworkSubnet#ipv4_cidr}
 
 ---
 
@@ -1298,7 +1350,7 @@ public readonly ipv6Cidr: string[];
 
 The ranges of ipv6 addresses that are owned by this subnetwork, in CIDR format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#ipv6_cidr GoogleEdgenetworkSubnet#ipv6_cidr}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#ipv6_cidr GoogleEdgenetworkSubnet#ipv6_cidr}
 
 ---
 
@@ -1315,7 +1367,7 @@ Labels associated with this resource.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#labels GoogleEdgenetworkSubnet#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#labels GoogleEdgenetworkSubnet#labels}
 
 ---
 
@@ -1327,7 +1379,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#project GoogleEdgenetworkSubnet#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#project GoogleEdgenetworkSubnet#project}.
 
 ---
 
@@ -1341,7 +1393,7 @@ public readonly timeouts: GoogleEdgenetworkSubnetTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#timeouts GoogleEdgenetworkSubnet#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#timeouts GoogleEdgenetworkSubnet#timeouts}
 
 ---
 
@@ -1355,7 +1407,7 @@ public readonly vlanId: number;
 
 VLAN ID for this subnetwork. If not specified, one is assigned automatically.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#vlan_id GoogleEdgenetworkSubnet#vlan_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#vlan_id GoogleEdgenetworkSubnet#vlan_id}
 
 ---
 
@@ -1373,9 +1425,9 @@ const googleEdgenetworkSubnetTimeouts: googleEdgenetworkSubnet.GoogleEdgenetwork
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#create GoogleEdgenetworkSubnet#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#delete GoogleEdgenetworkSubnet#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#update GoogleEdgenetworkSubnet#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#create GoogleEdgenetworkSubnet#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#delete GoogleEdgenetworkSubnet#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleEdgenetworkSubnet.GoogleEdgenetworkSubnetTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#update GoogleEdgenetworkSubnet#update}. |
 
 ---
 
@@ -1387,7 +1439,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#create GoogleEdgenetworkSubnet#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#create GoogleEdgenetworkSubnet#create}.
 
 ---
 
@@ -1399,7 +1451,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#delete GoogleEdgenetworkSubnet#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#delete GoogleEdgenetworkSubnet#delete}.
 
 ---
 
@@ -1411,7 +1463,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_edgenetwork_subnet#update GoogleEdgenetworkSubnet#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_edgenetwork_subnet#update GoogleEdgenetworkSubnet#update}.
 
 ---
 

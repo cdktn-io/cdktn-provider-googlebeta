@@ -4,7 +4,7 @@
 
 ### GoogleCloudIdsEndpoint <a name="GoogleCloudIdsEndpoint" id="@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint google_cloud_ids_endpoint}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint google_cloud_ids_endpoint}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer"></a>
 
@@ -23,6 +23,7 @@ GoogleCloudIdsEndpoint.Builder.create(Construct scope, java.lang.String id)
     .name(java.lang.String)
     .network(java.lang.String)
     .severity(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
@@ -46,9 +47,10 @@ GoogleCloudIdsEndpoint.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the endpoint in the format projects/{project_id}/locations/{locationId}/endpoints/{endpointId}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.network">network</a></code> | <code>java.lang.String</code> | Name of the VPC network that is connected to the IDS endpoint. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.severity">severity</a></code> | <code>java.lang.String</code> | The minimum alert severity level that is reported by the endpoint. Possible values: ["INFORMATIONAL", "LOW", "MEDIUM", "HIGH", "CRITICAL"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of the endpoint. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#id GoogleCloudIdsEndpoint#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#project GoogleCloudIdsEndpoint#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#id GoogleCloudIdsEndpoint#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#project GoogleCloudIdsEndpoint#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.threatExceptions">threatExceptions</a></code> | <code>java.util.List<java.lang.String></code> | Configuration for threat IDs excluded from generating alerts. Limit: 99 IDs. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts">GoogleCloudIdsEndpointTimeouts</a></code> | timeouts block. |
 
@@ -120,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 The location for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#location GoogleCloudIdsEndpoint#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#location GoogleCloudIdsEndpoint#location}
 
 ---
 
@@ -130,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the endpoint in the format projects/{project_id}/locations/{locationId}/endpoints/{endpointId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#name GoogleCloudIdsEndpoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#name GoogleCloudIdsEndpoint#name}
 
 ---
 
@@ -142,7 +144,7 @@ Name of the VPC network that is connected to the IDS endpoint.
 
 This can either contain the VPC network name itself (like "src-net") or the full URL to the network (like "projects/{project_id}/global/networks/src-net").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#network GoogleCloudIdsEndpoint#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#network GoogleCloudIdsEndpoint#network}
 
 ---
 
@@ -152,7 +154,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The minimum alert severity level that is reported by the endpoint. Possible values: ["INFORMATIONAL", "LOW", "MEDIUM", "HIGH", "CRITICAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#severity GoogleCloudIdsEndpoint#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#severity GoogleCloudIdsEndpoint#severity}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#deletion_policy GoogleCloudIdsEndpoint#deletion_policy}
 
 ---
 
@@ -162,7 +181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#description GoogleCloudIdsEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#description GoogleCloudIdsEndpoint#description}
 
 ---
 
@@ -170,7 +189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#id GoogleCloudIdsEndpoint#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#id GoogleCloudIdsEndpoint#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -181,7 +200,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#project GoogleCloudIdsEndpoint#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#project GoogleCloudIdsEndpoint#project}.
 
 ---
 
@@ -191,7 +210,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration for threat IDs excluded from generating alerts. Limit: 99 IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#threat_exceptions GoogleCloudIdsEndpoint#threat_exceptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#threat_exceptions GoogleCloudIdsEndpoint#threat_exceptions}
 
 ---
 
@@ -201,7 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#timeouts GoogleCloudIdsEndpoint#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#timeouts GoogleCloudIdsEndpoint#timeouts}
 
 ---
 
@@ -234,6 +253,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.resetProject">resetProject</a></code> | *No description.* |
@@ -565,6 +585,12 @@ public void putTimeouts(GoogleCloudIdsEndpointTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.resetDescription"></a>
 
 ```java
@@ -698,7 +724,7 @@ The construct id used in the generated config for the GoogleCloudIdsEndpoint to 
 
 The id of the existing GoogleCloudIdsEndpoint that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -733,6 +759,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.endpointIp">endpointIp</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeoutsOutputReference">GoogleCloudIdsEndpointTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.updateTime">updateTime</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.locationInput">locationInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -742,6 +769,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.severityInput">severityInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.threatExceptionsInput">threatExceptionsInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts">GoogleCloudIdsEndpointTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.location">location</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -945,6 +973,16 @@ public java.lang.String getUpdateTime();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.descriptionInput"></a>
 
 ```java
@@ -1032,6 +1070,16 @@ public IResolvable|GoogleCloudIdsEndpointTimeouts getTimeoutsInput();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts">GoogleCloudIdsEndpointTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpoint.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1154,6 +1202,7 @@ GoogleCloudIdsEndpointConfig.builder()
     .name(java.lang.String)
     .network(java.lang.String)
     .severity(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
@@ -1177,9 +1226,10 @@ GoogleCloudIdsEndpointConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the endpoint in the format projects/{project_id}/locations/{locationId}/endpoints/{endpointId}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.network">network</a></code> | <code>java.lang.String</code> | Name of the VPC network that is connected to the IDS endpoint. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.severity">severity</a></code> | <code>java.lang.String</code> | The minimum alert severity level that is reported by the endpoint. Possible values: ["INFORMATIONAL", "LOW", "MEDIUM", "HIGH", "CRITICAL"]. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of the endpoint. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#id GoogleCloudIdsEndpoint#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#project GoogleCloudIdsEndpoint#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#id GoogleCloudIdsEndpoint#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#project GoogleCloudIdsEndpoint#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.threatExceptions">threatExceptions</a></code> | <code>java.util.List<java.lang.String></code> | Configuration for threat IDs excluded from generating alerts. Limit: 99 IDs. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts">GoogleCloudIdsEndpointTimeouts</a></code> | timeouts block. |
 
@@ -1265,7 +1315,7 @@ public java.lang.String getLocation();
 
 The location for the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#location GoogleCloudIdsEndpoint#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#location GoogleCloudIdsEndpoint#location}
 
 ---
 
@@ -1279,7 +1329,7 @@ public java.lang.String getName();
 
 Name of the endpoint in the format projects/{project_id}/locations/{locationId}/endpoints/{endpointId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#name GoogleCloudIdsEndpoint#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#name GoogleCloudIdsEndpoint#name}
 
 ---
 
@@ -1295,7 +1345,7 @@ Name of the VPC network that is connected to the IDS endpoint.
 
 This can either contain the VPC network name itself (like "src-net") or the full URL to the network (like "projects/{project_id}/global/networks/src-net").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#network GoogleCloudIdsEndpoint#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#network GoogleCloudIdsEndpoint#network}
 
 ---
 
@@ -1309,7 +1359,28 @@ public java.lang.String getSeverity();
 
 The minimum alert severity level that is reported by the endpoint. Possible values: ["INFORMATIONAL", "LOW", "MEDIUM", "HIGH", "CRITICAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#severity GoogleCloudIdsEndpoint#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#severity GoogleCloudIdsEndpoint#severity}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#deletion_policy GoogleCloudIdsEndpoint#deletion_policy}
 
 ---
 
@@ -1323,7 +1394,7 @@ public java.lang.String getDescription();
 
 An optional description of the endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#description GoogleCloudIdsEndpoint#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#description GoogleCloudIdsEndpoint#description}
 
 ---
 
@@ -1335,7 +1406,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#id GoogleCloudIdsEndpoint#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#id GoogleCloudIdsEndpoint#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1350,7 +1421,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#project GoogleCloudIdsEndpoint#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#project GoogleCloudIdsEndpoint#project}.
 
 ---
 
@@ -1364,7 +1435,7 @@ public java.util.List<java.lang.String> getThreatExceptions();
 
 Configuration for threat IDs excluded from generating alerts. Limit: 99 IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#threat_exceptions GoogleCloudIdsEndpoint#threat_exceptions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#threat_exceptions GoogleCloudIdsEndpoint#threat_exceptions}
 
 ---
 
@@ -1378,7 +1449,7 @@ public GoogleCloudIdsEndpointTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#timeouts GoogleCloudIdsEndpoint#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#timeouts GoogleCloudIdsEndpoint#timeouts}
 
 ---
 
@@ -1400,9 +1471,9 @@ GoogleCloudIdsEndpointTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#create GoogleCloudIdsEndpoint#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#delete GoogleCloudIdsEndpoint#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#update GoogleCloudIdsEndpoint#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#create GoogleCloudIdsEndpoint#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#delete GoogleCloudIdsEndpoint#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudIdsEndpoint.GoogleCloudIdsEndpointTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#update GoogleCloudIdsEndpoint#update}. |
 
 ---
 
@@ -1414,7 +1485,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#create GoogleCloudIdsEndpoint#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#create GoogleCloudIdsEndpoint#create}.
 
 ---
 
@@ -1426,7 +1497,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#delete GoogleCloudIdsEndpoint#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#delete GoogleCloudIdsEndpoint#delete}.
 
 ---
 
@@ -1438,7 +1509,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloud_ids_endpoint#update GoogleCloudIdsEndpoint#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloud_ids_endpoint#update GoogleCloudIdsEndpoint#update}.
 
 ---
 

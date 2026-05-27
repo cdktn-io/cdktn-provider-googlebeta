@@ -4,7 +4,7 @@
 
 ### GoogleCesAppRootAgentAssociation <a name="GoogleCesAppRootAgentAssociation" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association google_ces_app_root_agent_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association google_ces_app_root_agent_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
@@ -402,6 +403,12 @@ func PutTimeouts(value GoogleCesAppRootAgentAssociationTimeouts)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.resetId"></a>
 
 ```go
@@ -523,7 +530,7 @@ The construct id used in the generated config for the GoogleCesAppRootAgentAssoc
 
 The id of the existing GoogleCesAppRootAgentAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -556,12 +563,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeoutsOutputReference">GoogleCesAppRootAgentAssociationTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.agentIdInput">AgentIdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.appIdInput">AppIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.agentId">AgentId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.appId">AppId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.location">Location</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.project">Project</a></code> | <code>*string</code> | *No description.* |
@@ -740,6 +749,16 @@ func AppIdInput() *string
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.idInput"></a>
 
 ```go
@@ -794,6 +813,16 @@ func AgentId() *string
 
 ```go
 func AppId() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociation.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
 ```
 
 - *Type:* *string
@@ -868,6 +897,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 	AgentId: *string,
 	AppId: *string,
 	Location: *string,
+	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
 	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts,
@@ -888,8 +918,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.agentId">AgentId</a></code> | <code>*string</code> | The ID or fully qualified resource name of the agent to associate as the root agent of the app. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.appId">AppId</a></code> | <code>*string</code> | The ID of the App. Used to construct the app resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.location">Location</a></code> | <code>*string</code> | The location of the App. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#id GoogleCesAppRootAgentAssociation#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#project GoogleCesAppRootAgentAssociation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#id GoogleCesAppRootAgentAssociation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#project GoogleCesAppRootAgentAssociation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts">GoogleCesAppRootAgentAssociationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -974,7 +1005,7 @@ AgentId *string
 
 The ID or fully qualified resource name of the agent to associate as the root agent of the app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#agent_id GoogleCesAppRootAgentAssociation#agent_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#agent_id GoogleCesAppRootAgentAssociation#agent_id}
 
 ---
 
@@ -988,7 +1019,7 @@ AppId *string
 
 The ID of the App. Used to construct the app resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#app_id GoogleCesAppRootAgentAssociation#app_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#app_id GoogleCesAppRootAgentAssociation#app_id}
 
 ---
 
@@ -1002,7 +1033,28 @@ Location *string
 
 The location of the App.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#location GoogleCesAppRootAgentAssociation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#location GoogleCesAppRootAgentAssociation#location}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#deletion_policy GoogleCesAppRootAgentAssociation#deletion_policy}
 
 ---
 
@@ -1014,7 +1066,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#id GoogleCesAppRootAgentAssociation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#id GoogleCesAppRootAgentAssociation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1029,7 +1081,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#project GoogleCesAppRootAgentAssociation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#project GoogleCesAppRootAgentAssociation#project}.
 
 ---
 
@@ -1043,7 +1095,7 @@ Timeouts GoogleCesAppRootAgentAssociationTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#timeouts GoogleCesAppRootAgentAssociation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#timeouts GoogleCesAppRootAgentAssociation#timeouts}
 
 ---
 
@@ -1065,9 +1117,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#create GoogleCesAppRootAgentAssociation#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#delete GoogleCesAppRootAgentAssociation#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#update GoogleCesAppRootAgentAssociation#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#create GoogleCesAppRootAgentAssociation#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#delete GoogleCesAppRootAgentAssociation#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAppRootAgentAssociation.GoogleCesAppRootAgentAssociationTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#update GoogleCesAppRootAgentAssociation#update}. |
 
 ---
 
@@ -1079,7 +1131,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#create GoogleCesAppRootAgentAssociation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#create GoogleCesAppRootAgentAssociation#create}.
 
 ---
 
@@ -1091,7 +1143,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#delete GoogleCesAppRootAgentAssociation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#delete GoogleCesAppRootAgentAssociation#delete}.
 
 ---
 
@@ -1103,7 +1155,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_app_root_agent_association#update GoogleCesAppRootAgentAssociation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_root_agent_association#update GoogleCesAppRootAgentAssociation#update}.
 
 ---
 

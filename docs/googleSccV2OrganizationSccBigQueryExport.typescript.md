@@ -4,7 +4,7 @@
 
 ### GoogleSccV2OrganizationSccBigQueryExport <a name="GoogleSccV2OrganizationSccBigQueryExport" id="@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export google_scc_v2_organization_scc_big_query_export}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export google_scc_v2_organization_scc_big_query_export}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.resetDataset">resetDataset</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.resetFilter">resetFilter</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.resetId">resetId</a></code> | *No description.* |
@@ -412,6 +413,12 @@ public putTimeouts(value: GoogleSccV2OrganizationSccBigQueryExportTimeouts): voi
 public resetDataset(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.resetDescription"></a>
 
 ```typescript
@@ -551,7 +558,7 @@ The construct id used in the generated config for the GoogleSccV2OrganizationScc
 
 The id of the existing GoogleSccV2OrganizationSccBigQueryExport that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -588,6 +595,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.bigQueryExportIdInput">bigQueryExportIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.datasetInput">datasetInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.filterInput">filterInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
@@ -597,6 +605,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts">GoogleSccV2OrganizationSccBigQueryExportTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.bigQueryExportId">bigQueryExportId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.dataset">dataset</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.filter">filter</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -818,6 +827,16 @@ public readonly datasetInput: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.descriptionInput"></a>
 
 ```typescript
@@ -902,6 +921,16 @@ public readonly bigQueryExportId: string;
 
 ```typescript
 public readonly dataset: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExport.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -1012,9 +1041,10 @@ const googleSccV2OrganizationSccBigQueryExportConfig: googleSccV2OrganizationScc
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.bigQueryExportId">bigQueryExportId</a></code> | <code>string</code> | This must be unique within the organization. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.organization">organization</a></code> | <code>string</code> | The organization whose Cloud Security Command Center the Big Query Export Config lives in. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.dataset">dataset</a></code> | <code>string</code> | The dataset to write findings' updates to. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.description">description</a></code> | <code>string</code> | The description of the notification config (max of 1024 characters). |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.filter">filter</a></code> | <code>string</code> | Expression that defines the filter to apply across create/update events of findings. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#id GoogleSccV2OrganizationSccBigQueryExport#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#id GoogleSccV2OrganizationSccBigQueryExport#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.location">location</a></code> | <code>string</code> | location Id is provided by organization. If not provided, Use global as default. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.name">name</a></code> | <code>string</code> | The resource name of this export, in the format 'organizations/{{organization}}/locations/{{location}}/bigQueryExports/{{big_query_export_id}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts">GoogleSccV2OrganizationSccBigQueryExportTimeouts</a></code> | timeouts block. |
@@ -1101,7 +1131,7 @@ public readonly bigQueryExportId: string;
 
 This must be unique within the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#big_query_export_id GoogleSccV2OrganizationSccBigQueryExport#big_query_export_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#big_query_export_id GoogleSccV2OrganizationSccBigQueryExport#big_query_export_id}
 
 ---
 
@@ -1115,7 +1145,7 @@ public readonly organization: string;
 
 The organization whose Cloud Security Command Center the Big Query Export Config lives in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#organization GoogleSccV2OrganizationSccBigQueryExport#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#organization GoogleSccV2OrganizationSccBigQueryExport#organization}
 
 ---
 
@@ -1132,7 +1162,29 @@ The dataset to write findings' updates to.
 Its format is "projects/[projectId]/datasets/[bigquery_dataset_id]".
 BigQuery Dataset unique ID must contain only letters (a-z, A-Z), numbers (0-9), or underscores (_).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#dataset GoogleSccV2OrganizationSccBigQueryExport#dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#dataset GoogleSccV2OrganizationSccBigQueryExport#dataset}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#deletion_policy GoogleSccV2OrganizationSccBigQueryExport#deletion_policy}
 
 ---
 
@@ -1146,7 +1198,7 @@ public readonly description: string;
 
 The description of the notification config (max of 1024 characters).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#description GoogleSccV2OrganizationSccBigQueryExport#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#description GoogleSccV2OrganizationSccBigQueryExport#description}
 
 ---
 
@@ -1185,7 +1237,7 @@ See
 [Filtering notifications](https://cloud.google.com/security-command-center/docs/how-to-api-filter-notifications)
 for information on how to write a filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#filter GoogleSccV2OrganizationSccBigQueryExport#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#filter GoogleSccV2OrganizationSccBigQueryExport#filter}
 
 ---
 
@@ -1197,7 +1249,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#id GoogleSccV2OrganizationSccBigQueryExport#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#id GoogleSccV2OrganizationSccBigQueryExport#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1214,7 +1266,7 @@ public readonly location: string;
 
 location Id is provided by organization. If not provided, Use global as default.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#location GoogleSccV2OrganizationSccBigQueryExport#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#location GoogleSccV2OrganizationSccBigQueryExport#location}
 
 ---
 
@@ -1230,7 +1282,7 @@ The resource name of this export, in the format 'organizations/{{organization}}/
 
 This field is provided in responses, and is ignored when provided in create requests.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#name GoogleSccV2OrganizationSccBigQueryExport#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#name GoogleSccV2OrganizationSccBigQueryExport#name}
 
 ---
 
@@ -1244,7 +1296,7 @@ public readonly timeouts: GoogleSccV2OrganizationSccBigQueryExportTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#timeouts GoogleSccV2OrganizationSccBigQueryExport#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#timeouts GoogleSccV2OrganizationSccBigQueryExport#timeouts}
 
 ---
 
@@ -1262,9 +1314,9 @@ const googleSccV2OrganizationSccBigQueryExportTimeouts: googleSccV2OrganizationS
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#create GoogleSccV2OrganizationSccBigQueryExport#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#delete GoogleSccV2OrganizationSccBigQueryExport#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#update GoogleSccV2OrganizationSccBigQueryExport#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#create GoogleSccV2OrganizationSccBigQueryExport#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#delete GoogleSccV2OrganizationSccBigQueryExport#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccV2OrganizationSccBigQueryExport.GoogleSccV2OrganizationSccBigQueryExportTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#update GoogleSccV2OrganizationSccBigQueryExport#update}. |
 
 ---
 
@@ -1276,7 +1328,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#create GoogleSccV2OrganizationSccBigQueryExport#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#create GoogleSccV2OrganizationSccBigQueryExport#create}.
 
 ---
 
@@ -1288,7 +1340,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#delete GoogleSccV2OrganizationSccBigQueryExport#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#delete GoogleSccV2OrganizationSccBigQueryExport#delete}.
 
 ---
 
@@ -1300,7 +1352,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_v2_organization_scc_big_query_export#update GoogleSccV2OrganizationSccBigQueryExport#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_organization_scc_big_query_export#update GoogleSccV2OrganizationSccBigQueryExport#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleDiscoveryEngineSitemap <a name="GoogleDiscoveryEngineSitemap" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap google_discovery_engine_sitemap}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer"></a>
 
@@ -21,6 +21,7 @@ GoogleDiscoveryEngineSitemap.Builder.create(Construct scope, java.lang.String id
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .dataStoreId(java.lang.String)
     .location(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleDiscoveryEngineSitemapTimeouts)
@@ -41,8 +42,9 @@ GoogleDiscoveryEngineSitemap.Builder.create(Construct scope, java.lang.String id
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.dataStoreId">dataStoreId</a></code> | <code>java.lang.String</code> | The unique id of the data store. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu". |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts">GoogleDiscoveryEngineSitemapTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.uri">uri</a></code> | <code>java.lang.String</code> | Public URI for the sitemap, e.g. "www.example.com/sitemap.xml". |
 
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The unique id of the data store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#data_store_id GoogleDiscoveryEngineSitemap#data_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#data_store_id GoogleDiscoveryEngineSitemap#data_store_id}
 
 ---
 
@@ -124,7 +126,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#location GoogleDiscoveryEngineSitemap#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#location GoogleDiscoveryEngineSitemap#location}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#deletion_policy GoogleDiscoveryEngineSitemap#deletion_policy}
 
 ---
 
@@ -132,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,7 +162,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}.
 
 ---
 
@@ -153,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#timeouts GoogleDiscoveryEngineSitemap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#timeouts GoogleDiscoveryEngineSitemap#timeouts}
 
 ---
 
@@ -163,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Public URI for the sitemap, e.g. "www.example.com/sitemap.xml".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#uri GoogleDiscoveryEngineSitemap#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#uri GoogleDiscoveryEngineSitemap#uri}
 
 ---
 
@@ -196,6 +215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -526,6 +546,12 @@ public void putTimeouts(GoogleDiscoveryEngineSitemapTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.resetId"></a>
 
 ```java
@@ -653,7 +679,7 @@ The construct id used in the generated config for the GoogleDiscoveryEngineSitem
 
 The id of the existing GoogleDiscoveryEngineSitemap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -688,12 +714,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.sitemapId">sitemapId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeoutsOutputReference">GoogleDiscoveryEngineSitemapTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.dataStoreIdInput">dataStoreIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.locationInput">locationInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts">GoogleDiscoveryEngineSitemapTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.uriInput">uriInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.dataStoreId">dataStoreId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.location">location</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -893,6 +921,16 @@ public java.lang.String getDataStoreIdInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.idInput"></a>
 
 ```java
@@ -947,6 +985,16 @@ public java.lang.String getUriInput();
 
 ```java
 public java.lang.String getDataStoreId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemap.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1030,6 +1078,7 @@ GoogleDiscoveryEngineSitemapConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .dataStoreId(java.lang.String)
     .location(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleDiscoveryEngineSitemapTimeouts)
@@ -1050,8 +1099,9 @@ GoogleDiscoveryEngineSitemapConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.dataStoreId">dataStoreId</a></code> | <code>java.lang.String</code> | The unique id of the data store. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.location">location</a></code> | <code>java.lang.String</code> | The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu". |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts">GoogleDiscoveryEngineSitemapTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.uri">uri</a></code> | <code>java.lang.String</code> | Public URI for the sitemap, e.g. "www.example.com/sitemap.xml". |
 
@@ -1137,7 +1187,7 @@ public java.lang.String getDataStoreId();
 
 The unique id of the data store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#data_store_id GoogleDiscoveryEngineSitemap#data_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#data_store_id GoogleDiscoveryEngineSitemap#data_store_id}
 
 ---
 
@@ -1151,7 +1201,28 @@ public java.lang.String getLocation();
 
 The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#location GoogleDiscoveryEngineSitemap#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#location GoogleDiscoveryEngineSitemap#location}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#deletion_policy GoogleDiscoveryEngineSitemap#deletion_policy}
 
 ---
 
@@ -1163,7 +1234,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#id GoogleDiscoveryEngineSitemap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1178,7 +1249,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#project GoogleDiscoveryEngineSitemap#project}.
 
 ---
 
@@ -1192,7 +1263,7 @@ public GoogleDiscoveryEngineSitemapTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#timeouts GoogleDiscoveryEngineSitemap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#timeouts GoogleDiscoveryEngineSitemap#timeouts}
 
 ---
 
@@ -1206,7 +1277,7 @@ public java.lang.String getUri();
 
 Public URI for the sitemap, e.g. "www.example.com/sitemap.xml".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#uri GoogleDiscoveryEngineSitemap#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#uri GoogleDiscoveryEngineSitemap#uri}
 
 ---
 
@@ -1227,8 +1298,8 @@ GoogleDiscoveryEngineSitemapTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#create GoogleDiscoveryEngineSitemap#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#delete GoogleDiscoveryEngineSitemap#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#create GoogleDiscoveryEngineSitemap#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSitemap.GoogleDiscoveryEngineSitemapTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#delete GoogleDiscoveryEngineSitemap#delete}. |
 
 ---
 
@@ -1240,7 +1311,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#create GoogleDiscoveryEngineSitemap#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#create GoogleDiscoveryEngineSitemap#create}.
 
 ---
 
@@ -1252,7 +1323,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_sitemap#delete GoogleDiscoveryEngineSitemap#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_sitemap#delete GoogleDiscoveryEngineSitemap#delete}.
 
 ---
 

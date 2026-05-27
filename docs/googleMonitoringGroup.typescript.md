@@ -4,7 +4,7 @@
 
 ### GoogleMonitoringGroup <a name="GoogleMonitoringGroup" id="@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group google_monitoring_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group google_monitoring_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.resetIsCluster">resetIsCluster</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.resetParentName">resetParentName</a></code> | *No description.* |
@@ -404,6 +405,12 @@ public putTimeouts(value: GoogleMonitoringGroupTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.resetId"></a>
 
 ```typescript
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleMonitoringGroup to i
 
 The id of the existing GoogleMonitoringGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -569,6 +576,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeoutsOutputReference">GoogleMonitoringGroupTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.displayNameInput">displayNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.filterInput">filterInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
@@ -576,6 +584,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.parentNameInput">parentNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts">GoogleMonitoringGroupTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.displayName">displayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.filter">filter</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -747,6 +756,16 @@ public readonly timeouts: GoogleMonitoringGroupTimeoutsOutputReference;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `displayNameInput`<sup>Optional</sup> <a name="displayNameInput" id="@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.displayNameInput"></a>
 
 ```typescript
@@ -814,6 +833,16 @@ public readonly timeoutsInput: IResolvable | GoogleMonitoringGroupTimeouts;
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts">GoogleMonitoringGroupTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroup.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -920,10 +949,11 @@ const googleMonitoringGroupConfig: googleMonitoringGroup.GoogleMonitoringGroupCo
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.displayName">displayName</a></code> | <code>string</code> | A user-assigned name for this group, used only for display purposes. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.filter">filter</a></code> | <code>string</code> | The filter used to determine which monitored resources belong to this group. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#id GoogleMonitoringGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#id GoogleMonitoringGroup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.isCluster">isCluster</a></code> | <code>boolean \| cdktn.IResolvable</code> | If true, the members of this group are considered to be a cluster. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.parentName">parentName</a></code> | <code>string</code> | The name of the group's parent, if it has one. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#project GoogleMonitoringGroup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#project GoogleMonitoringGroup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts">GoogleMonitoringGroupTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1008,7 +1038,7 @@ public readonly displayName: string;
 
 A user-assigned name for this group, used only for display purposes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#display_name GoogleMonitoringGroup#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#display_name GoogleMonitoringGroup#display_name}
 
 ---
 
@@ -1022,7 +1052,29 @@ public readonly filter: string;
 
 The filter used to determine which monitored resources belong to this group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#filter GoogleMonitoringGroup#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#filter GoogleMonitoringGroup#filter}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#deletion_policy GoogleMonitoringGroup#deletion_policy}
 
 ---
 
@@ -1034,7 +1086,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#id GoogleMonitoringGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#id GoogleMonitoringGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1054,7 +1106,7 @@ If true, the members of this group are considered to be a cluster.
 The system can perform additional analysis on
 groups that are clusters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#is_cluster GoogleMonitoringGroup#is_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#is_cluster GoogleMonitoringGroup#is_cluster}
 
 ---
 
@@ -1072,7 +1124,7 @@ The format is
 "projects/{project_id_or_number}/groups/{group_id}". For
 groups with no parent, parentName is the empty string, "".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#parent_name GoogleMonitoringGroup#parent_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#parent_name GoogleMonitoringGroup#parent_name}
 
 ---
 
@@ -1084,7 +1136,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#project GoogleMonitoringGroup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#project GoogleMonitoringGroup#project}.
 
 ---
 
@@ -1098,7 +1150,7 @@ public readonly timeouts: GoogleMonitoringGroupTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#timeouts GoogleMonitoringGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#timeouts GoogleMonitoringGroup#timeouts}
 
 ---
 
@@ -1116,9 +1168,9 @@ const googleMonitoringGroupTimeouts: googleMonitoringGroup.GoogleMonitoringGroup
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#create GoogleMonitoringGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#delete GoogleMonitoringGroup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#update GoogleMonitoringGroup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#create GoogleMonitoringGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#delete GoogleMonitoringGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringGroup.GoogleMonitoringGroupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#update GoogleMonitoringGroup#update}. |
 
 ---
 
@@ -1130,7 +1182,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#create GoogleMonitoringGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#create GoogleMonitoringGroup#create}.
 
 ---
 
@@ -1142,7 +1194,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#delete GoogleMonitoringGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#delete GoogleMonitoringGroup#delete}.
 
 ---
 
@@ -1154,7 +1206,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_group#update GoogleMonitoringGroup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_group#update GoogleMonitoringGroup#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleNetworkServicesMulticastGroupProducerActivation <a name="GoogleNetworkServicesMulticastGroupProducerActivation" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation google_network_services_multicast_group_producer_activation}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer"></a>
 
@@ -23,6 +23,7 @@ GoogleNetworkServicesMulticastGroupProducerActivation.Builder.create(Construct s
     .multicastGroupProducerActivationId(java.lang.String)
     .multicastGroupRangeActivation(java.lang.String)
     .multicastProducerAssociation(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -46,10 +47,11 @@ GoogleNetworkServicesMulticastGroupProducerActivation.Builder.create(Construct s
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.multicastGroupProducerActivationId">multicastGroupProducerActivationId</a></code> | <code>java.lang.String</code> | A unique name for the multicast group producer activation. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.multicastGroupRangeActivation">multicastGroupRangeActivation</a></code> | <code>java.lang.String</code> | The resource name of the multicast group range activationcreated by the admin in the same zone as this multicast group producer activation. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.multicastProducerAssociation">multicastProducerAssociation</a></code> | <code>java.lang.String</code> | The resource name of the multicast producer association that is in the same zone as this multicast group producer activation. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional text description of the multicast group producer activation. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#id GoogleNetworkServicesMulticastGroupProducerActivation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#id GoogleNetworkServicesMulticastGroupProducerActivation#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key-value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#project GoogleNetworkServicesMulticastGroupProducerActivation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#project GoogleNetworkServicesMulticastGroupProducerActivation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts">GoogleNetworkServicesMulticastGroupProducerActivationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -120,7 +122,7 @@ Must be unique amongst siblings in the same scope
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#location GoogleNetworkServicesMulticastGroupProducerActivation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#location GoogleNetworkServicesMulticastGroupProducerActivation#location}
 
 ---
 
@@ -134,7 +136,7 @@ The name is restricted to letters, numbers, and hyphen, with the first
 character a letter, and the last a letter or a number. The name must not
 exceed 48 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_group_producer_activation_id GoogleNetworkServicesMulticastGroupProducerActivation#multicast_group_producer_activation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_group_producer_activation_id GoogleNetworkServicesMulticastGroupProducerActivation#multicast_group_producer_activation_id}
 
 ---
 
@@ -148,7 +150,7 @@ Use the
 following format:
 // 'projects/* /locations/* /multicastGroupRangeActivations/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_group_range_activation GoogleNetworkServicesMulticastGroupProducerActivation#multicast_group_range_activation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_group_range_activation GoogleNetworkServicesMulticastGroupProducerActivation#multicast_group_range_activation}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -163,9 +165,26 @@ The resource name of the multicast producer association that is in the same zone
 Use the following format:
 'projects/* /locations/* /multicastProducerAssociations/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_producer_association GoogleNetworkServicesMulticastGroupProducerActivation#multicast_producer_association}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_producer_association GoogleNetworkServicesMulticastGroupProducerActivation#multicast_producer_association}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#deletion_policy GoogleNetworkServicesMulticastGroupProducerActivation#deletion_policy}
 
 ---
 
@@ -175,7 +194,7 @@ Note: The above comment contained a comment block ending sequence (* followed by
 
 An optional text description of the multicast group producer activation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#description GoogleNetworkServicesMulticastGroupProducerActivation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#description GoogleNetworkServicesMulticastGroupProducerActivation#description}
 
 ---
 
@@ -183,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#id GoogleNetworkServicesMulticastGroupProducerActivation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#id GoogleNetworkServicesMulticastGroupProducerActivation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +218,7 @@ Labels as key-value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#labels GoogleNetworkServicesMulticastGroupProducerActivation#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#labels GoogleNetworkServicesMulticastGroupProducerActivation#labels}
 
 ---
 
@@ -207,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#project GoogleNetworkServicesMulticastGroupProducerActivation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#project GoogleNetworkServicesMulticastGroupProducerActivation#project}.
 
 ---
 
@@ -217,7 +236,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#timeouts GoogleNetworkServicesMulticastGroupProducerActivation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#timeouts GoogleNetworkServicesMulticastGroupProducerActivation#timeouts}
 
 ---
 
@@ -250,6 +269,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.resetLabels">resetLabels</a></code> | *No description.* |
@@ -581,6 +601,12 @@ public void putTimeouts(GoogleNetworkServicesMulticastGroupProducerActivationTim
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.resetDescription"></a>
 
 ```java
@@ -714,7 +740,7 @@ The construct id used in the generated config for the GoogleNetworkServicesMulti
 
 The id of the existing GoogleNetworkServicesMulticastGroupProducerActivation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -752,6 +778,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeoutsOutputReference">GoogleNetworkServicesMulticastGroupProducerActivationTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.uniqueId">uniqueId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.updateTime">updateTime</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.labelsInput">labelsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -761,6 +788,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.multicastProducerAssociationInput">multicastProducerAssociationInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts">GoogleNetworkServicesMulticastGroupProducerActivationTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -994,6 +1022,16 @@ public java.lang.String getUpdateTime();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.descriptionInput"></a>
 
 ```java
@@ -1081,6 +1119,16 @@ public IResolvable|GoogleNetworkServicesMulticastGroupProducerActivationTimeouts
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts">GoogleNetworkServicesMulticastGroupProducerActivationTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivation.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1203,6 +1251,7 @@ GoogleNetworkServicesMulticastGroupProducerActivationConfig.builder()
     .multicastGroupProducerActivationId(java.lang.String)
     .multicastGroupRangeActivation(java.lang.String)
     .multicastProducerAssociation(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -1226,10 +1275,11 @@ GoogleNetworkServicesMulticastGroupProducerActivationConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.multicastGroupProducerActivationId">multicastGroupProducerActivationId</a></code> | <code>java.lang.String</code> | A unique name for the multicast group producer activation. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.multicastGroupRangeActivation">multicastGroupRangeActivation</a></code> | <code>java.lang.String</code> | The resource name of the multicast group range activationcreated by the admin in the same zone as this multicast group producer activation. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.multicastProducerAssociation">multicastProducerAssociation</a></code> | <code>java.lang.String</code> | The resource name of the multicast producer association that is in the same zone as this multicast group producer activation. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional text description of the multicast group producer activation. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#id GoogleNetworkServicesMulticastGroupProducerActivation#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#id GoogleNetworkServicesMulticastGroupProducerActivation#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key-value pairs. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#project GoogleNetworkServicesMulticastGroupProducerActivation#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#project GoogleNetworkServicesMulticastGroupProducerActivation#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts">GoogleNetworkServicesMulticastGroupProducerActivationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1314,7 +1364,7 @@ public java.lang.String getLocation();
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#location GoogleNetworkServicesMulticastGroupProducerActivation#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#location GoogleNetworkServicesMulticastGroupProducerActivation#location}
 
 ---
 
@@ -1332,7 +1382,7 @@ The name is restricted to letters, numbers, and hyphen, with the first
 character a letter, and the last a letter or a number. The name must not
 exceed 48 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_group_producer_activation_id GoogleNetworkServicesMulticastGroupProducerActivation#multicast_group_producer_activation_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_group_producer_activation_id GoogleNetworkServicesMulticastGroupProducerActivation#multicast_group_producer_activation_id}
 
 ---
 
@@ -1350,7 +1400,7 @@ Use the
 following format:
 // 'projects/* /locations/* /multicastGroupRangeActivations/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_group_range_activation GoogleNetworkServicesMulticastGroupProducerActivation#multicast_group_range_activation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_group_range_activation GoogleNetworkServicesMulticastGroupProducerActivation#multicast_group_range_activation}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1369,9 +1419,30 @@ The resource name of the multicast producer association that is in the same zone
 Use the following format:
 'projects/* /locations/* /multicastProducerAssociations/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_producer_association GoogleNetworkServicesMulticastGroupProducerActivation#multicast_producer_association}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#multicast_producer_association GoogleNetworkServicesMulticastGroupProducerActivation#multicast_producer_association}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#deletion_policy GoogleNetworkServicesMulticastGroupProducerActivation#deletion_policy}
 
 ---
 
@@ -1385,7 +1456,7 @@ public java.lang.String getDescription();
 
 An optional text description of the multicast group producer activation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#description GoogleNetworkServicesMulticastGroupProducerActivation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#description GoogleNetworkServicesMulticastGroupProducerActivation#description}
 
 ---
 
@@ -1397,7 +1468,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#id GoogleNetworkServicesMulticastGroupProducerActivation#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#id GoogleNetworkServicesMulticastGroupProducerActivation#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1417,7 +1488,7 @@ Labels as key-value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#labels GoogleNetworkServicesMulticastGroupProducerActivation#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#labels GoogleNetworkServicesMulticastGroupProducerActivation#labels}
 
 ---
 
@@ -1429,7 +1500,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#project GoogleNetworkServicesMulticastGroupProducerActivation#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#project GoogleNetworkServicesMulticastGroupProducerActivation#project}.
 
 ---
 
@@ -1443,7 +1514,7 @@ public GoogleNetworkServicesMulticastGroupProducerActivationTimeouts getTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#timeouts GoogleNetworkServicesMulticastGroupProducerActivation#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#timeouts GoogleNetworkServicesMulticastGroupProducerActivation#timeouts}
 
 ---
 
@@ -1477,9 +1548,9 @@ GoogleNetworkServicesMulticastGroupProducerActivationTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#create GoogleNetworkServicesMulticastGroupProducerActivation#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#delete GoogleNetworkServicesMulticastGroupProducerActivation#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#update GoogleNetworkServicesMulticastGroupProducerActivation#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#create GoogleNetworkServicesMulticastGroupProducerActivation#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#delete GoogleNetworkServicesMulticastGroupProducerActivation#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkServicesMulticastGroupProducerActivation.GoogleNetworkServicesMulticastGroupProducerActivationTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#update GoogleNetworkServicesMulticastGroupProducerActivation#update}. |
 
 ---
 
@@ -1491,7 +1562,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#create GoogleNetworkServicesMulticastGroupProducerActivation#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#create GoogleNetworkServicesMulticastGroupProducerActivation#create}.
 
 ---
 
@@ -1503,7 +1574,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#delete GoogleNetworkServicesMulticastGroupProducerActivation#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#delete GoogleNetworkServicesMulticastGroupProducerActivation#delete}.
 
 ---
 
@@ -1515,7 +1586,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_services_multicast_group_producer_activation#update GoogleNetworkServicesMulticastGroupProducerActivation#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_multicast_group_producer_activation#update GoogleNetworkServicesMulticastGroupProducerActivation#update}.
 
 ---
 

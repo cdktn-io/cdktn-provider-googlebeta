@@ -4,7 +4,7 @@
 
 ### GoogleAppEngineFirewallRule <a name="GoogleAppEngineFirewallRule" id="@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule google_app_engine_firewall_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule google_app_engine_firewall_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.resetPriority">resetPriority</a></code> | *No description.* |
@@ -404,6 +405,12 @@ public putTimeouts(value: GoogleAppEngineFirewallRuleTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.resetDescription"></a>
 
 ```typescript
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleAppEngineFirewallRul
 
 The id of the existing GoogleAppEngineFirewallRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -569,6 +576,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleTimeoutsOutputReference">GoogleAppEngineFirewallRuleTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.actionInput">actionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.priorityInput">priorityInput</a></code> | <code>number</code> | *No description.* |
@@ -576,6 +584,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.sourceRangeInput">sourceRangeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleTimeouts">GoogleAppEngineFirewallRuleTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.action">action</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.priority">priority</a></code> | <code>number</code> | *No description.* |
@@ -746,6 +755,16 @@ public readonly actionInput: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.descriptionInput"></a>
 
 ```typescript
@@ -810,6 +829,16 @@ public readonly timeoutsInput: IResolvable | GoogleAppEngineFirewallRuleTimeouts
 
 ```typescript
 public readonly action: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRule.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -909,10 +938,11 @@ const googleAppEngineFirewallRuleConfig: googleAppEngineFirewallRule.GoogleAppEn
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.action">action</a></code> | <code>string</code> | The action to take if this rule matches. Possible values: ["UNSPECIFIED_ACTION", "ALLOW", "DENY"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.sourceRange">sourceRange</a></code> | <code>string</code> | IP address or range, defined using CIDR notation, of requests that this rule applies to. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.description">description</a></code> | <code>string</code> | An optional string description of this rule. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#id GoogleAppEngineFirewallRule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#id GoogleAppEngineFirewallRule#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.priority">priority</a></code> | <code>number</code> | A positive integer that defines the order of rule evaluation. Rules with the lowest priority are evaluated first. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#project GoogleAppEngineFirewallRule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#project GoogleAppEngineFirewallRule#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleTimeouts">GoogleAppEngineFirewallRuleTimeouts</a></code> | timeouts block. |
 
 ---
@@ -997,7 +1027,7 @@ public readonly action: string;
 
 The action to take if this rule matches. Possible values: ["UNSPECIFIED_ACTION", "ALLOW", "DENY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#action GoogleAppEngineFirewallRule#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#action GoogleAppEngineFirewallRule#action}
 
 ---
 
@@ -1011,7 +1041,29 @@ public readonly sourceRange: string;
 
 IP address or range, defined using CIDR notation, of requests that this rule applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#source_range GoogleAppEngineFirewallRule#source_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#source_range GoogleAppEngineFirewallRule#source_range}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#deletion_policy GoogleAppEngineFirewallRule#deletion_policy}
 
 ---
 
@@ -1025,7 +1077,7 @@ public readonly description: string;
 
 An optional string description of this rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#description GoogleAppEngineFirewallRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#description GoogleAppEngineFirewallRule#description}
 
 ---
 
@@ -1037,7 +1089,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#id GoogleAppEngineFirewallRule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#id GoogleAppEngineFirewallRule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1058,7 +1110,7 @@ A default rule at priority Int32.MaxValue matches all IPv4 and
 IPv6 traffic when no previous rule matches. Only the action of
 this rule can be modified by the user.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#priority GoogleAppEngineFirewallRule#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#priority GoogleAppEngineFirewallRule#priority}
 
 ---
 
@@ -1070,7 +1122,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#project GoogleAppEngineFirewallRule#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#project GoogleAppEngineFirewallRule#project}.
 
 ---
 
@@ -1084,7 +1136,7 @@ public readonly timeouts: GoogleAppEngineFirewallRuleTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#timeouts GoogleAppEngineFirewallRule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#timeouts GoogleAppEngineFirewallRule#timeouts}
 
 ---
 
@@ -1102,9 +1154,9 @@ const googleAppEngineFirewallRuleTimeouts: googleAppEngineFirewallRule.GoogleApp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#create GoogleAppEngineFirewallRule#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#delete GoogleAppEngineFirewallRule#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#update GoogleAppEngineFirewallRule#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#create GoogleAppEngineFirewallRule#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#delete GoogleAppEngineFirewallRule#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleAppEngineFirewallRule.GoogleAppEngineFirewallRuleTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#update GoogleAppEngineFirewallRule#update}. |
 
 ---
 
@@ -1116,7 +1168,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#create GoogleAppEngineFirewallRule#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#create GoogleAppEngineFirewallRule#create}.
 
 ---
 
@@ -1128,7 +1180,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#delete GoogleAppEngineFirewallRule#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#delete GoogleAppEngineFirewallRule#delete}.
 
 ---
 
@@ -1140,7 +1192,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_app_engine_firewall_rule#update GoogleAppEngineFirewallRule#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_app_engine_firewall_rule#update GoogleAppEngineFirewallRule#update}.
 
 ---
 

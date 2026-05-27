@@ -4,7 +4,7 @@
 
 ### GoogleBackupDrManagementServer <a name="GoogleBackupDrManagementServer" id="@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server google_backup_dr_management_server}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server google_backup_dr_management_server}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.putNetworks">putNetworks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.resetNetworks">resetNetworks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.resetProject">resetProject</a></code> | *No description.* |
@@ -417,6 +418,12 @@ public putTimeouts(value: GoogleBackupDrManagementServerTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.resetId"></a>
 
 ```typescript
@@ -550,7 +557,7 @@ The construct id used in the generated config for the GoogleBackupDrManagementSe
 
 The id of the existing GoogleBackupDrManagementServer that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -584,6 +591,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.networks">networks</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerNetworksList">GoogleBackupDrManagementServerNetworksList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.oauth2ClientId">oauth2ClientId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeoutsOutputReference">GoogleBackupDrManagementServerTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
@@ -591,6 +599,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeouts">GoogleBackupDrManagementServerTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.typeInput">typeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.location">location</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.name">name</a></code> | <code>string</code> | *No description.* |
@@ -781,6 +790,16 @@ public readonly timeouts: GoogleBackupDrManagementServerTimeoutsOutputReference;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.idInput"></a>
 
 ```typescript
@@ -845,6 +864,16 @@ public readonly timeoutsInput: IResolvable | GoogleBackupDrManagementServerTimeo
 
 ```typescript
 public readonly typeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServer.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -944,9 +973,10 @@ const googleBackupDrManagementServerConfig: googleBackupDrManagementServer.Googl
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.location">location</a></code> | <code>string</code> | The location for the management server (management console). |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.name">name</a></code> | <code>string</code> | The name of management server (management console). |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#id GoogleBackupDrManagementServer#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#id GoogleBackupDrManagementServer#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.networks">networks</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerNetworks">GoogleBackupDrManagementServerNetworks</a>[]</code> | networks block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#project GoogleBackupDrManagementServer#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#project GoogleBackupDrManagementServer#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeouts">GoogleBackupDrManagementServerTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.type">type</a></code> | <code>string</code> | The type of management server (management console). Default value: "BACKUP_RESTORE" Possible values: ["BACKUP_RESTORE"]. |
 
@@ -1032,7 +1062,7 @@ public readonly location: string;
 
 The location for the management server (management console).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#location GoogleBackupDrManagementServer#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#location GoogleBackupDrManagementServer#location}
 
 ---
 
@@ -1046,7 +1076,29 @@ public readonly name: string;
 
 The name of management server (management console).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#name GoogleBackupDrManagementServer#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#name GoogleBackupDrManagementServer#name}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#deletion_policy GoogleBackupDrManagementServer#deletion_policy}
 
 ---
 
@@ -1058,7 +1110,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#id GoogleBackupDrManagementServer#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#id GoogleBackupDrManagementServer#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1075,7 +1127,7 @@ public readonly networks: IResolvable | GoogleBackupDrManagementServerNetworks[]
 
 networks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#networks GoogleBackupDrManagementServer#networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#networks GoogleBackupDrManagementServer#networks}
 
 ---
 
@@ -1087,7 +1139,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#project GoogleBackupDrManagementServer#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#project GoogleBackupDrManagementServer#project}.
 
 ---
 
@@ -1101,7 +1153,7 @@ public readonly timeouts: GoogleBackupDrManagementServerTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#timeouts GoogleBackupDrManagementServer#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#timeouts GoogleBackupDrManagementServer#timeouts}
 
 ---
 
@@ -1115,7 +1167,7 @@ public readonly type: string;
 
 The type of management server (management console). Default value: "BACKUP_RESTORE" Possible values: ["BACKUP_RESTORE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#type GoogleBackupDrManagementServer#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#type GoogleBackupDrManagementServer#type}
 
 ---
 
@@ -1159,7 +1211,7 @@ public readonly network: string;
 
 Network with format 'projects/{{project_id}}/global/networks/{{network_id}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#network GoogleBackupDrManagementServer#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#network GoogleBackupDrManagementServer#network}
 
 ---
 
@@ -1173,7 +1225,7 @@ public readonly peeringMode: string;
 
 Type of Network peeringMode Default value: "PRIVATE_SERVICE_ACCESS" Possible values: ["PRIVATE_SERVICE_ACCESS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#peering_mode GoogleBackupDrManagementServer#peering_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#peering_mode GoogleBackupDrManagementServer#peering_mode}
 
 ---
 
@@ -1191,8 +1243,8 @@ const googleBackupDrManagementServerTimeouts: googleBackupDrManagementServer.Goo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#create GoogleBackupDrManagementServer#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#delete GoogleBackupDrManagementServer#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#create GoogleBackupDrManagementServer#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBackupDrManagementServer.GoogleBackupDrManagementServerTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#delete GoogleBackupDrManagementServer#delete}. |
 
 ---
 
@@ -1204,7 +1256,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#create GoogleBackupDrManagementServer#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#create GoogleBackupDrManagementServer#create}.
 
 ---
 
@@ -1216,7 +1268,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_backup_dr_management_server#delete GoogleBackupDrManagementServer#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_backup_dr_management_server#delete GoogleBackupDrManagementServer#delete}.
 
 ---
 

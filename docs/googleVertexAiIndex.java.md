@@ -4,7 +4,7 @@
 
 ### GoogleVertexAiIndex <a name="GoogleVertexAiIndex" id="@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index google_vertex_ai_index}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index google_vertex_ai_index}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer"></a>
 
@@ -21,6 +21,7 @@ GoogleVertexAiIndex.Builder.create(Construct scope, java.lang.String id)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .displayName(java.lang.String)
     .metadata(GoogleVertexAiIndexMetadata)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .encryptionSpec(GoogleVertexAiIndexEncryptionSpec)
 //  .id(java.lang.String)
@@ -45,12 +46,13 @@ GoogleVertexAiIndex.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | The display name of the Index. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.metadata">metadata</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadata">GoogleVertexAiIndexMetadata</a></code> | metadata block. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The description of the Index. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.encryptionSpec">encryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexEncryptionSpec">GoogleVertexAiIndexEncryptionSpec</a></code> | encryption_spec block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.indexUpdateMethod">indexUpdateMethod</a></code> | <code>java.lang.String</code> | The update method to use with this Index. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | The labels with user-defined metadata to organize your Indexes. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The region of the index. eg us-central1. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts">GoogleVertexAiIndexTimeouts</a></code> | timeouts block. |
 
@@ -124,7 +126,7 @@ The display name of the Index.
 
 The name can be up to 128 characters long and can consist of any UTF-8 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#display_name GoogleVertexAiIndex#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#display_name GoogleVertexAiIndex#display_name}
 
 ---
 
@@ -134,7 +136,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#metadata GoogleVertexAiIndex#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#metadata GoogleVertexAiIndex#metadata}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#deletion_policy GoogleVertexAiIndex#deletion_policy}
 
 ---
 
@@ -144,7 +163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the Index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#description GoogleVertexAiIndex#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#description GoogleVertexAiIndex#description}
 
 ---
 
@@ -154,7 +173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#encryption_spec GoogleVertexAiIndex#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#encryption_spec GoogleVertexAiIndex#encryption_spec}
 
 ---
 
@@ -162,7 +181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -180,7 +199,7 @@ The value must be the followings. If not set, BATCH_UPDATE will be used by defau
 * BATCH_UPDATE: user can call indexes.patch with files on Cloud Storage of datapoints to update.
 * STREAM_UPDATE: user can call indexes.upsertDatapoints/DeleteDatapoints to update the Index and the updates will be applied in corresponding DeployedIndexes in nearly real-time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#index_update_method GoogleVertexAiIndex#index_update_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#index_update_method GoogleVertexAiIndex#index_update_method}
 
 ---
 
@@ -193,7 +212,7 @@ The labels with user-defined metadata to organize your Indexes.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#labels GoogleVertexAiIndex#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#labels GoogleVertexAiIndex#labels}
 
 ---
 
@@ -201,7 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}.
 
 ---
 
@@ -211,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The region of the index. eg us-central1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#region GoogleVertexAiIndex#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#region GoogleVertexAiIndex#region}
 
 ---
 
@@ -221,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#timeouts GoogleVertexAiIndex#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#timeouts GoogleVertexAiIndex#timeouts}
 
 ---
 
@@ -256,6 +275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.putEncryptionSpec">putEncryptionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.putMetadata">putMetadata</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.resetEncryptionSpec">resetEncryptionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.resetId">resetId</a></code> | *No description.* |
@@ -614,6 +634,12 @@ public void putTimeouts(GoogleVertexAiIndexTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.resetDescription"></a>
 
 ```java
@@ -765,7 +791,7 @@ The construct id used in the generated config for the GoogleVertexAiIndex to imp
 
 The id of the existing GoogleVertexAiIndex that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -807,6 +833,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.terraformLabels">terraformLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeoutsOutputReference">GoogleVertexAiIndexTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.updateTime">updateTime</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.encryptionSpecInput">encryptionSpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexEncryptionSpec">GoogleVertexAiIndexEncryptionSpec</a></code> | *No description.* |
@@ -817,6 +844,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.regionInput">regionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts">GoogleVertexAiIndexTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1089,6 +1117,16 @@ public java.lang.String getUpdateTime();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.descriptionInput"></a>
 
 ```java
@@ -1186,6 +1224,16 @@ public IResolvable|GoogleVertexAiIndexTimeouts getTimeoutsInput();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts">GoogleVertexAiIndexTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndex.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1296,6 +1344,7 @@ GoogleVertexAiIndexConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .displayName(java.lang.String)
     .metadata(GoogleVertexAiIndexMetadata)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .encryptionSpec(GoogleVertexAiIndexEncryptionSpec)
 //  .id(java.lang.String)
@@ -1320,12 +1369,13 @@ GoogleVertexAiIndexConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | The display name of the Index. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.metadata">metadata</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexMetadata">GoogleVertexAiIndexMetadata</a></code> | metadata block. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.description">description</a></code> | <code>java.lang.String</code> | The description of the Index. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.encryptionSpec">encryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexEncryptionSpec">GoogleVertexAiIndexEncryptionSpec</a></code> | encryption_spec block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.indexUpdateMethod">indexUpdateMethod</a></code> | <code>java.lang.String</code> | The update method to use with this Index. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | The labels with user-defined metadata to organize your Indexes. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.region">region</a></code> | <code>java.lang.String</code> | The region of the index. eg us-central1. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts">GoogleVertexAiIndexTimeouts</a></code> | timeouts block. |
 
@@ -1413,7 +1463,7 @@ The display name of the Index.
 
 The name can be up to 128 characters long and can consist of any UTF-8 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#display_name GoogleVertexAiIndex#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#display_name GoogleVertexAiIndex#display_name}
 
 ---
 
@@ -1427,7 +1477,28 @@ public GoogleVertexAiIndexMetadata getMetadata();
 
 metadata block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#metadata GoogleVertexAiIndex#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#metadata GoogleVertexAiIndex#metadata}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#deletion_policy GoogleVertexAiIndex#deletion_policy}
 
 ---
 
@@ -1441,7 +1512,7 @@ public java.lang.String getDescription();
 
 The description of the Index.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#description GoogleVertexAiIndex#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#description GoogleVertexAiIndex#description}
 
 ---
 
@@ -1455,7 +1526,7 @@ public GoogleVertexAiIndexEncryptionSpec getEncryptionSpec();
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#encryption_spec GoogleVertexAiIndex#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#encryption_spec GoogleVertexAiIndex#encryption_spec}
 
 ---
 
@@ -1467,7 +1538,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#id GoogleVertexAiIndex#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1489,7 +1560,7 @@ The value must be the followings. If not set, BATCH_UPDATE will be used by defau
 * BATCH_UPDATE: user can call indexes.patch with files on Cloud Storage of datapoints to update.
 * STREAM_UPDATE: user can call indexes.upsertDatapoints/DeleteDatapoints to update the Index and the updates will be applied in corresponding DeployedIndexes in nearly real-time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#index_update_method GoogleVertexAiIndex#index_update_method}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#index_update_method GoogleVertexAiIndex#index_update_method}
 
 ---
 
@@ -1506,7 +1577,7 @@ The labels with user-defined metadata to organize your Indexes.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#labels GoogleVertexAiIndex#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#labels GoogleVertexAiIndex#labels}
 
 ---
 
@@ -1518,7 +1589,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#project GoogleVertexAiIndex#project}.
 
 ---
 
@@ -1532,7 +1603,7 @@ public java.lang.String getRegion();
 
 The region of the index. eg us-central1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#region GoogleVertexAiIndex#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#region GoogleVertexAiIndex#region}
 
 ---
 
@@ -1546,7 +1617,7 @@ public GoogleVertexAiIndexTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#timeouts GoogleVertexAiIndex#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#timeouts GoogleVertexAiIndex#timeouts}
 
 ---
 
@@ -1594,7 +1665,7 @@ Required.
 
 The Cloud KMS resource identifier of the customer managed encryption key used to protect a resource. Has the form: 'projects/my-project/locations/my-region/keyRings/my-kr/cryptoKeys/my-key'. The key needs to be in the same region as where the compute resource is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#kms_key_name GoogleVertexAiIndex#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#kms_key_name GoogleVertexAiIndex#kms_key_name}
 
 ---
 
@@ -1644,7 +1715,7 @@ public GoogleVertexAiIndexMetadataConfig getConfig();
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#config GoogleVertexAiIndex#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#config GoogleVertexAiIndex#config}
 
 ---
 
@@ -1664,7 +1735,7 @@ Index field can be also updated as part of the same call.
 The expected structure and format of the files this URI points to is
 described at https://cloud.google.com/vertex-ai/docs/matching-engine/using-matching-engine#input-data-format
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#contents_delta_uri GoogleVertexAiIndex#contents_delta_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#contents_delta_uri GoogleVertexAiIndex#contents_delta_uri}
 
 ---
 
@@ -1678,7 +1749,7 @@ public java.lang.Boolean|IResolvable getIsCompleteOverwrite();
 
 If this field is set together with contentsDeltaUri when calling IndexService.UpdateIndex, then existing content of the Index will be replaced by the data from the contentsDeltaUri.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#is_complete_overwrite GoogleVertexAiIndex#is_complete_overwrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#is_complete_overwrite GoogleVertexAiIndex#is_complete_overwrite}
 
 ---
 
@@ -1722,7 +1793,7 @@ public java.lang.Number getDimensions();
 
 The number of dimensions of the input vectors.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#dimensions GoogleVertexAiIndex#dimensions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#dimensions GoogleVertexAiIndex#dimensions}
 
 ---
 
@@ -1736,7 +1807,7 @@ public GoogleVertexAiIndexMetadataConfigAlgorithmConfig getAlgorithmConfig();
 
 algorithm_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#algorithm_config GoogleVertexAiIndex#algorithm_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#algorithm_config GoogleVertexAiIndex#algorithm_config}
 
 ---
 
@@ -1754,7 +1825,7 @@ Exact reordering is a procedure where results returned by an
 approximate search algorithm are reordered via a more expensive distance computation.
 Required if tree-AH algorithm is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#approximate_neighbors_count GoogleVertexAiIndex#approximate_neighbors_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#approximate_neighbors_count GoogleVertexAiIndex#approximate_neighbors_count}
 
 ---
 
@@ -1775,7 +1846,7 @@ The value must be one of the followings:
 * COSINE_DISTANCE: Cosine Distance. Defined as 1 - cosine similarity.
 * DOT_PRODUCT_DISTANCE: Dot Product Distance. Defined as a negative of the dot product
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#distance_measure_type GoogleVertexAiIndex#distance_measure_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#distance_measure_type GoogleVertexAiIndex#distance_measure_type}
 
 ---
 
@@ -1794,7 +1865,7 @@ The value must be one of the followings:
 * UNIT_L2_NORM: Unit L2 normalization type
 * NONE: No normalization type is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#feature_norm_type GoogleVertexAiIndex#feature_norm_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#feature_norm_type GoogleVertexAiIndex#feature_norm_type}
 
 ---
 
@@ -1815,7 +1886,7 @@ The shard size must be specified when creating an index. The value must be one o
 * SHARD_SIZE_MEDIUM: Medium (20GB)
 * SHARD_SIZE_LARGE: Large (50GB)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#shard_size GoogleVertexAiIndex#shard_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#shard_size GoogleVertexAiIndex#shard_size}
 
 ---
 
@@ -1851,7 +1922,7 @@ public GoogleVertexAiIndexMetadataConfigAlgorithmConfigBruteForceConfig getBrute
 
 brute_force_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#brute_force_config GoogleVertexAiIndex#brute_force_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#brute_force_config GoogleVertexAiIndex#brute_force_config}
 
 ---
 
@@ -1865,7 +1936,7 @@ public GoogleVertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig getTreeAhCon
 
 tree_ah_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#tree_ah_config GoogleVertexAiIndex#tree_ah_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#tree_ah_config GoogleVertexAiIndex#tree_ah_config}
 
 ---
 
@@ -1913,7 +1984,7 @@ public java.lang.Number getLeafNodeEmbeddingCount();
 
 Number of embeddings on each leaf node. The default value is 1000 if not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#leaf_node_embedding_count GoogleVertexAiIndex#leaf_node_embedding_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#leaf_node_embedding_count GoogleVertexAiIndex#leaf_node_embedding_count}
 
 ---
 
@@ -1930,7 +2001,7 @@ The default percentage of leaf nodes that any query may be searched.
 Must be in
 range 1-100, inclusive. The default value is 10 (means 10%) if not set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#leaf_nodes_to_search_percent GoogleVertexAiIndex#leaf_nodes_to_search_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#leaf_nodes_to_search_percent GoogleVertexAiIndex#leaf_nodes_to_search_percent}
 
 ---
 
@@ -1952,9 +2023,9 @@ GoogleVertexAiIndexTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#create GoogleVertexAiIndex#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#delete GoogleVertexAiIndex#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#update GoogleVertexAiIndex#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#create GoogleVertexAiIndex#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#delete GoogleVertexAiIndex#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiIndex.GoogleVertexAiIndexTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#update GoogleVertexAiIndex#update}. |
 
 ---
 
@@ -1966,7 +2037,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#create GoogleVertexAiIndex#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#create GoogleVertexAiIndex#create}.
 
 ---
 
@@ -1978,7 +2049,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#delete GoogleVertexAiIndex#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#delete GoogleVertexAiIndex#delete}.
 
 ---
 
@@ -1990,7 +2061,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_index#update GoogleVertexAiIndex#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_index#update GoogleVertexAiIndex#update}.
 
 ---
 

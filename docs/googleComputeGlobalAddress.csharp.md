@@ -4,7 +4,7 @@
 
 ### GoogleComputeGlobalAddress <a name="GoogleComputeGlobalAddress" id="@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address google_compute_global_address}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address google_compute_global_address}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.resetAddress">ResetAddress</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.resetAddressType">ResetAddressType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.resetIpVersion">ResetIpVersion</a></code> | *No description.* |
@@ -422,6 +423,12 @@ private void ResetAddress()
 private void ResetAddressType()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.resetDescription"></a>
 
 ```csharp
@@ -579,7 +586,7 @@ The construct id used in the generated config for the GoogleComputeGlobalAddress
 
 The id of the existing GoogleComputeGlobalAddress that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -617,6 +624,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeoutsOutputReference">GoogleComputeGlobalAddressTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.addressInput">AddressInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.addressTypeInput">AddressTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.ipVersionInput">IpVersionInput</a></code> | <code>string</code> | *No description.* |
@@ -629,6 +637,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts">GoogleComputeGlobalAddressTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.address">Address</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.addressType">AddressType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.ipVersion">IpVersion</a></code> | <code>string</code> | *No description.* |
@@ -863,6 +872,16 @@ public string AddressTypeInput { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.descriptionInput"></a>
 
 ```csharp
@@ -977,6 +996,16 @@ public string Address { get; }
 
 ```csharp
 public string AddressType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddress.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
 ```
 
 - *Type:* string
@@ -1111,6 +1140,7 @@ new GoogleComputeGlobalAddressConfig {
     string Name,
     string Address = null,
     string AddressType = null,
+    string DeletionPolicy = null,
     string Description = null,
     string Id = null,
     string IpVersion = null,
@@ -1137,13 +1167,14 @@ new GoogleComputeGlobalAddressConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.name">Name</a></code> | <code>string</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.address">Address</a></code> | <code>string</code> | The IP address or beginning of the address range represented by this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.addressType">AddressType</a></code> | <code>string</code> | The type of the address to reserve. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.description">Description</a></code> | <code>string</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#id GoogleComputeGlobalAddress#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#id GoogleComputeGlobalAddress#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.ipVersion">IpVersion</a></code> | <code>string</code> | The IP Version that will be used by this address. The default value is 'IPV4'. Possible values: ["IPV4", "IPV6"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Labels to apply to this address.  A list of key->value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.network">Network</a></code> | <code>string</code> | The URL of the network in which to reserve the IP range. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.prefixLength">PrefixLength</a></code> | <code>double</code> | The prefix length of the IP range. If not present, it means the address field is a single IP address. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#project GoogleComputeGlobalAddress#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#project GoogleComputeGlobalAddress#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.purpose">Purpose</a></code> | <code>string</code> | The purpose of the resource. Possible values include:. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts">GoogleComputeGlobalAddressTimeouts</a></code> | timeouts block. |
 
@@ -1237,7 +1268,7 @@ the first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#name GoogleComputeGlobalAddress#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#name GoogleComputeGlobalAddress#name}
 
 ---
 
@@ -1254,7 +1285,7 @@ The IP address or beginning of the address range represented by this resource.
 This can be supplied as an input to reserve a specific
 address or omitted to allow GCP to choose a valid one for you.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#address GoogleComputeGlobalAddress#address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#address GoogleComputeGlobalAddress#address}
 
 ---
 
@@ -1271,7 +1302,28 @@ The type of the address to reserve.
 * EXTERNAL indicates public/external single IP address.
 * INTERNAL indicates internal IP ranges belonging to some network. Default value: "EXTERNAL" Possible values: ["EXTERNAL", "INTERNAL"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#address_type GoogleComputeGlobalAddress#address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#address_type GoogleComputeGlobalAddress#address_type}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#deletion_policy GoogleComputeGlobalAddress#deletion_policy}
 
 ---
 
@@ -1285,7 +1337,7 @@ public string Description { get; set; }
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#description GoogleComputeGlobalAddress#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#description GoogleComputeGlobalAddress#description}
 
 ---
 
@@ -1297,7 +1349,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#id GoogleComputeGlobalAddress#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#id GoogleComputeGlobalAddress#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1314,7 +1366,7 @@ public string IpVersion { get; set; }
 
 The IP Version that will be used by this address. The default value is 'IPV4'. Possible values: ["IPV4", "IPV6"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#ip_version GoogleComputeGlobalAddress#ip_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#ip_version GoogleComputeGlobalAddress#ip_version}
 
 ---
 
@@ -1331,7 +1383,7 @@ Labels to apply to this address.  A list of key->value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#labels GoogleComputeGlobalAddress#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#labels GoogleComputeGlobalAddress#labels}
 
 ---
 
@@ -1351,7 +1403,7 @@ any reserved IP ranges referring to it.
 
 This should only be set when using an Internal address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#network GoogleComputeGlobalAddress#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#network GoogleComputeGlobalAddress#network}
 
 ---
 
@@ -1368,7 +1420,7 @@ The prefix length of the IP range. If not present, it means the address field is
 This field is not applicable to addresses with addressType=INTERNAL
 when purpose=PRIVATE_SERVICE_CONNECT
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#prefix_length GoogleComputeGlobalAddress#prefix_length}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#prefix_length GoogleComputeGlobalAddress#prefix_length}
 
 ---
 
@@ -1380,7 +1432,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#project GoogleComputeGlobalAddress#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#project GoogleComputeGlobalAddress#project}.
 
 ---
 
@@ -1397,7 +1449,7 @@ The purpose of the resource. Possible values include:.
 * VPC_PEERING - for peer networks
 * PRIVATE_SERVICE_CONNECT - for ([Beta](../guides/provider_versions.html.markdown)) only) Private Service Connect networks
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#purpose GoogleComputeGlobalAddress#purpose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#purpose GoogleComputeGlobalAddress#purpose}
 
 ---
 
@@ -1411,7 +1463,7 @@ public GoogleComputeGlobalAddressTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#timeouts GoogleComputeGlobalAddress#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#timeouts GoogleComputeGlobalAddress#timeouts}
 
 ---
 
@@ -1433,9 +1485,9 @@ new GoogleComputeGlobalAddressTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#create GoogleComputeGlobalAddress#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#delete GoogleComputeGlobalAddress#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#update GoogleComputeGlobalAddress#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#create GoogleComputeGlobalAddress#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#delete GoogleComputeGlobalAddress#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeGlobalAddress.GoogleComputeGlobalAddressTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#update GoogleComputeGlobalAddress#update}. |
 
 ---
 
@@ -1447,7 +1499,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#create GoogleComputeGlobalAddress#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#create GoogleComputeGlobalAddress#create}.
 
 ---
 
@@ -1459,7 +1511,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#delete GoogleComputeGlobalAddress#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#delete GoogleComputeGlobalAddress#delete}.
 
 ---
 
@@ -1471,7 +1523,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_global_address#update GoogleComputeGlobalAddress#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_global_address#update GoogleComputeGlobalAddress#update}.
 
 ---
 

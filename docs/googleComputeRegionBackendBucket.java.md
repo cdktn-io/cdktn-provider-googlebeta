@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionBackendBucket <a name="GoogleComputeRegionBackendBucket" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket google_compute_region_backend_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket google_compute_region_backend_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer"></a>
 
@@ -22,6 +22,7 @@ GoogleComputeRegionBackendBucket.Builder.create(Construct scope, java.lang.Strin
     .bucketName(java.lang.String)
     .name(java.lang.String)
     .region(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .loadBalancingScheme(java.lang.String)
@@ -44,10 +45,11 @@ GoogleComputeRegionBackendBucket.Builder.create(Construct scope, java.lang.Strin
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.bucketName">bucketName</a></code> | <code>java.lang.String</code> | Cloud Storage bucket name. The bucket must be in the same region as this backend bucket. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The region where the backend bucket resides. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional textual description of the resource; provided by the client when the resource is created. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.loadBalancingScheme">loadBalancingScheme</a></code> | <code>java.lang.String</code> | Specifies the load balancer type this backend bucket will be used with. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts">GoogleComputeRegionBackendBucketTimeouts</a></code> | timeouts block. |
 
 ---
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Cloud Storage bucket name. The bucket must be in the same region as this backend bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#bucket_name GoogleComputeRegionBackendBucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#bucket_name GoogleComputeRegionBackendBucket#bucket_name}
 
 ---
 
@@ -136,7 +138,7 @@ the first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the
 last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#name GoogleComputeRegionBackendBucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#name GoogleComputeRegionBackendBucket#name}
 
 ---
 
@@ -146,7 +148,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The region where the backend bucket resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#region GoogleComputeRegionBackendBucket#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#region GoogleComputeRegionBackendBucket#region}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#deletion_policy GoogleComputeRegionBackendBucket#deletion_policy}
 
 ---
 
@@ -156,7 +175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional textual description of the resource; provided by the client when the resource is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#description GoogleComputeRegionBackendBucket#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#description GoogleComputeRegionBackendBucket#description}
 
 ---
 
@@ -164,7 +183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -184,7 +203,7 @@ Possible values:
 
 This field is required for regional backend buckets. Possible values: ["INTERNAL_MANAGED", "EXTERNAL_MANAGED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#load_balancing_scheme GoogleComputeRegionBackendBucket#load_balancing_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#load_balancing_scheme GoogleComputeRegionBackendBucket#load_balancing_scheme}
 
 ---
 
@@ -192,7 +211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}.
 
 ---
 
@@ -202,7 +221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#timeouts GoogleComputeRegionBackendBucket#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#timeouts GoogleComputeRegionBackendBucket#timeouts}
 
 ---
 
@@ -235,6 +254,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.resetLoadBalancingScheme">resetLoadBalancingScheme</a></code> | *No description.* |
@@ -566,6 +586,12 @@ public void putTimeouts(GoogleComputeRegionBackendBucketTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.resetDescription"></a>
 
 ```java
@@ -699,7 +725,7 @@ The construct id used in the generated config for the GoogleComputeRegionBackend
 
 The id of the existing GoogleComputeRegionBackendBucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -733,6 +759,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.selfLink">selfLink</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeoutsOutputReference">GoogleComputeRegionBackendBucketTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.bucketNameInput">bucketNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.loadBalancingSchemeInput">loadBalancingSchemeInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -741,6 +768,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.regionInput">regionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts">GoogleComputeRegionBackendBucketTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.bucketName">bucketName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.loadBalancingScheme">loadBalancingScheme</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -932,6 +960,16 @@ public java.lang.String getBucketNameInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.descriptionInput"></a>
 
 ```java
@@ -1006,6 +1044,16 @@ public IResolvable|GoogleComputeRegionBackendBucketTimeouts getTimeoutsInput();
 
 ```java
 public java.lang.String getBucketName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucket.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1110,6 +1158,7 @@ GoogleComputeRegionBackendBucketConfig.builder()
     .bucketName(java.lang.String)
     .name(java.lang.String)
     .region(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .loadBalancingScheme(java.lang.String)
@@ -1132,10 +1181,11 @@ GoogleComputeRegionBackendBucketConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.bucketName">bucketName</a></code> | <code>java.lang.String</code> | Cloud Storage bucket name. The bucket must be in the same region as this backend bucket. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.region">region</a></code> | <code>java.lang.String</code> | The region where the backend bucket resides. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional textual description of the resource; provided by the client when the resource is created. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.loadBalancingScheme">loadBalancingScheme</a></code> | <code>java.lang.String</code> | Specifies the load balancer type this backend bucket will be used with. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts">GoogleComputeRegionBackendBucketTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1220,7 +1270,7 @@ public java.lang.String getBucketName();
 
 Cloud Storage bucket name. The bucket must be in the same region as this backend bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#bucket_name GoogleComputeRegionBackendBucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#bucket_name GoogleComputeRegionBackendBucket#bucket_name}
 
 ---
 
@@ -1242,7 +1292,7 @@ the first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the
 last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#name GoogleComputeRegionBackendBucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#name GoogleComputeRegionBackendBucket#name}
 
 ---
 
@@ -1256,7 +1306,28 @@ public java.lang.String getRegion();
 
 The region where the backend bucket resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#region GoogleComputeRegionBackendBucket#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#region GoogleComputeRegionBackendBucket#region}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#deletion_policy GoogleComputeRegionBackendBucket#deletion_policy}
 
 ---
 
@@ -1270,7 +1341,7 @@ public java.lang.String getDescription();
 
 An optional textual description of the resource; provided by the client when the resource is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#description GoogleComputeRegionBackendBucket#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#description GoogleComputeRegionBackendBucket#description}
 
 ---
 
@@ -1282,7 +1353,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#id GoogleComputeRegionBackendBucket#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1306,7 +1377,7 @@ Possible values:
 
 This field is required for regional backend buckets. Possible values: ["INTERNAL_MANAGED", "EXTERNAL_MANAGED"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#load_balancing_scheme GoogleComputeRegionBackendBucket#load_balancing_scheme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#load_balancing_scheme GoogleComputeRegionBackendBucket#load_balancing_scheme}
 
 ---
 
@@ -1318,7 +1389,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#project GoogleComputeRegionBackendBucket#project}.
 
 ---
 
@@ -1332,7 +1403,7 @@ public GoogleComputeRegionBackendBucketTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#timeouts GoogleComputeRegionBackendBucket#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#timeouts GoogleComputeRegionBackendBucket#timeouts}
 
 ---
 
@@ -1354,9 +1425,9 @@ GoogleComputeRegionBackendBucketTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#create GoogleComputeRegionBackendBucket#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#delete GoogleComputeRegionBackendBucket#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#update GoogleComputeRegionBackendBucket#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#create GoogleComputeRegionBackendBucket#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#delete GoogleComputeRegionBackendBucket#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucket.GoogleComputeRegionBackendBucketTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#update GoogleComputeRegionBackendBucket#update}. |
 
 ---
 
@@ -1368,7 +1439,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#create GoogleComputeRegionBackendBucket#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#create GoogleComputeRegionBackendBucket#create}.
 
 ---
 
@@ -1380,7 +1451,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#delete GoogleComputeRegionBackendBucket#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#delete GoogleComputeRegionBackendBucket#delete}.
 
 ---
 
@@ -1392,7 +1463,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_backend_bucket#update GoogleComputeRegionBackendBucket#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_backend_bucket#update GoogleComputeRegionBackendBucket#update}.
 
 ---
 
