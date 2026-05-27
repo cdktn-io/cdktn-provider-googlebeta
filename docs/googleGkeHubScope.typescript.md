@@ -4,7 +4,7 @@
 
 ### GoogleGkeHubScope <a name="GoogleGkeHubScope" id="@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope google_gke_hub_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope google_gke_hub_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.resetLabels">resetLabels</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.resetNamespaceLabels">resetNamespaceLabels</a></code> | *No description.* |
@@ -404,6 +405,12 @@ public putTimeouts(value: GoogleGkeHubScopeTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.resetId"></a>
 
 ```typescript
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleGkeHubScope to impor
 
 The id of the existing GoogleGkeHubScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -576,12 +583,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeoutsOutputReference">GoogleGkeHubScopeTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.uid">uid</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.labelsInput">labelsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.namespaceLabelsInput">namespaceLabelsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.scopeIdInput">scopeIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts">GoogleGkeHubScopeTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.namespaceLabels">namespaceLabels</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
@@ -822,6 +831,16 @@ public readonly updateTime: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.idInput"></a>
 
 ```typescript
@@ -879,6 +898,16 @@ public readonly timeoutsInput: IResolvable | GoogleGkeHubScopeTimeouts;
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts">GoogleGkeHubScopeTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScope.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -974,10 +1003,11 @@ const googleGkeHubScopeConfig: googleGkeHubScope.GoogleGkeHubScopeConfig = { ...
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.scopeId">scopeId</a></code> | <code>string</code> | The client-provided identifier of the scope. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#id GoogleGkeHubScope#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#id GoogleGkeHubScope#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Labels for this Scope. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.namespaceLabels">namespaceLabels</a></code> | <code>{[ key: string ]: string}</code> | Scope-level cluster namespace labels. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#project GoogleGkeHubScope#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#project GoogleGkeHubScope#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts">GoogleGkeHubScopeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1062,7 +1092,29 @@ public readonly scopeId: string;
 
 The client-provided identifier of the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#scope_id GoogleGkeHubScope#scope_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#scope_id GoogleGkeHubScope#scope_id}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#deletion_policy GoogleGkeHubScope#deletion_policy}
 
 ---
 
@@ -1074,7 +1126,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#id GoogleGkeHubScope#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#id GoogleGkeHubScope#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1094,7 +1146,7 @@ Labels for this Scope.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#labels GoogleGkeHubScope#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#labels GoogleGkeHubScope#labels}
 
 ---
 
@@ -1114,7 +1166,7 @@ Scope. Scope-level labels take precedence over Namespace-level
 labels ('namespace_labels' in the Fleet Namespace resource) if they
 share a key. Keys and values must be Kubernetes-conformant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#namespace_labels GoogleGkeHubScope#namespace_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#namespace_labels GoogleGkeHubScope#namespace_labels}
 
 ---
 
@@ -1126,7 +1178,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#project GoogleGkeHubScope#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#project GoogleGkeHubScope#project}.
 
 ---
 
@@ -1140,7 +1192,7 @@ public readonly timeouts: GoogleGkeHubScopeTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#timeouts GoogleGkeHubScope#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#timeouts GoogleGkeHubScope#timeouts}
 
 ---
 
@@ -1169,9 +1221,9 @@ const googleGkeHubScopeTimeouts: googleGkeHubScope.GoogleGkeHubScopeTimeouts = {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#create GoogleGkeHubScope#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#delete GoogleGkeHubScope#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#update GoogleGkeHubScope#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#create GoogleGkeHubScope#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#delete GoogleGkeHubScope#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubScope.GoogleGkeHubScopeTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#update GoogleGkeHubScope#update}. |
 
 ---
 
@@ -1183,7 +1235,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#create GoogleGkeHubScope#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#create GoogleGkeHubScope#create}.
 
 ---
 
@@ -1195,7 +1247,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#delete GoogleGkeHubScope#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#delete GoogleGkeHubScope#delete}.
 
 ---
 
@@ -1207,7 +1259,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_scope#update GoogleGkeHubScope#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_scope#update GoogleGkeHubScope#update}.
 
 ---
 

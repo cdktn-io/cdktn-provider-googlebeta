@@ -4,7 +4,7 @@
 
 ### GoogleMonitoringDashboard <a name="GoogleMonitoringDashboard" id="@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard google_monitoring_dashboard}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard google_monitoring_dashboard}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -402,6 +403,12 @@ public putTimeouts(value: GoogleMonitoringDashboardTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.resetId"></a>
 
 ```typescript
@@ -523,7 +530,7 @@ The construct id used in the generated config for the GoogleMonitoringDashboard 
 
 The id of the existing GoogleMonitoringDashboard that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -555,10 +562,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardTimeoutsOutputReference">GoogleMonitoringDashboardTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.dashboardJsonInput">dashboardJsonInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardTimeouts">GoogleMonitoringDashboardTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.dashboardJson">dashboardJson</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.project">project</a></code> | <code>string</code> | *No description.* |
 
@@ -726,6 +735,16 @@ public readonly dashboardJsonInput: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.idInput"></a>
 
 ```typescript
@@ -760,6 +779,16 @@ public readonly timeoutsInput: IResolvable | GoogleMonitoringDashboardTimeouts;
 
 ```typescript
 public readonly dashboardJson: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboard.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -828,7 +857,8 @@ const googleMonitoringDashboardConfig: googleMonitoringDashboard.GoogleMonitorin
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardConfig.property.dashboardJson">dashboardJson</a></code> | <code>string</code> | The JSON representation of a dashboard, following the format at https://cloud.google.com/monitoring/api/ref_v3/rest/v1/projects.dashboards. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#id GoogleMonitoringDashboard#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#id GoogleMonitoringDashboard#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardConfig.property.project">project</a></code> | <code>string</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardTimeouts">GoogleMonitoringDashboardTimeouts</a></code> | timeouts block. |
 
@@ -914,7 +944,29 @@ public readonly dashboardJson: string;
 
 The JSON representation of a dashboard, following the format at https://cloud.google.com/monitoring/api/ref_v3/rest/v1/projects.dashboards.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#dashboard_json GoogleMonitoringDashboard#dashboard_json}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#dashboard_json GoogleMonitoringDashboard#dashboard_json}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#deletion_policy GoogleMonitoringDashboard#deletion_policy}
 
 ---
 
@@ -926,7 +978,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#id GoogleMonitoringDashboard#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#id GoogleMonitoringDashboard#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -945,7 +997,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#project GoogleMonitoringDashboard#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#project GoogleMonitoringDashboard#project}
 
 ---
 
@@ -959,7 +1011,7 @@ public readonly timeouts: GoogleMonitoringDashboardTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#timeouts GoogleMonitoringDashboard#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#timeouts GoogleMonitoringDashboard#timeouts}
 
 ---
 
@@ -977,9 +1029,9 @@ const googleMonitoringDashboardTimeouts: googleMonitoringDashboard.GoogleMonitor
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#create GoogleMonitoringDashboard#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#delete GoogleMonitoringDashboard#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#update GoogleMonitoringDashboard#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#create GoogleMonitoringDashboard#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#delete GoogleMonitoringDashboard#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringDashboard.GoogleMonitoringDashboardTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#update GoogleMonitoringDashboard#update}. |
 
 ---
 
@@ -991,7 +1043,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#create GoogleMonitoringDashboard#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#create GoogleMonitoringDashboard#create}.
 
 ---
 
@@ -1003,7 +1055,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#delete GoogleMonitoringDashboard#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#delete GoogleMonitoringDashboard#delete}.
 
 ---
 
@@ -1015,7 +1067,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_dashboard#update GoogleMonitoringDashboard#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_dashboard#update GoogleMonitoringDashboard#update}.
 
 ---
 

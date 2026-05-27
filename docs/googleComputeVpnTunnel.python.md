@@ -4,7 +4,7 @@
 
 ### GoogleComputeVpnTunnel <a name="GoogleComputeVpnTunnel" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel google_compute_vpn_tunnel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel google_compute_vpn_tunnel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer"></a>
 
@@ -23,6 +23,7 @@ googleComputeVpnTunnel.GoogleComputeVpnTunnel(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   name: str,
   cipher_suite: GoogleComputeVpnTunnelCipherSuite = None,
+  deletion_policy: str = None,
   description: str = None,
   id: str = None,
   ike_version: typing.Union[int, float] = None,
@@ -60,8 +61,9 @@ googleComputeVpnTunnel.GoogleComputeVpnTunnel(
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.name">name</a></code> | <code>str</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.cipherSuite">cipher_suite</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelCipherSuite">GoogleComputeVpnTunnelCipherSuite</a></code> | cipher_suite block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.description">description</a></code> | <code>str</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.ikeVersion">ike_version</a></code> | <code>typing.Union[int, float]</code> | IKE protocol version to use when establishing the VPN tunnel with peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels to apply to this VpnTunnel. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.localTrafficSelector">local_traffic_selector</a></code> | <code>typing.List[str]</code> | Local traffic selector to use when establishing the VPN tunnel with peer VPN gateway. |
@@ -70,7 +72,7 @@ googleComputeVpnTunnel.GoogleComputeVpnTunnel(
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.peerExternalGatewayInterface">peer_external_gateway_interface</a></code> | <code>typing.Union[int, float]</code> | The interface ID of the external VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.peerGcpGateway">peer_gcp_gateway</a></code> | <code>str</code> | URL of the peer side HA GCP VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.peerIp">peer_ip</a></code> | <code>str</code> | IP address of the peer VPN gateway. Only IPv4 is supported. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.region">region</a></code> | <code>str</code> | The region where the tunnel is located. If unset, is set to the region of 'target_vpn_gateway'. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.remoteTrafficSelector">remote_traffic_selector</a></code> | <code>typing.List[str]</code> | Remote traffic selector to use when establishing the VPN tunnel with peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.router">router</a></code> | <code>str</code> | URL of router resource to be used for dynamic routing. |
@@ -158,7 +160,7 @@ must be a lowercase letter, and all following characters must
 be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#name GoogleComputeVpnTunnel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#name GoogleComputeVpnTunnel#name}
 
 ---
 
@@ -168,7 +170,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 cipher_suite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#cipher_suite GoogleComputeVpnTunnel#cipher_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#cipher_suite GoogleComputeVpnTunnel#cipher_suite}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#deletion_policy GoogleComputeVpnTunnel#deletion_policy}
 
 ---
 
@@ -178,7 +197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#description GoogleComputeVpnTunnel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#description GoogleComputeVpnTunnel#description}
 
 ---
 
@@ -186,7 +205,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -201,7 +220,7 @@ IKE protocol version to use when establishing the VPN tunnel with peer VPN gatew
 
 Acceptable IKE versions are 1 or 2. Default version is 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#ike_version GoogleComputeVpnTunnel#ike_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#ike_version GoogleComputeVpnTunnel#ike_version}
 
 ---
 
@@ -214,7 +233,7 @@ Labels to apply to this VpnTunnel.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#labels GoogleComputeVpnTunnel#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#labels GoogleComputeVpnTunnel#labels}
 
 ---
 
@@ -228,7 +247,7 @@ The value should be a CIDR formatted string,
 for example '192.168.0.0/16'. The ranges should be disjoint.
 Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#local_traffic_selector GoogleComputeVpnTunnel#local_traffic_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#local_traffic_selector GoogleComputeVpnTunnel#local_traffic_selector}
 
 ---
 
@@ -238,7 +257,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#params GoogleComputeVpnTunnel#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#params GoogleComputeVpnTunnel#params}
 
 ---
 
@@ -248,7 +267,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 URL of the peer side external VPN gateway to which this VPN tunnel is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway GoogleComputeVpnTunnel#peer_external_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway GoogleComputeVpnTunnel#peer_external_gateway}
 
 ---
 
@@ -258,7 +277,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The interface ID of the external VPN gateway to which this VPN tunnel is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway_interface GoogleComputeVpnTunnel#peer_external_gateway_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway_interface GoogleComputeVpnTunnel#peer_external_gateway_interface}
 
 ---
 
@@ -272,7 +291,7 @@ If provided, the VPN tunnel will automatically use the same vpn_gateway_interfac
 ID in the peer GCP VPN gateway.
 This field must reference a 'google_compute_ha_vpn_gateway' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#peer_gcp_gateway GoogleComputeVpnTunnel#peer_gcp_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#peer_gcp_gateway GoogleComputeVpnTunnel#peer_gcp_gateway}
 
 ---
 
@@ -282,7 +301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 IP address of the peer VPN gateway. Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#peer_ip GoogleComputeVpnTunnel#peer_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#peer_ip GoogleComputeVpnTunnel#peer_ip}
 
 ---
 
@@ -290,7 +309,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}.
 
 ---
 
@@ -300,7 +319,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The region where the tunnel is located. If unset, is set to the region of 'target_vpn_gateway'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#region GoogleComputeVpnTunnel#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#region GoogleComputeVpnTunnel#region}
 
 ---
 
@@ -314,7 +333,7 @@ The value should be a CIDR formatted string,
 for example '192.168.0.0/16'. The ranges should be disjoint.
 Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#remote_traffic_selector GoogleComputeVpnTunnel#remote_traffic_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#remote_traffic_selector GoogleComputeVpnTunnel#remote_traffic_selector}
 
 ---
 
@@ -324,7 +343,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 URL of router resource to be used for dynamic routing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#router GoogleComputeVpnTunnel#router}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#router GoogleComputeVpnTunnel#router}
 
 ---
 
@@ -334,7 +353,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#shared_secret GoogleComputeVpnTunnel#shared_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#shared_secret GoogleComputeVpnTunnel#shared_secret}
 
 ---
 
@@ -344,7 +363,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo GoogleComputeVpnTunnel#shared_secret_wo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo GoogleComputeVpnTunnel#shared_secret_wo}
 
 ---
 
@@ -356,7 +375,7 @@ Triggers update of 'shared_secret_wo' write-only.
 
 Increment this value when an update to 'shared_secret_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo_version GoogleComputeVpnTunnel#shared_secret_wo_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo_version GoogleComputeVpnTunnel#shared_secret_wo_version}
 
 ---
 
@@ -366,7 +385,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 URL of the Target VPN gateway with which this VPN tunnel is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#target_vpn_gateway GoogleComputeVpnTunnel#target_vpn_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#target_vpn_gateway GoogleComputeVpnTunnel#target_vpn_gateway}
 
 ---
 
@@ -376,7 +395,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#timeouts GoogleComputeVpnTunnel#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#timeouts GoogleComputeVpnTunnel#timeouts}
 
 ---
 
@@ -389,7 +408,7 @@ URL of the VPN gateway with which this VPN tunnel is associated.
 This must be used if a High Availability VPN gateway resource is created.
 This field must reference a 'google_compute_ha_vpn_gateway' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway GoogleComputeVpnTunnel#vpn_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway GoogleComputeVpnTunnel#vpn_gateway}
 
 ---
 
@@ -399,7 +418,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The interface ID of the VPN gateway with which this VPN tunnel is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway_interface GoogleComputeVpnTunnel#vpn_gateway_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway_interface GoogleComputeVpnTunnel#vpn_gateway_interface}
 
 ---
 
@@ -435,6 +454,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.putParams">put_params</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetCipherSuite">reset_cipher_suite</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetIkeVersion">reset_ike_version</a></code> | *No description.* |
@@ -822,7 +842,7 @@ def put_cipher_suite(
 
 phase1 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#phase1 GoogleComputeVpnTunnel#phase1}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#phase1 GoogleComputeVpnTunnel#phase1}
 
 ---
 
@@ -832,7 +852,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 phase2 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#phase2 GoogleComputeVpnTunnel#phase2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#phase2 GoogleComputeVpnTunnel#phase2}
 
 ---
 
@@ -854,7 +874,7 @@ Tag keys and values have the
 same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
 and values are in the format tagValues/456.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#resource_manager_tags GoogleComputeVpnTunnel#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#resource_manager_tags GoogleComputeVpnTunnel#resource_manager_tags}
 
 ---
 
@@ -872,7 +892,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}.
 
 ---
 
@@ -880,7 +900,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}.
 
 ---
 
@@ -888,7 +908,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}.
 
 ---
 
@@ -896,6 +916,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def reset_cipher_suite() -> None
+```
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
 ```
 
 ##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.resetDescription"></a>
@@ -1138,7 +1164,7 @@ The construct id used in the generated config for the GoogleComputeVpnTunnel to 
 
 The id of the existing GoogleComputeVpnTunnel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1180,6 +1206,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeoutsOutputReference">GoogleComputeVpnTunnelTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.tunnelId">tunnel_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.cipherSuiteInput">cipher_suite_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelCipherSuite">GoogleComputeVpnTunnelCipherSuite</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.ikeVersionInput">ike_version_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -1202,6 +1229,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts">GoogleComputeVpnTunnelTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.vpnGatewayInput">vpn_gateway_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.vpnGatewayInterfaceInput">vpn_gateway_interface_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.ikeVersion">ike_version</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -1487,6 +1515,16 @@ cipher_suite_input: GoogleComputeVpnTunnelCipherSuite
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.descriptionInput"></a>
 
 ```python
@@ -1704,6 +1742,16 @@ vpn_gateway_interface_input: typing.Union[int, float]
 ```
 
 - *Type:* typing.Union[int, float]
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnel.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
 
 ---
 
@@ -1959,7 +2007,7 @@ phase1: GoogleComputeVpnTunnelCipherSuitePhase1
 
 phase1 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#phase1 GoogleComputeVpnTunnel#phase1}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#phase1 GoogleComputeVpnTunnel#phase1}
 
 ---
 
@@ -1973,7 +2021,7 @@ phase2: GoogleComputeVpnTunnelCipherSuitePhase2
 
 phase2 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#phase2 GoogleComputeVpnTunnel#phase2}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#phase2 GoogleComputeVpnTunnel#phase2}
 
 ---
 
@@ -2013,7 +2061,7 @@ dh: typing.List[str]
 
 Diffie-Hellman groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#dh GoogleComputeVpnTunnel#dh}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#dh GoogleComputeVpnTunnel#dh}
 
 ---
 
@@ -2027,7 +2075,7 @@ encryption: typing.List[str]
 
 Encryption algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
 
 ---
 
@@ -2041,7 +2089,7 @@ integrity: typing.List[str]
 
 Integrity algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
 
 ---
 
@@ -2055,7 +2103,7 @@ prf: typing.List[str]
 
 Pseudo-random functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#prf GoogleComputeVpnTunnel#prf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#prf GoogleComputeVpnTunnel#prf}
 
 ---
 
@@ -2093,7 +2141,7 @@ encryption: typing.List[str]
 
 Encryption algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
 
 ---
 
@@ -2107,7 +2155,7 @@ integrity: typing.List[str]
 
 Integrity algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
 
 ---
 
@@ -2121,7 +2169,7 @@ pfs: typing.List[str]
 
 Perfect forward secrecy groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#pfs GoogleComputeVpnTunnel#pfs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#pfs GoogleComputeVpnTunnel#pfs}
 
 ---
 
@@ -2142,6 +2190,7 @@ googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   name: str,
   cipher_suite: GoogleComputeVpnTunnelCipherSuite = None,
+  deletion_policy: str = None,
   description: str = None,
   id: str = None,
   ike_version: typing.Union[int, float] = None,
@@ -2179,8 +2228,9 @@ googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.name">name</a></code> | <code>str</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.cipherSuite">cipher_suite</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelCipherSuite">GoogleComputeVpnTunnelCipherSuite</a></code> | cipher_suite block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.description">description</a></code> | <code>str</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.ikeVersion">ike_version</a></code> | <code>typing.Union[int, float]</code> | IKE protocol version to use when establishing the VPN tunnel with peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Labels to apply to this VpnTunnel. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.localTrafficSelector">local_traffic_selector</a></code> | <code>typing.List[str]</code> | Local traffic selector to use when establishing the VPN tunnel with peer VPN gateway. |
@@ -2189,7 +2239,7 @@ googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.peerExternalGatewayInterface">peer_external_gateway_interface</a></code> | <code>typing.Union[int, float]</code> | The interface ID of the external VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.peerGcpGateway">peer_gcp_gateway</a></code> | <code>str</code> | URL of the peer side HA GCP VPN gateway to which this VPN tunnel is connected. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.peerIp">peer_ip</a></code> | <code>str</code> | IP address of the peer VPN gateway. Only IPv4 is supported. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.region">region</a></code> | <code>str</code> | The region where the tunnel is located. If unset, is set to the region of 'target_vpn_gateway'. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.remoteTrafficSelector">remote_traffic_selector</a></code> | <code>typing.List[str]</code> | Remote traffic selector to use when establishing the VPN tunnel with peer VPN gateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.router">router</a></code> | <code>str</code> | URL of router resource to be used for dynamic routing. |
@@ -2291,7 +2341,7 @@ must be a lowercase letter, and all following characters must
 be a dash, lowercase letter, or digit,
 except the last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#name GoogleComputeVpnTunnel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#name GoogleComputeVpnTunnel#name}
 
 ---
 
@@ -2305,7 +2355,28 @@ cipher_suite: GoogleComputeVpnTunnelCipherSuite
 
 cipher_suite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#cipher_suite GoogleComputeVpnTunnel#cipher_suite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#cipher_suite GoogleComputeVpnTunnel#cipher_suite}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#deletion_policy GoogleComputeVpnTunnel#deletion_policy}
 
 ---
 
@@ -2319,7 +2390,7 @@ description: str
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#description GoogleComputeVpnTunnel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#description GoogleComputeVpnTunnel#description}
 
 ---
 
@@ -2331,7 +2402,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#id GoogleComputeVpnTunnel#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2350,7 +2421,7 @@ IKE protocol version to use when establishing the VPN tunnel with peer VPN gatew
 
 Acceptable IKE versions are 1 or 2. Default version is 2.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#ike_version GoogleComputeVpnTunnel#ike_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#ike_version GoogleComputeVpnTunnel#ike_version}
 
 ---
 
@@ -2367,7 +2438,7 @@ Labels to apply to this VpnTunnel.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#labels GoogleComputeVpnTunnel#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#labels GoogleComputeVpnTunnel#labels}
 
 ---
 
@@ -2385,7 +2456,7 @@ The value should be a CIDR formatted string,
 for example '192.168.0.0/16'. The ranges should be disjoint.
 Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#local_traffic_selector GoogleComputeVpnTunnel#local_traffic_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#local_traffic_selector GoogleComputeVpnTunnel#local_traffic_selector}
 
 ---
 
@@ -2399,7 +2470,7 @@ params: GoogleComputeVpnTunnelParams
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#params GoogleComputeVpnTunnel#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#params GoogleComputeVpnTunnel#params}
 
 ---
 
@@ -2413,7 +2484,7 @@ peer_external_gateway: str
 
 URL of the peer side external VPN gateway to which this VPN tunnel is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway GoogleComputeVpnTunnel#peer_external_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway GoogleComputeVpnTunnel#peer_external_gateway}
 
 ---
 
@@ -2427,7 +2498,7 @@ peer_external_gateway_interface: typing.Union[int, float]
 
 The interface ID of the external VPN gateway to which this VPN tunnel is connected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway_interface GoogleComputeVpnTunnel#peer_external_gateway_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#peer_external_gateway_interface GoogleComputeVpnTunnel#peer_external_gateway_interface}
 
 ---
 
@@ -2445,7 +2516,7 @@ If provided, the VPN tunnel will automatically use the same vpn_gateway_interfac
 ID in the peer GCP VPN gateway.
 This field must reference a 'google_compute_ha_vpn_gateway' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#peer_gcp_gateway GoogleComputeVpnTunnel#peer_gcp_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#peer_gcp_gateway GoogleComputeVpnTunnel#peer_gcp_gateway}
 
 ---
 
@@ -2459,7 +2530,7 @@ peer_ip: str
 
 IP address of the peer VPN gateway. Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#peer_ip GoogleComputeVpnTunnel#peer_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#peer_ip GoogleComputeVpnTunnel#peer_ip}
 
 ---
 
@@ -2471,7 +2542,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#project GoogleComputeVpnTunnel#project}.
 
 ---
 
@@ -2485,7 +2556,7 @@ region: str
 
 The region where the tunnel is located. If unset, is set to the region of 'target_vpn_gateway'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#region GoogleComputeVpnTunnel#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#region GoogleComputeVpnTunnel#region}
 
 ---
 
@@ -2503,7 +2574,7 @@ The value should be a CIDR formatted string,
 for example '192.168.0.0/16'. The ranges should be disjoint.
 Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#remote_traffic_selector GoogleComputeVpnTunnel#remote_traffic_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#remote_traffic_selector GoogleComputeVpnTunnel#remote_traffic_selector}
 
 ---
 
@@ -2517,7 +2588,7 @@ router: str
 
 URL of router resource to be used for dynamic routing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#router GoogleComputeVpnTunnel#router}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#router GoogleComputeVpnTunnel#router}
 
 ---
 
@@ -2531,7 +2602,7 @@ shared_secret: str
 
 Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#shared_secret GoogleComputeVpnTunnel#shared_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#shared_secret GoogleComputeVpnTunnel#shared_secret}
 
 ---
 
@@ -2545,7 +2616,7 @@ shared_secret_wo: str
 
 Shared secret used to set the secure session between the Cloud VPN gateway and the peer VPN gateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo GoogleComputeVpnTunnel#shared_secret_wo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo GoogleComputeVpnTunnel#shared_secret_wo}
 
 ---
 
@@ -2561,7 +2632,7 @@ Triggers update of 'shared_secret_wo' write-only.
 
 Increment this value when an update to 'shared_secret_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo_version GoogleComputeVpnTunnel#shared_secret_wo_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#shared_secret_wo_version GoogleComputeVpnTunnel#shared_secret_wo_version}
 
 ---
 
@@ -2575,7 +2646,7 @@ target_vpn_gateway: str
 
 URL of the Target VPN gateway with which this VPN tunnel is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#target_vpn_gateway GoogleComputeVpnTunnel#target_vpn_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#target_vpn_gateway GoogleComputeVpnTunnel#target_vpn_gateway}
 
 ---
 
@@ -2589,7 +2660,7 @@ timeouts: GoogleComputeVpnTunnelTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#timeouts GoogleComputeVpnTunnel#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#timeouts GoogleComputeVpnTunnel#timeouts}
 
 ---
 
@@ -2606,7 +2677,7 @@ URL of the VPN gateway with which this VPN tunnel is associated.
 This must be used if a High Availability VPN gateway resource is created.
 This field must reference a 'google_compute_ha_vpn_gateway' resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway GoogleComputeVpnTunnel#vpn_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway GoogleComputeVpnTunnel#vpn_gateway}
 
 ---
 
@@ -2620,7 +2691,7 @@ vpn_gateway_interface: typing.Union[int, float]
 
 The interface ID of the VPN gateway with which this VPN tunnel is associated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway_interface GoogleComputeVpnTunnel#vpn_gateway_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#vpn_gateway_interface GoogleComputeVpnTunnel#vpn_gateway_interface}
 
 ---
 
@@ -2658,7 +2729,7 @@ Tag keys and values have the
 same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
 and values are in the format tagValues/456.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#resource_manager_tags GoogleComputeVpnTunnel#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#resource_manager_tags GoogleComputeVpnTunnel#resource_manager_tags}
 
 ---
 
@@ -2680,9 +2751,9 @@ googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeVpnTunnel.GoogleComputeVpnTunnelTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}. |
 
 ---
 
@@ -2694,7 +2765,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#create GoogleComputeVpnTunnel#create}.
 
 ---
 
@@ -2706,7 +2777,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#delete GoogleComputeVpnTunnel#delete}.
 
 ---
 
@@ -2718,7 +2789,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#update GoogleComputeVpnTunnel#update}.
 
 ---
 
@@ -2973,7 +3044,7 @@ def put_phase1(
 
 Diffie-Hellman groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#dh GoogleComputeVpnTunnel#dh}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#dh GoogleComputeVpnTunnel#dh}
 
 ---
 
@@ -2983,7 +3054,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Encryption algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
 
 ---
 
@@ -2993,7 +3064,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Integrity algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
 
 ---
 
@@ -3003,7 +3074,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Pseudo-random functions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#prf GoogleComputeVpnTunnel#prf}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#prf GoogleComputeVpnTunnel#prf}
 
 ---
 
@@ -3023,7 +3094,7 @@ def put_phase2(
 
 Encryption algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#encryption GoogleComputeVpnTunnel#encryption}
 
 ---
 
@@ -3033,7 +3104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Integrity algorithms.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#integrity GoogleComputeVpnTunnel#integrity}
 
 ---
 
@@ -3043,7 +3114,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Perfect forward secrecy groups.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_vpn_tunnel#pfs GoogleComputeVpnTunnel#pfs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_vpn_tunnel#pfs GoogleComputeVpnTunnel#pfs}
 
 ---
 

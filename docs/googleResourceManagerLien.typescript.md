@@ -4,7 +4,7 @@
 
 ### GoogleResourceManagerLien <a name="GoogleResourceManagerLien" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien google_resource_manager_lien}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien google_resource_manager_lien}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.resetTimeouts">resetTimeouts</a></code> | *No description.* |
 
@@ -401,6 +402,12 @@ public putTimeouts(value: GoogleResourceManagerLienTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.resetId"></a>
 
 ```typescript
@@ -516,7 +523,7 @@ The construct id used in the generated config for the GoogleResourceManagerLien 
 
 The id of the existing GoogleResourceManagerLien that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -549,12 +556,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.createTime">createTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeoutsOutputReference">GoogleResourceManagerLienTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.originInput">originInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.parentInput">parentInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.reasonInput">reasonInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.restrictionsInput">restrictionsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeouts">GoogleResourceManagerLienTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.origin">origin</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.parent">parent</a></code> | <code>string</code> | *No description.* |
@@ -735,6 +744,16 @@ public readonly timeouts: GoogleResourceManagerLienTimeoutsOutputReference;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.idInput"></a>
 
 ```typescript
@@ -792,6 +811,16 @@ public readonly timeoutsInput: IResolvable | GoogleResourceManagerLienTimeouts;
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeouts">GoogleResourceManagerLienTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLien.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -890,7 +919,8 @@ const googleResourceManagerLienConfig: googleResourceManagerLien.GoogleResourceM
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienConfig.property.parent">parent</a></code> | <code>string</code> | A reference to the resource this Lien is attached to. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienConfig.property.reason">reason</a></code> | <code>string</code> | Concise user-visible strings indicating why an action cannot be performed on a resource. Maximum length of 200 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienConfig.property.restrictions">restrictions</a></code> | <code>string[]</code> | The types of operations which should be blocked as a result of this Lien. |
-| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#id GoogleResourceManagerLien#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#id GoogleResourceManagerLien#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeouts">GoogleResourceManagerLienTimeouts</a></code> | timeouts block. |
 
 ---
@@ -975,7 +1005,7 @@ public readonly origin: string;
 
 A stable, user-visible/meaningful string identifying the origin of the Lien, intended to be inspected programmatically. Maximum length of 200 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#origin GoogleResourceManagerLien#origin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#origin GoogleResourceManagerLien#origin}
 
 ---
 
@@ -993,7 +1023,7 @@ The server will validate the parent against those for which Liens are supported.
 Since a variety of objects can have Liens against them, you must provide the type
 prefix (e.g. "projects/my-project-name").
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#parent GoogleResourceManagerLien#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#parent GoogleResourceManagerLien#parent}
 
 ---
 
@@ -1007,7 +1037,7 @@ public readonly reason: string;
 
 Concise user-visible strings indicating why an action cannot be performed on a resource. Maximum length of 200 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#reason GoogleResourceManagerLien#reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#reason GoogleResourceManagerLien#reason}
 
 ---
 
@@ -1026,7 +1056,29 @@ the permissions against those for which Liens are supported.  An empty
 list is meaningless and will be rejected.
 e.g. ['resourcemanager.projects.delete']
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#restrictions GoogleResourceManagerLien#restrictions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#restrictions GoogleResourceManagerLien#restrictions}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#deletion_policy GoogleResourceManagerLien#deletion_policy}
 
 ---
 
@@ -1038,7 +1090,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#id GoogleResourceManagerLien#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#id GoogleResourceManagerLien#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1055,7 +1107,7 @@ public readonly timeouts: GoogleResourceManagerLienTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#timeouts GoogleResourceManagerLien#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#timeouts GoogleResourceManagerLien#timeouts}
 
 ---
 
@@ -1073,8 +1125,8 @@ const googleResourceManagerLienTimeouts: googleResourceManagerLien.GoogleResourc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#create GoogleResourceManagerLien#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#delete GoogleResourceManagerLien#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#create GoogleResourceManagerLien#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleResourceManagerLien.GoogleResourceManagerLienTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#delete GoogleResourceManagerLien#delete}. |
 
 ---
 
@@ -1086,7 +1138,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#create GoogleResourceManagerLien#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#create GoogleResourceManagerLien#create}.
 
 ---
 
@@ -1098,7 +1150,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_resource_manager_lien#delete GoogleResourceManagerLien#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_resource_manager_lien#delete GoogleResourceManagerLien#delete}.
 
 ---
 

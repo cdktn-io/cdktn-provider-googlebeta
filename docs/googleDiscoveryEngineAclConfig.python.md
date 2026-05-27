@@ -4,7 +4,7 @@
 
 ### GoogleDiscoveryEngineAclConfig <a name="GoogleDiscoveryEngineAclConfig" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config google_discovery_engine_acl_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config google_discovery_engine_acl_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer"></a>
 
@@ -41,9 +41,9 @@ googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer.parameter.location">location</a></code> | <code>str</code> | The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu". |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#id GoogleDiscoveryEngineAclConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#id GoogleDiscoveryEngineAclConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer.parameter.idpConfig">idp_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfig">GoogleDiscoveryEngineAclConfigIdpConfig</a></code> | idp_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#project GoogleDiscoveryEngineAclConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#project GoogleDiscoveryEngineAclConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfig.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts">GoogleDiscoveryEngineAclConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#location GoogleDiscoveryEngineAclConfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#location GoogleDiscoveryEngineAclConfig#location}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#id GoogleDiscoveryEngineAclConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#id GoogleDiscoveryEngineAclConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -135,7 +135,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 idp_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#idp_config GoogleDiscoveryEngineAclConfig#idp_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#idp_config GoogleDiscoveryEngineAclConfig#idp_config}
 
 ---
 
@@ -143,7 +143,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#project GoogleDiscoveryEngineAclConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#project GoogleDiscoveryEngineAclConfig#project}.
 
 ---
 
@@ -153,7 +153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#timeouts GoogleDiscoveryEngineAclConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#timeouts GoogleDiscoveryEngineAclConfig#timeouts}
 
 ---
 
@@ -557,7 +557,7 @@ def put_idp_config(
 
 external_idp_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#external_idp_config GoogleDiscoveryEngineAclConfig#external_idp_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#external_idp_config GoogleDiscoveryEngineAclConfig#external_idp_config}
 
 ---
 
@@ -567,7 +567,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Identity provider type. Possible values: ["GSUITE", "THIRD_PARTY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#idp_type GoogleDiscoveryEngineAclConfig#idp_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#idp_type GoogleDiscoveryEngineAclConfig#idp_type}
 
 ---
 
@@ -585,7 +585,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#create GoogleDiscoveryEngineAclConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#create GoogleDiscoveryEngineAclConfig#create}.
 
 ---
 
@@ -593,7 +593,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#delete GoogleDiscoveryEngineAclConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#delete GoogleDiscoveryEngineAclConfig#delete}.
 
 ---
 
@@ -601,7 +601,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#update GoogleDiscoveryEngineAclConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#update GoogleDiscoveryEngineAclConfig#update}.
 
 ---
 
@@ -743,7 +743,7 @@ The construct id used in the generated config for the GoogleDiscoveryEngineAclCo
 
 The id of the existing GoogleDiscoveryEngineAclConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1094,9 +1094,9 @@ googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.property.location">location</a></code> | <code>str</code> | The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu". |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#id GoogleDiscoveryEngineAclConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#id GoogleDiscoveryEngineAclConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.property.idpConfig">idp_config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigIdpConfig">GoogleDiscoveryEngineAclConfigIdpConfig</a></code> | idp_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#project GoogleDiscoveryEngineAclConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#project GoogleDiscoveryEngineAclConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts">GoogleDiscoveryEngineAclConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1181,7 +1181,7 @@ location: str
 
 The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#location GoogleDiscoveryEngineAclConfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#location GoogleDiscoveryEngineAclConfig#location}
 
 ---
 
@@ -1193,7 +1193,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#id GoogleDiscoveryEngineAclConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#id GoogleDiscoveryEngineAclConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1210,7 +1210,7 @@ idp_config: GoogleDiscoveryEngineAclConfigIdpConfig
 
 idp_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#idp_config GoogleDiscoveryEngineAclConfig#idp_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#idp_config GoogleDiscoveryEngineAclConfig#idp_config}
 
 ---
 
@@ -1222,7 +1222,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#project GoogleDiscoveryEngineAclConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#project GoogleDiscoveryEngineAclConfig#project}.
 
 ---
 
@@ -1236,7 +1236,7 @@ timeouts: GoogleDiscoveryEngineAclConfigTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#timeouts GoogleDiscoveryEngineAclConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#timeouts GoogleDiscoveryEngineAclConfig#timeouts}
 
 ---
 
@@ -1272,7 +1272,7 @@ external_idp_config: GoogleDiscoveryEngineAclConfigIdpConfigExternalIdpConfig
 
 external_idp_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#external_idp_config GoogleDiscoveryEngineAclConfig#external_idp_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#external_idp_config GoogleDiscoveryEngineAclConfig#external_idp_config}
 
 ---
 
@@ -1286,7 +1286,7 @@ idp_type: str
 
 Identity provider type. Possible values: ["GSUITE", "THIRD_PARTY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#idp_type GoogleDiscoveryEngineAclConfig#idp_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#idp_type GoogleDiscoveryEngineAclConfig#idp_type}
 
 ---
 
@@ -1320,7 +1320,7 @@ workforce_pool_name: str
 
 Workforce pool name: "locations/global/workforcePools/pool_id".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#workforce_pool_name GoogleDiscoveryEngineAclConfig#workforce_pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#workforce_pool_name GoogleDiscoveryEngineAclConfig#workforce_pool_name}
 
 ---
 
@@ -1342,9 +1342,9 @@ googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#create GoogleDiscoveryEngineAclConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#delete GoogleDiscoveryEngineAclConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#update GoogleDiscoveryEngineAclConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#create GoogleDiscoveryEngineAclConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#delete GoogleDiscoveryEngineAclConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineAclConfig.GoogleDiscoveryEngineAclConfigTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#update GoogleDiscoveryEngineAclConfig#update}. |
 
 ---
 
@@ -1356,7 +1356,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#create GoogleDiscoveryEngineAclConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#create GoogleDiscoveryEngineAclConfig#create}.
 
 ---
 
@@ -1368,7 +1368,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#delete GoogleDiscoveryEngineAclConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#delete GoogleDiscoveryEngineAclConfig#delete}.
 
 ---
 
@@ -1380,7 +1380,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#update GoogleDiscoveryEngineAclConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#update GoogleDiscoveryEngineAclConfig#update}.
 
 ---
 
@@ -1934,7 +1934,7 @@ def put_external_idp_config(
 
 Workforce pool name: "locations/global/workforcePools/pool_id".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_acl_config#workforce_pool_name GoogleDiscoveryEngineAclConfig#workforce_pool_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_acl_config#workforce_pool_name GoogleDiscoveryEngineAclConfig#workforce_pool_name}
 
 ---
 

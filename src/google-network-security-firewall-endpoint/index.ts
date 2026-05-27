@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -18,11 +18,23 @@ export interface GoogleNetworkSecurityFirewallEndpointConfig extends cdktn.Terra
   * For project-scoped endpoints, it is optional but must match the
   * endpoint's project if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#billing_project_id GoogleNetworkSecurityFirewallEndpoint#billing_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#billing_project_id GoogleNetworkSecurityFirewallEndpoint#billing_project_id}
   */
   readonly billingProjectId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#id GoogleNetworkSecurityFirewallEndpoint#id}
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#deletion_policy GoogleNetworkSecurityFirewallEndpoint#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#id GoogleNetworkSecurityFirewallEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,38 +47,38 @@ export interface GoogleNetworkSecurityFirewallEndpointConfig extends cdktn.Terra
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#labels GoogleNetworkSecurityFirewallEndpoint#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#labels GoogleNetworkSecurityFirewallEndpoint#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location (zone) of the firewall endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#location GoogleNetworkSecurityFirewallEndpoint#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#location GoogleNetworkSecurityFirewallEndpoint#location}
   */
   readonly location: string;
   /**
   * The name of the firewall endpoint resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#name GoogleNetworkSecurityFirewallEndpoint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#name GoogleNetworkSecurityFirewallEndpoint#name}
   */
   readonly name: string;
   /**
   * The name of the parent this firewall endpoint belongs to.
   * Format: 'organizations/{organization_id}' or 'projects/{project_id}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#parent GoogleNetworkSecurityFirewallEndpoint#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#parent GoogleNetworkSecurityFirewallEndpoint#parent}
   */
   readonly parent: string;
   /**
   * endpoint_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#endpoint_settings GoogleNetworkSecurityFirewallEndpoint#endpoint_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#endpoint_settings GoogleNetworkSecurityFirewallEndpoint#endpoint_settings}
   */
   readonly endpointSettings?: GoogleNetworkSecurityFirewallEndpointEndpointSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#timeouts GoogleNetworkSecurityFirewallEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#timeouts GoogleNetworkSecurityFirewallEndpoint#timeouts}
   */
   readonly timeouts?: GoogleNetworkSecurityFirewallEndpointTimeouts;
 }
@@ -74,7 +86,7 @@ export interface GoogleNetworkSecurityFirewallEndpointEndpointSettings {
   /**
   * Indicates whether Jumbo Frames are enabled for the firewall endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#jumbo_frames_enabled GoogleNetworkSecurityFirewallEndpoint#jumbo_frames_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#jumbo_frames_enabled GoogleNetworkSecurityFirewallEndpoint#jumbo_frames_enabled}
   */
   readonly jumboFramesEnabled?: boolean | cdktn.IResolvable;
 }
@@ -158,15 +170,15 @@ export class GoogleNetworkSecurityFirewallEndpointEndpointSettingsOutputReferenc
 }
 export interface GoogleNetworkSecurityFirewallEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#create GoogleNetworkSecurityFirewallEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#create GoogleNetworkSecurityFirewallEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#delete GoogleNetworkSecurityFirewallEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#delete GoogleNetworkSecurityFirewallEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#update GoogleNetworkSecurityFirewallEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#update GoogleNetworkSecurityFirewallEndpoint#update}
   */
   readonly update?: string;
 }
@@ -318,7 +330,7 @@ export class GoogleNetworkSecurityFirewallEndpointTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint google_network_security_firewall_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint google_network_security_firewall_endpoint}
 */
 export class GoogleNetworkSecurityFirewallEndpoint extends cdktn.TerraformResource {
 
@@ -334,7 +346,7 @@ export class GoogleNetworkSecurityFirewallEndpoint extends cdktn.TerraformResour
   * Generates CDKTN code for importing a GoogleNetworkSecurityFirewallEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkSecurityFirewallEndpoint to import
-  * @param importFromId The id of the existing GoogleNetworkSecurityFirewallEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkSecurityFirewallEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkSecurityFirewallEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -346,7 +358,7 @@ export class GoogleNetworkSecurityFirewallEndpoint extends cdktn.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,7 +369,7 @@ export class GoogleNetworkSecurityFirewallEndpoint extends cdktn.TerraformResour
       terraformResourceType: 'google_network_security_firewall_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -369,6 +381,7 @@ export class GoogleNetworkSecurityFirewallEndpoint extends cdktn.TerraformResour
       forEach: config.forEach
     });
     this._billingProjectId = config.billingProjectId;
+    this._deletionPolicy = config.deletionPolicy;
     this._id = config.id;
     this._labels = config.labels;
     this._location = config.location;
@@ -406,6 +419,22 @@ export class GoogleNetworkSecurityFirewallEndpoint extends cdktn.TerraformResour
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // effective_labels - computed: true, optional: false, required: false
@@ -550,6 +579,7 @@ export class GoogleNetworkSecurityFirewallEndpoint extends cdktn.TerraformResour
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       billing_project_id: cdktn.stringToTerraform(this._billingProjectId),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       id: cdktn.stringToTerraform(this._id),
       labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
       location: cdktn.stringToTerraform(this._location),
@@ -564,6 +594,12 @@ export class GoogleNetworkSecurityFirewallEndpoint extends cdktn.TerraformResour
     const attrs = {
       billing_project_id: {
         value: cdktn.stringToHclTerraform(this._billingProjectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

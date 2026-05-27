@@ -4,7 +4,7 @@
 
 ### GoogleTpuV2Vm <a name="GoogleTpuV2Vm" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm google_tpu_v2_vm}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm google_tpu_v2_vm}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer"></a>
 
@@ -25,6 +25,7 @@ GoogleTpuV2Vm.Builder.create(Construct scope, java.lang.String id)
 //  .acceleratorType(java.lang.String)
 //  .cidrBlock(java.lang.String)
 //  .dataDisks(IResolvable|java.util.List<GoogleTpuV2VmDataDisks>)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -58,13 +59,14 @@ GoogleTpuV2Vm.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.acceleratorType">acceleratorType</a></code> | <code>java.lang.String</code> | TPU accelerator type for the TPU. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.cidrBlock">cidrBlock</a></code> | <code>java.lang.String</code> | The CIDR block that the TPU node will use when selecting an IP address. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.dataDisks">dataDisks</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmDataDisks">GoogleTpuV2VmDataDisks</a>></code> | data_disks block. |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Text description of the TPU. |
-| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#id GoogleTpuV2Vm#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#id GoogleTpuV2Vm#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource labels to represent user-provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.metadata">metadata</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Custom metadata to apply to the TPU Node. Can set startup-script and shutdown-script. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.networkConfig">networkConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmNetworkConfig">GoogleTpuV2VmNetworkConfig</a></code> | network_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.networkConfigs">networkConfigs</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmNetworkConfigs">GoogleTpuV2VmNetworkConfigs</a>></code> | network_configs block. |
-| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#project GoogleTpuV2Vm#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#project GoogleTpuV2Vm#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.schedulingConfig">schedulingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmSchedulingConfig">GoogleTpuV2VmSchedulingConfig</a></code> | scheduling_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.serviceAccount">serviceAccount</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmServiceAccount">GoogleTpuV2VmServiceAccount</a></code> | service_account block. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.shieldedInstanceConfig">shieldedInstanceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmShieldedInstanceConfig">GoogleTpuV2VmShieldedInstanceConfig</a></code> | shielded_instance_config block. |
@@ -140,7 +142,7 @@ Must be unique amongst siblings in the same scope
 
 The immutable name of the TPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#name GoogleTpuV2Vm#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#name GoogleTpuV2Vm#name}
 
 ---
 
@@ -150,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Runtime version for the TPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#runtime_version GoogleTpuV2Vm#runtime_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#runtime_version GoogleTpuV2Vm#runtime_version}
 
 ---
 
@@ -160,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 accelerator_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#accelerator_config GoogleTpuV2Vm#accelerator_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#accelerator_config GoogleTpuV2Vm#accelerator_config}
 
 ---
 
@@ -173,7 +175,7 @@ TPU accelerator type for the TPU.
 'accelerator_type' cannot be used at the same time as
 'accelerator_config'. If neither is specified, 'accelerator_type' defaults to 'v2-8'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#accelerator_type GoogleTpuV2Vm#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#accelerator_type GoogleTpuV2Vm#accelerator_type}
 
 ---
 
@@ -190,7 +192,7 @@ CIDR block has already been used for a currently existing TPU node, the CIDR blo
 with any subnetworks in the user's provided network, or the provided network is peered with
 another network that is using that CIDR block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#cidr_block GoogleTpuV2Vm#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#cidr_block GoogleTpuV2Vm#cidr_block}
 
 ---
 
@@ -200,7 +202,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 data_disks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#data_disks GoogleTpuV2Vm#data_disks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#data_disks GoogleTpuV2Vm#data_disks}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#deletion_policy GoogleTpuV2Vm#deletion_policy}
 
 ---
 
@@ -210,7 +229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Text description of the TPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#description GoogleTpuV2Vm#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#description GoogleTpuV2Vm#description}
 
 ---
 
@@ -218,7 +237,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#id GoogleTpuV2Vm#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#id GoogleTpuV2Vm#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -234,7 +253,7 @@ Resource labels to represent user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#labels GoogleTpuV2Vm#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#labels GoogleTpuV2Vm#labels}
 
 ---
 
@@ -244,7 +263,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Custom metadata to apply to the TPU Node. Can set startup-script and shutdown-script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#metadata GoogleTpuV2Vm#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#metadata GoogleTpuV2Vm#metadata}
 
 ---
 
@@ -254,7 +273,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#network_config GoogleTpuV2Vm#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#network_config GoogleTpuV2Vm#network_config}
 
 ---
 
@@ -264,7 +283,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 network_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#network_configs GoogleTpuV2Vm#network_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#network_configs GoogleTpuV2Vm#network_configs}
 
 ---
 
@@ -272,7 +291,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#project GoogleTpuV2Vm#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#project GoogleTpuV2Vm#project}.
 
 ---
 
@@ -282,7 +301,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 scheduling_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#scheduling_config GoogleTpuV2Vm#scheduling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#scheduling_config GoogleTpuV2Vm#scheduling_config}
 
 ---
 
@@ -292,7 +311,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 service_account block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#service_account GoogleTpuV2Vm#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#service_account GoogleTpuV2Vm#service_account}
 
 ---
 
@@ -302,7 +321,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#shielded_instance_config GoogleTpuV2Vm#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#shielded_instance_config GoogleTpuV2Vm#shielded_instance_config}
 
 ---
 
@@ -312,7 +331,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Tags to apply to the TPU Node. Tags are used to identify valid sources or targets for network firewalls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#tags GoogleTpuV2Vm#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#tags GoogleTpuV2Vm#tags}
 
 ---
 
@@ -322,7 +341,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#timeouts GoogleTpuV2Vm#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#timeouts GoogleTpuV2Vm#timeouts}
 
 ---
 
@@ -332,7 +351,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The GCP location for the TPU. If it is not provided, the provider zone is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#zone GoogleTpuV2Vm#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#zone GoogleTpuV2Vm#zone}
 
 ---
 
@@ -376,6 +395,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.resetAcceleratorType">resetAcceleratorType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.resetCidrBlock">resetCidrBlock</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.resetDataDisks">resetDataDisks</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.resetLabels">resetLabels</a></code> | *No description.* |
@@ -823,6 +843,12 @@ public void resetCidrBlock()
 public void resetDataDisks()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.resetDescription"></a>
 
 ```java
@@ -1004,7 +1030,7 @@ The construct id used in the generated config for the GoogleTpuV2Vm to import.
 
 The id of the existing GoogleTpuV2Vm that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1056,6 +1082,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.acceleratorTypeInput">acceleratorTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.cidrBlockInput">cidrBlockInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.dataDisksInput">dataDisksInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmDataDisks">GoogleTpuV2VmDataDisks</a>></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.labelsInput">labelsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -1073,6 +1100,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.zoneInput">zoneInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.acceleratorType">acceleratorType</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.cidrBlock">cidrBlock</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -1447,6 +1475,16 @@ public IResolvable|java.util.List<GoogleTpuV2VmDataDisks> getDataDisksInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.descriptionInput"></a>
 
 ```java
@@ -1617,6 +1655,16 @@ public java.lang.String getCidrBlock();
 
 ---
 
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2Vm.property.description"></a>
 
 ```java
@@ -1759,7 +1807,7 @@ public java.lang.String getTopology();
 
 Topology of TPU in chips.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#topology GoogleTpuV2Vm#topology}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#topology GoogleTpuV2Vm#topology}
 
 ---
 
@@ -1773,7 +1821,7 @@ public java.lang.String getType();
 
 Type of TPU. Please select one of the allowed types: https://cloud.google.com/tpu/docs/reference/rest/v2/AcceleratorConfig#Type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#type GoogleTpuV2Vm#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#type GoogleTpuV2Vm#type}
 
 ---
 
@@ -1798,6 +1846,7 @@ GoogleTpuV2VmConfig.builder()
 //  .acceleratorType(java.lang.String)
 //  .cidrBlock(java.lang.String)
 //  .dataDisks(IResolvable|java.util.List<GoogleTpuV2VmDataDisks>)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -1831,13 +1880,14 @@ GoogleTpuV2VmConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.acceleratorType">acceleratorType</a></code> | <code>java.lang.String</code> | TPU accelerator type for the TPU. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.cidrBlock">cidrBlock</a></code> | <code>java.lang.String</code> | The CIDR block that the TPU node will use when selecting an IP address. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.dataDisks">dataDisks</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmDataDisks">GoogleTpuV2VmDataDisks</a>></code> | data_disks block. |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.description">description</a></code> | <code>java.lang.String</code> | Text description of the TPU. |
-| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#id GoogleTpuV2Vm#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#id GoogleTpuV2Vm#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource labels to represent user-provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.metadata">metadata</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Custom metadata to apply to the TPU Node. Can set startup-script and shutdown-script. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.networkConfig">networkConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmNetworkConfig">GoogleTpuV2VmNetworkConfig</a></code> | network_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.networkConfigs">networkConfigs</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmNetworkConfigs">GoogleTpuV2VmNetworkConfigs</a>></code> | network_configs block. |
-| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#project GoogleTpuV2Vm#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#project GoogleTpuV2Vm#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.schedulingConfig">schedulingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmSchedulingConfig">GoogleTpuV2VmSchedulingConfig</a></code> | scheduling_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.serviceAccount">serviceAccount</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmServiceAccount">GoogleTpuV2VmServiceAccount</a></code> | service_account block. |
 | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.shieldedInstanceConfig">shieldedInstanceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmShieldedInstanceConfig">GoogleTpuV2VmShieldedInstanceConfig</a></code> | shielded_instance_config block. |
@@ -1927,7 +1977,7 @@ public java.lang.String getName();
 
 The immutable name of the TPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#name GoogleTpuV2Vm#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#name GoogleTpuV2Vm#name}
 
 ---
 
@@ -1941,7 +1991,7 @@ public java.lang.String getRuntimeVersion();
 
 Runtime version for the TPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#runtime_version GoogleTpuV2Vm#runtime_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#runtime_version GoogleTpuV2Vm#runtime_version}
 
 ---
 
@@ -1955,7 +2005,7 @@ public GoogleTpuV2VmAcceleratorConfig getAcceleratorConfig();
 
 accelerator_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#accelerator_config GoogleTpuV2Vm#accelerator_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#accelerator_config GoogleTpuV2Vm#accelerator_config}
 
 ---
 
@@ -1972,7 +2022,7 @@ TPU accelerator type for the TPU.
 'accelerator_type' cannot be used at the same time as
 'accelerator_config'. If neither is specified, 'accelerator_type' defaults to 'v2-8'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#accelerator_type GoogleTpuV2Vm#accelerator_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#accelerator_type GoogleTpuV2Vm#accelerator_type}
 
 ---
 
@@ -1993,7 +2043,7 @@ CIDR block has already been used for a currently existing TPU node, the CIDR blo
 with any subnetworks in the user's provided network, or the provided network is peered with
 another network that is using that CIDR block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#cidr_block GoogleTpuV2Vm#cidr_block}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#cidr_block GoogleTpuV2Vm#cidr_block}
 
 ---
 
@@ -2007,7 +2057,28 @@ public IResolvable|java.util.List<GoogleTpuV2VmDataDisks> getDataDisks();
 
 data_disks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#data_disks GoogleTpuV2Vm#data_disks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#data_disks GoogleTpuV2Vm#data_disks}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#deletion_policy GoogleTpuV2Vm#deletion_policy}
 
 ---
 
@@ -2021,7 +2092,7 @@ public java.lang.String getDescription();
 
 Text description of the TPU.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#description GoogleTpuV2Vm#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#description GoogleTpuV2Vm#description}
 
 ---
 
@@ -2033,7 +2104,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#id GoogleTpuV2Vm#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#id GoogleTpuV2Vm#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2053,7 +2124,7 @@ Resource labels to represent user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#labels GoogleTpuV2Vm#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#labels GoogleTpuV2Vm#labels}
 
 ---
 
@@ -2067,7 +2138,7 @@ public java.util.Map<java.lang.String, java.lang.String> getMetadata();
 
 Custom metadata to apply to the TPU Node. Can set startup-script and shutdown-script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#metadata GoogleTpuV2Vm#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#metadata GoogleTpuV2Vm#metadata}
 
 ---
 
@@ -2081,7 +2152,7 @@ public GoogleTpuV2VmNetworkConfig getNetworkConfig();
 
 network_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#network_config GoogleTpuV2Vm#network_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#network_config GoogleTpuV2Vm#network_config}
 
 ---
 
@@ -2095,7 +2166,7 @@ public IResolvable|java.util.List<GoogleTpuV2VmNetworkConfigs> getNetworkConfigs
 
 network_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#network_configs GoogleTpuV2Vm#network_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#network_configs GoogleTpuV2Vm#network_configs}
 
 ---
 
@@ -2107,7 +2178,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#project GoogleTpuV2Vm#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#project GoogleTpuV2Vm#project}.
 
 ---
 
@@ -2121,7 +2192,7 @@ public GoogleTpuV2VmSchedulingConfig getSchedulingConfig();
 
 scheduling_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#scheduling_config GoogleTpuV2Vm#scheduling_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#scheduling_config GoogleTpuV2Vm#scheduling_config}
 
 ---
 
@@ -2135,7 +2206,7 @@ public GoogleTpuV2VmServiceAccount getServiceAccount();
 
 service_account block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#service_account GoogleTpuV2Vm#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#service_account GoogleTpuV2Vm#service_account}
 
 ---
 
@@ -2149,7 +2220,7 @@ public GoogleTpuV2VmShieldedInstanceConfig getShieldedInstanceConfig();
 
 shielded_instance_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#shielded_instance_config GoogleTpuV2Vm#shielded_instance_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#shielded_instance_config GoogleTpuV2Vm#shielded_instance_config}
 
 ---
 
@@ -2163,7 +2234,7 @@ public java.util.List<java.lang.String> getTags();
 
 Tags to apply to the TPU Node. Tags are used to identify valid sources or targets for network firewalls.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#tags GoogleTpuV2Vm#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#tags GoogleTpuV2Vm#tags}
 
 ---
 
@@ -2177,7 +2248,7 @@ public GoogleTpuV2VmTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#timeouts GoogleTpuV2Vm#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#timeouts GoogleTpuV2Vm#timeouts}
 
 ---
 
@@ -2191,7 +2262,7 @@ public java.lang.String getZone();
 
 The GCP location for the TPU. If it is not provided, the provider zone is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#zone GoogleTpuV2Vm#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#zone GoogleTpuV2Vm#zone}
 
 ---
 
@@ -2227,7 +2298,7 @@ public java.lang.String getSourceDisk();
 
 Specifies the full path to an existing disk. For example: "projects/my-project/zones/us-central1-c/disks/my-disk".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#source_disk GoogleTpuV2Vm#source_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#source_disk GoogleTpuV2Vm#source_disk}
 
 ---
 
@@ -2244,7 +2315,7 @@ The mode in which to attach this disk.
 If not specified, the default is READ_WRITE
 mode. Only applicable to dataDisks. Default value: "READ_WRITE" Possible values: ["READ_WRITE", "READ_ONLY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#mode GoogleTpuV2Vm#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#mode GoogleTpuV2Vm#mode}
 
 ---
 
@@ -2288,7 +2359,7 @@ Allows the TPU node to send and receive packets with non-matching destination or
 
 This is required if you plan to use the TPU workers to forward routes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#can_ip_forward GoogleTpuV2Vm#can_ip_forward}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#can_ip_forward GoogleTpuV2Vm#can_ip_forward}
 
 ---
 
@@ -2305,7 +2376,7 @@ Indicates that external IP addresses would be associated with the TPU workers.
 If set to
 false, the specified subnetwork or network should have Private Google Access enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#enable_external_ips GoogleTpuV2Vm#enable_external_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#enable_external_ips GoogleTpuV2Vm#enable_external_ips}
 
 ---
 
@@ -2322,7 +2393,7 @@ The name of the network for the TPU node.
 It must be a preexisting Google Compute Engine
 network. If none is provided, "default" will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#network GoogleTpuV2Vm#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#network GoogleTpuV2Vm#network}
 
 ---
 
@@ -2336,7 +2407,7 @@ public java.lang.Number getQueueCount();
 
 Specifies networking queue count for TPU VM instance's network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#queue_count GoogleTpuV2Vm#queue_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#queue_count GoogleTpuV2Vm#queue_count}
 
 ---
 
@@ -2353,7 +2424,7 @@ The name of the subnetwork for the TPU node.
 It must be a preexisting Google Compute
 Engine subnetwork. If none is provided, "default" will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#subnetwork GoogleTpuV2Vm#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#subnetwork GoogleTpuV2Vm#subnetwork}
 
 ---
 
@@ -2397,7 +2468,7 @@ Allows the TPU node to send and receive packets with non-matching destination or
 
 This is required if you plan to use the TPU workers to forward routes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#can_ip_forward GoogleTpuV2Vm#can_ip_forward}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#can_ip_forward GoogleTpuV2Vm#can_ip_forward}
 
 ---
 
@@ -2414,7 +2485,7 @@ Indicates that external IP addresses would be associated with the TPU workers.
 If set to
 false, the specified subnetwork or network should have Private Google Access enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#enable_external_ips GoogleTpuV2Vm#enable_external_ips}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#enable_external_ips GoogleTpuV2Vm#enable_external_ips}
 
 ---
 
@@ -2431,7 +2502,7 @@ The name of the network for the TPU node.
 It must be a preexisting Google Compute Engine
 network. If none is provided, "default" will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#network GoogleTpuV2Vm#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#network GoogleTpuV2Vm#network}
 
 ---
 
@@ -2445,7 +2516,7 @@ public java.lang.Number getQueueCount();
 
 Specifies networking queue count for TPU VM instance's network interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#queue_count GoogleTpuV2Vm#queue_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#queue_count GoogleTpuV2Vm#queue_count}
 
 ---
 
@@ -2462,7 +2533,7 @@ The name of the subnetwork for the TPU node.
 It must be a preexisting Google Compute
 Engine subnetwork. If none is provided, "default" will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#subnetwork GoogleTpuV2Vm#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#subnetwork GoogleTpuV2Vm#subnetwork}
 
 ---
 
@@ -2524,7 +2595,7 @@ public java.lang.Boolean|IResolvable getPreemptible();
 
 Defines whether the node is preemptible.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#preemptible GoogleTpuV2Vm#preemptible}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#preemptible GoogleTpuV2Vm#preemptible}
 
 ---
 
@@ -2538,7 +2609,7 @@ public java.lang.Boolean|IResolvable getReserved();
 
 Whether the node is created under a reservation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#reserved GoogleTpuV2Vm#reserved}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#reserved GoogleTpuV2Vm#reserved}
 
 ---
 
@@ -2552,7 +2623,7 @@ public java.lang.Boolean|IResolvable getSpot();
 
 Optional. Defines whether the node is Spot VM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#spot GoogleTpuV2Vm#spot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#spot GoogleTpuV2Vm#spot}
 
 ---
 
@@ -2588,7 +2659,7 @@ public java.lang.String getEmail();
 
 Email address of the service account. If empty, default Compute service account will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#email GoogleTpuV2Vm#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#email GoogleTpuV2Vm#email}
 
 ---
 
@@ -2605,7 +2676,7 @@ The list of scopes to be made available for this service account.
 If empty, access to all
 Cloud APIs will be allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#scope GoogleTpuV2Vm#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#scope GoogleTpuV2Vm#scope}
 
 ---
 
@@ -2639,7 +2710,7 @@ public java.lang.Boolean|IResolvable getEnableSecureBoot();
 
 Defines whether the instance has Secure Boot enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#enable_secure_boot GoogleTpuV2Vm#enable_secure_boot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#enable_secure_boot GoogleTpuV2Vm#enable_secure_boot}
 
 ---
 
@@ -2673,9 +2744,9 @@ GoogleTpuV2VmTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#create GoogleTpuV2Vm#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#delete GoogleTpuV2Vm#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#update GoogleTpuV2Vm#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#create GoogleTpuV2Vm#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#delete GoogleTpuV2Vm#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleTpuV2Vm.GoogleTpuV2VmTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#update GoogleTpuV2Vm#update}. |
 
 ---
 
@@ -2687,7 +2758,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#create GoogleTpuV2Vm#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#create GoogleTpuV2Vm#create}.
 
 ---
 
@@ -2699,7 +2770,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#delete GoogleTpuV2Vm#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#delete GoogleTpuV2Vm#delete}.
 
 ---
 
@@ -2711,7 +2782,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_tpu_v2_vm#update GoogleTpuV2Vm#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_tpu_v2_vm#update GoogleTpuV2Vm#update}.
 
 ---
 

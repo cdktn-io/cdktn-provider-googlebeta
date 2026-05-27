@@ -4,7 +4,7 @@
 
 ### GoogleFolderAccessApprovalSettings <a name="GoogleFolderAccessApprovalSettings" id="@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings google_folder_access_approval_settings}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings google_folder_access_approval_settings}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer"></a>
 
@@ -22,6 +22,7 @@ GoogleFolderAccessApprovalSettings.Builder.create(Construct scope, java.lang.Str
     .enrolledServices(IResolvable|java.util.List<GoogleFolderAccessApprovalSettingsEnrolledServices>)
     .folderId(java.lang.String)
 //  .activeKeyVersion(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .notificationEmails(java.util.List<java.lang.String>)
 //  .timeouts(GoogleFolderAccessApprovalSettingsTimeouts)
@@ -42,7 +43,8 @@ GoogleFolderAccessApprovalSettings.Builder.create(Construct scope, java.lang.Str
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer.parameter.enrolledServices">enrolledServices</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsEnrolledServices">GoogleFolderAccessApprovalSettingsEnrolledServices</a>></code> | enrolled_services block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer.parameter.folderId">folderId</a></code> | <code>java.lang.String</code> | ID of the folder of the access approval settings. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer.parameter.activeKeyVersion">activeKeyVersion</a></code> | <code>java.lang.String</code> | The asymmetric crypto key version to use for signing approval requests. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#id GoogleFolderAccessApprovalSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#id GoogleFolderAccessApprovalSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer.parameter.notificationEmails">notificationEmails</a></code> | <code>java.util.List<java.lang.String></code> | A list of email addresses to which notifications relating to approval requests should be sent. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeouts">GoogleFolderAccessApprovalSettingsTimeouts</a></code> | timeouts block. |
 
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 enrolled_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#enrolled_services GoogleFolderAccessApprovalSettings#enrolled_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#enrolled_services GoogleFolderAccessApprovalSettings#enrolled_services}
 
 ---
 
@@ -124,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ID of the folder of the access approval settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#folder_id GoogleFolderAccessApprovalSettings#folder_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#folder_id GoogleFolderAccessApprovalSettings#folder_id}
 
 ---
 
@@ -137,7 +139,24 @@ The asymmetric crypto key version to use for signing approval requests.
 Empty active_key_version indicates that a Google-managed key should be used for signing.
 This property will be ignored if set by an ancestor of the resource, and new non-empty values may not be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#active_key_version GoogleFolderAccessApprovalSettings#active_key_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#active_key_version GoogleFolderAccessApprovalSettings#active_key_version}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#deletion_policy GoogleFolderAccessApprovalSettings#deletion_policy}
 
 ---
 
@@ -145,7 +164,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#id GoogleFolderAccessApprovalSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#id GoogleFolderAccessApprovalSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -161,7 +180,7 @@ A list of email addresses to which notifications relating to approval requests s
 Notifications relating to a resource will be sent to all emails in the settings of ancestor
 resources of that resource. A maximum of 50 email addresses are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#notification_emails GoogleFolderAccessApprovalSettings#notification_emails}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#notification_emails GoogleFolderAccessApprovalSettings#notification_emails}
 
 ---
 
@@ -171,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#timeouts GoogleFolderAccessApprovalSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#timeouts GoogleFolderAccessApprovalSettings#timeouts}
 
 ---
 
@@ -206,6 +225,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.putEnrolledServices">putEnrolledServices</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.resetActiveKeyVersion">resetActiveKeyVersion</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.resetNotificationEmails">resetNotificationEmails</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -553,6 +573,12 @@ public void putTimeouts(GoogleFolderAccessApprovalSettingsTimeouts value)
 public void resetActiveKeyVersion()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.resetId"></a>
 
 ```java
@@ -674,7 +700,7 @@ The construct id used in the generated config for the GoogleFolderAccessApproval
 
 The id of the existing GoogleFolderAccessApprovalSettings that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -711,12 +737,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeoutsOutputReference">GoogleFolderAccessApprovalSettingsTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.activeKeyVersionInput">activeKeyVersionInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.enrolledServicesInput">enrolledServicesInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsEnrolledServices">GoogleFolderAccessApprovalSettingsEnrolledServices</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.folderIdInput">folderIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.notificationEmailsInput">notificationEmailsInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeouts">GoogleFolderAccessApprovalSettingsTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.activeKeyVersion">activeKeyVersion</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.folderId">folderId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.notificationEmails">notificationEmails</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
@@ -935,6 +963,16 @@ public java.lang.String getActiveKeyVersionInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `enrolledServicesInput`<sup>Optional</sup> <a name="enrolledServicesInput" id="@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.enrolledServicesInput"></a>
 
 ```java
@@ -989,6 +1027,16 @@ public IResolvable|GoogleFolderAccessApprovalSettingsTimeouts getTimeoutsInput()
 
 ```java
 public java.lang.String getActiveKeyVersion();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettings.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1063,6 +1111,7 @@ GoogleFolderAccessApprovalSettingsConfig.builder()
     .enrolledServices(IResolvable|java.util.List<GoogleFolderAccessApprovalSettingsEnrolledServices>)
     .folderId(java.lang.String)
 //  .activeKeyVersion(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .notificationEmails(java.util.List<java.lang.String>)
 //  .timeouts(GoogleFolderAccessApprovalSettingsTimeouts)
@@ -1083,7 +1132,8 @@ GoogleFolderAccessApprovalSettingsConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsConfig.property.enrolledServices">enrolledServices</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsEnrolledServices">GoogleFolderAccessApprovalSettingsEnrolledServices</a>></code> | enrolled_services block. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsConfig.property.folderId">folderId</a></code> | <code>java.lang.String</code> | ID of the folder of the access approval settings. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsConfig.property.activeKeyVersion">activeKeyVersion</a></code> | <code>java.lang.String</code> | The asymmetric crypto key version to use for signing approval requests. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#id GoogleFolderAccessApprovalSettings#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#id GoogleFolderAccessApprovalSettings#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsConfig.property.notificationEmails">notificationEmails</a></code> | <code>java.util.List<java.lang.String></code> | A list of email addresses to which notifications relating to approval requests should be sent. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeouts">GoogleFolderAccessApprovalSettingsTimeouts</a></code> | timeouts block. |
 
@@ -1169,7 +1219,7 @@ public IResolvable|java.util.List<GoogleFolderAccessApprovalSettingsEnrolledServ
 
 enrolled_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#enrolled_services GoogleFolderAccessApprovalSettings#enrolled_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#enrolled_services GoogleFolderAccessApprovalSettings#enrolled_services}
 
 ---
 
@@ -1183,7 +1233,7 @@ public java.lang.String getFolderId();
 
 ID of the folder of the access approval settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#folder_id GoogleFolderAccessApprovalSettings#folder_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#folder_id GoogleFolderAccessApprovalSettings#folder_id}
 
 ---
 
@@ -1200,7 +1250,28 @@ The asymmetric crypto key version to use for signing approval requests.
 Empty active_key_version indicates that a Google-managed key should be used for signing.
 This property will be ignored if set by an ancestor of the resource, and new non-empty values may not be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#active_key_version GoogleFolderAccessApprovalSettings#active_key_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#active_key_version GoogleFolderAccessApprovalSettings#active_key_version}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#deletion_policy GoogleFolderAccessApprovalSettings#deletion_policy}
 
 ---
 
@@ -1212,7 +1283,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#id GoogleFolderAccessApprovalSettings#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#id GoogleFolderAccessApprovalSettings#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1232,7 +1303,7 @@ A list of email addresses to which notifications relating to approval requests s
 Notifications relating to a resource will be sent to all emails in the settings of ancestor
 resources of that resource. A maximum of 50 email addresses are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#notification_emails GoogleFolderAccessApprovalSettings#notification_emails}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#notification_emails GoogleFolderAccessApprovalSettings#notification_emails}
 
 ---
 
@@ -1246,7 +1317,7 @@ public GoogleFolderAccessApprovalSettingsTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#timeouts GoogleFolderAccessApprovalSettings#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#timeouts GoogleFolderAccessApprovalSettings#timeouts}
 
 ---
 
@@ -1309,7 +1380,7 @@ Note: These values are supported as input, but considered a legacy format:
 * pubsub.googleapis.com
 * storage.googleapis.com
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#cloud_product GoogleFolderAccessApprovalSettings#cloud_product}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#cloud_product GoogleFolderAccessApprovalSettings#cloud_product}
 
 ---
 
@@ -1323,7 +1394,7 @@ public java.lang.String getEnrollmentLevel();
 
 The enrollment level of the service. Default value: "BLOCK_ALL" Possible values: ["BLOCK_ALL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#enrollment_level GoogleFolderAccessApprovalSettings#enrollment_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#enrollment_level GoogleFolderAccessApprovalSettings#enrollment_level}
 
 ---
 
@@ -1345,9 +1416,9 @@ GoogleFolderAccessApprovalSettingsTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#create GoogleFolderAccessApprovalSettings#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#delete GoogleFolderAccessApprovalSettings#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#update GoogleFolderAccessApprovalSettings#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#create GoogleFolderAccessApprovalSettings#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#delete GoogleFolderAccessApprovalSettings#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderAccessApprovalSettings.GoogleFolderAccessApprovalSettingsTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#update GoogleFolderAccessApprovalSettings#update}. |
 
 ---
 
@@ -1359,7 +1430,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#create GoogleFolderAccessApprovalSettings#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#create GoogleFolderAccessApprovalSettings#create}.
 
 ---
 
@@ -1371,7 +1442,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#delete GoogleFolderAccessApprovalSettings#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#delete GoogleFolderAccessApprovalSettings#delete}.
 
 ---
 
@@ -1383,7 +1454,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_folder_access_approval_settings#update GoogleFolderAccessApprovalSettings#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_folder_access_approval_settings#update GoogleFolderAccessApprovalSettings#update}.
 
 ---
 

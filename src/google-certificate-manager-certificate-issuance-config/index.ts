@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,13 +13,25 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleCertificateManagerCertificateIssuanceConfigConfig extends cdktn.TerraformMetaArguments {
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#deletion_policy GoogleCertificateManagerCertificateIssuanceConfig#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * One or more paragraphs of text description of a CertificateIssuanceConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#description GoogleCertificateManagerCertificateIssuanceConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#description GoogleCertificateManagerCertificateIssuanceConfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#id GoogleCertificateManagerCertificateIssuanceConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#id GoogleCertificateManagerCertificateIssuanceConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,7 +40,7 @@ export interface GoogleCertificateManagerCertificateIssuanceConfigConfig extends
   /**
   * Key algorithm to use when generating the private key. Possible values: ["RSA_2048", "ECDSA_P256"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#key_algorithm GoogleCertificateManagerCertificateIssuanceConfig#key_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#key_algorithm GoogleCertificateManagerCertificateIssuanceConfig#key_algorithm}
   */
   readonly keyAlgorithm: string;
   /**
@@ -39,31 +51,31 @@ export interface GoogleCertificateManagerCertificateIssuanceConfigConfig extends
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#labels GoogleCertificateManagerCertificateIssuanceConfig#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#labels GoogleCertificateManagerCertificateIssuanceConfig#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Lifetime of issued certificates. A duration in seconds with up to nine fractional digits, ending with 's'.
   * Example: "1814400s". Valid values are from 21 days (1814400s) to 30 days (2592000s)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#lifetime GoogleCertificateManagerCertificateIssuanceConfig#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#lifetime GoogleCertificateManagerCertificateIssuanceConfig#lifetime}
   */
   readonly lifetime: string;
   /**
   * The Certificate Manager location. If not specified, "global" is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#location GoogleCertificateManagerCertificateIssuanceConfig#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#location GoogleCertificateManagerCertificateIssuanceConfig#location}
   */
   readonly location?: string;
   /**
   * A user-defined name of the certificate issuance config.
   * CertificateIssuanceConfig names must be unique globally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#name GoogleCertificateManagerCertificateIssuanceConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#name GoogleCertificateManagerCertificateIssuanceConfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#project GoogleCertificateManagerCertificateIssuanceConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#project GoogleCertificateManagerCertificateIssuanceConfig#project}
   */
   readonly project?: string;
   /**
@@ -72,19 +84,19 @@ export interface GoogleCertificateManagerCertificateIssuanceConfigConfig extends
   * You must set the rotation window percentage in relation to the certificate lifetime so that certificate renewal occurs at least 7 days after
   * the certificate has been issued and at least 7 days before it expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#rotation_window_percentage GoogleCertificateManagerCertificateIssuanceConfig#rotation_window_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#rotation_window_percentage GoogleCertificateManagerCertificateIssuanceConfig#rotation_window_percentage}
   */
   readonly rotationWindowPercentage: number;
   /**
   * certificate_authority_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#certificate_authority_config GoogleCertificateManagerCertificateIssuanceConfig#certificate_authority_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#certificate_authority_config GoogleCertificateManagerCertificateIssuanceConfig#certificate_authority_config}
   */
   readonly certificateAuthorityConfig: GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#timeouts GoogleCertificateManagerCertificateIssuanceConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#timeouts GoogleCertificateManagerCertificateIssuanceConfig#timeouts}
   */
   readonly timeouts?: GoogleCertificateManagerCertificateIssuanceConfigTimeouts;
 }
@@ -94,7 +106,7 @@ export interface GoogleCertificateManagerCertificateIssuanceConfigCertificateAut
   * The CA pool string has a relative resource path following the form
   * "projects/{project}/locations/{location}/caPools/{caPool}".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#ca_pool GoogleCertificateManagerCertificateIssuanceConfig#ca_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#ca_pool GoogleCertificateManagerCertificateIssuanceConfig#ca_pool}
   */
   readonly caPool: string;
 }
@@ -177,7 +189,7 @@ export interface GoogleCertificateManagerCertificateIssuanceConfigCertificateAut
   /**
   * certificate_authority_service_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#certificate_authority_service_config GoogleCertificateManagerCertificateIssuanceConfig#certificate_authority_service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#certificate_authority_service_config GoogleCertificateManagerCertificateIssuanceConfig#certificate_authority_service_config}
   */
   readonly certificateAuthorityServiceConfig?: GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthorityConfigCertificateAuthorityServiceConfig;
 }
@@ -261,15 +273,15 @@ export class GoogleCertificateManagerCertificateIssuanceConfigCertificateAuthori
 }
 export interface GoogleCertificateManagerCertificateIssuanceConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#create GoogleCertificateManagerCertificateIssuanceConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#create GoogleCertificateManagerCertificateIssuanceConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#delete GoogleCertificateManagerCertificateIssuanceConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#delete GoogleCertificateManagerCertificateIssuanceConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#update GoogleCertificateManagerCertificateIssuanceConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#update GoogleCertificateManagerCertificateIssuanceConfig#update}
   */
   readonly update?: string;
 }
@@ -421,7 +433,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfigTimeoutsOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config}
 */
 export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktn.TerraformResource {
 
@@ -437,7 +449,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktn.Ter
   * Generates CDKTN code for importing a GoogleCertificateManagerCertificateIssuanceConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCertificateManagerCertificateIssuanceConfig to import
-  * @param importFromId The id of the existing GoogleCertificateManagerCertificateIssuanceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCertificateManagerCertificateIssuanceConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCertificateManagerCertificateIssuanceConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -449,7 +461,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktn.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_certificate_issuance_config google_certificate_manager_certificate_issuance_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -460,7 +472,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktn.Ter
       terraformResourceType: 'google_certificate_manager_certificate_issuance_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -471,6 +483,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktn.Ter
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._id = config.id;
     this._keyAlgorithm = config.keyAlgorithm;
@@ -491,6 +504,22 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktn.Ter
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // description - computed: false, optional: true, required: false
@@ -677,6 +706,7 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktn.Ter
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       id: cdktn.stringToTerraform(this._id),
       key_algorithm: cdktn.stringToTerraform(this._keyAlgorithm),
@@ -693,6 +723,12 @@ export class GoogleCertificateManagerCertificateIssuanceConfig extends cdktn.Ter
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       description: {
         value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,

@@ -4,7 +4,7 @@
 
 ### GoogleVmwareengineExternalAddress <a name="GoogleVmwareengineExternalAddress" id="@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address google_vmwareengine_external_address}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address google_vmwareengine_external_address}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer"></a>
 
@@ -24,6 +24,7 @@ googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress(
   internal_ip: str,
   name: str,
   parent: str,
+  deletion_policy: str = None,
   description: str = None,
   id: str = None,
   timeouts: GoogleVmwareengineExternalAddressTimeouts = None
@@ -44,8 +45,9 @@ googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress(
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer.parameter.internalIp">internal_ip</a></code> | <code>str</code> | The internal IP address of a workload VM. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer.parameter.name">name</a></code> | <code>str</code> | The ID of the external IP Address. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer.parameter.parent">parent</a></code> | <code>str</code> | The resource name of the private cloud to create a new external address in. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer.parameter.description">description</a></code> | <code>str</code> | User-provided description for this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts">GoogleVmwareengineExternalAddressTimeouts</a></code> | timeouts block. |
 
 ---
@@ -116,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The internal IP address of a workload VM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#internal_ip GoogleVmwareengineExternalAddress#internal_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#internal_ip GoogleVmwareengineExternalAddress#internal_ip}
 
 ---
 
@@ -126,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the external IP Address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#name GoogleVmwareengineExternalAddress#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#name GoogleVmwareengineExternalAddress#name}
 
 ---
 
@@ -139,7 +141,24 @@ The resource name of the private cloud to create a new external address in.
 Resource names are schemeless URIs that follow the conventions in https://cloud.google.com/apis/design/resource_names.
 For example: projects/my-project/locations/us-west1-a/privateClouds/my-cloud
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#parent GoogleVmwareengineExternalAddress#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#parent GoogleVmwareengineExternalAddress#parent}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#deletion_policy GoogleVmwareengineExternalAddress#deletion_policy}
 
 ---
 
@@ -149,7 +168,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-provided description for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#description GoogleVmwareengineExternalAddress#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#description GoogleVmwareengineExternalAddress#description}
 
 ---
 
@@ -157,7 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +189,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#timeouts GoogleVmwareengineExternalAddress#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#timeouts GoogleVmwareengineExternalAddress#timeouts}
 
 ---
 
@@ -203,6 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.resetTimeouts">reset_timeouts</a></code> | *No description.* |
@@ -571,7 +591,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#create GoogleVmwareengineExternalAddress#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#create GoogleVmwareengineExternalAddress#create}.
 
 ---
 
@@ -579,7 +599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#delete GoogleVmwareengineExternalAddress#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#delete GoogleVmwareengineExternalAddress#delete}.
 
 ---
 
@@ -587,9 +607,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#update GoogleVmwareengineExternalAddress#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#update GoogleVmwareengineExternalAddress#update}.
 
 ---
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
+```
 
 ##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.resetDescription"></a>
 
@@ -723,7 +749,7 @@ The construct id used in the generated config for the GoogleVmwareengineExternal
 
 The id of the existing GoogleVmwareengineExternalAddress that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -759,12 +785,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeoutsOutputReference">GoogleVmwareengineExternalAddressTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.uid">uid</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.internalIpInput">internal_ip_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.parentInput">parent_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts">GoogleVmwareengineExternalAddressTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.internalIp">internal_ip</a></code> | <code>str</code> | *No description.* |
@@ -975,6 +1003,16 @@ update_time: str
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.descriptionInput"></a>
 
 ```python
@@ -1032,6 +1070,16 @@ timeouts_input: IResolvable | GoogleVmwareengineExternalAddressTimeouts
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts">GoogleVmwareengineExternalAddressTimeouts</a>
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddress.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
 
 ---
 
@@ -1123,6 +1171,7 @@ googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig(
   internal_ip: str,
   name: str,
   parent: str,
+  deletion_policy: str = None,
   description: str = None,
   id: str = None,
   timeouts: GoogleVmwareengineExternalAddressTimeouts = None
@@ -1143,8 +1192,9 @@ googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig.property.internalIp">internal_ip</a></code> | <code>str</code> | The internal IP address of a workload VM. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig.property.name">name</a></code> | <code>str</code> | The ID of the external IP Address. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig.property.parent">parent</a></code> | <code>str</code> | The resource name of the private cloud to create a new external address in. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig.property.description">description</a></code> | <code>str</code> | User-provided description for this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts">GoogleVmwareengineExternalAddressTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1229,7 +1279,7 @@ internal_ip: str
 
 The internal IP address of a workload VM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#internal_ip GoogleVmwareengineExternalAddress#internal_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#internal_ip GoogleVmwareengineExternalAddress#internal_ip}
 
 ---
 
@@ -1243,7 +1293,7 @@ name: str
 
 The ID of the external IP Address.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#name GoogleVmwareengineExternalAddress#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#name GoogleVmwareengineExternalAddress#name}
 
 ---
 
@@ -1260,7 +1310,28 @@ The resource name of the private cloud to create a new external address in.
 Resource names are schemeless URIs that follow the conventions in https://cloud.google.com/apis/design/resource_names.
 For example: projects/my-project/locations/us-west1-a/privateClouds/my-cloud
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#parent GoogleVmwareengineExternalAddress#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#parent GoogleVmwareengineExternalAddress#parent}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#deletion_policy GoogleVmwareengineExternalAddress#deletion_policy}
 
 ---
 
@@ -1274,7 +1345,7 @@ description: str
 
 User-provided description for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#description GoogleVmwareengineExternalAddress#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#description GoogleVmwareengineExternalAddress#description}
 
 ---
 
@@ -1286,7 +1357,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#id GoogleVmwareengineExternalAddress#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1303,7 +1374,7 @@ timeouts: GoogleVmwareengineExternalAddressTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#timeouts GoogleVmwareengineExternalAddress#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#timeouts GoogleVmwareengineExternalAddress#timeouts}
 
 ---
 
@@ -1325,9 +1396,9 @@ googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#create GoogleVmwareengineExternalAddress#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#delete GoogleVmwareengineExternalAddress#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#update GoogleVmwareengineExternalAddress#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#create GoogleVmwareengineExternalAddress#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#delete GoogleVmwareengineExternalAddress#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVmwareengineExternalAddress.GoogleVmwareengineExternalAddressTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#update GoogleVmwareengineExternalAddress#update}. |
 
 ---
 
@@ -1339,7 +1410,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#create GoogleVmwareengineExternalAddress#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#create GoogleVmwareengineExternalAddress#create}.
 
 ---
 
@@ -1351,7 +1422,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#delete GoogleVmwareengineExternalAddress#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#delete GoogleVmwareengineExternalAddress#delete}.
 
 ---
 
@@ -1363,7 +1434,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vmwareengine_external_address#update GoogleVmwareengineExternalAddress#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vmwareengine_external_address#update GoogleVmwareengineExternalAddress#update}.
 
 ---
 

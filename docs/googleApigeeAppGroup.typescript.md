@@ -4,7 +4,7 @@
 
 ### GoogleApigeeAppGroup <a name="GoogleApigeeAppGroup" id="@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group google_apigee_app_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group google_apigee_app_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.Initializer"></a>
 
@@ -79,6 +79,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.resetAttributes">resetAttributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.resetChannelId">resetChannelId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.resetChannelUri">resetChannelUri</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.resetDisplayName">resetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.resetStatus">resetStatus</a></code> | *No description.* |
@@ -437,6 +438,12 @@ public resetChannelId(): void
 public resetChannelUri(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDisplayName` <a name="resetDisplayName" id="@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.resetDisplayName"></a>
 
 ```typescript
@@ -564,7 +571,7 @@ The construct id used in the generated config for the GoogleApigeeAppGroup to im
 
 The id of the existing GoogleApigeeAppGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -603,6 +610,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.attributesInput">attributesInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupAttributes">GoogleApigeeAppGroupAttributes</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.channelIdInput">channelIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.channelUriInput">channelUriInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.displayNameInput">displayNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
@@ -611,6 +619,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts">GoogleApigeeAppGroupTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.channelId">channelId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.channelUri">channelUri</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.displayName">displayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.name">name</a></code> | <code>string</code> | *No description.* |
@@ -851,6 +860,16 @@ public readonly channelUriInput: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `displayNameInput`<sup>Optional</sup> <a name="displayNameInput" id="@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.displayNameInput"></a>
 
 ```typescript
@@ -925,6 +944,16 @@ public readonly channelId: string;
 
 ```typescript
 public readonly channelUri: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroup.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -1030,7 +1059,7 @@ public readonly name: string;
 
 Key of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#name GoogleApigeeAppGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#name GoogleApigeeAppGroup#name}
 
 ---
 
@@ -1044,7 +1073,7 @@ public readonly value: string;
 
 Value of the attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#value GoogleApigeeAppGroup#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#value GoogleApigeeAppGroup#value}
 
 ---
 
@@ -1074,8 +1103,9 @@ const googleApigeeAppGroupConfig: googleApigeeAppGroup.GoogleApigeeAppGroupConfi
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.attributes">attributes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupAttributes">GoogleApigeeAppGroupAttributes</a>[]</code> | attributes block. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.channelId">channelId</a></code> | <code>string</code> | Channel identifier identifies the owner maintaining this grouping. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.channelUri">channelUri</a></code> | <code>string</code> | A reference to the associated storefront/marketplace. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.displayName">displayName</a></code> | <code>string</code> | App group name displayed in the UI. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#id GoogleApigeeAppGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#id GoogleApigeeAppGroup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.status">status</a></code> | <code>string</code> | Valid values are active or inactive. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts">GoogleApigeeAppGroupTimeouts</a></code> | timeouts block. |
 
@@ -1161,7 +1191,7 @@ public readonly name: string;
 
 Name of the AppGroup. Characters you can use in the name are restricted to: A-Z0-9._-$ %.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#name GoogleApigeeAppGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#name GoogleApigeeAppGroup#name}
 
 ---
 
@@ -1175,7 +1205,7 @@ public readonly orgId: string;
 
 The Apigee Organization associated with the Apigee app group, in the format 'organizations/{{org_name}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#org_id GoogleApigeeAppGroup#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#org_id GoogleApigeeAppGroup#org_id}
 
 ---
 
@@ -1189,7 +1219,7 @@ public readonly attributes: IResolvable | GoogleApigeeAppGroupAttributes[];
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#attributes GoogleApigeeAppGroup#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#attributes GoogleApigeeAppGroup#attributes}
 
 ---
 
@@ -1203,7 +1233,7 @@ public readonly channelId: string;
 
 Channel identifier identifies the owner maintaining this grouping.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#channel_id GoogleApigeeAppGroup#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#channel_id GoogleApigeeAppGroup#channel_id}
 
 ---
 
@@ -1217,7 +1247,29 @@ public readonly channelUri: string;
 
 A reference to the associated storefront/marketplace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#channel_uri GoogleApigeeAppGroup#channel_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#channel_uri GoogleApigeeAppGroup#channel_uri}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#deletion_policy GoogleApigeeAppGroup#deletion_policy}
 
 ---
 
@@ -1231,7 +1283,7 @@ public readonly displayName: string;
 
 App group name displayed in the UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#display_name GoogleApigeeAppGroup#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#display_name GoogleApigeeAppGroup#display_name}
 
 ---
 
@@ -1243,7 +1295,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#id GoogleApigeeAppGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#id GoogleApigeeAppGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1262,7 +1314,7 @@ Valid values are active or inactive.
 
 Note that the status of the AppGroup should be updated via UpdateAppGroupRequest by setting the action as active or inactive. Possible values: ["active", "inactive"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#status GoogleApigeeAppGroup#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#status GoogleApigeeAppGroup#status}
 
 ---
 
@@ -1276,7 +1328,7 @@ public readonly timeouts: GoogleApigeeAppGroupTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#timeouts GoogleApigeeAppGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#timeouts GoogleApigeeAppGroup#timeouts}
 
 ---
 
@@ -1294,9 +1346,9 @@ const googleApigeeAppGroupTimeouts: googleApigeeAppGroup.GoogleApigeeAppGroupTim
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#create GoogleApigeeAppGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#delete GoogleApigeeAppGroup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#update GoogleApigeeAppGroup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#create GoogleApigeeAppGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#delete GoogleApigeeAppGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeAppGroup.GoogleApigeeAppGroupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#update GoogleApigeeAppGroup#update}. |
 
 ---
 
@@ -1308,7 +1360,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#create GoogleApigeeAppGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#create GoogleApigeeAppGroup#create}.
 
 ---
 
@@ -1320,7 +1372,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#delete GoogleApigeeAppGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#delete GoogleApigeeAppGroup#delete}.
 
 ---
 
@@ -1332,7 +1384,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_app_group#update GoogleApigeeAppGroup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_app_group#update GoogleApigeeAppGroup#update}.
 
 ---
 

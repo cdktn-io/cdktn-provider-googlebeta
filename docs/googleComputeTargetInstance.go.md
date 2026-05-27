@@ -4,7 +4,7 @@
 
 ### GoogleComputeTargetInstance <a name="GoogleComputeTargetInstance" id="@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance google_compute_target_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance google_compute_target_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.resetNatPolicy">ResetNatPolicy</a></code> | *No description.* |
@@ -407,6 +408,12 @@ func PutTimeouts(value GoogleComputeTargetInstanceTimeouts)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.resetDescription"></a>
 
 ```go
@@ -558,7 +565,7 @@ The construct id used in the generated config for the GoogleComputeTargetInstanc
 
 The id of the existing GoogleComputeTargetInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -591,6 +598,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.creationTimestamp">CreationTimestamp</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.selfLink">SelfLink</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceTimeoutsOutputReference">GoogleComputeTargetInstanceTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.instanceInput">InstanceInput</a></code> | <code>*string</code> | *No description.* |
@@ -601,6 +609,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.securityPolicyInput">SecurityPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.zoneInput">ZoneInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.instance">Instance</a></code> | <code>*string</code> | *No description.* |
@@ -785,6 +794,16 @@ func Timeouts() GoogleComputeTargetInstanceTimeoutsOutputReference
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.descriptionInput"></a>
 
 ```go
@@ -879,6 +898,16 @@ func TimeoutsInput() interface{}
 
 ```go
 func ZoneInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstance.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
 ```
 
 - *Type:* *string
@@ -1012,6 +1041,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 	Provisioners: *[]interface{},
 	Instance: *string,
 	Name: *string,
+	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	NatPolicy: *string,
@@ -1036,11 +1066,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.instance">Instance</a></code> | <code>*string</code> | The Compute instance VM handling traffic for this target instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.name">Name</a></code> | <code>*string</code> | Name of the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.description">Description</a></code> | <code>*string</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#id GoogleComputeTargetInstance#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#id GoogleComputeTargetInstance#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.natPolicy">NatPolicy</a></code> | <code>*string</code> | NAT option controlling how IPs are NAT'ed to the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.network">Network</a></code> | <code>*string</code> | The URL of the network this target instance uses to forward traffic. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#project GoogleComputeTargetInstance#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#project GoogleComputeTargetInstance#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.securityPolicy">SecurityPolicy</a></code> | <code>*string</code> | The resource URL for the security policy associated with this target instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceTimeouts">GoogleComputeTargetInstanceTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.zone">Zone</a></code> | <code>*string</code> | URL of the zone where the target instance resides. |
@@ -1133,7 +1164,7 @@ name is given, the zone will default to the given zone or
 the provider-default zone and the project will default to the
 provider-level project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#instance GoogleComputeTargetInstance#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#instance GoogleComputeTargetInstance#instance}
 
 ---
 
@@ -1155,7 +1186,28 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#name GoogleComputeTargetInstance#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#name GoogleComputeTargetInstance#name}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#deletion_policy GoogleComputeTargetInstance#deletion_policy}
 
 ---
 
@@ -1169,7 +1221,7 @@ Description *string
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#description GoogleComputeTargetInstance#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#description GoogleComputeTargetInstance#description}
 
 ---
 
@@ -1181,7 +1233,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#id GoogleComputeTargetInstance#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#id GoogleComputeTargetInstance#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1200,7 +1252,7 @@ NAT option controlling how IPs are NAT'ed to the instance.
 
 Currently only NO_NAT (default value) is supported. Default value: "NO_NAT" Possible values: ["NO_NAT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#nat_policy GoogleComputeTargetInstance#nat_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#nat_policy GoogleComputeTargetInstance#nat_policy}
 
 ---
 
@@ -1216,7 +1268,7 @@ The URL of the network this target instance uses to forward traffic.
 
 If not specified, the traffic will be forwarded to the network that the default network interface belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#network GoogleComputeTargetInstance#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#network GoogleComputeTargetInstance#network}
 
 ---
 
@@ -1228,7 +1280,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#project GoogleComputeTargetInstance#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#project GoogleComputeTargetInstance#project}.
 
 ---
 
@@ -1242,7 +1294,7 @@ SecurityPolicy *string
 
 The resource URL for the security policy associated with this target instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#security_policy GoogleComputeTargetInstance#security_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#security_policy GoogleComputeTargetInstance#security_policy}
 
 ---
 
@@ -1256,7 +1308,7 @@ Timeouts GoogleComputeTargetInstanceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#timeouts GoogleComputeTargetInstance#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#timeouts GoogleComputeTargetInstance#timeouts}
 
 ---
 
@@ -1270,7 +1322,7 @@ Zone *string
 
 URL of the zone where the target instance resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#zone GoogleComputeTargetInstance#zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#zone GoogleComputeTargetInstance#zone}
 
 ---
 
@@ -1292,9 +1344,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#create GoogleComputeTargetInstance#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#delete GoogleComputeTargetInstance#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#update GoogleComputeTargetInstance#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#create GoogleComputeTargetInstance#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#delete GoogleComputeTargetInstance#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeTargetInstance.GoogleComputeTargetInstanceTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#update GoogleComputeTargetInstance#update}. |
 
 ---
 
@@ -1306,7 +1358,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#create GoogleComputeTargetInstance#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#create GoogleComputeTargetInstance#create}.
 
 ---
 
@@ -1318,7 +1370,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#delete GoogleComputeTargetInstance#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#delete GoogleComputeTargetInstance#delete}.
 
 ---
 
@@ -1330,7 +1382,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_instance#update GoogleComputeTargetInstance#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_instance#update GoogleComputeTargetInstance#update}.
 
 ---
 

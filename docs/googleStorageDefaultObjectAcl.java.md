@@ -4,7 +4,7 @@
 
 ### GoogleStorageDefaultObjectAcl <a name="GoogleStorageDefaultObjectAcl" id="@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl google_storage_default_object_acl}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl google_storage_default_object_acl}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer"></a>
 
@@ -20,6 +20,7 @@ GoogleStorageDefaultObjectAcl.Builder.create(Construct scope, java.lang.String i
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .bucket(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .roleEntity(java.util.List<java.lang.String>)
     .build();
@@ -36,9 +37,10 @@ GoogleStorageDefaultObjectAcl.Builder.create(Construct scope, java.lang.String i
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#bucket GoogleStorageDefaultObjectAcl#bucket}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#id GoogleStorageDefaultObjectAcl#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.roleEntity">roleEntity</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#role_entity GoogleStorageDefaultObjectAcl#role_entity}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#bucket GoogleStorageDefaultObjectAcl#bucket}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#id GoogleStorageDefaultObjectAcl#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.roleEntity">roleEntity</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#role_entity GoogleStorageDefaultObjectAcl#role_entity}. |
 
 ---
 
@@ -106,7 +108,24 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#bucket GoogleStorageDefaultObjectAcl#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#bucket GoogleStorageDefaultObjectAcl#bucket}.
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#deletion_policy GoogleStorageDefaultObjectAcl#deletion_policy}
 
 ---
 
@@ -114,7 +133,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#id GoogleStorageDefaultObjectAcl#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#id GoogleStorageDefaultObjectAcl#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,7 +144,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#role_entity GoogleStorageDefaultObjectAcl#role_entity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#role_entity GoogleStorageDefaultObjectAcl#role_entity}.
 
 ---
 
@@ -157,6 +176,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.resetRoleEntity">resetRoleEntity</a></code> | *No description.* |
 
@@ -473,6 +493,12 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.resetId"></a>
 
 ```java
@@ -588,7 +614,7 @@ The construct id used in the generated config for the GoogleStorageDefaultObject
 
 The id of the existing GoogleStorageDefaultObjectAcl that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -619,9 +645,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.bucketInput">bucketInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.roleEntityInput">roleEntityInput</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.bucket">bucket</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.roleEntity">roleEntity</a></code> | <code>java.util.List<java.lang.String></code> | *No description.* |
 
@@ -779,6 +807,16 @@ public java.lang.String getBucketInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.idInput"></a>
 
 ```java
@@ -803,6 +841,16 @@ public java.util.List<java.lang.String> getRoleEntityInput();
 
 ```java
 public java.lang.String getBucket();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAcl.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -865,6 +913,7 @@ GoogleStorageDefaultObjectAclConfig.builder()
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .bucket(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .roleEntity(java.util.List<java.lang.String>)
     .build();
@@ -881,9 +930,10 @@ GoogleStorageDefaultObjectAclConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#bucket GoogleStorageDefaultObjectAcl#bucket}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#id GoogleStorageDefaultObjectAcl#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.roleEntity">roleEntity</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#role_entity GoogleStorageDefaultObjectAcl#role_entity}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.bucket">bucket</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#bucket GoogleStorageDefaultObjectAcl#bucket}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#id GoogleStorageDefaultObjectAcl#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.roleEntity">roleEntity</a></code> | <code>java.util.List<java.lang.String></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#role_entity GoogleStorageDefaultObjectAcl#role_entity}. |
 
 ---
 
@@ -965,7 +1015,28 @@ public java.lang.String getBucket();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#bucket GoogleStorageDefaultObjectAcl#bucket}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#bucket GoogleStorageDefaultObjectAcl#bucket}.
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleStorageDefaultObjectAcl.GoogleStorageDefaultObjectAclConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#deletion_policy GoogleStorageDefaultObjectAcl#deletion_policy}
 
 ---
 
@@ -977,7 +1048,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#id GoogleStorageDefaultObjectAcl#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#id GoogleStorageDefaultObjectAcl#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -992,7 +1063,7 @@ public java.util.List<java.lang.String> getRoleEntity();
 
 - *Type:* java.util.List<java.lang.String>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_default_object_acl#role_entity GoogleStorageDefaultObjectAcl#role_entity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_default_object_acl#role_entity GoogleStorageDefaultObjectAcl#role_entity}.
 
 ---
 

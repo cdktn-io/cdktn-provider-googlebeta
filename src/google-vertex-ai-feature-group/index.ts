@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,13 +13,25 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleVertexAiFeatureGroupConfig extends cdktn.TerraformMetaArguments {
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#deletion_policy GoogleVertexAiFeatureGroup#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * The description of the FeatureGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#description GoogleVertexAiFeatureGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#description GoogleVertexAiFeatureGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#id GoogleVertexAiFeatureGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#id GoogleVertexAiFeatureGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,35 +43,35 @@ export interface GoogleVertexAiFeatureGroupConfig extends cdktn.TerraformMetaArg
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#labels GoogleVertexAiFeatureGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#labels GoogleVertexAiFeatureGroup#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The resource name of the Feature Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#name GoogleVertexAiFeatureGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#name GoogleVertexAiFeatureGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#project GoogleVertexAiFeatureGroup#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#project GoogleVertexAiFeatureGroup#project}
   */
   readonly project?: string;
   /**
   * The region of feature group. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#region GoogleVertexAiFeatureGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#region GoogleVertexAiFeatureGroup#region}
   */
   readonly region?: string;
   /**
   * big_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#big_query GoogleVertexAiFeatureGroup#big_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#big_query GoogleVertexAiFeatureGroup#big_query}
   */
   readonly bigQuery?: GoogleVertexAiFeatureGroupBigQuery;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#timeouts GoogleVertexAiFeatureGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#timeouts GoogleVertexAiFeatureGroup#timeouts}
   */
   readonly timeouts?: GoogleVertexAiFeatureGroupTimeouts;
 }
@@ -67,7 +79,7 @@ export interface GoogleVertexAiFeatureGroupBigQueryBigQuerySource {
   /**
   * BigQuery URI to a table, up to 2000 characters long. For example: 'bq://projectId.bqDatasetId.bqTableId.'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#input_uri GoogleVertexAiFeatureGroup#input_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#input_uri GoogleVertexAiFeatureGroup#input_uri}
   */
   readonly inputUri: string;
 }
@@ -150,13 +162,13 @@ export interface GoogleVertexAiFeatureGroupBigQuery {
   /**
   * Columns to construct entityId / row keys. If not provided defaults to entityId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#entity_id_columns GoogleVertexAiFeatureGroup#entity_id_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#entity_id_columns GoogleVertexAiFeatureGroup#entity_id_columns}
   */
   readonly entityIdColumns?: string[];
   /**
   * big_query_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#big_query_source GoogleVertexAiFeatureGroup#big_query_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#big_query_source GoogleVertexAiFeatureGroup#big_query_source}
   */
   readonly bigQuerySource: GoogleVertexAiFeatureGroupBigQueryBigQuerySource;
 }
@@ -266,15 +278,15 @@ export class GoogleVertexAiFeatureGroupBigQueryOutputReference extends cdktn.Com
 }
 export interface GoogleVertexAiFeatureGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#create GoogleVertexAiFeatureGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#create GoogleVertexAiFeatureGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#delete GoogleVertexAiFeatureGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#delete GoogleVertexAiFeatureGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#update GoogleVertexAiFeatureGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#update GoogleVertexAiFeatureGroup#update}
   */
   readonly update?: string;
 }
@@ -426,7 +438,7 @@ export class GoogleVertexAiFeatureGroupTimeoutsOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group google_vertex_ai_feature_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group google_vertex_ai_feature_group}
 */
 export class GoogleVertexAiFeatureGroup extends cdktn.TerraformResource {
 
@@ -442,7 +454,7 @@ export class GoogleVertexAiFeatureGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleVertexAiFeatureGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiFeatureGroup to import
-  * @param importFromId The id of the existing GoogleVertexAiFeatureGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiFeatureGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiFeatureGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -454,7 +466,7 @@ export class GoogleVertexAiFeatureGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_feature_group google_vertex_ai_feature_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_feature_group google_vertex_ai_feature_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -465,7 +477,7 @@ export class GoogleVertexAiFeatureGroup extends cdktn.TerraformResource {
       terraformResourceType: 'google_vertex_ai_feature_group',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -476,6 +488,7 @@ export class GoogleVertexAiFeatureGroup extends cdktn.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._id = config.id;
     this._labels = config.labels;
@@ -493,6 +506,22 @@ export class GoogleVertexAiFeatureGroup extends cdktn.TerraformResource {
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // description - computed: false, optional: true, required: false
@@ -651,6 +680,7 @@ export class GoogleVertexAiFeatureGroup extends cdktn.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       id: cdktn.stringToTerraform(this._id),
       labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
@@ -664,6 +694,12 @@ export class GoogleVertexAiFeatureGroup extends cdktn.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       description: {
         value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,

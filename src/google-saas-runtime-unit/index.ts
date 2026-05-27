@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -22,11 +22,23 @@ export interface GoogleSaasRuntimeUnitConfig extends cdktn.TerraformMetaArgument
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#annotations GoogleSaasRuntimeUnit#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#annotations GoogleSaasRuntimeUnit#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#id GoogleSaasRuntimeUnit#id}
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#deletion_policy GoogleSaasRuntimeUnit#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#id GoogleSaasRuntimeUnit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,13 +51,13 @@ export interface GoogleSaasRuntimeUnitConfig extends cdktn.TerraformMetaArgument
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#labels GoogleSaasRuntimeUnit#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#labels GoogleSaasRuntimeUnit#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#location GoogleSaasRuntimeUnit#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#location GoogleSaasRuntimeUnit#location}
   */
   readonly location: string;
   /**
@@ -56,11 +68,11 @@ export interface GoogleSaasRuntimeUnitConfig extends cdktn.TerraformMetaArgument
   * MANAGEMENT_MODE_USER
   * MANAGEMENT_MODE_SYSTEM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#management_mode GoogleSaasRuntimeUnit#management_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#management_mode GoogleSaasRuntimeUnit#management_mode}
   */
   readonly managementMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#project GoogleSaasRuntimeUnit#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#project GoogleSaasRuntimeUnit#project}
   */
   readonly project?: string;
   /**
@@ -68,31 +80,31 @@ export interface GoogleSaasRuntimeUnitConfig extends cdktn.TerraformMetaArgument
   * example informs the maintenance policies to use for scheduling future
   * updates on a unit. (optional and immutable once created)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#tenant GoogleSaasRuntimeUnit#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#tenant GoogleSaasRuntimeUnit#tenant}
   */
   readonly tenant?: string;
   /**
   * The ID value for the new unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#unit_id GoogleSaasRuntimeUnit#unit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#unit_id GoogleSaasRuntimeUnit#unit_id}
   */
   readonly unitId: string;
   /**
   * Reference to the UnitKind this Unit belongs to. Immutable once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#unit_kind GoogleSaasRuntimeUnit#unit_kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#unit_kind GoogleSaasRuntimeUnit#unit_kind}
   */
   readonly unitKind?: string;
   /**
   * maintenance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#maintenance GoogleSaasRuntimeUnit#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#maintenance GoogleSaasRuntimeUnit#maintenance}
   */
   readonly maintenance?: GoogleSaasRuntimeUnitMaintenance;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#timeouts GoogleSaasRuntimeUnit#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#timeouts GoogleSaasRuntimeUnit#timeouts}
   */
   readonly timeouts?: GoogleSaasRuntimeUnitTimeouts;
 }
@@ -181,7 +193,7 @@ export class GoogleSaasRuntimeUnitConditionsList extends cdktn.ComplexList {
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -261,7 +273,7 @@ export class GoogleSaasRuntimeUnitDependenciesList extends cdktn.ComplexList {
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -341,7 +353,7 @@ export class GoogleSaasRuntimeUnitDependentsList extends cdktn.ComplexList {
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -426,7 +438,7 @@ export class GoogleSaasRuntimeUnitInputVariablesList extends cdktn.ComplexList {
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -511,7 +523,7 @@ export class GoogleSaasRuntimeUnitOutputVariablesList extends cdktn.ComplexList 
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -527,7 +539,7 @@ export interface GoogleSaasRuntimeUnitMaintenance {
   * changes to the release field will be rejected. Rollouts should and will
   * also respect this by not requesting an upgrade in the first place.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#pinned_until_time GoogleSaasRuntimeUnit#pinned_until_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#pinned_until_time GoogleSaasRuntimeUnit#pinned_until_time}
   */
   readonly pinnedUntilTime?: string;
 }
@@ -611,15 +623,15 @@ export class GoogleSaasRuntimeUnitMaintenanceOutputReference extends cdktn.Compl
 }
 export interface GoogleSaasRuntimeUnitTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#create GoogleSaasRuntimeUnit#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#create GoogleSaasRuntimeUnit#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#delete GoogleSaasRuntimeUnit#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#delete GoogleSaasRuntimeUnit#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#update GoogleSaasRuntimeUnit#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#update GoogleSaasRuntimeUnit#update}
   */
   readonly update?: string;
 }
@@ -771,7 +783,7 @@ export class GoogleSaasRuntimeUnitTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit}
 */
 export class GoogleSaasRuntimeUnit extends cdktn.TerraformResource {
 
@@ -787,7 +799,7 @@ export class GoogleSaasRuntimeUnit extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleSaasRuntimeUnit resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSaasRuntimeUnit to import
-  * @param importFromId The id of the existing GoogleSaasRuntimeUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSaasRuntimeUnit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSaasRuntimeUnit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -799,7 +811,7 @@ export class GoogleSaasRuntimeUnit extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_saas_runtime_unit google_saas_runtime_unit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -810,7 +822,7 @@ export class GoogleSaasRuntimeUnit extends cdktn.TerraformResource {
       terraformResourceType: 'google_saas_runtime_unit',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -822,6 +834,7 @@ export class GoogleSaasRuntimeUnit extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._annotations = config.annotations;
+    this._deletionPolicy = config.deletionPolicy;
     this._id = config.id;
     this._labels = config.labels;
     this._location = config.location;
@@ -863,6 +876,22 @@ export class GoogleSaasRuntimeUnit extends cdktn.TerraformResource {
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // dependencies - computed: true, optional: false, required: false
@@ -1118,6 +1147,7 @@ export class GoogleSaasRuntimeUnit extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       annotations: cdktn.hashMapper(cdktn.stringToTerraform)(this._annotations),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       id: cdktn.stringToTerraform(this._id),
       labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
       location: cdktn.stringToTerraform(this._location),
@@ -1138,6 +1168,12 @@ export class GoogleSaasRuntimeUnit extends cdktn.TerraformResource {
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       id: {
         value: cdktn.stringToHclTerraform(this._id),

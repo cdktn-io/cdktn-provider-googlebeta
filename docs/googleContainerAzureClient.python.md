@@ -4,7 +4,7 @@
 
 ### GoogleContainerAzureClient <a name="GoogleContainerAzureClient" id="@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client google_container_azure_client}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client google_container_azure_client}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer"></a>
 
@@ -25,6 +25,7 @@ googleContainerAzureClient.GoogleContainerAzureClient(
   location: str,
   name: str,
   tenant_id: str,
+  deletion_policy: str = None,
   id: str = None,
   project: str = None,
   timeouts: GoogleContainerAzureClientTimeouts = None
@@ -46,7 +47,8 @@ googleContainerAzureClient.GoogleContainerAzureClient(
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer.parameter.location">location</a></code> | <code>str</code> | The location for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer.parameter.name">name</a></code> | <code>str</code> | The name of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer.parameter.tenantId">tenant_id</a></code> | <code>str</code> | The Azure Active Directory Tenant ID. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer.parameter.project">project</a></code> | <code>str</code> | The project for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientTimeouts">GoogleContainerAzureClientTimeouts</a></code> | timeouts block. |
 
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The Azure Active Directory Application ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#application_id GoogleContainerAzureClient#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#application_id GoogleContainerAzureClient#application_id}
 
 ---
 
@@ -128,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#location GoogleContainerAzureClient#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#location GoogleContainerAzureClient#location}
 
 ---
 
@@ -138,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#name GoogleContainerAzureClient#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#name GoogleContainerAzureClient#name}
 
 ---
 
@@ -148,7 +150,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Azure Active Directory Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#tenant_id GoogleContainerAzureClient#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#tenant_id GoogleContainerAzureClient#tenant_id}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#deletion_policy GoogleContainerAzureClient#deletion_policy}
 
 ---
 
@@ -156,7 +175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -169,7 +188,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The project for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#project GoogleContainerAzureClient#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#project GoogleContainerAzureClient#project}
 
 ---
 
@@ -179,7 +198,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#timeouts GoogleContainerAzureClient#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#timeouts GoogleContainerAzureClient#timeouts}
 
 ---
 
@@ -212,6 +231,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.resetProject">reset_project</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.resetTimeouts">reset_timeouts</a></code> | *No description.* |
@@ -579,7 +599,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#create GoogleContainerAzureClient#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#create GoogleContainerAzureClient#create}.
 
 ---
 
@@ -587,9 +607,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#delete GoogleContainerAzureClient#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#delete GoogleContainerAzureClient#delete}.
 
 ---
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
+```
 
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.resetId"></a>
 
@@ -723,7 +749,7 @@ The construct id used in the generated config for the GoogleContainerAzureClient
 
 The id of the existing GoogleContainerAzureClient that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -758,6 +784,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientTimeoutsOutputReference">GoogleContainerAzureClientTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.uid">uid</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.applicationIdInput">application_id_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
@@ -765,6 +792,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.tenantIdInput">tenant_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientTimeouts">GoogleContainerAzureClientTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.applicationId">application_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.location">location</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.name">name</a></code> | <code>str</code> | *No description.* |
@@ -965,6 +993,16 @@ application_id_input: str
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.idInput"></a>
 
 ```python
@@ -1029,6 +1067,16 @@ timeouts_input: IResolvable | GoogleContainerAzureClientTimeouts
 
 ```python
 application_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClient.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
 ```
 
 - *Type:* str
@@ -1124,6 +1172,7 @@ googleContainerAzureClient.GoogleContainerAzureClientConfig(
   location: str,
   name: str,
   tenant_id: str,
+  deletion_policy: str = None,
   id: str = None,
   project: str = None,
   timeouts: GoogleContainerAzureClientTimeouts = None
@@ -1145,7 +1194,8 @@ googleContainerAzureClient.GoogleContainerAzureClientConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientConfig.property.location">location</a></code> | <code>str</code> | The location for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientConfig.property.name">name</a></code> | <code>str</code> | The name of this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientConfig.property.tenantId">tenant_id</a></code> | <code>str</code> | The Azure Active Directory Tenant ID. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientConfig.property.project">project</a></code> | <code>str</code> | The project for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientTimeouts">GoogleContainerAzureClientTimeouts</a></code> | timeouts block. |
 
@@ -1231,7 +1281,7 @@ application_id: str
 
 The Azure Active Directory Application ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#application_id GoogleContainerAzureClient#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#application_id GoogleContainerAzureClient#application_id}
 
 ---
 
@@ -1245,7 +1295,7 @@ location: str
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#location GoogleContainerAzureClient#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#location GoogleContainerAzureClient#location}
 
 ---
 
@@ -1259,7 +1309,7 @@ name: str
 
 The name of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#name GoogleContainerAzureClient#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#name GoogleContainerAzureClient#name}
 
 ---
 
@@ -1273,7 +1323,28 @@ tenant_id: str
 
 The Azure Active Directory Tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#tenant_id GoogleContainerAzureClient#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#tenant_id GoogleContainerAzureClient#tenant_id}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#deletion_policy GoogleContainerAzureClient#deletion_policy}
 
 ---
 
@@ -1285,7 +1356,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1302,7 +1373,7 @@ project: str
 
 The project for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#project GoogleContainerAzureClient#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#project GoogleContainerAzureClient#project}
 
 ---
 
@@ -1316,7 +1387,7 @@ timeouts: GoogleContainerAzureClientTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#timeouts GoogleContainerAzureClient#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#timeouts GoogleContainerAzureClient#timeouts}
 
 ---
 
@@ -1337,8 +1408,8 @@ googleContainerAzureClient.GoogleContainerAzureClientTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#create GoogleContainerAzureClient#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#delete GoogleContainerAzureClient#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#create GoogleContainerAzureClient#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAzureClient.GoogleContainerAzureClientTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#delete GoogleContainerAzureClient#delete}. |
 
 ---
 
@@ -1350,7 +1421,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#create GoogleContainerAzureClient#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#create GoogleContainerAzureClient#create}.
 
 ---
 
@@ -1362,7 +1433,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_azure_client#delete GoogleContainerAzureClient#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#delete GoogleContainerAzureClient#delete}.
 
 ---
 

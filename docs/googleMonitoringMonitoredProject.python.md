@@ -4,7 +4,7 @@
 
 ### GoogleMonitoringMonitoredProject <a name="GoogleMonitoringMonitoredProject" id="@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project google_monitoring_monitored_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project google_monitoring_monitored_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.Initializer"></a>
 
@@ -23,6 +23,7 @@ googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   metrics_scope: str,
   name: str,
+  deletion_policy: str = None,
   id: str = None,
   timeouts: GoogleMonitoringMonitoredProjectTimeouts = None
 )
@@ -41,7 +42,8 @@ googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject(
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.Initializer.parameter.metricsScope">metrics_scope</a></code> | <code>str</code> | Required. The resource name of the existing Metrics Scope that will monitor this project. Example: locations/global/metricsScopes/{SCOPING_PROJECT_ID_OR_NUMBER}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.Initializer.parameter.name">name</a></code> | <code>str</code> | Immutable. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#id GoogleMonitoringMonitoredProject#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#id GoogleMonitoringMonitoredProject#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeouts">GoogleMonitoringMonitoredProjectTimeouts</a></code> | timeouts block. |
 
 ---
@@ -112,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 Required. The resource name of the existing Metrics Scope that will monitor this project. Example: locations/global/metricsScopes/{SCOPING_PROJECT_ID_OR_NUMBER}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#metrics_scope GoogleMonitoringMonitoredProject#metrics_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#metrics_scope GoogleMonitoringMonitoredProject#metrics_scope}
 
 ---
 
@@ -124,7 +126,24 @@ Immutable.
 
 The resource name of the 'MonitoredProject'. On input, the resource name includes the scoping project ID and monitored project ID. On output, it contains the equivalent project numbers. Example: 'locations/global/metricsScopes/{SCOPING_PROJECT_ID_OR_NUMBER}/projects/{MONITORED_PROJECT_ID_OR_NUMBER}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#name GoogleMonitoringMonitoredProject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#name GoogleMonitoringMonitoredProject#name}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#deletion_policy GoogleMonitoringMonitoredProject#deletion_policy}
 
 ---
 
@@ -132,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#id GoogleMonitoringMonitoredProject#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#id GoogleMonitoringMonitoredProject#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -145,7 +164,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#timeouts GoogleMonitoringMonitoredProject#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#timeouts GoogleMonitoringMonitoredProject#timeouts}
 
 ---
 
@@ -178,6 +197,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.resetTimeouts">reset_timeouts</a></code> | *No description.* |
 
@@ -544,7 +564,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#create GoogleMonitoringMonitoredProject#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#create GoogleMonitoringMonitoredProject#create}.
 
 ---
 
@@ -552,9 +572,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#delete GoogleMonitoringMonitoredProject#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#delete GoogleMonitoringMonitoredProject#delete}.
 
 ---
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
+```
 
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.resetId"></a>
 
@@ -682,7 +708,7 @@ The construct id used in the generated config for the GoogleMonitoringMonitoredP
 
 The id of the existing GoogleMonitoringMonitoredProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -714,10 +740,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.createTime">create_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeoutsOutputReference">GoogleMonitoringMonitoredProjectTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.metricsScopeInput">metrics_scope_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeouts">GoogleMonitoringMonitoredProjectTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.metricsScope">metrics_scope</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.name">name</a></code> | <code>str</code> | *No description.* |
@@ -886,6 +914,16 @@ timeouts: GoogleMonitoringMonitoredProjectTimeoutsOutputReference
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.idInput"></a>
 
 ```python
@@ -923,6 +961,16 @@ timeouts_input: IResolvable | GoogleMonitoringMonitoredProjectTimeouts
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeouts">GoogleMonitoringMonitoredProjectTimeouts</a>
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProject.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
 
 ---
 
@@ -993,6 +1041,7 @@ googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   metrics_scope: str,
   name: str,
+  deletion_policy: str = None,
   id: str = None,
   timeouts: GoogleMonitoringMonitoredProjectTimeouts = None
 )
@@ -1011,7 +1060,8 @@ googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig.property.metricsScope">metrics_scope</a></code> | <code>str</code> | Required. The resource name of the existing Metrics Scope that will monitor this project. Example: locations/global/metricsScopes/{SCOPING_PROJECT_ID_OR_NUMBER}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig.property.name">name</a></code> | <code>str</code> | Immutable. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#id GoogleMonitoringMonitoredProject#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#id GoogleMonitoringMonitoredProject#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeouts">GoogleMonitoringMonitoredProjectTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1096,7 +1146,7 @@ metrics_scope: str
 
 Required. The resource name of the existing Metrics Scope that will monitor this project. Example: locations/global/metricsScopes/{SCOPING_PROJECT_ID_OR_NUMBER}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#metrics_scope GoogleMonitoringMonitoredProject#metrics_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#metrics_scope GoogleMonitoringMonitoredProject#metrics_scope}
 
 ---
 
@@ -1112,7 +1162,28 @@ Immutable.
 
 The resource name of the 'MonitoredProject'. On input, the resource name includes the scoping project ID and monitored project ID. On output, it contains the equivalent project numbers. Example: 'locations/global/metricsScopes/{SCOPING_PROJECT_ID_OR_NUMBER}/projects/{MONITORED_PROJECT_ID_OR_NUMBER}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#name GoogleMonitoringMonitoredProject#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#name GoogleMonitoringMonitoredProject#name}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#deletion_policy GoogleMonitoringMonitoredProject#deletion_policy}
 
 ---
 
@@ -1124,7 +1195,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#id GoogleMonitoringMonitoredProject#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#id GoogleMonitoringMonitoredProject#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1141,7 +1212,7 @@ timeouts: GoogleMonitoringMonitoredProjectTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#timeouts GoogleMonitoringMonitoredProject#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#timeouts GoogleMonitoringMonitoredProject#timeouts}
 
 ---
 
@@ -1162,8 +1233,8 @@ googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#create GoogleMonitoringMonitoredProject#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#delete GoogleMonitoringMonitoredProject#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#create GoogleMonitoringMonitoredProject#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringMonitoredProject.GoogleMonitoringMonitoredProjectTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#delete GoogleMonitoringMonitoredProject#delete}. |
 
 ---
 
@@ -1175,7 +1246,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#create GoogleMonitoringMonitoredProject#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#create GoogleMonitoringMonitoredProject#create}.
 
 ---
 
@@ -1187,7 +1258,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_monitoring_monitored_project#delete GoogleMonitoringMonitoredProject#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_monitored_project#delete GoogleMonitoringMonitoredProject#delete}.
 
 ---
 

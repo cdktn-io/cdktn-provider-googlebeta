@@ -4,7 +4,7 @@
 
 ### GoogleManagedKafkaConnector <a name="GoogleManagedKafkaConnector" id="@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector google_managed_kafka_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.putTaskRestartPolicy">PutTaskRestartPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.resetConfigs">ResetConfigs</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.resetTaskRestartPolicy">ResetTaskRestartPolicy</a></code> | *No description.* |
@@ -423,6 +424,12 @@ func PutTimeouts(value GoogleManagedKafkaConnectorTimeouts)
 func ResetConfigs()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.resetId"></a>
 
 ```go
@@ -550,7 +557,7 @@ The construct id used in the generated config for the GoogleManagedKafkaConnecto
 
 The id of the existing GoogleManagedKafkaConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -587,6 +594,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.configsInput">ConfigsInput</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.connectClusterInput">ConnectClusterInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.connectorIdInput">ConnectorIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.locationInput">LocationInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
@@ -595,6 +603,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.configs">Configs</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.connectCluster">ConnectCluster</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.connectorId">ConnectorId</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.location">Location</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.project">Project</a></code> | <code>*string</code> | *No description.* |
@@ -813,6 +822,16 @@ func ConnectorIdInput() *string
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.idInput"></a>
 
 ```go
@@ -893,6 +912,16 @@ func ConnectorId() *string
 
 ---
 
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnector.property.id"></a>
 
 ```go
@@ -962,6 +991,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlema
 	ConnectorId: *string,
 	Location: *string,
 	Configs: *map[string]*string,
+	DeletionPolicy: *string,
 	Id: *string,
 	Project: *string,
 	TaskRestartPolicy: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleManagedKafkaConnector.GoogleManagedKafkaConnectorTaskRestartPolicy,
@@ -984,8 +1014,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlema
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.connectorId">ConnectorId</a></code> | <code>*string</code> | The ID to use for the connector, which will become the final component of the connector's name. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.location">Location</a></code> | <code>*string</code> | ID of the location of the Kafka Connect resource. See https://cloud.google.com/managed-kafka/docs/locations for a list of supported locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.configs">Configs</a></code> | <code>*map[string]*string</code> | Connector config as keys/values. The keys of the map are connector property names, for example: 'connector.class', 'tasks.max', 'key.converter'. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#id GoogleManagedKafkaConnector#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#project GoogleManagedKafkaConnector#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#id GoogleManagedKafkaConnector#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#project GoogleManagedKafkaConnector#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.taskRestartPolicy">TaskRestartPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorTaskRestartPolicy">GoogleManagedKafkaConnectorTaskRestartPolicy</a></code> | task_restart_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorTimeouts">GoogleManagedKafkaConnectorTimeouts</a></code> | timeouts block. |
 
@@ -1071,7 +1102,7 @@ ConnectCluster *string
 
 The connect cluster name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#connect_cluster GoogleManagedKafkaConnector#connect_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#connect_cluster GoogleManagedKafkaConnector#connect_cluster}
 
 ---
 
@@ -1087,7 +1118,7 @@ The ID to use for the connector, which will become the final component of the co
 
 This value is structured like: 'my-connector-id'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#connector_id GoogleManagedKafkaConnector#connector_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#connector_id GoogleManagedKafkaConnector#connector_id}
 
 ---
 
@@ -1101,7 +1132,7 @@ Location *string
 
 ID of the location of the Kafka Connect resource. See https://cloud.google.com/managed-kafka/docs/locations for a list of supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#location GoogleManagedKafkaConnector#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#location GoogleManagedKafkaConnector#location}
 
 ---
 
@@ -1115,7 +1146,28 @@ Configs *map[string]*string
 
 Connector config as keys/values. The keys of the map are connector property names, for example: 'connector.class', 'tasks.max', 'key.converter'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#configs GoogleManagedKafkaConnector#configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#configs GoogleManagedKafkaConnector#configs}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#deletion_policy GoogleManagedKafkaConnector#deletion_policy}
 
 ---
 
@@ -1127,7 +1179,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#id GoogleManagedKafkaConnector#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#id GoogleManagedKafkaConnector#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1142,7 +1194,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#project GoogleManagedKafkaConnector#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#project GoogleManagedKafkaConnector#project}.
 
 ---
 
@@ -1156,7 +1208,7 @@ TaskRestartPolicy GoogleManagedKafkaConnectorTaskRestartPolicy
 
 task_restart_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#task_restart_policy GoogleManagedKafkaConnector#task_restart_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#task_restart_policy GoogleManagedKafkaConnector#task_restart_policy}
 
 ---
 
@@ -1170,7 +1222,7 @@ Timeouts GoogleManagedKafkaConnectorTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#timeouts GoogleManagedKafkaConnector#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#timeouts GoogleManagedKafkaConnector#timeouts}
 
 ---
 
@@ -1209,7 +1261,7 @@ The maximum amount of time to wait before retrying a failed task.
 This sets an upper bound for the backoff delay.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#maximum_backoff GoogleManagedKafkaConnector#maximum_backoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#maximum_backoff GoogleManagedKafkaConnector#maximum_backoff}
 
 ---
 
@@ -1226,7 +1278,7 @@ The minimum amount of time to wait before retrying a failed task.
 This sets a lower bound for the backoff delay.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#minimum_backoff GoogleManagedKafkaConnector#minimum_backoff}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#minimum_backoff GoogleManagedKafkaConnector#minimum_backoff}
 
 ---
 
@@ -1248,9 +1300,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlema
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#create GoogleManagedKafkaConnector#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#delete GoogleManagedKafkaConnector#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#update GoogleManagedKafkaConnector#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#create GoogleManagedKafkaConnector#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#delete GoogleManagedKafkaConnector#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleManagedKafkaConnector.GoogleManagedKafkaConnectorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#update GoogleManagedKafkaConnector#update}. |
 
 ---
 
@@ -1262,7 +1314,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#create GoogleManagedKafkaConnector#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#create GoogleManagedKafkaConnector#create}.
 
 ---
 
@@ -1274,7 +1326,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#delete GoogleManagedKafkaConnector#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#delete GoogleManagedKafkaConnector#delete}.
 
 ---
 
@@ -1286,7 +1338,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_managed_kafka_connector#update GoogleManagedKafkaConnector#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_managed_kafka_connector#update GoogleManagedKafkaConnector#update}.
 
 ---
 

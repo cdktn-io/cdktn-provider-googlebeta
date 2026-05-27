@@ -4,7 +4,7 @@
 
 ### GoogleContainerAnalysisNote <a name="GoogleContainerAnalysisNote" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note google_container_analysis_note}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note google_container_analysis_note}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.putAttestationAuthority">PutAttestationAuthority</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.putRelatedUrl">PutRelatedUrl</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.resetExpirationTime">ResetExpirationTime</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.resetLongDescription">ResetLongDescription</a></code> | *No description.* |
@@ -433,6 +434,12 @@ private void PutTimeouts(GoogleContainerAnalysisNoteTimeouts Value)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetExpirationTime` <a name="ResetExpirationTime" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.resetExpirationTime"></a>
 
 ```csharp
@@ -584,7 +591,7 @@ The construct id used in the generated config for the GoogleContainerAnalysisNot
 
 The id of the existing GoogleContainerAnalysisNote that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -621,6 +628,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeoutsOutputReference">GoogleContainerAnalysisNoteTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.updateTime">UpdateTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.attestationAuthorityInput">AttestationAuthorityInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthority">GoogleContainerAnalysisNoteAttestationAuthority</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.expirationTimeInput">ExpirationTimeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.longDescriptionInput">LongDescriptionInput</a></code> | <code>string</code> | *No description.* |
@@ -630,6 +638,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.relatedUrlInput">RelatedUrlInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteRelatedUrl">GoogleContainerAnalysisNoteRelatedUrl</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.shortDescriptionInput">ShortDescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts">GoogleContainerAnalysisNoteTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.expirationTime">ExpirationTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.longDescription">LongDescription</a></code> | <code>string</code> | *No description.* |
@@ -852,6 +861,16 @@ public GoogleContainerAnalysisNoteAttestationAuthority AttestationAuthorityInput
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `ExpirationTimeInput`<sup>Optional</sup> <a name="ExpirationTimeInput" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.expirationTimeInput"></a>
 
 ```csharp
@@ -939,6 +958,16 @@ public IResolvable|GoogleContainerAnalysisNoteTimeouts TimeoutsInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts">GoogleContainerAnalysisNoteTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNote.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -1062,7 +1091,7 @@ public GoogleContainerAnalysisNoteAttestationAuthorityHint Hint { get; set; }
 
 hint block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#hint GoogleContainerAnalysisNote#hint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#hint GoogleContainerAnalysisNote#hint}
 
 ---
 
@@ -1096,7 +1125,7 @@ public string HumanReadableName { get; set; }
 
 The human readable name of this Attestation Authority, for example "qa".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#human_readable_name GoogleContainerAnalysisNote#human_readable_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#human_readable_name GoogleContainerAnalysisNote#human_readable_name}
 
 ---
 
@@ -1117,6 +1146,7 @@ new GoogleContainerAnalysisNoteConfig {
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     GoogleContainerAnalysisNoteAttestationAuthority AttestationAuthority,
     string Name,
+    string DeletionPolicy = null,
     string ExpirationTime = null,
     string Id = null,
     string LongDescription = null,
@@ -1141,10 +1171,11 @@ new GoogleContainerAnalysisNoteConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.attestationAuthority">AttestationAuthority</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteAttestationAuthority">GoogleContainerAnalysisNoteAttestationAuthority</a></code> | attestation_authority block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.name">Name</a></code> | <code>string</code> | The name of the note. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.expirationTime">ExpirationTime</a></code> | <code>string</code> | Time of expiration for this note. Leave empty if note does not expire. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#id GoogleContainerAnalysisNote#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#id GoogleContainerAnalysisNote#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.longDescription">LongDescription</a></code> | <code>string</code> | A detailed description of the note. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#project GoogleContainerAnalysisNote#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#project GoogleContainerAnalysisNote#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.relatedNoteNames">RelatedNoteNames</a></code> | <code>string[]</code> | Names of other notes related to this note. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.relatedUrl">RelatedUrl</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteRelatedUrl">GoogleContainerAnalysisNoteRelatedUrl</a>[]</code> | related_url block. |
 | <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.shortDescription">ShortDescription</a></code> | <code>string</code> | A one sentence description of the note. |
@@ -1232,7 +1263,7 @@ public GoogleContainerAnalysisNoteAttestationAuthority AttestationAuthority { ge
 
 attestation_authority block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#attestation_authority GoogleContainerAnalysisNote#attestation_authority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#attestation_authority GoogleContainerAnalysisNote#attestation_authority}
 
 ---
 
@@ -1246,7 +1277,28 @@ public string Name { get; set; }
 
 The name of the note.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#name GoogleContainerAnalysisNote#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#name GoogleContainerAnalysisNote#name}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#deletion_policy GoogleContainerAnalysisNote#deletion_policy}
 
 ---
 
@@ -1260,7 +1312,7 @@ public string ExpirationTime { get; set; }
 
 Time of expiration for this note. Leave empty if note does not expire.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#expiration_time GoogleContainerAnalysisNote#expiration_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#expiration_time GoogleContainerAnalysisNote#expiration_time}
 
 ---
 
@@ -1272,7 +1324,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#id GoogleContainerAnalysisNote#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#id GoogleContainerAnalysisNote#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1289,7 +1341,7 @@ public string LongDescription { get; set; }
 
 A detailed description of the note.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#long_description GoogleContainerAnalysisNote#long_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#long_description GoogleContainerAnalysisNote#long_description}
 
 ---
 
@@ -1301,7 +1353,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#project GoogleContainerAnalysisNote#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#project GoogleContainerAnalysisNote#project}.
 
 ---
 
@@ -1315,7 +1367,7 @@ public string[] RelatedNoteNames { get; set; }
 
 Names of other notes related to this note.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#related_note_names GoogleContainerAnalysisNote#related_note_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#related_note_names GoogleContainerAnalysisNote#related_note_names}
 
 ---
 
@@ -1329,7 +1381,7 @@ public IResolvable|GoogleContainerAnalysisNoteRelatedUrl[] RelatedUrl { get; set
 
 related_url block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#related_url GoogleContainerAnalysisNote#related_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#related_url GoogleContainerAnalysisNote#related_url}
 
 ---
 
@@ -1343,7 +1395,7 @@ public string ShortDescription { get; set; }
 
 A one sentence description of the note.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#short_description GoogleContainerAnalysisNote#short_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#short_description GoogleContainerAnalysisNote#short_description}
 
 ---
 
@@ -1357,7 +1409,7 @@ public GoogleContainerAnalysisNoteTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#timeouts GoogleContainerAnalysisNote#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#timeouts GoogleContainerAnalysisNote#timeouts}
 
 ---
 
@@ -1393,7 +1445,7 @@ public string Url { get; set; }
 
 Specific URL associated with the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#url GoogleContainerAnalysisNote#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#url GoogleContainerAnalysisNote#url}
 
 ---
 
@@ -1407,7 +1459,7 @@ public string Label { get; set; }
 
 Label to describe usage of the URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#label GoogleContainerAnalysisNote#label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#label GoogleContainerAnalysisNote#label}
 
 ---
 
@@ -1429,9 +1481,9 @@ new GoogleContainerAnalysisNoteTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#create GoogleContainerAnalysisNote#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#delete GoogleContainerAnalysisNote#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#update GoogleContainerAnalysisNote#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#create GoogleContainerAnalysisNote#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#delete GoogleContainerAnalysisNote#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContainerAnalysisNote.GoogleContainerAnalysisNoteTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#update GoogleContainerAnalysisNote#update}. |
 
 ---
 
@@ -1443,7 +1495,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#create GoogleContainerAnalysisNote#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#create GoogleContainerAnalysisNote#create}.
 
 ---
 
@@ -1455,7 +1507,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#delete GoogleContainerAnalysisNote#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#delete GoogleContainerAnalysisNote#delete}.
 
 ---
 
@@ -1467,7 +1519,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_container_analysis_note#update GoogleContainerAnalysisNote#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_analysis_note#update GoogleContainerAnalysisNote#update}.
 
 ---
 

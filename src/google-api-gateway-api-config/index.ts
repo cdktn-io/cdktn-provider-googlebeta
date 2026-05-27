@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,41 @@ export interface GoogleApiGatewayApiConfigAConfig extends cdktn.TerraformMetaArg
   /**
   * The API to attach the config to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#api GoogleApiGatewayApiConfigA#api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#api GoogleApiGatewayApiConfigA#api}
   */
   readonly api: string;
   /**
   * Identifier to assign to the API Config. Must be unique within scope of the parent resource(api).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#api_config_id GoogleApiGatewayApiConfigA#api_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#api_config_id GoogleApiGatewayApiConfigA#api_config_id}
   */
   readonly apiConfigId?: string;
   /**
   * Creates a unique name beginning with the specified prefix. If this and api_config_id are unspecified, a random value is chosen for the name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#api_config_id_prefix GoogleApiGatewayApiConfigA#api_config_id_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#api_config_id_prefix GoogleApiGatewayApiConfigA#api_config_id_prefix}
   */
   readonly apiConfigIdPrefix?: string;
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#deletion_policy GoogleApiGatewayApiConfigA#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * A user-visible name for the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#display_name GoogleApiGatewayApiConfigA#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#display_name GoogleApiGatewayApiConfigA#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#id GoogleApiGatewayApiConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#id GoogleApiGatewayApiConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,41 +62,41 @@ export interface GoogleApiGatewayApiConfigAConfig extends cdktn.TerraformMetaArg
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#labels GoogleApiGatewayApiConfigA#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#labels GoogleApiGatewayApiConfigA#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#project GoogleApiGatewayApiConfigA#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#project GoogleApiGatewayApiConfigA#project}
   */
   readonly project?: string;
   /**
   * gateway_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#gateway_config GoogleApiGatewayApiConfigA#gateway_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#gateway_config GoogleApiGatewayApiConfigA#gateway_config}
   */
   readonly gatewayConfig?: GoogleApiGatewayApiConfigGatewayConfig;
   /**
   * grpc_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#grpc_services GoogleApiGatewayApiConfigA#grpc_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#grpc_services GoogleApiGatewayApiConfigA#grpc_services}
   */
   readonly grpcServices?: GoogleApiGatewayApiConfigGrpcServices[] | cdktn.IResolvable;
   /**
   * managed_service_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#managed_service_configs GoogleApiGatewayApiConfigA#managed_service_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#managed_service_configs GoogleApiGatewayApiConfigA#managed_service_configs}
   */
   readonly managedServiceConfigs?: GoogleApiGatewayApiConfigManagedServiceConfigs[] | cdktn.IResolvable;
   /**
   * openapi_documents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#openapi_documents GoogleApiGatewayApiConfigA#openapi_documents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#openapi_documents GoogleApiGatewayApiConfigA#openapi_documents}
   */
   readonly openapiDocuments?: GoogleApiGatewayApiConfigOpenapiDocuments[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#timeouts GoogleApiGatewayApiConfigA#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#timeouts GoogleApiGatewayApiConfigA#timeouts}
   */
   readonly timeouts?: GoogleApiGatewayApiConfigTimeouts;
 }
@@ -93,7 +105,7 @@ export interface GoogleApiGatewayApiConfigGatewayConfigBackendConfig {
   * Google Cloud IAM service account used to sign OIDC tokens for backends that have authentication configured
   * (https://cloud.google.com/service-infrastructure/docs/service-management/reference/rest/v1/services.configs#backend).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#google_service_account GoogleApiGatewayApiConfigA#google_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#google_service_account GoogleApiGatewayApiConfigA#google_service_account}
   */
   readonly googleServiceAccount: string;
 }
@@ -176,7 +188,7 @@ export interface GoogleApiGatewayApiConfigGatewayConfig {
   /**
   * backend_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#backend_config GoogleApiGatewayApiConfigA#backend_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#backend_config GoogleApiGatewayApiConfigA#backend_config}
   */
   readonly backendConfig: GoogleApiGatewayApiConfigGatewayConfigBackendConfig;
 }
@@ -259,13 +271,13 @@ export interface GoogleApiGatewayApiConfigGrpcServicesFileDescriptorSet {
   /**
   * Base64 encoded content of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#contents GoogleApiGatewayApiConfigA#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#contents GoogleApiGatewayApiConfigA#contents}
   */
   readonly contents: string;
   /**
   * The file path (full or relative path). This is typically the path of the file when it is uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#path GoogleApiGatewayApiConfigA#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#path GoogleApiGatewayApiConfigA#path}
   */
   readonly path: string;
 }
@@ -374,13 +386,13 @@ export interface GoogleApiGatewayApiConfigGrpcServicesSource {
   /**
   * Base64 encoded content of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#contents GoogleApiGatewayApiConfigA#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#contents GoogleApiGatewayApiConfigA#contents}
   */
   readonly contents: string;
   /**
   * The file path (full or relative path). This is typically the path of the file when it is uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#path GoogleApiGatewayApiConfigA#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#path GoogleApiGatewayApiConfigA#path}
   */
   readonly path: string;
 }
@@ -507,7 +519,7 @@ export class GoogleApiGatewayApiConfigGrpcServicesSourceList extends cdktn.Compl
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -521,13 +533,13 @@ export interface GoogleApiGatewayApiConfigGrpcServices {
   /**
   * file_descriptor_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#file_descriptor_set GoogleApiGatewayApiConfigA#file_descriptor_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#file_descriptor_set GoogleApiGatewayApiConfigA#file_descriptor_set}
   */
   readonly fileDescriptorSet: GoogleApiGatewayApiConfigGrpcServicesFileDescriptorSet;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#source GoogleApiGatewayApiConfigA#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#source GoogleApiGatewayApiConfigA#source}
   */
   readonly source?: GoogleApiGatewayApiConfigGrpcServicesSource[] | cdktn.IResolvable;
 }
@@ -657,7 +669,7 @@ export class GoogleApiGatewayApiConfigGrpcServicesList extends cdktn.ComplexList
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -671,13 +683,13 @@ export interface GoogleApiGatewayApiConfigManagedServiceConfigs {
   /**
   * Base64 encoded content of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#contents GoogleApiGatewayApiConfigA#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#contents GoogleApiGatewayApiConfigA#contents}
   */
   readonly contents: string;
   /**
   * The file path (full or relative path). This is typically the path of the file when it is uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#path GoogleApiGatewayApiConfigA#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#path GoogleApiGatewayApiConfigA#path}
   */
   readonly path: string;
 }
@@ -804,7 +816,7 @@ export class GoogleApiGatewayApiConfigManagedServiceConfigsList extends cdktn.Co
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -818,13 +830,13 @@ export interface GoogleApiGatewayApiConfigOpenapiDocumentsDocument {
   /**
   * Base64 encoded content of the file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#contents GoogleApiGatewayApiConfigA#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#contents GoogleApiGatewayApiConfigA#contents}
   */
   readonly contents: string;
   /**
   * The file path (full or relative path). This is typically the path of the file when it is uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#path GoogleApiGatewayApiConfigA#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#path GoogleApiGatewayApiConfigA#path}
   */
   readonly path: string;
 }
@@ -933,7 +945,7 @@ export interface GoogleApiGatewayApiConfigOpenapiDocuments {
   /**
   * document block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#document GoogleApiGatewayApiConfigA#document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#document GoogleApiGatewayApiConfigA#document}
   */
   readonly document: GoogleApiGatewayApiConfigOpenapiDocumentsDocument;
 }
@@ -1034,7 +1046,7 @@ export class GoogleApiGatewayApiConfigOpenapiDocumentsList extends cdktn.Complex
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -1046,15 +1058,15 @@ export class GoogleApiGatewayApiConfigOpenapiDocumentsList extends cdktn.Complex
 }
 export interface GoogleApiGatewayApiConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#create GoogleApiGatewayApiConfigA#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#create GoogleApiGatewayApiConfigA#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#delete GoogleApiGatewayApiConfigA#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#delete GoogleApiGatewayApiConfigA#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#update GoogleApiGatewayApiConfigA#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#update GoogleApiGatewayApiConfigA#update}
   */
   readonly update?: string;
 }
@@ -1206,7 +1218,7 @@ export class GoogleApiGatewayApiConfigTimeoutsOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config google_api_gateway_api_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config google_api_gateway_api_config}
 */
 export class GoogleApiGatewayApiConfigA extends cdktn.TerraformResource {
 
@@ -1222,7 +1234,7 @@ export class GoogleApiGatewayApiConfigA extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleApiGatewayApiConfigA resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleApiGatewayApiConfigA to import
-  * @param importFromId The id of the existing GoogleApiGatewayApiConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleApiGatewayApiConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleApiGatewayApiConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1234,7 +1246,7 @@ export class GoogleApiGatewayApiConfigA extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api_config google_api_gateway_api_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api_config google_api_gateway_api_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1245,7 +1257,7 @@ export class GoogleApiGatewayApiConfigA extends cdktn.TerraformResource {
       terraformResourceType: 'google_api_gateway_api_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -1259,6 +1271,7 @@ export class GoogleApiGatewayApiConfigA extends cdktn.TerraformResource {
     this._api = config.api;
     this._apiConfigId = config.apiConfigId;
     this._apiConfigIdPrefix = config.apiConfigIdPrefix;
+    this._deletionPolicy = config.deletionPolicy;
     this._displayName = config.displayName;
     this._id = config.id;
     this._labels = config.labels;
@@ -1317,6 +1330,22 @@ export class GoogleApiGatewayApiConfigA extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get apiConfigIdPrefixInput() {
     return this._apiConfigIdPrefix;
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // display_name - computed: true, optional: true, required: false
@@ -1494,6 +1523,7 @@ export class GoogleApiGatewayApiConfigA extends cdktn.TerraformResource {
       api: cdktn.stringToTerraform(this._api),
       api_config_id: cdktn.stringToTerraform(this._apiConfigId),
       api_config_id_prefix: cdktn.stringToTerraform(this._apiConfigIdPrefix),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       display_name: cdktn.stringToTerraform(this._displayName),
       id: cdktn.stringToTerraform(this._id),
       labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
@@ -1522,6 +1552,12 @@ export class GoogleApiGatewayApiConfigA extends cdktn.TerraformResource {
       },
       api_config_id_prefix: {
         value: cdktn.stringToHclTerraform(this._apiConfigIdPrefix),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -4,7 +4,7 @@
 
 ### GoogleChronicleDataTableRow <a name="GoogleChronicleDataTableRow" id="@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row google_chronicle_data_table_row}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row google_chronicle_data_table_row}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.resetRowTimeToLive">ResetRowTimeToLive</a></code> | *No description.* |
@@ -403,6 +404,12 @@ private void PutTimeouts(GoogleChronicleDataTableRowTimeouts Value)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.resetId"></a>
 
 ```csharp
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleChronicleDataTableRo
 
 The id of the existing GoogleChronicleDataTableRow that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -566,6 +573,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowTimeoutsOutputReference">GoogleChronicleDataTableRowTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.updateTime">UpdateTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.dataTableIdInput">DataTableIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.instanceInput">InstanceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.locationInput">LocationInput</a></code> | <code>string</code> | *No description.* |
@@ -574,6 +582,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowTimeouts">GoogleChronicleDataTableRowTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.valuesInput">ValuesInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.dataTableId">DataTableId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.instance">Instance</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.location">Location</a></code> | <code>string</code> | *No description.* |
@@ -785,6 +794,16 @@ public string DataTableIdInput { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.idInput"></a>
 
 ```csharp
@@ -859,6 +878,16 @@ public string[] ValuesInput { get; }
 
 ```csharp
 public string DataTableId { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRow.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
 ```
 
 - *Type:* string
@@ -964,6 +993,7 @@ new GoogleChronicleDataTableRowConfig {
     string Instance,
     string Location,
     string[] Values,
+    string DeletionPolicy = null,
     string Id = null,
     string Project = null,
     string RowTimeToLive = null,
@@ -986,8 +1016,9 @@ new GoogleChronicleDataTableRowConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.instance">Instance</a></code> | <code>string</code> | The Chronicle instance ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.location">Location</a></code> | <code>string</code> | The GCP location of the Chronicle instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.values">Values</a></code> | <code>string[]</code> | All column values for a single row. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#id GoogleChronicleDataTableRow#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#project GoogleChronicleDataTableRow#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#id GoogleChronicleDataTableRow#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#project GoogleChronicleDataTableRow#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.rowTimeToLive">RowTimeToLive</a></code> | <code>string</code> | User-provided TTL of the data table row. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowTimeouts">GoogleChronicleDataTableRowTimeouts</a></code> | timeouts block. |
 
@@ -1073,7 +1104,7 @@ public string DataTableId { get; set; }
 
 The ID of the parent DataTable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#data_table_id GoogleChronicleDataTableRow#data_table_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#data_table_id GoogleChronicleDataTableRow#data_table_id}
 
 ---
 
@@ -1087,7 +1118,7 @@ public string Instance { get; set; }
 
 The Chronicle instance ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#instance GoogleChronicleDataTableRow#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#instance GoogleChronicleDataTableRow#instance}
 
 ---
 
@@ -1101,7 +1132,7 @@ public string Location { get; set; }
 
 The GCP location of the Chronicle instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#location GoogleChronicleDataTableRow#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#location GoogleChronicleDataTableRow#location}
 
 ---
 
@@ -1118,7 +1149,28 @@ All column values for a single row.
 The values should be in the same order
 as the columns of the data tables.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#values GoogleChronicleDataTableRow#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#values GoogleChronicleDataTableRow#values}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#deletion_policy GoogleChronicleDataTableRow#deletion_policy}
 
 ---
 
@@ -1130,7 +1182,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#id GoogleChronicleDataTableRow#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#id GoogleChronicleDataTableRow#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1145,7 +1197,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#project GoogleChronicleDataTableRow#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#project GoogleChronicleDataTableRow#project}.
 
 ---
 
@@ -1159,7 +1211,7 @@ public string RowTimeToLive { get; set; }
 
 User-provided TTL of the data table row.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#row_time_to_live GoogleChronicleDataTableRow#row_time_to_live}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#row_time_to_live GoogleChronicleDataTableRow#row_time_to_live}
 
 ---
 
@@ -1173,7 +1225,7 @@ public GoogleChronicleDataTableRowTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#timeouts GoogleChronicleDataTableRow#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#timeouts GoogleChronicleDataTableRow#timeouts}
 
 ---
 
@@ -1195,9 +1247,9 @@ new GoogleChronicleDataTableRowTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#create GoogleChronicleDataTableRow#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#delete GoogleChronicleDataTableRow#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#update GoogleChronicleDataTableRow#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#create GoogleChronicleDataTableRow#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#delete GoogleChronicleDataTableRow#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDataTableRow.GoogleChronicleDataTableRowTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#update GoogleChronicleDataTableRow#update}. |
 
 ---
 
@@ -1209,7 +1261,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#create GoogleChronicleDataTableRow#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#create GoogleChronicleDataTableRow#create}.
 
 ---
 
@@ -1221,7 +1273,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#delete GoogleChronicleDataTableRow#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#delete GoogleChronicleDataTableRow#delete}.
 
 ---
 
@@ -1233,7 +1285,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_data_table_row#update GoogleChronicleDataTableRow#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_data_table_row#update GoogleChronicleDataTableRow#update}.
 
 ---
 

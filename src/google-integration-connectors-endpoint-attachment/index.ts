@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,19 +13,31 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleIntegrationConnectorsEndpointAttachmentConfig extends cdktn.TerraformMetaArguments {
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#deletion_policy GoogleIntegrationConnectorsEndpointAttachment#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#description GoogleIntegrationConnectorsEndpointAttachment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#description GoogleIntegrationConnectorsEndpointAttachment#description}
   */
   readonly description?: string;
   /**
   * Enable global access for endpoint attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#endpoint_global_access GoogleIntegrationConnectorsEndpointAttachment#endpoint_global_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#endpoint_global_access GoogleIntegrationConnectorsEndpointAttachment#endpoint_global_access}
   */
   readonly endpointGlobalAccess?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#id GoogleIntegrationConnectorsEndpointAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#id GoogleIntegrationConnectorsEndpointAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,49 +50,49 @@ export interface GoogleIntegrationConnectorsEndpointAttachmentConfig extends cdk
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#labels GoogleIntegrationConnectorsEndpointAttachment#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#labels GoogleIntegrationConnectorsEndpointAttachment#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Location in which Endpoint Attachment needs to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#location GoogleIntegrationConnectorsEndpointAttachment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#location GoogleIntegrationConnectorsEndpointAttachment#location}
   */
   readonly location: string;
   /**
   * Name of Endpoint Attachment needs to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#name GoogleIntegrationConnectorsEndpointAttachment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#name GoogleIntegrationConnectorsEndpointAttachment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#project GoogleIntegrationConnectorsEndpointAttachment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#project GoogleIntegrationConnectorsEndpointAttachment#project}
   */
   readonly project?: string;
   /**
   * The path of the service attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#service_attachment GoogleIntegrationConnectorsEndpointAttachment#service_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#service_attachment GoogleIntegrationConnectorsEndpointAttachment#service_attachment}
   */
   readonly serviceAttachment: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#timeouts GoogleIntegrationConnectorsEndpointAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#timeouts GoogleIntegrationConnectorsEndpointAttachment#timeouts}
   */
   readonly timeouts?: GoogleIntegrationConnectorsEndpointAttachmentTimeouts;
 }
 export interface GoogleIntegrationConnectorsEndpointAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#create GoogleIntegrationConnectorsEndpointAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#create GoogleIntegrationConnectorsEndpointAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#delete GoogleIntegrationConnectorsEndpointAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#delete GoogleIntegrationConnectorsEndpointAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#update GoogleIntegrationConnectorsEndpointAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#update GoogleIntegrationConnectorsEndpointAttachment#update}
   */
   readonly update?: string;
 }
@@ -232,7 +244,7 @@ export class GoogleIntegrationConnectorsEndpointAttachmentTimeoutsOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment}
 */
 export class GoogleIntegrationConnectorsEndpointAttachment extends cdktn.TerraformResource {
 
@@ -248,7 +260,7 @@ export class GoogleIntegrationConnectorsEndpointAttachment extends cdktn.Terrafo
   * Generates CDKTN code for importing a GoogleIntegrationConnectorsEndpointAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIntegrationConnectorsEndpointAttachment to import
-  * @param importFromId The id of the existing GoogleIntegrationConnectorsEndpointAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIntegrationConnectorsEndpointAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIntegrationConnectorsEndpointAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -260,7 +272,7 @@ export class GoogleIntegrationConnectorsEndpointAttachment extends cdktn.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_endpoint_attachment google_integration_connectors_endpoint_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,7 +283,7 @@ export class GoogleIntegrationConnectorsEndpointAttachment extends cdktn.Terrafo
       terraformResourceType: 'google_integration_connectors_endpoint_attachment',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -282,6 +294,7 @@ export class GoogleIntegrationConnectorsEndpointAttachment extends cdktn.Terrafo
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._endpointGlobalAccess = config.endpointGlobalAccess;
     this._id = config.id;
@@ -300,6 +313,22 @@ export class GoogleIntegrationConnectorsEndpointAttachment extends cdktn.Terrafo
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // description - computed: false, optional: true, required: false
@@ -465,6 +494,7 @@ export class GoogleIntegrationConnectorsEndpointAttachment extends cdktn.Terrafo
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       endpoint_global_access: cdktn.booleanToTerraform(this._endpointGlobalAccess),
       id: cdktn.stringToTerraform(this._id),
@@ -479,6 +509,12 @@ export class GoogleIntegrationConnectorsEndpointAttachment extends cdktn.Terrafo
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       description: {
         value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,

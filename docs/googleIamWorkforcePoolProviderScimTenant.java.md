@@ -4,7 +4,7 @@
 
 ### GoogleIamWorkforcePoolProviderScimTenant <a name="GoogleIamWorkforcePoolProviderScimTenant" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant google_iam_workforce_pool_provider_scim_tenant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer"></a>
 
@@ -24,6 +24,7 @@ GoogleIamWorkforcePoolProviderScimTenant.Builder.create(Construct scope, java.la
     .scimTenantId(java.lang.String)
     .workforcePoolId(java.lang.String)
 //  .claimMapping(java.util.Map<java.lang.String, java.lang.String>)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .displayName(java.lang.String)
 //  .hardDelete(java.lang.Boolean|IResolvable)
@@ -48,10 +49,11 @@ GoogleIamWorkforcePoolProviderScimTenant.Builder.create(Construct scope, java.la
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.scimTenantId">scimTenantId</a></code> | <code>java.lang.String</code> | The ID to use for the SCIM tenant, which becomes the final component of the resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.workforcePoolId">workforcePoolId</a></code> | <code>java.lang.String</code> | The ID of the workforce pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.claimMapping">claimMapping</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Maps BYOID claims to SCIM claims. This is a required field for new SCIM Tenants being created. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | A user-specified description of the provider. Cannot exceed 256 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | A user-specified display name for the scim tenant. Cannot exceed 32 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.hardDelete">hardDelete</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Deletes the SCIM tenant immediately. This operation cannot be undone. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#id GoogleIamWorkforcePoolProviderScimTenant#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#id GoogleIamWorkforcePoolProviderScimTenant#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeouts">GoogleIamWorkforcePoolProviderScimTenantTimeouts</a></code> | timeouts block. |
 
 ---
@@ -122,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#location GoogleIamWorkforcePoolProviderScimTenant#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#location GoogleIamWorkforcePoolProviderScimTenant#location}
 
 ---
 
@@ -132,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#provider_id GoogleIamWorkforcePoolProviderScimTenant#provider_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#provider_id GoogleIamWorkforcePoolProviderScimTenant#provider_id}
 
 ---
 
@@ -144,7 +146,7 @@ The ID to use for the SCIM tenant, which becomes the final component of the reso
 
 This value must be 4-32 characters, and may contain the characters [a-z0-9-].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#scim_tenant_id GoogleIamWorkforcePoolProviderScimTenant#scim_tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#scim_tenant_id GoogleIamWorkforcePoolProviderScimTenant#scim_tenant_id}
 
 ---
 
@@ -154,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the workforce pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#workforce_pool_id GoogleIamWorkforcePoolProviderScimTenant#workforce_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#workforce_pool_id GoogleIamWorkforcePoolProviderScimTenant#workforce_pool_id}
 
 ---
 
@@ -164,7 +166,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Maps BYOID claims to SCIM claims. This is a required field for new SCIM Tenants being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#claim_mapping GoogleIamWorkforcePoolProviderScimTenant#claim_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#claim_mapping GoogleIamWorkforcePoolProviderScimTenant#claim_mapping}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#deletion_policy GoogleIamWorkforcePoolProviderScimTenant#deletion_policy}
 
 ---
 
@@ -174,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A user-specified description of the provider. Cannot exceed 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#description GoogleIamWorkforcePoolProviderScimTenant#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#description GoogleIamWorkforcePoolProviderScimTenant#description}
 
 ---
 
@@ -184,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A user-specified display name for the scim tenant. Cannot exceed 32 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#display_name GoogleIamWorkforcePoolProviderScimTenant#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#display_name GoogleIamWorkforcePoolProviderScimTenant#display_name}
 
 ---
 
@@ -194,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Deletes the SCIM tenant immediately. This operation cannot be undone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#hard_delete GoogleIamWorkforcePoolProviderScimTenant#hard_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#hard_delete GoogleIamWorkforcePoolProviderScimTenant#hard_delete}
 
 ---
 
@@ -202,7 +221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#id GoogleIamWorkforcePoolProviderScimTenant#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#id GoogleIamWorkforcePoolProviderScimTenant#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -215,7 +234,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#timeouts GoogleIamWorkforcePoolProviderScimTenant#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#timeouts GoogleIamWorkforcePoolProviderScimTenant#timeouts}
 
 ---
 
@@ -249,6 +268,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.resetClaimMapping">resetClaimMapping</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.resetDisplayName">resetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.resetHardDelete">resetHardDelete</a></code> | *No description.* |
@@ -586,6 +606,12 @@ public void putTimeouts(GoogleIamWorkforcePoolProviderScimTenantTimeouts value)
 public void resetClaimMapping()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.resetDescription"></a>
 
 ```java
@@ -719,7 +745,7 @@ The construct id used in the generated config for the GoogleIamWorkforcePoolProv
 
 The id of the existing GoogleIamWorkforcePoolProviderScimTenant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -756,6 +782,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.state">state</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeoutsOutputReference">GoogleIamWorkforcePoolProviderScimTenantTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.claimMappingInput">claimMappingInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.hardDeleteInput">hardDeleteInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
@@ -766,6 +793,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeouts">GoogleIamWorkforcePoolProviderScimTenantTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.workforcePoolIdInput">workforcePoolIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.claimMapping">claimMapping</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.hardDelete">hardDelete</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
@@ -989,6 +1017,16 @@ public java.util.Map<java.lang.String, java.lang.String> getClaimMappingInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.descriptionInput"></a>
 
 ```java
@@ -1086,6 +1124,16 @@ public java.util.Map<java.lang.String, java.lang.String> getClaimMapping();
 ```
 
 - *Type:* java.util.Map<java.lang.String, java.lang.String>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenant.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1209,6 +1257,7 @@ GoogleIamWorkforcePoolProviderScimTenantConfig.builder()
     .scimTenantId(java.lang.String)
     .workforcePoolId(java.lang.String)
 //  .claimMapping(java.util.Map<java.lang.String, java.lang.String>)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .displayName(java.lang.String)
 //  .hardDelete(java.lang.Boolean|IResolvable)
@@ -1233,10 +1282,11 @@ GoogleIamWorkforcePoolProviderScimTenantConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.scimTenantId">scimTenantId</a></code> | <code>java.lang.String</code> | The ID to use for the SCIM tenant, which becomes the final component of the resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.workforcePoolId">workforcePoolId</a></code> | <code>java.lang.String</code> | The ID of the workforce pool. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.claimMapping">claimMapping</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Maps BYOID claims to SCIM claims. This is a required field for new SCIM Tenants being created. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.description">description</a></code> | <code>java.lang.String</code> | A user-specified description of the provider. Cannot exceed 256 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | A user-specified display name for the scim tenant. Cannot exceed 32 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.hardDelete">hardDelete</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Deletes the SCIM tenant immediately. This operation cannot be undone. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#id GoogleIamWorkforcePoolProviderScimTenant#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#id GoogleIamWorkforcePoolProviderScimTenant#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeouts">GoogleIamWorkforcePoolProviderScimTenantTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1321,7 +1371,7 @@ public java.lang.String getLocation();
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#location GoogleIamWorkforcePoolProviderScimTenant#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#location GoogleIamWorkforcePoolProviderScimTenant#location}
 
 ---
 
@@ -1335,7 +1385,7 @@ public java.lang.String getProviderId();
 
 The ID of the provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#provider_id GoogleIamWorkforcePoolProviderScimTenant#provider_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#provider_id GoogleIamWorkforcePoolProviderScimTenant#provider_id}
 
 ---
 
@@ -1351,7 +1401,7 @@ The ID to use for the SCIM tenant, which becomes the final component of the reso
 
 This value must be 4-32 characters, and may contain the characters [a-z0-9-].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#scim_tenant_id GoogleIamWorkforcePoolProviderScimTenant#scim_tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#scim_tenant_id GoogleIamWorkforcePoolProviderScimTenant#scim_tenant_id}
 
 ---
 
@@ -1365,7 +1415,7 @@ public java.lang.String getWorkforcePoolId();
 
 The ID of the workforce pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#workforce_pool_id GoogleIamWorkforcePoolProviderScimTenant#workforce_pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#workforce_pool_id GoogleIamWorkforcePoolProviderScimTenant#workforce_pool_id}
 
 ---
 
@@ -1379,7 +1429,28 @@ public java.util.Map<java.lang.String, java.lang.String> getClaimMapping();
 
 Maps BYOID claims to SCIM claims. This is a required field for new SCIM Tenants being created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#claim_mapping GoogleIamWorkforcePoolProviderScimTenant#claim_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#claim_mapping GoogleIamWorkforcePoolProviderScimTenant#claim_mapping}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#deletion_policy GoogleIamWorkforcePoolProviderScimTenant#deletion_policy}
 
 ---
 
@@ -1393,7 +1464,7 @@ public java.lang.String getDescription();
 
 A user-specified description of the provider. Cannot exceed 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#description GoogleIamWorkforcePoolProviderScimTenant#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#description GoogleIamWorkforcePoolProviderScimTenant#description}
 
 ---
 
@@ -1407,7 +1478,7 @@ public java.lang.String getDisplayName();
 
 A user-specified display name for the scim tenant. Cannot exceed 32 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#display_name GoogleIamWorkforcePoolProviderScimTenant#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#display_name GoogleIamWorkforcePoolProviderScimTenant#display_name}
 
 ---
 
@@ -1421,7 +1492,7 @@ public java.lang.Boolean|IResolvable getHardDelete();
 
 Deletes the SCIM tenant immediately. This operation cannot be undone.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#hard_delete GoogleIamWorkforcePoolProviderScimTenant#hard_delete}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#hard_delete GoogleIamWorkforcePoolProviderScimTenant#hard_delete}
 
 ---
 
@@ -1433,7 +1504,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#id GoogleIamWorkforcePoolProviderScimTenant#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#id GoogleIamWorkforcePoolProviderScimTenant#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1450,7 +1521,7 @@ public GoogleIamWorkforcePoolProviderScimTenantTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#timeouts GoogleIamWorkforcePoolProviderScimTenant#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#timeouts GoogleIamWorkforcePoolProviderScimTenant#timeouts}
 
 ---
 
@@ -1472,9 +1543,9 @@ GoogleIamWorkforcePoolProviderScimTenantTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#create GoogleIamWorkforcePoolProviderScimTenant#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#delete GoogleIamWorkforcePoolProviderScimTenant#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#update GoogleIamWorkforcePoolProviderScimTenant#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#create GoogleIamWorkforcePoolProviderScimTenant#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#delete GoogleIamWorkforcePoolProviderScimTenant#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIamWorkforcePoolProviderScimTenant.GoogleIamWorkforcePoolProviderScimTenantTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#update GoogleIamWorkforcePoolProviderScimTenant#update}. |
 
 ---
 
@@ -1486,7 +1557,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#create GoogleIamWorkforcePoolProviderScimTenant#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#create GoogleIamWorkforcePoolProviderScimTenant#create}.
 
 ---
 
@@ -1498,7 +1569,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#delete GoogleIamWorkforcePoolProviderScimTenant#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#delete GoogleIamWorkforcePoolProviderScimTenant#delete}.
 
 ---
 
@@ -1510,7 +1581,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#update GoogleIamWorkforcePoolProviderScimTenant#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_iam_workforce_pool_provider_scim_tenant#update GoogleIamWorkforcePoolProviderScimTenant#update}.
 
 ---
 

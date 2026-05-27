@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,15 +13,27 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleDatabaseMigrationServiceMigrationJobConfig extends cdktn.TerraformMetaArguments {
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#deletion_policy GoogleDatabaseMigrationServiceMigrationJob#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * The name of the destination connection profile resource in the form of projects/{project}/locations/{location}/connectionProfiles/{destinationConnectionProfile}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#destination GoogleDatabaseMigrationServiceMigrationJob#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#destination GoogleDatabaseMigrationServiceMigrationJob#destination}
   */
   readonly destination: string;
   /**
   * The migration job display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#display_name GoogleDatabaseMigrationServiceMigrationJob#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#display_name GoogleDatabaseMigrationServiceMigrationJob#display_name}
   */
   readonly displayName?: string;
   /**
@@ -29,18 +41,18 @@ export interface GoogleDatabaseMigrationServiceMigrationJobConfig extends cdktn.
   * in the format: (gs://[BUCKET_NAME]/[OBJECT_NAME]).
   * This field and the "dump_flags" field are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#dump_path GoogleDatabaseMigrationServiceMigrationJob#dump_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#dump_path GoogleDatabaseMigrationServiceMigrationJob#dump_path}
   */
   readonly dumpPath?: string;
   /**
   * The type of the data dump. Supported for MySQL to CloudSQL for MySQL
   * migrations only. Possible values: ["LOGICAL", "PHYSICAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#dump_type GoogleDatabaseMigrationServiceMigrationJob#dump_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#dump_type GoogleDatabaseMigrationServiceMigrationJob#dump_type}
   */
   readonly dumpType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#id GoogleDatabaseMigrationServiceMigrationJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#id GoogleDatabaseMigrationServiceMigrationJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,77 +65,83 @@ export interface GoogleDatabaseMigrationServiceMigrationJobConfig extends cdktn.
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#labels GoogleDatabaseMigrationServiceMigrationJob#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#labels GoogleDatabaseMigrationServiceMigrationJob#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location where the migration job should reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#location GoogleDatabaseMigrationServiceMigrationJob#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#location GoogleDatabaseMigrationServiceMigrationJob#location}
   */
   readonly location?: string;
   /**
   * The ID of the migration job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#migration_job_id GoogleDatabaseMigrationServiceMigrationJob#migration_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#migration_job_id GoogleDatabaseMigrationServiceMigrationJob#migration_job_id}
   */
   readonly migrationJobId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#project GoogleDatabaseMigrationServiceMigrationJob#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#project GoogleDatabaseMigrationServiceMigrationJob#project}
   */
   readonly project?: string;
   /**
   * The name of the source connection profile resource in the form of projects/{project}/locations/{location}/connectionProfiles/{sourceConnectionProfile}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#source GoogleDatabaseMigrationServiceMigrationJob#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#source GoogleDatabaseMigrationServiceMigrationJob#source}
   */
   readonly source: string;
   /**
   * The type of the migration job. Possible values: ["ONE_TIME", "CONTINUOUS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#type GoogleDatabaseMigrationServiceMigrationJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#type GoogleDatabaseMigrationServiceMigrationJob#type}
   */
   readonly type: string;
   /**
   * dump_flags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#dump_flags GoogleDatabaseMigrationServiceMigrationJob#dump_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#dump_flags GoogleDatabaseMigrationServiceMigrationJob#dump_flags}
   */
   readonly dumpFlags?: GoogleDatabaseMigrationServiceMigrationJobDumpFlags;
   /**
   * objects_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#objects_config GoogleDatabaseMigrationServiceMigrationJob#objects_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#objects_config GoogleDatabaseMigrationServiceMigrationJob#objects_config}
   */
   readonly objectsConfig?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfig;
   /**
   * performance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#performance_config GoogleDatabaseMigrationServiceMigrationJob#performance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#performance_config GoogleDatabaseMigrationServiceMigrationJob#performance_config}
   */
   readonly performanceConfig?: GoogleDatabaseMigrationServiceMigrationJobPerformanceConfig;
   /**
+  * postgres_homogeneous_config block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#postgres_homogeneous_config GoogleDatabaseMigrationServiceMigrationJob#postgres_homogeneous_config}
+  */
+  readonly postgresHomogeneousConfig?: GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig;
+  /**
   * reverse_ssh_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#reverse_ssh_connectivity GoogleDatabaseMigrationServiceMigrationJob#reverse_ssh_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#reverse_ssh_connectivity GoogleDatabaseMigrationServiceMigrationJob#reverse_ssh_connectivity}
   */
   readonly reverseSshConnectivity?: GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivity;
   /**
   * static_ip_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#static_ip_connectivity GoogleDatabaseMigrationServiceMigrationJob#static_ip_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#static_ip_connectivity GoogleDatabaseMigrationServiceMigrationJob#static_ip_connectivity}
   */
   readonly staticIpConnectivity?: GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivity;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#timeouts GoogleDatabaseMigrationServiceMigrationJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#timeouts GoogleDatabaseMigrationServiceMigrationJob#timeouts}
   */
   readonly timeouts?: GoogleDatabaseMigrationServiceMigrationJobTimeouts;
   /**
   * vpc_peering_connectivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#vpc_peering_connectivity GoogleDatabaseMigrationServiceMigrationJob#vpc_peering_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#vpc_peering_connectivity GoogleDatabaseMigrationServiceMigrationJob#vpc_peering_connectivity}
   */
   readonly vpcPeeringConnectivity?: GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivity;
 }
@@ -203,7 +221,7 @@ export class GoogleDatabaseMigrationServiceMigrationJobErrorList extends cdktn.C
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -217,13 +235,13 @@ export interface GoogleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlags {
   /**
   * The name of the flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#name GoogleDatabaseMigrationServiceMigrationJob#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#name GoogleDatabaseMigrationServiceMigrationJob#name}
   */
   readonly name?: string;
   /**
   * The vale of the flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#value GoogleDatabaseMigrationServiceMigrationJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#value GoogleDatabaseMigrationServiceMigrationJob#value}
   */
   readonly value?: string;
 }
@@ -356,7 +374,7 @@ export class GoogleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlagsList ex
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -370,7 +388,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobDumpFlags {
   /**
   * dump_flags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#dump_flags GoogleDatabaseMigrationServiceMigrationJob#dump_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#dump_flags GoogleDatabaseMigrationServiceMigrationJob#dump_flags}
   */
   readonly dumpFlags?: GoogleDatabaseMigrationServiceMigrationJobDumpFlagsDumpFlags[] | cdktn.IResolvable;
 }
@@ -457,28 +475,28 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceOb
   * The database name. Required only if the object uses
   * a database name as part of its unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#database GoogleDatabaseMigrationServiceMigrationJob#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#database GoogleDatabaseMigrationServiceMigrationJob#database}
   */
   readonly database?: string;
   /**
   * The schema name. Required only if the object uses
   * a schema name as part of its unique identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#schema GoogleDatabaseMigrationServiceMigrationJob#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#schema GoogleDatabaseMigrationServiceMigrationJob#schema}
   */
   readonly schema?: string;
   /**
   * The table name. Required only if the object is a level
   * below database or schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#table GoogleDatabaseMigrationServiceMigrationJob#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#table GoogleDatabaseMigrationServiceMigrationJob#table}
   */
   readonly table?: string;
   /**
   * The category of the migration job object: 'DATABASE',
   * 'SCHEMA', or 'TABLE'. Possible values: ["DATABASE", "SCHEMA", "TABLE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#type GoogleDatabaseMigrationServiceMigrationJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#type GoogleDatabaseMigrationServiceMigrationJob#type}
   */
   readonly type: string;
 }
@@ -648,7 +666,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceOb
   /**
   * object_identifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#object_identifier GoogleDatabaseMigrationServiceMigrationJob#object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#object_identifier GoogleDatabaseMigrationServiceMigrationJob#object_identifier}
   */
   readonly objectIdentifier?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigsObjectIdentifier;
 }
@@ -752,7 +770,7 @@ export class GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObject
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -769,13 +787,13 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceOb
   * migrated. When set to 'ALL_OBJECTS', all objects available on the
   * source are migrated. Possible values: ["ALL_OBJECTS", "SPECIFIED_OBJECTS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#objects_selection_type GoogleDatabaseMigrationServiceMigrationJob#objects_selection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#objects_selection_type GoogleDatabaseMigrationServiceMigrationJob#objects_selection_type}
   */
   readonly objectsSelectionType?: string;
   /**
   * object_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#object_configs GoogleDatabaseMigrationServiceMigrationJob#object_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#object_configs GoogleDatabaseMigrationServiceMigrationJob#object_configs}
   */
   readonly objectConfigs?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfigObjectConfigs[] | cdktn.IResolvable;
 }
@@ -890,7 +908,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobObjectsConfig {
   /**
   * source_objects_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#source_objects_config GoogleDatabaseMigrationServiceMigrationJob#source_objects_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#source_objects_config GoogleDatabaseMigrationServiceMigrationJob#source_objects_config}
   */
   readonly sourceObjectsConfig?: GoogleDatabaseMigrationServiceMigrationJobObjectsConfigSourceObjectsConfig;
 }
@@ -976,7 +994,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobPerformanceConfig {
   /**
   * Initial dump parallelism level. Possible values: ["MIN", "OPTIMAL", "MAX"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#dump_parallel_level GoogleDatabaseMigrationServiceMigrationJob#dump_parallel_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#dump_parallel_level GoogleDatabaseMigrationServiceMigrationJob#dump_parallel_level}
   */
   readonly dumpParallelLevel?: string;
 }
@@ -1058,32 +1076,150 @@ export class GoogleDatabaseMigrationServiceMigrationJobPerformanceConfigOutputRe
     return this._dumpParallelLevel;
   }
 }
+export interface GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig {
+  /**
+  * Whether the migration uses native logical replication.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#is_native_logical GoogleDatabaseMigrationServiceMigrationJob#is_native_logical}
+  */
+  readonly isNativeLogical: boolean | cdktn.IResolvable;
+  /**
+  * Maximum number of additional subscriptions to use for the migration job.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#max_additional_subscriptions GoogleDatabaseMigrationServiceMigrationJob#max_additional_subscriptions}
+  */
+  readonly maxAdditionalSubscriptions?: number;
+}
+
+export function googleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigToTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    is_native_logical: cdktn.booleanToTerraform(struct!.isNativeLogical),
+    max_additional_subscriptions: cdktn.numberToTerraform(struct!.maxAdditionalSubscriptions),
+  }
+}
+
+
+export function googleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigToHclTerraform(struct?: GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference | GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    is_native_logical: {
+      value: cdktn.booleanToHclTerraform(struct!.isNativeLogical),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    max_additional_subscriptions: {
+      value: cdktn.numberToHclTerraform(struct!.maxAdditionalSubscriptions),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._isNativeLogical !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.isNativeLogical = this._isNativeLogical;
+    }
+    if (this._maxAdditionalSubscriptions !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.maxAdditionalSubscriptions = this._maxAdditionalSubscriptions;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._isNativeLogical = undefined;
+      this._maxAdditionalSubscriptions = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._isNativeLogical = value.isNativeLogical;
+      this._maxAdditionalSubscriptions = value.maxAdditionalSubscriptions;
+    }
+  }
+
+  // is_native_logical - computed: false, optional: false, required: true
+  private _isNativeLogical?: boolean | cdktn.IResolvable; 
+  public get isNativeLogical() {
+    return this.getBooleanAttribute('is_native_logical');
+  }
+  public set isNativeLogical(value: boolean | cdktn.IResolvable) {
+    this._isNativeLogical = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get isNativeLogicalInput() {
+    return this._isNativeLogical;
+  }
+
+  // max_additional_subscriptions - computed: false, optional: true, required: false
+  private _maxAdditionalSubscriptions?: number; 
+  public get maxAdditionalSubscriptions() {
+    return this.getNumberAttribute('max_additional_subscriptions');
+  }
+  public set maxAdditionalSubscriptions(value: number) {
+    this._maxAdditionalSubscriptions = value;
+  }
+  public resetMaxAdditionalSubscriptions() {
+    this._maxAdditionalSubscriptions = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get maxAdditionalSubscriptionsInput() {
+    return this._maxAdditionalSubscriptions;
+  }
+}
 export interface GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivity {
   /**
   * The name of the virtual machine (Compute Engine) used as the bastion server
   * for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#vm GoogleDatabaseMigrationServiceMigrationJob#vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#vm GoogleDatabaseMigrationServiceMigrationJob#vm}
   */
   readonly vm?: string;
   /**
   * The IP of the virtual machine (Compute Engine) used as the bastion server
   * for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#vm_ip GoogleDatabaseMigrationServiceMigrationJob#vm_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#vm_ip GoogleDatabaseMigrationServiceMigrationJob#vm_ip}
   */
   readonly vmIp?: string;
   /**
   * The forwarding port of the virtual machine (Compute Engine) used as the
   * bastion server for the SSH tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#vm_port GoogleDatabaseMigrationServiceMigrationJob#vm_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#vm_port GoogleDatabaseMigrationServiceMigrationJob#vm_port}
   */
   readonly vmPort?: number;
   /**
   * The name of the VPC to peer with the Cloud SQL private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#vpc GoogleDatabaseMigrationServiceMigrationJob#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#vpc GoogleDatabaseMigrationServiceMigrationJob#vpc}
   */
   readonly vpc?: string;
 }
@@ -1303,15 +1439,15 @@ export class GoogleDatabaseMigrationServiceMigrationJobStaticIpConnectivityOutpu
 }
 export interface GoogleDatabaseMigrationServiceMigrationJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#create GoogleDatabaseMigrationServiceMigrationJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#create GoogleDatabaseMigrationServiceMigrationJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#delete GoogleDatabaseMigrationServiceMigrationJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#delete GoogleDatabaseMigrationServiceMigrationJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#update GoogleDatabaseMigrationServiceMigrationJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#update GoogleDatabaseMigrationServiceMigrationJob#update}
   */
   readonly update?: string;
 }
@@ -1465,7 +1601,7 @@ export interface GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivit
   /**
   * The name of the VPC network to peer with the Cloud SQL private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#vpc GoogleDatabaseMigrationServiceMigrationJob#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#vpc GoogleDatabaseMigrationServiceMigrationJob#vpc}
   */
   readonly vpc?: string;
 }
@@ -1549,7 +1685,7 @@ export class GoogleDatabaseMigrationServiceMigrationJobVpcPeeringConnectivityOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job}
 */
 export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformResource {
 
@@ -1565,7 +1701,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
   * Generates CDKTN code for importing a GoogleDatabaseMigrationServiceMigrationJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDatabaseMigrationServiceMigrationJob to import
-  * @param importFromId The id of the existing GoogleDatabaseMigrationServiceMigrationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDatabaseMigrationServiceMigrationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDatabaseMigrationServiceMigrationJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1577,7 +1713,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_database_migration_service_migration_job google_database_migration_service_migration_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1588,7 +1724,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
       terraformResourceType: 'google_database_migration_service_migration_job',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -1599,6 +1735,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deletionPolicy = config.deletionPolicy;
     this._destination = config.destination;
     this._displayName = config.displayName;
     this._dumpPath = config.dumpPath;
@@ -1613,6 +1750,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
     this._dumpFlags.internalValue = config.dumpFlags;
     this._objectsConfig.internalValue = config.objectsConfig;
     this._performanceConfig.internalValue = config.performanceConfig;
+    this._postgresHomogeneousConfig.internalValue = config.postgresHomogeneousConfig;
     this._reverseSshConnectivity.internalValue = config.reverseSshConnectivity;
     this._staticIpConnectivity.internalValue = config.staticIpConnectivity;
     this._timeouts.internalValue = config.timeouts;
@@ -1626,6 +1764,22 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // destination - computed: false, optional: false, required: true
@@ -1873,6 +2027,22 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
     return this._performanceConfig.internalValue;
   }
 
+  // postgres_homogeneous_config - computed: false, optional: true, required: false
+  private _postgresHomogeneousConfig = new GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigOutputReference(this, "postgres_homogeneous_config");
+  public get postgresHomogeneousConfig() {
+    return this._postgresHomogeneousConfig;
+  }
+  public putPostgresHomogeneousConfig(value: GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfig) {
+    this._postgresHomogeneousConfig.internalValue = value;
+  }
+  public resetPostgresHomogeneousConfig() {
+    this._postgresHomogeneousConfig.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get postgresHomogeneousConfigInput() {
+    return this._postgresHomogeneousConfig.internalValue;
+  }
+
   // reverse_ssh_connectivity - computed: false, optional: true, required: false
   private _reverseSshConnectivity = new GoogleDatabaseMigrationServiceMigrationJobReverseSshConnectivityOutputReference(this, "reverse_ssh_connectivity");
   public get reverseSshConnectivity() {
@@ -1943,6 +2113,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       destination: cdktn.stringToTerraform(this._destination),
       display_name: cdktn.stringToTerraform(this._displayName),
       dump_path: cdktn.stringToTerraform(this._dumpPath),
@@ -1957,6 +2128,7 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
       dump_flags: googleDatabaseMigrationServiceMigrationJobDumpFlagsToTerraform(this._dumpFlags.internalValue),
       objects_config: googleDatabaseMigrationServiceMigrationJobObjectsConfigToTerraform(this._objectsConfig.internalValue),
       performance_config: googleDatabaseMigrationServiceMigrationJobPerformanceConfigToTerraform(this._performanceConfig.internalValue),
+      postgres_homogeneous_config: googleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigToTerraform(this._postgresHomogeneousConfig.internalValue),
       reverse_ssh_connectivity: googleDatabaseMigrationServiceMigrationJobReverseSshConnectivityToTerraform(this._reverseSshConnectivity.internalValue),
       static_ip_connectivity: googleDatabaseMigrationServiceMigrationJobStaticIpConnectivityToTerraform(this._staticIpConnectivity.internalValue),
       timeouts: googleDatabaseMigrationServiceMigrationJobTimeoutsToTerraform(this._timeouts.internalValue),
@@ -1966,6 +2138,12 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       destination: {
         value: cdktn.stringToHclTerraform(this._destination),
         isBlock: false,
@@ -2049,6 +2227,12 @@ export class GoogleDatabaseMigrationServiceMigrationJob extends cdktn.TerraformR
         isBlock: true,
         type: "list",
         storageClassType: "GoogleDatabaseMigrationServiceMigrationJobPerformanceConfigList",
+      },
+      postgres_homogeneous_config: {
+        value: googleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigToHclTerraform(this._postgresHomogeneousConfig.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "GoogleDatabaseMigrationServiceMigrationJobPostgresHomogeneousConfigList",
       },
       reverse_ssh_connectivity: {
         value: googleDatabaseMigrationServiceMigrationJobReverseSshConnectivityToHclTerraform(this._reverseSshConnectivity.internalValue),

@@ -4,7 +4,7 @@
 
 ### GoogleDataprocMetastoreFederationIamMember <a name="GoogleDataprocMetastoreFederationIamMember" id="@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member google_dataproc_metastore_federation_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member google_dataproc_metastore_federation_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer"></a>
 
@@ -42,13 +42,13 @@ googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamM
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.federationId">federation_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#federation_id GoogleDataprocMetastoreFederationIamMember#federation_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#member GoogleDataprocMetastoreFederationIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#role GoogleDataprocMetastoreFederationIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.federationId">federation_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#federation_id GoogleDataprocMetastoreFederationIamMember#federation_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#member GoogleDataprocMetastoreFederationIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#role GoogleDataprocMetastoreFederationIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberCondition">GoogleDataprocMetastoreFederationIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#id GoogleDataprocMetastoreFederationIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#location GoogleDataprocMetastoreFederationIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#project GoogleDataprocMetastoreFederationIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#id GoogleDataprocMetastoreFederationIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#location GoogleDataprocMetastoreFederationIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMember.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#project GoogleDataprocMetastoreFederationIamMember#project}. |
 
 ---
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#federation_id GoogleDataprocMetastoreFederationIamMember#federation_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#federation_id GoogleDataprocMetastoreFederationIamMember#federation_id}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#member GoogleDataprocMetastoreFederationIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#member GoogleDataprocMetastoreFederationIamMember#member}.
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#role GoogleDataprocMetastoreFederationIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#role GoogleDataprocMetastoreFederationIamMember#role}.
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#condition GoogleDataprocMetastoreFederationIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#condition GoogleDataprocMetastoreFederationIamMember#condition}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#id GoogleDataprocMetastoreFederationIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#id GoogleDataprocMetastoreFederationIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -161,7 +161,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#location GoogleDataprocMetastoreFederationIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#location GoogleDataprocMetastoreFederationIamMember#location}.
 
 ---
 
@@ -169,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#project GoogleDataprocMetastoreFederationIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#project GoogleDataprocMetastoreFederationIamMember#project}.
 
 ---
 
@@ -571,7 +571,7 @@ def put_condition(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#expression GoogleDataprocMetastoreFederationIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#expression GoogleDataprocMetastoreFederationIamMember#expression}.
 
 ---
 
@@ -579,7 +579,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#title GoogleDataprocMetastoreFederationIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#title GoogleDataprocMetastoreFederationIamMember#title}.
 
 ---
 
@@ -587,7 +587,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#description GoogleDataprocMetastoreFederationIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#description GoogleDataprocMetastoreFederationIamMember#description}.
 
 ---
 
@@ -729,7 +729,7 @@ The construct id used in the generated config for the GoogleDataprocMetastoreFed
 
 The id of the existing GoogleDataprocMetastoreFederationIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1107,9 +1107,9 @@ googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamM
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#expression GoogleDataprocMetastoreFederationIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#title GoogleDataprocMetastoreFederationIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#description GoogleDataprocMetastoreFederationIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#expression GoogleDataprocMetastoreFederationIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#title GoogleDataprocMetastoreFederationIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#description GoogleDataprocMetastoreFederationIamMember#description}. |
 
 ---
 
@@ -1121,7 +1121,7 @@ expression: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#expression GoogleDataprocMetastoreFederationIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#expression GoogleDataprocMetastoreFederationIamMember#expression}.
 
 ---
 
@@ -1133,7 +1133,7 @@ title: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#title GoogleDataprocMetastoreFederationIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#title GoogleDataprocMetastoreFederationIamMember#title}.
 
 ---
 
@@ -1145,7 +1145,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#description GoogleDataprocMetastoreFederationIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#description GoogleDataprocMetastoreFederationIamMember#description}.
 
 ---
 
@@ -1185,13 +1185,13 @@ googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamM
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.federationId">federation_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#federation_id GoogleDataprocMetastoreFederationIamMember#federation_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#member GoogleDataprocMetastoreFederationIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#role GoogleDataprocMetastoreFederationIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.federationId">federation_id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#federation_id GoogleDataprocMetastoreFederationIamMember#federation_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.member">member</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#member GoogleDataprocMetastoreFederationIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#role GoogleDataprocMetastoreFederationIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberCondition">GoogleDataprocMetastoreFederationIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#id GoogleDataprocMetastoreFederationIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#location GoogleDataprocMetastoreFederationIamMember#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#project GoogleDataprocMetastoreFederationIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#id GoogleDataprocMetastoreFederationIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.location">location</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#location GoogleDataprocMetastoreFederationIamMember#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataprocMetastoreFederationIamMember.GoogleDataprocMetastoreFederationIamMemberConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#project GoogleDataprocMetastoreFederationIamMember#project}. |
 
 ---
 
@@ -1273,7 +1273,7 @@ federation_id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#federation_id GoogleDataprocMetastoreFederationIamMember#federation_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#federation_id GoogleDataprocMetastoreFederationIamMember#federation_id}.
 
 ---
 
@@ -1285,7 +1285,7 @@ member: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#member GoogleDataprocMetastoreFederationIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#member GoogleDataprocMetastoreFederationIamMember#member}.
 
 ---
 
@@ -1297,7 +1297,7 @@ role: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#role GoogleDataprocMetastoreFederationIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#role GoogleDataprocMetastoreFederationIamMember#role}.
 
 ---
 
@@ -1311,7 +1311,7 @@ condition: GoogleDataprocMetastoreFederationIamMemberCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#condition GoogleDataprocMetastoreFederationIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#condition GoogleDataprocMetastoreFederationIamMember#condition}
 
 ---
 
@@ -1323,7 +1323,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#id GoogleDataprocMetastoreFederationIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#id GoogleDataprocMetastoreFederationIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1338,7 +1338,7 @@ location: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#location GoogleDataprocMetastoreFederationIamMember#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#location GoogleDataprocMetastoreFederationIamMember#location}.
 
 ---
 
@@ -1350,7 +1350,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataproc_metastore_federation_iam_member#project GoogleDataprocMetastoreFederationIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataproc_metastore_federation_iam_member#project GoogleDataprocMetastoreFederationIamMember#project}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleNotebooksInstanceIamPolicy <a name="GoogleNotebooksInstanceIamPolicy" id="@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy google_notebooks_instance_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy google_notebooks_instance_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicy.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleNotebooksInstanceIam
 
 The id of the existing GoogleNotebooksInstanceIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -860,11 +860,11 @@ new GoogleNotebooksInstanceIamPolicyConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.instanceName">InstanceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#instance_name GoogleNotebooksInstanceIamPolicy#instance_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#policy_data GoogleNotebooksInstanceIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#id GoogleNotebooksInstanceIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#location GoogleNotebooksInstanceIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#project GoogleNotebooksInstanceIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.instanceName">InstanceName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#instance_name GoogleNotebooksInstanceIamPolicy#instance_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#policy_data GoogleNotebooksInstanceIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#id GoogleNotebooksInstanceIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.location">Location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#location GoogleNotebooksInstanceIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksInstanceIamPolicy.GoogleNotebooksInstanceIamPolicyConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#project GoogleNotebooksInstanceIamPolicy#project}. |
 
 ---
 
@@ -946,7 +946,7 @@ public string InstanceName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#instance_name GoogleNotebooksInstanceIamPolicy#instance_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#instance_name GoogleNotebooksInstanceIamPolicy#instance_name}.
 
 ---
 
@@ -958,7 +958,7 @@ public string PolicyData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#policy_data GoogleNotebooksInstanceIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#policy_data GoogleNotebooksInstanceIamPolicy#policy_data}.
 
 ---
 
@@ -970,7 +970,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#id GoogleNotebooksInstanceIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#id GoogleNotebooksInstanceIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ public string Location { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#location GoogleNotebooksInstanceIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#location GoogleNotebooksInstanceIamPolicy#location}.
 
 ---
 
@@ -997,7 +997,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_instance_iam_policy#project GoogleNotebooksInstanceIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_instance_iam_policy#project GoogleNotebooksInstanceIamPolicy#project}.
 
 ---
 

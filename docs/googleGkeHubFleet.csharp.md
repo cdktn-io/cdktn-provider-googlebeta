@@ -4,7 +4,7 @@
 
 ### GoogleGkeHubFleet <a name="GoogleGkeHubFleet" id="@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.putDefaultClusterConfig">PutDefaultClusterConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.resetDefaultClusterConfig">ResetDefaultClusterConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.resetDisplayName">ResetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.resetProject">ResetProject</a></code> | *No description.* |
@@ -423,6 +424,12 @@ private void PutTimeouts(GoogleGkeHubFleetTimeouts Value)
 private void ResetDefaultClusterConfig()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetDisplayName` <a name="ResetDisplayName" id="@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.resetDisplayName"></a>
 
 ```csharp
@@ -550,7 +557,7 @@ The construct id used in the generated config for the GoogleGkeHubFleet to impor
 
 The id of the existing GoogleGkeHubFleet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -588,10 +595,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.uid">Uid</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.updateTime">UpdateTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.defaultClusterConfigInput">DefaultClusterConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetDefaultClusterConfig">GoogleGkeHubFleetDefaultClusterConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.displayNameInput">DisplayNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetTimeouts">GoogleGkeHubFleetTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.displayName">DisplayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.project">Project</a></code> | <code>string</code> | *No description.* |
@@ -820,6 +829,16 @@ public GoogleGkeHubFleetDefaultClusterConfig DefaultClusterConfigInput { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `DisplayNameInput`<sup>Optional</sup> <a name="DisplayNameInput" id="@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.displayNameInput"></a>
 
 ```csharp
@@ -857,6 +876,16 @@ public IResolvable|GoogleGkeHubFleetTimeouts TimeoutsInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetTimeouts">GoogleGkeHubFleetTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleet.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -926,6 +955,7 @@ new GoogleGkeHubFleetConfig {
     TerraformProvider Provider = null,
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     GoogleGkeHubFleetDefaultClusterConfig DefaultClusterConfig = null,
+    string DeletionPolicy = null,
     string DisplayName = null,
     string Id = null,
     string Project = null,
@@ -945,9 +975,10 @@ new GoogleGkeHubFleetConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.defaultClusterConfig">DefaultClusterConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetDefaultClusterConfig">GoogleGkeHubFleetDefaultClusterConfig</a></code> | default_cluster_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.displayName">DisplayName</a></code> | <code>string</code> | A user-assigned display name of the Fleet. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#id GoogleGkeHubFleet#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#project GoogleGkeHubFleet#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#id GoogleGkeHubFleet#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#project GoogleGkeHubFleet#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetTimeouts">GoogleGkeHubFleetTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1032,7 +1063,28 @@ public GoogleGkeHubFleetDefaultClusterConfig DefaultClusterConfig { get; set; }
 
 default_cluster_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#default_cluster_config GoogleGkeHubFleet#default_cluster_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#default_cluster_config GoogleGkeHubFleet#default_cluster_config}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#deletion_policy GoogleGkeHubFleet#deletion_policy}
 
 ---
 
@@ -1049,7 +1101,7 @@ A user-assigned display name of the Fleet.
 When present, it must be between 4 to 30 characters.
 Allowed characters are: lowercase and uppercase letters, numbers, hyphen, single-quote, double-quote, space, and exclamation point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#display_name GoogleGkeHubFleet#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#display_name GoogleGkeHubFleet#display_name}
 
 ---
 
@@ -1061,7 +1113,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#id GoogleGkeHubFleet#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#id GoogleGkeHubFleet#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1076,7 +1128,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#project GoogleGkeHubFleet#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#project GoogleGkeHubFleet#project}.
 
 ---
 
@@ -1090,7 +1142,7 @@ public GoogleGkeHubFleetTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#timeouts GoogleGkeHubFleet#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#timeouts GoogleGkeHubFleet#timeouts}
 
 ---
 
@@ -1126,7 +1178,7 @@ public GoogleGkeHubFleetDefaultClusterConfigBinaryAuthorizationConfig BinaryAuth
 
 binary_authorization_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#binary_authorization_config GoogleGkeHubFleet#binary_authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#binary_authorization_config GoogleGkeHubFleet#binary_authorization_config}
 
 ---
 
@@ -1140,7 +1192,7 @@ public GoogleGkeHubFleetDefaultClusterConfigSecurityPostureConfig SecurityPostur
 
 security_posture_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#security_posture_config GoogleGkeHubFleet#security_posture_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#security_posture_config GoogleGkeHubFleet#security_posture_config}
 
 ---
 
@@ -1176,7 +1228,7 @@ public string EvaluationMode { get; set; }
 
 Mode of operation for binauthz policy evaluation. Possible values: ["DISABLED", "POLICY_BINDINGS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#evaluation_mode GoogleGkeHubFleet#evaluation_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#evaluation_mode GoogleGkeHubFleet#evaluation_mode}
 
 ---
 
@@ -1190,7 +1242,7 @@ public IResolvable|GoogleGkeHubFleetDefaultClusterConfigBinaryAuthorizationConfi
 
 policy_bindings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#policy_bindings GoogleGkeHubFleet#policy_bindings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#policy_bindings GoogleGkeHubFleet#policy_bindings}
 
 ---
 
@@ -1224,7 +1276,7 @@ public string Name { get; set; }
 
 The relative resource name of the binauthz platform policy to audit. GKE platform policies have the following format: 'projects/{project_number}/platforms/gke/policies/{policy_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#name GoogleGkeHubFleet#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#name GoogleGkeHubFleet#name}
 
 ---
 
@@ -1260,7 +1312,7 @@ public string Mode { get; set; }
 
 Sets which mode to use for Security Posture features. Possible values: ["DISABLED", "BASIC", "ENTERPRISE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#mode GoogleGkeHubFleet#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#mode GoogleGkeHubFleet#mode}
 
 ---
 
@@ -1274,7 +1326,7 @@ public string VulnerabilityMode { get; set; }
 
 Sets which mode to use for vulnerability scanning. Possible values: ["VULNERABILITY_DISABLED", "VULNERABILITY_BASIC", "VULNERABILITY_ENTERPRISE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#vulnerability_mode GoogleGkeHubFleet#vulnerability_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#vulnerability_mode GoogleGkeHubFleet#vulnerability_mode}
 
 ---
 
@@ -1309,9 +1361,9 @@ new GoogleGkeHubFleetTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#create GoogleGkeHubFleet#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#delete GoogleGkeHubFleet#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#update GoogleGkeHubFleet#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#create GoogleGkeHubFleet#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#delete GoogleGkeHubFleet#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleGkeHubFleet.GoogleGkeHubFleetTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#update GoogleGkeHubFleet#update}. |
 
 ---
 
@@ -1323,7 +1375,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#create GoogleGkeHubFleet#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#create GoogleGkeHubFleet#create}.
 
 ---
 
@@ -1335,7 +1387,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#delete GoogleGkeHubFleet#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#delete GoogleGkeHubFleet#delete}.
 
 ---
 
@@ -1347,7 +1399,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_gke_hub_fleet#update GoogleGkeHubFleet#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_gke_hub_fleet#update GoogleGkeHubFleet#update}.
 
 ---
 

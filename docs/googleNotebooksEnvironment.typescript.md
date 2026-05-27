@@ -4,7 +4,7 @@
 
 ### GoogleNotebooksEnvironment <a name="GoogleNotebooksEnvironment" id="@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment google_notebooks_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment google_notebooks_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.Initializer"></a>
 
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.putVmImage">putVmImage</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.resetContainerImage">resetContainerImage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.resetDisplayName">resetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.resetId">resetId</a></code> | *No description.* |
@@ -439,6 +440,12 @@ public putVmImage(value: GoogleNotebooksEnvironmentVmImage): void
 public resetContainerImage(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.resetDescription"></a>
 
 ```typescript
@@ -584,7 +591,7 @@ The construct id used in the generated config for the GoogleNotebooksEnvironment
 
 The id of the existing GoogleNotebooksEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -619,6 +626,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentTimeoutsOutputReference">GoogleNotebooksEnvironmentTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.vmImage">vmImage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentVmImageOutputReference">GoogleNotebooksEnvironmentVmImageOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.containerImageInput">containerImageInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentContainerImage">GoogleNotebooksEnvironmentContainerImage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.displayNameInput">displayNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
@@ -628,6 +636,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentTimeouts">GoogleNotebooksEnvironmentTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.vmImageInput">vmImageInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentVmImage">GoogleNotebooksEnvironmentVmImage</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.displayName">displayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -830,6 +839,16 @@ public readonly containerImageInput: GoogleNotebooksEnvironmentContainerImage;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.descriptionInput"></a>
 
 ```typescript
@@ -917,6 +936,16 @@ public readonly vmImageInput: GoogleNotebooksEnvironmentVmImage;
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentVmImage">GoogleNotebooksEnvironmentVmImage</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironment.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -1034,11 +1063,12 @@ const googleNotebooksEnvironmentConfig: googleNotebooksEnvironment.GoogleNoteboo
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.location">location</a></code> | <code>string</code> | A reference to the zone where the machine resides. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.name">name</a></code> | <code>string</code> | The name specified for the Environment instance. Format: projects/{project_id}/locations/{location}/environments/{environmentId}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.containerImage">containerImage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentContainerImage">GoogleNotebooksEnvironmentContainerImage</a></code> | container_image block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.description">description</a></code> | <code>string</code> | A brief description of this environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.displayName">displayName</a></code> | <code>string</code> | Display name of this environment for the UI. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#id GoogleNotebooksEnvironment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#id GoogleNotebooksEnvironment#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.postStartupScript">postStartupScript</a></code> | <code>string</code> | Path to a Bash script that automatically runs after a notebook instance fully boots up. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#project GoogleNotebooksEnvironment#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#project GoogleNotebooksEnvironment#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentTimeouts">GoogleNotebooksEnvironmentTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.vmImage">vmImage</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentVmImage">GoogleNotebooksEnvironmentVmImage</a></code> | vm_image block. |
 
@@ -1124,7 +1154,7 @@ public readonly location: string;
 
 A reference to the zone where the machine resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#location GoogleNotebooksEnvironment#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#location GoogleNotebooksEnvironment#location}
 
 ---
 
@@ -1138,7 +1168,7 @@ public readonly name: string;
 
 The name specified for the Environment instance. Format: projects/{project_id}/locations/{location}/environments/{environmentId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#name GoogleNotebooksEnvironment#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#name GoogleNotebooksEnvironment#name}
 
 ---
 
@@ -1152,7 +1182,29 @@ public readonly containerImage: GoogleNotebooksEnvironmentContainerImage;
 
 container_image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#container_image GoogleNotebooksEnvironment#container_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#container_image GoogleNotebooksEnvironment#container_image}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#deletion_policy GoogleNotebooksEnvironment#deletion_policy}
 
 ---
 
@@ -1166,7 +1218,7 @@ public readonly description: string;
 
 A brief description of this environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#description GoogleNotebooksEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#description GoogleNotebooksEnvironment#description}
 
 ---
 
@@ -1180,7 +1232,7 @@ public readonly displayName: string;
 
 Display name of this environment for the UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#display_name GoogleNotebooksEnvironment#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#display_name GoogleNotebooksEnvironment#display_name}
 
 ---
 
@@ -1192,7 +1244,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#id GoogleNotebooksEnvironment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#id GoogleNotebooksEnvironment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1211,7 +1263,7 @@ Path to a Bash script that automatically runs after a notebook instance fully bo
 
 The path must be a URL or Cloud Storage path. Example: "gs://path-to-file/file-name"
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#post_startup_script GoogleNotebooksEnvironment#post_startup_script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#post_startup_script GoogleNotebooksEnvironment#post_startup_script}
 
 ---
 
@@ -1223,7 +1275,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#project GoogleNotebooksEnvironment#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#project GoogleNotebooksEnvironment#project}.
 
 ---
 
@@ -1237,7 +1289,7 @@ public readonly timeouts: GoogleNotebooksEnvironmentTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#timeouts GoogleNotebooksEnvironment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#timeouts GoogleNotebooksEnvironment#timeouts}
 
 ---
 
@@ -1251,7 +1303,7 @@ public readonly vmImage: GoogleNotebooksEnvironmentVmImage;
 
 vm_image block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#vm_image GoogleNotebooksEnvironment#vm_image}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#vm_image GoogleNotebooksEnvironment#vm_image}
 
 ---
 
@@ -1284,7 +1336,7 @@ public readonly repository: string;
 
 The path to the container image repository. For example: gcr.io/{project_id}/{imageName}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#repository GoogleNotebooksEnvironment#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#repository GoogleNotebooksEnvironment#repository}
 
 ---
 
@@ -1298,7 +1350,7 @@ public readonly tag: string;
 
 The tag of the container image. If not specified, this defaults to the latest tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#tag GoogleNotebooksEnvironment#tag}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#tag GoogleNotebooksEnvironment#tag}
 
 ---
 
@@ -1316,9 +1368,9 @@ const googleNotebooksEnvironmentTimeouts: googleNotebooksEnvironment.GoogleNoteb
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#create GoogleNotebooksEnvironment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#delete GoogleNotebooksEnvironment#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#update GoogleNotebooksEnvironment#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#create GoogleNotebooksEnvironment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#delete GoogleNotebooksEnvironment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNotebooksEnvironment.GoogleNotebooksEnvironmentTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#update GoogleNotebooksEnvironment#update}. |
 
 ---
 
@@ -1330,7 +1382,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#create GoogleNotebooksEnvironment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#create GoogleNotebooksEnvironment#create}.
 
 ---
 
@@ -1342,7 +1394,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#delete GoogleNotebooksEnvironment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#delete GoogleNotebooksEnvironment#delete}.
 
 ---
 
@@ -1354,7 +1406,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#update GoogleNotebooksEnvironment#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#update GoogleNotebooksEnvironment#update}.
 
 ---
 
@@ -1388,7 +1440,7 @@ public readonly project: string;
 
 The name of the Google Cloud project that this VM image belongs to. Format: projects/{project_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#project GoogleNotebooksEnvironment#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#project GoogleNotebooksEnvironment#project}
 
 ---
 
@@ -1402,7 +1454,7 @@ public readonly imageFamily: string;
 
 Use this VM image family to find the image; the newest image in this family will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#image_family GoogleNotebooksEnvironment#image_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#image_family GoogleNotebooksEnvironment#image_family}
 
 ---
 
@@ -1416,7 +1468,7 @@ public readonly imageName: string;
 
 Use VM image name to find the image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_notebooks_environment#image_name GoogleNotebooksEnvironment#image_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_notebooks_environment#image_name GoogleNotebooksEnvironment#image_name}
 
 ---
 

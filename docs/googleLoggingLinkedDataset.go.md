@@ -4,7 +4,7 @@
 
 ### GoogleLoggingLinkedDataset <a name="GoogleLoggingLinkedDataset" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset google_logging_linked_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset google_logging_linked_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.putBigqueryDataset">PutBigqueryDataset</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.resetBigqueryDataset">ResetBigqueryDataset</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.resetLocation">ResetLocation</a></code> | *No description.* |
@@ -424,6 +425,12 @@ func PutTimeouts(value GoogleLoggingLinkedDatasetTimeouts)
 func ResetBigqueryDataset()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.resetDescription"></a>
 
 ```go
@@ -557,7 +564,7 @@ The construct id used in the generated config for the GoogleLoggingLinkedDataset
 
 The id of the existing GoogleLoggingLinkedDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -594,6 +601,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeoutsOutputReference">GoogleLoggingLinkedDatasetTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.bigqueryDatasetInput">BigqueryDatasetInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.bucketInput">BucketInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.linkIdInput">LinkIdInput</a></code> | <code>*string</code> | *No description.* |
@@ -601,6 +609,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.parentInput">ParentInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.bucket">Bucket</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.linkId">LinkId</a></code> | <code>*string</code> | *No description.* |
@@ -821,6 +830,16 @@ func BucketInput() *string
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.descriptionInput"></a>
 
 ```go
@@ -885,6 +904,16 @@ func TimeoutsInput() interface{}
 
 ```go
 func Bucket() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDataset.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
 ```
 
 - *Type:* *string
@@ -992,6 +1021,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelo
 	Bucket: *string,
 	LinkId: *string,
 	BigqueryDataset: interface{},
+	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Location: *string,
@@ -1014,8 +1044,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelo
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.bucket">Bucket</a></code> | <code>*string</code> | The bucket to which the linked dataset is attached. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.linkId">LinkId</a></code> | <code>*string</code> | The id of the linked dataset. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.bigqueryDataset">BigqueryDataset</a></code> | <code>interface{}</code> | bigquery_dataset block. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.description">Description</a></code> | <code>*string</code> | Describes this link. The maximum length of the description is 8000 characters. |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#id GoogleLoggingLinkedDataset#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#id GoogleLoggingLinkedDataset#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.location">Location</a></code> | <code>*string</code> | The location of the linked dataset. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.parent">Parent</a></code> | <code>*string</code> | The parent of the linked dataset. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeouts">GoogleLoggingLinkedDatasetTimeouts</a></code> | timeouts block. |
@@ -1102,7 +1133,7 @@ Bucket *string
 
 The bucket to which the linked dataset is attached.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#bucket GoogleLoggingLinkedDataset#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#bucket GoogleLoggingLinkedDataset#bucket}
 
 ---
 
@@ -1116,7 +1147,7 @@ LinkId *string
 
 The id of the linked dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#link_id GoogleLoggingLinkedDataset#link_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#link_id GoogleLoggingLinkedDataset#link_id}
 
 ---
 
@@ -1130,7 +1161,28 @@ BigqueryDataset interface{}
 
 bigquery_dataset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#bigquery_dataset GoogleLoggingLinkedDataset#bigquery_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#bigquery_dataset GoogleLoggingLinkedDataset#bigquery_dataset}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#deletion_policy GoogleLoggingLinkedDataset#deletion_policy}
 
 ---
 
@@ -1144,7 +1196,7 @@ Description *string
 
 Describes this link. The maximum length of the description is 8000 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#description GoogleLoggingLinkedDataset#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#description GoogleLoggingLinkedDataset#description}
 
 ---
 
@@ -1156,7 +1208,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#id GoogleLoggingLinkedDataset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#id GoogleLoggingLinkedDataset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1173,7 +1225,7 @@ Location *string
 
 The location of the linked dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#location GoogleLoggingLinkedDataset#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#location GoogleLoggingLinkedDataset#location}
 
 ---
 
@@ -1187,7 +1239,7 @@ Parent *string
 
 The parent of the linked dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#parent GoogleLoggingLinkedDataset#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#parent GoogleLoggingLinkedDataset#parent}
 
 ---
 
@@ -1201,7 +1253,7 @@ Timeouts GoogleLoggingLinkedDatasetTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#timeouts GoogleLoggingLinkedDataset#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#timeouts GoogleLoggingLinkedDataset#timeouts}
 
 ---
 
@@ -1222,8 +1274,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlelo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#create GoogleLoggingLinkedDataset#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#delete GoogleLoggingLinkedDataset#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#create GoogleLoggingLinkedDataset#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLinkedDataset.GoogleLoggingLinkedDatasetTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#delete GoogleLoggingLinkedDataset#delete}. |
 
 ---
 
@@ -1235,7 +1287,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#create GoogleLoggingLinkedDataset#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#create GoogleLoggingLinkedDataset#create}.
 
 ---
 
@@ -1247,7 +1299,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_linked_dataset#delete GoogleLoggingLinkedDataset#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_linked_dataset#delete GoogleLoggingLinkedDataset#delete}.
 
 ---
 

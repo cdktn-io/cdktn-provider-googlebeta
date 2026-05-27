@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionInstantSnapshot <a name="GoogleComputeRegionInstantSnapshot" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot google_compute_region_instant_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.putParams">PutParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.resetLabels">ResetLabels</a></code> | *No description.* |
@@ -419,6 +420,12 @@ private void PutTimeouts(GoogleComputeRegionInstantSnapshotTimeouts Value)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.resetDescription"></a>
 
 ```csharp
@@ -564,7 +571,7 @@ The construct id used in the generated config for the GoogleComputeRegionInstant
 
 The id of the existing GoogleComputeRegionInstantSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -608,6 +615,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.status">Status</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeoutsOutputReference">GoogleComputeRegionInstantSnapshotTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.labelsInput">LabelsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
@@ -617,6 +625,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.regionInput">RegionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.sourceDiskInput">SourceDiskInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts">GoogleComputeRegionInstantSnapshotTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
@@ -909,6 +918,16 @@ public GoogleComputeRegionInstantSnapshotTimeoutsOutputReference Timeouts { get;
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.descriptionInput"></a>
 
 ```csharp
@@ -996,6 +1015,16 @@ public IResolvable|GoogleComputeRegionInstantSnapshotTimeouts TimeoutsInput { ge
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts">GoogleComputeRegionInstantSnapshotTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshot.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -1106,6 +1135,7 @@ new GoogleComputeRegionInstantSnapshotConfig {
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string Name,
     string SourceDisk,
+    string DeletionPolicy = null,
     string Description = null,
     string Id = null,
     System.Collections.Generic.IDictionary<string, string> Labels = null,
@@ -1129,11 +1159,12 @@ new GoogleComputeRegionInstantSnapshotConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.name">Name</a></code> | <code>string</code> | Name of the resource; |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.sourceDisk">SourceDisk</a></code> | <code>string</code> | The source disk used to create this instant snapshot. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.description">Description</a></code> | <code>string</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#id GoogleComputeRegionInstantSnapshot#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#id GoogleComputeRegionInstantSnapshot#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Labels to apply to this InstantSnapshot. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.params">Params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotParams">GoogleComputeRegionInstantSnapshotParams</a></code> | params block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#project GoogleComputeRegionInstantSnapshot#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#project GoogleComputeRegionInstantSnapshot#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.region">Region</a></code> | <code>string</code> | A reference to the region where the disk is located. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts">GoogleComputeRegionInstantSnapshotTimeouts</a></code> | timeouts block. |
 
@@ -1227,7 +1258,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#name GoogleComputeRegionInstantSnapshot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#name GoogleComputeRegionInstantSnapshot#name}
 
 ---
 
@@ -1243,7 +1274,28 @@ The source disk used to create this instant snapshot.
 
 You can provide this as a partial or full URL to the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#source_disk GoogleComputeRegionInstantSnapshot#source_disk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#source_disk GoogleComputeRegionInstantSnapshot#source_disk}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#deletion_policy GoogleComputeRegionInstantSnapshot#deletion_policy}
 
 ---
 
@@ -1257,7 +1309,7 @@ public string Description { get; set; }
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#description GoogleComputeRegionInstantSnapshot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#description GoogleComputeRegionInstantSnapshot#description}
 
 ---
 
@@ -1269,7 +1321,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#id GoogleComputeRegionInstantSnapshot#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#id GoogleComputeRegionInstantSnapshot#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1289,7 +1341,7 @@ Labels to apply to this InstantSnapshot.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#labels GoogleComputeRegionInstantSnapshot#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#labels GoogleComputeRegionInstantSnapshot#labels}
 
 ---
 
@@ -1303,7 +1355,7 @@ public GoogleComputeRegionInstantSnapshotParams Params { get; set; }
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#params GoogleComputeRegionInstantSnapshot#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#params GoogleComputeRegionInstantSnapshot#params}
 
 ---
 
@@ -1315,7 +1367,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#project GoogleComputeRegionInstantSnapshot#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#project GoogleComputeRegionInstantSnapshot#project}.
 
 ---
 
@@ -1329,7 +1381,7 @@ public string Region { get; set; }
 
 A reference to the region where the disk is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#region GoogleComputeRegionInstantSnapshot#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#region GoogleComputeRegionInstantSnapshot#region}
 
 ---
 
@@ -1343,7 +1395,7 @@ public GoogleComputeRegionInstantSnapshotTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#timeouts GoogleComputeRegionInstantSnapshot#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#timeouts GoogleComputeRegionInstantSnapshot#timeouts}
 
 ---
 
@@ -1381,7 +1433,7 @@ Tag keys and values have the
 same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id},
 and values are in the format tagValues/456.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#resource_manager_tags GoogleComputeRegionInstantSnapshot#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#resource_manager_tags GoogleComputeRegionInstantSnapshot#resource_manager_tags}
 
 ---
 
@@ -1416,9 +1468,9 @@ new GoogleComputeRegionInstantSnapshotTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#create GoogleComputeRegionInstantSnapshot#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#delete GoogleComputeRegionInstantSnapshot#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#update GoogleComputeRegionInstantSnapshot#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#create GoogleComputeRegionInstantSnapshot#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#delete GoogleComputeRegionInstantSnapshot#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionInstantSnapshot.GoogleComputeRegionInstantSnapshotTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#update GoogleComputeRegionInstantSnapshot#update}. |
 
 ---
 
@@ -1430,7 +1482,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#create GoogleComputeRegionInstantSnapshot#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#create GoogleComputeRegionInstantSnapshot#create}.
 
 ---
 
@@ -1442,7 +1494,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#delete GoogleComputeRegionInstantSnapshot#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#delete GoogleComputeRegionInstantSnapshot#delete}.
 
 ---
 
@@ -1454,7 +1506,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_instant_snapshot#update GoogleComputeRegionInstantSnapshot#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_instant_snapshot#update GoogleComputeRegionInstantSnapshot#update}.
 
 ---
 

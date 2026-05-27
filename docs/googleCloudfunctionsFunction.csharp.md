@@ -4,7 +4,7 @@
 
 ### GoogleCloudfunctionsFunction <a name="GoogleCloudfunctionsFunction" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function google_cloudfunctions_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function google_cloudfunctions_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.Initializer"></a>
 
@@ -86,6 +86,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.resetBuildEnvironmentVariables">ResetBuildEnvironmentVariables</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.resetBuildServiceAccount">ResetBuildServiceAccount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.resetBuildWorkerPool">ResetBuildWorkerPool</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.resetDockerRegistry">ResetDockerRegistry</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.resetDockerRepository">ResetDockerRepository</a></code> | *No description.* |
@@ -540,6 +541,12 @@ private void ResetBuildServiceAccount()
 private void ResetBuildWorkerPool()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.resetDescription"></a>
 
 ```csharp
@@ -811,7 +818,7 @@ The construct id used in the generated config for the GoogleCloudfunctionsFuncti
 
 The id of the existing GoogleCloudfunctionsFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -857,6 +864,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.buildEnvironmentVariablesInput">BuildEnvironmentVariablesInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.buildServiceAccountInput">BuildServiceAccountInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.buildWorkerPoolInput">BuildWorkerPoolInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.dockerRegistryInput">DockerRegistryInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.dockerRepositoryInput">DockerRepositoryInput</a></code> | <code>string</code> | *No description.* |
@@ -891,6 +899,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.buildEnvironmentVariables">BuildEnvironmentVariables</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.buildServiceAccount">BuildServiceAccount</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.buildWorkerPool">BuildWorkerPool</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.dockerRegistry">DockerRegistry</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.dockerRepository">DockerRepository</a></code> | <code>string</code> | *No description.* |
@@ -1214,6 +1223,16 @@ public string BuildServiceAccountInput { get; }
 
 ```csharp
 public string BuildWorkerPoolInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
 ```
 
 - *Type:* string
@@ -1560,6 +1579,16 @@ public string BuildWorkerPool { get; }
 
 ---
 
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Description`<sup>Required</sup> <a name="Description" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunction.property.description"></a>
 
 ```csharp
@@ -1855,6 +1884,7 @@ new GoogleCloudfunctionsFunctionConfig {
     System.Collections.Generic.IDictionary<string, string> BuildEnvironmentVariables = null,
     string BuildServiceAccount = null,
     string BuildWorkerPool = null,
+    string DeletionPolicy = null,
     string Description = null,
     string DockerRegistry = null,
     string DockerRepository = null,
@@ -1904,6 +1934,7 @@ new GoogleCloudfunctionsFunctionConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.buildEnvironmentVariables">BuildEnvironmentVariables</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | A set of key/value environment variable pairs available during build time. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.buildServiceAccount">BuildServiceAccount</a></code> | <code>string</code> | The fully-qualified name of the service account to be used for the build step of deploying this function. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.buildWorkerPool">BuildWorkerPool</a></code> | <code>string</code> | Name of the Cloud Build Custom Worker Pool that should be used to build the function. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.description">Description</a></code> | <code>string</code> | Description of the function. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.dockerRegistry">DockerRegistry</a></code> | <code>string</code> | Docker Registry to use for storing the function's Docker images. Allowed values are ARTIFACT_REGISTRY (default) and CONTAINER_REGISTRY. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.dockerRepository">DockerRepository</a></code> | <code>string</code> | User managed repository created in Artifact Registry optionally with a customer managed encryption key. |
@@ -1912,7 +1943,7 @@ new GoogleCloudfunctionsFunctionConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.eventTrigger">EventTrigger</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionEventTrigger">GoogleCloudfunctionsFunctionEventTrigger</a></code> | event_trigger block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.httpsTriggerSecurityLevel">HttpsTriggerSecurityLevel</a></code> | <code>string</code> | The security level for the function. Defaults to SECURE_OPTIONAL. Valid only if trigger_http is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.httpsTriggerUrl">HttpsTriggerUrl</a></code> | <code>string</code> | URL which triggers function execution. Returned only if trigger_http is used. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#id GoogleCloudfunctionsFunction#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#id GoogleCloudfunctionsFunction#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.ingressSettings">IngressSettings</a></code> | <code>string</code> | String value that controls what traffic can reach the function. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.kmsKeyName">KmsKeyName</a></code> | <code>string</code> | Resource name of a KMS crypto key (managed by the user) used to encrypt/decrypt function resources. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | A set of key/value label pairs to assign to the function. Label keys must follow the requirements at https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#requirements. |
@@ -2015,7 +2046,7 @@ public string Name { get; set; }
 
 A user-defined name of the function. Function names must be unique globally.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#name GoogleCloudfunctionsFunction#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#name GoogleCloudfunctionsFunction#name}
 
 ---
 
@@ -2029,7 +2060,7 @@ public string Runtime { get; set; }
 
 The runtime in which the function is going to run. Eg. "nodejs20", "python37", "go111".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#runtime GoogleCloudfunctionsFunction#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#runtime GoogleCloudfunctionsFunction#runtime}
 
 ---
 
@@ -2043,7 +2074,7 @@ public GoogleCloudfunctionsFunctionAutomaticUpdatePolicy AutomaticUpdatePolicy {
 
 automatic_update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#automatic_update_policy GoogleCloudfunctionsFunction#automatic_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#automatic_update_policy GoogleCloudfunctionsFunction#automatic_update_policy}
 
 ---
 
@@ -2057,7 +2088,7 @@ public double AvailableMemoryMb { get; set; }
 
 Memory (in MB), available to the function. Default value is 256. Possible values include 128, 256, 512, 1024, etc.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#available_memory_mb GoogleCloudfunctionsFunction#available_memory_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#available_memory_mb GoogleCloudfunctionsFunction#available_memory_mb}
 
 ---
 
@@ -2071,7 +2102,7 @@ public System.Collections.Generic.IDictionary<string, string> BuildEnvironmentVa
 
 A set of key/value environment variable pairs available during build time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#build_environment_variables GoogleCloudfunctionsFunction#build_environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#build_environment_variables GoogleCloudfunctionsFunction#build_environment_variables}
 
 ---
 
@@ -2085,7 +2116,7 @@ public string BuildServiceAccount { get; set; }
 
 The fully-qualified name of the service account to be used for the build step of deploying this function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#build_service_account GoogleCloudfunctionsFunction#build_service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#build_service_account GoogleCloudfunctionsFunction#build_service_account}
 
 ---
 
@@ -2099,7 +2130,28 @@ public string BuildWorkerPool { get; set; }
 
 Name of the Cloud Build Custom Worker Pool that should be used to build the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#build_worker_pool GoogleCloudfunctionsFunction#build_worker_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#build_worker_pool GoogleCloudfunctionsFunction#build_worker_pool}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#deletion_policy GoogleCloudfunctionsFunction#deletion_policy}
 
 ---
 
@@ -2113,7 +2165,7 @@ public string Description { get; set; }
 
 Description of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#description GoogleCloudfunctionsFunction#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#description GoogleCloudfunctionsFunction#description}
 
 ---
 
@@ -2127,7 +2179,7 @@ public string DockerRegistry { get; set; }
 
 Docker Registry to use for storing the function's Docker images. Allowed values are ARTIFACT_REGISTRY (default) and CONTAINER_REGISTRY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#docker_registry GoogleCloudfunctionsFunction#docker_registry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#docker_registry GoogleCloudfunctionsFunction#docker_registry}
 
 ---
 
@@ -2143,7 +2195,7 @@ User managed repository created in Artifact Registry optionally with a customer 
 
 If specified, deployments will use Artifact Registry for storing images built with Cloud Build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#docker_repository GoogleCloudfunctionsFunction#docker_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#docker_repository GoogleCloudfunctionsFunction#docker_repository}
 
 ---
 
@@ -2157,7 +2209,7 @@ public string EntryPoint { get; set; }
 
 Name of the function that will be executed when the Google Cloud Function is triggered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#entry_point GoogleCloudfunctionsFunction#entry_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#entry_point GoogleCloudfunctionsFunction#entry_point}
 
 ---
 
@@ -2171,7 +2223,7 @@ public System.Collections.Generic.IDictionary<string, string> EnvironmentVariabl
 
 A set of key/value environment variable pairs to assign to the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#environment_variables GoogleCloudfunctionsFunction#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#environment_variables GoogleCloudfunctionsFunction#environment_variables}
 
 ---
 
@@ -2185,7 +2237,7 @@ public GoogleCloudfunctionsFunctionEventTrigger EventTrigger { get; set; }
 
 event_trigger block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#event_trigger GoogleCloudfunctionsFunction#event_trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#event_trigger GoogleCloudfunctionsFunction#event_trigger}
 
 ---
 
@@ -2199,7 +2251,7 @@ public string HttpsTriggerSecurityLevel { get; set; }
 
 The security level for the function. Defaults to SECURE_OPTIONAL. Valid only if trigger_http is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#https_trigger_security_level GoogleCloudfunctionsFunction#https_trigger_security_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#https_trigger_security_level GoogleCloudfunctionsFunction#https_trigger_security_level}
 
 ---
 
@@ -2213,7 +2265,7 @@ public string HttpsTriggerUrl { get; set; }
 
 URL which triggers function execution. Returned only if trigger_http is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#https_trigger_url GoogleCloudfunctionsFunction#https_trigger_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#https_trigger_url GoogleCloudfunctionsFunction#https_trigger_url}
 
 ---
 
@@ -2225,7 +2277,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#id GoogleCloudfunctionsFunction#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#id GoogleCloudfunctionsFunction#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2244,7 +2296,7 @@ String value that controls what traffic can reach the function.
 
 Allowed values are ALLOW_ALL and ALLOW_INTERNAL_ONLY. Changes to this field will recreate the cloud function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#ingress_settings GoogleCloudfunctionsFunction#ingress_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#ingress_settings GoogleCloudfunctionsFunction#ingress_settings}
 
 ---
 
@@ -2258,7 +2310,7 @@ public string KmsKeyName { get; set; }
 
 Resource name of a KMS crypto key (managed by the user) used to encrypt/decrypt function resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#kms_key_name GoogleCloudfunctionsFunction#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#kms_key_name GoogleCloudfunctionsFunction#kms_key_name}
 
 ---
 
@@ -2275,7 +2327,7 @@ A set of key/value label pairs to assign to the function. Label keys must follow
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#labels GoogleCloudfunctionsFunction#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#labels GoogleCloudfunctionsFunction#labels}
 
 ---
 
@@ -2289,7 +2341,7 @@ public double MaxInstances { get; set; }
 
 The limit on the maximum number of function instances that may coexist at a given time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#max_instances GoogleCloudfunctionsFunction#max_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#max_instances GoogleCloudfunctionsFunction#max_instances}
 
 ---
 
@@ -2303,7 +2355,7 @@ public double MinInstances { get; set; }
 
 The limit on the minimum number of function instances that may coexist at a given time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#min_instances GoogleCloudfunctionsFunction#min_instances}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#min_instances GoogleCloudfunctionsFunction#min_instances}
 
 ---
 
@@ -2317,7 +2369,7 @@ public GoogleCloudfunctionsFunctionOnDeployUpdatePolicy OnDeployUpdatePolicy { g
 
 on_deploy_update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#on_deploy_update_policy GoogleCloudfunctionsFunction#on_deploy_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#on_deploy_update_policy GoogleCloudfunctionsFunction#on_deploy_update_policy}
 
 ---
 
@@ -2331,7 +2383,7 @@ public string Project { get; set; }
 
 Project of the function. If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#project GoogleCloudfunctionsFunction#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#project GoogleCloudfunctionsFunction#project}
 
 ---
 
@@ -2345,7 +2397,7 @@ public string Region { get; set; }
 
 Region of function. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#region GoogleCloudfunctionsFunction#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#region GoogleCloudfunctionsFunction#region}
 
 ---
 
@@ -2359,7 +2411,7 @@ public IResolvable|GoogleCloudfunctionsFunctionSecretEnvironmentVariables[] Secr
 
 secret_environment_variables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#secret_environment_variables GoogleCloudfunctionsFunction#secret_environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#secret_environment_variables GoogleCloudfunctionsFunction#secret_environment_variables}
 
 ---
 
@@ -2373,7 +2425,7 @@ public IResolvable|GoogleCloudfunctionsFunctionSecretVolumes[] SecretVolumes { g
 
 secret_volumes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#secret_volumes GoogleCloudfunctionsFunction#secret_volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#secret_volumes GoogleCloudfunctionsFunction#secret_volumes}
 
 ---
 
@@ -2387,7 +2439,7 @@ public string ServiceAccountEmail { get; set; }
 
 If provided, the self-provided service account to run the function with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#service_account_email GoogleCloudfunctionsFunction#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#service_account_email GoogleCloudfunctionsFunction#service_account_email}
 
 ---
 
@@ -2401,7 +2453,7 @@ public string SourceArchiveBucket { get; set; }
 
 The GCS bucket containing the zip archive which contains the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#source_archive_bucket GoogleCloudfunctionsFunction#source_archive_bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#source_archive_bucket GoogleCloudfunctionsFunction#source_archive_bucket}
 
 ---
 
@@ -2415,7 +2467,7 @@ public string SourceArchiveObject { get; set; }
 
 The source archive object (file) in archive bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#source_archive_object GoogleCloudfunctionsFunction#source_archive_object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#source_archive_object GoogleCloudfunctionsFunction#source_archive_object}
 
 ---
 
@@ -2429,7 +2481,7 @@ public GoogleCloudfunctionsFunctionSourceRepository SourceRepository { get; set;
 
 source_repository block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#source_repository GoogleCloudfunctionsFunction#source_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#source_repository GoogleCloudfunctionsFunction#source_repository}
 
 ---
 
@@ -2443,7 +2495,7 @@ public double Timeout { get; set; }
 
 Timeout (in seconds) for the function. Default value is 60 seconds. Cannot be more than 540 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#timeout GoogleCloudfunctionsFunction#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#timeout GoogleCloudfunctionsFunction#timeout}
 
 ---
 
@@ -2457,7 +2509,7 @@ public GoogleCloudfunctionsFunctionTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#timeouts GoogleCloudfunctionsFunction#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#timeouts GoogleCloudfunctionsFunction#timeouts}
 
 ---
 
@@ -2473,7 +2525,7 @@ Boolean variable.
 
 Any HTTP request (of a supported type) to the endpoint will trigger function execution. Supported HTTP request types are: POST, PUT, GET, DELETE, and OPTIONS. Endpoint is returned as https_trigger_url. Cannot be used with trigger_bucket and trigger_topic.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#trigger_http GoogleCloudfunctionsFunction#trigger_http}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#trigger_http GoogleCloudfunctionsFunction#trigger_http}
 
 ---
 
@@ -2489,7 +2541,7 @@ The VPC Network Connector that this cloud function can connect to.
 
 It can be either the fully-qualified URI, or the short name of the network connector resource. The format of this field is projects/* /locations/* /connectors/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#vpc_connector GoogleCloudfunctionsFunction#vpc_connector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#vpc_connector GoogleCloudfunctionsFunction#vpc_connector}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2507,7 +2559,7 @@ The egress settings for the connector, controlling what traffic is diverted thro
 
 Allowed values are ALL_TRAFFIC and PRIVATE_RANGES_ONLY. Defaults to PRIVATE_RANGES_ONLY. If unset, this field preserves the previously set value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#vpc_connector_egress_settings GoogleCloudfunctionsFunction#vpc_connector_egress_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#vpc_connector_egress_settings GoogleCloudfunctionsFunction#vpc_connector_egress_settings}
 
 ---
 
@@ -2547,7 +2599,7 @@ The type of event to observe.
 
 For example: "google.storage.object.finalize". See the documentation on calling Cloud Functions for a full reference of accepted triggers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#event_type GoogleCloudfunctionsFunction#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#event_type GoogleCloudfunctionsFunction#event_type}
 
 ---
 
@@ -2561,7 +2613,7 @@ public string Resource { get; set; }
 
 The name or partial URI of the resource from which to observe events. For example, "myBucket" or "projects/my-project/topics/my-topic".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#resource GoogleCloudfunctionsFunction#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#resource GoogleCloudfunctionsFunction#resource}
 
 ---
 
@@ -2575,7 +2627,7 @@ public GoogleCloudfunctionsFunctionEventTriggerFailurePolicy FailurePolicy { get
 
 failure_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#failure_policy GoogleCloudfunctionsFunction#failure_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#failure_policy GoogleCloudfunctionsFunction#failure_policy}
 
 ---
 
@@ -2609,7 +2661,7 @@ public bool|IResolvable Retry { get; set; }
 
 Whether the function should be retried on failure. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#retry GoogleCloudfunctionsFunction#retry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#retry GoogleCloudfunctionsFunction#retry}
 
 ---
 
@@ -2662,7 +2714,7 @@ public string Key { get; set; }
 
 Name of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#key GoogleCloudfunctionsFunction#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#key GoogleCloudfunctionsFunction#key}
 
 ---
 
@@ -2676,7 +2728,7 @@ public string Secret { get; set; }
 
 ID of the secret in secret manager (not the full resource name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#secret GoogleCloudfunctionsFunction#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#secret GoogleCloudfunctionsFunction#secret}
 
 ---
 
@@ -2692,7 +2744,7 @@ Version of the secret (version number or the string "latest").
 
 It is recommended to use a numeric version for secret environment variables as any updates to the secret value is not reflected until new clones start.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#version GoogleCloudfunctionsFunction#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#version GoogleCloudfunctionsFunction#version}
 
 ---
 
@@ -2708,7 +2760,7 @@ Project identifier (due to a known limitation, only project number is supported 
 
 If not set, it will be populated with the function's project, assuming that the secret exists in the same project as of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#project_id GoogleCloudfunctionsFunction#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#project_id GoogleCloudfunctionsFunction#project_id}
 
 ---
 
@@ -2750,7 +2802,7 @@ The path within the container to mount the secret volume.
 
 For example, setting the mount_path as "/etc/secrets" would mount the secret value files under the "/etc/secrets" directory. This directory will also be completely shadowed and unavailable to mount any other secrets. Recommended mount paths: "/etc/secrets" Restricted mount paths: "/cloudsql", "/dev/log", "/pod", "/proc", "/var/log".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#mount_path GoogleCloudfunctionsFunction#mount_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#mount_path GoogleCloudfunctionsFunction#mount_path}
 
 ---
 
@@ -2764,7 +2816,7 @@ public string Secret { get; set; }
 
 ID of the secret in secret manager (not the full resource name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#secret GoogleCloudfunctionsFunction#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#secret GoogleCloudfunctionsFunction#secret}
 
 ---
 
@@ -2780,7 +2832,7 @@ Project identifier (due to a known limitation, only project number is supported 
 
 If not set, it will be populated with the function's project, assuming that the secret exists in the same project as of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#project_id GoogleCloudfunctionsFunction#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#project_id GoogleCloudfunctionsFunction#project_id}
 
 ---
 
@@ -2794,7 +2846,7 @@ public IResolvable|GoogleCloudfunctionsFunctionSecretVolumesVersions[] Versions 
 
 versions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#versions GoogleCloudfunctionsFunction#versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#versions GoogleCloudfunctionsFunction#versions}
 
 ---
 
@@ -2832,7 +2884,7 @@ Relative path of the file under the mount path where the secret value for this v
 
 For example, setting the mount_path as "/etc/secrets" and path as "/secret_foo" would mount the secret value file at "/etc/secrets/secret_foo".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#path GoogleCloudfunctionsFunction#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#path GoogleCloudfunctionsFunction#path}
 
 ---
 
@@ -2848,7 +2900,7 @@ Version of the secret (version number or the string "latest").
 
 It is preferable to use "latest" version with secret volumes as secret value changes are reflected immediately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#version GoogleCloudfunctionsFunction#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#version GoogleCloudfunctionsFunction#version}
 
 ---
 
@@ -2882,7 +2934,7 @@ public string Url { get; set; }
 
 The URL pointing to the hosted repository where the function is defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#url GoogleCloudfunctionsFunction#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#url GoogleCloudfunctionsFunction#url}
 
 ---
 
@@ -2905,10 +2957,10 @@ new GoogleCloudfunctionsFunctionTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#create GoogleCloudfunctionsFunction#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#delete GoogleCloudfunctionsFunction#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts.property.read">Read</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#read GoogleCloudfunctionsFunction#read}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#update GoogleCloudfunctionsFunction#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#create GoogleCloudfunctionsFunction#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#delete GoogleCloudfunctionsFunction#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts.property.read">Read</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#read GoogleCloudfunctionsFunction#read}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctionsFunction.GoogleCloudfunctionsFunctionTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#update GoogleCloudfunctionsFunction#update}. |
 
 ---
 
@@ -2920,7 +2972,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#create GoogleCloudfunctionsFunction#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#create GoogleCloudfunctionsFunction#create}.
 
 ---
 
@@ -2932,7 +2984,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#delete GoogleCloudfunctionsFunction#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#delete GoogleCloudfunctionsFunction#delete}.
 
 ---
 
@@ -2944,7 +2996,7 @@ public string Read { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#read GoogleCloudfunctionsFunction#read}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#read GoogleCloudfunctionsFunction#read}.
 
 ---
 
@@ -2956,7 +3008,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_cloudfunctions_function#update GoogleCloudfunctionsFunction#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions_function#update GoogleCloudfunctionsFunction#update}.
 
 ---
 

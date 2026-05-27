@@ -4,7 +4,7 @@
 
 ### GoogleIdentityPlatformTenant <a name="GoogleIdentityPlatformTenant" id="@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant google_identity_platform_tenant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.Initializer"></a>
 
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.resetAllowPasswordSignup">ResetAllowPasswordSignup</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.resetClient">ResetClient</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.resetDisableAuth">ResetDisableAuth</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.resetEnableEmailLinkSignin">ResetEnableEmailLinkSignin</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.resetId">ResetId</a></code> | *No description.* |
@@ -431,6 +432,12 @@ func ResetAllowPasswordSignup()
 func ResetClient()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetDisableAuth` <a name="ResetDisableAuth" id="@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.resetDisableAuth"></a>
 
 ```go
@@ -564,7 +571,7 @@ The construct id used in the generated config for the GoogleIdentityPlatformTena
 
 The id of the existing GoogleIdentityPlatformTenant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -599,6 +606,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantTimeoutsOutputReference">GoogleIdentityPlatformTenantTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.allowPasswordSignupInput">AllowPasswordSignupInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.clientInput">ClientInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantClient">GoogleIdentityPlatformTenantClient</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.disableAuthInput">DisableAuthInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.displayNameInput">DisplayNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.enableEmailLinkSigninInput">EnableEmailLinkSigninInput</a></code> | <code>interface{}</code> | *No description.* |
@@ -606,6 +614,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.allowPasswordSignup">AllowPasswordSignup</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.disableAuth">DisableAuth</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.displayName">DisplayName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.enableEmailLinkSignin">EnableEmailLinkSignin</a></code> | <code>interface{}</code> | *No description.* |
@@ -806,6 +815,16 @@ func ClientInput() GoogleIdentityPlatformTenantClient
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DisableAuthInput`<sup>Optional</sup> <a name="DisableAuthInput" id="@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.disableAuthInput"></a>
 
 ```go
@@ -873,6 +892,16 @@ func AllowPasswordSignup() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenant.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -976,7 +1005,7 @@ Permissions GoogleIdentityPlatformTenantClientPermissions
 
 permissions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#permissions GoogleIdentityPlatformTenant#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#permissions GoogleIdentityPlatformTenant#permissions}
 
 ---
 
@@ -1012,7 +1041,7 @@ DisabledUserDeletion interface{}
 
 When true, end users cannot delete their account on the associated project through any of our API methods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#disabled_user_deletion GoogleIdentityPlatformTenant#disabled_user_deletion}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#disabled_user_deletion GoogleIdentityPlatformTenant#disabled_user_deletion}
 
 ---
 
@@ -1026,7 +1055,7 @@ DisabledUserSignup interface{}
 
 When true, end users cannot sign up for a new account on the associated project through any of our API methods.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#disabled_user_signup GoogleIdentityPlatformTenant#disabled_user_signup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#disabled_user_signup GoogleIdentityPlatformTenant#disabled_user_signup}
 
 ---
 
@@ -1048,6 +1077,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleid
 	DisplayName: *string,
 	AllowPasswordSignup: interface{},
 	Client: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantClient,
+	DeletionPolicy: *string,
 	DisableAuth: interface{},
 	EnableEmailLinkSignin: interface{},
 	Id: *string,
@@ -1070,10 +1100,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleid
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.displayName">DisplayName</a></code> | <code>*string</code> | Human friendly display name of the tenant. |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.allowPasswordSignup">AllowPasswordSignup</a></code> | <code>interface{}</code> | Whether to allow email/password user authentication. |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.client">Client</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantClient">GoogleIdentityPlatformTenantClient</a></code> | client block. |
+| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.disableAuth">DisableAuth</a></code> | <code>interface{}</code> | Whether authentication is disabled for the tenant. |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.enableEmailLinkSignin">EnableEmailLinkSignin</a></code> | <code>interface{}</code> | Whether to enable email link user authentication. |
-| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#id GoogleIdentityPlatformTenant#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#project GoogleIdentityPlatformTenant#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#id GoogleIdentityPlatformTenant#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#project GoogleIdentityPlatformTenant#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantTimeouts">GoogleIdentityPlatformTenantTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1158,7 +1189,7 @@ DisplayName *string
 
 Human friendly display name of the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#display_name GoogleIdentityPlatformTenant#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#display_name GoogleIdentityPlatformTenant#display_name}
 
 ---
 
@@ -1172,7 +1203,7 @@ AllowPasswordSignup interface{}
 
 Whether to allow email/password user authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#allow_password_signup GoogleIdentityPlatformTenant#allow_password_signup}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#allow_password_signup GoogleIdentityPlatformTenant#allow_password_signup}
 
 ---
 
@@ -1186,7 +1217,28 @@ Client GoogleIdentityPlatformTenantClient
 
 client block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#client GoogleIdentityPlatformTenant#client}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#client GoogleIdentityPlatformTenant#client}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#deletion_policy GoogleIdentityPlatformTenant#deletion_policy}
 
 ---
 
@@ -1204,7 +1256,7 @@ If true, the users under
 the disabled tenant are not allowed to sign-in. Admins of the disabled tenant
 are not able to manage its users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#disable_auth GoogleIdentityPlatformTenant#disable_auth}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#disable_auth GoogleIdentityPlatformTenant#disable_auth}
 
 ---
 
@@ -1218,7 +1270,7 @@ EnableEmailLinkSignin interface{}
 
 Whether to enable email link user authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#enable_email_link_signin GoogleIdentityPlatformTenant#enable_email_link_signin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#enable_email_link_signin GoogleIdentityPlatformTenant#enable_email_link_signin}
 
 ---
 
@@ -1230,7 +1282,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#id GoogleIdentityPlatformTenant#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#id GoogleIdentityPlatformTenant#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1245,7 +1297,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#project GoogleIdentityPlatformTenant#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#project GoogleIdentityPlatformTenant#project}.
 
 ---
 
@@ -1259,7 +1311,7 @@ Timeouts GoogleIdentityPlatformTenantTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#timeouts GoogleIdentityPlatformTenant#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#timeouts GoogleIdentityPlatformTenant#timeouts}
 
 ---
 
@@ -1281,9 +1333,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleid
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#create GoogleIdentityPlatformTenant#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#delete GoogleIdentityPlatformTenant#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#update GoogleIdentityPlatformTenant#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#create GoogleIdentityPlatformTenant#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#delete GoogleIdentityPlatformTenant#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIdentityPlatformTenant.GoogleIdentityPlatformTenantTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#update GoogleIdentityPlatformTenant#update}. |
 
 ---
 
@@ -1295,7 +1347,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#create GoogleIdentityPlatformTenant#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#create GoogleIdentityPlatformTenant#create}.
 
 ---
 
@@ -1307,7 +1359,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#delete GoogleIdentityPlatformTenant#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#delete GoogleIdentityPlatformTenant#delete}.
 
 ---
 
@@ -1319,7 +1371,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_identity_platform_tenant#update GoogleIdentityPlatformTenant#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_identity_platform_tenant#update GoogleIdentityPlatformTenant#update}.
 
 ---
 

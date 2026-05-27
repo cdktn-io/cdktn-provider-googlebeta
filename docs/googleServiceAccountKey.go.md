@@ -4,7 +4,7 @@
 
 ### GoogleServiceAccountKey <a name="GoogleServiceAccountKey" id="@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key google_service_account_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key google_service_account_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.Initializer"></a>
 
@@ -74,6 +74,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.moveFromId">MoveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.resetKeepers">ResetKeepers</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.resetKeyAlgorithm">ResetKeyAlgorithm</a></code> | *No description.* |
@@ -392,6 +393,12 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.resetId"></a>
 
 ```go
@@ -531,7 +538,7 @@ The construct id used in the generated config for the GoogleServiceAccountKey to
 
 The id of the existing GoogleServiceAccountKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -566,6 +573,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.publicKey">PublicKey</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.validAfter">ValidAfter</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.validBefore">ValidBefore</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.keepersInput">KeepersInput</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.keyAlgorithmInput">KeyAlgorithmInput</a></code> | <code>*string</code> | *No description.* |
@@ -573,6 +581,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.publicKeyDataInput">PublicKeyDataInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.publicKeyTypeInput">PublicKeyTypeInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.serviceAccountIdInput">ServiceAccountIdInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.keyAlgorithm">KeyAlgorithm</a></code> | <code>*string</code> | *No description.* |
@@ -775,6 +784,16 @@ func ValidBefore() *string
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.idInput"></a>
 
 ```go
@@ -839,6 +858,16 @@ func PublicKeyTypeInput() *string
 
 ```go
 func ServiceAccountIdInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKey.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
 ```
 
 - *Type:* *string
@@ -951,6 +980,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlese
 	Provider: github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider,
 	Provisioners: *[]interface{},
 	ServiceAccountId: *string,
+	DeletionPolicy: *string,
 	Id: *string,
 	Keepers: *map[string]*string,
 	KeyAlgorithm: *string,
@@ -972,12 +1002,13 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlese
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.serviceAccountId">ServiceAccountId</a></code> | <code>*string</code> | The ID of the parent service account of the key. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#id GoogleServiceAccountKey#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#id GoogleServiceAccountKey#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.keepers">Keepers</a></code> | <code>*map[string]*string</code> | Arbitrary map of values that, when changed, will trigger recreation of resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.keyAlgorithm">KeyAlgorithm</a></code> | <code>*string</code> | The algorithm used to generate the key, used only on create. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.privateKeyType">PrivateKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#private_key_type GoogleServiceAccountKey#private_key_type}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.privateKeyType">PrivateKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#private_key_type GoogleServiceAccountKey#private_key_type}. |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.publicKeyData">PublicKeyData</a></code> | <code>*string</code> | A field that allows clients to upload their own public key. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.publicKeyType">PublicKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#public_key_type GoogleServiceAccountKey#public_key_type}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.publicKeyType">PublicKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#public_key_type GoogleServiceAccountKey#public_key_type}. |
 
 ---
 
@@ -1063,7 +1094,28 @@ The ID of the parent service account of the key.
 
 This can be a string in the format {ACCOUNT} or projects/{PROJECT_ID}/serviceAccounts/{ACCOUNT}, where {ACCOUNT} is the email address or unique id of the service account. If the {ACCOUNT} syntax is used, the project will be inferred from the provider's configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#service_account_id GoogleServiceAccountKey#service_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#service_account_id GoogleServiceAccountKey#service_account_id}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleServiceAccountKey.GoogleServiceAccountKeyConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#deletion_policy GoogleServiceAccountKey#deletion_policy}
 
 ---
 
@@ -1075,7 +1127,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#id GoogleServiceAccountKey#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#id GoogleServiceAccountKey#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1092,7 +1144,7 @@ Keepers *map[string]*string
 
 Arbitrary map of values that, when changed, will trigger recreation of resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#keepers GoogleServiceAccountKey#keepers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#keepers GoogleServiceAccountKey#keepers}
 
 ---
 
@@ -1108,7 +1160,7 @@ The algorithm used to generate the key, used only on create.
 
 KEY_ALG_RSA_2048 is the default algorithm. Valid values are: "KEY_ALG_RSA_1024", "KEY_ALG_RSA_2048".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#key_algorithm GoogleServiceAccountKey#key_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#key_algorithm GoogleServiceAccountKey#key_algorithm}
 
 ---
 
@@ -1120,7 +1172,7 @@ PrivateKeyType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#private_key_type GoogleServiceAccountKey#private_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#private_key_type GoogleServiceAccountKey#private_key_type}.
 
 ---
 
@@ -1136,7 +1188,7 @@ A field that allows clients to upload their own public key.
 
 If set, use this public key data to create a service account key for given service account. Please note, the expected format for this field is a base64 encoded X509_PEM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#public_key_data GoogleServiceAccountKey#public_key_data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#public_key_data GoogleServiceAccountKey#public_key_data}
 
 ---
 
@@ -1148,7 +1200,7 @@ PublicKeyType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_service_account_key#public_key_type GoogleServiceAccountKey#public_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_service_account_key#public_key_type GoogleServiceAccountKey#public_key_type}.
 
 ---
 

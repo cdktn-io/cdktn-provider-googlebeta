@@ -4,7 +4,7 @@
 
 ### GoogleProjectService <a name="GoogleProjectService" id="@cdktn/provider-google-beta.googleProjectService.GoogleProjectService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service google_project_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service google_project_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer"></a>
 
@@ -23,6 +23,7 @@ googleProjectService.GoogleProjectService(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   service: str,
   check_if_service_has_usage_on_destroy: bool | IResolvable = None,
+  deletion_policy: str = None,
   disable_dependent_services: bool | IResolvable = None,
   disable_on_destroy: bool | IResolvable = None,
   id: str = None,
@@ -42,12 +43,13 @@ googleProjectService.GoogleProjectService(
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.service">service</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#service GoogleProjectService#service}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.checkIfServiceHasUsageOnDestroy">check_if_service_has_usage_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#check_if_service_has_usage_on_destroy GoogleProjectService#check_if_service_has_usage_on_destroy}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.disableDependentServices">disable_dependent_services</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#disable_dependent_services GoogleProjectService#disable_dependent_services}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.disableOnDestroy">disable_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#disable_on_destroy GoogleProjectService#disable_on_destroy}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#id GoogleProjectService#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#project GoogleProjectService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.service">service</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#service GoogleProjectService#service}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.checkIfServiceHasUsageOnDestroy">check_if_service_has_usage_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#check_if_service_has_usage_on_destroy GoogleProjectService#check_if_service_has_usage_on_destroy}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.disableDependentServices">disable_dependent_services</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#disable_dependent_services GoogleProjectService#disable_dependent_services}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.disableOnDestroy">disable_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#disable_on_destroy GoogleProjectService#disable_on_destroy}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#id GoogleProjectService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#project GoogleProjectService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts">GoogleProjectServiceTimeouts</a></code> | timeouts block. |
 
 ---
@@ -116,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#service GoogleProjectService#service}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#service GoogleProjectService#service}.
 
 ---
 
@@ -124,7 +126,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#check_if_service_has_usage_on_destroy GoogleProjectService#check_if_service_has_usage_on_destroy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#check_if_service_has_usage_on_destroy GoogleProjectService#check_if_service_has_usage_on_destroy}.
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#deletion_policy GoogleProjectService#deletion_policy}
 
 ---
 
@@ -132,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#disable_dependent_services GoogleProjectService#disable_dependent_services}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#disable_dependent_services GoogleProjectService#disable_dependent_services}.
 
 ---
 
@@ -140,7 +159,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#disable_on_destroy GoogleProjectService#disable_on_destroy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#disable_on_destroy GoogleProjectService#disable_on_destroy}.
 
 ---
 
@@ -148,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#id GoogleProjectService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#id GoogleProjectService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,7 +178,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#project GoogleProjectService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#project GoogleProjectService#project}.
 
 ---
 
@@ -169,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#timeouts GoogleProjectService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#timeouts GoogleProjectService#timeouts}
 
 ---
 
@@ -203,6 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.resetCheckIfServiceHasUsageOnDestroy">reset_check_if_service_has_usage_on_destroy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.resetDisableDependentServices">reset_disable_dependent_services</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.resetDisableOnDestroy">reset_disable_on_destroy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.resetId">reset_id</a></code> | *No description.* |
@@ -574,7 +594,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#create GoogleProjectService#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#create GoogleProjectService#create}.
 
 ---
 
@@ -582,7 +602,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#delete GoogleProjectService#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#delete GoogleProjectService#delete}.
 
 ---
 
@@ -590,7 +610,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#read GoogleProjectService#read}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#read GoogleProjectService#read}.
 
 ---
 
@@ -598,7 +618,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#update GoogleProjectService#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#update GoogleProjectService#update}.
 
 ---
 
@@ -606,6 +626,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ```python
 def reset_check_if_service_has_usage_on_destroy() -> None
+```
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
 ```
 
 ##### `reset_disable_dependent_services` <a name="reset_disable_dependent_services" id="@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.resetDisableDependentServices"></a>
@@ -752,7 +778,7 @@ The construct id used in the generated config for the GoogleProjectService to im
 
 The id of the existing GoogleProjectService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,6 +810,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeoutsOutputReference">GoogleProjectServiceTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.checkIfServiceHasUsageOnDestroyInput">check_if_service_has_usage_on_destroy_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.disableDependentServicesInput">disable_dependent_services_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.disableOnDestroyInput">disable_on_destroy_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
@@ -791,6 +818,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.serviceInput">service_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts">GoogleProjectServiceTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.checkIfServiceHasUsageOnDestroy">check_if_service_has_usage_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.disableDependentServices">disable_dependent_services</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.disableOnDestroy">disable_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -961,6 +989,16 @@ check_if_service_has_usage_on_destroy_input: bool | IResolvable
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `disable_dependent_services_input`<sup>Optional</sup> <a name="disable_dependent_services_input" id="@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.disableDependentServicesInput"></a>
 
 ```python
@@ -1028,6 +1066,16 @@ check_if_service_has_usage_on_destroy: bool | IResolvable
 ```
 
 - *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleProjectService.GoogleProjectService.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
 
 ---
 
@@ -1118,6 +1166,7 @@ googleProjectService.GoogleProjectServiceConfig(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   service: str,
   check_if_service_has_usage_on_destroy: bool | IResolvable = None,
+  deletion_policy: str = None,
   disable_dependent_services: bool | IResolvable = None,
   disable_on_destroy: bool | IResolvable = None,
   id: str = None,
@@ -1137,12 +1186,13 @@ googleProjectService.GoogleProjectServiceConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.service">service</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#service GoogleProjectService#service}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.checkIfServiceHasUsageOnDestroy">check_if_service_has_usage_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#check_if_service_has_usage_on_destroy GoogleProjectService#check_if_service_has_usage_on_destroy}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.disableDependentServices">disable_dependent_services</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#disable_dependent_services GoogleProjectService#disable_dependent_services}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.disableOnDestroy">disable_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#disable_on_destroy GoogleProjectService#disable_on_destroy}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#id GoogleProjectService#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#project GoogleProjectService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.service">service</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#service GoogleProjectService#service}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.checkIfServiceHasUsageOnDestroy">check_if_service_has_usage_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#check_if_service_has_usage_on_destroy GoogleProjectService#check_if_service_has_usage_on_destroy}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.disableDependentServices">disable_dependent_services</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#disable_dependent_services GoogleProjectService#disable_dependent_services}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.disableOnDestroy">disable_on_destroy</a></code> | <code>bool \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#disable_on_destroy GoogleProjectService#disable_on_destroy}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#id GoogleProjectService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#project GoogleProjectService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts">GoogleProjectServiceTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1225,7 +1275,7 @@ service: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#service GoogleProjectService#service}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#service GoogleProjectService#service}.
 
 ---
 
@@ -1237,7 +1287,28 @@ check_if_service_has_usage_on_destroy: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#check_if_service_has_usage_on_destroy GoogleProjectService#check_if_service_has_usage_on_destroy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#check_if_service_has_usage_on_destroy GoogleProjectService#check_if_service_has_usage_on_destroy}.
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#deletion_policy GoogleProjectService#deletion_policy}
 
 ---
 
@@ -1249,7 +1320,7 @@ disable_dependent_services: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#disable_dependent_services GoogleProjectService#disable_dependent_services}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#disable_dependent_services GoogleProjectService#disable_dependent_services}.
 
 ---
 
@@ -1261,7 +1332,7 @@ disable_on_destroy: bool | IResolvable
 
 - *Type:* bool | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#disable_on_destroy GoogleProjectService#disable_on_destroy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#disable_on_destroy GoogleProjectService#disable_on_destroy}.
 
 ---
 
@@ -1273,7 +1344,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#id GoogleProjectService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#id GoogleProjectService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1288,7 +1359,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#project GoogleProjectService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#project GoogleProjectService#project}.
 
 ---
 
@@ -1302,7 +1373,7 @@ timeouts: GoogleProjectServiceTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#timeouts GoogleProjectService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#timeouts GoogleProjectService#timeouts}
 
 ---
 
@@ -1325,10 +1396,10 @@ googleProjectService.GoogleProjectServiceTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#create GoogleProjectService#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#delete GoogleProjectService#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts.property.read">read</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#read GoogleProjectService#read}. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#update GoogleProjectService#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#create GoogleProjectService#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#delete GoogleProjectService#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts.property.read">read</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#read GoogleProjectService#read}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectService.GoogleProjectServiceTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#update GoogleProjectService#update}. |
 
 ---
 
@@ -1340,7 +1411,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#create GoogleProjectService#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#create GoogleProjectService#create}.
 
 ---
 
@@ -1352,7 +1423,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#delete GoogleProjectService#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#delete GoogleProjectService#delete}.
 
 ---
 
@@ -1364,7 +1435,7 @@ read: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#read GoogleProjectService#read}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#read GoogleProjectService#read}.
 
 ---
 
@@ -1376,7 +1447,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_service#update GoogleProjectService#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_service#update GoogleProjectService#update}.
 
 ---
 

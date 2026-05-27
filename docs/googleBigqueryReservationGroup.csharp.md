@@ -4,7 +4,7 @@
 
 ### GoogleBigqueryReservationGroup <a name="GoogleBigqueryReservationGroup" id="@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group google_bigquery_reservation_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group google_bigquery_reservation_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.resetLocation">ResetLocation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.resetProject">ResetProject</a></code> | *No description.* |
@@ -403,6 +404,12 @@ private void PutTimeouts(GoogleBigqueryReservationGroupTimeouts Value)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.resetId"></a>
 
 ```csharp
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleBigqueryReservationG
 
 The id of the existing GoogleBigqueryReservationGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -561,11 +568,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupTimeoutsOutputReference">GoogleBigqueryReservationGroupTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.locationInput">LocationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupTimeouts">GoogleBigqueryReservationGroupTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.location">Location</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.name">Name</a></code> | <code>string</code> | *No description.* |
@@ -725,6 +734,16 @@ public GoogleBigqueryReservationGroupTimeoutsOutputReference Timeouts { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.idInput"></a>
 
 ```csharp
@@ -772,6 +791,16 @@ public IResolvable|GoogleBigqueryReservationGroupTimeouts TimeoutsInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupTimeouts">GoogleBigqueryReservationGroupTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroup.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -851,6 +880,7 @@ new GoogleBigqueryReservationGroupConfig {
     TerraformProvider Provider = null,
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string Name,
+    string DeletionPolicy = null,
     string Id = null,
     string Location = null,
     string Project = null,
@@ -870,9 +900,10 @@ new GoogleBigqueryReservationGroupConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.name">Name</a></code> | <code>string</code> | The name of the reservation group. This field must only contain alphanumeric characters or dash. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#id GoogleBigqueryReservationGroup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#id GoogleBigqueryReservationGroup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.location">Location</a></code> | <code>string</code> | The geographic location where the transfer config should reside. Examples: US, EU, asia-northeast1. The default value is US. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#project GoogleBigqueryReservationGroup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#project GoogleBigqueryReservationGroup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupTimeouts">GoogleBigqueryReservationGroupTimeouts</a></code> | timeouts block. |
 
 ---
@@ -957,7 +988,28 @@ public string Name { get; set; }
 
 The name of the reservation group. This field must only contain alphanumeric characters or dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#name GoogleBigqueryReservationGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#name GoogleBigqueryReservationGroup#name}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#deletion_policy GoogleBigqueryReservationGroup#deletion_policy}
 
 ---
 
@@ -969,7 +1021,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#id GoogleBigqueryReservationGroup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#id GoogleBigqueryReservationGroup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -986,7 +1038,7 @@ public string Location { get; set; }
 
 The geographic location where the transfer config should reside. Examples: US, EU, asia-northeast1. The default value is US.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#location GoogleBigqueryReservationGroup#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#location GoogleBigqueryReservationGroup#location}
 
 ---
 
@@ -998,7 +1050,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#project GoogleBigqueryReservationGroup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#project GoogleBigqueryReservationGroup#project}.
 
 ---
 
@@ -1012,7 +1064,7 @@ public GoogleBigqueryReservationGroupTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#timeouts GoogleBigqueryReservationGroup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#timeouts GoogleBigqueryReservationGroup#timeouts}
 
 ---
 
@@ -1033,8 +1085,8 @@ new GoogleBigqueryReservationGroupTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#create GoogleBigqueryReservationGroup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#delete GoogleBigqueryReservationGroup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#create GoogleBigqueryReservationGroup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBigqueryReservationGroup.GoogleBigqueryReservationGroupTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#delete GoogleBigqueryReservationGroup#delete}. |
 
 ---
 
@@ -1046,7 +1098,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#create GoogleBigqueryReservationGroup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#create GoogleBigqueryReservationGroup#create}.
 
 ---
 
@@ -1058,7 +1110,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_bigquery_reservation_group#delete GoogleBigqueryReservationGroup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_bigquery_reservation_group#delete GoogleBigqueryReservationGroup#delete}.
 
 ---
 

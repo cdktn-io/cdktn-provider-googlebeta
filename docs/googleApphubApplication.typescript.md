@@ -4,7 +4,7 @@
 
 ### GoogleApphubApplication <a name="GoogleApphubApplication" id="@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application google_apphub_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application google_apphub_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.Initializer"></a>
 
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.putScope">putScope</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.resetAttributes">resetAttributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.resetDisplayName">resetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.resetId">resetId</a></code> | *No description.* |
@@ -437,6 +438,12 @@ public putTimeouts(value: GoogleApphubApplicationTimeouts): void
 public resetAttributes(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.resetDescription"></a>
 
 ```typescript
@@ -570,7 +577,7 @@ The construct id used in the generated config for the GoogleApphubApplication to
 
 The id of the existing GoogleApphubApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -610,6 +617,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.applicationIdInput">applicationIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.attributesInput">attributesInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationAttributes">GoogleApphubApplicationAttributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.displayNameInput">displayNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
@@ -618,6 +626,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.scopeInput">scopeInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationScope">GoogleApphubApplicationScope</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationTimeouts">GoogleApphubApplicationTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.applicationId">applicationId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.displayName">displayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -868,6 +877,16 @@ public readonly attributesInput: GoogleApphubApplicationAttributes;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.descriptionInput"></a>
 
 ```typescript
@@ -942,6 +961,16 @@ public readonly timeoutsInput: IResolvable | GoogleApphubApplicationTimeouts;
 
 ```typescript
 public readonly applicationId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplication.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -1050,7 +1079,7 @@ public readonly businessOwners: IResolvable | GoogleApphubApplicationAttributesB
 
 business_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#business_owners GoogleApphubApplication#business_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#business_owners GoogleApphubApplication#business_owners}
 
 ---
 
@@ -1064,7 +1093,7 @@ public readonly criticality: GoogleApphubApplicationAttributesCriticality;
 
 criticality block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#criticality GoogleApphubApplication#criticality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#criticality GoogleApphubApplication#criticality}
 
 ---
 
@@ -1078,7 +1107,7 @@ public readonly developerOwners: IResolvable | GoogleApphubApplicationAttributes
 
 developer_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#developer_owners GoogleApphubApplication#developer_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#developer_owners GoogleApphubApplication#developer_owners}
 
 ---
 
@@ -1092,7 +1121,7 @@ public readonly environment: GoogleApphubApplicationAttributesEnvironment;
 
 environment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#environment GoogleApphubApplication#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#environment GoogleApphubApplication#environment}
 
 ---
 
@@ -1106,7 +1135,7 @@ public readonly operatorOwners: IResolvable | GoogleApphubApplicationAttributesO
 
 operator_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#operator_owners GoogleApphubApplication#operator_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#operator_owners GoogleApphubApplication#operator_owners}
 
 ---
 
@@ -1139,7 +1168,7 @@ public readonly email: string;
 
 Required. Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#email GoogleApphubApplication#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#email GoogleApphubApplication#email}
 
 ---
 
@@ -1153,7 +1182,7 @@ public readonly displayName: string;
 
 Optional. Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#display_name GoogleApphubApplication#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#display_name GoogleApphubApplication#display_name}
 
 ---
 
@@ -1185,7 +1214,7 @@ public readonly type: string;
 
 Criticality type. Possible values: ["MISSION_CRITICAL", "HIGH", "MEDIUM", "LOW"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#type GoogleApphubApplication#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#type GoogleApphubApplication#type}
 
 ---
 
@@ -1218,7 +1247,7 @@ public readonly email: string;
 
 Required. Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#email GoogleApphubApplication#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#email GoogleApphubApplication#email}
 
 ---
 
@@ -1232,7 +1261,7 @@ public readonly displayName: string;
 
 Optional. Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#display_name GoogleApphubApplication#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#display_name GoogleApphubApplication#display_name}
 
 ---
 
@@ -1264,7 +1293,7 @@ public readonly type: string;
 
 Environment type. Possible values: ["PRODUCTION", "STAGING", "TEST", "DEVELOPMENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#type GoogleApphubApplication#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#type GoogleApphubApplication#type}
 
 ---
 
@@ -1297,7 +1326,7 @@ public readonly email: string;
 
 Required. Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#email GoogleApphubApplication#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#email GoogleApphubApplication#email}
 
 ---
 
@@ -1311,7 +1340,7 @@ public readonly displayName: string;
 
 Optional. Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#display_name GoogleApphubApplication#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#display_name GoogleApphubApplication#display_name}
 
 ---
 
@@ -1340,10 +1369,11 @@ const googleApphubApplicationConfig: googleApphubApplication.GoogleApphubApplica
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.location">location</a></code> | <code>string</code> | Part of 'parent'. See documentation of 'projectsId'. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.scope">scope</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationScope">GoogleApphubApplicationScope</a></code> | scope block. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.attributes">attributes</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationAttributes">GoogleApphubApplicationAttributes</a></code> | attributes block. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.description">description</a></code> | <code>string</code> | Optional. User-defined description of an Application. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.displayName">displayName</a></code> | <code>string</code> | Optional. User-defined name for the Application. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#id GoogleApphubApplication#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#project GoogleApphubApplication#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#id GoogleApphubApplication#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#project GoogleApphubApplication#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationTimeouts">GoogleApphubApplicationTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1428,7 +1458,7 @@ public readonly applicationId: string;
 
 Required. The Application identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#application_id GoogleApphubApplication#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#application_id GoogleApphubApplication#application_id}
 
 ---
 
@@ -1442,7 +1472,7 @@ public readonly location: string;
 
 Part of 'parent'. See documentation of 'projectsId'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#location GoogleApphubApplication#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#location GoogleApphubApplication#location}
 
 ---
 
@@ -1456,7 +1486,7 @@ public readonly scope: GoogleApphubApplicationScope;
 
 scope block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#scope GoogleApphubApplication#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#scope GoogleApphubApplication#scope}
 
 ---
 
@@ -1470,7 +1500,29 @@ public readonly attributes: GoogleApphubApplicationAttributes;
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#attributes GoogleApphubApplication#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#attributes GoogleApphubApplication#attributes}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#deletion_policy GoogleApphubApplication#deletion_policy}
 
 ---
 
@@ -1484,7 +1536,7 @@ public readonly description: string;
 
 Optional. User-defined description of an Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#description GoogleApphubApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#description GoogleApphubApplication#description}
 
 ---
 
@@ -1498,7 +1550,7 @@ public readonly displayName: string;
 
 Optional. User-defined name for the Application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#display_name GoogleApphubApplication#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#display_name GoogleApphubApplication#display_name}
 
 ---
 
@@ -1510,7 +1562,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#id GoogleApphubApplication#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#id GoogleApphubApplication#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1525,7 +1577,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#project GoogleApphubApplication#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#project GoogleApphubApplication#project}.
 
 ---
 
@@ -1539,7 +1591,7 @@ public readonly timeouts: GoogleApphubApplicationTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#timeouts GoogleApphubApplication#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#timeouts GoogleApphubApplication#timeouts}
 
 ---
 
@@ -1571,7 +1623,7 @@ public readonly type: string;
 
 Required. Scope Type.   Possible values: REGIONAL GLOBAL Possible values: ["REGIONAL", "GLOBAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#type GoogleApphubApplication#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#type GoogleApphubApplication#type}
 
 ---
 
@@ -1589,9 +1641,9 @@ const googleApphubApplicationTimeouts: googleApphubApplication.GoogleApphubAppli
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#create GoogleApphubApplication#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#delete GoogleApphubApplication#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#update GoogleApphubApplication#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#create GoogleApphubApplication#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#delete GoogleApphubApplication#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubApplication.GoogleApphubApplicationTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#update GoogleApphubApplication#update}. |
 
 ---
 
@@ -1603,7 +1655,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#create GoogleApphubApplication#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#create GoogleApphubApplication#create}.
 
 ---
 
@@ -1615,7 +1667,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#delete GoogleApphubApplication#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#delete GoogleApphubApplication#delete}.
 
 ---
 
@@ -1627,7 +1679,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_application#update GoogleApphubApplication#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_application#update GoogleApphubApplication#update}.
 
 ---
 

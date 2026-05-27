@@ -4,7 +4,7 @@
 
 ### GoogleNetworkConnectivityGatewayAdvertisedRoute <a name="GoogleNetworkConnectivityGatewayAdvertisedRoute" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.resetIpRange">ResetIpRange</a></code> | *No description.* |
@@ -407,6 +408,12 @@ private void PutTimeouts(GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.resetDescription"></a>
 
 ```csharp
@@ -558,7 +565,7 @@ The construct id used in the generated config for the GoogleNetworkConnectivityG
 
 The id of the existing GoogleNetworkConnectivityGatewayAdvertisedRoute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -595,6 +602,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeoutsOutputReference">GoogleNetworkConnectivityGatewayAdvertisedRouteTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.uniqueId">UniqueId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.updateTime">UpdateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.ipRangeInput">IpRangeInput</a></code> | <code>string</code> | *No description.* |
@@ -606,6 +614,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.recipientInput">RecipientInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.spokeInput">SpokeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts">GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.ipRange">IpRange</a></code> | <code>string</code> | *No description.* |
@@ -831,6 +840,16 @@ public string UpdateTime { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.descriptionInput"></a>
 
 ```csharp
@@ -938,6 +957,16 @@ public IResolvable|GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts Timeo
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts">GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRoute.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -1079,6 +1108,7 @@ new GoogleNetworkConnectivityGatewayAdvertisedRouteConfig {
     string Location,
     string Name,
     string Spoke,
+    string DeletionPolicy = null,
     string Description = null,
     string Id = null,
     string IpRange = null,
@@ -1104,12 +1134,13 @@ new GoogleNetworkConnectivityGatewayAdvertisedRouteConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.location">Location</a></code> | <code>string</code> | The location for the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.name">Name</a></code> | <code>string</code> | The name of the gateway advertised route. Route names must be unique. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.spoke">Spoke</a></code> | <code>string</code> | The name of the spoke. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.description">Description</a></code> | <code>string</code> | An optional description of the gateway advertised route. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#id GoogleNetworkConnectivityGatewayAdvertisedRoute#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#id GoogleNetworkConnectivityGatewayAdvertisedRoute#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.ipRange">IpRange</a></code> | <code>string</code> | This route's advertised IP address range. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Optional labels in key:value format. For more information about labels, see [Requirements for labels](https://docs.cloud.google.com/resource-manager/docs/creating-managing-labels#requirements). |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.priority">Priority</a></code> | <code>double</code> | The priority of this advertised route. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#project GoogleNetworkConnectivityGatewayAdvertisedRoute#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#project GoogleNetworkConnectivityGatewayAdvertisedRoute#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.recipient">Recipient</a></code> | <code>string</code> | the recipient of this advertised route Possible values: ["RECIPIENT_UNSPECIFIED", "ADVERTISE_TO_HUB"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts">GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts</a></code> | timeouts block. |
 
@@ -1195,7 +1226,7 @@ public string Location { get; set; }
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#location GoogleNetworkConnectivityGatewayAdvertisedRoute#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#location GoogleNetworkConnectivityGatewayAdvertisedRoute#location}
 
 ---
 
@@ -1209,7 +1240,7 @@ public string Name { get; set; }
 
 The name of the gateway advertised route. Route names must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#name GoogleNetworkConnectivityGatewayAdvertisedRoute#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#name GoogleNetworkConnectivityGatewayAdvertisedRoute#name}
 
 ---
 
@@ -1223,7 +1254,28 @@ public string Spoke { get; set; }
 
 The name of the spoke.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#spoke GoogleNetworkConnectivityGatewayAdvertisedRoute#spoke}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#spoke GoogleNetworkConnectivityGatewayAdvertisedRoute#spoke}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#deletion_policy GoogleNetworkConnectivityGatewayAdvertisedRoute#deletion_policy}
 
 ---
 
@@ -1237,7 +1289,7 @@ public string Description { get; set; }
 
 An optional description of the gateway advertised route.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#description GoogleNetworkConnectivityGatewayAdvertisedRoute#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#description GoogleNetworkConnectivityGatewayAdvertisedRoute#description}
 
 ---
 
@@ -1249,7 +1301,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#id GoogleNetworkConnectivityGatewayAdvertisedRoute#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#id GoogleNetworkConnectivityGatewayAdvertisedRoute#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1269,7 +1321,7 @@ This route's advertised IP address range.
 Must be a valid CIDR-formatted prefix.
 If an IP address is provided without a subnet mask, it is interpreted as, for IPv4, a /32 singular IP address range, and, for IPv6, /128
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#ip_range GoogleNetworkConnectivityGatewayAdvertisedRoute#ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#ip_range GoogleNetworkConnectivityGatewayAdvertisedRoute#ip_range}
 
 ---
 
@@ -1286,7 +1338,7 @@ Optional labels in key:value format. For more information about labels, see [Req
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#labels GoogleNetworkConnectivityGatewayAdvertisedRoute#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#labels GoogleNetworkConnectivityGatewayAdvertisedRoute#labels}
 
 ---
 
@@ -1303,7 +1355,7 @@ The priority of this advertised route.
 You can choose a value from 0 to 65335.
 If you don't provide a value, Google Cloud assigns a priority of 100 to the ranges.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#priority GoogleNetworkConnectivityGatewayAdvertisedRoute#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#priority GoogleNetworkConnectivityGatewayAdvertisedRoute#priority}
 
 ---
 
@@ -1315,7 +1367,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#project GoogleNetworkConnectivityGatewayAdvertisedRoute#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#project GoogleNetworkConnectivityGatewayAdvertisedRoute#project}.
 
 ---
 
@@ -1329,7 +1381,7 @@ public string Recipient { get; set; }
 
 the recipient of this advertised route Possible values: ["RECIPIENT_UNSPECIFIED", "ADVERTISE_TO_HUB"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#recipient GoogleNetworkConnectivityGatewayAdvertisedRoute#recipient}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#recipient GoogleNetworkConnectivityGatewayAdvertisedRoute#recipient}
 
 ---
 
@@ -1343,7 +1395,7 @@ public GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts Timeouts { get; s
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#timeouts GoogleNetworkConnectivityGatewayAdvertisedRoute#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#timeouts GoogleNetworkConnectivityGatewayAdvertisedRoute#timeouts}
 
 ---
 
@@ -1365,9 +1417,9 @@ new GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#create GoogleNetworkConnectivityGatewayAdvertisedRoute#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#delete GoogleNetworkConnectivityGatewayAdvertisedRoute#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#update GoogleNetworkConnectivityGatewayAdvertisedRoute#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#create GoogleNetworkConnectivityGatewayAdvertisedRoute#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#delete GoogleNetworkConnectivityGatewayAdvertisedRoute#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityGatewayAdvertisedRoute.GoogleNetworkConnectivityGatewayAdvertisedRouteTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#update GoogleNetworkConnectivityGatewayAdvertisedRoute#update}. |
 
 ---
 
@@ -1379,7 +1431,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#create GoogleNetworkConnectivityGatewayAdvertisedRoute#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#create GoogleNetworkConnectivityGatewayAdvertisedRoute#create}.
 
 ---
 
@@ -1391,7 +1443,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#delete GoogleNetworkConnectivityGatewayAdvertisedRoute#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#delete GoogleNetworkConnectivityGatewayAdvertisedRoute#delete}.
 
 ---
 
@@ -1403,7 +1455,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_network_connectivity_gateway_advertised_route#update GoogleNetworkConnectivityGatewayAdvertisedRoute#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_gateway_advertised_route#update GoogleNetworkConnectivityGatewayAdvertisedRoute#update}.
 
 ---
 

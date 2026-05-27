@@ -4,7 +4,7 @@
 
 ### GoogleActiveDirectoryDomain <a name="GoogleActiveDirectoryDomain" id="@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain google_active_directory_domain}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain google_active_directory_domain}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer"></a>
 
@@ -26,6 +26,7 @@ googleActiveDirectoryDomain.GoogleActiveDirectoryDomain(
   reserved_ip_range: str,
   admin: str = None,
   authorized_networks: typing.List[str] = None,
+  deletion_policy: str = None,
   deletion_protection: bool | IResolvable = None,
   id: str = None,
   labels: typing.Mapping[str] = None,
@@ -50,10 +51,11 @@ googleActiveDirectoryDomain.GoogleActiveDirectoryDomain(
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.reservedIpRange">reserved_ip_range</a></code> | <code>str</code> | The CIDR range of internal addresses that are reserved for this domain. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.admin">admin</a></code> | <code>str</code> | The name of delegated administrator account used to perform Active Directory operations. If not specified, setupadmin will be used. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.authorizedNetworks">authorized_networks</a></code> | <code>typing.List[str]</code> | The full names of the Google Compute Engine networks the domain instance is connected to. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the domain. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#id GoogleActiveDirectoryDomain#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#id GoogleActiveDirectoryDomain#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Resource labels that can contain user-provided metadata. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#project GoogleActiveDirectoryDomain#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#project GoogleActiveDirectoryDomain#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts">GoogleActiveDirectoryDomainTimeouts</a></code> | timeouts block. |
 
 ---
@@ -124,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 The fully qualified domain name. e.g. mydomain.myorganization.com, with the restrictions of https://cloud.google.com/managed-microsoft-ad/reference/rest/v1/projects.locations.global.domains.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#domain_name GoogleActiveDirectoryDomain#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#domain_name GoogleActiveDirectoryDomain#domain_name}
 
 ---
 
@@ -137,7 +139,7 @@ Locations where domain needs to be provisioned.
 [regions][compute/docs/regions-zones/]
 e.g. us-west1 or us-east4 Service supports up to 4 locations at once. Each location will use a /26 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#locations GoogleActiveDirectoryDomain#locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#locations GoogleActiveDirectoryDomain#locations}
 
 ---
 
@@ -150,7 +152,7 @@ The CIDR range of internal addresses that are reserved for this domain.
 Reserved networks must be /24 or larger.
 Ranges must be unique and non-overlapping with existing subnets in authorizedNetworks
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#reserved_ip_range GoogleActiveDirectoryDomain#reserved_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#reserved_ip_range GoogleActiveDirectoryDomain#reserved_ip_range}
 
 ---
 
@@ -160,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of delegated administrator account used to perform Active Directory operations. If not specified, setupadmin will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#admin GoogleActiveDirectoryDomain#admin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#admin GoogleActiveDirectoryDomain#admin}
 
 ---
 
@@ -173,7 +175,24 @@ The full names of the Google Compute Engine networks the domain instance is conn
 The domain is only available on networks listed in authorizedNetworks.
 If CIDR subnets overlap between networks, domain creation will fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#authorized_networks GoogleActiveDirectoryDomain#authorized_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#authorized_networks GoogleActiveDirectoryDomain#authorized_networks}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#deletion_policy GoogleActiveDirectoryDomain#deletion_policy}
 
 ---
 
@@ -190,7 +209,7 @@ When the field is set to true or unset in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the domain will fail.
 When the field is set to false, deleting the domain is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#deletion_protection GoogleActiveDirectoryDomain#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#deletion_protection GoogleActiveDirectoryDomain#deletion_protection}
 
 ---
 
@@ -198,7 +217,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#id GoogleActiveDirectoryDomain#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#id GoogleActiveDirectoryDomain#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -214,7 +233,7 @@ Resource labels that can contain user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#labels GoogleActiveDirectoryDomain#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#labels GoogleActiveDirectoryDomain#labels}
 
 ---
 
@@ -222,7 +241,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#project GoogleActiveDirectoryDomain#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#project GoogleActiveDirectoryDomain#project}.
 
 ---
 
@@ -232,7 +251,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#timeouts GoogleActiveDirectoryDomain#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#timeouts GoogleActiveDirectoryDomain#timeouts}
 
 ---
 
@@ -267,6 +286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.resetAdmin">reset_admin</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.resetAuthorizedNetworks">reset_authorized_networks</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.resetDeletionProtection">reset_deletion_protection</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.resetLabels">reset_labels</a></code> | *No description.* |
@@ -637,7 +657,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#create GoogleActiveDirectoryDomain#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#create GoogleActiveDirectoryDomain#create}.
 
 ---
 
@@ -645,7 +665,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#delete GoogleActiveDirectoryDomain#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#delete GoogleActiveDirectoryDomain#delete}.
 
 ---
 
@@ -653,7 +673,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#update GoogleActiveDirectoryDomain#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#update GoogleActiveDirectoryDomain#update}.
 
 ---
 
@@ -667,6 +687,12 @@ def reset_admin() -> None
 
 ```python
 def reset_authorized_networks() -> None
+```
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
 ```
 
 ##### `reset_deletion_protection` <a name="reset_deletion_protection" id="@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.resetDeletionProtection"></a>
@@ -813,7 +839,7 @@ The construct id used in the generated config for the GoogleActiveDirectoryDomai
 
 The id of the existing GoogleActiveDirectoryDomain that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -850,6 +876,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeoutsOutputReference">GoogleActiveDirectoryDomainTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.adminInput">admin_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.authorizedNetworksInput">authorized_networks_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.deletionProtectionInput">deletion_protection_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.domainNameInput">domain_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
@@ -860,6 +887,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts">GoogleActiveDirectoryDomainTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.admin">admin</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.authorizedNetworks">authorized_networks</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.domainName">domain_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -1082,6 +1110,16 @@ authorized_networks_input: typing.List[str]
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `deletion_protection_input`<sup>Optional</sup> <a name="deletion_protection_input" id="@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.deletionProtectionInput"></a>
 
 ```python
@@ -1179,6 +1217,16 @@ authorized_networks: typing.List[str]
 ```
 
 - *Type:* typing.List[str]
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomain.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
 
 ---
 
@@ -1292,6 +1340,7 @@ googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig(
   reserved_ip_range: str,
   admin: str = None,
   authorized_networks: typing.List[str] = None,
+  deletion_policy: str = None,
   deletion_protection: bool | IResolvable = None,
   id: str = None,
   labels: typing.Mapping[str] = None,
@@ -1316,10 +1365,11 @@ googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.reservedIpRange">reserved_ip_range</a></code> | <code>str</code> | The CIDR range of internal addresses that are reserved for this domain. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.admin">admin</a></code> | <code>str</code> | The name of delegated administrator account used to perform Active Directory operations. If not specified, setupadmin will be used. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.authorizedNetworks">authorized_networks</a></code> | <code>typing.List[str]</code> | The full names of the Google Compute Engine networks the domain instance is connected to. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.deletionProtection">deletion_protection</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether Terraform will be prevented from destroying the domain. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#id GoogleActiveDirectoryDomain#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#id GoogleActiveDirectoryDomain#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Resource labels that can contain user-provided metadata. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#project GoogleActiveDirectoryDomain#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#project GoogleActiveDirectoryDomain#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts">GoogleActiveDirectoryDomainTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1404,7 +1454,7 @@ domain_name: str
 
 The fully qualified domain name. e.g. mydomain.myorganization.com, with the restrictions of https://cloud.google.com/managed-microsoft-ad/reference/rest/v1/projects.locations.global.domains.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#domain_name GoogleActiveDirectoryDomain#domain_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#domain_name GoogleActiveDirectoryDomain#domain_name}
 
 ---
 
@@ -1421,7 +1471,7 @@ Locations where domain needs to be provisioned.
 [regions][compute/docs/regions-zones/]
 e.g. us-west1 or us-east4 Service supports up to 4 locations at once. Each location will use a /26 block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#locations GoogleActiveDirectoryDomain#locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#locations GoogleActiveDirectoryDomain#locations}
 
 ---
 
@@ -1438,7 +1488,7 @@ The CIDR range of internal addresses that are reserved for this domain.
 Reserved networks must be /24 or larger.
 Ranges must be unique and non-overlapping with existing subnets in authorizedNetworks
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#reserved_ip_range GoogleActiveDirectoryDomain#reserved_ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#reserved_ip_range GoogleActiveDirectoryDomain#reserved_ip_range}
 
 ---
 
@@ -1452,7 +1502,7 @@ admin: str
 
 The name of delegated administrator account used to perform Active Directory operations. If not specified, setupadmin will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#admin GoogleActiveDirectoryDomain#admin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#admin GoogleActiveDirectoryDomain#admin}
 
 ---
 
@@ -1469,7 +1519,28 @@ The full names of the Google Compute Engine networks the domain instance is conn
 The domain is only available on networks listed in authorizedNetworks.
 If CIDR subnets overlap between networks, domain creation will fail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#authorized_networks GoogleActiveDirectoryDomain#authorized_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#authorized_networks GoogleActiveDirectoryDomain#authorized_networks}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#deletion_policy GoogleActiveDirectoryDomain#deletion_policy}
 
 ---
 
@@ -1490,7 +1561,7 @@ When the field is set to true or unset in Terraform state, a 'terraform apply'
 or 'terraform destroy' that would delete the domain will fail.
 When the field is set to false, deleting the domain is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#deletion_protection GoogleActiveDirectoryDomain#deletion_protection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#deletion_protection GoogleActiveDirectoryDomain#deletion_protection}
 
 ---
 
@@ -1502,7 +1573,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#id GoogleActiveDirectoryDomain#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#id GoogleActiveDirectoryDomain#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1522,7 +1593,7 @@ Resource labels that can contain user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#labels GoogleActiveDirectoryDomain#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#labels GoogleActiveDirectoryDomain#labels}
 
 ---
 
@@ -1534,7 +1605,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#project GoogleActiveDirectoryDomain#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#project GoogleActiveDirectoryDomain#project}.
 
 ---
 
@@ -1548,7 +1619,7 @@ timeouts: GoogleActiveDirectoryDomainTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#timeouts GoogleActiveDirectoryDomain#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#timeouts GoogleActiveDirectoryDomain#timeouts}
 
 ---
 
@@ -1570,9 +1641,9 @@ googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#create GoogleActiveDirectoryDomain#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#delete GoogleActiveDirectoryDomain#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#update GoogleActiveDirectoryDomain#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#create GoogleActiveDirectoryDomain#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#delete GoogleActiveDirectoryDomain#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleActiveDirectoryDomain.GoogleActiveDirectoryDomainTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#update GoogleActiveDirectoryDomain#update}. |
 
 ---
 
@@ -1584,7 +1655,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#create GoogleActiveDirectoryDomain#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#create GoogleActiveDirectoryDomain#create}.
 
 ---
 
@@ -1596,7 +1667,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#delete GoogleActiveDirectoryDomain#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#delete GoogleActiveDirectoryDomain#delete}.
 
 ---
 
@@ -1608,7 +1679,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_active_directory_domain#update GoogleActiveDirectoryDomain#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_active_directory_domain#update GoogleActiveDirectoryDomain#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleApigeeFlowhook <a name="GoogleApigeeFlowhook" id="@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook google_apigee_flowhook}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook google_apigee_flowhook}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.resetContinueOnError">ResetContinueOnError</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
@@ -409,6 +410,12 @@ func PutTimeouts(value GoogleApigeeFlowhookTimeouts)
 func ResetContinueOnError()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.resetDescription"></a>
 
 ```go
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleApigeeFlowhook to im
 
 The id of the existing GoogleApigeeFlowhook that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -562,6 +569,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookTimeoutsOutputReference">GoogleApigeeFlowhookTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.continueOnErrorInput">ContinueOnErrorInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.environmentInput">EnvironmentInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.flowHookPointInput">FlowHookPointInput</a></code> | <code>*string</code> | *No description.* |
@@ -570,6 +578,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.sharedflowInput">SharedflowInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.continueOnError">ContinueOnError</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.environment">Environment</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.flowHookPoint">FlowHookPoint</a></code> | <code>*string</code> | *No description.* |
@@ -741,6 +750,16 @@ func ContinueOnErrorInput() interface{}
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.descriptionInput"></a>
 
 ```go
@@ -818,6 +837,16 @@ func ContinueOnError() interface{}
 ```
 
 - *Type:* interface{}
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhook.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
+```
+
+- *Type:* *string
 
 ---
 
@@ -921,6 +950,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 	OrgId: *string,
 	Sharedflow: *string,
 	ContinueOnError: interface{},
+	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Timeouts: github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19.googleApigeeFlowhook.GoogleApigeeFlowhookTimeouts,
@@ -943,8 +973,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookConfig.property.orgId">OrgId</a></code> | <code>*string</code> | The Apigee Organization associated with the environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookConfig.property.sharedflow">Sharedflow</a></code> | <code>*string</code> | Id of the Sharedflow attaching to a flowhook point. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookConfig.property.continueOnError">ContinueOnError</a></code> | <code>interface{}</code> | Flag that specifies whether execution should continue if the flow hook throws an exception. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookConfig.property.description">Description</a></code> | <code>*string</code> | Description of the flow hook. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#id GoogleApigeeFlowhook#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#id GoogleApigeeFlowhook#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookTimeouts">GoogleApigeeFlowhookTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1029,7 +1060,7 @@ Environment *string
 
 The resource ID of the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#environment GoogleApigeeFlowhook#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#environment GoogleApigeeFlowhook#environment}
 
 ---
 
@@ -1045,7 +1076,7 @@ Where in the API call flow the flow hook is invoked.
 
 Must be one of PreProxyFlowHook, PostProxyFlowHook, PreTargetFlowHook, or PostTargetFlowHook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#flow_hook_point GoogleApigeeFlowhook#flow_hook_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#flow_hook_point GoogleApigeeFlowhook#flow_hook_point}
 
 ---
 
@@ -1059,7 +1090,7 @@ OrgId *string
 
 The Apigee Organization associated with the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#org_id GoogleApigeeFlowhook#org_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#org_id GoogleApigeeFlowhook#org_id}
 
 ---
 
@@ -1073,7 +1104,7 @@ Sharedflow *string
 
 Id of the Sharedflow attaching to a flowhook point.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#sharedflow GoogleApigeeFlowhook#sharedflow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#sharedflow GoogleApigeeFlowhook#sharedflow}
 
 ---
 
@@ -1089,7 +1120,28 @@ Flag that specifies whether execution should continue if the flow hook throws an
 
 Set to true to continue execution. Set to false to stop execution if the flow hook throws an exception. Defaults to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#continue_on_error GoogleApigeeFlowhook#continue_on_error}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#continue_on_error GoogleApigeeFlowhook#continue_on_error}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#deletion_policy GoogleApigeeFlowhook#deletion_policy}
 
 ---
 
@@ -1103,7 +1155,7 @@ Description *string
 
 Description of the flow hook.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#description GoogleApigeeFlowhook#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#description GoogleApigeeFlowhook#description}
 
 ---
 
@@ -1115,7 +1167,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#id GoogleApigeeFlowhook#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#id GoogleApigeeFlowhook#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1132,7 +1184,7 @@ Timeouts GoogleApigeeFlowhookTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#timeouts GoogleApigeeFlowhook#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#timeouts GoogleApigeeFlowhook#timeouts}
 
 ---
 
@@ -1153,8 +1205,8 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleap
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#create GoogleApigeeFlowhook#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#delete GoogleApigeeFlowhook#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#create GoogleApigeeFlowhook#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApigeeFlowhook.GoogleApigeeFlowhookTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#delete GoogleApigeeFlowhook#delete}. |
 
 ---
 
@@ -1166,7 +1218,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#create GoogleApigeeFlowhook#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#create GoogleApigeeFlowhook#create}.
 
 ---
 
@@ -1178,7 +1230,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apigee_flowhook#delete GoogleApigeeFlowhook#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apigee_flowhook#delete GoogleApigeeFlowhook#delete}.
 
 ---
 

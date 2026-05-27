@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,13 +13,25 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleCertificateManagerTrustConfigConfig extends cdktn.TerraformMetaArguments {
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#deletion_policy GoogleCertificateManagerTrustConfig#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * One or more paragraphs of text description of a trust config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#description GoogleCertificateManagerTrustConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#description GoogleCertificateManagerTrustConfig#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#id GoogleCertificateManagerTrustConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#id GoogleCertificateManagerTrustConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,41 +43,41 @@ export interface GoogleCertificateManagerTrustConfigConfig extends cdktn.Terrafo
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#labels GoogleCertificateManagerTrustConfig#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#labels GoogleCertificateManagerTrustConfig#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The trust config location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#location GoogleCertificateManagerTrustConfig#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#location GoogleCertificateManagerTrustConfig#location}
   */
   readonly location: string;
   /**
   * A user-defined name of the trust config. Trust config names must be unique globally.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#name GoogleCertificateManagerTrustConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#name GoogleCertificateManagerTrustConfig#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#project GoogleCertificateManagerTrustConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#project GoogleCertificateManagerTrustConfig#project}
   */
   readonly project?: string;
   /**
   * allowlisted_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#allowlisted_certificates GoogleCertificateManagerTrustConfig#allowlisted_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#allowlisted_certificates GoogleCertificateManagerTrustConfig#allowlisted_certificates}
   */
   readonly allowlistedCertificates?: GoogleCertificateManagerTrustConfigAllowlistedCertificates[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#timeouts GoogleCertificateManagerTrustConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#timeouts GoogleCertificateManagerTrustConfig#timeouts}
   */
   readonly timeouts?: GoogleCertificateManagerTrustConfigTimeouts;
   /**
   * trust_stores block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#trust_stores GoogleCertificateManagerTrustConfig#trust_stores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#trust_stores GoogleCertificateManagerTrustConfig#trust_stores}
   */
   readonly trustStores?: GoogleCertificateManagerTrustConfigTrustStores[] | cdktn.IResolvable;
 }
@@ -73,7 +85,7 @@ export interface GoogleCertificateManagerTrustConfigAllowlistedCertificates {
   /**
   * PEM certificate that is allowlisted. The certificate can be up to 5k bytes, and must be a parseable X.509 certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#pem_certificate GoogleCertificateManagerTrustConfig#pem_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#pem_certificate GoogleCertificateManagerTrustConfig#pem_certificate}
   */
   readonly pemCertificate: string;
 }
@@ -174,7 +186,7 @@ export class GoogleCertificateManagerTrustConfigAllowlistedCertificatesList exte
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -186,15 +198,15 @@ export class GoogleCertificateManagerTrustConfigAllowlistedCertificatesList exte
 }
 export interface GoogleCertificateManagerTrustConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#create GoogleCertificateManagerTrustConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#create GoogleCertificateManagerTrustConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#delete GoogleCertificateManagerTrustConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#delete GoogleCertificateManagerTrustConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#update GoogleCertificateManagerTrustConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#update GoogleCertificateManagerTrustConfig#update}
   */
   readonly update?: string;
 }
@@ -349,7 +361,7 @@ export interface GoogleCertificateManagerTrustConfigTrustStoresIntermediateCas {
   * PEM intermediate certificate used for building up paths for validation.
   * Each certificate provided in PEM format may occupy up to 5kB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#pem_certificate GoogleCertificateManagerTrustConfig#pem_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#pem_certificate GoogleCertificateManagerTrustConfig#pem_certificate}
   */
   readonly pemCertificate?: string;
 }
@@ -453,7 +465,7 @@ export class GoogleCertificateManagerTrustConfigTrustStoresIntermediateCasList e
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -468,7 +480,7 @@ export interface GoogleCertificateManagerTrustConfigTrustStoresTrustAnchors {
   * PEM root certificate of the PKI used for validation.
   * Each certificate provided in PEM format may occupy up to 5kB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#pem_certificate GoogleCertificateManagerTrustConfig#pem_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#pem_certificate GoogleCertificateManagerTrustConfig#pem_certificate}
   */
   readonly pemCertificate?: string;
 }
@@ -572,7 +584,7 @@ export class GoogleCertificateManagerTrustConfigTrustStoresTrustAnchorsList exte
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -586,13 +598,13 @@ export interface GoogleCertificateManagerTrustConfigTrustStores {
   /**
   * intermediate_cas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#intermediate_cas GoogleCertificateManagerTrustConfig#intermediate_cas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#intermediate_cas GoogleCertificateManagerTrustConfig#intermediate_cas}
   */
   readonly intermediateCas?: GoogleCertificateManagerTrustConfigTrustStoresIntermediateCas[] | cdktn.IResolvable;
   /**
   * trust_anchors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#trust_anchors GoogleCertificateManagerTrustConfig#trust_anchors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#trust_anchors GoogleCertificateManagerTrustConfig#trust_anchors}
   */
   readonly trustAnchors?: GoogleCertificateManagerTrustConfigTrustStoresTrustAnchors[] | cdktn.IResolvable;
 }
@@ -725,7 +737,7 @@ export class GoogleCertificateManagerTrustConfigTrustStoresList extends cdktn.Co
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -737,7 +749,7 @@ export class GoogleCertificateManagerTrustConfigTrustStoresList extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config}
 */
 export class GoogleCertificateManagerTrustConfig extends cdktn.TerraformResource {
 
@@ -753,7 +765,7 @@ export class GoogleCertificateManagerTrustConfig extends cdktn.TerraformResource
   * Generates CDKTN code for importing a GoogleCertificateManagerTrustConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCertificateManagerTrustConfig to import
-  * @param importFromId The id of the existing GoogleCertificateManagerTrustConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCertificateManagerTrustConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCertificateManagerTrustConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -765,7 +777,7 @@ export class GoogleCertificateManagerTrustConfig extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_certificate_manager_trust_config google_certificate_manager_trust_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -776,7 +788,7 @@ export class GoogleCertificateManagerTrustConfig extends cdktn.TerraformResource
       terraformResourceType: 'google_certificate_manager_trust_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -787,6 +799,7 @@ export class GoogleCertificateManagerTrustConfig extends cdktn.TerraformResource
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._id = config.id;
     this._labels = config.labels;
@@ -805,6 +818,22 @@ export class GoogleCertificateManagerTrustConfig extends cdktn.TerraformResource
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // description - computed: false, optional: true, required: false
@@ -968,6 +997,7 @@ export class GoogleCertificateManagerTrustConfig extends cdktn.TerraformResource
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       id: cdktn.stringToTerraform(this._id),
       labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
@@ -982,6 +1012,12 @@ export class GoogleCertificateManagerTrustConfig extends cdktn.TerraformResource
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       description: {
         value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,

@@ -4,7 +4,7 @@
 
 ### GoogleDatastreamStream <a name="GoogleDatastreamStream" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream google_datastream_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream google_datastream_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.Initializer"></a>
 
@@ -84,6 +84,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.resetBackfillNone">ResetBackfillNone</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.resetCreateWithoutValidation">ResetCreateWithoutValidation</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.resetCustomerManagedEncryptionKey">ResetCustomerManagedEncryptionKey</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.resetDesiredState">ResetDesiredState</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.resetLabels">ResetLabels</a></code> | *No description.* |
@@ -498,6 +499,12 @@ private void ResetCreateWithoutValidation()
 private void ResetCustomerManagedEncryptionKey()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetDesiredState` <a name="ResetDesiredState" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.resetDesiredState"></a>
 
 ```csharp
@@ -637,7 +644,7 @@ The construct id used in the generated config for the GoogleDatastreamStream to 
 
 The id of the existing GoogleDatastreamStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -681,6 +688,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.backfillNoneInput">BackfillNoneInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillNone">GoogleDatastreamStreamBackfillNone</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.createWithoutValidationInput">CreateWithoutValidationInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.customerManagedEncryptionKeyInput">CustomerManagedEncryptionKeyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.desiredStateInput">DesiredStateInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.destinationConfigInput">DestinationConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamDestinationConfig">GoogleDatastreamStreamDestinationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.displayNameInput">DisplayNameInput</a></code> | <code>string</code> | *No description.* |
@@ -694,6 +702,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts">GoogleDatastreamStreamTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.createWithoutValidation">CreateWithoutValidation</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.customerManagedEncryptionKey">CustomerManagedEncryptionKey</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.desiredState">DesiredState</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.displayName">DisplayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.id">Id</a></code> | <code>string</code> | *No description.* |
@@ -986,6 +995,16 @@ public string CustomerManagedEncryptionKeyInput { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `DesiredStateInput`<sup>Optional</sup> <a name="DesiredStateInput" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.desiredStateInput"></a>
 
 ```csharp
@@ -1110,6 +1129,16 @@ public bool|IResolvable CreateWithoutValidation { get; }
 
 ```csharp
 public string CustomerManagedEncryptionKey { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStream.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
 ```
 
 - *Type:* string
@@ -1248,7 +1277,7 @@ public GoogleDatastreamStreamBackfillAllMongodbExcludedObjects MongodbExcludedOb
 
 mongodb_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mongodb_excluded_objects GoogleDatastreamStream#mongodb_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mongodb_excluded_objects GoogleDatastreamStream#mongodb_excluded_objects}
 
 ---
 
@@ -1262,7 +1291,7 @@ public GoogleDatastreamStreamBackfillAllMysqlExcludedObjects MysqlExcludedObject
 
 mysql_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_excluded_objects GoogleDatastreamStream#mysql_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_excluded_objects GoogleDatastreamStream#mysql_excluded_objects}
 
 ---
 
@@ -1276,7 +1305,7 @@ public GoogleDatastreamStreamBackfillAllOracleExcludedObjects OracleExcludedObje
 
 oracle_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_excluded_objects GoogleDatastreamStream#oracle_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_excluded_objects GoogleDatastreamStream#oracle_excluded_objects}
 
 ---
 
@@ -1290,7 +1319,7 @@ public GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjects PostgresqlExcl
 
 postgresql_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_excluded_objects GoogleDatastreamStream#postgresql_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_excluded_objects GoogleDatastreamStream#postgresql_excluded_objects}
 
 ---
 
@@ -1304,7 +1333,7 @@ public GoogleDatastreamStreamBackfillAllSalesforceExcludedObjects SalesforceExcl
 
 salesforce_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#salesforce_excluded_objects GoogleDatastreamStream#salesforce_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#salesforce_excluded_objects GoogleDatastreamStream#salesforce_excluded_objects}
 
 ---
 
@@ -1318,7 +1347,7 @@ public GoogleDatastreamStreamBackfillAllSpannerExcludedObjects SpannerExcludedOb
 
 spanner_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#spanner_excluded_objects GoogleDatastreamStream#spanner_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#spanner_excluded_objects GoogleDatastreamStream#spanner_excluded_objects}
 
 ---
 
@@ -1332,7 +1361,7 @@ public GoogleDatastreamStreamBackfillAllSqlServerExcludedObjects SqlServerExclud
 
 sql_server_excluded_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#sql_server_excluded_objects GoogleDatastreamStream#sql_server_excluded_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#sql_server_excluded_objects GoogleDatastreamStream#sql_server_excluded_objects}
 
 ---
 
@@ -1366,7 +1395,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDataba
 
 databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
 
 ---
 
@@ -1402,7 +1431,7 @@ public string Database { get; set; }
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -1416,7 +1445,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDataba
 
 collections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
 
 ---
 
@@ -1452,7 +1481,7 @@ public string Collection { get; set; }
 
 Collection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
 
 ---
 
@@ -1466,7 +1495,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllMongodbExcludedObjectsDataba
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -1500,7 +1529,7 @@ public string Field { get; set; }
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
 
 ---
 
@@ -1534,7 +1563,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDat
 
 mysql_databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
 
 ---
 
@@ -1570,7 +1599,7 @@ public string Database { get; set; }
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -1584,7 +1613,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDat
 
 mysql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
 
 ---
 
@@ -1620,7 +1649,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -1634,7 +1663,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllMysqlExcludedObjectsMysqlDat
 
 mysql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
 
 ---
 
@@ -1678,7 +1707,7 @@ public string Collation { get; set; }
 
 Column collation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
 
 ---
 
@@ -1692,7 +1721,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -1706,7 +1735,7 @@ public string DataType { get; set; }
 
 The MySQL data type. Full data types list can be found here: https://dev.mysql.com/doc/refman/8.0/en/data-types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -1720,7 +1749,7 @@ public bool|IResolvable Nullable { get; set; }
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -1734,7 +1763,7 @@ public double OrdinalPosition { get; set; }
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -1748,7 +1777,7 @@ public bool|IResolvable PrimaryKey { get; set; }
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -1782,7 +1811,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleS
 
 oracle_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
 
 ---
 
@@ -1818,7 +1847,7 @@ public string Schema { get; set; }
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -1832,7 +1861,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleS
 
 oracle_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
 
 ---
 
@@ -1868,7 +1897,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -1882,7 +1911,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllOracleExcludedObjectsOracleS
 
 oracle_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
 
 ---
 
@@ -1918,7 +1947,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -1932,7 +1961,7 @@ public string DataType { get; set; }
 
 The Oracle data type. Full data types list can be found here: https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Data-Types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -1966,7 +1995,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPos
 
 postgresql_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
 
 ---
 
@@ -2002,7 +2031,7 @@ public string Schema { get; set; }
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -2016,7 +2045,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPos
 
 postgresql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
 
 ---
 
@@ -2052,7 +2081,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -2066,7 +2095,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllPostgresqlExcludedObjectsPos
 
 postgresql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
 
 ---
 
@@ -2108,7 +2137,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -2122,7 +2151,7 @@ public string DataType { get; set; }
 
 The PostgreSQL data type. Full data types list can be found here: https://www.postgresql.org/docs/current/datatype.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -2136,7 +2165,7 @@ public bool|IResolvable Nullable { get; set; }
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -2150,7 +2179,7 @@ public double OrdinalPosition { get; set; }
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -2164,7 +2193,7 @@ public bool|IResolvable PrimaryKey { get; set; }
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -2198,7 +2227,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObj
 
 objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
 
 ---
 
@@ -2234,7 +2263,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllSalesforceExcludedObjectsObj
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -2248,7 +2277,7 @@ public string ObjectName { get; set; }
 
 Name of object in Salesforce Org.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
 
 ---
 
@@ -2282,7 +2311,7 @@ public string Name { get; set; }
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
 
 ---
 
@@ -2316,7 +2345,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchema
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -2352,7 +2381,7 @@ public string Schema { get; set; }
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -2366,7 +2395,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchema
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -2402,7 +2431,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -2416,7 +2445,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllSpannerExcludedObjectsSchema
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -2450,7 +2479,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -2484,7 +2513,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSche
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -2520,7 +2549,7 @@ public string Schema { get; set; }
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -2534,7 +2563,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSche
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -2570,7 +2599,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -2584,7 +2613,7 @@ public IResolvable|GoogleDatastreamStreamBackfillAllSqlServerExcludedObjectsSche
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -2620,7 +2649,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -2634,7 +2663,7 @@ public string DataType { get; set; }
 
 The SQL Server data type. Full data types list can be found here: https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -2675,6 +2704,7 @@ new GoogleDatastreamStreamConfig {
     GoogleDatastreamStreamBackfillNone BackfillNone = null,
     bool|IResolvable CreateWithoutValidation = null,
     string CustomerManagedEncryptionKey = null,
+    string DeletionPolicy = null,
     string DesiredState = null,
     string Id = null,
     System.Collections.Generic.IDictionary<string, string> Labels = null,
@@ -2704,10 +2734,11 @@ new GoogleDatastreamStreamConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.backfillNone">BackfillNone</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamBackfillNone">GoogleDatastreamStreamBackfillNone</a></code> | backfill_none block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.createWithoutValidation">CreateWithoutValidation</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Create the stream without validating it. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.customerManagedEncryptionKey">CustomerManagedEncryptionKey</a></code> | <code>string</code> | A reference to a KMS encryption key. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.desiredState">DesiredState</a></code> | <code>string</code> | Desired state of the Stream. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#id GoogleDatastreamStream#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#id GoogleDatastreamStream#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Labels. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#project GoogleDatastreamStream#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#project GoogleDatastreamStream#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.ruleSets">RuleSets</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamRuleSets">GoogleDatastreamStreamRuleSets</a>[]</code> | rule_sets block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts">GoogleDatastreamStreamTimeouts</a></code> | timeouts block. |
 
@@ -2793,7 +2824,7 @@ public GoogleDatastreamStreamDestinationConfig DestinationConfig { get; set; }
 
 destination_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#destination_config GoogleDatastreamStream#destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#destination_config GoogleDatastreamStream#destination_config}
 
 ---
 
@@ -2807,7 +2838,7 @@ public string DisplayName { get; set; }
 
 Display name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#display_name GoogleDatastreamStream#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#display_name GoogleDatastreamStream#display_name}
 
 ---
 
@@ -2821,7 +2852,7 @@ public string Location { get; set; }
 
 The name of the location this stream is located in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
 
 ---
 
@@ -2835,7 +2866,7 @@ public GoogleDatastreamStreamSourceConfig SourceConfig { get; set; }
 
 source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#source_config GoogleDatastreamStream#source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#source_config GoogleDatastreamStream#source_config}
 
 ---
 
@@ -2849,7 +2880,7 @@ public string StreamId { get; set; }
 
 The stream identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#stream_id GoogleDatastreamStream#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#stream_id GoogleDatastreamStream#stream_id}
 
 ---
 
@@ -2863,7 +2894,7 @@ public GoogleDatastreamStreamBackfillAll BackfillAll { get; set; }
 
 backfill_all block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#backfill_all GoogleDatastreamStream#backfill_all}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#backfill_all GoogleDatastreamStream#backfill_all}
 
 ---
 
@@ -2877,7 +2908,7 @@ public GoogleDatastreamStreamBackfillNone BackfillNone { get; set; }
 
 backfill_none block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#backfill_none GoogleDatastreamStream#backfill_none}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#backfill_none GoogleDatastreamStream#backfill_none}
 
 ---
 
@@ -2891,7 +2922,7 @@ public bool|IResolvable CreateWithoutValidation { get; set; }
 
 Create the stream without validating it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#create_without_validation GoogleDatastreamStream#create_without_validation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#create_without_validation GoogleDatastreamStream#create_without_validation}
 
 ---
 
@@ -2908,7 +2939,28 @@ A reference to a KMS encryption key.
 If provided, it will be used to encrypt the data. If left blank, data
 will be encrypted using an internal Stream-specific encryption key provisioned through KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#customer_managed_encryption_key GoogleDatastreamStream#customer_managed_encryption_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#customer_managed_encryption_key GoogleDatastreamStream#customer_managed_encryption_key}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#deletion_policy GoogleDatastreamStream#deletion_policy}
 
 ---
 
@@ -2927,7 +2979,7 @@ Set this field to 'RUNNING' to start the stream,
 the stream from a 'RUNNING' state.
 Possible values: NOT_STARTED, RUNNING, PAUSED. Default: NOT_STARTED
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#desired_state GoogleDatastreamStream#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#desired_state GoogleDatastreamStream#desired_state}
 
 ---
 
@@ -2939,7 +2991,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#id GoogleDatastreamStream#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#id GoogleDatastreamStream#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2959,7 +3011,7 @@ Labels.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#labels GoogleDatastreamStream#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#labels GoogleDatastreamStream#labels}
 
 ---
 
@@ -2971,7 +3023,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#project GoogleDatastreamStream#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#project GoogleDatastreamStream#project}.
 
 ---
 
@@ -2985,7 +3037,7 @@ public IResolvable|GoogleDatastreamStreamRuleSets[] RuleSets { get; set; }
 
 rule_sets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#rule_sets GoogleDatastreamStream#rule_sets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#rule_sets GoogleDatastreamStream#rule_sets}
 
 ---
 
@@ -2999,7 +3051,7 @@ public GoogleDatastreamStreamTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#timeouts GoogleDatastreamStream#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#timeouts GoogleDatastreamStream#timeouts}
 
 ---
 
@@ -3037,7 +3089,7 @@ public string DestinationConnectionProfile { get; set; }
 
 Destination connection profile resource. Format: projects/{project}/locations/{location}/connectionProfiles/{name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#destination_connection_profile GoogleDatastreamStream#destination_connection_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#destination_connection_profile GoogleDatastreamStream#destination_connection_profile}
 
 ---
 
@@ -3051,7 +3103,7 @@ public GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfig Bigquery
 
 bigquery_destination_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#bigquery_destination_config GoogleDatastreamStream#bigquery_destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#bigquery_destination_config GoogleDatastreamStream#bigquery_destination_config}
 
 ---
 
@@ -3065,7 +3117,7 @@ public GoogleDatastreamStreamDestinationConfigGcsDestinationConfig GcsDestinatio
 
 gcs_destination_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#gcs_destination_config GoogleDatastreamStream#gcs_destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#gcs_destination_config GoogleDatastreamStream#gcs_destination_config}
 
 ---
 
@@ -3109,7 +3161,7 @@ public GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigAppendOnl
 
 append_only block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#append_only GoogleDatastreamStream#append_only}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#append_only GoogleDatastreamStream#append_only}
 
 ---
 
@@ -3123,7 +3175,7 @@ public GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigBlmtConfi
 
 blmt_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#blmt_config GoogleDatastreamStream#blmt_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#blmt_config GoogleDatastreamStream#blmt_config}
 
 ---
 
@@ -3141,7 +3193,7 @@ Editing this field will only affect new tables created in the future, but existi
 will not be impacted. Lower values mean that queries will return fresher data, but may result in higher cost.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s". Defaults to 900s.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_freshness GoogleDatastreamStream#data_freshness}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_freshness GoogleDatastreamStream#data_freshness}
 
 ---
 
@@ -3155,7 +3207,7 @@ public GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigMerge Mer
 
 merge block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#merge GoogleDatastreamStream#merge}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#merge GoogleDatastreamStream#merge}
 
 ---
 
@@ -3169,7 +3221,7 @@ public GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSingleTar
 
 single_target_dataset block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#single_target_dataset GoogleDatastreamStream#single_target_dataset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#single_target_dataset GoogleDatastreamStream#single_target_dataset}
 
 ---
 
@@ -3183,7 +3235,7 @@ public GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHie
 
 source_hierarchy_datasets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#source_hierarchy_datasets GoogleDatastreamStream#source_hierarchy_datasets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#source_hierarchy_datasets GoogleDatastreamStream#source_hierarchy_datasets}
 
 ---
 
@@ -3238,7 +3290,7 @@ public string Bucket { get; set; }
 
 The Cloud Storage bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#bucket GoogleDatastreamStream#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#bucket GoogleDatastreamStream#bucket}
 
 ---
 
@@ -3252,7 +3304,7 @@ public string ConnectionName { get; set; }
 
 The bigquery connection. Format: '{project}.{location}.{name}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#connection_name GoogleDatastreamStream#connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#connection_name GoogleDatastreamStream#connection_name}
 
 ---
 
@@ -3266,7 +3318,7 @@ public string FileFormat { get; set; }
 
 The file format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#file_format GoogleDatastreamStream#file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#file_format GoogleDatastreamStream#file_format}
 
 ---
 
@@ -3280,7 +3332,7 @@ public string TableFormat { get; set; }
 
 The table format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table_format GoogleDatastreamStream#table_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table_format GoogleDatastreamStream#table_format}
 
 ---
 
@@ -3294,7 +3346,7 @@ public string RootPath { get; set; }
 
 The root path inside the Cloud Storage bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#root_path GoogleDatastreamStream#root_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#root_path GoogleDatastreamStream#root_path}
 
 ---
 
@@ -3341,7 +3393,7 @@ public string DatasetId { get; set; }
 
 Dataset ID in the format projects/{project}/datasets/{dataset_id} or {project}:{dataset_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#dataset_id GoogleDatastreamStream#dataset_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#dataset_id GoogleDatastreamStream#dataset_id}
 
 ---
 
@@ -3377,7 +3429,7 @@ public GoogleDatastreamStreamDestinationConfigBigqueryDestinationConfigSourceHie
 
 dataset_template block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#dataset_template GoogleDatastreamStream#dataset_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#dataset_template GoogleDatastreamStream#dataset_template}
 
 ---
 
@@ -3393,7 +3445,7 @@ Optional.
 
 The project id of the BigQuery dataset. If not specified, the project will be inferred from the stream resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#project_id GoogleDatastreamStream#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#project_id GoogleDatastreamStream#project_id}
 
 ---
 
@@ -3431,7 +3483,7 @@ public string Location { get; set; }
 
 The geographic location where the dataset should reside. See https://cloud.google.com/bigquery/docs/locations for supported locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#location GoogleDatastreamStream#location}
 
 ---
 
@@ -3447,7 +3499,7 @@ If supplied, every created dataset will have its name prefixed by the provided v
 
 The prefix and name will be separated by an underscore. i.e. _.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#dataset_id_prefix GoogleDatastreamStream#dataset_id_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#dataset_id_prefix GoogleDatastreamStream#dataset_id_prefix}
 
 ---
 
@@ -3465,7 +3517,7 @@ The BigQuery Service Account associated with your project requires access to thi
 encryption key. i.e. projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{cryptoKey}.
 See https://cloud.google.com/bigquery/docs/customer-managed-encryption for more information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#kms_key_name GoogleDatastreamStream#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#kms_key_name GoogleDatastreamStream#kms_key_name}
 
 ---
 
@@ -3507,7 +3559,7 @@ public GoogleDatastreamStreamDestinationConfigGcsDestinationConfigAvroFileFormat
 
 avro_file_format block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#avro_file_format GoogleDatastreamStream#avro_file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#avro_file_format GoogleDatastreamStream#avro_file_format}
 
 ---
 
@@ -3524,7 +3576,7 @@ The maximum duration for which new events are added before a file is closed and 
 Values within the range of 15-60 seconds are allowed.
 A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#file_rotation_interval GoogleDatastreamStream#file_rotation_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#file_rotation_interval GoogleDatastreamStream#file_rotation_interval}
 
 ---
 
@@ -3538,7 +3590,7 @@ public double FileRotationMb { get; set; }
 
 The maximum file size to be saved in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#file_rotation_mb GoogleDatastreamStream#file_rotation_mb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#file_rotation_mb GoogleDatastreamStream#file_rotation_mb}
 
 ---
 
@@ -3552,7 +3604,7 @@ public GoogleDatastreamStreamDestinationConfigGcsDestinationConfigJsonFileFormat
 
 json_file_format block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#json_file_format GoogleDatastreamStream#json_file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#json_file_format GoogleDatastreamStream#json_file_format}
 
 ---
 
@@ -3566,7 +3618,7 @@ public string Path { get; set; }
 
 Path inside the Cloud Storage bucket to write data to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#path GoogleDatastreamStream#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#path GoogleDatastreamStream#path}
 
 ---
 
@@ -3615,7 +3667,7 @@ public string Compression { get; set; }
 
 Compression of the loaded JSON file. Possible values: ["NO_COMPRESSION", "GZIP"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#compression GoogleDatastreamStream#compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#compression GoogleDatastreamStream#compression}
 
 ---
 
@@ -3629,7 +3681,7 @@ public string SchemaFileFormat { get; set; }
 
 The schema file format along JSON data files. Possible values: ["NO_SCHEMA_FILE", "AVRO_SCHEMA_FILE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema_file_format GoogleDatastreamStream#schema_file_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema_file_format GoogleDatastreamStream#schema_file_format}
 
 ---
 
@@ -3665,7 +3717,7 @@ public IResolvable|GoogleDatastreamStreamRuleSetsCustomizationRules[] Customizat
 
 customization_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#customization_rules GoogleDatastreamStream#customization_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#customization_rules GoogleDatastreamStream#customization_rules}
 
 ---
 
@@ -3679,7 +3731,7 @@ public GoogleDatastreamStreamRuleSetsObjectFilter ObjectFilter { get; set; }
 
 object_filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#object_filter GoogleDatastreamStream#object_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#object_filter GoogleDatastreamStream#object_filter}
 
 ---
 
@@ -3715,7 +3767,7 @@ public GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryClustering Bigque
 
 bigquery_clustering block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#bigquery_clustering GoogleDatastreamStream#bigquery_clustering}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#bigquery_clustering GoogleDatastreamStream#bigquery_clustering}
 
 ---
 
@@ -3729,7 +3781,7 @@ public GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioning Bigq
 
 bigquery_partitioning block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#bigquery_partitioning GoogleDatastreamStream#bigquery_partitioning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#bigquery_partitioning GoogleDatastreamStream#bigquery_partitioning}
 
 ---
 
@@ -3763,7 +3815,7 @@ public string[] Columns { get; set; }
 
 Column names to set as clustering columns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -3803,7 +3855,7 @@ public GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningInges
 
 ingestion_time_partition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#ingestion_time_partition GoogleDatastreamStream#ingestion_time_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#ingestion_time_partition GoogleDatastreamStream#ingestion_time_partition}
 
 ---
 
@@ -3817,7 +3869,7 @@ public GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningInteg
 
 integer_range_partition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#integer_range_partition GoogleDatastreamStream#integer_range_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#integer_range_partition GoogleDatastreamStream#integer_range_partition}
 
 ---
 
@@ -3831,7 +3883,7 @@ public bool|IResolvable RequirePartitionFilter { get; set; }
 
 If true, queries over the table require a partition filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#require_partition_filter GoogleDatastreamStream#require_partition_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#require_partition_filter GoogleDatastreamStream#require_partition_filter}
 
 ---
 
@@ -3845,7 +3897,7 @@ public GoogleDatastreamStreamRuleSetsCustomizationRulesBigqueryPartitioningTimeU
 
 time_unit_partition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#time_unit_partition GoogleDatastreamStream#time_unit_partition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#time_unit_partition GoogleDatastreamStream#time_unit_partition}
 
 ---
 
@@ -3879,7 +3931,7 @@ public string PartitioningTimeGranularity { get; set; }
 
 Partition granularity. Possible values: ["PARTITIONING_TIME_GRANULARITY_UNSPECIFIED", "PARTITIONING_TIME_GRANULARITY_HOUR", "PARTITIONING_TIME_GRANULARITY_DAY", "PARTITIONING_TIME_GRANULARITY_MONTH", "PARTITIONING_TIME_GRANULARITY_YEAR"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
 
 ---
 
@@ -3919,7 +3971,7 @@ public string Column { get; set; }
 
 The partitioning column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -3933,7 +3985,7 @@ public double End { get; set; }
 
 The ending value for range partitioning (exclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#end GoogleDatastreamStream#end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#end GoogleDatastreamStream#end}
 
 ---
 
@@ -3947,7 +3999,7 @@ public double Interval { get; set; }
 
 The interval of each range within the partition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#interval GoogleDatastreamStream#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#interval GoogleDatastreamStream#interval}
 
 ---
 
@@ -3961,7 +4013,7 @@ public double Start { get; set; }
 
 The starting value for range partitioning (inclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#start GoogleDatastreamStream#start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#start GoogleDatastreamStream#start}
 
 ---
 
@@ -3997,7 +4049,7 @@ public string Column { get; set; }
 
 The partitioning column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -4011,7 +4063,7 @@ public string PartitioningTimeGranularity { get; set; }
 
 Partition granularity. Possible values: ["PARTITIONING_TIME_GRANULARITY_UNSPECIFIED", "PARTITIONING_TIME_GRANULARITY_HOUR", "PARTITIONING_TIME_GRANULARITY_DAY", "PARTITIONING_TIME_GRANULARITY_MONTH", "PARTITIONING_TIME_GRANULARITY_YEAR"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#partitioning_time_granularity GoogleDatastreamStream#partitioning_time_granularity}
 
 ---
 
@@ -4045,7 +4097,7 @@ public GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifier SourceOb
 
 source_object_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#source_object_identifier GoogleDatastreamStream#source_object_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#source_object_identifier GoogleDatastreamStream#source_object_identifier}
 
 ---
 
@@ -4091,7 +4143,7 @@ public GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMongodbId
 
 mongodb_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mongodb_identifier GoogleDatastreamStream#mongodb_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mongodb_identifier GoogleDatastreamStream#mongodb_identifier}
 
 ---
 
@@ -4105,7 +4157,7 @@ public GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierMysqlIden
 
 mysql_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_identifier GoogleDatastreamStream#mysql_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_identifier GoogleDatastreamStream#mysql_identifier}
 
 ---
 
@@ -4119,7 +4171,7 @@ public GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierOracleIde
 
 oracle_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_identifier GoogleDatastreamStream#oracle_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_identifier GoogleDatastreamStream#oracle_identifier}
 
 ---
 
@@ -4133,7 +4185,7 @@ public GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierPostgresq
 
 postgresql_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_identifier GoogleDatastreamStream#postgresql_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_identifier GoogleDatastreamStream#postgresql_identifier}
 
 ---
 
@@ -4147,7 +4199,7 @@ public GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSalesforc
 
 salesforce_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#salesforce_identifier GoogleDatastreamStream#salesforce_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#salesforce_identifier GoogleDatastreamStream#salesforce_identifier}
 
 ---
 
@@ -4161,7 +4213,7 @@ public GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSpannerId
 
 spanner_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#spanner_identifier GoogleDatastreamStream#spanner_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#spanner_identifier GoogleDatastreamStream#spanner_identifier}
 
 ---
 
@@ -4175,7 +4227,7 @@ public GoogleDatastreamStreamRuleSetsObjectFilterSourceObjectIdentifierSqlServer
 
 sql_server_identifier block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#sql_server_identifier GoogleDatastreamStream#sql_server_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#sql_server_identifier GoogleDatastreamStream#sql_server_identifier}
 
 ---
 
@@ -4211,7 +4263,7 @@ public string Collection { get; set; }
 
 The MongoDB collection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
 
 ---
 
@@ -4225,7 +4277,7 @@ public string Database { get; set; }
 
 The MongoDB database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -4261,7 +4313,7 @@ public string Database { get; set; }
 
 The database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -4275,7 +4327,7 @@ public string Table { get; set; }
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4311,7 +4363,7 @@ public string Schema { get; set; }
 
 The schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -4325,7 +4377,7 @@ public string Table { get; set; }
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4361,7 +4413,7 @@ public string Schema { get; set; }
 
 The schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -4375,7 +4427,7 @@ public string Table { get; set; }
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4409,7 +4461,7 @@ public string ObjectName { get; set; }
 
 The Salesforce object name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
 
 ---
 
@@ -4445,7 +4497,7 @@ public string Table { get; set; }
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4459,7 +4511,7 @@ public string Schema { get; set; }
 
 The schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -4495,7 +4547,7 @@ public string Schema { get; set; }
 
 The schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -4509,7 +4561,7 @@ public string Table { get; set; }
 
 The table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -4557,7 +4609,7 @@ public string SourceConnectionProfile { get; set; }
 
 Source connection profile resource. Format: projects/{project}/locations/{location}/connectionProfiles/{name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#source_connection_profile GoogleDatastreamStream#source_connection_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#source_connection_profile GoogleDatastreamStream#source_connection_profile}
 
 ---
 
@@ -4571,7 +4623,7 @@ public GoogleDatastreamStreamSourceConfigMongodbSourceConfig MongodbSourceConfig
 
 mongodb_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mongodb_source_config GoogleDatastreamStream#mongodb_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mongodb_source_config GoogleDatastreamStream#mongodb_source_config}
 
 ---
 
@@ -4585,7 +4637,7 @@ public GoogleDatastreamStreamSourceConfigMysqlSourceConfig MysqlSourceConfig { g
 
 mysql_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_source_config GoogleDatastreamStream#mysql_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_source_config GoogleDatastreamStream#mysql_source_config}
 
 ---
 
@@ -4599,7 +4651,7 @@ public GoogleDatastreamStreamSourceConfigOracleSourceConfig OracleSourceConfig {
 
 oracle_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_source_config GoogleDatastreamStream#oracle_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_source_config GoogleDatastreamStream#oracle_source_config}
 
 ---
 
@@ -4613,7 +4665,7 @@ public GoogleDatastreamStreamSourceConfigPostgresqlSourceConfig PostgresqlSource
 
 postgresql_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_source_config GoogleDatastreamStream#postgresql_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_source_config GoogleDatastreamStream#postgresql_source_config}
 
 ---
 
@@ -4627,7 +4679,7 @@ public GoogleDatastreamStreamSourceConfigSalesforceSourceConfig SalesforceSource
 
 salesforce_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#salesforce_source_config GoogleDatastreamStream#salesforce_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#salesforce_source_config GoogleDatastreamStream#salesforce_source_config}
 
 ---
 
@@ -4641,7 +4693,7 @@ public GoogleDatastreamStreamSourceConfigSpannerSourceConfig SpannerSourceConfig
 
 spanner_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#spanner_source_config GoogleDatastreamStream#spanner_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#spanner_source_config GoogleDatastreamStream#spanner_source_config}
 
 ---
 
@@ -4655,7 +4707,7 @@ public GoogleDatastreamStreamSourceConfigSqlServerSourceConfig SqlServerSourceCo
 
 sql_server_source_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#sql_server_source_config GoogleDatastreamStream#sql_server_source_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#sql_server_source_config GoogleDatastreamStream#sql_server_source_config}
 
 ---
 
@@ -4693,7 +4745,7 @@ public GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeObjects Exclu
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -4707,7 +4759,7 @@ public GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeObjects Inclu
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -4725,7 +4777,7 @@ Maximum number of concurrent backfill tasks. The number
 should be non-negative and less than or equal to 50. If not set
 (or set to 0), the system''s default value is used
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -4759,7 +4811,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeO
 
 databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
 
 ---
 
@@ -4795,7 +4847,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeO
 
 collections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
 
 ---
 
@@ -4809,7 +4861,7 @@ public string Database { get; set; }
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -4845,7 +4897,7 @@ public string Collection { get; set; }
 
 Collection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
 
 ---
 
@@ -4859,7 +4911,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMongodbSourceConfigExcludeO
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -4893,7 +4945,7 @@ public string Field { get; set; }
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
 
 ---
 
@@ -4927,7 +4979,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeO
 
 databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#databases GoogleDatastreamStream#databases}
 
 ---
 
@@ -4963,7 +5015,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeO
 
 collections block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collections GoogleDatastreamStream#collections}
 
 ---
 
@@ -4977,7 +5029,7 @@ public string Database { get; set; }
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -5013,7 +5065,7 @@ public string Collection { get; set; }
 
 Collection name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collection GoogleDatastreamStream#collection}
 
 ---
 
@@ -5027,7 +5079,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMongodbSourceConfigIncludeO
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -5061,7 +5113,7 @@ public string Field { get; set; }
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#field GoogleDatastreamStream#field}
 
 ---
 
@@ -5105,7 +5157,7 @@ public GoogleDatastreamStreamSourceConfigMysqlSourceConfigBinaryLogPosition Bina
 
 binary_log_position block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#binary_log_position GoogleDatastreamStream#binary_log_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#binary_log_position GoogleDatastreamStream#binary_log_position}
 
 ---
 
@@ -5119,7 +5171,7 @@ public GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObjects Exclude
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -5133,7 +5185,7 @@ public GoogleDatastreamStreamSourceConfigMysqlSourceConfigGtid Gtid { get; set; 
 
 gtid block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#gtid GoogleDatastreamStream#gtid}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#gtid GoogleDatastreamStream#gtid}
 
 ---
 
@@ -5147,7 +5199,7 @@ public GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObjects Include
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -5164,7 +5216,7 @@ Maximum number of concurrent backfill tasks.
 The number should be non negative.
 If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -5181,7 +5233,7 @@ Maximum number of concurrent CDC tasks.
 The number should be non negative.
 If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
 
 ---
 
@@ -5228,7 +5280,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObj
 
 mysql_databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
 
 ---
 
@@ -5264,7 +5316,7 @@ public string Database { get; set; }
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -5278,7 +5330,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObj
 
 mysql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
 
 ---
 
@@ -5314,7 +5366,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -5328,7 +5380,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMysqlSourceConfigExcludeObj
 
 mysql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
 
 ---
 
@@ -5372,7 +5424,7 @@ public string Collation { get; set; }
 
 Column collation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
 
 ---
 
@@ -5386,7 +5438,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -5400,7 +5452,7 @@ public string DataType { get; set; }
 
 The MySQL data type. Full data types list can be found here: https://dev.mysql.com/doc/refman/8.0/en/data-types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -5414,7 +5466,7 @@ public bool|IResolvable Nullable { get; set; }
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -5428,7 +5480,7 @@ public double OrdinalPosition { get; set; }
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -5442,7 +5494,7 @@ public bool|IResolvable PrimaryKey { get; set; }
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -5489,7 +5541,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObj
 
 mysql_databases block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_databases GoogleDatastreamStream#mysql_databases}
 
 ---
 
@@ -5525,7 +5577,7 @@ public string Database { get; set; }
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#database GoogleDatastreamStream#database}
 
 ---
 
@@ -5539,7 +5591,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObj
 
 mysql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_tables GoogleDatastreamStream#mysql_tables}
 
 ---
 
@@ -5575,7 +5627,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -5589,7 +5641,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigMysqlSourceConfigIncludeObj
 
 mysql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#mysql_columns GoogleDatastreamStream#mysql_columns}
 
 ---
 
@@ -5633,7 +5685,7 @@ public string Collation { get; set; }
 
 Column collation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#collation GoogleDatastreamStream#collation}
 
 ---
 
@@ -5647,7 +5699,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -5661,7 +5713,7 @@ public string DataType { get; set; }
 
 The MySQL data type. Full data types list can be found here: https://dev.mysql.com/doc/refman/8.0/en/data-types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -5675,7 +5727,7 @@ public bool|IResolvable Nullable { get; set; }
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -5689,7 +5741,7 @@ public double OrdinalPosition { get; set; }
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -5703,7 +5755,7 @@ public bool|IResolvable PrimaryKey { get; set; }
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -5747,7 +5799,7 @@ public GoogleDatastreamStreamSourceConfigOracleSourceConfigDropLargeObjects Drop
 
 drop_large_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#drop_large_objects GoogleDatastreamStream#drop_large_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#drop_large_objects GoogleDatastreamStream#drop_large_objects}
 
 ---
 
@@ -5761,7 +5813,7 @@ public GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeObjects Exclud
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -5775,7 +5827,7 @@ public GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeObjects Includ
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -5792,7 +5844,7 @@ Maximum number of concurrent backfill tasks.
 The number should be non negative.
 If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -5809,7 +5861,7 @@ Maximum number of concurrent CDC tasks.
 The number should be non negative.
 If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
 
 ---
 
@@ -5823,7 +5875,7 @@ public GoogleDatastreamStreamSourceConfigOracleSourceConfigStreamLargeObjects St
 
 stream_large_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#stream_large_objects GoogleDatastreamStream#stream_large_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#stream_large_objects GoogleDatastreamStream#stream_large_objects}
 
 ---
 
@@ -5870,7 +5922,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeOb
 
 oracle_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
 
 ---
 
@@ -5906,7 +5958,7 @@ public string Schema { get; set; }
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -5920,7 +5972,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeOb
 
 oracle_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
 
 ---
 
@@ -5956,7 +6008,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -5970,7 +6022,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigOracleSourceConfigExcludeOb
 
 oracle_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
 
 ---
 
@@ -6006,7 +6058,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -6020,7 +6072,7 @@ public string DataType { get; set; }
 
 The Oracle data type. Full data types list can be found here: https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Data-Types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -6054,7 +6106,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeOb
 
 oracle_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_schemas GoogleDatastreamStream#oracle_schemas}
 
 ---
 
@@ -6090,7 +6142,7 @@ public string Schema { get; set; }
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -6104,7 +6156,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeOb
 
 oracle_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_tables GoogleDatastreamStream#oracle_tables}
 
 ---
 
@@ -6140,7 +6192,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -6154,7 +6206,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigOracleSourceConfigIncludeOb
 
 oracle_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#oracle_columns GoogleDatastreamStream#oracle_columns}
 
 ---
 
@@ -6190,7 +6242,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -6204,7 +6256,7 @@ public string DataType { get; set; }
 
 The Oracle data type. Full data types list can be found here: https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Data-Types.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -6259,7 +6311,7 @@ public string Publication { get; set; }
 
 The name of the publication that includes the set of all tables that are defined in the stream's include_objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#publication GoogleDatastreamStream#publication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#publication GoogleDatastreamStream#publication}
 
 ---
 
@@ -6273,7 +6325,7 @@ public string ReplicationSlot { get; set; }
 
 The name of the logical replication slot that's configured with the pgoutput plugin.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#replication_slot GoogleDatastreamStream#replication_slot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#replication_slot GoogleDatastreamStream#replication_slot}
 
 ---
 
@@ -6287,7 +6339,7 @@ public GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExcludeObjects Ex
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -6301,7 +6353,7 @@ public GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigIncludeObjects In
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -6318,7 +6370,7 @@ Maximum number of concurrent backfill tasks.
 The number should be non
 negative. If not set (or set to 0), the system's default value will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -6352,7 +6404,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclu
 
 postgresql_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
 
 ---
 
@@ -6388,7 +6440,7 @@ public string Schema { get; set; }
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -6402,7 +6454,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclu
 
 postgresql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
 
 ---
 
@@ -6438,7 +6490,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -6452,7 +6504,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigExclu
 
 postgresql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
 
 ---
 
@@ -6494,7 +6546,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -6508,7 +6560,7 @@ public string DataType { get; set; }
 
 The PostgreSQL data type. Full data types list can be found here: https://www.postgresql.org/docs/current/datatype.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -6522,7 +6574,7 @@ public bool|IResolvable Nullable { get; set; }
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -6536,7 +6588,7 @@ public double OrdinalPosition { get; set; }
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -6550,7 +6602,7 @@ public bool|IResolvable PrimaryKey { get; set; }
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -6584,7 +6636,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclu
 
 postgresql_schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_schemas GoogleDatastreamStream#postgresql_schemas}
 
 ---
 
@@ -6620,7 +6672,7 @@ public string Schema { get; set; }
 
 Database name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -6634,7 +6686,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclu
 
 postgresql_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_tables GoogleDatastreamStream#postgresql_tables}
 
 ---
 
@@ -6670,7 +6722,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -6684,7 +6736,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigPostgresqlSourceConfigInclu
 
 postgresql_columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#postgresql_columns GoogleDatastreamStream#postgresql_columns}
 
 ---
 
@@ -6726,7 +6778,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -6740,7 +6792,7 @@ public string DataType { get; set; }
 
 The PostgreSQL data type. Full data types list can be found here: https://www.postgresql.org/docs/current/datatype.html.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -6754,7 +6806,7 @@ public bool|IResolvable Nullable { get; set; }
 
 Whether or not the column can accept a null value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#nullable GoogleDatastreamStream#nullable}
 
 ---
 
@@ -6768,7 +6820,7 @@ public double OrdinalPosition { get; set; }
 
 The ordinal position of the column in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#ordinal_position GoogleDatastreamStream#ordinal_position}
 
 ---
 
@@ -6782,7 +6834,7 @@ public bool|IResolvable PrimaryKey { get; set; }
 
 Whether or not the column represents a primary key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#primary_key GoogleDatastreamStream#primary_key}
 
 ---
 
@@ -6822,7 +6874,7 @@ Salesforce objects polling interval.
 
 The interval at which new changes will be polled for each object. The duration must be between 5 minutes and 24 hours.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#polling_interval GoogleDatastreamStream#polling_interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#polling_interval GoogleDatastreamStream#polling_interval}
 
 ---
 
@@ -6836,7 +6888,7 @@ public GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExcludeObjects Ex
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -6850,7 +6902,7 @@ public GoogleDatastreamStreamSourceConfigSalesforceSourceConfigIncludeObjects In
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -6884,7 +6936,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclu
 
 objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
 
 ---
 
@@ -6920,7 +6972,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSalesforceSourceConfigExclu
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -6934,7 +6986,7 @@ public string ObjectName { get; set; }
 
 Name of object in Salesforce Org.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
 
 ---
 
@@ -6968,7 +7020,7 @@ public string Name { get; set; }
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
 
 ---
 
@@ -7002,7 +7054,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclu
 
 objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#objects GoogleDatastreamStream#objects}
 
 ---
 
@@ -7038,7 +7090,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSalesforceSourceConfigInclu
 
 fields block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#fields GoogleDatastreamStream#fields}
 
 ---
 
@@ -7052,7 +7104,7 @@ public string ObjectName { get; set; }
 
 Name of object in Salesforce Org.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#object_name GoogleDatastreamStream#object_name}
 
 ---
 
@@ -7086,7 +7138,7 @@ public string Name { get; set; }
 
 Field name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#name GoogleDatastreamStream#name}
 
 ---
 
@@ -7134,7 +7186,7 @@ public bool|IResolvable BackfillDataBoostEnabled { get; set; }
 
 Whether to use DataBoost for backfill queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#backfill_data_boost_enabled GoogleDatastreamStream#backfill_data_boost_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#backfill_data_boost_enabled GoogleDatastreamStream#backfill_data_boost_enabled}
 
 ---
 
@@ -7148,7 +7200,7 @@ public string ChangeStreamName { get; set; }
 
 The Spanner change stream name to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#change_stream_name GoogleDatastreamStream#change_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#change_stream_name GoogleDatastreamStream#change_stream_name}
 
 ---
 
@@ -7162,7 +7214,7 @@ public GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeObjects Exclu
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -7176,7 +7228,7 @@ public string FgacRole { get; set; }
 
 The FGAC role to use for Spanner queries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#fgac_role GoogleDatastreamStream#fgac_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#fgac_role GoogleDatastreamStream#fgac_role}
 
 ---
 
@@ -7190,7 +7242,7 @@ public GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeObjects Inclu
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -7204,7 +7256,7 @@ public double MaxConcurrentBackfillTasks { get; set; }
 
 Max concurrent backfill tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -7218,7 +7270,7 @@ public double MaxConcurrentCdcTasks { get; set; }
 
 Max concurrent CDC tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
 
 ---
 
@@ -7232,7 +7284,7 @@ public string SpannerRpcPriority { get; set; }
 
 The RPC priority to use for Spanner queries. Possible values: ["LOW", "MEDIUM", "HIGH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#spanner_rpc_priority GoogleDatastreamStream#spanner_rpc_priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#spanner_rpc_priority GoogleDatastreamStream#spanner_rpc_priority}
 
 ---
 
@@ -7266,7 +7318,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeO
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -7302,7 +7354,7 @@ public string Schema { get; set; }
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -7316,7 +7368,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeO
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -7352,7 +7404,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -7366,7 +7418,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSpannerSourceConfigExcludeO
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -7400,7 +7452,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -7434,7 +7486,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeO
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -7470,7 +7522,7 @@ public string Schema { get; set; }
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -7484,7 +7536,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeO
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -7520,7 +7572,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -7534,7 +7586,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSpannerSourceConfigIncludeO
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -7568,7 +7620,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -7612,7 +7664,7 @@ public GoogleDatastreamStreamSourceConfigSqlServerSourceConfigChangeTables Chang
 
 change_tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#change_tables GoogleDatastreamStream#change_tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#change_tables GoogleDatastreamStream#change_tables}
 
 ---
 
@@ -7626,7 +7678,7 @@ public GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExcludeObjects Exc
 
 exclude_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#exclude_objects GoogleDatastreamStream#exclude_objects}
 
 ---
 
@@ -7640,7 +7692,7 @@ public GoogleDatastreamStreamSourceConfigSqlServerSourceConfigIncludeObjects Inc
 
 include_objects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#include_objects GoogleDatastreamStream#include_objects}
 
 ---
 
@@ -7654,7 +7706,7 @@ public double MaxConcurrentBackfillTasks { get; set; }
 
 Max concurrent backfill tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_backfill_tasks GoogleDatastreamStream#max_concurrent_backfill_tasks}
 
 ---
 
@@ -7668,7 +7720,7 @@ public double MaxConcurrentCdcTasks { get; set; }
 
 Max concurrent CDC tasks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#max_concurrent_cdc_tasks GoogleDatastreamStream#max_concurrent_cdc_tasks}
 
 ---
 
@@ -7682,7 +7734,7 @@ public GoogleDatastreamStreamSourceConfigSqlServerSourceConfigTransactionLogs Tr
 
 transaction_logs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#transaction_logs GoogleDatastreamStream#transaction_logs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#transaction_logs GoogleDatastreamStream#transaction_logs}
 
 ---
 
@@ -7729,7 +7781,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExclud
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -7765,7 +7817,7 @@ public string Schema { get; set; }
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -7779,7 +7831,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExclud
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -7815,7 +7867,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -7829,7 +7881,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSqlServerSourceConfigExclud
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -7865,7 +7917,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -7879,7 +7931,7 @@ public string DataType { get; set; }
 
 The SQL Server data type. Full data types list can be found here: https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -7913,7 +7965,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSqlServerSourceConfigInclud
 
 schemas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schemas GoogleDatastreamStream#schemas}
 
 ---
 
@@ -7949,7 +8001,7 @@ public string Schema { get; set; }
 
 Schema name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#schema GoogleDatastreamStream#schema}
 
 ---
 
@@ -7963,7 +8015,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSqlServerSourceConfigInclud
 
 tables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#tables GoogleDatastreamStream#tables}
 
 ---
 
@@ -7999,7 +8051,7 @@ public string Table { get; set; }
 
 Table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#table GoogleDatastreamStream#table}
 
 ---
 
@@ -8013,7 +8065,7 @@ public IResolvable|GoogleDatastreamStreamSourceConfigSqlServerSourceConfigInclud
 
 columns block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#columns GoogleDatastreamStream#columns}
 
 ---
 
@@ -8049,7 +8101,7 @@ public string Column { get; set; }
 
 Column name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#column GoogleDatastreamStream#column}
 
 ---
 
@@ -8063,7 +8115,7 @@ public string DataType { get; set; }
 
 The SQL Server data type. Full data types list can be found here: https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#data_type GoogleDatastreamStream#data_type}
 
 ---
 
@@ -8098,9 +8150,9 @@ new GoogleDatastreamStreamTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#create GoogleDatastreamStream#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#delete GoogleDatastreamStream#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#update GoogleDatastreamStream#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#create GoogleDatastreamStream#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#delete GoogleDatastreamStream#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDatastreamStream.GoogleDatastreamStreamTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#update GoogleDatastreamStream#update}. |
 
 ---
 
@@ -8112,7 +8164,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#create GoogleDatastreamStream#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#create GoogleDatastreamStream#create}.
 
 ---
 
@@ -8124,7 +8176,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#delete GoogleDatastreamStream#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#delete GoogleDatastreamStream#delete}.
 
 ---
 
@@ -8136,7 +8188,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_datastream_stream#update GoogleDatastreamStream#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_datastream_stream#update GoogleDatastreamStream#update}.
 
 ---
 

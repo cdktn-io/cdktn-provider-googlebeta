@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,13 +13,25 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleBeyondcorpAppConnectorConfig extends cdktn.TerraformMetaArguments {
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#deletion_policy GoogleBeyondcorpAppConnector#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * An arbitrary user-provided name for the AppConnector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#display_name GoogleBeyondcorpAppConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#display_name GoogleBeyondcorpAppConnector#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#id GoogleBeyondcorpAppConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#id GoogleBeyondcorpAppConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,35 +44,35 @@ export interface GoogleBeyondcorpAppConnectorConfig extends cdktn.TerraformMetaA
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#labels GoogleBeyondcorpAppConnector#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#labels GoogleBeyondcorpAppConnector#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * ID of the AppConnector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#name GoogleBeyondcorpAppConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#name GoogleBeyondcorpAppConnector#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#project GoogleBeyondcorpAppConnector#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#project GoogleBeyondcorpAppConnector#project}
   */
   readonly project?: string;
   /**
   * The region of the AppConnector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#region GoogleBeyondcorpAppConnector#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#region GoogleBeyondcorpAppConnector#region}
   */
   readonly region?: string;
   /**
   * principal_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#principal_info GoogleBeyondcorpAppConnector#principal_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#principal_info GoogleBeyondcorpAppConnector#principal_info}
   */
   readonly principalInfo: GoogleBeyondcorpAppConnectorPrincipalInfo;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#timeouts GoogleBeyondcorpAppConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#timeouts GoogleBeyondcorpAppConnector#timeouts}
   */
   readonly timeouts?: GoogleBeyondcorpAppConnectorTimeouts;
 }
@@ -68,7 +80,7 @@ export interface GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccount {
   /**
   * Email address of the service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#email GoogleBeyondcorpAppConnector#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#email GoogleBeyondcorpAppConnector#email}
   */
   readonly email: string;
 }
@@ -151,7 +163,7 @@ export interface GoogleBeyondcorpAppConnectorPrincipalInfo {
   /**
   * service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#service_account GoogleBeyondcorpAppConnector#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#service_account GoogleBeyondcorpAppConnector#service_account}
   */
   readonly serviceAccount: GoogleBeyondcorpAppConnectorPrincipalInfoServiceAccount;
 }
@@ -232,15 +244,15 @@ export class GoogleBeyondcorpAppConnectorPrincipalInfoOutputReference extends cd
 }
 export interface GoogleBeyondcorpAppConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#create GoogleBeyondcorpAppConnector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#create GoogleBeyondcorpAppConnector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#delete GoogleBeyondcorpAppConnector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#delete GoogleBeyondcorpAppConnector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#update GoogleBeyondcorpAppConnector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#update GoogleBeyondcorpAppConnector#update}
   */
   readonly update?: string;
 }
@@ -392,7 +404,7 @@ export class GoogleBeyondcorpAppConnectorTimeoutsOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector google_beyondcorp_app_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector google_beyondcorp_app_connector}
 */
 export class GoogleBeyondcorpAppConnector extends cdktn.TerraformResource {
 
@@ -408,7 +420,7 @@ export class GoogleBeyondcorpAppConnector extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleBeyondcorpAppConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBeyondcorpAppConnector to import
-  * @param importFromId The id of the existing GoogleBeyondcorpAppConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleBeyondcorpAppConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBeyondcorpAppConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -420,7 +432,7 @@ export class GoogleBeyondcorpAppConnector extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_connector google_beyondcorp_app_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_connector google_beyondcorp_app_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -431,7 +443,7 @@ export class GoogleBeyondcorpAppConnector extends cdktn.TerraformResource {
       terraformResourceType: 'google_beyondcorp_app_connector',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -442,6 +454,7 @@ export class GoogleBeyondcorpAppConnector extends cdktn.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deletionPolicy = config.deletionPolicy;
     this._displayName = config.displayName;
     this._id = config.id;
     this._labels = config.labels;
@@ -455,6 +468,22 @@ export class GoogleBeyondcorpAppConnector extends cdktn.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
+  }
 
   // display_name - computed: false, optional: true, required: false
   private _displayName?: string; 
@@ -601,6 +630,7 @@ export class GoogleBeyondcorpAppConnector extends cdktn.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       display_name: cdktn.stringToTerraform(this._displayName),
       id: cdktn.stringToTerraform(this._id),
       labels: cdktn.hashMapper(cdktn.stringToTerraform)(this._labels),
@@ -614,6 +644,12 @@ export class GoogleBeyondcorpAppConnector extends cdktn.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       display_name: {
         value: cdktn.stringToHclTerraform(this._displayName),
         isBlock: false,

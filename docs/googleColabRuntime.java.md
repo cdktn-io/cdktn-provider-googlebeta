@@ -4,7 +4,7 @@
 
 ### GoogleColabRuntime <a name="GoogleColabRuntime" id="@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime google_colab_runtime}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime google_colab_runtime}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer"></a>
 
@@ -23,6 +23,7 @@ GoogleColabRuntime.Builder.create(Construct scope, java.lang.String id)
     .location(java.lang.String)
     .runtimeUser(java.lang.String)
 //  .autoUpgrade(java.lang.Boolean|IResolvable)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .desiredState(java.lang.String)
 //  .id(java.lang.String)
@@ -48,12 +49,13 @@ GoogleColabRuntime.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location for the resource: https://cloud.google.com/colab/docs/locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.runtimeUser">runtimeUser</a></code> | <code>java.lang.String</code> | The user email of the NotebookRuntime. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.autoUpgrade">autoUpgrade</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Triggers an upgrade anytime the runtime is started if it is upgradable. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The description of the Runtime. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.desiredState">desiredState</a></code> | <code>java.lang.String</code> | Desired state of the Colab Runtime. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#id GoogleColabRuntime#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#id GoogleColabRuntime#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | The resource name of the Runtime. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.notebookRuntimeTemplateRef">notebookRuntimeTemplateRef</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeNotebookRuntimeTemplateRef">GoogleColabRuntimeNotebookRuntimeTemplateRef</a></code> | notebook_runtime_template_ref block. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#project GoogleColabRuntime#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#project GoogleColabRuntime#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts">GoogleColabRuntimeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -124,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 Required. The display name of the Runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#display_name GoogleColabRuntime#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#display_name GoogleColabRuntime#display_name}
 
 ---
 
@@ -134,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location for the resource: https://cloud.google.com/colab/docs/locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#location GoogleColabRuntime#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#location GoogleColabRuntime#location}
 
 ---
 
@@ -144,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The user email of the NotebookRuntime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#runtime_user GoogleColabRuntime#runtime_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#runtime_user GoogleColabRuntime#runtime_user}
 
 ---
 
@@ -154,7 +156,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Triggers an upgrade anytime the runtime is started if it is upgradable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#auto_upgrade GoogleColabRuntime#auto_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#auto_upgrade GoogleColabRuntime#auto_upgrade}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#deletion_policy GoogleColabRuntime#deletion_policy}
 
 ---
 
@@ -164,7 +183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the Runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#description GoogleColabRuntime#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#description GoogleColabRuntime#description}
 
 ---
 
@@ -176,7 +195,7 @@ Desired state of the Colab Runtime.
 
 Set this field to 'RUNNING' to start the runtime, and 'STOPPED' to stop it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#desired_state GoogleColabRuntime#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#desired_state GoogleColabRuntime#desired_state}
 
 ---
 
@@ -184,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#id GoogleColabRuntime#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#id GoogleColabRuntime#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -197,7 +216,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The resource name of the Runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#name GoogleColabRuntime#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#name GoogleColabRuntime#name}
 
 ---
 
@@ -207,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 notebook_runtime_template_ref block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#notebook_runtime_template_ref GoogleColabRuntime#notebook_runtime_template_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#notebook_runtime_template_ref GoogleColabRuntime#notebook_runtime_template_ref}
 
 ---
 
@@ -215,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#project GoogleColabRuntime#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#project GoogleColabRuntime#project}.
 
 ---
 
@@ -225,7 +244,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#timeouts GoogleColabRuntime#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#timeouts GoogleColabRuntime#timeouts}
 
 ---
 
@@ -260,6 +279,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.putNotebookRuntimeTemplateRef">putNotebookRuntimeTemplateRef</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.resetAutoUpgrade">resetAutoUpgrade</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.resetDesiredState">resetDesiredState</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.resetId">resetId</a></code> | *No description.* |
@@ -611,6 +631,12 @@ public void putTimeouts(GoogleColabRuntimeTimeouts value)
 public void resetAutoUpgrade()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.resetDescription"></a>
 
 ```java
@@ -756,7 +782,7 @@ The construct id used in the generated config for the GoogleColabRuntime to impo
 
 The id of the existing GoogleColabRuntime that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -793,6 +819,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.state">state</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeoutsOutputReference">GoogleColabRuntimeTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.autoUpgradeInput">autoUpgradeInput</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.desiredStateInput">desiredStateInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -804,6 +831,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.runtimeUserInput">runtimeUserInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts">GoogleColabRuntimeTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.autoUpgrade">autoUpgrade</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.desiredState">desiredState</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1027,6 +1055,16 @@ public java.lang.Boolean|IResolvable getAutoUpgradeInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.descriptionInput"></a>
 
 ```java
@@ -1134,6 +1172,16 @@ public java.lang.Boolean|IResolvable getAutoUpgrade();
 ```
 
 - *Type:* java.lang.Boolean|io.cdktn.cdktn.IResolvable
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntime.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1256,6 +1304,7 @@ GoogleColabRuntimeConfig.builder()
     .location(java.lang.String)
     .runtimeUser(java.lang.String)
 //  .autoUpgrade(java.lang.Boolean|IResolvable)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .desiredState(java.lang.String)
 //  .id(java.lang.String)
@@ -1281,12 +1330,13 @@ GoogleColabRuntimeConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location for the resource: https://cloud.google.com/colab/docs/locations. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.runtimeUser">runtimeUser</a></code> | <code>java.lang.String</code> | The user email of the NotebookRuntime. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.autoUpgrade">autoUpgrade</a></code> | <code>java.lang.Boolean\|io.cdktn.cdktn.IResolvable</code> | Triggers an upgrade anytime the runtime is started if it is upgradable. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.description">description</a></code> | <code>java.lang.String</code> | The description of the Runtime. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.desiredState">desiredState</a></code> | <code>java.lang.String</code> | Desired state of the Colab Runtime. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#id GoogleColabRuntime#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#id GoogleColabRuntime#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.name">name</a></code> | <code>java.lang.String</code> | The resource name of the Runtime. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.notebookRuntimeTemplateRef">notebookRuntimeTemplateRef</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeNotebookRuntimeTemplateRef">GoogleColabRuntimeNotebookRuntimeTemplateRef</a></code> | notebook_runtime_template_ref block. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#project GoogleColabRuntime#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#project GoogleColabRuntime#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts">GoogleColabRuntimeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1371,7 +1421,7 @@ public java.lang.String getDisplayName();
 
 Required. The display name of the Runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#display_name GoogleColabRuntime#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#display_name GoogleColabRuntime#display_name}
 
 ---
 
@@ -1385,7 +1435,7 @@ public java.lang.String getLocation();
 
 The location for the resource: https://cloud.google.com/colab/docs/locations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#location GoogleColabRuntime#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#location GoogleColabRuntime#location}
 
 ---
 
@@ -1399,7 +1449,7 @@ public java.lang.String getRuntimeUser();
 
 The user email of the NotebookRuntime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#runtime_user GoogleColabRuntime#runtime_user}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#runtime_user GoogleColabRuntime#runtime_user}
 
 ---
 
@@ -1413,7 +1463,28 @@ public java.lang.Boolean|IResolvable getAutoUpgrade();
 
 Triggers an upgrade anytime the runtime is started if it is upgradable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#auto_upgrade GoogleColabRuntime#auto_upgrade}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#auto_upgrade GoogleColabRuntime#auto_upgrade}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#deletion_policy GoogleColabRuntime#deletion_policy}
 
 ---
 
@@ -1427,7 +1498,7 @@ public java.lang.String getDescription();
 
 The description of the Runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#description GoogleColabRuntime#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#description GoogleColabRuntime#description}
 
 ---
 
@@ -1443,7 +1514,7 @@ Desired state of the Colab Runtime.
 
 Set this field to 'RUNNING' to start the runtime, and 'STOPPED' to stop it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#desired_state GoogleColabRuntime#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#desired_state GoogleColabRuntime#desired_state}
 
 ---
 
@@ -1455,7 +1526,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#id GoogleColabRuntime#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#id GoogleColabRuntime#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1472,7 +1543,7 @@ public java.lang.String getName();
 
 The resource name of the Runtime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#name GoogleColabRuntime#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#name GoogleColabRuntime#name}
 
 ---
 
@@ -1486,7 +1557,7 @@ public GoogleColabRuntimeNotebookRuntimeTemplateRef getNotebookRuntimeTemplateRe
 
 notebook_runtime_template_ref block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#notebook_runtime_template_ref GoogleColabRuntime#notebook_runtime_template_ref}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#notebook_runtime_template_ref GoogleColabRuntime#notebook_runtime_template_ref}
 
 ---
 
@@ -1498,7 +1569,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#project GoogleColabRuntime#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#project GoogleColabRuntime#project}.
 
 ---
 
@@ -1512,7 +1583,7 @@ public GoogleColabRuntimeTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#timeouts GoogleColabRuntime#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#timeouts GoogleColabRuntime#timeouts}
 
 ---
 
@@ -1546,7 +1617,7 @@ public java.lang.String getNotebookRuntimeTemplate();
 
 The resource name of the NotebookRuntimeTemplate based on which a NotebookRuntime will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#notebook_runtime_template GoogleColabRuntime#notebook_runtime_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#notebook_runtime_template GoogleColabRuntime#notebook_runtime_template}
 
 ---
 
@@ -1568,9 +1639,9 @@ GoogleColabRuntimeTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#create GoogleColabRuntime#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#delete GoogleColabRuntime#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#update GoogleColabRuntime#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#create GoogleColabRuntime#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#delete GoogleColabRuntime#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleColabRuntime.GoogleColabRuntimeTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#update GoogleColabRuntime#update}. |
 
 ---
 
@@ -1582,7 +1653,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#create GoogleColabRuntime#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#create GoogleColabRuntime#create}.
 
 ---
 
@@ -1594,7 +1665,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#delete GoogleColabRuntime#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#delete GoogleColabRuntime#delete}.
 
 ---
 
@@ -1606,7 +1677,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_colab_runtime#update GoogleColabRuntime#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_colab_runtime#update GoogleColabRuntime#update}.
 
 ---
 

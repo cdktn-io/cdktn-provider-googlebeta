@@ -4,7 +4,7 @@
 
 ### GoogleSccNotificationConfig <a name="GoogleSccNotificationConfig" id="@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config google_scc_notification_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config google_scc_notification_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer"></a>
 
@@ -23,6 +23,7 @@ GoogleSccNotificationConfig.Builder.create(Construct scope, java.lang.String id)
     .organization(java.lang.String)
     .pubsubTopic(java.lang.String)
     .streamingConfig(GoogleSccNotificationConfigStreamingConfig)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .timeouts(GoogleSccNotificationConfigTimeouts)
@@ -44,8 +45,9 @@ GoogleSccNotificationConfig.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer.parameter.organization">organization</a></code> | <code>java.lang.String</code> | The organization whose Cloud Security Command Center the Notification Config lives in. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer.parameter.pubsubTopic">pubsubTopic</a></code> | <code>java.lang.String</code> | The Pub/Sub topic to send notifications to. Its format is "projects/[project_id]/topics/[topic]". |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer.parameter.streamingConfig">streamingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigStreamingConfig">GoogleSccNotificationConfigStreamingConfig</a></code> | streaming_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | The description of the notification config (max of 1024 characters). |
-| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#id GoogleSccNotificationConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#id GoogleSccNotificationConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts">GoogleSccNotificationConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -116,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 This must be unique within the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#config_id GoogleSccNotificationConfig#config_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#config_id GoogleSccNotificationConfig#config_id}
 
 ---
 
@@ -126,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The organization whose Cloud Security Command Center the Notification Config lives in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#organization GoogleSccNotificationConfig#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#organization GoogleSccNotificationConfig#organization}
 
 ---
 
@@ -136,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Pub/Sub topic to send notifications to. Its format is "projects/[project_id]/topics/[topic]".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#pubsub_topic GoogleSccNotificationConfig#pubsub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#pubsub_topic GoogleSccNotificationConfig#pubsub_topic}
 
 ---
 
@@ -146,7 +148,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 streaming_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#streaming_config GoogleSccNotificationConfig#streaming_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#streaming_config GoogleSccNotificationConfig#streaming_config}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#deletion_policy GoogleSccNotificationConfig#deletion_policy}
 
 ---
 
@@ -156,7 +175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The description of the notification config (max of 1024 characters).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#description GoogleSccNotificationConfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#description GoogleSccNotificationConfig#description}
 
 ---
 
@@ -164,7 +183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#id GoogleSccNotificationConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#id GoogleSccNotificationConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -177,7 +196,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#timeouts GoogleSccNotificationConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#timeouts GoogleSccNotificationConfig#timeouts}
 
 ---
 
@@ -211,6 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.putStreamingConfig">putStreamingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -552,6 +572,12 @@ public void putTimeouts(GoogleSccNotificationConfigTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.resetDescription"></a>
 
 ```java
@@ -673,7 +699,7 @@ The construct id used in the generated config for the GoogleSccNotificationConfi
 
 The id of the existing GoogleSccNotificationConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -708,6 +734,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.streamingConfig">streamingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigStreamingConfigOutputReference">GoogleSccNotificationConfigStreamingConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeoutsOutputReference">GoogleSccNotificationConfigTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.configIdInput">configIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.organizationInput">organizationInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -715,6 +742,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.streamingConfigInput">streamingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigStreamingConfig">GoogleSccNotificationConfigStreamingConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts">GoogleSccNotificationConfigTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.configId">configId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.organization">organization</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -914,6 +942,16 @@ public java.lang.String getConfigIdInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.descriptionInput"></a>
 
 ```java
@@ -978,6 +1016,16 @@ public IResolvable|GoogleSccNotificationConfigTimeouts getTimeoutsInput();
 
 ```java
 public java.lang.String getConfigId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1063,6 +1111,7 @@ GoogleSccNotificationConfigConfig.builder()
     .organization(java.lang.String)
     .pubsubTopic(java.lang.String)
     .streamingConfig(GoogleSccNotificationConfigStreamingConfig)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .timeouts(GoogleSccNotificationConfigTimeouts)
@@ -1084,8 +1133,9 @@ GoogleSccNotificationConfigConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig.property.organization">organization</a></code> | <code>java.lang.String</code> | The organization whose Cloud Security Command Center the Notification Config lives in. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig.property.pubsubTopic">pubsubTopic</a></code> | <code>java.lang.String</code> | The Pub/Sub topic to send notifications to. Its format is "projects/[project_id]/topics/[topic]". |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig.property.streamingConfig">streamingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigStreamingConfig">GoogleSccNotificationConfigStreamingConfig</a></code> | streaming_config block. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig.property.description">description</a></code> | <code>java.lang.String</code> | The description of the notification config (max of 1024 characters). |
-| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#id GoogleSccNotificationConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#id GoogleSccNotificationConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts">GoogleSccNotificationConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1170,7 +1220,7 @@ public java.lang.String getConfigId();
 
 This must be unique within the organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#config_id GoogleSccNotificationConfig#config_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#config_id GoogleSccNotificationConfig#config_id}
 
 ---
 
@@ -1184,7 +1234,7 @@ public java.lang.String getOrganization();
 
 The organization whose Cloud Security Command Center the Notification Config lives in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#organization GoogleSccNotificationConfig#organization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#organization GoogleSccNotificationConfig#organization}
 
 ---
 
@@ -1198,7 +1248,7 @@ public java.lang.String getPubsubTopic();
 
 The Pub/Sub topic to send notifications to. Its format is "projects/[project_id]/topics/[topic]".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#pubsub_topic GoogleSccNotificationConfig#pubsub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#pubsub_topic GoogleSccNotificationConfig#pubsub_topic}
 
 ---
 
@@ -1212,7 +1262,28 @@ public GoogleSccNotificationConfigStreamingConfig getStreamingConfig();
 
 streaming_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#streaming_config GoogleSccNotificationConfig#streaming_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#streaming_config GoogleSccNotificationConfig#streaming_config}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#deletion_policy GoogleSccNotificationConfig#deletion_policy}
 
 ---
 
@@ -1226,7 +1297,7 @@ public java.lang.String getDescription();
 
 The description of the notification config (max of 1024 characters).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#description GoogleSccNotificationConfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#description GoogleSccNotificationConfig#description}
 
 ---
 
@@ -1238,7 +1309,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#id GoogleSccNotificationConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#id GoogleSccNotificationConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1255,7 +1326,7 @@ public GoogleSccNotificationConfigTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#timeouts GoogleSccNotificationConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#timeouts GoogleSccNotificationConfig#timeouts}
 
 ---
 
@@ -1314,7 +1385,7 @@ See
 [Filtering notifications](https://cloud.google.com/security-command-center/docs/how-to-api-filter-notifications)
 for information on how to write a filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#filter GoogleSccNotificationConfig#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#filter GoogleSccNotificationConfig#filter}
 
 ---
 
@@ -1336,9 +1407,9 @@ GoogleSccNotificationConfigTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#create GoogleSccNotificationConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#delete GoogleSccNotificationConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#update GoogleSccNotificationConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#create GoogleSccNotificationConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#delete GoogleSccNotificationConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccNotificationConfig.GoogleSccNotificationConfigTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#update GoogleSccNotificationConfig#update}. |
 
 ---
 
@@ -1350,7 +1421,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#create GoogleSccNotificationConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#create GoogleSccNotificationConfig#create}.
 
 ---
 
@@ -1362,7 +1433,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#delete GoogleSccNotificationConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#delete GoogleSccNotificationConfig#delete}.
 
 ---
 
@@ -1374,7 +1445,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_notification_config#update GoogleSccNotificationConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_notification_config#update GoogleSccNotificationConfig#update}.
 
 ---
 

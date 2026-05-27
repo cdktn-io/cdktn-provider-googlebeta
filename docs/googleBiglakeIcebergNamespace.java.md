@@ -4,7 +4,7 @@
 
 ### GoogleBiglakeIcebergNamespace <a name="GoogleBiglakeIcebergNamespace" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace google_biglake_iceberg_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace google_biglake_iceberg_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer"></a>
 
@@ -21,6 +21,7 @@ GoogleBiglakeIcebergNamespace.Builder.create(Construct scope, java.lang.String i
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .catalog(java.lang.String)
     .namespaceId(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .properties(java.util.Map<java.lang.String, java.lang.String>)
@@ -41,8 +42,9 @@ GoogleBiglakeIcebergNamespace.Builder.create(Construct scope, java.lang.String i
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.catalog">catalog</a></code> | <code>java.lang.String</code> | The name of the IcebergCatalog. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.namespaceId">namespaceId</a></code> | <code>java.lang.String</code> | The unique identifier of the namespace. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#id GoogleBiglakeIcebergNamespace#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#project GoogleBiglakeIcebergNamespace#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#id GoogleBiglakeIcebergNamespace#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#project GoogleBiglakeIcebergNamespace#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.properties">properties</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | User-defined properties for the namespace. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeouts">GoogleBiglakeIcebergNamespaceTimeouts</a></code> | timeouts block. |
 
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the IcebergCatalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#catalog GoogleBiglakeIcebergNamespace#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#catalog GoogleBiglakeIcebergNamespace#catalog}
 
 ---
 
@@ -124,7 +126,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique identifier of the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#namespace_id GoogleBiglakeIcebergNamespace#namespace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#namespace_id GoogleBiglakeIcebergNamespace#namespace_id}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#deletion_policy GoogleBiglakeIcebergNamespace#deletion_policy}
 
 ---
 
@@ -132,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#id GoogleBiglakeIcebergNamespace#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#id GoogleBiglakeIcebergNamespace#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,7 +162,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#project GoogleBiglakeIcebergNamespace#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#project GoogleBiglakeIcebergNamespace#project}.
 
 ---
 
@@ -153,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-defined properties for the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#properties GoogleBiglakeIcebergNamespace#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#properties GoogleBiglakeIcebergNamespace#properties}
 
 ---
 
@@ -163,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#timeouts GoogleBiglakeIcebergNamespace#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#timeouts GoogleBiglakeIcebergNamespace#timeouts}
 
 ---
 
@@ -196,6 +215,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.resetProperties">resetProperties</a></code> | *No description.* |
@@ -526,6 +546,12 @@ public void putTimeouts(GoogleBiglakeIcebergNamespaceTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.resetId"></a>
 
 ```java
@@ -653,7 +679,7 @@ The construct id used in the generated config for the GoogleBiglakeIcebergNamesp
 
 The id of the existing GoogleBiglakeIcebergNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -685,12 +711,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeoutsOutputReference">GoogleBiglakeIcebergNamespaceTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.catalogInput">catalogInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.namespaceIdInput">namespaceIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.propertiesInput">propertiesInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeouts">GoogleBiglakeIcebergNamespaceTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.catalog">catalog</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.namespaceId">namespaceId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -860,6 +888,16 @@ public java.lang.String getCatalogInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.idInput"></a>
 
 ```java
@@ -914,6 +952,16 @@ public IResolvable|GoogleBiglakeIcebergNamespaceTimeouts getTimeoutsInput();
 
 ```java
 public java.lang.String getCatalog();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespace.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -997,6 +1045,7 @@ GoogleBiglakeIcebergNamespaceConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .catalog(java.lang.String)
     .namespaceId(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .properties(java.util.Map<java.lang.String, java.lang.String>)
@@ -1017,8 +1066,9 @@ GoogleBiglakeIcebergNamespaceConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.catalog">catalog</a></code> | <code>java.lang.String</code> | The name of the IcebergCatalog. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.namespaceId">namespaceId</a></code> | <code>java.lang.String</code> | The unique identifier of the namespace. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#id GoogleBiglakeIcebergNamespace#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#project GoogleBiglakeIcebergNamespace#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#id GoogleBiglakeIcebergNamespace#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#project GoogleBiglakeIcebergNamespace#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.properties">properties</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | User-defined properties for the namespace. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeouts">GoogleBiglakeIcebergNamespaceTimeouts</a></code> | timeouts block. |
 
@@ -1104,7 +1154,7 @@ public java.lang.String getCatalog();
 
 The name of the IcebergCatalog.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#catalog GoogleBiglakeIcebergNamespace#catalog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#catalog GoogleBiglakeIcebergNamespace#catalog}
 
 ---
 
@@ -1118,7 +1168,28 @@ public java.lang.String getNamespaceId();
 
 The unique identifier of the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#namespace_id GoogleBiglakeIcebergNamespace#namespace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#namespace_id GoogleBiglakeIcebergNamespace#namespace_id}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#deletion_policy GoogleBiglakeIcebergNamespace#deletion_policy}
 
 ---
 
@@ -1130,7 +1201,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#id GoogleBiglakeIcebergNamespace#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#id GoogleBiglakeIcebergNamespace#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1145,7 +1216,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#project GoogleBiglakeIcebergNamespace#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#project GoogleBiglakeIcebergNamespace#project}.
 
 ---
 
@@ -1159,7 +1230,7 @@ public java.util.Map<java.lang.String, java.lang.String> getProperties();
 
 User-defined properties for the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#properties GoogleBiglakeIcebergNamespace#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#properties GoogleBiglakeIcebergNamespace#properties}
 
 ---
 
@@ -1173,7 +1244,7 @@ public GoogleBiglakeIcebergNamespaceTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#timeouts GoogleBiglakeIcebergNamespace#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#timeouts GoogleBiglakeIcebergNamespace#timeouts}
 
 ---
 
@@ -1195,9 +1266,9 @@ GoogleBiglakeIcebergNamespaceTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#create GoogleBiglakeIcebergNamespace#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#delete GoogleBiglakeIcebergNamespace#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#update GoogleBiglakeIcebergNamespace#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#create GoogleBiglakeIcebergNamespace#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#delete GoogleBiglakeIcebergNamespace#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergNamespace.GoogleBiglakeIcebergNamespaceTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#update GoogleBiglakeIcebergNamespace#update}. |
 
 ---
 
@@ -1209,7 +1280,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#create GoogleBiglakeIcebergNamespace#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#create GoogleBiglakeIcebergNamespace#create}.
 
 ---
 
@@ -1221,7 +1292,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#delete GoogleBiglakeIcebergNamespace#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#delete GoogleBiglakeIcebergNamespace#delete}.
 
 ---
 
@@ -1233,7 +1304,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_biglake_iceberg_namespace#update GoogleBiglakeIcebergNamespace#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_biglake_iceberg_namespace#update GoogleBiglakeIcebergNamespace#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleComputeProjectCloudArmorTier <a name="GoogleComputeProjectCloudArmorTier" id="@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier google_compute_project_cloud_armor_tier}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier google_compute_project_cloud_armor_tier}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer"></a>
 
@@ -20,6 +20,7 @@ GoogleComputeProjectCloudArmorTier.Builder.create(Construct scope, java.lang.Str
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .cloudArmorTier(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleComputeProjectCloudArmorTierTimeouts)
@@ -38,8 +39,9 @@ GoogleComputeProjectCloudArmorTier.Builder.create(Construct scope, java.lang.Str
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.cloudArmorTier">cloudArmorTier</a></code> | <code>java.lang.String</code> | Managed protection tier to be set. Possible values: ["CA_STANDARD", "CA_ENTERPRISE_PAYGO", "CA_ENTERPRISE_ANNUAL"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#id GoogleComputeProjectCloudArmorTier#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#project GoogleComputeProjectCloudArmorTier#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#id GoogleComputeProjectCloudArmorTier#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#project GoogleComputeProjectCloudArmorTier#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeouts">GoogleComputeProjectCloudArmorTierTimeouts</a></code> | timeouts block. |
 
 ---
@@ -110,7 +112,24 @@ Must be unique amongst siblings in the same scope
 
 Managed protection tier to be set. Possible values: ["CA_STANDARD", "CA_ENTERPRISE_PAYGO", "CA_ENTERPRISE_ANNUAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#cloud_armor_tier GoogleComputeProjectCloudArmorTier#cloud_armor_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#cloud_armor_tier GoogleComputeProjectCloudArmorTier#cloud_armor_tier}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#deletion_policy GoogleComputeProjectCloudArmorTier#deletion_policy}
 
 ---
 
@@ -118,7 +137,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#id GoogleComputeProjectCloudArmorTier#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#id GoogleComputeProjectCloudArmorTier#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -129,7 +148,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#project GoogleComputeProjectCloudArmorTier#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#project GoogleComputeProjectCloudArmorTier#project}.
 
 ---
 
@@ -139,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#timeouts GoogleComputeProjectCloudArmorTier#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#timeouts GoogleComputeProjectCloudArmorTier#timeouts}
 
 ---
 
@@ -172,6 +191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -501,6 +521,12 @@ public void putTimeouts(GoogleComputeProjectCloudArmorTierTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.resetId"></a>
 
 ```java
@@ -622,7 +648,7 @@ The construct id used in the generated config for the GoogleComputeProjectCloudA
 
 The id of the existing GoogleComputeProjectCloudArmorTier that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -654,10 +680,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeoutsOutputReference">GoogleComputeProjectCloudArmorTierTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.cloudArmorTierInput">cloudArmorTierInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeouts">GoogleComputeProjectCloudArmorTierTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.cloudArmorTier">cloudArmorTier</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
 
@@ -825,6 +853,16 @@ public java.lang.String getCloudArmorTierInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.idInput"></a>
 
 ```java
@@ -859,6 +897,16 @@ public IResolvable|GoogleComputeProjectCloudArmorTierTimeouts getTimeoutsInput()
 
 ```java
 public java.lang.String getCloudArmorTier();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTier.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -921,6 +969,7 @@ GoogleComputeProjectCloudArmorTierConfig.builder()
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .cloudArmorTier(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleComputeProjectCloudArmorTierTimeouts)
@@ -939,8 +988,9 @@ GoogleComputeProjectCloudArmorTierConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.cloudArmorTier">cloudArmorTier</a></code> | <code>java.lang.String</code> | Managed protection tier to be set. Possible values: ["CA_STANDARD", "CA_ENTERPRISE_PAYGO", "CA_ENTERPRISE_ANNUAL"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#id GoogleComputeProjectCloudArmorTier#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#project GoogleComputeProjectCloudArmorTier#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#id GoogleComputeProjectCloudArmorTier#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#project GoogleComputeProjectCloudArmorTier#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeouts">GoogleComputeProjectCloudArmorTierTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1025,7 +1075,28 @@ public java.lang.String getCloudArmorTier();
 
 Managed protection tier to be set. Possible values: ["CA_STANDARD", "CA_ENTERPRISE_PAYGO", "CA_ENTERPRISE_ANNUAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#cloud_armor_tier GoogleComputeProjectCloudArmorTier#cloud_armor_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#cloud_armor_tier GoogleComputeProjectCloudArmorTier#cloud_armor_tier}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#deletion_policy GoogleComputeProjectCloudArmorTier#deletion_policy}
 
 ---
 
@@ -1037,7 +1108,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#id GoogleComputeProjectCloudArmorTier#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#id GoogleComputeProjectCloudArmorTier#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1052,7 +1123,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#project GoogleComputeProjectCloudArmorTier#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#project GoogleComputeProjectCloudArmorTier#project}.
 
 ---
 
@@ -1066,7 +1137,7 @@ public GoogleComputeProjectCloudArmorTierTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#timeouts GoogleComputeProjectCloudArmorTier#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#timeouts GoogleComputeProjectCloudArmorTier#timeouts}
 
 ---
 
@@ -1088,9 +1159,9 @@ GoogleComputeProjectCloudArmorTierTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#create GoogleComputeProjectCloudArmorTier#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#delete GoogleComputeProjectCloudArmorTier#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#update GoogleComputeProjectCloudArmorTier#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#create GoogleComputeProjectCloudArmorTier#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#delete GoogleComputeProjectCloudArmorTier#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeProjectCloudArmorTier.GoogleComputeProjectCloudArmorTierTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#update GoogleComputeProjectCloudArmorTier#update}. |
 
 ---
 
@@ -1102,7 +1173,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#create GoogleComputeProjectCloudArmorTier#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#create GoogleComputeProjectCloudArmorTier#create}.
 
 ---
 
@@ -1114,7 +1185,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#delete GoogleComputeProjectCloudArmorTier#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#delete GoogleComputeProjectCloudArmorTier#delete}.
 
 ---
 
@@ -1126,7 +1197,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_project_cloud_armor_tier#update GoogleComputeProjectCloudArmorTier#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_project_cloud_armor_tier#update GoogleComputeProjectCloudArmorTier#update}.
 
 ---
 

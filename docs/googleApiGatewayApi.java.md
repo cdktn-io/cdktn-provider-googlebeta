@@ -4,7 +4,7 @@
 
 ### GoogleApiGatewayApi <a name="GoogleApiGatewayApi" id="@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api google_api_gateway_api}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api google_api_gateway_api}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer"></a>
 
@@ -20,6 +20,7 @@ GoogleApiGatewayApi.Builder.create(Construct scope, java.lang.String id)
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .apiId(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .displayName(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -41,11 +42,12 @@ GoogleApiGatewayApi.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.apiId">apiId</a></code> | <code>java.lang.String</code> | Identifier to assign to the API. Must be unique within scope of the parent resource(project). |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | A user-visible name for the API. |
-| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#id GoogleApiGatewayApi#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#id GoogleApiGatewayApi#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource labels to represent user-provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.managedService">managedService</a></code> | <code>java.lang.String</code> | Immutable. |
-| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#project GoogleApiGatewayApi#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#project GoogleApiGatewayApi#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeouts">GoogleApiGatewayApiTimeouts</a></code> | timeouts block. |
 
 ---
@@ -116,7 +118,24 @@ Must be unique amongst siblings in the same scope
 
 Identifier to assign to the API. Must be unique within scope of the parent resource(project).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#api_id GoogleApiGatewayApi#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#api_id GoogleApiGatewayApi#api_id}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#deletion_policy GoogleApiGatewayApi#deletion_policy}
 
 ---
 
@@ -126,7 +145,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A user-visible name for the API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#display_name GoogleApiGatewayApi#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#display_name GoogleApiGatewayApi#display_name}
 
 ---
 
@@ -134,7 +153,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#id GoogleApiGatewayApi#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#id GoogleApiGatewayApi#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -150,7 +169,7 @@ Resource labels to represent user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#labels GoogleApiGatewayApi#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#labels GoogleApiGatewayApi#labels}
 
 ---
 
@@ -163,7 +182,7 @@ Immutable.
 The name of a Google Managed Service ( https://cloud.google.com/service-infrastructure/docs/glossary#managed).
 If not specified, a new Service will automatically be created in the same project as this API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#managed_service GoogleApiGatewayApi#managed_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#managed_service GoogleApiGatewayApi#managed_service}
 
 ---
 
@@ -171,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#project GoogleApiGatewayApi#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#project GoogleApiGatewayApi#project}.
 
 ---
 
@@ -181,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#timeouts GoogleApiGatewayApi#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#timeouts GoogleApiGatewayApi#timeouts}
 
 ---
 
@@ -214,6 +233,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.resetDisplayName">resetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.resetLabels">resetLabels</a></code> | *No description.* |
@@ -546,6 +566,12 @@ public void putTimeouts(GoogleApiGatewayApiTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDisplayName` <a name="resetDisplayName" id="@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.resetDisplayName"></a>
 
 ```java
@@ -685,7 +711,7 @@ The construct id used in the generated config for the GoogleApiGatewayApi to imp
 
 The id of the existing GoogleApiGatewayApi that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -721,6 +747,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.terraformLabels">terraformLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeoutsOutputReference">GoogleApiGatewayApiTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.apiIdInput">apiIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.labelsInput">labelsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -728,6 +755,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeouts">GoogleApiGatewayApiTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.apiId">apiId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -938,6 +966,16 @@ public java.lang.String getApiIdInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `displayNameInput`<sup>Optional</sup> <a name="displayNameInput" id="@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.displayNameInput"></a>
 
 ```java
@@ -1002,6 +1040,16 @@ public IResolvable|GoogleApiGatewayApiTimeouts getTimeoutsInput();
 
 ```java
 public java.lang.String getApiId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApi.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1094,6 +1142,7 @@ GoogleApiGatewayApiConfig.builder()
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .apiId(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .displayName(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -1115,11 +1164,12 @@ GoogleApiGatewayApiConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.apiId">apiId</a></code> | <code>java.lang.String</code> | Identifier to assign to the API. Must be unique within scope of the parent resource(project). |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | A user-visible name for the API. |
-| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#id GoogleApiGatewayApi#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#id GoogleApiGatewayApi#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Resource labels to represent user-provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.managedService">managedService</a></code> | <code>java.lang.String</code> | Immutable. |
-| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#project GoogleApiGatewayApi#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#project GoogleApiGatewayApi#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeouts">GoogleApiGatewayApiTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1204,7 +1254,28 @@ public java.lang.String getApiId();
 
 Identifier to assign to the API. Must be unique within scope of the parent resource(project).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#api_id GoogleApiGatewayApi#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#api_id GoogleApiGatewayApi#api_id}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#deletion_policy GoogleApiGatewayApi#deletion_policy}
 
 ---
 
@@ -1218,7 +1289,7 @@ public java.lang.String getDisplayName();
 
 A user-visible name for the API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#display_name GoogleApiGatewayApi#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#display_name GoogleApiGatewayApi#display_name}
 
 ---
 
@@ -1230,7 +1301,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#id GoogleApiGatewayApi#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#id GoogleApiGatewayApi#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1250,7 +1321,7 @@ Resource labels to represent user-provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#labels GoogleApiGatewayApi#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#labels GoogleApiGatewayApi#labels}
 
 ---
 
@@ -1267,7 +1338,7 @@ Immutable.
 The name of a Google Managed Service ( https://cloud.google.com/service-infrastructure/docs/glossary#managed).
 If not specified, a new Service will automatically be created in the same project as this API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#managed_service GoogleApiGatewayApi#managed_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#managed_service GoogleApiGatewayApi#managed_service}
 
 ---
 
@@ -1279,7 +1350,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#project GoogleApiGatewayApi#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#project GoogleApiGatewayApi#project}.
 
 ---
 
@@ -1293,7 +1364,7 @@ public GoogleApiGatewayApiTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#timeouts GoogleApiGatewayApi#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#timeouts GoogleApiGatewayApi#timeouts}
 
 ---
 
@@ -1315,9 +1386,9 @@ GoogleApiGatewayApiTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#create GoogleApiGatewayApi#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#delete GoogleApiGatewayApi#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#update GoogleApiGatewayApi#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#create GoogleApiGatewayApi#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#delete GoogleApiGatewayApi#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApiGatewayApi.GoogleApiGatewayApiTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#update GoogleApiGatewayApi#update}. |
 
 ---
 
@@ -1329,7 +1400,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#create GoogleApiGatewayApi#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#create GoogleApiGatewayApi#create}.
 
 ---
 
@@ -1341,7 +1412,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#delete GoogleApiGatewayApi#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#delete GoogleApiGatewayApi#delete}.
 
 ---
 
@@ -1353,7 +1424,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_api_gateway_api#update GoogleApiGatewayApi#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_api_gateway_api#update GoogleApiGatewayApi#update}.
 
 ---
 

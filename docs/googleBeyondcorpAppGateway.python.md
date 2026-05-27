@@ -4,7 +4,7 @@
 
 ### GoogleBeyondcorpAppGateway <a name="GoogleBeyondcorpAppGateway" id="@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway google_beyondcorp_app_gateway}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway google_beyondcorp_app_gateway}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer"></a>
 
@@ -22,6 +22,7 @@ googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   name: str,
+  deletion_policy: str = None,
   display_name: str = None,
   host_type: str = None,
   id: str = None,
@@ -45,11 +46,12 @@ googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway(
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.name">name</a></code> | <code>str</code> | ID of the AppGateway. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | An arbitrary user-provided name for the AppGateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.hostType">host_type</a></code> | <code>str</code> | The type of hosting used by the AppGateway. Default value: "HOST_TYPE_UNSPECIFIED" Possible values: ["HOST_TYPE_UNSPECIFIED", "GCP_REGIONAL_MIG"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#id GoogleBeyondcorpAppGateway#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#id GoogleBeyondcorpAppGateway#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Resource labels to represent user provided metadata. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#project GoogleBeyondcorpAppGateway#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#project GoogleBeyondcorpAppGateway#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.region">region</a></code> | <code>str</code> | The region of the AppGateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts">GoogleBeyondcorpAppGatewayTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.type">type</a></code> | <code>str</code> | The type of network connectivity used by the AppGateway. Default value: "TYPE_UNSPECIFIED" Possible values: ["TYPE_UNSPECIFIED", "TCP_PROXY"]. |
@@ -122,7 +124,24 @@ Must be unique amongst siblings in the same scope
 
 ID of the AppGateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#name GoogleBeyondcorpAppGateway#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#name GoogleBeyondcorpAppGateway#name}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#deletion_policy GoogleBeyondcorpAppGateway#deletion_policy}
 
 ---
 
@@ -132,7 +151,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An arbitrary user-provided name for the AppGateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#display_name GoogleBeyondcorpAppGateway#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#display_name GoogleBeyondcorpAppGateway#display_name}
 
 ---
 
@@ -142,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of hosting used by the AppGateway. Default value: "HOST_TYPE_UNSPECIFIED" Possible values: ["HOST_TYPE_UNSPECIFIED", "GCP_REGIONAL_MIG"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#host_type GoogleBeyondcorpAppGateway#host_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#host_type GoogleBeyondcorpAppGateway#host_type}
 
 ---
 
@@ -150,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#id GoogleBeyondcorpAppGateway#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#id GoogleBeyondcorpAppGateway#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +185,7 @@ Resource labels to represent user provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#labels GoogleBeyondcorpAppGateway#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#labels GoogleBeyondcorpAppGateway#labels}
 
 ---
 
@@ -174,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#project GoogleBeyondcorpAppGateway#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#project GoogleBeyondcorpAppGateway#project}.
 
 ---
 
@@ -184,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The region of the AppGateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#region GoogleBeyondcorpAppGateway#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#region GoogleBeyondcorpAppGateway#region}
 
 ---
 
@@ -194,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#timeouts GoogleBeyondcorpAppGateway#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#timeouts GoogleBeyondcorpAppGateway#timeouts}
 
 ---
 
@@ -204,7 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of network connectivity used by the AppGateway. Default value: "TYPE_UNSPECIFIED" Possible values: ["TYPE_UNSPECIFIED", "TCP_PROXY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#type GoogleBeyondcorpAppGateway#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#type GoogleBeyondcorpAppGateway#type}
 
 ---
 
@@ -237,6 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.resetDisplayName">reset_display_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.resetHostType">reset_host_type</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.resetId">reset_id</a></code> | *No description.* |
@@ -610,7 +630,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#create GoogleBeyondcorpAppGateway#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#create GoogleBeyondcorpAppGateway#create}.
 
 ---
 
@@ -618,7 +638,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#delete GoogleBeyondcorpAppGateway#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#delete GoogleBeyondcorpAppGateway#delete}.
 
 ---
 
@@ -626,9 +646,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#update GoogleBeyondcorpAppGateway#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#update GoogleBeyondcorpAppGateway#update}.
 
 ---
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
+```
 
 ##### `reset_display_name` <a name="reset_display_name" id="@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.resetDisplayName"></a>
 
@@ -792,7 +818,7 @@ The construct id used in the generated config for the GoogleBeyondcorpAppGateway
 
 The id of the existing GoogleBeyondcorpAppGateway that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -828,6 +854,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.terraformLabels">terraform_labels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeoutsOutputReference">GoogleBeyondcorpAppGatewayTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.uri">uri</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.hostTypeInput">host_type_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
@@ -837,6 +864,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.regionInput">region_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts">GoogleBeyondcorpAppGatewayTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.typeInput">type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.hostType">host_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -1050,6 +1078,16 @@ uri: str
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `display_name_input`<sup>Optional</sup> <a name="display_name_input" id="@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.displayNameInput"></a>
 
 ```python
@@ -1134,6 +1172,16 @@ timeouts_input: IResolvable | GoogleBeyondcorpAppGatewayTimeouts
 
 ```python
 type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGateway.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
 ```
 
 - *Type:* str
@@ -1267,6 +1315,7 @@ googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   name: str,
+  deletion_policy: str = None,
   display_name: str = None,
   host_type: str = None,
   id: str = None,
@@ -1290,11 +1339,12 @@ googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.name">name</a></code> | <code>str</code> | ID of the AppGateway. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.displayName">display_name</a></code> | <code>str</code> | An arbitrary user-provided name for the AppGateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.hostType">host_type</a></code> | <code>str</code> | The type of hosting used by the AppGateway. Default value: "HOST_TYPE_UNSPECIFIED" Possible values: ["HOST_TYPE_UNSPECIFIED", "GCP_REGIONAL_MIG"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#id GoogleBeyondcorpAppGateway#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#id GoogleBeyondcorpAppGateway#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.labels">labels</a></code> | <code>typing.Mapping[str]</code> | Resource labels to represent user provided metadata. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#project GoogleBeyondcorpAppGateway#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#project GoogleBeyondcorpAppGateway#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.region">region</a></code> | <code>str</code> | The region of the AppGateway. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts">GoogleBeyondcorpAppGatewayTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.type">type</a></code> | <code>str</code> | The type of network connectivity used by the AppGateway. Default value: "TYPE_UNSPECIFIED" Possible values: ["TYPE_UNSPECIFIED", "TCP_PROXY"]. |
@@ -1381,7 +1431,28 @@ name: str
 
 ID of the AppGateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#name GoogleBeyondcorpAppGateway#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#name GoogleBeyondcorpAppGateway#name}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#deletion_policy GoogleBeyondcorpAppGateway#deletion_policy}
 
 ---
 
@@ -1395,7 +1466,7 @@ display_name: str
 
 An arbitrary user-provided name for the AppGateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#display_name GoogleBeyondcorpAppGateway#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#display_name GoogleBeyondcorpAppGateway#display_name}
 
 ---
 
@@ -1409,7 +1480,7 @@ host_type: str
 
 The type of hosting used by the AppGateway. Default value: "HOST_TYPE_UNSPECIFIED" Possible values: ["HOST_TYPE_UNSPECIFIED", "GCP_REGIONAL_MIG"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#host_type GoogleBeyondcorpAppGateway#host_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#host_type GoogleBeyondcorpAppGateway#host_type}
 
 ---
 
@@ -1421,7 +1492,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#id GoogleBeyondcorpAppGateway#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#id GoogleBeyondcorpAppGateway#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1441,7 +1512,7 @@ Resource labels to represent user provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#labels GoogleBeyondcorpAppGateway#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#labels GoogleBeyondcorpAppGateway#labels}
 
 ---
 
@@ -1453,7 +1524,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#project GoogleBeyondcorpAppGateway#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#project GoogleBeyondcorpAppGateway#project}.
 
 ---
 
@@ -1467,7 +1538,7 @@ region: str
 
 The region of the AppGateway.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#region GoogleBeyondcorpAppGateway#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#region GoogleBeyondcorpAppGateway#region}
 
 ---
 
@@ -1481,7 +1552,7 @@ timeouts: GoogleBeyondcorpAppGatewayTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#timeouts GoogleBeyondcorpAppGateway#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#timeouts GoogleBeyondcorpAppGateway#timeouts}
 
 ---
 
@@ -1495,7 +1566,7 @@ type: str
 
 The type of network connectivity used by the AppGateway. Default value: "TYPE_UNSPECIFIED" Possible values: ["TYPE_UNSPECIFIED", "TCP_PROXY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#type GoogleBeyondcorpAppGateway#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#type GoogleBeyondcorpAppGateway#type}
 
 ---
 
@@ -1517,9 +1588,9 @@ googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#create GoogleBeyondcorpAppGateway#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#delete GoogleBeyondcorpAppGateway#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#update GoogleBeyondcorpAppGateway#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#create GoogleBeyondcorpAppGateway#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#delete GoogleBeyondcorpAppGateway#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBeyondcorpAppGateway.GoogleBeyondcorpAppGatewayTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#update GoogleBeyondcorpAppGateway#update}. |
 
 ---
 
@@ -1531,7 +1602,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#create GoogleBeyondcorpAppGateway#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#create GoogleBeyondcorpAppGateway#create}.
 
 ---
 
@@ -1543,7 +1614,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#delete GoogleBeyondcorpAppGateway#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#delete GoogleBeyondcorpAppGateway#delete}.
 
 ---
 
@@ -1555,7 +1626,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_beyondcorp_app_gateway#update GoogleBeyondcorpAppGateway#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_beyondcorp_app_gateway#update GoogleBeyondcorpAppGateway#update}.
 
 ---
 

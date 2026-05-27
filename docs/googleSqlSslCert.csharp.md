@@ -4,7 +4,7 @@
 
 ### GoogleSqlSslCert <a name="GoogleSqlSslCert" id="@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert google_sql_ssl_cert}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.resetProject">ResetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
@@ -402,6 +403,12 @@ private void PutTimeouts(GoogleSqlSslCertTimeouts Value)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.resetId"></a>
 
 ```csharp
@@ -523,7 +530,7 @@ The construct id used in the generated config for the GoogleSqlSslCert to import
 
 The id of the existing GoogleSqlSslCert that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -562,11 +569,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.sha1Fingerprint">Sha1Fingerprint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertTimeoutsOutputReference">GoogleSqlSslCertTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.commonNameInput">CommonNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.instanceInput">InstanceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertTimeouts">GoogleSqlSslCertTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.commonName">CommonName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.instance">Instance</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.project">Project</a></code> | <code>string</code> | *No description.* |
@@ -805,6 +814,16 @@ public string CommonNameInput { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.idInput"></a>
 
 ```csharp
@@ -849,6 +868,16 @@ public IResolvable|GoogleSqlSslCertTimeouts TimeoutsInput { get; }
 
 ```csharp
 public string CommonName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCert.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
 ```
 
 - *Type:* string
@@ -922,6 +951,7 @@ new GoogleSqlSslCertConfig {
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string CommonName,
     string Instance,
+    string DeletionPolicy = null,
     string Id = null,
     string Project = null,
     GoogleSqlSslCertTimeouts Timeouts = null
@@ -941,7 +971,8 @@ new GoogleSqlSslCertConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertConfig.property.commonName">CommonName</a></code> | <code>string</code> | The common name to be used in the certificate to identify the client. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertConfig.property.instance">Instance</a></code> | <code>string</code> | The name of the Cloud SQL instance. Changing this forces a new resource to be created. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#id GoogleSqlSslCert#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#id GoogleSqlSslCert#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertConfig.property.project">Project</a></code> | <code>string</code> | The ID of the project in which the resource belongs. |
 | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertTimeouts">GoogleSqlSslCertTimeouts</a></code> | timeouts block. |
 
@@ -1029,7 +1060,7 @@ The common name to be used in the certificate to identify the client.
 
 Constrained to [a-zA-Z.-_ ]+. Changing this forces a new resource to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#common_name GoogleSqlSslCert#common_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#common_name GoogleSqlSslCert#common_name}
 
 ---
 
@@ -1043,7 +1074,28 @@ public string Instance { get; set; }
 
 The name of the Cloud SQL instance. Changing this forces a new resource to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#instance GoogleSqlSslCert#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#instance GoogleSqlSslCert#instance}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#deletion_policy GoogleSqlSslCert#deletion_policy}
 
 ---
 
@@ -1055,7 +1107,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#id GoogleSqlSslCert#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#id GoogleSqlSslCert#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1074,7 +1126,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#project GoogleSqlSslCert#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#project GoogleSqlSslCert#project}
 
 ---
 
@@ -1088,7 +1140,7 @@ public GoogleSqlSslCertTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#timeouts GoogleSqlSslCert#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#timeouts GoogleSqlSslCert#timeouts}
 
 ---
 
@@ -1109,8 +1161,8 @@ new GoogleSqlSslCertTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#create GoogleSqlSslCert#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#delete GoogleSqlSslCert#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#create GoogleSqlSslCert#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSqlSslCert.GoogleSqlSslCertTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#delete GoogleSqlSslCert#delete}. |
 
 ---
 
@@ -1122,7 +1174,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#create GoogleSqlSslCert#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#create GoogleSqlSslCert#create}.
 
 ---
 
@@ -1134,7 +1186,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_sql_ssl_cert#delete GoogleSqlSslCert#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_sql_ssl_cert#delete GoogleSqlSslCert#delete}.
 
 ---
 

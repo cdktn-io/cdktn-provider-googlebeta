@@ -4,7 +4,7 @@
 
 ### GoogleCesGuardrail <a name="GoogleCesGuardrail" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail google_ces_guardrail}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail google_ces_guardrail}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.Initializer"></a>
 
@@ -84,6 +84,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.resetAction">resetAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.resetCodeCallback">resetCodeCallback</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.resetContentFilter">resetContentFilter</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.resetEnabled">resetEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.resetId">resetId</a></code> | *No description.* |
@@ -506,6 +507,12 @@ public resetCodeCallback(): void
 public resetContentFilter(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.resetDescription"></a>
 
 ```typescript
@@ -657,7 +664,7 @@ The construct id used in the generated config for the GoogleCesGuardrail to impo
 
 The id of the existing GoogleCesGuardrail that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -702,6 +709,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.appInput">appInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.codeCallbackInput">codeCallbackInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallback">GoogleCesGuardrailCodeCallback</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.contentFilterInput">contentFilterInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailContentFilter">GoogleCesGuardrailContentFilter</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.displayNameInput">displayNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.enabledInput">enabledInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
@@ -714,6 +722,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts">GoogleCesGuardrailTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.app">app</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.displayName">displayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
@@ -1016,6 +1025,16 @@ public readonly contentFilterInput: GoogleCesGuardrailContentFilter;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.descriptionInput"></a>
 
 ```typescript
@@ -1130,6 +1149,16 @@ public readonly timeoutsInput: IResolvable | GoogleCesGuardrailTimeouts;
 
 ```typescript
 public readonly app: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrail.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -1256,7 +1285,7 @@ public readonly generativeAnswer: GoogleCesGuardrailActionGenerativeAnswer;
 
 generative_answer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#generative_answer GoogleCesGuardrail#generative_answer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#generative_answer GoogleCesGuardrail#generative_answer}
 
 ---
 
@@ -1270,7 +1299,7 @@ public readonly respondImmediately: GoogleCesGuardrailActionRespondImmediately;
 
 respond_immediately block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#respond_immediately GoogleCesGuardrail#respond_immediately}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#respond_immediately GoogleCesGuardrail#respond_immediately}
 
 ---
 
@@ -1284,7 +1313,7 @@ public readonly transferAgent: GoogleCesGuardrailActionTransferAgent;
 
 transfer_agent block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#transfer_agent GoogleCesGuardrail#transfer_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#transfer_agent GoogleCesGuardrail#transfer_agent}
 
 ---
 
@@ -1316,7 +1345,7 @@ public readonly prompt: string;
 
 The prompt to use for the generative answer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
 
 ---
 
@@ -1348,7 +1377,7 @@ public readonly responses: IResolvable | GoogleCesGuardrailActionRespondImmediat
 
 responses block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#responses GoogleCesGuardrail#responses}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#responses GoogleCesGuardrail#responses}
 
 ---
 
@@ -1381,7 +1410,7 @@ public readonly text: string;
 
 Text for the agent to respond with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#text GoogleCesGuardrail#text}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#text GoogleCesGuardrail#text}
 
 ---
 
@@ -1395,7 +1424,7 @@ public readonly disabled: boolean | IResolvable;
 
 Whether the response is disabled. Disabled responses are not used by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
 
 ---
 
@@ -1432,7 +1461,7 @@ in the same app as the current agent.
 Format:
 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#agent GoogleCesGuardrail#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#agent GoogleCesGuardrail#agent}
 
 ---
 
@@ -1467,7 +1496,7 @@ public readonly afterAgentCallback: GoogleCesGuardrailCodeCallbackAfterAgentCall
 
 after_agent_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#after_agent_callback GoogleCesGuardrail#after_agent_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#after_agent_callback GoogleCesGuardrail#after_agent_callback}
 
 ---
 
@@ -1481,7 +1510,7 @@ public readonly afterModelCallback: GoogleCesGuardrailCodeCallbackAfterModelCall
 
 after_model_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#after_model_callback GoogleCesGuardrail#after_model_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#after_model_callback GoogleCesGuardrail#after_model_callback}
 
 ---
 
@@ -1495,7 +1524,7 @@ public readonly beforeAgentCallback: GoogleCesGuardrailCodeCallbackBeforeAgentCa
 
 before_agent_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#before_agent_callback GoogleCesGuardrail#before_agent_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#before_agent_callback GoogleCesGuardrail#before_agent_callback}
 
 ---
 
@@ -1509,7 +1538,7 @@ public readonly beforeModelCallback: GoogleCesGuardrailCodeCallbackBeforeModelCa
 
 before_model_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#before_model_callback GoogleCesGuardrail#before_model_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#before_model_callback GoogleCesGuardrail#before_model_callback}
 
 ---
 
@@ -1543,7 +1572,7 @@ public readonly pythonCode: string;
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
 
 ---
 
@@ -1557,7 +1586,7 @@ public readonly description: string;
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -1571,7 +1600,7 @@ public readonly disabled: boolean | IResolvable;
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
 
 ---
 
@@ -1605,7 +1634,7 @@ public readonly pythonCode: string;
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
 
 ---
 
@@ -1619,7 +1648,7 @@ public readonly description: string;
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -1633,7 +1662,7 @@ public readonly disabled: boolean | IResolvable;
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
 
 ---
 
@@ -1667,7 +1696,7 @@ public readonly pythonCode: string;
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
 
 ---
 
@@ -1681,7 +1710,7 @@ public readonly description: string;
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -1695,7 +1724,7 @@ public readonly disabled: boolean | IResolvable;
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
 
 ---
 
@@ -1729,7 +1758,7 @@ public readonly pythonCode: string;
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#python_code GoogleCesGuardrail#python_code}
 
 ---
 
@@ -1743,7 +1772,7 @@ public readonly description: string;
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -1757,7 +1786,7 @@ public readonly disabled: boolean | IResolvable;
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#disabled GoogleCesGuardrail#disabled}
 
 ---
 
@@ -1789,13 +1818,14 @@ const googleCesGuardrailConfig: googleCesGuardrail.GoogleCesGuardrailConfig = { 
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.action">action</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailAction">GoogleCesGuardrailAction</a></code> | action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.codeCallback">codeCallback</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailCodeCallback">GoogleCesGuardrailCodeCallback</a></code> | code_callback block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.contentFilter">contentFilter</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailContentFilter">GoogleCesGuardrailContentFilter</a></code> | content_filter block. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.description">description</a></code> | <code>string</code> | Description of the guardrail. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Whether the guardrail is enabled. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#id GoogleCesGuardrail#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#id GoogleCesGuardrail#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.llmPolicy">llmPolicy</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailLlmPolicy">GoogleCesGuardrailLlmPolicy</a></code> | llm_policy block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.llmPromptSecurity">llmPromptSecurity</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailLlmPromptSecurity">GoogleCesGuardrailLlmPromptSecurity</a></code> | llm_prompt_security block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.modelSafety">modelSafety</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailModelSafety">GoogleCesGuardrailModelSafety</a></code> | model_safety block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#project GoogleCesGuardrail#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#project GoogleCesGuardrail#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts">GoogleCesGuardrailTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1880,7 +1910,7 @@ public readonly app: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#app GoogleCesGuardrail#app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#app GoogleCesGuardrail#app}
 
 ---
 
@@ -1894,7 +1924,7 @@ public readonly displayName: string;
 
 Display name of the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#display_name GoogleCesGuardrail#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#display_name GoogleCesGuardrail#display_name}
 
 ---
 
@@ -1911,7 +1941,7 @@ The ID to use for the guardrail, which will become the final component of the gu
 If not provided, a unique ID will be
 automatically assigned for the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#guardrail_id GoogleCesGuardrail#guardrail_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#guardrail_id GoogleCesGuardrail#guardrail_id}
 
 ---
 
@@ -1925,7 +1955,7 @@ public readonly location: string;
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#location GoogleCesGuardrail#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#location GoogleCesGuardrail#location}
 
 ---
 
@@ -1939,7 +1969,7 @@ public readonly action: GoogleCesGuardrailAction;
 
 action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#action GoogleCesGuardrail#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#action GoogleCesGuardrail#action}
 
 ---
 
@@ -1953,7 +1983,7 @@ public readonly codeCallback: GoogleCesGuardrailCodeCallback;
 
 code_callback block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#code_callback GoogleCesGuardrail#code_callback}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#code_callback GoogleCesGuardrail#code_callback}
 
 ---
 
@@ -1967,7 +1997,29 @@ public readonly contentFilter: GoogleCesGuardrailContentFilter;
 
 content_filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#content_filter GoogleCesGuardrail#content_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#content_filter GoogleCesGuardrail#content_filter}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#deletion_policy GoogleCesGuardrail#deletion_policy}
 
 ---
 
@@ -1981,7 +2033,7 @@ public readonly description: string;
 
 Description of the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#description GoogleCesGuardrail#description}
 
 ---
 
@@ -1995,7 +2047,7 @@ public readonly enabled: boolean | IResolvable;
 
 Whether the guardrail is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#enabled GoogleCesGuardrail#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#enabled GoogleCesGuardrail#enabled}
 
 ---
 
@@ -2007,7 +2059,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#id GoogleCesGuardrail#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#id GoogleCesGuardrail#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2024,7 +2076,7 @@ public readonly llmPolicy: GoogleCesGuardrailLlmPolicy;
 
 llm_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#llm_policy GoogleCesGuardrail#llm_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#llm_policy GoogleCesGuardrail#llm_policy}
 
 ---
 
@@ -2038,7 +2090,7 @@ public readonly llmPromptSecurity: GoogleCesGuardrailLlmPromptSecurity;
 
 llm_prompt_security block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#llm_prompt_security GoogleCesGuardrail#llm_prompt_security}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#llm_prompt_security GoogleCesGuardrail#llm_prompt_security}
 
 ---
 
@@ -2052,7 +2104,7 @@ public readonly modelSafety: GoogleCesGuardrailModelSafety;
 
 model_safety block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#model_safety GoogleCesGuardrail#model_safety}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#model_safety GoogleCesGuardrail#model_safety}
 
 ---
 
@@ -2064,7 +2116,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#project GoogleCesGuardrail#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#project GoogleCesGuardrail#project}.
 
 ---
 
@@ -2078,7 +2130,7 @@ public readonly timeouts: GoogleCesGuardrailTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#timeouts GoogleCesGuardrail#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#timeouts GoogleCesGuardrail#timeouts}
 
 ---
 
@@ -2114,7 +2166,7 @@ public readonly matchType: string;
 
 Match type for the content filter. Possible values: SIMPLE_STRING_MATCH WORD_BOUNDARY_STRING_MATCH REGEXP_MATCH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#match_type GoogleCesGuardrail#match_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#match_type GoogleCesGuardrail#match_type}
 
 ---
 
@@ -2128,7 +2180,7 @@ public readonly bannedContents: string[];
 
 List of banned phrases. Applies to both user inputs and agent responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#banned_contents GoogleCesGuardrail#banned_contents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#banned_contents GoogleCesGuardrail#banned_contents}
 
 ---
 
@@ -2142,7 +2194,7 @@ public readonly bannedContentsInAgentResponse: string[];
 
 List of banned phrases. Applies only to agent responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#banned_contents_in_agent_response GoogleCesGuardrail#banned_contents_in_agent_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#banned_contents_in_agent_response GoogleCesGuardrail#banned_contents_in_agent_response}
 
 ---
 
@@ -2156,7 +2208,7 @@ public readonly bannedContentsInUserInput: string[];
 
 List of banned phrases. Applies only to user inputs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#banned_contents_in_user_input GoogleCesGuardrail#banned_contents_in_user_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#banned_contents_in_user_input GoogleCesGuardrail#banned_contents_in_user_input}
 
 ---
 
@@ -2170,7 +2222,7 @@ public readonly disregardDiacritics: boolean | IResolvable;
 
 If true, diacritics are ignored during matching.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#disregard_diacritics GoogleCesGuardrail#disregard_diacritics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#disregard_diacritics GoogleCesGuardrail#disregard_diacritics}
 
 ---
 
@@ -2216,7 +2268,7 @@ USER_QUERY
 AGENT_RESPONSE
 USER_QUERY_AND_AGENT_RESPONSE Possible values: ["USER_QUERY", "AGENT_RESPONSE", "USER_QUERY_AND_AGENT_RESPONSE"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#policy_scope GoogleCesGuardrail#policy_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#policy_scope GoogleCesGuardrail#policy_scope}
 
 ---
 
@@ -2230,7 +2282,7 @@ public readonly prompt: string;
 
 Policy prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
 
 ---
 
@@ -2247,7 +2299,7 @@ By default, the LLM policy check is bypassed for short utterances.
 Enabling this setting applies the policy check to all utterances,
 including those that would normally be skipped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#allow_short_utterance GoogleCesGuardrail#allow_short_utterance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#allow_short_utterance GoogleCesGuardrail#allow_short_utterance}
 
 ---
 
@@ -2261,7 +2313,7 @@ public readonly failOpen: boolean | IResolvable;
 
 If an error occurs during the policy check, fail open and do not trigger the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
 
 ---
 
@@ -2277,7 +2329,7 @@ When checking this policy, consider the last 'n' messages in the conversation.
 
 When not set a default value of 10 will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#max_conversation_messages GoogleCesGuardrail#max_conversation_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#max_conversation_messages GoogleCesGuardrail#max_conversation_messages}
 
 ---
 
@@ -2291,7 +2343,7 @@ public readonly modelSettings: GoogleCesGuardrailLlmPolicyModelSettings;
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#model_settings GoogleCesGuardrail#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#model_settings GoogleCesGuardrail#model_settings}
 
 ---
 
@@ -2326,7 +2378,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#model GoogleCesGuardrail#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#model GoogleCesGuardrail#model}
 
 ---
 
@@ -2345,7 +2397,7 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#temperature GoogleCesGuardrail#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#temperature GoogleCesGuardrail#temperature}
 
 ---
 
@@ -2378,7 +2430,7 @@ public readonly customPolicy: GoogleCesGuardrailLlmPromptSecurityCustomPolicy;
 
 custom_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#custom_policy GoogleCesGuardrail#custom_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#custom_policy GoogleCesGuardrail#custom_policy}
 
 ---
 
@@ -2392,7 +2444,7 @@ public readonly defaultSettings: GoogleCesGuardrailLlmPromptSecurityDefaultSetti
 
 default_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#default_settings GoogleCesGuardrail#default_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#default_settings GoogleCesGuardrail#default_settings}
 
 ---
 
@@ -2438,7 +2490,7 @@ USER_QUERY
 AGENT_RESPONSE
 USER_QUERY_AND_AGENT_RESPONSE
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#policy_scope GoogleCesGuardrail#policy_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#policy_scope GoogleCesGuardrail#policy_scope}
 
 ---
 
@@ -2452,7 +2504,7 @@ public readonly prompt: string;
 
 Policy prompt.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#prompt GoogleCesGuardrail#prompt}
 
 ---
 
@@ -2469,7 +2521,7 @@ By default, the LLM policy check is bypassed for short utterances.
 Enabling this setting applies the policy check to all utterances,
 including those that would normally be skipped.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#allow_short_utterance GoogleCesGuardrail#allow_short_utterance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#allow_short_utterance GoogleCesGuardrail#allow_short_utterance}
 
 ---
 
@@ -2483,7 +2535,7 @@ public readonly failOpen: boolean | IResolvable;
 
 If an error occurs during the policy check, fail open and do not trigger the guardrail.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#fail_open GoogleCesGuardrail#fail_open}
 
 ---
 
@@ -2499,7 +2551,7 @@ When checking this policy, consider the last 'n' messages in the conversation.
 
 When not set a default value of 10 will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#max_conversation_messages GoogleCesGuardrail#max_conversation_messages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#max_conversation_messages GoogleCesGuardrail#max_conversation_messages}
 
 ---
 
@@ -2513,7 +2565,7 @@ public readonly modelSettings: GoogleCesGuardrailLlmPromptSecurityCustomPolicyMo
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#model_settings GoogleCesGuardrail#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#model_settings GoogleCesGuardrail#model_settings}
 
 ---
 
@@ -2548,7 +2600,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#model GoogleCesGuardrail#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#model GoogleCesGuardrail#model}
 
 ---
 
@@ -2567,7 +2619,7 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#temperature GoogleCesGuardrail#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#temperature GoogleCesGuardrail#temperature}
 
 ---
 
@@ -2610,7 +2662,7 @@ public readonly safetySettings: IResolvable | GoogleCesGuardrailModelSafetySafet
 
 safety_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#safety_settings GoogleCesGuardrail#safety_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#safety_settings GoogleCesGuardrail#safety_settings}
 
 ---
 
@@ -2643,7 +2695,7 @@ public readonly category: string;
 
 The harm category. Possible values: HARM_CATEGORY_HATE_SPEECH HARM_CATEGORY_DANGEROUS_CONTENT HARM_CATEGORY_HARASSMENT HARM_CATEGORY_SEXUALLY_EXPLICIT Possible values: ["HARM_CATEGORY_HATE_SPEECH", "HARM_CATEGORY_DANGEROUS_CONTENT", "HARM_CATEGORY_HARASSMENT", "HARM_CATEGORY_SEXUALLY_EXPLICIT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#category GoogleCesGuardrail#category}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#category GoogleCesGuardrail#category}
 
 ---
 
@@ -2657,7 +2709,7 @@ public readonly threshold: string;
 
 The harm block threshold. Possible values: BLOCK_LOW_AND_ABOVE BLOCK_MEDIUM_AND_ABOVE BLOCK_ONLY_HIGH BLOCK_NONE OFF Possible values: ["BLOCK_LOW_AND_ABOVE", "BLOCK_MEDIUM_AND_ABOVE", "BLOCK_ONLY_HIGH", "BLOCK_NONE", "OFF"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#threshold GoogleCesGuardrail#threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#threshold GoogleCesGuardrail#threshold}
 
 ---
 
@@ -2675,9 +2727,9 @@ const googleCesGuardrailTimeouts: googleCesGuardrail.GoogleCesGuardrailTimeouts 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#create GoogleCesGuardrail#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#delete GoogleCesGuardrail#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#update GoogleCesGuardrail#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#create GoogleCesGuardrail#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#delete GoogleCesGuardrail#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesGuardrail.GoogleCesGuardrailTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#update GoogleCesGuardrail#update}. |
 
 ---
 
@@ -2689,7 +2741,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#create GoogleCesGuardrail#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#create GoogleCesGuardrail#create}.
 
 ---
 
@@ -2701,7 +2753,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#delete GoogleCesGuardrail#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#delete GoogleCesGuardrail#delete}.
 
 ---
 
@@ -2713,7 +2765,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_guardrail#update GoogleCesGuardrail#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_guardrail#update GoogleCesGuardrail#update}.
 
 ---
 

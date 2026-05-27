@@ -4,7 +4,7 @@
 
 ### DataGoogleComputeRegionDisk <a name="DataGoogleComputeRegionDisk" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_region_disk google_compute_region_disk}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_region_disk google_compute_region_disk}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.Initializer"></a>
 
@@ -408,7 +408,7 @@ The construct id used in the generated config for the DataGoogleComputeRegionDis
 
 The id of the existing DataGoogleComputeRegionDisk that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_region_disk#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_region_disk#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -441,6 +441,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.property.createSnapshotBeforeDestroy">createSnapshotBeforeDestroy</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.property.createSnapshotBeforeDestroyPrefix">createSnapshotBeforeDestroyPrefix</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.property.creationTimestamp">creationTimestamp</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.property.diskEncryptionKey">diskEncryptionKey</a></code> | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskDiskEncryptionKeyList">DataGoogleComputeRegionDiskDiskEncryptionKeyList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.property.diskId">diskId</a></code> | <code>string</code> | *No description.* |
@@ -647,6 +648,16 @@ public readonly createSnapshotBeforeDestroyPrefix: string;
 
 ```typescript
 public readonly creationTimestamp: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDisk.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -1076,8 +1087,8 @@ const dataGoogleComputeRegionDiskConfig: dataGoogleComputeRegionDisk.DataGoogleC
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.name">name</a></code> | <code>string</code> | Name of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_region_disk#id DataGoogleComputeRegionDisk#id}. |
-| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_region_disk#project DataGoogleComputeRegionDisk#project}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_region_disk#id DataGoogleComputeRegionDisk#id}. |
+| <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_region_disk#project DataGoogleComputeRegionDisk#project}. |
 | <code><a href="#@cdktn/provider-google-beta.dataGoogleComputeRegionDisk.DataGoogleComputeRegionDiskConfig.property.region">region</a></code> | <code>string</code> | A reference to the region where the disk resides. |
 
 ---
@@ -1170,7 +1181,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_region_disk#name DataGoogleComputeRegionDisk#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_region_disk#name DataGoogleComputeRegionDisk#name}
 
 ---
 
@@ -1182,7 +1193,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_region_disk#id DataGoogleComputeRegionDisk#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_region_disk#id DataGoogleComputeRegionDisk#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1197,7 +1208,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_region_disk#project DataGoogleComputeRegionDisk#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_region_disk#project DataGoogleComputeRegionDisk#project}.
 
 ---
 
@@ -1211,7 +1222,7 @@ public readonly region: string;
 
 A reference to the region where the disk resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_compute_region_disk#region DataGoogleComputeRegionDisk#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_compute_region_disk#region DataGoogleComputeRegionDisk#region}
 
 ---
 

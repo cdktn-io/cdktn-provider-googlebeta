@@ -4,7 +4,7 @@
 
 ### GoogleVertexAiDataset <a name="GoogleVertexAiDataset" id="@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset google_vertex_ai_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset google_vertex_ai_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer"></a>
 
@@ -21,6 +21,7 @@ GoogleVertexAiDataset.Builder.create(Construct scope, java.lang.String id)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .displayName(java.lang.String)
     .metadataSchemaUri(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .encryptionSpec(GoogleVertexAiDatasetEncryptionSpec)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -43,10 +44,11 @@ GoogleVertexAiDataset.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | The user-defined name of the Dataset. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.metadataSchemaUri">metadataSchemaUri</a></code> | <code>java.lang.String</code> | Points to a YAML file stored on Google Cloud Storage describing additional information about the Dataset. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.encryptionSpec">encryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetEncryptionSpec">GoogleVertexAiDatasetEncryptionSpec</a></code> | encryption_spec block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#id GoogleVertexAiDataset#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#id GoogleVertexAiDataset#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A set of key/value label pairs to assign to this Workflow. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#project GoogleVertexAiDataset#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#project GoogleVertexAiDataset#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The region of the dataset. eg us-central1. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts">GoogleVertexAiDatasetTimeouts</a></code> | timeouts block. |
 
@@ -120,7 +122,7 @@ The user-defined name of the Dataset.
 
 The name can be up to 128 characters long and can be consist of any UTF-8 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#display_name GoogleVertexAiDataset#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#display_name GoogleVertexAiDataset#display_name}
 
 ---
 
@@ -132,7 +134,24 @@ Points to a YAML file stored on Google Cloud Storage describing additional infor
 
 The schema is defined as an OpenAPI 3.0.2 Schema Object. The schema files that can be used here are found in gs://google-cloud-aiplatform/schema/dataset/metadata/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#metadata_schema_uri GoogleVertexAiDataset#metadata_schema_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#metadata_schema_uri GoogleVertexAiDataset#metadata_schema_uri}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#deletion_policy GoogleVertexAiDataset#deletion_policy}
 
 ---
 
@@ -142,7 +161,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#encryption_spec GoogleVertexAiDataset#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#encryption_spec GoogleVertexAiDataset#encryption_spec}
 
 ---
 
@@ -150,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#id GoogleVertexAiDataset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#id GoogleVertexAiDataset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +185,7 @@ A set of key/value label pairs to assign to this Workflow.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#labels GoogleVertexAiDataset#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#labels GoogleVertexAiDataset#labels}
 
 ---
 
@@ -174,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#project GoogleVertexAiDataset#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#project GoogleVertexAiDataset#project}.
 
 ---
 
@@ -184,7 +203,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The region of the dataset. eg us-central1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#region GoogleVertexAiDataset#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#region GoogleVertexAiDataset#region}
 
 ---
 
@@ -194,7 +213,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#timeouts GoogleVertexAiDataset#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#timeouts GoogleVertexAiDataset#timeouts}
 
 ---
 
@@ -228,6 +247,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.putEncryptionSpec">putEncryptionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.resetEncryptionSpec">resetEncryptionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.resetLabels">resetLabels</a></code> | *No description.* |
@@ -572,6 +592,12 @@ public void putTimeouts(GoogleVertexAiDatasetTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetEncryptionSpec` <a name="resetEncryptionSpec" id="@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.resetEncryptionSpec"></a>
 
 ```java
@@ -711,7 +737,7 @@ The construct id used in the generated config for the GoogleVertexAiDataset to i
 
 The id of the existing GoogleVertexAiDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -748,6 +774,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.terraformLabels">terraformLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeoutsOutputReference">GoogleVertexAiDatasetTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.updateTime">updateTime</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.encryptionSpecInput">encryptionSpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetEncryptionSpec">GoogleVertexAiDatasetEncryptionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -756,6 +783,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.regionInput">regionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts">GoogleVertexAiDatasetTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -977,6 +1005,16 @@ public java.lang.String getUpdateTime();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `displayNameInput`<sup>Optional</sup> <a name="displayNameInput" id="@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.displayNameInput"></a>
 
 ```java
@@ -1054,6 +1092,16 @@ public IResolvable|GoogleVertexAiDatasetTimeouts getTimeoutsInput();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts">GoogleVertexAiDatasetTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDataset.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1154,6 +1202,7 @@ GoogleVertexAiDatasetConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .displayName(java.lang.String)
     .metadataSchemaUri(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .encryptionSpec(GoogleVertexAiDatasetEncryptionSpec)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -1176,10 +1225,11 @@ GoogleVertexAiDatasetConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | The user-defined name of the Dataset. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.metadataSchemaUri">metadataSchemaUri</a></code> | <code>java.lang.String</code> | Points to a YAML file stored on Google Cloud Storage describing additional information about the Dataset. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.encryptionSpec">encryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetEncryptionSpec">GoogleVertexAiDatasetEncryptionSpec</a></code> | encryption_spec block. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#id GoogleVertexAiDataset#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#id GoogleVertexAiDataset#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | A set of key/value label pairs to assign to this Workflow. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#project GoogleVertexAiDataset#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#project GoogleVertexAiDataset#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.region">region</a></code> | <code>java.lang.String</code> | The region of the dataset. eg us-central1. |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts">GoogleVertexAiDatasetTimeouts</a></code> | timeouts block. |
 
@@ -1267,7 +1317,7 @@ The user-defined name of the Dataset.
 
 The name can be up to 128 characters long and can be consist of any UTF-8 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#display_name GoogleVertexAiDataset#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#display_name GoogleVertexAiDataset#display_name}
 
 ---
 
@@ -1283,7 +1333,28 @@ Points to a YAML file stored on Google Cloud Storage describing additional infor
 
 The schema is defined as an OpenAPI 3.0.2 Schema Object. The schema files that can be used here are found in gs://google-cloud-aiplatform/schema/dataset/metadata/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#metadata_schema_uri GoogleVertexAiDataset#metadata_schema_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#metadata_schema_uri GoogleVertexAiDataset#metadata_schema_uri}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#deletion_policy GoogleVertexAiDataset#deletion_policy}
 
 ---
 
@@ -1297,7 +1368,7 @@ public GoogleVertexAiDatasetEncryptionSpec getEncryptionSpec();
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#encryption_spec GoogleVertexAiDataset#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#encryption_spec GoogleVertexAiDataset#encryption_spec}
 
 ---
 
@@ -1309,7 +1380,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#id GoogleVertexAiDataset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#id GoogleVertexAiDataset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1329,7 +1400,7 @@ A set of key/value label pairs to assign to this Workflow.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#labels GoogleVertexAiDataset#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#labels GoogleVertexAiDataset#labels}
 
 ---
 
@@ -1341,7 +1412,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#project GoogleVertexAiDataset#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#project GoogleVertexAiDataset#project}.
 
 ---
 
@@ -1355,7 +1426,7 @@ public java.lang.String getRegion();
 
 The region of the dataset. eg us-central1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#region GoogleVertexAiDataset#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#region GoogleVertexAiDataset#region}
 
 ---
 
@@ -1369,7 +1440,7 @@ public GoogleVertexAiDatasetTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#timeouts GoogleVertexAiDataset#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#timeouts GoogleVertexAiDataset#timeouts}
 
 ---
 
@@ -1406,7 +1477,7 @@ Required.
 The Cloud KMS resource identifier of the customer managed encryption key used to protect a resource.
 Has the form: projects/my-project/locations/my-region/keyRings/my-kr/cryptoKeys/my-key. The key needs to be in the same region as where the resource is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#kms_key_name GoogleVertexAiDataset#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#kms_key_name GoogleVertexAiDataset#kms_key_name}
 
 ---
 
@@ -1428,9 +1499,9 @@ GoogleVertexAiDatasetTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#create GoogleVertexAiDataset#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#delete GoogleVertexAiDataset#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#update GoogleVertexAiDataset#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#create GoogleVertexAiDataset#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#delete GoogleVertexAiDataset#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiDataset.GoogleVertexAiDatasetTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#update GoogleVertexAiDataset#update}. |
 
 ---
 
@@ -1442,7 +1513,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#create GoogleVertexAiDataset#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#create GoogleVertexAiDataset#create}.
 
 ---
 
@@ -1454,7 +1525,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#delete GoogleVertexAiDataset#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#delete GoogleVertexAiDataset#delete}.
 
 ---
 
@@ -1466,7 +1537,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_vertex_ai_dataset#update GoogleVertexAiDataset#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_dataset#update GoogleVertexAiDataset#update}.
 
 ---
 

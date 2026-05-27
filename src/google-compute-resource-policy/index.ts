@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,13 +13,25 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleComputeResourcePolicyConfig extends cdktn.TerraformMetaArguments {
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#deletion_policy GoogleComputeResourcePolicy#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * An optional description of this resource. Provide this property when you create the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#description GoogleComputeResourcePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#description GoogleComputeResourcePolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#id GoogleComputeResourcePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#id GoogleComputeResourcePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,53 +46,53 @@ export interface GoogleComputeResourcePolicyConfig extends cdktn.TerraformMetaAr
   * must be a dash, lowercase letter, or digit, except the last character,
   * which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#name GoogleComputeResourcePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#name GoogleComputeResourcePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#project GoogleComputeResourcePolicy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#project GoogleComputeResourcePolicy#project}
   */
   readonly project?: string;
   /**
   * Region where resource policy resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#region GoogleComputeResourcePolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#region GoogleComputeResourcePolicy#region}
   */
   readonly region?: string;
   /**
   * disk_consistency_group_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#disk_consistency_group_policy GoogleComputeResourcePolicy#disk_consistency_group_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#disk_consistency_group_policy GoogleComputeResourcePolicy#disk_consistency_group_policy}
   */
   readonly diskConsistencyGroupPolicy?: GoogleComputeResourcePolicyDiskConsistencyGroupPolicy;
   /**
   * group_placement_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#group_placement_policy GoogleComputeResourcePolicy#group_placement_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#group_placement_policy GoogleComputeResourcePolicy#group_placement_policy}
   */
   readonly groupPlacementPolicy?: GoogleComputeResourcePolicyGroupPlacementPolicy;
   /**
   * instance_schedule_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#instance_schedule_policy GoogleComputeResourcePolicy#instance_schedule_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#instance_schedule_policy GoogleComputeResourcePolicy#instance_schedule_policy}
   */
   readonly instanceSchedulePolicy?: GoogleComputeResourcePolicyInstanceSchedulePolicy;
   /**
   * snapshot_schedule_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#snapshot_schedule_policy GoogleComputeResourcePolicy#snapshot_schedule_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#snapshot_schedule_policy GoogleComputeResourcePolicy#snapshot_schedule_policy}
   */
   readonly snapshotSchedulePolicy?: GoogleComputeResourcePolicySnapshotSchedulePolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#timeouts GoogleComputeResourcePolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#timeouts GoogleComputeResourcePolicy#timeouts}
   */
   readonly timeouts?: GoogleComputeResourcePolicyTimeouts;
   /**
   * workload_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#workload_policy GoogleComputeResourcePolicy#workload_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#workload_policy GoogleComputeResourcePolicy#workload_policy}
   */
   readonly workloadPolicy?: GoogleComputeResourcePolicyWorkloadPolicy;
 }
@@ -88,7 +100,7 @@ export interface GoogleComputeResourcePolicyDiskConsistencyGroupPolicy {
   /**
   * Enable disk consistency on the resource policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#enabled GoogleComputeResourcePolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#enabled GoogleComputeResourcePolicy#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -172,7 +184,7 @@ export interface GoogleComputeResourcePolicyGroupPlacementPolicy {
   * The number of availability domains instances will be spread across. If two instances are in different
   * availability domain, they will not be put in the same low latency network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#availability_domain_count GoogleComputeResourcePolicy#availability_domain_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#availability_domain_count GoogleComputeResourcePolicy#availability_domain_count}
   */
   readonly availabilityDomainCount?: number;
   /**
@@ -181,25 +193,25 @@ export interface GoogleComputeResourcePolicyGroupPlacementPolicy {
   * with a COLLOCATED policy, then exactly 'vm_count' instances must be created at the same time with the resource policy
   * attached. Possible values: ["COLLOCATED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#collocation GoogleComputeResourcePolicy#collocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#collocation GoogleComputeResourcePolicy#collocation}
   */
   readonly collocation?: string;
   /**
   * Specifies the shape of the GPU slice, in slice based GPU families eg. A4X.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#gpu_topology GoogleComputeResourcePolicy#gpu_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#gpu_topology GoogleComputeResourcePolicy#gpu_topology}
   */
   readonly gpuTopology?: string;
   /**
   * Specifies the number of max logical switches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#max_distance GoogleComputeResourcePolicy#max_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#max_distance GoogleComputeResourcePolicy#max_distance}
   */
   readonly maxDistance?: number;
   /**
   * Specifies the shape of the TPU slice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#tpu_topology GoogleComputeResourcePolicy#tpu_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#tpu_topology GoogleComputeResourcePolicy#tpu_topology}
   */
   readonly tpuTopology?: string;
   /**
@@ -207,7 +219,7 @@ export interface GoogleComputeResourcePolicyGroupPlacementPolicy {
   * unless you use a compact policy and you want your policy to work only if it contains this
   * exact number of VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#vm_count GoogleComputeResourcePolicy#vm_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#vm_count GoogleComputeResourcePolicy#vm_count}
   */
   readonly vmCount?: number;
 }
@@ -438,7 +450,7 @@ export interface GoogleComputeResourcePolicyInstanceSchedulePolicyVmStartSchedul
   /**
   * Specifies the frequency for the operation, using the unix-cron format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#schedule GoogleComputeResourcePolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#schedule GoogleComputeResourcePolicy#schedule}
   */
   readonly schedule: string;
 }
@@ -521,7 +533,7 @@ export interface GoogleComputeResourcePolicyInstanceSchedulePolicyVmStopSchedule
   /**
   * Specifies the frequency for the operation, using the unix-cron format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#schedule GoogleComputeResourcePolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#schedule GoogleComputeResourcePolicy#schedule}
   */
   readonly schedule: string;
 }
@@ -604,32 +616,32 @@ export interface GoogleComputeResourcePolicyInstanceSchedulePolicy {
   /**
   * The expiration time of the schedule. The timestamp is an RFC3339 string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#expiration_time GoogleComputeResourcePolicy#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#expiration_time GoogleComputeResourcePolicy#expiration_time}
   */
   readonly expirationTime?: string;
   /**
   * The start time of the schedule. The timestamp is an RFC3339 string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#start_time GoogleComputeResourcePolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#start_time GoogleComputeResourcePolicy#start_time}
   */
   readonly startTime?: string;
   /**
   * Specifies the time zone to be used in interpreting the schedule. The value of this field must be a time zone name
   * from the tz database: http://en.wikipedia.org/wiki/Tz_database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#time_zone GoogleComputeResourcePolicy#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#time_zone GoogleComputeResourcePolicy#time_zone}
   */
   readonly timeZone: string;
   /**
   * vm_start_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#vm_start_schedule GoogleComputeResourcePolicy#vm_start_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#vm_start_schedule GoogleComputeResourcePolicy#vm_start_schedule}
   */
   readonly vmStartSchedule?: GoogleComputeResourcePolicyInstanceSchedulePolicyVmStartSchedule;
   /**
   * vm_stop_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#vm_stop_schedule GoogleComputeResourcePolicy#vm_stop_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#vm_stop_schedule GoogleComputeResourcePolicy#vm_stop_schedule}
   */
   readonly vmStopSchedule?: GoogleComputeResourcePolicyInstanceSchedulePolicyVmStopSchedule;
 }
@@ -828,14 +840,14 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicyRetentionPolic
   /**
   * Maximum age of the snapshot that is allowed to be kept.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#max_retention_days GoogleComputeResourcePolicy#max_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#max_retention_days GoogleComputeResourcePolicy#max_retention_days}
   */
   readonly maxRetentionDays: number;
   /**
   * Specifies the behavior to apply to scheduled snapshots when
   * the source disk is deleted. Default value: "KEEP_AUTO_SNAPSHOTS" Possible values: ["KEEP_AUTO_SNAPSHOTS", "APPLY_RETENTION_POLICY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#on_source_disk_delete GoogleComputeResourcePolicy#on_source_disk_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#on_source_disk_delete GoogleComputeResourcePolicy#on_source_disk_delete}
   */
   readonly onSourceDiskDelete?: string;
 }
@@ -947,7 +959,7 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDailyS
   /**
   * Defines a schedule with units measured in days. The value determines how many days pass between the start of each cycle. Days in cycle for snapshot schedule policy must be 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#days_in_cycle GoogleComputeResourcePolicy#days_in_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#days_in_cycle GoogleComputeResourcePolicy#days_in_cycle}
   */
   readonly daysInCycle: number;
   /**
@@ -955,7 +967,7 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDailyS
   * 00:00, 04:00, 08:00, 12:00, 16:00, or 20:00. For example,
   * both 13:00-5 and 08:00 are valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#start_time GoogleComputeResourcePolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#start_time GoogleComputeResourcePolicy#start_time}
   */
   readonly startTime: string;
 }
@@ -1064,7 +1076,7 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHourly
   /**
   * The number of hours between snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#hours_in_cycle GoogleComputeResourcePolicy#hours_in_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#hours_in_cycle GoogleComputeResourcePolicy#hours_in_cycle}
   */
   readonly hoursInCycle: number;
   /**
@@ -1072,7 +1084,7 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHourly
   * It must be in an hourly format "HH:MM",
   * where HH : [00-23] and MM : [00] GMT. eg: 21:00
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#start_time GoogleComputeResourcePolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#start_time GoogleComputeResourcePolicy#start_time}
   */
   readonly startTime: string;
 }
@@ -1181,14 +1193,14 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeekly
   /**
   * The day of the week to create the snapshot. e.g. MONDAY Possible values: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#day GoogleComputeResourcePolicy#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#day GoogleComputeResourcePolicy#day}
   */
   readonly day: string;
   /**
   * Time within the window to start the operations.
   * It must be in format "HH:MM", where HH : [00-23] and MM : [00-00] GMT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#start_time GoogleComputeResourcePolicy#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#start_time GoogleComputeResourcePolicy#start_time}
   */
   readonly startTime: string;
 }
@@ -1315,7 +1327,7 @@ export class GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklySche
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -1329,7 +1341,7 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeekly
   /**
   * day_of_weeks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#day_of_weeks GoogleComputeResourcePolicy#day_of_weeks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#day_of_weeks GoogleComputeResourcePolicy#day_of_weeks}
   */
   readonly dayOfWeeks: GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleDayOfWeeks[] | cdktn.IResolvable;
 }
@@ -1412,19 +1424,19 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicySchedule {
   /**
   * daily_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#daily_schedule GoogleComputeResourcePolicy#daily_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#daily_schedule GoogleComputeResourcePolicy#daily_schedule}
   */
   readonly dailySchedule?: GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDailySchedule;
   /**
   * hourly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#hourly_schedule GoogleComputeResourcePolicy#hourly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#hourly_schedule GoogleComputeResourcePolicy#hourly_schedule}
   */
   readonly hourlySchedule?: GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHourlySchedule;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#weekly_schedule GoogleComputeResourcePolicy#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#weekly_schedule GoogleComputeResourcePolicy#weekly_schedule}
   */
   readonly weeklySchedule?: GoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklySchedule;
 }
@@ -1570,26 +1582,26 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicySnapshotProper
   * specified name. The chain name must be 1-63 characters long and comply
   * with RFC1035.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#chain_name GoogleComputeResourcePolicy#chain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#chain_name GoogleComputeResourcePolicy#chain_name}
   */
   readonly chainName?: string;
   /**
   * Whether to perform a 'guest aware' snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#guest_flush GoogleComputeResourcePolicy#guest_flush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#guest_flush GoogleComputeResourcePolicy#guest_flush}
   */
   readonly guestFlush?: boolean | cdktn.IResolvable;
   /**
   * A set of key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#labels GoogleComputeResourcePolicy#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#labels GoogleComputeResourcePolicy#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Cloud Storage bucket location to store the auto snapshot
   * (regional or multi-regional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#storage_locations GoogleComputeResourcePolicy#storage_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#storage_locations GoogleComputeResourcePolicy#storage_locations}
   */
   readonly storageLocations?: string[];
 }
@@ -1762,19 +1774,19 @@ export interface GoogleComputeResourcePolicySnapshotSchedulePolicy {
   /**
   * retention_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#retention_policy GoogleComputeResourcePolicy#retention_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#retention_policy GoogleComputeResourcePolicy#retention_policy}
   */
   readonly retentionPolicy?: GoogleComputeResourcePolicySnapshotSchedulePolicyRetentionPolicy;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#schedule GoogleComputeResourcePolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#schedule GoogleComputeResourcePolicy#schedule}
   */
   readonly schedule: GoogleComputeResourcePolicySnapshotSchedulePolicySchedule;
   /**
   * snapshot_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#snapshot_properties GoogleComputeResourcePolicy#snapshot_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#snapshot_properties GoogleComputeResourcePolicy#snapshot_properties}
   */
   readonly snapshotProperties?: GoogleComputeResourcePolicySnapshotSchedulePolicySnapshotProperties;
 }
@@ -1913,15 +1925,15 @@ export class GoogleComputeResourcePolicySnapshotSchedulePolicyOutputReference ex
 }
 export interface GoogleComputeResourcePolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#create GoogleComputeResourcePolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#create GoogleComputeResourcePolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#delete GoogleComputeResourcePolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#delete GoogleComputeResourcePolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#update GoogleComputeResourcePolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#update GoogleComputeResourcePolicy#update}
   */
   readonly update?: string;
 }
@@ -2076,7 +2088,7 @@ export interface GoogleComputeResourcePolicyWorkloadPolicy {
   * The accelerator topology. This field can be set only when the workload policy type is HIGH_THROUGHPUT
   * and cannot be set if max topology distance is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#accelerator_topology GoogleComputeResourcePolicy#accelerator_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#accelerator_topology GoogleComputeResourcePolicy#accelerator_topology}
   */
   readonly acceleratorTopology?: string;
   /**
@@ -2088,20 +2100,20 @@ export interface GoogleComputeResourcePolicyWorkloadPolicy {
   * If not specified, the default is AUTO_CONNECT.
   * This field can be set only when the workload policy type is HIGH_THROUGHPUT and cannot be set if max topology distance is set. Possible values: ["AUTO_CONNECT", "PROVISION_ONLY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#accelerator_topology_mode GoogleComputeResourcePolicy#accelerator_topology_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#accelerator_topology_mode GoogleComputeResourcePolicy#accelerator_topology_mode}
   */
   readonly acceleratorTopologyMode?: string;
   /**
   * The maximum topology distance. This field can be set only when the workload policy type is HIGH_THROUGHPUT
   * and cannot be set if accelerator topology or accelerator topology mode is set. Possible values: ["BLOCK", "CLUSTER", "SUBBLOCK"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#max_topology_distance GoogleComputeResourcePolicy#max_topology_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#max_topology_distance GoogleComputeResourcePolicy#max_topology_distance}
   */
   readonly maxTopologyDistance?: string;
   /**
   * The type of workload policy. Possible values: ["HIGH_AVAILABILITY", "HIGH_THROUGHPUT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#type GoogleComputeResourcePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#type GoogleComputeResourcePolicy#type}
   */
   readonly type: string;
 }
@@ -2269,7 +2281,7 @@ export class GoogleComputeResourcePolicyWorkloadPolicyOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy google_compute_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy google_compute_resource_policy}
 */
 export class GoogleComputeResourcePolicy extends cdktn.TerraformResource {
 
@@ -2285,7 +2297,7 @@ export class GoogleComputeResourcePolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeResourcePolicy to import
-  * @param importFromId The id of the existing GoogleComputeResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2297,7 +2309,7 @@ export class GoogleComputeResourcePolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_resource_policy google_compute_resource_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_resource_policy google_compute_resource_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2308,7 +2320,7 @@ export class GoogleComputeResourcePolicy extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -2319,6 +2331,7 @@ export class GoogleComputeResourcePolicy extends cdktn.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._id = config.id;
     this._name = config.name;
@@ -2335,6 +2348,22 @@ export class GoogleComputeResourcePolicy extends cdktn.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
+  }
 
   // description - computed: false, optional: true, required: false
   private _description?: string; 
@@ -2520,6 +2549,7 @@ export class GoogleComputeResourcePolicy extends cdktn.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       id: cdktn.stringToTerraform(this._id),
       name: cdktn.stringToTerraform(this._name),
@@ -2536,6 +2566,12 @@ export class GoogleComputeResourcePolicy extends cdktn.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       description: {
         value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,

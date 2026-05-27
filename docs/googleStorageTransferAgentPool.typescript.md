@@ -4,7 +4,7 @@
 
 ### GoogleStorageTransferAgentPool <a name="GoogleStorageTransferAgentPool" id="@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool google_storage_transfer_agent_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.putBandwidthLimit">putBandwidthLimit</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.resetBandwidthLimit">resetBandwidthLimit</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.resetDisplayName">resetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.resetProject">resetProject</a></code> | *No description.* |
@@ -423,6 +424,12 @@ public putTimeouts(value: GoogleStorageTransferAgentPoolTimeouts): void
 public resetBandwidthLimit(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDisplayName` <a name="resetDisplayName" id="@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.resetDisplayName"></a>
 
 ```typescript
@@ -550,7 +557,7 @@ The construct id used in the generated config for the GoogleStorageTransferAgent
 
 The id of the existing GoogleStorageTransferAgentPool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -584,11 +591,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.state">state</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeoutsOutputReference">GoogleStorageTransferAgentPoolTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.bandwidthLimitInput">bandwidthLimitInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolBandwidthLimit">GoogleStorageTransferAgentPoolBandwidthLimit</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.displayNameInput">displayNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeouts">GoogleStorageTransferAgentPoolTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.displayName">displayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.name">name</a></code> | <code>string</code> | *No description.* |
@@ -778,6 +787,16 @@ public readonly bandwidthLimitInput: GoogleStorageTransferAgentPoolBandwidthLimi
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `displayNameInput`<sup>Optional</sup> <a name="displayNameInput" id="@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.displayNameInput"></a>
 
 ```typescript
@@ -825,6 +844,16 @@ public readonly timeoutsInput: IResolvable | GoogleStorageTransferAgentPoolTimeo
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeouts">GoogleStorageTransferAgentPoolTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPool.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -916,7 +945,7 @@ public readonly limitMbps: string;
 
 Bandwidth rate in megabytes per second, distributed across all the agents in the pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#limit_mbps GoogleStorageTransferAgentPool#limit_mbps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#limit_mbps GoogleStorageTransferAgentPool#limit_mbps}
 
 ---
 
@@ -943,9 +972,10 @@ const googleStorageTransferAgentPoolConfig: googleStorageTransferAgentPool.Googl
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.name">name</a></code> | <code>string</code> | The ID of the agent pool to create. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.bandwidthLimit">bandwidthLimit</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolBandwidthLimit">GoogleStorageTransferAgentPoolBandwidthLimit</a></code> | bandwidth_limit block. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.displayName">displayName</a></code> | <code>string</code> | Specifies the client-specified AgentPool description. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#id GoogleStorageTransferAgentPool#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#project GoogleStorageTransferAgentPool#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#id GoogleStorageTransferAgentPool#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#project GoogleStorageTransferAgentPool#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeouts">GoogleStorageTransferAgentPoolTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1039,7 +1069,7 @@ The agentPoolId must meet the following requirements:
 
 As expressed by the regular expression: ^(?!goog)[a-z]([a-z0-9-._~]*[a-z0-9])?$.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#name GoogleStorageTransferAgentPool#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#name GoogleStorageTransferAgentPool#name}
 
 ---
 
@@ -1053,7 +1083,29 @@ public readonly bandwidthLimit: GoogleStorageTransferAgentPoolBandwidthLimit;
 
 bandwidth_limit block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#bandwidth_limit GoogleStorageTransferAgentPool#bandwidth_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#bandwidth_limit GoogleStorageTransferAgentPool#bandwidth_limit}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#deletion_policy GoogleStorageTransferAgentPool#deletion_policy}
 
 ---
 
@@ -1067,7 +1119,7 @@ public readonly displayName: string;
 
 Specifies the client-specified AgentPool description.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#display_name GoogleStorageTransferAgentPool#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#display_name GoogleStorageTransferAgentPool#display_name}
 
 ---
 
@@ -1079,7 +1131,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#id GoogleStorageTransferAgentPool#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#id GoogleStorageTransferAgentPool#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1094,7 +1146,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#project GoogleStorageTransferAgentPool#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#project GoogleStorageTransferAgentPool#project}.
 
 ---
 
@@ -1108,7 +1160,7 @@ public readonly timeouts: GoogleStorageTransferAgentPoolTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#timeouts GoogleStorageTransferAgentPool#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#timeouts GoogleStorageTransferAgentPool#timeouts}
 
 ---
 
@@ -1126,9 +1178,9 @@ const googleStorageTransferAgentPoolTimeouts: googleStorageTransferAgentPool.Goo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#create GoogleStorageTransferAgentPool#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#delete GoogleStorageTransferAgentPool#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#update GoogleStorageTransferAgentPool#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#create GoogleStorageTransferAgentPool#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#delete GoogleStorageTransferAgentPool#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleStorageTransferAgentPool.GoogleStorageTransferAgentPoolTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#update GoogleStorageTransferAgentPool#update}. |
 
 ---
 
@@ -1140,7 +1192,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#create GoogleStorageTransferAgentPool#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#create GoogleStorageTransferAgentPool#create}.
 
 ---
 
@@ -1152,7 +1204,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#delete GoogleStorageTransferAgentPool#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#delete GoogleStorageTransferAgentPool#delete}.
 
 ---
 
@@ -1164,7 +1216,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_storage_transfer_agent_pool#update GoogleStorageTransferAgentPool#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_storage_transfer_agent_pool#update GoogleStorageTransferAgentPool#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleProjectIamCustomRole <a name="GoogleProjectIamCustomRole" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role google_project_iam_custom_role}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer"></a>
 
@@ -24,6 +24,7 @@ googleProjectIamCustomRole.GoogleProjectIamCustomRole(
   permissions: typing.List[str],
   role_id: str,
   title: str,
+  deletion_policy: str = None,
   description: str = None,
   id: str = None,
   project: str = None,
@@ -45,8 +46,9 @@ googleProjectIamCustomRole.GoogleProjectIamCustomRole(
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.permissions">permissions</a></code> | <code>typing.List[str]</code> | The names of the permissions this role grants when bound in an IAM policy. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.roleId">role_id</a></code> | <code>str</code> | The camel case role id to use for this role. Cannot contain - characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.title">title</a></code> | <code>str</code> | A human-readable title for the role. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.description">description</a></code> | <code>str</code> | A human-readable description for the role. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.project">project</a></code> | <code>str</code> | The project that the service account will be created in. Defaults to the provider project configuration. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.stage">stage</a></code> | <code>str</code> | The current launch stage of the role. Defaults to GA. |
 
@@ -120,7 +122,7 @@ The names of the permissions this role grants when bound in an IAM policy.
 
 At least one permission must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#permissions GoogleProjectIamCustomRole#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#permissions GoogleProjectIamCustomRole#permissions}
 
 ---
 
@@ -130,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The camel case role id to use for this role. Cannot contain - characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#role_id GoogleProjectIamCustomRole#role_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#role_id GoogleProjectIamCustomRole#role_id}
 
 ---
 
@@ -140,7 +142,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A human-readable title for the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#title GoogleProjectIamCustomRole#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#title GoogleProjectIamCustomRole#title}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#deletion_policy GoogleProjectIamCustomRole#deletion_policy}
 
 ---
 
@@ -150,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A human-readable description for the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#description GoogleProjectIamCustomRole#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#description GoogleProjectIamCustomRole#description}
 
 ---
 
@@ -158,7 +177,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -171,7 +190,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The project that the service account will be created in. Defaults to the provider project configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#project GoogleProjectIamCustomRole#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#project GoogleProjectIamCustomRole#project}
 
 ---
 
@@ -181,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The current launch stage of the role. Defaults to GA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#stage GoogleProjectIamCustomRole#stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#stage GoogleProjectIamCustomRole#stage}
 
 ---
 
@@ -213,6 +232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.resetProject">reset_project</a></code> | *No description.* |
@@ -568,6 +588,12 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
+```
+
 ##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.resetDescription"></a>
 
 ```python
@@ -706,7 +732,7 @@ The construct id used in the generated config for the GoogleProjectIamCustomRole
 
 The id of the existing GoogleProjectIamCustomRole that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -738,6 +764,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.deleted">deleted</a></code> | <code>cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.name">name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.permissionsInput">permissions_input</a></code> | <code>typing.List[str]</code> | *No description.* |
@@ -745,6 +772,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.roleIdInput">role_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.stageInput">stage_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.titleInput">title_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.permissions">permissions</a></code> | <code>typing.List[str]</code> | *No description.* |
@@ -917,6 +945,16 @@ name: str
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.descriptionInput"></a>
 
 ```python
@@ -981,6 +1019,16 @@ stage_input: str
 
 ```python
 title_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRole.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
 ```
 
 - *Type:* str
@@ -1095,6 +1143,7 @@ googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig(
   permissions: typing.List[str],
   role_id: str,
   title: str,
+  deletion_policy: str = None,
   description: str = None,
   id: str = None,
   project: str = None,
@@ -1116,8 +1165,9 @@ googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.permissions">permissions</a></code> | <code>typing.List[str]</code> | The names of the permissions this role grants when bound in an IAM policy. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.roleId">role_id</a></code> | <code>str</code> | The camel case role id to use for this role. Cannot contain - characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.title">title</a></code> | <code>str</code> | A human-readable title for the role. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.description">description</a></code> | <code>str</code> | A human-readable description for the role. |
-| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.project">project</a></code> | <code>str</code> | The project that the service account will be created in. Defaults to the provider project configuration. |
 | <code><a href="#@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.stage">stage</a></code> | <code>str</code> | The current launch stage of the role. Defaults to GA. |
 
@@ -1205,7 +1255,7 @@ The names of the permissions this role grants when bound in an IAM policy.
 
 At least one permission must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#permissions GoogleProjectIamCustomRole#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#permissions GoogleProjectIamCustomRole#permissions}
 
 ---
 
@@ -1219,7 +1269,7 @@ role_id: str
 
 The camel case role id to use for this role. Cannot contain - characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#role_id GoogleProjectIamCustomRole#role_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#role_id GoogleProjectIamCustomRole#role_id}
 
 ---
 
@@ -1233,7 +1283,28 @@ title: str
 
 A human-readable title for the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#title GoogleProjectIamCustomRole#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#title GoogleProjectIamCustomRole#title}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleProjectIamCustomRole.GoogleProjectIamCustomRoleConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#deletion_policy GoogleProjectIamCustomRole#deletion_policy}
 
 ---
 
@@ -1247,7 +1318,7 @@ description: str
 
 A human-readable description for the role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#description GoogleProjectIamCustomRole#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#description GoogleProjectIamCustomRole#description}
 
 ---
 
@@ -1259,7 +1330,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#id GoogleProjectIamCustomRole#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1276,7 +1347,7 @@ project: str
 
 The project that the service account will be created in. Defaults to the provider project configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#project GoogleProjectIamCustomRole#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#project GoogleProjectIamCustomRole#project}
 
 ---
 
@@ -1290,7 +1361,7 @@ stage: str
 
 The current launch stage of the role. Defaults to GA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_project_iam_custom_role#stage GoogleProjectIamCustomRole#stage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_project_iam_custom_role#stage GoogleProjectIamCustomRole#stage}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleApphubWorkload <a name="GoogleApphubWorkload" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload google_apphub_workload}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload google_apphub_workload}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer"></a>
 
@@ -24,6 +24,7 @@ GoogleApphubWorkload.Builder.create(Construct scope, java.lang.String id)
     .location(java.lang.String)
     .workloadId(java.lang.String)
 //  .attributes(GoogleApphubWorkloadAttributes)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .displayName(java.lang.String)
 //  .id(java.lang.String)
@@ -48,10 +49,11 @@ GoogleApphubWorkload.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.workloadId">workloadId</a></code> | <code>java.lang.String</code> | The Workload identifier. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.attributes">attributes</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributes">GoogleApphubWorkloadAttributes</a></code> | attributes block. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | User-defined description of a Workload. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | User-defined name for the Workload. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts">GoogleApphubWorkloadTimeouts</a></code> | timeouts block. |
 
 ---
@@ -122,7 +124,7 @@ Must be unique amongst siblings in the same scope
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#application_id GoogleApphubWorkload#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#application_id GoogleApphubWorkload#application_id}
 
 ---
 
@@ -132,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Immutable. The resource name of the original discovered workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#discovered_workload GoogleApphubWorkload#discovered_workload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#discovered_workload GoogleApphubWorkload#discovered_workload}
 
 ---
 
@@ -142,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#location GoogleApphubWorkload#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#location GoogleApphubWorkload#location}
 
 ---
 
@@ -152,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Workload identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#workload_id GoogleApphubWorkload#workload_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#workload_id GoogleApphubWorkload#workload_id}
 
 ---
 
@@ -162,7 +164,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#attributes GoogleApphubWorkload#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#attributes GoogleApphubWorkload#attributes}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#deletion_policy GoogleApphubWorkload#deletion_policy}
 
 ---
 
@@ -172,7 +191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-defined description of a Workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#description GoogleApphubWorkload#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#description GoogleApphubWorkload#description}
 
 ---
 
@@ -182,7 +201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User-defined name for the Workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
 
 ---
 
@@ -190,7 +209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -201,7 +220,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}.
 
 ---
 
@@ -211,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#timeouts GoogleApphubWorkload#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#timeouts GoogleApphubWorkload#timeouts}
 
 ---
 
@@ -246,6 +265,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.putAttributes">putAttributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.resetAttributes">resetAttributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.resetDisplayName">resetDisplayName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.resetId">resetId</a></code> | *No description.* |
@@ -595,6 +615,12 @@ public void putTimeouts(GoogleApphubWorkloadTimeouts value)
 public void resetAttributes()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.resetDescription"></a>
 
 ```java
@@ -728,7 +754,7 @@ The construct id used in the generated config for the GoogleApphubWorkload to im
 
 The id of the existing GoogleApphubWorkload that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -769,6 +795,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.workloadReference">workloadReference</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadWorkloadReferenceList">GoogleApphubWorkloadWorkloadReferenceList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.applicationIdInput">applicationIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.attributesInput">attributesInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributes">GoogleApphubWorkloadAttributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.discoveredWorkloadInput">discoveredWorkloadInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -778,6 +805,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts">GoogleApphubWorkloadTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.workloadIdInput">workloadIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.applicationId">applicationId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.discoveredWorkload">discoveredWorkload</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1040,6 +1068,16 @@ public GoogleApphubWorkloadAttributes getAttributesInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.descriptionInput"></a>
 
 ```java
@@ -1124,6 +1162,16 @@ public java.lang.String getWorkloadIdInput();
 
 ```java
 public java.lang.String getApplicationId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkload.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1258,7 +1306,7 @@ public IResolvable|java.util.List<GoogleApphubWorkloadAttributesBusinessOwners> 
 
 business_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#business_owners GoogleApphubWorkload#business_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#business_owners GoogleApphubWorkload#business_owners}
 
 ---
 
@@ -1272,7 +1320,7 @@ public GoogleApphubWorkloadAttributesCriticality getCriticality();
 
 criticality block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#criticality GoogleApphubWorkload#criticality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#criticality GoogleApphubWorkload#criticality}
 
 ---
 
@@ -1286,7 +1334,7 @@ public IResolvable|java.util.List<GoogleApphubWorkloadAttributesDeveloperOwners>
 
 developer_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#developer_owners GoogleApphubWorkload#developer_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#developer_owners GoogleApphubWorkload#developer_owners}
 
 ---
 
@@ -1300,7 +1348,7 @@ public GoogleApphubWorkloadAttributesEnvironment getEnvironment();
 
 environment block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#environment GoogleApphubWorkload#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#environment GoogleApphubWorkload#environment}
 
 ---
 
@@ -1314,7 +1362,7 @@ public IResolvable|java.util.List<GoogleApphubWorkloadAttributesOperatorOwners> 
 
 operator_owners block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#operator_owners GoogleApphubWorkload#operator_owners}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#operator_owners GoogleApphubWorkload#operator_owners}
 
 ---
 
@@ -1350,7 +1398,7 @@ public java.lang.String getEmail();
 
 Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
 
 ---
 
@@ -1364,7 +1412,7 @@ public java.lang.String getDisplayName();
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
 
 ---
 
@@ -1398,7 +1446,7 @@ public java.lang.String getType();
 
 Criticality type. Possible values: ["MISSION_CRITICAL", "HIGH", "MEDIUM", "LOW"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
 
 ---
 
@@ -1434,7 +1482,7 @@ public java.lang.String getEmail();
 
 Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
 
 ---
 
@@ -1448,7 +1496,7 @@ public java.lang.String getDisplayName();
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
 
 ---
 
@@ -1482,7 +1530,7 @@ public java.lang.String getType();
 
 Environment type. Possible values: ["PRODUCTION", "STAGING", "TEST", "DEVELOPMENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#type GoogleApphubWorkload#type}
 
 ---
 
@@ -1518,7 +1566,7 @@ public java.lang.String getEmail();
 
 Email address of the contacts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#email GoogleApphubWorkload#email}
 
 ---
 
@@ -1532,7 +1580,7 @@ public java.lang.String getDisplayName();
 
 Contact's name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
 
 ---
 
@@ -1556,6 +1604,7 @@ GoogleApphubWorkloadConfig.builder()
     .location(java.lang.String)
     .workloadId(java.lang.String)
 //  .attributes(GoogleApphubWorkloadAttributes)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .displayName(java.lang.String)
 //  .id(java.lang.String)
@@ -1580,10 +1629,11 @@ GoogleApphubWorkloadConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.location">location</a></code> | <code>java.lang.String</code> | Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.workloadId">workloadId</a></code> | <code>java.lang.String</code> | The Workload identifier. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.attributes">attributes</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadAttributes">GoogleApphubWorkloadAttributes</a></code> | attributes block. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.description">description</a></code> | <code>java.lang.String</code> | User-defined description of a Workload. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | User-defined name for the Workload. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts">GoogleApphubWorkloadTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1668,7 +1718,7 @@ public java.lang.String getApplicationId();
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#application_id GoogleApphubWorkload#application_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#application_id GoogleApphubWorkload#application_id}
 
 ---
 
@@ -1682,7 +1732,7 @@ public java.lang.String getDiscoveredWorkload();
 
 Immutable. The resource name of the original discovered workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#discovered_workload GoogleApphubWorkload#discovered_workload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#discovered_workload GoogleApphubWorkload#discovered_workload}
 
 ---
 
@@ -1696,7 +1746,7 @@ public java.lang.String getLocation();
 
 Part of 'parent'.  Full resource name of a parent Application. Example: projects/{HOST_PROJECT_ID}/locations/{LOCATION}/applications/{APPLICATION_ID}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#location GoogleApphubWorkload#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#location GoogleApphubWorkload#location}
 
 ---
 
@@ -1710,7 +1760,7 @@ public java.lang.String getWorkloadId();
 
 The Workload identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#workload_id GoogleApphubWorkload#workload_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#workload_id GoogleApphubWorkload#workload_id}
 
 ---
 
@@ -1724,7 +1774,28 @@ public GoogleApphubWorkloadAttributes getAttributes();
 
 attributes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#attributes GoogleApphubWorkload#attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#attributes GoogleApphubWorkload#attributes}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#deletion_policy GoogleApphubWorkload#deletion_policy}
 
 ---
 
@@ -1738,7 +1809,7 @@ public java.lang.String getDescription();
 
 User-defined description of a Workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#description GoogleApphubWorkload#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#description GoogleApphubWorkload#description}
 
 ---
 
@@ -1752,7 +1823,7 @@ public java.lang.String getDisplayName();
 
 User-defined name for the Workload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#display_name GoogleApphubWorkload#display_name}
 
 ---
 
@@ -1764,7 +1835,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#id GoogleApphubWorkload#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1779,7 +1850,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#project GoogleApphubWorkload#project}.
 
 ---
 
@@ -1793,7 +1864,7 @@ public GoogleApphubWorkloadTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#timeouts GoogleApphubWorkload#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#timeouts GoogleApphubWorkload#timeouts}
 
 ---
 
@@ -1815,9 +1886,9 @@ GoogleApphubWorkloadTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleApphubWorkload.GoogleApphubWorkloadTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}. |
 
 ---
 
@@ -1829,7 +1900,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#create GoogleApphubWorkload#create}.
 
 ---
 
@@ -1841,7 +1912,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#delete GoogleApphubWorkload#delete}.
 
 ---
 
@@ -1853,7 +1924,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_apphub_workload#update GoogleApphubWorkload#update}.
 
 ---
 

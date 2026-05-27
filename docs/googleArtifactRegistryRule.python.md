@@ -4,7 +4,7 @@
 
 ### GoogleArtifactRegistryRule <a name="GoogleArtifactRegistryRule" id="@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule google_artifact_registry_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer"></a>
 
@@ -25,6 +25,7 @@ googleArtifactRegistryRule.GoogleArtifactRegistryRule(
   rule_id: str,
   action: str = None,
   condition: GoogleArtifactRegistryRuleCondition = None,
+  deletion_policy: str = None,
   id: str = None,
   location: str = None,
   operation: str = None,
@@ -49,11 +50,12 @@ googleArtifactRegistryRule.GoogleArtifactRegistryRule(
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.ruleId">rule_id</a></code> | <code>str</code> | The rule id to use for this repository. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.action">action</a></code> | <code>str</code> | The action this rule takes. Possible values: ["ACTION_UNSPECIFIED", "ALLOW", "DENY"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleCondition">GoogleArtifactRegistryRuleCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#id GoogleArtifactRegistryRule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#id GoogleArtifactRegistryRule#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.location">location</a></code> | <code>str</code> | The name of the repository's location. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.operation">operation</a></code> | <code>str</code> | The operation the rule applies to. Possible values: ["OPERATION_UNSPECIFIED", "DOWNLOAD"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.packageId">package_id</a></code> | <code>str</code> | The package ID the rule applies to. If empty, this rule applies to all packages inside the repository. |
-| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#project GoogleArtifactRegistryRule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#project GoogleArtifactRegistryRule#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts">GoogleArtifactRegistryRuleTimeouts</a></code> | timeouts block. |
 
 ---
@@ -124,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 The last part of the repository name, for example: "repo1".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#repository_id GoogleArtifactRegistryRule#repository_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#repository_id GoogleArtifactRegistryRule#repository_id}
 
 ---
 
@@ -134,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The rule id to use for this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#rule_id GoogleArtifactRegistryRule#rule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#rule_id GoogleArtifactRegistryRule#rule_id}
 
 ---
 
@@ -144,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The action this rule takes. Possible values: ["ACTION_UNSPECIFIED", "ALLOW", "DENY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#action GoogleArtifactRegistryRule#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#action GoogleArtifactRegistryRule#action}
 
 ---
 
@@ -154,7 +156,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#condition GoogleArtifactRegistryRule#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#condition GoogleArtifactRegistryRule#condition}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#deletion_policy GoogleArtifactRegistryRule#deletion_policy}
 
 ---
 
@@ -162,7 +181,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#id GoogleArtifactRegistryRule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#id GoogleArtifactRegistryRule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -182,7 +201,7 @@ or use the
 [google_artifact_registry_locations](https://registry.terraform.io/providers/hashicorp/google/latest/docs/data-sources/artifact_registry_locations)
 data source for possible values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#location GoogleArtifactRegistryRule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#location GoogleArtifactRegistryRule#location}
 
 ---
 
@@ -192,7 +211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The operation the rule applies to. Possible values: ["OPERATION_UNSPECIFIED", "DOWNLOAD"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#operation GoogleArtifactRegistryRule#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#operation GoogleArtifactRegistryRule#operation}
 
 ---
 
@@ -202,7 +221,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The package ID the rule applies to. If empty, this rule applies to all packages inside the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#package_id GoogleArtifactRegistryRule#package_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#package_id GoogleArtifactRegistryRule#package_id}
 
 ---
 
@@ -210,7 +229,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#project GoogleArtifactRegistryRule#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#project GoogleArtifactRegistryRule#project}.
 
 ---
 
@@ -220,7 +239,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#timeouts GoogleArtifactRegistryRule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#timeouts GoogleArtifactRegistryRule#timeouts}
 
 ---
 
@@ -256,6 +275,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.resetAction">reset_action</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.resetCondition">reset_condition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.resetLocation">reset_location</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.resetOperation">reset_operation</a></code> | *No description.* |
@@ -630,7 +650,7 @@ def put_condition(
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#expression GoogleArtifactRegistryRule#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#expression GoogleArtifactRegistryRule#expression}
 
 ---
 
@@ -643,7 +663,7 @@ Optional.
 Description of the expression. This is a longer text which
 describes the expression, e.g. when hovered over it in a UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#description GoogleArtifactRegistryRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#description GoogleArtifactRegistryRule#description}
 
 ---
 
@@ -656,7 +676,7 @@ Optional.
 String indicating the location of the expression for error
 reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#location GoogleArtifactRegistryRule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#location GoogleArtifactRegistryRule#location}
 
 ---
 
@@ -666,7 +686,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. Title for the expression, i.e. a short string describing its purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#title GoogleArtifactRegistryRule#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#title GoogleArtifactRegistryRule#title}
 
 ---
 
@@ -684,7 +704,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#create GoogleArtifactRegistryRule#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#create GoogleArtifactRegistryRule#create}.
 
 ---
 
@@ -692,7 +712,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#delete GoogleArtifactRegistryRule#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#delete GoogleArtifactRegistryRule#delete}.
 
 ---
 
@@ -700,7 +720,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#update GoogleArtifactRegistryRule#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#update GoogleArtifactRegistryRule#update}.
 
 ---
 
@@ -714,6 +734,12 @@ def reset_action() -> None
 
 ```python
 def reset_condition() -> None
+```
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
 ```
 
 ##### `reset_id` <a name="reset_id" id="@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.resetId"></a>
@@ -866,7 +892,7 @@ The construct id used in the generated config for the GoogleArtifactRegistryRule
 
 The id of the existing GoogleArtifactRegistryRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -901,6 +927,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeoutsOutputReference">GoogleArtifactRegistryRuleTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.actionInput">action_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.conditionInput">condition_input</a></code> | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleCondition">GoogleArtifactRegistryRuleCondition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.locationInput">location_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.operationInput">operation_input</a></code> | <code>str</code> | *No description.* |
@@ -910,6 +937,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.ruleIdInput">rule_id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts">GoogleArtifactRegistryRuleTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.action">action</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.location">location</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.operation">operation</a></code> | <code>str</code> | *No description.* |
@@ -1112,6 +1140,16 @@ condition_input: GoogleArtifactRegistryRuleCondition
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `id_input`<sup>Optional</sup> <a name="id_input" id="@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.idInput"></a>
 
 ```python
@@ -1196,6 +1234,16 @@ timeouts_input: IResolvable | GoogleArtifactRegistryRuleTimeouts
 
 ```python
 action: str
+```
+
+- *Type:* str
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRule.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
 ```
 
 - *Type:* str
@@ -1328,7 +1376,7 @@ expression: str
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#expression GoogleArtifactRegistryRule#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#expression GoogleArtifactRegistryRule#expression}
 
 ---
 
@@ -1345,7 +1393,7 @@ Optional.
 Description of the expression. This is a longer text which
 describes the expression, e.g. when hovered over it in a UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#description GoogleArtifactRegistryRule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#description GoogleArtifactRegistryRule#description}
 
 ---
 
@@ -1362,7 +1410,7 @@ Optional.
 String indicating the location of the expression for error
 reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#location GoogleArtifactRegistryRule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#location GoogleArtifactRegistryRule#location}
 
 ---
 
@@ -1376,7 +1424,7 @@ title: str
 
 Optional. Title for the expression, i.e. a short string describing its purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#title GoogleArtifactRegistryRule#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#title GoogleArtifactRegistryRule#title}
 
 ---
 
@@ -1399,6 +1447,7 @@ googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig(
   rule_id: str,
   action: str = None,
   condition: GoogleArtifactRegistryRuleCondition = None,
+  deletion_policy: str = None,
   id: str = None,
   location: str = None,
   operation: str = None,
@@ -1423,11 +1472,12 @@ googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.ruleId">rule_id</a></code> | <code>str</code> | The rule id to use for this repository. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.action">action</a></code> | <code>str</code> | The action this rule takes. Possible values: ["ACTION_UNSPECIFIED", "ALLOW", "DENY"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleCondition">GoogleArtifactRegistryRuleCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#id GoogleArtifactRegistryRule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#id GoogleArtifactRegistryRule#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.location">location</a></code> | <code>str</code> | The name of the repository's location. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.operation">operation</a></code> | <code>str</code> | The operation the rule applies to. Possible values: ["OPERATION_UNSPECIFIED", "DOWNLOAD"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.packageId">package_id</a></code> | <code>str</code> | The package ID the rule applies to. If empty, this rule applies to all packages inside the repository. |
-| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#project GoogleArtifactRegistryRule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#project GoogleArtifactRegistryRule#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts">GoogleArtifactRegistryRuleTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1512,7 +1562,7 @@ repository_id: str
 
 The last part of the repository name, for example: "repo1".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#repository_id GoogleArtifactRegistryRule#repository_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#repository_id GoogleArtifactRegistryRule#repository_id}
 
 ---
 
@@ -1526,7 +1576,7 @@ rule_id: str
 
 The rule id to use for this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#rule_id GoogleArtifactRegistryRule#rule_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#rule_id GoogleArtifactRegistryRule#rule_id}
 
 ---
 
@@ -1540,7 +1590,7 @@ action: str
 
 The action this rule takes. Possible values: ["ACTION_UNSPECIFIED", "ALLOW", "DENY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#action GoogleArtifactRegistryRule#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#action GoogleArtifactRegistryRule#action}
 
 ---
 
@@ -1554,7 +1604,28 @@ condition: GoogleArtifactRegistryRuleCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#condition GoogleArtifactRegistryRule#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#condition GoogleArtifactRegistryRule#condition}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#deletion_policy GoogleArtifactRegistryRule#deletion_policy}
 
 ---
 
@@ -1566,7 +1637,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#id GoogleArtifactRegistryRule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#id GoogleArtifactRegistryRule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1590,7 +1661,7 @@ or use the
 [google_artifact_registry_locations](https://registry.terraform.io/providers/hashicorp/google/latest/docs/data-sources/artifact_registry_locations)
 data source for possible values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#location GoogleArtifactRegistryRule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#location GoogleArtifactRegistryRule#location}
 
 ---
 
@@ -1604,7 +1675,7 @@ operation: str
 
 The operation the rule applies to. Possible values: ["OPERATION_UNSPECIFIED", "DOWNLOAD"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#operation GoogleArtifactRegistryRule#operation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#operation GoogleArtifactRegistryRule#operation}
 
 ---
 
@@ -1618,7 +1689,7 @@ package_id: str
 
 The package ID the rule applies to. If empty, this rule applies to all packages inside the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#package_id GoogleArtifactRegistryRule#package_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#package_id GoogleArtifactRegistryRule#package_id}
 
 ---
 
@@ -1630,7 +1701,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#project GoogleArtifactRegistryRule#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#project GoogleArtifactRegistryRule#project}.
 
 ---
 
@@ -1644,7 +1715,7 @@ timeouts: GoogleArtifactRegistryRuleTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#timeouts GoogleArtifactRegistryRule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#timeouts GoogleArtifactRegistryRule#timeouts}
 
 ---
 
@@ -1666,9 +1737,9 @@ googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#create GoogleArtifactRegistryRule#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#delete GoogleArtifactRegistryRule#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#update GoogleArtifactRegistryRule#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#create GoogleArtifactRegistryRule#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#delete GoogleArtifactRegistryRule#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleArtifactRegistryRule.GoogleArtifactRegistryRuleTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#update GoogleArtifactRegistryRule#update}. |
 
 ---
 
@@ -1680,7 +1751,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#create GoogleArtifactRegistryRule#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#create GoogleArtifactRegistryRule#create}.
 
 ---
 
@@ -1692,7 +1763,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#delete GoogleArtifactRegistryRule#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#delete GoogleArtifactRegistryRule#delete}.
 
 ---
 
@@ -1704,7 +1775,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_artifact_registry_rule#update GoogleArtifactRegistryRule#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_artifact_registry_rule#update GoogleArtifactRegistryRule#update}.
 
 ---
 

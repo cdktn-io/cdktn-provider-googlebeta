@@ -4,7 +4,7 @@
 
 ### GoogleNetappVolumeSnapshot <a name="GoogleNetappVolumeSnapshot" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot google_netapp_volume_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.resetLabels">ResetLabels</a></code> | *No description.* |
@@ -404,6 +405,12 @@ func PutTimeouts(value GoogleNetappVolumeSnapshotTimeouts)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.resetDescription"></a>
 
 ```go
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleNetappVolumeSnapshot
 
 The id of the existing GoogleNetappVolumeSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -571,6 +578,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.terraformLabels">TerraformLabels</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeoutsOutputReference">GoogleNetappVolumeSnapshotTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.usedBytes">UsedBytes</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.labelsInput">LabelsInput</a></code> | <code>*map[string]*string</code> | *No description.* |
@@ -579,6 +587,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.projectInput">ProjectInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.timeoutsInput">TimeoutsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.volumeNameInput">VolumeNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.labels">Labels</a></code> | <code>*map[string]*string</code> | *No description.* |
@@ -771,6 +780,16 @@ func UsedBytes() *f64
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.descriptionInput"></a>
 
 ```go
@@ -845,6 +864,16 @@ func TimeoutsInput() interface{}
 
 ```go
 func VolumeNameInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshot.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
 ```
 
 - *Type:* *string
@@ -959,6 +988,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 	Location: *string,
 	Name: *string,
 	VolumeName: *string,
+	DeletionPolicy: *string,
 	Description: *string,
 	Id: *string,
 	Labels: *map[string]*string,
@@ -981,10 +1011,11 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.location">Location</a></code> | <code>*string</code> | Name of the snapshot location. Snapshots are child resources of volumes and live in the same location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.name">Name</a></code> | <code>*string</code> | The name of the snapshot. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.volumeName">VolumeName</a></code> | <code>*string</code> | The name of the volume to create the snapshot in. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.description">Description</a></code> | <code>*string</code> | Description for the snapshot. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#id GoogleNetappVolumeSnapshot#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#id GoogleNetappVolumeSnapshot#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#project GoogleNetappVolumeSnapshot#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#project GoogleNetappVolumeSnapshot#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts">GoogleNetappVolumeSnapshotTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1069,7 +1100,7 @@ Location *string
 
 Name of the snapshot location. Snapshots are child resources of volumes and live in the same location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#location GoogleNetappVolumeSnapshot#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#location GoogleNetappVolumeSnapshot#location}
 
 ---
 
@@ -1083,7 +1114,7 @@ Name *string
 
 The name of the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#name GoogleNetappVolumeSnapshot#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#name GoogleNetappVolumeSnapshot#name}
 
 ---
 
@@ -1097,7 +1128,28 @@ VolumeName *string
 
 The name of the volume to create the snapshot in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#volume_name GoogleNetappVolumeSnapshot#volume_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#volume_name GoogleNetappVolumeSnapshot#volume_name}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#deletion_policy GoogleNetappVolumeSnapshot#deletion_policy}
 
 ---
 
@@ -1111,7 +1163,7 @@ Description *string
 
 Description for the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#description GoogleNetappVolumeSnapshot#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#description GoogleNetappVolumeSnapshot#description}
 
 ---
 
@@ -1123,7 +1175,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#id GoogleNetappVolumeSnapshot#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#id GoogleNetappVolumeSnapshot#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1143,7 +1195,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#labels GoogleNetappVolumeSnapshot#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#labels GoogleNetappVolumeSnapshot#labels}
 
 ---
 
@@ -1155,7 +1207,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#project GoogleNetappVolumeSnapshot#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#project GoogleNetappVolumeSnapshot#project}.
 
 ---
 
@@ -1169,7 +1221,7 @@ Timeouts GoogleNetappVolumeSnapshotTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#timeouts GoogleNetappVolumeSnapshot#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#timeouts GoogleNetappVolumeSnapshot#timeouts}
 
 ---
 
@@ -1191,9 +1243,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlene
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#create GoogleNetappVolumeSnapshot#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#delete GoogleNetappVolumeSnapshot#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#update GoogleNetappVolumeSnapshot#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#create GoogleNetappVolumeSnapshot#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#delete GoogleNetappVolumeSnapshot#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappVolumeSnapshot.GoogleNetappVolumeSnapshotTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#update GoogleNetappVolumeSnapshot#update}. |
 
 ---
 
@@ -1205,7 +1257,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#create GoogleNetappVolumeSnapshot#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#create GoogleNetappVolumeSnapshot#create}.
 
 ---
 
@@ -1217,7 +1269,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#delete GoogleNetappVolumeSnapshot#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#delete GoogleNetappVolumeSnapshot#delete}.
 
 ---
 
@@ -1229,7 +1281,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_volume_snapshot#update GoogleNetappVolumeSnapshot#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_volume_snapshot#update GoogleNetappVolumeSnapshot#update}.
 
 ---
 

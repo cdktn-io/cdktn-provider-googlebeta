@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionHealthAggregationPolicy <a name="GoogleComputeRegionHealthAggregationPolicy" id="@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.resetHealthyPercentThreshold">resetHealthyPercentThreshold</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.resetMinHealthyThreshold">resetMinHealthyThreshold</a></code> | *No description.* |
@@ -405,6 +406,12 @@ public putTimeouts(value: GoogleComputeRegionHealthAggregationPolicyTimeouts): v
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.resetDescription"></a>
 
 ```typescript
@@ -544,7 +551,7 @@ The construct id used in the generated config for the GoogleComputeRegionHealthA
 
 The id of the existing GoogleComputeRegionHealthAggregationPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -579,6 +586,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.selfLinkWithId">selfLinkWithId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeoutsOutputReference">GoogleComputeRegionHealthAggregationPolicyTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.healthyPercentThresholdInput">healthyPercentThresholdInput</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.minHealthyThresholdInput">minHealthyThresholdInput</a></code> | <code>number</code> | *No description.* |
@@ -587,6 +595,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.regionInput">regionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeouts">GoogleComputeRegionHealthAggregationPolicyTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.healthyPercentThreshold">healthyPercentThreshold</a></code> | <code>number</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.minHealthyThreshold">minHealthyThreshold</a></code> | <code>number</code> | *No description.* |
@@ -789,6 +798,16 @@ public readonly timeouts: GoogleComputeRegionHealthAggregationPolicyTimeoutsOutp
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.descriptionInput"></a>
 
 ```typescript
@@ -866,6 +885,16 @@ public readonly timeoutsInput: IResolvable | GoogleComputeRegionHealthAggregatio
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeouts">GoogleComputeRegionHealthAggregationPolicyTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicy.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -982,11 +1011,12 @@ const googleComputeRegionHealthAggregationPolicyConfig: googleComputeRegionHealt
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.name">name</a></code> | <code>string</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.region">region</a></code> | <code>string</code> | URL of the region where the health aggregation policy resides. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.description">description</a></code> | <code>string</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.healthyPercentThreshold">healthyPercentThreshold</a></code> | <code>number</code> | Can only be set if the 'policyType' field is 'BACKEND_SERVICE_POLICY'. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.minHealthyThreshold">minHealthyThreshold</a></code> | <code>number</code> | Can only be set if the 'policyType' field is 'BACKEND_SERVICE_POLICY'. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.policyType">policyType</a></code> | <code>string</code> | Specifies the type of the healthAggregationPolicy. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#project GoogleComputeRegionHealthAggregationPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#project GoogleComputeRegionHealthAggregationPolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeouts">GoogleComputeRegionHealthAggregationPolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1079,7 +1109,7 @@ character must be a lowercase letter, and all following characters must
 be a dash, lowercase letter, or digit, except the last character, which
 cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#name GoogleComputeRegionHealthAggregationPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#name GoogleComputeRegionHealthAggregationPolicy#name}
 
 ---
 
@@ -1093,7 +1123,29 @@ public readonly region: string;
 
 URL of the region where the health aggregation policy resides.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#region GoogleComputeRegionHealthAggregationPolicy#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#region GoogleComputeRegionHealthAggregationPolicy#region}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#deletion_policy GoogleComputeRegionHealthAggregationPolicy#deletion_policy}
 
 ---
 
@@ -1107,7 +1159,7 @@ public readonly description: string;
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#description GoogleComputeRegionHealthAggregationPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#description GoogleComputeRegionHealthAggregationPolicy#description}
 
 ---
 
@@ -1132,7 +1184,7 @@ for HEALTHY to be the aggregated result. "Endpoints" refers to network
 endpoints within a Network Endpoint Group or instances within an Instance
 Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#healthy_percent_threshold GoogleComputeRegionHealthAggregationPolicy#healthy_percent_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#healthy_percent_threshold GoogleComputeRegionHealthAggregationPolicy#healthy_percent_threshold}
 
 ---
 
@@ -1157,7 +1209,7 @@ order for HEALTHY to be the aggregated result. "Endpoints" refers to
 network endpoints within a Network Endpoint Group or instances within an
 Instance Group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#min_healthy_threshold GoogleComputeRegionHealthAggregationPolicy#min_healthy_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#min_healthy_threshold GoogleComputeRegionHealthAggregationPolicy#min_healthy_threshold}
 
 ---
 
@@ -1177,7 +1229,7 @@ value for regional resources is 'BACKEND_SERVICE_POLICY'. Must
 be specified when the healthAggregationPolicy is created, and cannot be
 mutated. Default value: "BACKEND_SERVICE_POLICY" Possible values: ["DNS_PUBLIC_IP_POLICY", "BACKEND_SERVICE_POLICY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#policy_type GoogleComputeRegionHealthAggregationPolicy#policy_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#policy_type GoogleComputeRegionHealthAggregationPolicy#policy_type}
 
 ---
 
@@ -1189,7 +1241,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#project GoogleComputeRegionHealthAggregationPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#project GoogleComputeRegionHealthAggregationPolicy#project}.
 
 ---
 
@@ -1203,7 +1255,7 @@ public readonly timeouts: GoogleComputeRegionHealthAggregationPolicyTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#timeouts GoogleComputeRegionHealthAggregationPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#timeouts GoogleComputeRegionHealthAggregationPolicy#timeouts}
 
 ---
 
@@ -1221,9 +1273,9 @@ const googleComputeRegionHealthAggregationPolicyTimeouts: googleComputeRegionHea
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#create GoogleComputeRegionHealthAggregationPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#delete GoogleComputeRegionHealthAggregationPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#update GoogleComputeRegionHealthAggregationPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#create GoogleComputeRegionHealthAggregationPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#delete GoogleComputeRegionHealthAggregationPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionHealthAggregationPolicy.GoogleComputeRegionHealthAggregationPolicyTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#update GoogleComputeRegionHealthAggregationPolicy#update}. |
 
 ---
 
@@ -1235,7 +1287,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#create GoogleComputeRegionHealthAggregationPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#create GoogleComputeRegionHealthAggregationPolicy#create}.
 
 ---
 
@@ -1247,7 +1299,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#delete GoogleComputeRegionHealthAggregationPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#delete GoogleComputeRegionHealthAggregationPolicy#delete}.
 
 ---
 
@@ -1259,7 +1311,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_health_aggregation_policy#update GoogleComputeRegionHealthAggregationPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_health_aggregation_policy#update GoogleComputeRegionHealthAggregationPolicy#update}.
 
 ---
 

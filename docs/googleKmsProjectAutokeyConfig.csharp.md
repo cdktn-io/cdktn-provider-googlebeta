@@ -4,7 +4,7 @@
 
 ### GoogleKmsProjectAutokeyConfig <a name="GoogleKmsProjectAutokeyConfig" id="@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config google_kms_project_autokey_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config google_kms_project_autokey_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.resetKeyProjectResolutionMode">ResetKeyProjectResolutionMode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.resetProject">ResetProject</a></code> | *No description.* |
@@ -403,6 +404,12 @@ private void PutTimeouts(GoogleKmsProjectAutokeyConfigTimeouts Value)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.resetId"></a>
 
 ```csharp
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleKmsProjectAutokeyCon
 
 The id of the existing GoogleKmsProjectAutokeyConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -562,10 +569,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.etag">Etag</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeoutsOutputReference">GoogleKmsProjectAutokeyConfigTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.keyProjectResolutionModeInput">KeyProjectResolutionModeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeouts">GoogleKmsProjectAutokeyConfigTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.keyProjectResolutionMode">KeyProjectResolutionMode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.project">Project</a></code> | <code>string</code> | *No description.* |
@@ -734,6 +743,16 @@ public GoogleKmsProjectAutokeyConfigTimeoutsOutputReference Timeouts { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.idInput"></a>
 
 ```csharp
@@ -771,6 +790,16 @@ public IResolvable|GoogleKmsProjectAutokeyConfigTimeouts TimeoutsInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeouts">GoogleKmsProjectAutokeyConfigTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -839,6 +868,7 @@ new GoogleKmsProjectAutokeyConfigConfig {
     TerraformResourceLifecycle Lifecycle = null,
     TerraformProvider Provider = null,
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
+    string DeletionPolicy = null,
     string Id = null,
     string KeyProjectResolutionMode = null,
     string Project = null,
@@ -857,9 +887,10 @@ new GoogleKmsProjectAutokeyConfigConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#id GoogleKmsProjectAutokeyConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#id GoogleKmsProjectAutokeyConfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.keyProjectResolutionMode">KeyProjectResolutionMode</a></code> | <code>string</code> | How Autokey determines which project to use when provisioning CMEK keys. Possible values: ["RESOURCE_PROJECT", "DISABLED"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#project GoogleKmsProjectAutokeyConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#project GoogleKmsProjectAutokeyConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeouts">GoogleKmsProjectAutokeyConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -934,6 +965,27 @@ public (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisione
 
 ---
 
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#deletion_policy GoogleKmsProjectAutokeyConfig#deletion_policy}
+
+---
+
 ##### `Id`<sup>Optional</sup> <a name="Id" id="@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigConfig.property.id"></a>
 
 ```csharp
@@ -942,7 +994,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#id GoogleKmsProjectAutokeyConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#id GoogleKmsProjectAutokeyConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -959,7 +1011,7 @@ public string KeyProjectResolutionMode { get; set; }
 
 How Autokey determines which project to use when provisioning CMEK keys. Possible values: ["RESOURCE_PROJECT", "DISABLED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#key_project_resolution_mode GoogleKmsProjectAutokeyConfig#key_project_resolution_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#key_project_resolution_mode GoogleKmsProjectAutokeyConfig#key_project_resolution_mode}
 
 ---
 
@@ -971,7 +1023,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#project GoogleKmsProjectAutokeyConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#project GoogleKmsProjectAutokeyConfig#project}.
 
 ---
 
@@ -985,7 +1037,7 @@ public GoogleKmsProjectAutokeyConfigTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#timeouts GoogleKmsProjectAutokeyConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#timeouts GoogleKmsProjectAutokeyConfig#timeouts}
 
 ---
 
@@ -1007,9 +1059,9 @@ new GoogleKmsProjectAutokeyConfigTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#create GoogleKmsProjectAutokeyConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#delete GoogleKmsProjectAutokeyConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#update GoogleKmsProjectAutokeyConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#create GoogleKmsProjectAutokeyConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#delete GoogleKmsProjectAutokeyConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleKmsProjectAutokeyConfig.GoogleKmsProjectAutokeyConfigTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#update GoogleKmsProjectAutokeyConfig#update}. |
 
 ---
 
@@ -1021,7 +1073,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#create GoogleKmsProjectAutokeyConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#create GoogleKmsProjectAutokeyConfig#create}.
 
 ---
 
@@ -1033,7 +1085,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#delete GoogleKmsProjectAutokeyConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#delete GoogleKmsProjectAutokeyConfig#delete}.
 
 ---
 
@@ -1045,7 +1097,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_kms_project_autokey_config#update GoogleKmsProjectAutokeyConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_kms_project_autokey_config#update GoogleKmsProjectAutokeyConfig#update}.
 
 ---
 

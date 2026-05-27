@@ -4,7 +4,7 @@
 
 ### GoogleSccProjectCustomModule <a name="GoogleSccProjectCustomModule" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module google_scc_project_custom_module}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module google_scc_project_custom_module}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer"></a>
 
@@ -22,6 +22,7 @@ GoogleSccProjectCustomModule.Builder.create(Construct scope, java.lang.String id
     .customConfig(GoogleSccProjectCustomModuleCustomConfig)
     .displayName(java.lang.String)
     .enablementState(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleSccProjectCustomModuleTimeouts)
@@ -42,8 +43,9 @@ GoogleSccProjectCustomModule.Builder.create(Construct scope, java.lang.String id
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.customConfig">customConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | custom_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.displayName">displayName</a></code> | <code>java.lang.String</code> | The display name of the Security Health Analytics custom module. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.enablementState">enablementState</a></code> | <code>java.lang.String</code> | The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | timeouts block. |
 
 ---
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 custom_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#custom_config GoogleSccProjectCustomModule#custom_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#custom_config GoogleSccProjectCustomModule#custom_config}
 
 ---
 
@@ -130,7 +132,7 @@ returned by this custom module. The display name must be between 1 and
 128 characters, start with a lowercase letter, and contain alphanumeric
 characters or underscores only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#display_name GoogleSccProjectCustomModule#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#display_name GoogleSccProjectCustomModule#display_name}
 
 ---
 
@@ -140,7 +142,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#enablement_state GoogleSccProjectCustomModule#enablement_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#enablement_state GoogleSccProjectCustomModule#enablement_state}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#deletion_policy GoogleSccProjectCustomModule#deletion_policy}
 
 ---
 
@@ -148,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,7 +178,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}.
 
 ---
 
@@ -169,7 +188,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#timeouts GoogleSccProjectCustomModule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#timeouts GoogleSccProjectCustomModule#timeouts}
 
 ---
 
@@ -203,6 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putCustomConfig">putCustomConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -544,6 +564,12 @@ public void putTimeouts(GoogleSccProjectCustomModuleTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.resetId"></a>
 
 ```java
@@ -665,7 +691,7 @@ The construct id used in the generated config for the GoogleSccProjectCustomModu
 
 The id of the existing GoogleSccProjectCustomModule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -702,11 +728,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeoutsOutputReference">GoogleSccProjectCustomModuleTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.updateTime">updateTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.customConfigInput">customConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementStateInput">enablementStateInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.enablementState">enablementState</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -926,6 +954,16 @@ public GoogleSccProjectCustomModuleCustomConfig getCustomConfigInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `displayNameInput`<sup>Optional</sup> <a name="displayNameInput" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.displayNameInput"></a>
 
 ```java
@@ -973,6 +1011,16 @@ public IResolvable|GoogleSccProjectCustomModuleTimeouts getTimeoutsInput();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModule.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1054,6 +1102,7 @@ GoogleSccProjectCustomModuleConfig.builder()
     .customConfig(GoogleSccProjectCustomModuleCustomConfig)
     .displayName(java.lang.String)
     .enablementState(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GoogleSccProjectCustomModuleTimeouts)
@@ -1074,8 +1123,9 @@ GoogleSccProjectCustomModuleConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.customConfig">customConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleCustomConfig">GoogleSccProjectCustomModuleCustomConfig</a></code> | custom_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.displayName">displayName</a></code> | <code>java.lang.String</code> | The display name of the Security Health Analytics custom module. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.enablementState">enablementState</a></code> | <code>java.lang.String</code> | The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts">GoogleSccProjectCustomModuleTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1160,7 +1210,7 @@ public GoogleSccProjectCustomModuleCustomConfig getCustomConfig();
 
 custom_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#custom_config GoogleSccProjectCustomModule#custom_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#custom_config GoogleSccProjectCustomModule#custom_config}
 
 ---
 
@@ -1180,7 +1230,7 @@ returned by this custom module. The display name must be between 1 and
 128 characters, start with a lowercase letter, and contain alphanumeric
 characters or underscores only.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#display_name GoogleSccProjectCustomModule#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#display_name GoogleSccProjectCustomModule#display_name}
 
 ---
 
@@ -1194,7 +1244,28 @@ public java.lang.String getEnablementState();
 
 The enablement state of the custom module. Possible values: ["ENABLED", "DISABLED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#enablement_state GoogleSccProjectCustomModule#enablement_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#enablement_state GoogleSccProjectCustomModule#enablement_state}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#deletion_policy GoogleSccProjectCustomModule#deletion_policy}
 
 ---
 
@@ -1206,7 +1277,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#id GoogleSccProjectCustomModule#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1221,7 +1292,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#project GoogleSccProjectCustomModule#project}.
 
 ---
 
@@ -1235,7 +1306,7 @@ public GoogleSccProjectCustomModuleTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#timeouts GoogleSccProjectCustomModule#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#timeouts GoogleSccProjectCustomModule#timeouts}
 
 ---
 
@@ -1279,7 +1350,7 @@ public GoogleSccProjectCustomModuleCustomConfigPredicate getPredicate();
 
 predicate block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#predicate GoogleSccProjectCustomModule#predicate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#predicate GoogleSccProjectCustomModule#predicate}
 
 ---
 
@@ -1296,7 +1367,7 @@ An explanation of the recommended steps that security teams can take to resolve 
 This explanation is returned with each finding generated by
 this module in the nextSteps property of the finding JSON.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#recommendation GoogleSccProjectCustomModule#recommendation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#recommendation GoogleSccProjectCustomModule#recommendation}
 
 ---
 
@@ -1310,7 +1381,7 @@ public GoogleSccProjectCustomModuleCustomConfigResourceSelector getResourceSelec
 
 resource_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#resource_selector GoogleSccProjectCustomModule#resource_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#resource_selector GoogleSccProjectCustomModule#resource_selector}
 
 ---
 
@@ -1324,7 +1395,7 @@ public java.lang.String getSeverity();
 
 The severity to assign to findings generated by the module. Possible values: ["CRITICAL", "HIGH", "MEDIUM", "LOW"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#severity GoogleSccProjectCustomModule#severity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#severity GoogleSccProjectCustomModule#severity}
 
 ---
 
@@ -1338,7 +1409,7 @@ public GoogleSccProjectCustomModuleCustomConfigCustomOutput getCustomOutput();
 
 custom_output block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#custom_output GoogleSccProjectCustomModule#custom_output}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#custom_output GoogleSccProjectCustomModule#custom_output}
 
 ---
 
@@ -1355,7 +1426,7 @@ Text that describes the vulnerability or misconfiguration that the custom module
 This explanation is returned with each finding instance to
 help investigators understand the detected issue. The text must be enclosed in quotation marks.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#description GoogleSccProjectCustomModule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#description GoogleSccProjectCustomModule#description}
 
 ---
 
@@ -1389,7 +1460,7 @@ public IResolvable|java.util.List<GoogleSccProjectCustomModuleCustomConfigCustom
 
 properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#properties GoogleSccProjectCustomModule#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#properties GoogleSccProjectCustomModule#properties}
 
 ---
 
@@ -1425,7 +1496,7 @@ public java.lang.String getName();
 
 Name of the property for the custom output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#name GoogleSccProjectCustomModule#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#name GoogleSccProjectCustomModule#name}
 
 ---
 
@@ -1439,7 +1510,7 @@ public GoogleSccProjectCustomModuleCustomConfigCustomOutputPropertiesValueExpres
 
 value_expression block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#value_expression GoogleSccProjectCustomModule#value_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#value_expression GoogleSccProjectCustomModule#value_expression}
 
 ---
 
@@ -1479,7 +1550,7 @@ public java.lang.String getExpression();
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#expression GoogleSccProjectCustomModule#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#expression GoogleSccProjectCustomModule#expression}
 
 ---
 
@@ -1496,7 +1567,7 @@ Description of the expression.
 This is a longer text which describes the
 expression, e.g. when hovered over it in a UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#description GoogleSccProjectCustomModule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#description GoogleSccProjectCustomModule#description}
 
 ---
 
@@ -1510,7 +1581,7 @@ public java.lang.String getLocation();
 
 String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#location GoogleSccProjectCustomModule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#location GoogleSccProjectCustomModule#location}
 
 ---
 
@@ -1524,7 +1595,7 @@ public java.lang.String getTitle();
 
 Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#title GoogleSccProjectCustomModule#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#title GoogleSccProjectCustomModule#title}
 
 ---
 
@@ -1564,7 +1635,7 @@ public java.lang.String getExpression();
 
 Textual representation of an expression in Common Expression Language syntax.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#expression GoogleSccProjectCustomModule#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#expression GoogleSccProjectCustomModule#expression}
 
 ---
 
@@ -1581,7 +1652,7 @@ Description of the expression.
 This is a longer text which describes the
 expression, e.g. when hovered over it in a UI.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#description GoogleSccProjectCustomModule#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#description GoogleSccProjectCustomModule#description}
 
 ---
 
@@ -1595,7 +1666,7 @@ public java.lang.String getLocation();
 
 String indicating the location of the expression for error reporting, e.g. a file name and a position in the file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#location GoogleSccProjectCustomModule#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#location GoogleSccProjectCustomModule#location}
 
 ---
 
@@ -1609,7 +1680,7 @@ public java.lang.String getTitle();
 
 Title for the expression, i.e. a short string describing its purpose. This can be used e.g. in UIs which allow to enter the expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#title GoogleSccProjectCustomModule#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#title GoogleSccProjectCustomModule#title}
 
 ---
 
@@ -1643,7 +1714,7 @@ public java.util.List<java.lang.String> getResourceTypes();
 
 The resource types to run the detector on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#resource_types GoogleSccProjectCustomModule#resource_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#resource_types GoogleSccProjectCustomModule#resource_types}
 
 ---
 
@@ -1665,9 +1736,9 @@ GoogleSccProjectCustomModuleTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#create GoogleSccProjectCustomModule#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#delete GoogleSccProjectCustomModule#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#update GoogleSccProjectCustomModule#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#create GoogleSccProjectCustomModule#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#delete GoogleSccProjectCustomModule#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccProjectCustomModule.GoogleSccProjectCustomModuleTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#update GoogleSccProjectCustomModule#update}. |
 
 ---
 
@@ -1679,7 +1750,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#create GoogleSccProjectCustomModule#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#create GoogleSccProjectCustomModule#create}.
 
 ---
 
@@ -1691,7 +1762,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#delete GoogleSccProjectCustomModule#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#delete GoogleSccProjectCustomModule#delete}.
 
 ---
 
@@ -1703,7 +1774,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_scc_project_custom_module#update GoogleSccProjectCustomModule#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_project_custom_module#update GoogleSccProjectCustomModule#update}.
 
 ---
 

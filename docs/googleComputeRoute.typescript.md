@@ -4,7 +4,7 @@
 
 ### GoogleComputeRoute <a name="GoogleComputeRoute" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route google_compute_route}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route google_compute_route}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.putParams">putParams</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.resetNextHopGateway">resetNextHopGateway</a></code> | *No description.* |
@@ -425,6 +426,12 @@ public putTimeouts(value: GoogleComputeRouteTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.resetDescription"></a>
 
 ```typescript
@@ -606,7 +613,7 @@ The construct id used in the generated config for the GoogleComputeRoute to impo
 
 The id of the existing GoogleComputeRoute that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -650,6 +657,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.selfLink">selfLink</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeoutsOutputReference">GoogleComputeRouteTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.warnings">warnings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteWarningsList">GoogleComputeRouteWarningsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.destRangeInput">destRangeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
@@ -666,6 +674,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.tagsInput">tagsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts">GoogleComputeRouteTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.destRange">destRange</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -965,6 +974,16 @@ public readonly warnings: GoogleComputeRouteWarningsList;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.descriptionInput"></a>
 
 ```typescript
@@ -1122,6 +1141,16 @@ public readonly timeoutsInput: IResolvable | GoogleComputeRouteTimeouts;
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts">GoogleComputeRouteTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRoute.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -1320,8 +1349,9 @@ const googleComputeRouteConfig: googleComputeRoute.GoogleComputeRouteConfig = { 
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.destRange">destRange</a></code> | <code>string</code> | The destination range of outgoing packets that this route applies to. Only IPv4 is supported. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.name">name</a></code> | <code>string</code> | Name of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.network">network</a></code> | <code>string</code> | The network that this route applies to. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.description">description</a></code> | <code>string</code> | An optional description of this resource. Provide this property when you create the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#id GoogleComputeRoute#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#id GoogleComputeRoute#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.nextHopGateway">nextHopGateway</a></code> | <code>string</code> | URL to a gateway that should handle matching packets. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.nextHopIlb">nextHopIlb</a></code> | <code>string</code> | The IP address or URL to a forwarding rule of type loadBalancingScheme=INTERNAL that should handle matching packets. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.nextHopInstance">nextHopInstance</a></code> | <code>string</code> | URL to an instance that should handle matching packets. |
@@ -1330,7 +1360,7 @@ const googleComputeRouteConfig: googleComputeRoute.GoogleComputeRouteConfig = { 
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.nextHopVpnTunnel">nextHopVpnTunnel</a></code> | <code>string</code> | URL to a VpnTunnel that should handle matching packets. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.params">params</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteParams">GoogleComputeRouteParams</a></code> | params block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.priority">priority</a></code> | <code>number</code> | The priority of this route. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#project GoogleComputeRoute#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#project GoogleComputeRoute#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.tags">tags</a></code> | <code>string[]</code> | A list of instance tags to which this route applies. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts">GoogleComputeRouteTimeouts</a></code> | timeouts block. |
 
@@ -1416,7 +1446,7 @@ public readonly destRange: string;
 
 The destination range of outgoing packets that this route applies to. Only IPv4 is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#dest_range GoogleComputeRoute#dest_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#dest_range GoogleComputeRoute#dest_range}
 
 ---
 
@@ -1438,7 +1468,7 @@ the first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the
 last character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#name GoogleComputeRoute#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#name GoogleComputeRoute#name}
 
 ---
 
@@ -1452,7 +1482,29 @@ public readonly network: string;
 
 The network that this route applies to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#network GoogleComputeRoute#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#network GoogleComputeRoute#network}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#deletion_policy GoogleComputeRoute#deletion_policy}
 
 ---
 
@@ -1466,7 +1518,7 @@ public readonly description: string;
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#description GoogleComputeRoute#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#description GoogleComputeRoute#description}
 
 ---
 
@@ -1478,7 +1530,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#id GoogleComputeRoute#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#id GoogleComputeRoute#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1502,7 +1554,7 @@ partial valid URL:
 * 'global/gateways/default-internet-gateway'
 * The string 'default-internet-gateway'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#next_hop_gateway GoogleComputeRoute#next_hop_gateway}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#next_hop_gateway GoogleComputeRoute#next_hop_gateway}
 
 ---
 
@@ -1529,7 +1581,7 @@ of a forwarding rule from the same VPC or any peered VPC.
 Note that this can only be used when the destinationRange is
 a public (non-RFC 1918) IP CIDR range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#next_hop_ilb GoogleComputeRoute#next_hop_ilb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#next_hop_ilb GoogleComputeRoute#next_hop_ilb}
 
 ---
 
@@ -1549,7 +1601,7 @@ You can specify this as a full or partial URL. For example:
 * 'zones/zone/instances/instance'
 * Just the instance name, with the zone in 'next_hop_instance_zone'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#next_hop_instance GoogleComputeRoute#next_hop_instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#next_hop_instance GoogleComputeRoute#next_hop_instance}
 
 ---
 
@@ -1563,7 +1615,7 @@ public readonly nextHopInstanceZone: string;
 
 The zone of the instance specified in next_hop_instance. Omit if next_hop_instance is specified as a URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#next_hop_instance_zone GoogleComputeRoute#next_hop_instance_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#next_hop_instance_zone GoogleComputeRoute#next_hop_instance_zone}
 
 ---
 
@@ -1577,7 +1629,7 @@ public readonly nextHopIp: string;
 
 Network IP address of an instance that should handle matching packets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#next_hop_ip GoogleComputeRoute#next_hop_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#next_hop_ip GoogleComputeRoute#next_hop_ip}
 
 ---
 
@@ -1591,7 +1643,7 @@ public readonly nextHopVpnTunnel: string;
 
 URL to a VpnTunnel that should handle matching packets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#next_hop_vpn_tunnel GoogleComputeRoute#next_hop_vpn_tunnel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#next_hop_vpn_tunnel GoogleComputeRoute#next_hop_vpn_tunnel}
 
 ---
 
@@ -1605,7 +1657,7 @@ public readonly params: GoogleComputeRouteParams;
 
 params block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#params GoogleComputeRoute#params}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#params GoogleComputeRoute#params}
 
 ---
 
@@ -1627,7 +1679,7 @@ lowest-numbered priority value wins.
 
 Default value is 1000. Valid range is 0 through 65535.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#priority GoogleComputeRoute#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#priority GoogleComputeRoute#priority}
 
 ---
 
@@ -1639,7 +1691,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#project GoogleComputeRoute#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#project GoogleComputeRoute#project}.
 
 ---
 
@@ -1653,7 +1705,7 @@ public readonly tags: string[];
 
 A list of instance tags to which this route applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#tags GoogleComputeRoute#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#tags GoogleComputeRoute#tags}
 
 ---
 
@@ -1667,7 +1719,7 @@ public readonly timeouts: GoogleComputeRouteTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#timeouts GoogleComputeRoute#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#timeouts GoogleComputeRoute#timeouts}
 
 ---
 
@@ -1706,7 +1758,7 @@ The field is immutable and causes resource replacement when mutated. This field 
 set at create time and modifying this field after creation will trigger recreation.
 To apply tags to an existing resource, see the google_tags_tag_binding resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#resource_manager_tags GoogleComputeRoute#resource_manager_tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#resource_manager_tags GoogleComputeRoute#resource_manager_tags}
 
 ---
 
@@ -1724,8 +1776,8 @@ const googleComputeRouteTimeouts: googleComputeRoute.GoogleComputeRouteTimeouts 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#create GoogleComputeRoute#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#delete GoogleComputeRoute#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#create GoogleComputeRoute#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRoute.GoogleComputeRouteTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#delete GoogleComputeRoute#delete}. |
 
 ---
 
@@ -1737,7 +1789,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#create GoogleComputeRoute#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#create GoogleComputeRoute#create}.
 
 ---
 
@@ -1749,7 +1801,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_route#delete GoogleComputeRoute#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_route#delete GoogleComputeRoute#delete}.
 
 ---
 

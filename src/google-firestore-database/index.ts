@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,20 +15,20 @@ export interface GoogleFirestoreDatabaseConfig extends cdktn.TerraformMetaArgume
   /**
   * The App Engine integration mode to use for this database. Possible values: ["ENABLED", "DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#app_engine_integration_mode GoogleFirestoreDatabase#app_engine_integration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#app_engine_integration_mode GoogleFirestoreDatabase#app_engine_integration_mode}
   */
   readonly appEngineIntegrationMode?: string;
   /**
   * The concurrency control mode to use for this database. Possible values: ["OPTIMISTIC", "PESSIMISTIC", "OPTIMISTIC_WITH_ENTITY_GROUPS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#concurrency_mode GoogleFirestoreDatabase#concurrency_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#concurrency_mode GoogleFirestoreDatabase#concurrency_mode}
   */
   readonly concurrencyMode?: string;
   /**
   * The database edition. When set to 'ENTERPRISE', then type must be set to
   * 'FIRESTORE_NATIVE'. Possible values: ["STANDARD", "ENTERPRISE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#database_edition GoogleFirestoreDatabase#database_edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#database_edition GoogleFirestoreDatabase#database_edition}
   */
   readonly databaseEdition?: string;
   /**
@@ -37,28 +37,30 @@ export interface GoogleFirestoreDatabaseConfig extends cdktn.TerraformMetaArgume
   * The default value is 'DELETE_PROTECTION_STATE_UNSPECIFIED', which is currently equivalent to 'DELETE_PROTECTION_DISABLED'.
   * **Note:** Additionally, to delete this database using 'terraform destroy', 'deletion_policy' must be set to 'DELETE'. Possible values: ["DELETE_PROTECTION_STATE_UNSPECIFIED", "DELETE_PROTECTION_ENABLED", "DELETE_PROTECTION_DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#delete_protection_state GoogleFirestoreDatabase#delete_protection_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#delete_protection_state GoogleFirestoreDatabase#delete_protection_state}
   */
   readonly deleteProtectionState?: string;
   /**
-  * Deletion behavior for this database.
-  * If the deletion policy is 'ABANDON', the database will be removed from Terraform state but not deleted from Google Cloud upon destruction.
-  * If the deletion policy is 'DELETE', the database will both be removed from Terraform state and deleted from Google Cloud upon destruction.
-  * The default value is 'ABANDON'.
-  * See also 'delete_protection'.
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "ABANDON".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#deletion_policy GoogleFirestoreDatabase#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#deletion_policy GoogleFirestoreDatabase#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The Firestore API data access mode to use for this database. Can only be
   * specified for 'ENTERPRISE' edition databases. Possible values: ["DATA_ACCESS_MODE_ENABLED", "DATA_ACCESS_MODE_DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#firestore_data_access_mode GoogleFirestoreDatabase#firestore_data_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#firestore_data_access_mode GoogleFirestoreDatabase#firestore_data_access_mode}
   */
   readonly firestoreDataAccessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#id GoogleFirestoreDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#id GoogleFirestoreDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,14 +70,14 @@ export interface GoogleFirestoreDatabaseConfig extends cdktn.TerraformMetaArgume
   * The location of the database. Available locations are listed at
   * https://cloud.google.com/firestore/docs/locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#location_id GoogleFirestoreDatabase#location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#location_id GoogleFirestoreDatabase#location_id}
   */
   readonly locationId: string;
   /**
   * The MongoDB compatible API data access mode to use for this database. Can
   * only be specified for 'ENTERPRISE' edition databases. Possible values: ["DATA_ACCESS_MODE_ENABLED", "DATA_ACCESS_MODE_DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#mongodb_compatible_data_access_mode GoogleFirestoreDatabase#mongodb_compatible_data_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#mongodb_compatible_data_access_mode GoogleFirestoreDatabase#mongodb_compatible_data_access_mode}
   */
   readonly mongodbCompatibleDataAccessMode?: string;
   /**
@@ -86,7 +88,7 @@ export interface GoogleFirestoreDatabaseConfig extends cdktn.TerraformMetaArgume
   * UUID-like /[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}/.
   * "(default)" database id is also valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#name GoogleFirestoreDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#name GoogleFirestoreDatabase#name}
   */
   readonly name: string;
   /**
@@ -96,18 +98,18 @@ export interface GoogleFirestoreDatabaseConfig extends cdktn.TerraformMetaArgume
   * and reads against 1-minute snapshots beyond 1 hour and within 7 days.
   * If 'POINT_IN_TIME_RECOVERY_DISABLED' is selected, reads are supported on any version of the data from within the past 1 hour. Default value: "POINT_IN_TIME_RECOVERY_DISABLED" Possible values: ["POINT_IN_TIME_RECOVERY_ENABLED", "POINT_IN_TIME_RECOVERY_DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#point_in_time_recovery_enablement GoogleFirestoreDatabase#point_in_time_recovery_enablement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#point_in_time_recovery_enablement GoogleFirestoreDatabase#point_in_time_recovery_enablement}
   */
   readonly pointInTimeRecoveryEnablement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#project GoogleFirestoreDatabase#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#project GoogleFirestoreDatabase#project}
   */
   readonly project?: string;
   /**
   * The Realtime Updates mode to use for this database. Can only be specified
   * for 'ENTERPRISE' edition databases. Possible values: ["REALTIME_UPDATES_MODE_ENABLED", "REALTIME_UPDATES_MODE_DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#realtime_updates_mode GoogleFirestoreDatabase#realtime_updates_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#realtime_updates_mode GoogleFirestoreDatabase#realtime_updates_mode}
   */
   readonly realtimeUpdatesMode?: string;
   /**
@@ -118,7 +120,7 @@ export interface GoogleFirestoreDatabaseConfig extends cdktn.TerraformMetaArgume
   * resource replacement when mutated. To apply tags to an existing resource, see
   * the 'google_tags_tag_value' resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#tags GoogleFirestoreDatabase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#tags GoogleFirestoreDatabase#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
@@ -126,19 +128,19 @@ export interface GoogleFirestoreDatabaseConfig extends cdktn.TerraformMetaArgume
   * See https://cloud.google.com/datastore/docs/firestore-or-datastore
   * for information about how to choose. Possible values: ["FIRESTORE_NATIVE", "DATASTORE_MODE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#type GoogleFirestoreDatabase#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#type GoogleFirestoreDatabase#type}
   */
   readonly type: string;
   /**
   * cmek_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#cmek_config GoogleFirestoreDatabase#cmek_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#cmek_config GoogleFirestoreDatabase#cmek_config}
   */
   readonly cmekConfig?: GoogleFirestoreDatabaseCmekConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#timeouts GoogleFirestoreDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#timeouts GoogleFirestoreDatabase#timeouts}
   */
   readonly timeouts?: GoogleFirestoreDatabaseTimeouts;
 }
@@ -158,7 +160,7 @@ export interface GoogleFirestoreDatabaseCmekConfig {
   * How to retrieve this resource ID is listed at
   * https://cloud.google.com/kms/docs/getting-resource-ids#getting_the_id_for_a_key_and_version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#kms_key_name GoogleFirestoreDatabase#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#kms_key_name GoogleFirestoreDatabase#kms_key_name}
   */
   readonly kmsKeyName: string;
 }
@@ -244,15 +246,15 @@ export class GoogleFirestoreDatabaseCmekConfigOutputReference extends cdktn.Comp
 }
 export interface GoogleFirestoreDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#create GoogleFirestoreDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#create GoogleFirestoreDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#delete GoogleFirestoreDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#delete GoogleFirestoreDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#update GoogleFirestoreDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#update GoogleFirestoreDatabase#update}
   */
   readonly update?: string;
 }
@@ -404,7 +406,7 @@ export class GoogleFirestoreDatabaseTimeoutsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database google_firestore_database}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database google_firestore_database}
 */
 export class GoogleFirestoreDatabase extends cdktn.TerraformResource {
 
@@ -420,7 +422,7 @@ export class GoogleFirestoreDatabase extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleFirestoreDatabase resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirestoreDatabase to import
-  * @param importFromId The id of the existing GoogleFirestoreDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleFirestoreDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirestoreDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -432,7 +434,7 @@ export class GoogleFirestoreDatabase extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_firestore_database google_firestore_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_firestore_database google_firestore_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -443,7 +445,7 @@ export class GoogleFirestoreDatabase extends cdktn.TerraformResource {
       terraformResourceType: 'google_firestore_database',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -546,7 +548,7 @@ export class GoogleFirestoreDatabase extends cdktn.TerraformResource {
     return this._deleteProtectionState;
   }
 
-  // deletion_policy - computed: false, optional: true, required: false
+  // deletion_policy - computed: true, optional: true, required: false
   private _deletionPolicy?: string; 
   public get deletionPolicy() {
     return this.getStringAttribute('deletion_policy');

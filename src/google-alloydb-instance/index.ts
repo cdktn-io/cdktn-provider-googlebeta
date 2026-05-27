@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -22,7 +22,7 @@ export interface GoogleAlloydbInstanceConfig extends cdktn.TerraformMetaArgument
   * etc.). Please refer to the API documentation for more details.
   * Possible values are: 'ACTIVATION_POLICY_UNSPECIFIED', 'ALWAYS', 'NEVER'.' Possible values: ["ACTIVATION_POLICY_UNSPECIFIED", "ALWAYS", "NEVER"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#activation_policy GoogleAlloydbInstance#activation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#activation_policy GoogleAlloydbInstance#activation_policy}
   */
   readonly activationPolicy?: string;
   /**
@@ -31,7 +31,7 @@ export interface GoogleAlloydbInstanceConfig extends cdktn.TerraformMetaArgument
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#annotations GoogleAlloydbInstance#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#annotations GoogleAlloydbInstance#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -42,36 +42,48 @@ export interface GoogleAlloydbInstanceConfig extends cdktn.TerraformMetaArgument
   * can have regional availability (nodes are present in 2 or more zones in a region).
   * Possible values are: 'AVAILABILITY_TYPE_UNSPECIFIED', 'ZONAL', 'REGIONAL'.' Possible values: ["AVAILABILITY_TYPE_UNSPECIFIED", "ZONAL", "REGIONAL"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#availability_type GoogleAlloydbInstance#availability_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#availability_type GoogleAlloydbInstance#availability_type}
   */
   readonly availabilityType?: string;
   /**
   * Identifies the alloydb cluster. Must be in the format
   * 'projects/{project}/locations/{location}/clusters/{cluster_id}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#cluster GoogleAlloydbInstance#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#cluster GoogleAlloydbInstance#cluster}
   */
   readonly cluster: string;
   /**
   * Database flags. Set at instance level. * They are copied from primary instance on read instance creation. * Read instances can set new or override existing flags that are relevant for reads, e.g. for enabling columnar cache on a read instance. Flags set on read instance may or may not be present on primary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#database_flags GoogleAlloydbInstance#database_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#database_flags GoogleAlloydbInstance#database_flags}
   */
   readonly databaseFlags?: { [key: string]: string };
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#deletion_policy GoogleAlloydbInstance#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * User-settable and human-readable display name for the Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#display_name GoogleAlloydbInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#display_name GoogleAlloydbInstance#display_name}
   */
   readonly displayName?: string;
   /**
   * The Compute Engine zone that the instance should serve from, per https://cloud.google.com/compute/docs/regions-zones This can ONLY be specified for ZONAL instances. If present for a REGIONAL instance, an error will be thrown. If this is absent for a ZONAL instance, instance is created in a random zone with available capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#gce_zone GoogleAlloydbInstance#gce_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#gce_zone GoogleAlloydbInstance#gce_zone}
   */
   readonly gceZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#id GoogleAlloydbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#id GoogleAlloydbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +92,7 @@ export interface GoogleAlloydbInstanceConfig extends cdktn.TerraformMetaArgument
   /**
   * The ID of the alloydb instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#instance_id GoogleAlloydbInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#instance_id GoogleAlloydbInstance#instance_id}
   */
   readonly instanceId: string;
   /**
@@ -92,7 +104,7 @@ export interface GoogleAlloydbInstanceConfig extends cdktn.TerraformMetaArgument
   * Use deletion_policy = "FORCE" in the associated secondary cluster and delete the cluster forcefully to delete the secondary cluster as well its associated secondary instance.
   * Users can undo the delete secondary instance action by importing the deleted secondary instance by calling terraform import. Possible values: ["PRIMARY", "READ_POOL", "SECONDARY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#instance_type GoogleAlloydbInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#instance_type GoogleAlloydbInstance#instance_type}
   */
   readonly instanceType: string;
   /**
@@ -101,61 +113,61 @@ export interface GoogleAlloydbInstanceConfig extends cdktn.TerraformMetaArgument
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#labels GoogleAlloydbInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#labels GoogleAlloydbInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * client_connection_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#client_connection_config GoogleAlloydbInstance#client_connection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#client_connection_config GoogleAlloydbInstance#client_connection_config}
   */
   readonly clientConnectionConfig?: GoogleAlloydbInstanceClientConnectionConfig;
   /**
   * connection_pool_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#connection_pool_config GoogleAlloydbInstance#connection_pool_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#connection_pool_config GoogleAlloydbInstance#connection_pool_config}
   */
   readonly connectionPoolConfig?: GoogleAlloydbInstanceConnectionPoolConfig;
   /**
   * machine_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#machine_config GoogleAlloydbInstance#machine_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#machine_config GoogleAlloydbInstance#machine_config}
   */
   readonly machineConfig?: GoogleAlloydbInstanceMachineConfig;
   /**
   * network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#network_config GoogleAlloydbInstance#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#network_config GoogleAlloydbInstance#network_config}
   */
   readonly networkConfig?: GoogleAlloydbInstanceNetworkConfig;
   /**
   * observability_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#observability_config GoogleAlloydbInstance#observability_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#observability_config GoogleAlloydbInstance#observability_config}
   */
   readonly observabilityConfig?: GoogleAlloydbInstanceObservabilityConfig;
   /**
   * psc_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#psc_instance_config GoogleAlloydbInstance#psc_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#psc_instance_config GoogleAlloydbInstance#psc_instance_config}
   */
   readonly pscInstanceConfig?: GoogleAlloydbInstancePscInstanceConfig;
   /**
   * query_insights_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#query_insights_config GoogleAlloydbInstance#query_insights_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#query_insights_config GoogleAlloydbInstance#query_insights_config}
   */
   readonly queryInsightsConfig?: GoogleAlloydbInstanceQueryInsightsConfig;
   /**
   * read_pool_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#read_pool_config GoogleAlloydbInstance#read_pool_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#read_pool_config GoogleAlloydbInstance#read_pool_config}
   */
   readonly readPoolConfig?: GoogleAlloydbInstanceReadPoolConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#timeouts GoogleAlloydbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#timeouts GoogleAlloydbInstance#timeouts}
   */
   readonly timeouts?: GoogleAlloydbInstanceTimeouts;
 }
@@ -163,7 +175,7 @@ export interface GoogleAlloydbInstanceClientConnectionConfigSslConfig {
   /**
   * SSL mode. Specifies client-server SSL/TLS connection behavior. Possible values: ["ENCRYPTED_ONLY", "ALLOW_UNENCRYPTED_AND_ENCRYPTED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#ssl_mode GoogleAlloydbInstance#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#ssl_mode GoogleAlloydbInstance#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -249,13 +261,13 @@ export interface GoogleAlloydbInstanceClientConnectionConfig {
   /**
   * Configuration to enforce connectors only (ex: AuthProxy) connections to the database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#require_connectors GoogleAlloydbInstance#require_connectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#require_connectors GoogleAlloydbInstance#require_connectors}
   */
   readonly requireConnectors?: boolean | cdktn.IResolvable;
   /**
   * ssl_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#ssl_config GoogleAlloydbInstance#ssl_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#ssl_config GoogleAlloydbInstance#ssl_config}
   */
   readonly sslConfig?: GoogleAlloydbInstanceClientConnectionConfigSslConfig;
 }
@@ -370,7 +382,7 @@ export interface GoogleAlloydbInstanceConnectionPoolConfig {
   /**
   * Whether to enabled Managed Connection Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#enabled GoogleAlloydbInstance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#enabled GoogleAlloydbInstance#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
@@ -384,7 +396,7 @@ export interface GoogleAlloydbInstanceConnectionPoolConfig {
   * underscores instead of dashes in the name. For example,
   * "connection-pooling-pool-mode" would be "pool_mode".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#flags GoogleAlloydbInstance#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#flags GoogleAlloydbInstance#flags}
   */
   readonly flags?: { [key: string]: string };
 }
@@ -501,7 +513,7 @@ export interface GoogleAlloydbInstanceMachineConfig {
   /**
   * The number of CPU's in the VM instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#cpu_count GoogleAlloydbInstance#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#cpu_count GoogleAlloydbInstance#cpu_count}
   */
   readonly cpuCount?: number;
   /**
@@ -509,7 +521,7 @@ export interface GoogleAlloydbInstanceMachineConfig {
   * E.g. "n2-highmem-4", "n2-highmem-8", "c4a-highmem-4-lssd".
   * 'cpu_count' must match the number of vCPUs in the machine type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#machine_type GoogleAlloydbInstance#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#machine_type GoogleAlloydbInstance#machine_type}
   */
   readonly machineType?: string;
 }
@@ -624,7 +636,7 @@ export interface GoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworks {
   /**
   * CIDR range for one authorized network of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#cidr_range GoogleAlloydbInstance#cidr_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#cidr_range GoogleAlloydbInstance#cidr_range}
   */
   readonly cidrRange?: string;
 }
@@ -728,7 +740,7 @@ export class GoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworksList ex
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -744,13 +756,13 @@ export interface GoogleAlloydbInstanceNetworkConfig {
   * If set, the instance IPs will be created from this allocated range and will override the IP range used by the parent cluster.
   * The range name must comply with RFC 1035. Specifically, the name must be 1-63 characters long and match the regular expression [a-z]([-a-z0-9]*[a-z0-9])?.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#allocated_ip_range_override GoogleAlloydbInstance#allocated_ip_range_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#allocated_ip_range_override GoogleAlloydbInstance#allocated_ip_range_override}
   */
   readonly allocatedIpRangeOverride?: string;
   /**
   * Enabling outbound public ip for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#enable_outbound_public_ip GoogleAlloydbInstance#enable_outbound_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#enable_outbound_public_ip GoogleAlloydbInstance#enable_outbound_public_ip}
   */
   readonly enableOutboundPublicIp?: boolean | cdktn.IResolvable;
   /**
@@ -758,13 +770,13 @@ export interface GoogleAlloydbInstanceNetworkConfig {
   * please also clear the list of the authorized external networks set on
   * the same instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#enable_public_ip GoogleAlloydbInstance#enable_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#enable_public_ip GoogleAlloydbInstance#enable_public_ip}
   */
   readonly enablePublicIp?: boolean | cdktn.IResolvable;
   /**
   * authorized_external_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#authorized_external_networks GoogleAlloydbInstance#authorized_external_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#authorized_external_networks GoogleAlloydbInstance#authorized_external_networks}
   */
   readonly authorizedExternalNetworks?: GoogleAlloydbInstanceNetworkConfigAuthorizedExternalNetworks[] | cdktn.IResolvable;
 }
@@ -937,61 +949,61 @@ export interface GoogleAlloydbInstanceObservabilityConfig {
   /**
   * Whether assistive experiences are enabled for this AlloyDB instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#assistive_experiences_enabled GoogleAlloydbInstance#assistive_experiences_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#assistive_experiences_enabled GoogleAlloydbInstance#assistive_experiences_enabled}
   */
   readonly assistiveExperiencesEnabled?: boolean | cdktn.IResolvable;
   /**
   * Observability feature status for an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#enabled GoogleAlloydbInstance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#enabled GoogleAlloydbInstance#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Query string length. The default value is 10240. Any integer between 1024 and 100000 is considered valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#max_query_string_length GoogleAlloydbInstance#max_query_string_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#max_query_string_length GoogleAlloydbInstance#max_query_string_length}
   */
   readonly maxQueryStringLength?: number;
   /**
   * Preserve comments in the query string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#preserve_comments GoogleAlloydbInstance#preserve_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#preserve_comments GoogleAlloydbInstance#preserve_comments}
   */
   readonly preserveComments?: boolean | cdktn.IResolvable;
   /**
   * Number of query execution plans captured by Insights per minute for all queries combined. The default value is 5. Any integer between 0 and 200 is considered valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#query_plans_per_minute GoogleAlloydbInstance#query_plans_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#query_plans_per_minute GoogleAlloydbInstance#query_plans_per_minute}
   */
   readonly queryPlansPerMinute?: number;
   /**
   * Record application tags for an instance. This flag is turned "on" by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#record_application_tags GoogleAlloydbInstance#record_application_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#record_application_tags GoogleAlloydbInstance#record_application_tags}
   */
   readonly recordApplicationTags?: boolean | cdktn.IResolvable;
   /**
   * Track actively running queries. If not set, default value is "off".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#track_active_queries GoogleAlloydbInstance#track_active_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#track_active_queries GoogleAlloydbInstance#track_active_queries}
   */
   readonly trackActiveQueries?: boolean | cdktn.IResolvable;
   /**
   * Track client address for an instance. If not set, default value is "off".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#track_client_address GoogleAlloydbInstance#track_client_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#track_client_address GoogleAlloydbInstance#track_client_address}
   */
   readonly trackClientAddress?: boolean | cdktn.IResolvable;
   /**
   * Record wait event types during query execution for an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#track_wait_event_types GoogleAlloydbInstance#track_wait_event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#track_wait_event_types GoogleAlloydbInstance#track_wait_event_types}
   */
   readonly trackWaitEventTypes?: boolean | cdktn.IResolvable;
   /**
   * Record wait events during query execution for an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#track_wait_events GoogleAlloydbInstance#track_wait_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#track_wait_events GoogleAlloydbInstance#track_wait_events}
   */
   readonly trackWaitEvents?: boolean | cdktn.IResolvable;
 }
@@ -1342,7 +1354,7 @@ export interface GoogleAlloydbInstancePscInstanceConfigPscAutoConnections {
   * consumer project. The API expects the consumer project specified to be
   * the project ID (and not the project number)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#consumer_network GoogleAlloydbInstance#consumer_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#consumer_network GoogleAlloydbInstance#consumer_network}
   */
   readonly consumerNetwork?: string;
   /**
@@ -1350,7 +1362,7 @@ export interface GoogleAlloydbInstancePscInstanceConfigPscAutoConnections {
   * be created. The API expects the consumer project to be the project ID(
   * and not the project number).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#consumer_project GoogleAlloydbInstance#consumer_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#consumer_project GoogleAlloydbInstance#consumer_project}
   */
   readonly consumerProject?: string;
 }
@@ -1498,7 +1510,7 @@ export class GoogleAlloydbInstancePscInstanceConfigPscAutoConnectionsList extend
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -1514,7 +1526,7 @@ export interface GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigs {
   * This is of the format: "projects/${CONSUMER_PROJECT}/regions/${REGION}/networkAttachments/${NETWORK_ATTACHMENT_NAME}".
   * The network attachment must be in the same region as the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#network_attachment_resource GoogleAlloydbInstance#network_attachment_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#network_attachment_resource GoogleAlloydbInstance#network_attachment_resource}
   */
   readonly networkAttachmentResource?: string;
 }
@@ -1618,7 +1630,7 @@ export class GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigsList exten
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -1633,19 +1645,19 @@ export interface GoogleAlloydbInstancePscInstanceConfig {
   * List of consumer projects that are allowed to create PSC endpoints to service-attachments to this instance.
   * These should be specified as project numbers only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#allowed_consumer_projects GoogleAlloydbInstance#allowed_consumer_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#allowed_consumer_projects GoogleAlloydbInstance#allowed_consumer_projects}
   */
   readonly allowedConsumerProjects?: string[];
   /**
   * psc_auto_connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#psc_auto_connections GoogleAlloydbInstance#psc_auto_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#psc_auto_connections GoogleAlloydbInstance#psc_auto_connections}
   */
   readonly pscAutoConnections?: GoogleAlloydbInstancePscInstanceConfigPscAutoConnections[] | cdktn.IResolvable;
   /**
   * psc_interface_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#psc_interface_configs GoogleAlloydbInstance#psc_interface_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#psc_interface_configs GoogleAlloydbInstance#psc_interface_configs}
   */
   readonly pscInterfaceConfigs?: GoogleAlloydbInstancePscInstanceConfigPscInterfaceConfigs[] | cdktn.IResolvable;
 }
@@ -1799,25 +1811,25 @@ export interface GoogleAlloydbInstanceQueryInsightsConfig {
   /**
   * Number of query execution plans captured by Insights per minute for all queries combined. The default value is 5. Any integer between 0 and 20 is considered valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#query_plans_per_minute GoogleAlloydbInstance#query_plans_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#query_plans_per_minute GoogleAlloydbInstance#query_plans_per_minute}
   */
   readonly queryPlansPerMinute?: number;
   /**
   * Query string length. The default value is 1024. Any integer between 256 and 4500 is considered valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#query_string_length GoogleAlloydbInstance#query_string_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#query_string_length GoogleAlloydbInstance#query_string_length}
   */
   readonly queryStringLength?: number;
   /**
   * Record application tags for an instance. This flag is turned "on" by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#record_application_tags GoogleAlloydbInstance#record_application_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#record_application_tags GoogleAlloydbInstance#record_application_tags}
   */
   readonly recordApplicationTags?: boolean | cdktn.IResolvable;
   /**
   * Record client address for an instance. Client address is PII information. This flag is turned "on" by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#record_client_address GoogleAlloydbInstance#record_client_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#record_client_address GoogleAlloydbInstance#record_client_address}
   */
   readonly recordClientAddress?: boolean | cdktn.IResolvable;
 }
@@ -1990,7 +2002,7 @@ export interface GoogleAlloydbInstanceReadPoolConfig {
   /**
   * Read capacity, i.e. number of nodes in a read pool instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#node_count GoogleAlloydbInstance#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#node_count GoogleAlloydbInstance#node_count}
   */
   readonly nodeCount?: number;
 }
@@ -2074,15 +2086,15 @@ export class GoogleAlloydbInstanceReadPoolConfigOutputReference extends cdktn.Co
 }
 export interface GoogleAlloydbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#create GoogleAlloydbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#create GoogleAlloydbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#delete GoogleAlloydbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#delete GoogleAlloydbInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#update GoogleAlloydbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#update GoogleAlloydbInstance#update}
   */
   readonly update?: string;
 }
@@ -2234,7 +2246,7 @@ export class GoogleAlloydbInstanceTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance google_alloydb_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance google_alloydb_instance}
 */
 export class GoogleAlloydbInstance extends cdktn.TerraformResource {
 
@@ -2250,7 +2262,7 @@ export class GoogleAlloydbInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleAlloydbInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleAlloydbInstance to import
-  * @param importFromId The id of the existing GoogleAlloydbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleAlloydbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleAlloydbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2262,7 +2274,7 @@ export class GoogleAlloydbInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_alloydb_instance google_alloydb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2273,7 +2285,7 @@ export class GoogleAlloydbInstance extends cdktn.TerraformResource {
       terraformResourceType: 'google_alloydb_instance',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -2289,6 +2301,7 @@ export class GoogleAlloydbInstance extends cdktn.TerraformResource {
     this._availabilityType = config.availabilityType;
     this._cluster = config.cluster;
     this._databaseFlags = config.databaseFlags;
+    this._deletionPolicy = config.deletionPolicy;
     this._displayName = config.displayName;
     this._gceZone = config.gceZone;
     this._id = config.id;
@@ -2390,6 +2403,22 @@ export class GoogleAlloydbInstance extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get databaseFlagsInput() {
     return this._databaseFlags;
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // display_name - computed: false, optional: true, required: false
@@ -2695,6 +2724,7 @@ export class GoogleAlloydbInstance extends cdktn.TerraformResource {
       availability_type: cdktn.stringToTerraform(this._availabilityType),
       cluster: cdktn.stringToTerraform(this._cluster),
       database_flags: cdktn.hashMapper(cdktn.stringToTerraform)(this._databaseFlags),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       display_name: cdktn.stringToTerraform(this._displayName),
       gce_zone: cdktn.stringToTerraform(this._gceZone),
       id: cdktn.stringToTerraform(this._id),
@@ -2744,6 +2774,12 @@ export class GoogleAlloydbInstance extends cdktn.TerraformResource {
         isBlock: false,
         type: "map",
         storageClassType: "stringMap",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       display_name: {
         value: cdktn.stringToHclTerraform(this._displayName),

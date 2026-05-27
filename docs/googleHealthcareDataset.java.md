@@ -4,7 +4,7 @@
 
 ### GoogleHealthcareDataset <a name="GoogleHealthcareDataset" id="@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset google_healthcare_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset google_healthcare_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer"></a>
 
@@ -21,6 +21,7 @@ GoogleHealthcareDataset.Builder.create(Construct scope, java.lang.String id)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .location(java.lang.String)
     .name(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .encryptionSpec(GoogleHealthcareDatasetEncryptionSpec)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
@@ -42,9 +43,10 @@ GoogleHealthcareDataset.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location for the Dataset. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | The resource name for the Dataset. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.encryptionSpec">encryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetEncryptionSpec">GoogleHealthcareDatasetEncryptionSpec</a></code> | encryption_spec block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#id GoogleHealthcareDataset#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#project GoogleHealthcareDataset#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#id GoogleHealthcareDataset#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#project GoogleHealthcareDataset#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts">GoogleHealthcareDatasetTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.timeZone">timeZone</a></code> | <code>java.lang.String</code> | The default timezone used by this dataset. |
 
@@ -116,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The location for the Dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#location GoogleHealthcareDataset#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#location GoogleHealthcareDataset#location}
 
 ---
 
@@ -126,7 +128,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The resource name for the Dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#name GoogleHealthcareDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#name GoogleHealthcareDataset#name}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#deletion_policy GoogleHealthcareDataset#deletion_policy}
 
 ---
 
@@ -136,7 +155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#encryption_spec GoogleHealthcareDataset#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#encryption_spec GoogleHealthcareDataset#encryption_spec}
 
 ---
 
@@ -144,7 +163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#id GoogleHealthcareDataset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#id GoogleHealthcareDataset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,7 +174,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#project GoogleHealthcareDataset#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#project GoogleHealthcareDataset#project}.
 
 ---
 
@@ -165,7 +184,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#timeouts GoogleHealthcareDataset#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#timeouts GoogleHealthcareDataset#timeouts}
 
 ---
 
@@ -179,7 +198,7 @@ Must be a either a valid IANA time zone name such as
 "America/New_York" or empty, which defaults to UTC. This is used for parsing times in resources
 (e.g., HL7 messages) where no explicit timezone is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#time_zone GoogleHealthcareDataset#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#time_zone GoogleHealthcareDataset#time_zone}
 
 ---
 
@@ -213,6 +232,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.putEncryptionSpec">putEncryptionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.resetEncryptionSpec">resetEncryptionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.resetProject">resetProject</a></code> | *No description.* |
@@ -556,6 +576,12 @@ public void putTimeouts(GoogleHealthcareDatasetTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetEncryptionSpec` <a name="resetEncryptionSpec" id="@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.resetEncryptionSpec"></a>
 
 ```java
@@ -689,7 +715,7 @@ The construct id used in the generated config for the GoogleHealthcareDataset to
 
 The id of the existing GoogleHealthcareDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -722,6 +748,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.encryptionSpec">encryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetEncryptionSpecOutputReference">GoogleHealthcareDatasetEncryptionSpecOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.selfLink">selfLink</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeoutsOutputReference">GoogleHealthcareDatasetTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.encryptionSpecInput">encryptionSpecInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetEncryptionSpec">GoogleHealthcareDatasetEncryptionSpec</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.locationInput">locationInput</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -729,6 +756,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts">GoogleHealthcareDatasetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.timeZoneInput">timeZoneInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.location">location</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -909,6 +937,16 @@ public GoogleHealthcareDatasetTimeoutsOutputReference getTimeouts();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `encryptionSpecInput`<sup>Optional</sup> <a name="encryptionSpecInput" id="@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.encryptionSpecInput"></a>
 
 ```java
@@ -973,6 +1011,16 @@ public IResolvable|GoogleHealthcareDatasetTimeouts getTimeoutsInput();
 
 ```java
 public java.lang.String getTimeZoneInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDataset.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1066,6 +1114,7 @@ GoogleHealthcareDatasetConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .location(java.lang.String)
     .name(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .encryptionSpec(GoogleHealthcareDatasetEncryptionSpec)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
@@ -1087,9 +1136,10 @@ GoogleHealthcareDatasetConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location for the Dataset. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.name">name</a></code> | <code>java.lang.String</code> | The resource name for the Dataset. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.encryptionSpec">encryptionSpec</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetEncryptionSpec">GoogleHealthcareDatasetEncryptionSpec</a></code> | encryption_spec block. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#id GoogleHealthcareDataset#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#project GoogleHealthcareDataset#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#id GoogleHealthcareDataset#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#project GoogleHealthcareDataset#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts">GoogleHealthcareDatasetTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.timeZone">timeZone</a></code> | <code>java.lang.String</code> | The default timezone used by this dataset. |
 
@@ -1175,7 +1225,7 @@ public java.lang.String getLocation();
 
 The location for the Dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#location GoogleHealthcareDataset#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#location GoogleHealthcareDataset#location}
 
 ---
 
@@ -1189,7 +1239,28 @@ public java.lang.String getName();
 
 The resource name for the Dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#name GoogleHealthcareDataset#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#name GoogleHealthcareDataset#name}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#deletion_policy GoogleHealthcareDataset#deletion_policy}
 
 ---
 
@@ -1203,7 +1274,7 @@ public GoogleHealthcareDatasetEncryptionSpec getEncryptionSpec();
 
 encryption_spec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#encryption_spec GoogleHealthcareDataset#encryption_spec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#encryption_spec GoogleHealthcareDataset#encryption_spec}
 
 ---
 
@@ -1215,7 +1286,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#id GoogleHealthcareDataset#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#id GoogleHealthcareDataset#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1230,7 +1301,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#project GoogleHealthcareDataset#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#project GoogleHealthcareDataset#project}.
 
 ---
 
@@ -1244,7 +1315,7 @@ public GoogleHealthcareDatasetTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#timeouts GoogleHealthcareDataset#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#timeouts GoogleHealthcareDataset#timeouts}
 
 ---
 
@@ -1262,7 +1333,7 @@ Must be a either a valid IANA time zone name such as
 "America/New_York" or empty, which defaults to UTC. This is used for parsing times in resources
 (e.g., HL7 messages) where no explicit timezone is specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#time_zone GoogleHealthcareDataset#time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#time_zone GoogleHealthcareDataset#time_zone}
 
 ---
 
@@ -1301,7 +1372,7 @@ encryption and the dataset must be in the same location. If empty, the default G
 key will be used to secure this dataset. The format is
 projects/{projectId}/locations/{locationId}/keyRings/{keyRingId}/cryptoKeys/{keyId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#kms_key_name GoogleHealthcareDataset#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#kms_key_name GoogleHealthcareDataset#kms_key_name}
 
 ---
 
@@ -1323,9 +1394,9 @@ GoogleHealthcareDatasetTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#create GoogleHealthcareDataset#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#delete GoogleHealthcareDataset#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#update GoogleHealthcareDataset#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#create GoogleHealthcareDataset#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#delete GoogleHealthcareDataset#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleHealthcareDataset.GoogleHealthcareDatasetTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#update GoogleHealthcareDataset#update}. |
 
 ---
 
@@ -1337,7 +1408,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#create GoogleHealthcareDataset#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#create GoogleHealthcareDataset#create}.
 
 ---
 
@@ -1349,7 +1420,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#delete GoogleHealthcareDataset#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#delete GoogleHealthcareDataset#delete}.
 
 ---
 
@@ -1361,7 +1432,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_healthcare_dataset#update GoogleHealthcareDataset#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_healthcare_dataset#update GoogleHealthcareDataset#update}.
 
 ---
 

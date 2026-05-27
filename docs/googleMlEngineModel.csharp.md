@@ -4,7 +4,7 @@
 
 ### GoogleMlEngineModel <a name="GoogleMlEngineModel" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model google_ml_engine_model}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model google_ml_engine_model}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.Initializer"></a>
 
@@ -77,6 +77,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.putDefaultVersion">PutDefaultVersion</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.putTimeouts">PutTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.resetDefaultVersion">ResetDefaultVersion</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.resetLabels">ResetLabels</a></code> | *No description.* |
@@ -427,6 +428,12 @@ private void PutTimeouts(GoogleMlEngineModelTimeouts Value)
 private void ResetDefaultVersion()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.resetDescription"></a>
 
 ```csharp
@@ -578,7 +585,7 @@ The construct id used in the generated config for the GoogleMlEngineModel to imp
 
 The id of the existing GoogleMlEngineModel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -613,6 +620,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.terraformLabels">TerraformLabels</a></code> | <code>Io.Cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeoutsOutputReference">GoogleMlEngineModelTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.defaultVersionInput">DefaultVersionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelDefaultVersion">GoogleMlEngineModelDefaultVersion</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.labelsInput">LabelsInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
@@ -622,6 +630,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.regionsInput">RegionsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts">GoogleMlEngineModelTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.description">Description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
@@ -825,6 +834,16 @@ public GoogleMlEngineModelDefaultVersion DefaultVersionInput { get; }
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.descriptionInput"></a>
 
 ```csharp
@@ -912,6 +931,16 @@ public IResolvable|GoogleMlEngineModelTimeouts TimeoutsInput { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts">GoogleMlEngineModelTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModel.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -1032,6 +1061,7 @@ new GoogleMlEngineModelConfig {
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string Name,
     GoogleMlEngineModelDefaultVersion DefaultVersion = null,
+    string DeletionPolicy = null,
     string Description = null,
     string Id = null,
     System.Collections.Generic.IDictionary<string, string> Labels = null,
@@ -1056,12 +1086,13 @@ new GoogleMlEngineModelConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.name">Name</a></code> | <code>string</code> | The name specified for the model. |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.defaultVersion">DefaultVersion</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelDefaultVersion">GoogleMlEngineModelDefaultVersion</a></code> | default_version block. |
+| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.description">Description</a></code> | <code>string</code> | The description specified for the model when it was created. |
-| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#id GoogleMlEngineModel#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#id GoogleMlEngineModel#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | One or more labels that you can add, to organize your models. |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.onlinePredictionConsoleLogging">OnlinePredictionConsoleLogging</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If true, online prediction nodes send stderr and stdout streams to Stackdriver Logging. |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.onlinePredictionLogging">OnlinePredictionLogging</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | If true, online prediction access logs are sent to StackDriver Logging. |
-| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#project GoogleMlEngineModel#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#project GoogleMlEngineModel#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.regions">Regions</a></code> | <code>string[]</code> | The list of regions where the model is going to be deployed. Currently only one region per model is supported. |
 | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts">GoogleMlEngineModelTimeouts</a></code> | timeouts block. |
 
@@ -1147,7 +1178,7 @@ public string Name { get; set; }
 
 The name specified for the model.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#name GoogleMlEngineModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#name GoogleMlEngineModel#name}
 
 ---
 
@@ -1161,7 +1192,28 @@ public GoogleMlEngineModelDefaultVersion DefaultVersion { get; set; }
 
 default_version block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#default_version GoogleMlEngineModel#default_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#default_version GoogleMlEngineModel#default_version}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#deletion_policy GoogleMlEngineModel#deletion_policy}
 
 ---
 
@@ -1175,7 +1227,7 @@ public string Description { get; set; }
 
 The description specified for the model when it was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#description GoogleMlEngineModel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#description GoogleMlEngineModel#description}
 
 ---
 
@@ -1187,7 +1239,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#id GoogleMlEngineModel#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#id GoogleMlEngineModel#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1207,7 +1259,7 @@ One or more labels that you can add, to organize your models.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#labels GoogleMlEngineModel#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#labels GoogleMlEngineModel#labels}
 
 ---
 
@@ -1221,7 +1273,7 @@ public bool|IResolvable OnlinePredictionConsoleLogging { get; set; }
 
 If true, online prediction nodes send stderr and stdout streams to Stackdriver Logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#online_prediction_console_logging GoogleMlEngineModel#online_prediction_console_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#online_prediction_console_logging GoogleMlEngineModel#online_prediction_console_logging}
 
 ---
 
@@ -1235,7 +1287,7 @@ public bool|IResolvable OnlinePredictionLogging { get; set; }
 
 If true, online prediction access logs are sent to StackDriver Logging.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#online_prediction_logging GoogleMlEngineModel#online_prediction_logging}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#online_prediction_logging GoogleMlEngineModel#online_prediction_logging}
 
 ---
 
@@ -1247,7 +1299,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#project GoogleMlEngineModel#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#project GoogleMlEngineModel#project}.
 
 ---
 
@@ -1261,7 +1313,7 @@ public string[] Regions { get; set; }
 
 The list of regions where the model is going to be deployed. Currently only one region per model is supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#regions GoogleMlEngineModel#regions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#regions GoogleMlEngineModel#regions}
 
 ---
 
@@ -1275,7 +1327,7 @@ public GoogleMlEngineModelTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#timeouts GoogleMlEngineModel#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#timeouts GoogleMlEngineModel#timeouts}
 
 ---
 
@@ -1309,7 +1361,7 @@ public string Name { get; set; }
 
 The name specified for the version when it was created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#name GoogleMlEngineModel#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#name GoogleMlEngineModel#name}
 
 ---
 
@@ -1331,9 +1383,9 @@ new GoogleMlEngineModelTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#create GoogleMlEngineModel#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#delete GoogleMlEngineModel#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#update GoogleMlEngineModel#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#create GoogleMlEngineModel#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#delete GoogleMlEngineModel#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMlEngineModel.GoogleMlEngineModelTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#update GoogleMlEngineModel#update}. |
 
 ---
 
@@ -1345,7 +1397,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#create GoogleMlEngineModel#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#create GoogleMlEngineModel#create}.
 
 ---
 
@@ -1357,7 +1409,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#delete GoogleMlEngineModel#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#delete GoogleMlEngineModel#delete}.
 
 ---
 
@@ -1369,7 +1421,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ml_engine_model#update GoogleMlEngineModel#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ml_engine_model#update GoogleMlEngineModel#update}.
 
 ---
 

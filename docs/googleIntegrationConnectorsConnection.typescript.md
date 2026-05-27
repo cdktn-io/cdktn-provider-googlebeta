@@ -4,7 +4,7 @@
 
 ### GoogleIntegrationConnectorsConnection <a name="GoogleIntegrationConnectorsConnection" id="@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection google_integration_connectors_connection}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection google_integration_connectors_connection}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.Initializer"></a>
 
@@ -85,6 +85,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.resetAuthConfig">resetAuthConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.resetConfigVariable">resetConfigVariable</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.resetDestinationConfig">resetDestinationConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.resetEventingConfig">resetEventingConfig</a></code> | *No description.* |
@@ -531,6 +532,12 @@ public resetAuthConfig(): void
 public resetConfigVariable(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.resetDescription"></a>
 
 ```typescript
@@ -718,7 +725,7 @@ The construct id used in the generated config for the GoogleIntegrationConnector
 
 The id of the existing GoogleIntegrationConnectorsConnection that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -771,6 +778,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.authConfigInput">authConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionAuthConfig">GoogleIntegrationConnectorsConnectionAuthConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.configVariableInput">configVariableInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfigVariable">GoogleIntegrationConnectorsConnectionConfigVariable</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.connectorVersionInput">connectorVersionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.destinationConfigInput">destinationConfigInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionDestinationConfig">GoogleIntegrationConnectorsConnectionDestinationConfig</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.eventingConfigInput">eventingConfigInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionEventingConfig">GoogleIntegrationConnectorsConnectionEventingConfig</a></code> | *No description.* |
@@ -788,6 +796,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.suspendedInput">suspendedInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionTimeouts">GoogleIntegrationConnectorsConnectionTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.connectorVersion">connectorVersion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.eventingEnablementType">eventingEnablementType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -1172,6 +1181,16 @@ public readonly connectorVersionInput: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.descriptionInput"></a>
 
 ```typescript
@@ -1342,6 +1361,16 @@ public readonly connectorVersion: string;
 
 ---
 
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnection.property.description"></a>
 
 ```typescript
@@ -1487,7 +1516,7 @@ public readonly authType: string;
 
 authType of the Connection Possible values: ["AUTH_TYPE_UNSPECIFIED", "USER_PASSWORD", "OAUTH2_JWT_BEARER", "OAUTH2_CLIENT_CREDENTIALS", "SSH_PUBLIC_KEY", "OAUTH2_AUTH_CODE_FLOW"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#auth_type GoogleIntegrationConnectorsConnection#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#auth_type GoogleIntegrationConnectorsConnection#auth_type}
 
 ---
 
@@ -1501,7 +1530,7 @@ public readonly additionalVariable: IResolvable | GoogleIntegrationConnectorsCon
 
 additional_variable block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
 
 ---
 
@@ -1515,7 +1544,7 @@ public readonly authKey: string;
 
 The type of authentication configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#auth_key GoogleIntegrationConnectorsConnection#auth_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#auth_key GoogleIntegrationConnectorsConnection#auth_key}
 
 ---
 
@@ -1529,7 +1558,7 @@ public readonly oauth2AuthCodeFlow: GoogleIntegrationConnectorsConnectionAuthCon
 
 oauth2_auth_code_flow block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#oauth2_auth_code_flow GoogleIntegrationConnectorsConnection#oauth2_auth_code_flow}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#oauth2_auth_code_flow GoogleIntegrationConnectorsConnection#oauth2_auth_code_flow}
 
 ---
 
@@ -1543,7 +1572,7 @@ public readonly oauth2ClientCredentials: GoogleIntegrationConnectorsConnectionAu
 
 oauth2_client_credentials block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#oauth2_client_credentials GoogleIntegrationConnectorsConnection#oauth2_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#oauth2_client_credentials GoogleIntegrationConnectorsConnection#oauth2_client_credentials}
 
 ---
 
@@ -1557,7 +1586,7 @@ public readonly oauth2JwtBearer: GoogleIntegrationConnectorsConnectionAuthConfig
 
 oauth2_jwt_bearer block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#oauth2_jwt_bearer GoogleIntegrationConnectorsConnection#oauth2_jwt_bearer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#oauth2_jwt_bearer GoogleIntegrationConnectorsConnection#oauth2_jwt_bearer}
 
 ---
 
@@ -1571,7 +1600,7 @@ public readonly sshPublicKey: GoogleIntegrationConnectorsConnectionAuthConfigSsh
 
 ssh_public_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#ssh_public_key GoogleIntegrationConnectorsConnection#ssh_public_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#ssh_public_key GoogleIntegrationConnectorsConnection#ssh_public_key}
 
 ---
 
@@ -1585,7 +1614,7 @@ public readonly userPassword: GoogleIntegrationConnectorsConnectionAuthConfigUse
 
 user_password block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#user_password GoogleIntegrationConnectorsConnection#user_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#user_password GoogleIntegrationConnectorsConnection#user_password}
 
 ---
 
@@ -1622,7 +1651,7 @@ public readonly key: string;
 
 Key for the configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
 
 ---
 
@@ -1636,7 +1665,7 @@ public readonly booleanValue: boolean | IResolvable;
 
 Boolean Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
 
 ---
 
@@ -1650,7 +1679,7 @@ public readonly encryptionKeyValue: GoogleIntegrationConnectorsConnectionAuthCon
 
 encryption_key_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
 
 ---
 
@@ -1664,7 +1693,7 @@ public readonly integerValue: number;
 
 Integer Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
 
 ---
 
@@ -1678,7 +1707,7 @@ public readonly secretValue: GoogleIntegrationConnectorsConnectionAuthConfigAddi
 
 secret_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
 
 ---
 
@@ -1692,7 +1721,7 @@ public readonly stringValue: string;
 
 String Value of configVariabley.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
 
 ---
 
@@ -1725,7 +1754,7 @@ public readonly type: string;
 
 Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
 
 ---
 
@@ -1743,7 +1772,7 @@ The
 expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
 Will be empty string if google managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1777,7 +1806,7 @@ public readonly secretVersion: string;
 
 Secret version of Secret Value for Config variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 ---
 
@@ -1813,7 +1842,7 @@ public readonly authUri: string;
 
 Auth URL for Authorization Code Flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#auth_uri GoogleIntegrationConnectorsConnection#auth_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#auth_uri GoogleIntegrationConnectorsConnection#auth_uri}
 
 ---
 
@@ -1827,7 +1856,7 @@ public readonly clientId: string;
 
 Client ID for user-provided OAuth app.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#client_id GoogleIntegrationConnectorsConnection#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#client_id GoogleIntegrationConnectorsConnection#client_id}
 
 ---
 
@@ -1841,7 +1870,7 @@ public readonly clientSecret: GoogleIntegrationConnectorsConnectionAuthConfigOau
 
 client_secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#client_secret GoogleIntegrationConnectorsConnection#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#client_secret GoogleIntegrationConnectorsConnection#client_secret}
 
 ---
 
@@ -1855,7 +1884,7 @@ public readonly enablePkce: boolean | IResolvable;
 
 Whether to enable PKCE when the user performs the auth code flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#enable_pkce GoogleIntegrationConnectorsConnection#enable_pkce}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#enable_pkce GoogleIntegrationConnectorsConnection#enable_pkce}
 
 ---
 
@@ -1869,7 +1898,7 @@ public readonly scopes: string[];
 
 Scopes the connection will request when the user performs the auth code flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#scopes GoogleIntegrationConnectorsConnection#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#scopes GoogleIntegrationConnectorsConnection#scopes}
 
 ---
 
@@ -1901,7 +1930,7 @@ public readonly secretVersion: string;
 
 The resource name of the secret version in the format, format as: projects/* /secrets/* /versions/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1936,7 +1965,7 @@ public readonly clientId: string;
 
 Secret version of Password for Authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#client_id GoogleIntegrationConnectorsConnection#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#client_id GoogleIntegrationConnectorsConnection#client_id}
 
 ---
 
@@ -1950,7 +1979,7 @@ public readonly clientSecret: GoogleIntegrationConnectorsConnectionAuthConfigOau
 
 client_secret block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#client_secret GoogleIntegrationConnectorsConnection#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#client_secret GoogleIntegrationConnectorsConnection#client_secret}
 
 ---
 
@@ -1982,7 +2011,7 @@ public readonly secretVersion: string;
 
 The resource name of the secret version in the format, format as: projects/* /secrets/* /versions/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2017,7 +2046,7 @@ public readonly clientKey: GoogleIntegrationConnectorsConnectionAuthConfigOauth2
 
 client_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#client_key GoogleIntegrationConnectorsConnection#client_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#client_key GoogleIntegrationConnectorsConnection#client_key}
 
 ---
 
@@ -2031,7 +2060,7 @@ public readonly jwtClaims: GoogleIntegrationConnectorsConnectionAuthConfigOauth2
 
 jwt_claims block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#jwt_claims GoogleIntegrationConnectorsConnection#jwt_claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#jwt_claims GoogleIntegrationConnectorsConnection#jwt_claims}
 
 ---
 
@@ -2063,7 +2092,7 @@ public readonly secretVersion: string;
 
 The resource name of the secret version in the format, format as: projects/* /secrets/* /versions/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2099,7 +2128,7 @@ public readonly audience: string;
 
 Value for the "aud" claim.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#audience GoogleIntegrationConnectorsConnection#audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#audience GoogleIntegrationConnectorsConnection#audience}
 
 ---
 
@@ -2113,7 +2142,7 @@ public readonly issuer: string;
 
 Value for the "iss" claim.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#issuer GoogleIntegrationConnectorsConnection#issuer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#issuer GoogleIntegrationConnectorsConnection#issuer}
 
 ---
 
@@ -2127,7 +2156,7 @@ public readonly subject: string;
 
 Value for the "sub" claim.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#subject GoogleIntegrationConnectorsConnection#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#subject GoogleIntegrationConnectorsConnection#subject}
 
 ---
 
@@ -2162,7 +2191,7 @@ public readonly username: string;
 
 The user account used to authenticate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
 
 ---
 
@@ -2176,7 +2205,7 @@ public readonly certType: string;
 
 Format of SSH Client cert.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#cert_type GoogleIntegrationConnectorsConnection#cert_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#cert_type GoogleIntegrationConnectorsConnection#cert_type}
 
 ---
 
@@ -2190,7 +2219,7 @@ public readonly sshClientCert: GoogleIntegrationConnectorsConnectionAuthConfigSs
 
 ssh_client_cert block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#ssh_client_cert GoogleIntegrationConnectorsConnection#ssh_client_cert}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#ssh_client_cert GoogleIntegrationConnectorsConnection#ssh_client_cert}
 
 ---
 
@@ -2204,7 +2233,7 @@ public readonly sshClientCertPass: GoogleIntegrationConnectorsConnectionAuthConf
 
 ssh_client_cert_pass block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#ssh_client_cert_pass GoogleIntegrationConnectorsConnection#ssh_client_cert_pass}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#ssh_client_cert_pass GoogleIntegrationConnectorsConnection#ssh_client_cert_pass}
 
 ---
 
@@ -2236,7 +2265,7 @@ public readonly secretVersion: string;
 
 The resource name of the secret version in the format, format as: projects/* /secrets/* /versions/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2270,7 +2299,7 @@ public readonly secretVersion: string;
 
 The resource name of the secret version in the format, format as: projects/* /secrets/* /versions/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2305,7 +2334,7 @@ public readonly username: string;
 
 Username for Authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
 
 ---
 
@@ -2319,7 +2348,7 @@ public readonly password: GoogleIntegrationConnectorsConnectionAuthConfigUserPas
 
 password block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#password GoogleIntegrationConnectorsConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#password GoogleIntegrationConnectorsConnection#password}
 
 ---
 
@@ -2351,7 +2380,7 @@ public readonly secretVersion: string;
 
 The resource name of the secret version in the format, format as: projects/* /secrets/* /versions/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2383,16 +2412,17 @@ const googleIntegrationConnectorsConnectionConfig: googleIntegrationConnectorsCo
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.name">name</a></code> | <code>string</code> | Name of Connection needs to be created. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.authConfig">authConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionAuthConfig">GoogleIntegrationConnectorsConnectionAuthConfig</a></code> | auth_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.configVariable">configVariable</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfigVariable">GoogleIntegrationConnectorsConnectionConfigVariable</a>[]</code> | config_variable block. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.description">description</a></code> | <code>string</code> | An arbitrary description for the Connection. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.destinationConfig">destinationConfig</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionDestinationConfig">GoogleIntegrationConnectorsConnectionDestinationConfig</a>[]</code> | destination_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.eventingConfig">eventingConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionEventingConfig">GoogleIntegrationConnectorsConnectionEventingConfig</a></code> | eventing_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.eventingEnablementType">eventingEnablementType</a></code> | <code>string</code> | Eventing enablement type. Will be nil if eventing is not enabled. Possible values: ["EVENTING_AND_CONNECTION", "ONLY_EVENTING"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#id GoogleIntegrationConnectorsConnection#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#id GoogleIntegrationConnectorsConnection#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Resource labels to represent user provided metadata. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.lockConfig">lockConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionLockConfig">GoogleIntegrationConnectorsConnectionLockConfig</a></code> | lock_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.logConfig">logConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionLogConfig">GoogleIntegrationConnectorsConnectionLogConfig</a></code> | log_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.nodeConfig">nodeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionNodeConfig">GoogleIntegrationConnectorsConnectionNodeConfig</a></code> | node_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#project GoogleIntegrationConnectorsConnection#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#project GoogleIntegrationConnectorsConnection#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.serviceAccount">serviceAccount</a></code> | <code>string</code> | Service account needed for runtime plane to access Google Cloud resources. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.sslConfig">sslConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionSslConfig">GoogleIntegrationConnectorsConnectionSslConfig</a></code> | ssl_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.suspended">suspended</a></code> | <code>boolean \| cdktn.IResolvable</code> | Suspended indicates if a user has suspended a connection or not. |
@@ -2480,7 +2510,7 @@ public readonly connectorVersion: string;
 
 connectorVersion of the Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#connector_version GoogleIntegrationConnectorsConnection#connector_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#connector_version GoogleIntegrationConnectorsConnection#connector_version}
 
 ---
 
@@ -2494,7 +2524,7 @@ public readonly location: string;
 
 Location in which Connection needs to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#location GoogleIntegrationConnectorsConnection#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#location GoogleIntegrationConnectorsConnection#location}
 
 ---
 
@@ -2508,7 +2538,7 @@ public readonly name: string;
 
 Name of Connection needs to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#name GoogleIntegrationConnectorsConnection#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#name GoogleIntegrationConnectorsConnection#name}
 
 ---
 
@@ -2522,7 +2552,7 @@ public readonly authConfig: GoogleIntegrationConnectorsConnectionAuthConfig;
 
 auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#auth_config GoogleIntegrationConnectorsConnection#auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#auth_config GoogleIntegrationConnectorsConnection#auth_config}
 
 ---
 
@@ -2536,7 +2566,29 @@ public readonly configVariable: IResolvable | GoogleIntegrationConnectorsConnect
 
 config_variable block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#config_variable GoogleIntegrationConnectorsConnection#config_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#config_variable GoogleIntegrationConnectorsConnection#config_variable}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#deletion_policy GoogleIntegrationConnectorsConnection#deletion_policy}
 
 ---
 
@@ -2550,7 +2602,7 @@ public readonly description: string;
 
 An arbitrary description for the Connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#description GoogleIntegrationConnectorsConnection#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#description GoogleIntegrationConnectorsConnection#description}
 
 ---
 
@@ -2564,7 +2616,7 @@ public readonly destinationConfig: IResolvable | GoogleIntegrationConnectorsConn
 
 destination_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#destination_config GoogleIntegrationConnectorsConnection#destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#destination_config GoogleIntegrationConnectorsConnection#destination_config}
 
 ---
 
@@ -2578,7 +2630,7 @@ public readonly eventingConfig: GoogleIntegrationConnectorsConnectionEventingCon
 
 eventing_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#eventing_config GoogleIntegrationConnectorsConnection#eventing_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#eventing_config GoogleIntegrationConnectorsConnection#eventing_config}
 
 ---
 
@@ -2592,7 +2644,7 @@ public readonly eventingEnablementType: string;
 
 Eventing enablement type. Will be nil if eventing is not enabled. Possible values: ["EVENTING_AND_CONNECTION", "ONLY_EVENTING"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#eventing_enablement_type GoogleIntegrationConnectorsConnection#eventing_enablement_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#eventing_enablement_type GoogleIntegrationConnectorsConnection#eventing_enablement_type}
 
 ---
 
@@ -2604,7 +2656,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#id GoogleIntegrationConnectorsConnection#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#id GoogleIntegrationConnectorsConnection#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2624,7 +2676,7 @@ Resource labels to represent user provided metadata.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#labels GoogleIntegrationConnectorsConnection#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#labels GoogleIntegrationConnectorsConnection#labels}
 
 ---
 
@@ -2638,7 +2690,7 @@ public readonly lockConfig: GoogleIntegrationConnectorsConnectionLockConfig;
 
 lock_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#lock_config GoogleIntegrationConnectorsConnection#lock_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#lock_config GoogleIntegrationConnectorsConnection#lock_config}
 
 ---
 
@@ -2652,7 +2704,7 @@ public readonly logConfig: GoogleIntegrationConnectorsConnectionLogConfig;
 
 log_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#log_config GoogleIntegrationConnectorsConnection#log_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#log_config GoogleIntegrationConnectorsConnection#log_config}
 
 ---
 
@@ -2666,7 +2718,7 @@ public readonly nodeConfig: GoogleIntegrationConnectorsConnectionNodeConfig;
 
 node_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#node_config GoogleIntegrationConnectorsConnection#node_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#node_config GoogleIntegrationConnectorsConnection#node_config}
 
 ---
 
@@ -2678,7 +2730,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#project GoogleIntegrationConnectorsConnection#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#project GoogleIntegrationConnectorsConnection#project}.
 
 ---
 
@@ -2692,7 +2744,7 @@ public readonly serviceAccount: string;
 
 Service account needed for runtime plane to access Google Cloud resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#service_account GoogleIntegrationConnectorsConnection#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#service_account GoogleIntegrationConnectorsConnection#service_account}
 
 ---
 
@@ -2706,7 +2758,7 @@ public readonly sslConfig: GoogleIntegrationConnectorsConnectionSslConfig;
 
 ssl_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#ssl_config GoogleIntegrationConnectorsConnection#ssl_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#ssl_config GoogleIntegrationConnectorsConnection#ssl_config}
 
 ---
 
@@ -2720,7 +2772,7 @@ public readonly suspended: boolean | IResolvable;
 
 Suspended indicates if a user has suspended a connection or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#suspended GoogleIntegrationConnectorsConnection#suspended}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#suspended GoogleIntegrationConnectorsConnection#suspended}
 
 ---
 
@@ -2734,7 +2786,7 @@ public readonly timeouts: GoogleIntegrationConnectorsConnectionTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#timeouts GoogleIntegrationConnectorsConnection#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#timeouts GoogleIntegrationConnectorsConnection#timeouts}
 
 ---
 
@@ -2771,7 +2823,7 @@ public readonly key: string;
 
 Key for the configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
 
 ---
 
@@ -2785,7 +2837,7 @@ public readonly booleanValue: boolean | IResolvable;
 
 Boolean Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
 
 ---
 
@@ -2799,7 +2851,7 @@ public readonly encryptionKeyValue: GoogleIntegrationConnectorsConnectionConfigV
 
 encryption_key_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
 
 ---
 
@@ -2813,7 +2865,7 @@ public readonly integerValue: number;
 
 Integer Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
 
 ---
 
@@ -2827,7 +2879,7 @@ public readonly secretValue: GoogleIntegrationConnectorsConnectionConfigVariable
 
 secret_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
 
 ---
 
@@ -2841,7 +2893,7 @@ public readonly stringValue: string;
 
 String Value of configVariabley.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
 
 ---
 
@@ -2874,7 +2926,7 @@ public readonly type: string;
 
 Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
 
 ---
 
@@ -2892,7 +2944,7 @@ The
 expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
 Will be empty string if google managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -2926,7 +2978,7 @@ public readonly secretVersion: string;
 
 Secret version of Secret Value for Config variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 ---
 
@@ -2970,7 +3022,7 @@ public readonly key: string;
 
 The key is the destination identifier that is supported by the Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
 
 ---
 
@@ -2984,7 +3036,7 @@ public readonly destination: IResolvable | GoogleIntegrationConnectorsConnection
 
 destination block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#destination GoogleIntegrationConnectorsConnection#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#destination GoogleIntegrationConnectorsConnection#destination}
 
 ---
 
@@ -3018,7 +3070,7 @@ public readonly host: string;
 
 For publicly routable host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#host GoogleIntegrationConnectorsConnection#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#host GoogleIntegrationConnectorsConnection#host}
 
 ---
 
@@ -3032,7 +3084,7 @@ public readonly port: number;
 
 The port is the target port number that is accepted by the destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#port GoogleIntegrationConnectorsConnection#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#port GoogleIntegrationConnectorsConnection#port}
 
 ---
 
@@ -3046,7 +3098,7 @@ public readonly serviceAttachment: string;
 
 PSC service attachments. Format: projects/* /regions/* /serviceAttachments/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#service_attachment GoogleIntegrationConnectorsConnection#service_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#service_attachment GoogleIntegrationConnectorsConnection#service_attachment}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3083,7 +3135,7 @@ public readonly registrationDestinationConfig: GoogleIntegrationConnectorsConnec
 
 registration_destination_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#registration_destination_config GoogleIntegrationConnectorsConnection#registration_destination_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#registration_destination_config GoogleIntegrationConnectorsConnection#registration_destination_config}
 
 ---
 
@@ -3097,7 +3149,7 @@ public readonly additionalVariable: IResolvable | GoogleIntegrationConnectorsCon
 
 additional_variable block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
 
 ---
 
@@ -3111,7 +3163,7 @@ public readonly authConfig: GoogleIntegrationConnectorsConnectionEventingConfigA
 
 auth_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#auth_config GoogleIntegrationConnectorsConnection#auth_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#auth_config GoogleIntegrationConnectorsConnection#auth_config}
 
 ---
 
@@ -3125,7 +3177,7 @@ public readonly enrichmentEnabled: boolean | IResolvable;
 
 Enrichment Enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#enrichment_enabled GoogleIntegrationConnectorsConnection#enrichment_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#enrichment_enabled GoogleIntegrationConnectorsConnection#enrichment_enabled}
 
 ---
 
@@ -3162,7 +3214,7 @@ public readonly key: string;
 
 Key for the configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
 
 ---
 
@@ -3176,7 +3228,7 @@ public readonly booleanValue: boolean | IResolvable;
 
 Boolean Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
 
 ---
 
@@ -3190,7 +3242,7 @@ public readonly encryptionKeyValue: GoogleIntegrationConnectorsConnectionEventin
 
 encryption_key_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
 
 ---
 
@@ -3204,7 +3256,7 @@ public readonly integerValue: number;
 
 Integer Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
 
 ---
 
@@ -3218,7 +3270,7 @@ public readonly secretValue: GoogleIntegrationConnectorsConnectionEventingConfig
 
 secret_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
 
 ---
 
@@ -3232,7 +3284,7 @@ public readonly stringValue: string;
 
 String Value of configVariabley.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
 
 ---
 
@@ -3269,7 +3321,7 @@ The
 expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
 Will be empty string if google managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3285,7 +3337,7 @@ public readonly type: string;
 
 Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
 
 ---
 
@@ -3317,7 +3369,7 @@ public readonly secretVersion: string;
 
 Secret version of Secret Value for Config variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 ---
 
@@ -3352,7 +3404,7 @@ public readonly authType: string;
 
 authType of the Connection Possible values: ["USER_PASSWORD"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#auth_type GoogleIntegrationConnectorsConnection#auth_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#auth_type GoogleIntegrationConnectorsConnection#auth_type}
 
 ---
 
@@ -3366,7 +3418,7 @@ public readonly userPassword: GoogleIntegrationConnectorsConnectionEventingConfi
 
 user_password block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#user_password GoogleIntegrationConnectorsConnection#user_password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#user_password GoogleIntegrationConnectorsConnection#user_password}
 
 ---
 
@@ -3380,7 +3432,7 @@ public readonly additionalVariable: IResolvable | GoogleIntegrationConnectorsCon
 
 additional_variable block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
 
 ---
 
@@ -3394,7 +3446,7 @@ public readonly authKey: string;
 
 The type of authentication configured.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#auth_key GoogleIntegrationConnectorsConnection#auth_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#auth_key GoogleIntegrationConnectorsConnection#auth_key}
 
 ---
 
@@ -3431,7 +3483,7 @@ public readonly key: string;
 
 Key for the configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
 
 ---
 
@@ -3445,7 +3497,7 @@ public readonly booleanValue: boolean | IResolvable;
 
 Boolean Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
 
 ---
 
@@ -3459,7 +3511,7 @@ public readonly encryptionKeyValue: GoogleIntegrationConnectorsConnectionEventin
 
 encryption_key_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
 
 ---
 
@@ -3473,7 +3525,7 @@ public readonly integerValue: number;
 
 Integer Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
 
 ---
 
@@ -3487,7 +3539,7 @@ public readonly secretValue: GoogleIntegrationConnectorsConnectionEventingConfig
 
 secret_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
 
 ---
 
@@ -3501,7 +3553,7 @@ public readonly stringValue: string;
 
 String Value of configVariabley.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
 
 ---
 
@@ -3538,7 +3590,7 @@ The
 expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
 Will be empty string if google managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3554,7 +3606,7 @@ public readonly type: string;
 
 Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
 
 ---
 
@@ -3586,7 +3638,7 @@ public readonly secretVersion: string;
 
 Secret version of Secret Value for Config variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 ---
 
@@ -3619,7 +3671,7 @@ public readonly password: GoogleIntegrationConnectorsConnectionEventingConfigAut
 
 password block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#password GoogleIntegrationConnectorsConnection#password}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#password GoogleIntegrationConnectorsConnection#password}
 
 ---
 
@@ -3633,7 +3685,7 @@ public readonly username: string;
 
 Username for Authentication.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#username GoogleIntegrationConnectorsConnection#username}
 
 ---
 
@@ -3665,7 +3717,7 @@ public readonly secretVersion: string;
 
 The resource name of the secret version in the format, format as: projects/* /secrets/* /versions/*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -3700,7 +3752,7 @@ public readonly destination: IResolvable | GoogleIntegrationConnectorsConnection
 
 destination block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#destination GoogleIntegrationConnectorsConnection#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#destination GoogleIntegrationConnectorsConnection#destination}
 
 ---
 
@@ -3714,7 +3766,7 @@ public readonly key: string;
 
 Key for the connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
 
 ---
 
@@ -3748,7 +3800,7 @@ public readonly host: string;
 
 Host.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#host GoogleIntegrationConnectorsConnection#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#host GoogleIntegrationConnectorsConnection#host}
 
 ---
 
@@ -3762,7 +3814,7 @@ public readonly port: number;
 
 port number.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#port GoogleIntegrationConnectorsConnection#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#port GoogleIntegrationConnectorsConnection#port}
 
 ---
 
@@ -3776,7 +3828,7 @@ public readonly serviceAttachment: string;
 
 Service Attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#service_attachment GoogleIntegrationConnectorsConnection#service_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#service_attachment GoogleIntegrationConnectorsConnection#service_attachment}
 
 ---
 
@@ -3831,7 +3883,7 @@ public readonly locked: boolean | IResolvable;
 
 Indicates whether or not the connection is locked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#locked GoogleIntegrationConnectorsConnection#locked}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#locked GoogleIntegrationConnectorsConnection#locked}
 
 ---
 
@@ -3845,7 +3897,7 @@ public readonly reason: string;
 
 Describes why a connection is locked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#reason GoogleIntegrationConnectorsConnection#reason}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#reason GoogleIntegrationConnectorsConnection#reason}
 
 ---
 
@@ -3878,7 +3930,7 @@ public readonly enabled: boolean | IResolvable;
 
 Enabled represents whether logging is enabled or not for a connection.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#enabled GoogleIntegrationConnectorsConnection#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#enabled GoogleIntegrationConnectorsConnection#enabled}
 
 ---
 
@@ -3892,7 +3944,7 @@ public readonly level: string;
 
 Log configuration level. Possible values: ["LOG_LEVEL_UNSPECIFIED", "ERROR", "INFO", "DEBUG"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#level GoogleIntegrationConnectorsConnection#level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#level GoogleIntegrationConnectorsConnection#level}
 
 ---
 
@@ -3925,7 +3977,7 @@ public readonly maxNodeCount: number;
 
 Minimum number of nodes in the runtime nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#max_node_count GoogleIntegrationConnectorsConnection#max_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#max_node_count GoogleIntegrationConnectorsConnection#max_node_count}
 
 ---
 
@@ -3939,7 +3991,7 @@ public readonly minNodeCount: number;
 
 Minimum number of nodes in the runtime nodes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#min_node_count GoogleIntegrationConnectorsConnection#min_node_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#min_node_count GoogleIntegrationConnectorsConnection#min_node_count}
 
 ---
 
@@ -3980,7 +4032,7 @@ public readonly type: string;
 
 Enum for controlling the SSL Type (TLS/MTLS) Possible values: ["TLS", "MTLS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
 
 ---
 
@@ -3994,7 +4046,7 @@ public readonly additionalVariable: IResolvable | GoogleIntegrationConnectorsCon
 
 additional_variable block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#additional_variable GoogleIntegrationConnectorsConnection#additional_variable}
 
 ---
 
@@ -4008,7 +4060,7 @@ public readonly clientCertificate: GoogleIntegrationConnectorsConnectionSslConfi
 
 client_certificate block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#client_certificate GoogleIntegrationConnectorsConnection#client_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#client_certificate GoogleIntegrationConnectorsConnection#client_certificate}
 
 ---
 
@@ -4022,7 +4074,7 @@ public readonly clientCertType: string;
 
 Type of Client Cert (PEM/JKS/.. etc.) Possible values: ["PEM"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#client_cert_type GoogleIntegrationConnectorsConnection#client_cert_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#client_cert_type GoogleIntegrationConnectorsConnection#client_cert_type}
 
 ---
 
@@ -4036,7 +4088,7 @@ public readonly clientPrivateKey: GoogleIntegrationConnectorsConnectionSslConfig
 
 client_private_key block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#client_private_key GoogleIntegrationConnectorsConnection#client_private_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#client_private_key GoogleIntegrationConnectorsConnection#client_private_key}
 
 ---
 
@@ -4050,7 +4102,7 @@ public readonly clientPrivateKeyPass: GoogleIntegrationConnectorsConnectionSslCo
 
 client_private_key_pass block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#client_private_key_pass GoogleIntegrationConnectorsConnection#client_private_key_pass}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#client_private_key_pass GoogleIntegrationConnectorsConnection#client_private_key_pass}
 
 ---
 
@@ -4064,7 +4116,7 @@ public readonly privateServerCertificate: GoogleIntegrationConnectorsConnectionS
 
 private_server_certificate block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#private_server_certificate GoogleIntegrationConnectorsConnection#private_server_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#private_server_certificate GoogleIntegrationConnectorsConnection#private_server_certificate}
 
 ---
 
@@ -4078,7 +4130,7 @@ public readonly serverCertType: string;
 
 Type of Server Cert (PEM/JKS/.. etc.) Possible values: ["PEM"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#server_cert_type GoogleIntegrationConnectorsConnection#server_cert_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#server_cert_type GoogleIntegrationConnectorsConnection#server_cert_type}
 
 ---
 
@@ -4092,7 +4144,7 @@ public readonly trustModel: string;
 
 Enum for Trust Model Possible values: ["PUBLIC", "PRIVATE", "INSECURE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#trust_model GoogleIntegrationConnectorsConnection#trust_model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#trust_model GoogleIntegrationConnectorsConnection#trust_model}
 
 ---
 
@@ -4106,7 +4158,7 @@ public readonly useSsl: boolean | IResolvable;
 
 Bool for enabling SSL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#use_ssl GoogleIntegrationConnectorsConnection#use_ssl}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#use_ssl GoogleIntegrationConnectorsConnection#use_ssl}
 
 ---
 
@@ -4143,7 +4195,7 @@ public readonly key: string;
 
 Key for the configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#key GoogleIntegrationConnectorsConnection#key}
 
 ---
 
@@ -4157,7 +4209,7 @@ public readonly booleanValue: boolean | IResolvable;
 
 Boolean Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#boolean_value GoogleIntegrationConnectorsConnection#boolean_value}
 
 ---
 
@@ -4171,7 +4223,7 @@ public readonly encryptionKeyValue: GoogleIntegrationConnectorsConnectionSslConf
 
 encryption_key_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#encryption_key_value GoogleIntegrationConnectorsConnection#encryption_key_value}
 
 ---
 
@@ -4185,7 +4237,7 @@ public readonly integerValue: number;
 
 Integer Value of configVariable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#integer_value GoogleIntegrationConnectorsConnection#integer_value}
 
 ---
 
@@ -4199,7 +4251,7 @@ public readonly secretValue: GoogleIntegrationConnectorsConnectionSslConfigAddit
 
 secret_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_value GoogleIntegrationConnectorsConnection#secret_value}
 
 ---
 
@@ -4213,7 +4265,7 @@ public readonly stringValue: string;
 
 String Value of configVariabley.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#string_value GoogleIntegrationConnectorsConnection#string_value}
 
 ---
 
@@ -4250,7 +4302,7 @@ The
 expected format: projects/* /locations/* /keyRings/* /cryptoKeys/*.
 Will be empty string if google managed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#kms_key_name GoogleIntegrationConnectorsConnection#kms_key_name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -4266,7 +4318,7 @@ public readonly type: string;
 
 Type of Encryption Key Possible values: ["GOOGLE_MANAGED", "CUSTOMER_MANAGED"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#type GoogleIntegrationConnectorsConnection#type}
 
 ---
 
@@ -4298,7 +4350,7 @@ public readonly secretVersion: string;
 
 Secret version of Secret Value for Config variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 ---
 
@@ -4330,7 +4382,7 @@ public readonly secretVersion: string;
 
 Secret version of Secret Value for Config variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 ---
 
@@ -4362,7 +4414,7 @@ public readonly secretVersion: string;
 
 Secret version of Secret Value for Config variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 ---
 
@@ -4394,7 +4446,7 @@ public readonly secretVersion: string;
 
 Secret version of Secret Value for Config variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 ---
 
@@ -4426,7 +4478,7 @@ public readonly secretVersion: string;
 
 Secret version of Secret Value for Config variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#secret_version GoogleIntegrationConnectorsConnection#secret_version}
 
 ---
 
@@ -4455,9 +4507,9 @@ const googleIntegrationConnectorsConnectionTimeouts: googleIntegrationConnectors
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#create GoogleIntegrationConnectorsConnection#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#delete GoogleIntegrationConnectorsConnection#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#update GoogleIntegrationConnectorsConnection#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#create GoogleIntegrationConnectorsConnection#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#delete GoogleIntegrationConnectorsConnection#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleIntegrationConnectorsConnection.GoogleIntegrationConnectorsConnectionTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#update GoogleIntegrationConnectorsConnection#update}. |
 
 ---
 
@@ -4469,7 +4521,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#create GoogleIntegrationConnectorsConnection#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#create GoogleIntegrationConnectorsConnection#create}.
 
 ---
 
@@ -4481,7 +4533,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#delete GoogleIntegrationConnectorsConnection#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#delete GoogleIntegrationConnectorsConnection#delete}.
 
 ---
 
@@ -4493,7 +4545,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_integration_connectors_connection#update GoogleIntegrationConnectorsConnection#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_integration_connectors_connection#update GoogleIntegrationConnectorsConnection#update}.
 
 ---
 

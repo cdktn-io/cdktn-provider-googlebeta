@@ -4,7 +4,7 @@
 
 ### GoogleDataplexEntry <a name="GoogleDataplexEntry" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry google_dataplex_entry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry google_dataplex_entry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.Initializer"></a>
 
@@ -78,6 +78,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.putEntrySource">putEntrySource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.resetAspects">resetAspects</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.resetEntryGroupId">resetEntryGroupId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.resetEntryId">resetEntryId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.resetEntrySource">resetEntrySource</a></code> | *No description.* |
@@ -441,6 +442,12 @@ public putTimeouts(value: GoogleDataplexEntryTimeouts): void
 public resetAspects(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetEntryGroupId` <a name="resetEntryGroupId" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.resetEntryGroupId"></a>
 
 ```typescript
@@ -598,7 +605,7 @@ The construct id used in the generated config for the GoogleDataplexEntry to imp
 
 The id of the existing GoogleDataplexEntry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -635,6 +642,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeoutsOutputReference">GoogleDataplexEntryTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.aspectsInput">aspectsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryAspects">GoogleDataplexEntryAspects</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.entryGroupIdInput">entryGroupIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.entryIdInput">entryIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.entrySourceInput">entrySourceInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryEntrySource">GoogleDataplexEntryEntrySource</a></code> | *No description.* |
@@ -645,6 +653,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.parentEntryInput">parentEntryInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts">GoogleDataplexEntryTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.entryGroupId">entryGroupId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.entryId">entryId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.entryType">entryType</a></code> | <code>string</code> | *No description.* |
@@ -868,6 +877,16 @@ public readonly aspectsInput: IResolvable | GoogleDataplexEntryAspects[];
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `entryGroupIdInput`<sup>Optional</sup> <a name="entryGroupIdInput" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.entryGroupIdInput"></a>
 
 ```typescript
@@ -965,6 +984,16 @@ public readonly timeoutsInput: IResolvable | GoogleDataplexEntryTimeouts;
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts">GoogleDataplexEntryTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntry.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -1097,7 +1126,7 @@ public readonly aspect: GoogleDataplexEntryAspectsAspect;
 
 aspect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#aspect GoogleDataplexEntry#aspect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#aspect GoogleDataplexEntry#aspect}
 
 ---
 
@@ -1114,7 +1143,7 @@ Depending on how the aspect is attached to the entry, the format of the aspect k
 If the aspect is attached directly to the entry: {project_number}.{locationId}.{aspectTypeId}
 If the aspect is attached to an entry's path: {project_number}.{locationId}.{aspectTypeId}@{path}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#aspect_key GoogleDataplexEntry#aspect_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#aspect_key GoogleDataplexEntry#aspect_key}
 
 ---
 
@@ -1148,7 +1177,7 @@ The content of the aspect in JSON form, according to its aspect type schema.
 
 The maximum size of the field is 120KB (encoded as UTF-8).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#data GoogleDataplexEntry#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#data GoogleDataplexEntry#data}
 
 ---
 
@@ -1175,14 +1204,15 @@ const googleDataplexEntryConfig: googleDataplexEntry.GoogleDataplexEntryConfig =
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.entryType">entryType</a></code> | <code>string</code> | The relative resource name of the entry type that was used to create this entry, in the format projects/{project_number}/locations/{locationId}/entryTypes/{entryTypeId}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.aspects">aspects</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryAspects">GoogleDataplexEntryAspects</a>[]</code> | aspects block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.entryGroupId">entryGroupId</a></code> | <code>string</code> | The entry group id of the entry group the entry will be created in. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.entryId">entryId</a></code> | <code>string</code> | The entry id of the entry. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.entrySource">entrySource</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryEntrySource">GoogleDataplexEntryEntrySource</a></code> | entry_source block. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.fullyQualifiedName">fullyQualifiedName</a></code> | <code>string</code> | A name for the entry that can be referenced by an external system. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#id GoogleDataplexEntry#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#id GoogleDataplexEntry#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.location">location</a></code> | <code>string</code> | The location where entry will be created. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.parentEntry">parentEntry</a></code> | <code>string</code> | The resource name of the parent entry, in the format projects/{project_number}/locations/{locationId}/entryGroups/{entryGroupId}/entries/{entryId}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#project GoogleDataplexEntry#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#project GoogleDataplexEntry#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts">GoogleDataplexEntryTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1267,7 +1297,7 @@ public readonly entryType: string;
 
 The relative resource name of the entry type that was used to create this entry, in the format projects/{project_number}/locations/{locationId}/entryTypes/{entryTypeId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#entry_type GoogleDataplexEntry#entry_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#entry_type GoogleDataplexEntry#entry_type}
 
 ---
 
@@ -1281,7 +1311,29 @@ public readonly aspects: IResolvable | GoogleDataplexEntryAspects[];
 
 aspects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#aspects GoogleDataplexEntry#aspects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#aspects GoogleDataplexEntry#aspects}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#deletion_policy GoogleDataplexEntry#deletion_policy}
 
 ---
 
@@ -1295,7 +1347,7 @@ public readonly entryGroupId: string;
 
 The entry group id of the entry group the entry will be created in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#entry_group_id GoogleDataplexEntry#entry_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#entry_group_id GoogleDataplexEntry#entry_group_id}
 
 ---
 
@@ -1309,7 +1361,7 @@ public readonly entryId: string;
 
 The entry id of the entry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#entry_id GoogleDataplexEntry#entry_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#entry_id GoogleDataplexEntry#entry_id}
 
 ---
 
@@ -1323,7 +1375,7 @@ public readonly entrySource: GoogleDataplexEntryEntrySource;
 
 entry_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#entry_source GoogleDataplexEntry#entry_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#entry_source GoogleDataplexEntry#entry_source}
 
 ---
 
@@ -1340,7 +1392,7 @@ A name for the entry that can be referenced by an external system.
 For more information, see https://cloud.google.com/dataplex/docs/fully-qualified-names.
 The maximum size of the field is 4000 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#fully_qualified_name GoogleDataplexEntry#fully_qualified_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#fully_qualified_name GoogleDataplexEntry#fully_qualified_name}
 
 ---
 
@@ -1352,7 +1404,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#id GoogleDataplexEntry#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#id GoogleDataplexEntry#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1369,7 +1421,7 @@ public readonly location: string;
 
 The location where entry will be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#location GoogleDataplexEntry#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#location GoogleDataplexEntry#location}
 
 ---
 
@@ -1383,7 +1435,7 @@ public readonly parentEntry: string;
 
 The resource name of the parent entry, in the format projects/{project_number}/locations/{locationId}/entryGroups/{entryGroupId}/entries/{entryId}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#parent_entry GoogleDataplexEntry#parent_entry}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#parent_entry GoogleDataplexEntry#parent_entry}
 
 ---
 
@@ -1395,7 +1447,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#project GoogleDataplexEntry#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#project GoogleDataplexEntry#project}.
 
 ---
 
@@ -1409,7 +1461,7 @@ public readonly timeouts: GoogleDataplexEntryTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#timeouts GoogleDataplexEntry#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#timeouts GoogleDataplexEntry#timeouts}
 
 ---
 
@@ -1449,7 +1501,7 @@ public readonly ancestors: IResolvable | GoogleDataplexEntryEntrySourceAncestors
 
 ancestors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#ancestors GoogleDataplexEntry#ancestors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#ancestors GoogleDataplexEntry#ancestors}
 
 ---
 
@@ -1463,7 +1515,7 @@ public readonly createTime: string;
 
 The time when the resource was created in the source system.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#create_time GoogleDataplexEntry#create_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#create_time GoogleDataplexEntry#create_time}
 
 ---
 
@@ -1477,7 +1529,7 @@ public readonly description: string;
 
 A description of the data resource. Maximum length is 2,000 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#description GoogleDataplexEntry#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#description GoogleDataplexEntry#description}
 
 ---
 
@@ -1491,7 +1543,7 @@ public readonly displayName: string;
 
 A user-friendly display name. Maximum length is 500 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#display_name GoogleDataplexEntry#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#display_name GoogleDataplexEntry#display_name}
 
 ---
 
@@ -1508,7 +1560,7 @@ User-defined labels.
 The maximum size of keys and values is 128 characters each.
 An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#labels GoogleDataplexEntry#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#labels GoogleDataplexEntry#labels}
 
 ---
 
@@ -1522,7 +1574,7 @@ public readonly platform: string;
 
 The platform containing the source system. Maximum length is 64 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#platform GoogleDataplexEntry#platform}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#platform GoogleDataplexEntry#platform}
 
 ---
 
@@ -1536,7 +1588,7 @@ public readonly resource: string;
 
 The name of the resource in the source system. Maximum length is 4,000 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#resource GoogleDataplexEntry#resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#resource GoogleDataplexEntry#resource}
 
 ---
 
@@ -1550,7 +1602,7 @@ public readonly systemAttribute: string;
 
 The name of the source system. Maximum length is 64 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#system GoogleDataplexEntry#system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#system GoogleDataplexEntry#system}
 
 ---
 
@@ -1567,7 +1619,7 @@ The time when the resource was last updated in the source system.
 If the entry exists in the system and its EntrySource has updateTime populated,
 further updates to the EntrySource of the entry must provide incremental updates to its updateTime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#update_time GoogleDataplexEntry#update_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#update_time GoogleDataplexEntry#update_time}
 
 ---
 
@@ -1600,7 +1652,7 @@ public readonly name: string;
 
 The name of the ancestor resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#name GoogleDataplexEntry#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#name GoogleDataplexEntry#name}
 
 ---
 
@@ -1614,7 +1666,7 @@ public readonly type: string;
 
 The type of the ancestor resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#type GoogleDataplexEntry#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#type GoogleDataplexEntry#type}
 
 ---
 
@@ -1632,9 +1684,9 @@ const googleDataplexEntryTimeouts: googleDataplexEntry.GoogleDataplexEntryTimeou
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#create GoogleDataplexEntry#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#delete GoogleDataplexEntry#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#update GoogleDataplexEntry#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#create GoogleDataplexEntry#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#delete GoogleDataplexEntry#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataplexEntry.GoogleDataplexEntryTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#update GoogleDataplexEntry#update}. |
 
 ---
 
@@ -1646,7 +1698,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#create GoogleDataplexEntry#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#create GoogleDataplexEntry#create}.
 
 ---
 
@@ -1658,7 +1710,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#delete GoogleDataplexEntry#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#delete GoogleDataplexEntry#delete}.
 
 ---
 
@@ -1670,7 +1722,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dataplex_entry#update GoogleDataplexEntry#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataplex_entry#update GoogleDataplexEntry#update}.
 
 ---
 

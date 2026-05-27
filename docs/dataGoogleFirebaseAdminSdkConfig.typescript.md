@@ -4,7 +4,7 @@
 
 ### DataGoogleFirebaseAdminSdkConfig <a name="DataGoogleFirebaseAdminSdkConfig" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.dataGoogleFirebaseAdminSdkConfig.DataGoogleFirebaseAdminSdkConfig.Initializer"></a>
 
@@ -394,7 +394,7 @@ The construct id used in the generated config for the DataGoogleFirebaseAdminSdk
 
 The id of the existing DataGoogleFirebaseAdminSdkConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_firebase_admin_sdk_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_firebase_admin_sdk_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -740,7 +740,7 @@ The ID of the project in which the resource belongs.
 
 If it is not provided, the provider project is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/data-sources/google_firebase_admin_sdk_config#project DataGoogleFirebaseAdminSdkConfig#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/data-sources/google_firebase_admin_sdk_config#project DataGoogleFirebaseAdminSdkConfig#project}
 
 ---
 

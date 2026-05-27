@@ -4,7 +4,7 @@
 
 ### GoogleComputeSharedVpcHostProject <a name="GoogleComputeSharedVpcHostProject" id="@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project google_compute_shared_vpc_host_project}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project google_compute_shared_vpc_host_project}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.putTimeouts">PutTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.resetId">ResetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.resetTimeouts">ResetTimeouts</a></code> | *No description.* |
 
@@ -401,6 +402,12 @@ private void PutTimeouts(GoogleComputeSharedVpcHostProjectTimeouts Value)
 
 ---
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.resetDeletionPolicy"></a>
+
+```csharp
+private void ResetDeletionPolicy()
+```
+
 ##### `ResetId` <a name="ResetId" id="@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.resetId"></a>
 
 ```csharp
@@ -516,7 +523,7 @@ The construct id used in the generated config for the GoogleComputeSharedVpcHost
 
 The id of the existing GoogleComputeSharedVpcHostProject that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -547,9 +554,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectTimeoutsOutputReference">GoogleComputeSharedVpcHostProjectTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.projectInput">ProjectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.timeoutsInput">TimeoutsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectTimeouts">GoogleComputeSharedVpcHostProjectTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.id">Id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.project">Project</a></code> | <code>string</code> | *No description.* |
 
@@ -707,6 +716,16 @@ public GoogleComputeSharedVpcHostProjectTimeoutsOutputReference Timeouts { get; 
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.deletionPolicyInput"></a>
+
+```csharp
+public string DeletionPolicyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.idInput"></a>
 
 ```csharp
@@ -734,6 +753,16 @@ public IResolvable|GoogleComputeSharedVpcHostProjectTimeouts TimeoutsInput { get
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectTimeouts">GoogleComputeSharedVpcHostProjectTimeouts</a>
+
+---
+
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProject.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -793,6 +822,7 @@ new GoogleComputeSharedVpcHostProjectConfig {
     TerraformProvider Provider = null,
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
     string Project,
+    string DeletionPolicy = null,
     string Id = null,
     GoogleComputeSharedVpcHostProjectTimeouts Timeouts = null
 };
@@ -810,7 +840,8 @@ new GoogleComputeSharedVpcHostProjectConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectConfig.property.project">Project</a></code> | <code>string</code> | The ID of the project that will serve as a Shared VPC host project. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project#id GoogleComputeSharedVpcHostProject#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#id GoogleComputeSharedVpcHostProject#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectTimeouts">GoogleComputeSharedVpcHostProjectTimeouts</a></code> | timeouts block. |
 
 ---
@@ -895,7 +926,28 @@ public string Project { get; set; }
 
 The ID of the project that will serve as a Shared VPC host project.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project#project GoogleComputeSharedVpcHostProject#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#project GoogleComputeSharedVpcHostProject#project}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectConfig.property.deletionPolicy"></a>
+
+```csharp
+public string DeletionPolicy { get; set; }
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#deletion_policy GoogleComputeSharedVpcHostProject#deletion_policy}
 
 ---
 
@@ -907,7 +959,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project#id GoogleComputeSharedVpcHostProject#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#id GoogleComputeSharedVpcHostProject#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -924,7 +976,7 @@ public GoogleComputeSharedVpcHostProjectTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project#timeouts GoogleComputeSharedVpcHostProject#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#timeouts GoogleComputeSharedVpcHostProject#timeouts}
 
 ---
 
@@ -945,8 +997,8 @@ new GoogleComputeSharedVpcHostProjectTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project#create GoogleComputeSharedVpcHostProject#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project#delete GoogleComputeSharedVpcHostProject#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#create GoogleComputeSharedVpcHostProject#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSharedVpcHostProject.GoogleComputeSharedVpcHostProjectTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#delete GoogleComputeSharedVpcHostProject#delete}. |
 
 ---
 
@@ -958,7 +1010,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project#create GoogleComputeSharedVpcHostProject#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#create GoogleComputeSharedVpcHostProject#create}.
 
 ---
 
@@ -970,7 +1022,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_shared_vpc_host_project#delete GoogleComputeSharedVpcHostProject#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_shared_vpc_host_project#delete GoogleComputeSharedVpcHostProject#delete}.
 
 ---
 

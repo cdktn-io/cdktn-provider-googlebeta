@@ -4,7 +4,7 @@
 
 ### GooglePubsubSchema <a name="GooglePubsubSchema" id="@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema google_pubsub_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema google_pubsub_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer"></a>
 
@@ -21,6 +21,7 @@ GooglePubsubSchema.Builder.create(Construct scope, java.lang.String id)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
 //  .definition(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GooglePubsubSchemaTimeouts)
@@ -41,8 +42,9 @@ GooglePubsubSchema.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | The ID to use for the schema, which will become the final component of the schema's resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.definition">definition</a></code> | <code>java.lang.String</code> | The definition of the schema. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#id GooglePubsubSchema#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#project GooglePubsubSchema#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#id GooglePubsubSchema#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#project GooglePubsubSchema#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeouts">GooglePubsubSchemaTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.type">type</a></code> | <code>java.lang.String</code> | The type of the schema definition Default value: "TYPE_UNSPECIFIED" Possible values: ["TYPE_UNSPECIFIED", "PROTOCOL_BUFFER", "AVRO"]. |
 
@@ -114,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The ID to use for the schema, which will become the final component of the schema's resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#name GooglePubsubSchema#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#name GooglePubsubSchema#name}
 
 ---
 
@@ -131,7 +133,24 @@ A schema can only have up to 20 revisions, so updates that fail with an
 error indicating that the limit has been reached require manually
 [deleting old revisions](https://cloud.google.com/pubsub/docs/delete-schema-revision).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#definition GooglePubsubSchema#definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#definition GooglePubsubSchema#definition}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#deletion_policy GooglePubsubSchema#deletion_policy}
 
 ---
 
@@ -139,7 +158,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#id GooglePubsubSchema#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#id GooglePubsubSchema#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -150,7 +169,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#project GooglePubsubSchema#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#project GooglePubsubSchema#project}.
 
 ---
 
@@ -160,7 +179,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#timeouts GooglePubsubSchema#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#timeouts GooglePubsubSchema#timeouts}
 
 ---
 
@@ -170,7 +189,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of the schema definition Default value: "TYPE_UNSPECIFIED" Possible values: ["TYPE_UNSPECIFIED", "PROTOCOL_BUFFER", "AVRO"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#type GooglePubsubSchema#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#type GooglePubsubSchema#type}
 
 ---
 
@@ -204,6 +223,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.resetDefinition">resetDefinition</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -540,6 +560,12 @@ public void putTimeouts(GooglePubsubSchemaTimeouts value)
 public void resetDefinition()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.resetId"></a>
 
 ```java
@@ -667,7 +693,7 @@ The construct id used in the generated config for the GooglePubsubSchema to impo
 
 The id of the existing GooglePubsubSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -699,12 +725,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeoutsOutputReference">GooglePubsubSchemaTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.definitionInput">definitionInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.nameInput">nameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeouts">GooglePubsubSchemaTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.typeInput">typeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.definition">definition</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.project">project</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -874,6 +902,16 @@ public java.lang.String getDefinitionInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.idInput"></a>
 
 ```java
@@ -928,6 +966,16 @@ public java.lang.String getTypeInput();
 
 ```java
 public java.lang.String getDefinition();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchema.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1011,6 +1059,7 @@ GooglePubsubSchemaConfig.builder()
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .name(java.lang.String)
 //  .definition(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .id(java.lang.String)
 //  .project(java.lang.String)
 //  .timeouts(GooglePubsubSchemaTimeouts)
@@ -1031,8 +1080,9 @@ GooglePubsubSchemaConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.name">name</a></code> | <code>java.lang.String</code> | The ID to use for the schema, which will become the final component of the schema's resource name. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.definition">definition</a></code> | <code>java.lang.String</code> | The definition of the schema. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#id GooglePubsubSchema#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#project GooglePubsubSchema#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#id GooglePubsubSchema#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#project GooglePubsubSchema#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeouts">GooglePubsubSchemaTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.type">type</a></code> | <code>java.lang.String</code> | The type of the schema definition Default value: "TYPE_UNSPECIFIED" Possible values: ["TYPE_UNSPECIFIED", "PROTOCOL_BUFFER", "AVRO"]. |
 
@@ -1118,7 +1168,7 @@ public java.lang.String getName();
 
 The ID to use for the schema, which will become the final component of the schema's resource name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#name GooglePubsubSchema#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#name GooglePubsubSchema#name}
 
 ---
 
@@ -1139,7 +1189,28 @@ A schema can only have up to 20 revisions, so updates that fail with an
 error indicating that the limit has been reached require manually
 [deleting old revisions](https://cloud.google.com/pubsub/docs/delete-schema-revision).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#definition GooglePubsubSchema#definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#definition GooglePubsubSchema#definition}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#deletion_policy GooglePubsubSchema#deletion_policy}
 
 ---
 
@@ -1151,7 +1222,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#id GooglePubsubSchema#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#id GooglePubsubSchema#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1166,7 +1237,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#project GooglePubsubSchema#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#project GooglePubsubSchema#project}.
 
 ---
 
@@ -1180,7 +1251,7 @@ public GooglePubsubSchemaTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#timeouts GooglePubsubSchema#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#timeouts GooglePubsubSchema#timeouts}
 
 ---
 
@@ -1194,7 +1265,7 @@ public java.lang.String getType();
 
 The type of the schema definition Default value: "TYPE_UNSPECIFIED" Possible values: ["TYPE_UNSPECIFIED", "PROTOCOL_BUFFER", "AVRO"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#type GooglePubsubSchema#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#type GooglePubsubSchema#type}
 
 ---
 
@@ -1216,9 +1287,9 @@ GooglePubsubSchemaTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#create GooglePubsubSchema#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#delete GooglePubsubSchema#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#update GooglePubsubSchema#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#create GooglePubsubSchema#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#delete GooglePubsubSchema#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googlePubsubSchema.GooglePubsubSchemaTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#update GooglePubsubSchema#update}. |
 
 ---
 
@@ -1230,7 +1301,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#create GooglePubsubSchema#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#create GooglePubsubSchema#create}.
 
 ---
 
@@ -1242,7 +1313,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#delete GooglePubsubSchema#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#delete GooglePubsubSchema#delete}.
 
 ---
 
@@ -1254,7 +1325,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_pubsub_schema#update GooglePubsubSchema#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_pubsub_schema#update GooglePubsubSchema#update}.
 
 ---
 

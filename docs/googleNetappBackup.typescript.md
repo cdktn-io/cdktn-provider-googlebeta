@@ -4,7 +4,7 @@
 
 ### GoogleNetappBackup <a name="GoogleNetappBackup" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup google_netapp_backup}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup google_netapp_backup}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.Initializer"></a>
 
@@ -74,10 +74,13 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.putOntapSource">putOntapSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetLabels">resetLabels</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetOntapSource">resetOntapSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetSourceSnapshot">resetSourceSnapshot</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetSourceVolume">resetSourceVolume</a></code> | *No description.* |
@@ -394,6 +397,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `putOntapSource` <a name="putOntapSource" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.putOntapSource"></a>
+
+```typescript
+public putOntapSource(value: GoogleNetappBackupOntapSource): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.putOntapSource.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource">GoogleNetappBackupOntapSource</a>
+
+---
+
 ##### `putTimeouts` <a name="putTimeouts" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.putTimeouts"></a>
 
 ```typescript
@@ -405,6 +420,12 @@ public putTimeouts(value: GoogleNetappBackupTimeouts): void
 - *Type:* <a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts">GoogleNetappBackupTimeouts</a>
 
 ---
+
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
 
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetDescription"></a>
 
@@ -422,6 +443,12 @@ public resetId(): void
 
 ```typescript
 public resetLabels(): void
+```
+
+##### `resetOntapSource` <a name="resetOntapSource" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetOntapSource"></a>
+
+```typescript
+public resetOntapSource(): void
 ```
 
 ##### `resetProject` <a name="resetProject" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.resetProject"></a>
@@ -551,7 +578,7 @@ The construct id used in the generated config for the GoogleNetappBackup to impo
 
 The id of the existing GoogleNetappBackup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -586,21 +613,25 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.chainStorageBytes">chainStorageBytes</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.createTime">createTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.effectiveLabels">effectiveLabels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.ontapSource">ontapSource</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference">GoogleNetappBackupOntapSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.state">state</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.terraformLabels">terraformLabels</a></code> | <code>cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeoutsOutputReference">GoogleNetappBackupTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.volumeRegion">volumeRegion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.volumeUsageBytes">volumeUsageBytes</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.labelsInput">labelsInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.ontapSourceInput">ontapSourceInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource">GoogleNetappBackupOntapSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.sourceSnapshotInput">sourceSnapshotInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.sourceVolumeInput">sourceVolumeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts">GoogleNetappBackupTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.vaultNameInput">vaultNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
@@ -805,6 +836,16 @@ public readonly effectiveLabels: StringMap;
 
 ---
 
+##### `ontapSource`<sup>Required</sup> <a name="ontapSource" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.ontapSource"></a>
+
+```typescript
+public readonly ontapSource: GoogleNetappBackupOntapSourceOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference">GoogleNetappBackupOntapSourceOutputReference</a>
+
+---
+
 ##### `state`<sup>Required</sup> <a name="state" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.state"></a>
 
 ```typescript
@@ -849,6 +890,16 @@ public readonly volumeRegion: string;
 
 ```typescript
 public readonly volumeUsageBytes: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
 ```
 
 - *Type:* string
@@ -905,6 +956,16 @@ public readonly nameInput: string;
 
 ---
 
+##### `ontapSourceInput`<sup>Optional</sup> <a name="ontapSourceInput" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.ontapSourceInput"></a>
+
+```typescript
+public readonly ontapSourceInput: GoogleNetappBackupOntapSource;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource">GoogleNetappBackupOntapSource</a>
+
+---
+
 ##### `projectInput`<sup>Optional</sup> <a name="projectInput" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.projectInput"></a>
 
 ```typescript
@@ -949,6 +1010,16 @@ public readonly timeoutsInput: IResolvable | GoogleNetappBackupTimeouts;
 
 ```typescript
 public readonly vaultNameInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackup.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -1089,10 +1160,12 @@ const googleNetappBackupConfig: googleNetappBackup.GoogleNetappBackupConfig = { 
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.location">location</a></code> | <code>string</code> | Location of the backup. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.name">name</a></code> | <code>string</code> | The resource name of the backup. Needs to be unique per location. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.vaultName">vaultName</a></code> | <code>string</code> | Name of the backup vault to store the backup in. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.description">description</a></code> | <code>string</code> | A description of the backup with 2048 characters or less. Requests with longer descriptions will be rejected. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#id GoogleNetappBackup#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#id GoogleNetappBackup#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#project GoogleNetappBackup#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.ontapSource">ontapSource</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource">GoogleNetappBackupOntapSource</a></code> | ontap_source block. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#project GoogleNetappBackup#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.sourceSnapshot">sourceSnapshot</a></code> | <code>string</code> | If specified, backup will be created from the given snapshot. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.sourceVolume">sourceVolume</a></code> | <code>string</code> | ID of volumes this backup belongs to. Format: 'projects/{{projects_id}}/locations/{{location}}/volumes/{{name}}''. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts">GoogleNetappBackupTimeouts</a></code> | timeouts block. |
@@ -1179,7 +1252,7 @@ public readonly location: string;
 
 Location of the backup.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#location GoogleNetappBackup#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#location GoogleNetappBackup#location}
 
 ---
 
@@ -1193,7 +1266,7 @@ public readonly name: string;
 
 The resource name of the backup. Needs to be unique per location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#name GoogleNetappBackup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#name GoogleNetappBackup#name}
 
 ---
 
@@ -1207,7 +1280,29 @@ public readonly vaultName: string;
 
 Name of the backup vault to store the backup in.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#vault_name GoogleNetappBackup#vault_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#vault_name GoogleNetappBackup#vault_name}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#deletion_policy GoogleNetappBackup#deletion_policy}
 
 ---
 
@@ -1221,7 +1316,7 @@ public readonly description: string;
 
 A description of the backup with 2048 characters or less. Requests with longer descriptions will be rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#description GoogleNetappBackup#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#description GoogleNetappBackup#description}
 
 ---
 
@@ -1233,7 +1328,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#id GoogleNetappBackup#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#id GoogleNetappBackup#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1253,7 +1348,21 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#labels GoogleNetappBackup#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#labels GoogleNetappBackup#labels}
+
+---
+
+##### `ontapSource`<sup>Optional</sup> <a name="ontapSource" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupConfig.property.ontapSource"></a>
+
+```typescript
+public readonly ontapSource: GoogleNetappBackupOntapSource;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource">GoogleNetappBackupOntapSource</a>
+
+ontap_source block.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#ontap_source GoogleNetappBackup#ontap_source}
 
 ---
 
@@ -1265,7 +1374,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#project GoogleNetappBackup#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#project GoogleNetappBackup#project}.
 
 ---
 
@@ -1283,7 +1392,7 @@ If not specified,
 there will be a new snapshot taken to initiate the backup creation.
 Format: 'projects/{{projectId}}/locations/{{location}}/volumes/{{volumename}}/snapshots/{{snapshotname}}''
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#source_snapshot GoogleNetappBackup#source_snapshot}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#source_snapshot GoogleNetappBackup#source_snapshot}
 
 ---
 
@@ -1297,7 +1406,7 @@ public readonly sourceVolume: string;
 
 ID of volumes this backup belongs to. Format: 'projects/{{projects_id}}/locations/{{location}}/volumes/{{name}}''.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#source_volume GoogleNetappBackup#source_volume}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#source_volume GoogleNetappBackup#source_volume}
 
 ---
 
@@ -1311,7 +1420,69 @@ public readonly timeouts: GoogleNetappBackupTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#timeouts GoogleNetappBackup#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#timeouts GoogleNetappBackup#timeouts}
+
+---
+
+### GoogleNetappBackupOntapSource <a name="GoogleNetappBackupOntapSource" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource.Initializer"></a>
+
+```typescript
+import { googleNetappBackup } from '@cdktn/provider-google-beta'
+
+const googleNetappBackupOntapSource: googleNetappBackup.GoogleNetappBackupOntapSource = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource.property.storagePool">storagePool</a></code> | <code>string</code> | Name of the storage pool. This must be specified for creating backups for ONTAP mode volumes. Format: 'projects/{{project}}/locations/{{location}}/storagePools/{{storage_pool_id}}'. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource.property.volumeUuid">volumeUuid</a></code> | <code>string</code> | The UUID of the ONTAP source volume. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource.property.snapshotUuid">snapshotUuid</a></code> | <code>string</code> | The UUID of the ONTAP source snapshot. |
+
+---
+
+##### `storagePool`<sup>Required</sup> <a name="storagePool" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource.property.storagePool"></a>
+
+```typescript
+public readonly storagePool: string;
+```
+
+- *Type:* string
+
+Name of the storage pool. This must be specified for creating backups for ONTAP mode volumes. Format: 'projects/{{project}}/locations/{{location}}/storagePools/{{storage_pool_id}}'.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#storage_pool GoogleNetappBackup#storage_pool}
+
+---
+
+##### `volumeUuid`<sup>Required</sup> <a name="volumeUuid" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource.property.volumeUuid"></a>
+
+```typescript
+public readonly volumeUuid: string;
+```
+
+- *Type:* string
+
+The UUID of the ONTAP source volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#volume_uuid GoogleNetappBackup#volume_uuid}
+
+---
+
+##### `snapshotUuid`<sup>Optional</sup> <a name="snapshotUuid" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource.property.snapshotUuid"></a>
+
+```typescript
+public readonly snapshotUuid: string;
+```
+
+- *Type:* string
+
+The UUID of the ONTAP source snapshot.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#snapshot_uuid GoogleNetappBackup#snapshot_uuid}
 
 ---
 
@@ -1329,9 +1500,9 @@ const googleNetappBackupTimeouts: googleNetappBackup.GoogleNetappBackupTimeouts 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#create GoogleNetappBackup#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#delete GoogleNetappBackup#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#update GoogleNetappBackup#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#create GoogleNetappBackup#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#delete GoogleNetappBackup#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#update GoogleNetappBackup#update}. |
 
 ---
 
@@ -1343,7 +1514,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#create GoogleNetappBackup#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#create GoogleNetappBackup#create}.
 
 ---
 
@@ -1355,7 +1526,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#delete GoogleNetappBackup#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#delete GoogleNetappBackup#delete}.
 
 ---
 
@@ -1367,11 +1538,333 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_backup#update GoogleNetappBackup#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_backup#update GoogleNetappBackup#update}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### GoogleNetappBackupOntapSourceOutputReference <a name="GoogleNetappBackupOntapSourceOutputReference" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.Initializer"></a>
+
+```typescript
+import { googleNetappBackup } from '@cdktn/provider-google-beta'
+
+new googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.resetSnapshotUuid">resetSnapshotUuid</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetSnapshotUuid` <a name="resetSnapshotUuid" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.resetSnapshotUuid"></a>
+
+```typescript
+public resetSnapshotUuid(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.snapshotUuidInput">snapshotUuidInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.storagePoolInput">storagePoolInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.volumeUuidInput">volumeUuidInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.snapshotUuid">snapshotUuid</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.storagePool">storagePool</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.volumeUuid">volumeUuid</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource">GoogleNetappBackupOntapSource</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `snapshotUuidInput`<sup>Optional</sup> <a name="snapshotUuidInput" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.snapshotUuidInput"></a>
+
+```typescript
+public readonly snapshotUuidInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `storagePoolInput`<sup>Optional</sup> <a name="storagePoolInput" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.storagePoolInput"></a>
+
+```typescript
+public readonly storagePoolInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `volumeUuidInput`<sup>Optional</sup> <a name="volumeUuidInput" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.volumeUuidInput"></a>
+
+```typescript
+public readonly volumeUuidInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `snapshotUuid`<sup>Required</sup> <a name="snapshotUuid" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.snapshotUuid"></a>
+
+```typescript
+public readonly snapshotUuid: string;
+```
+
+- *Type:* string
+
+---
+
+##### `storagePool`<sup>Required</sup> <a name="storagePool" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.storagePool"></a>
+
+```typescript
+public readonly storagePool: string;
+```
+
+- *Type:* string
+
+---
+
+##### `volumeUuid`<sup>Required</sup> <a name="volumeUuid" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.volumeUuid"></a>
+
+```typescript
+public readonly volumeUuid: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSourceOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: GoogleNetappBackupOntapSource;
+```
+
+- *Type:* <a href="#@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupOntapSource">GoogleNetappBackupOntapSource</a>
+
+---
+
 
 ### GoogleNetappBackupTimeoutsOutputReference <a name="GoogleNetappBackupTimeoutsOutputReference" id="@cdktn/provider-google-beta.googleNetappBackup.GoogleNetappBackupTimeoutsOutputReference"></a>
 

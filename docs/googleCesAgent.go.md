@@ -4,7 +4,7 @@
 
 ### GoogleCesAgent <a name="GoogleCesAgent" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent google_ces_agent}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent google_ces_agent}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.Initializer"></a>
 
@@ -93,6 +93,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.resetBeforeModelCallbacks">ResetBeforeModelCallbacks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.resetBeforeToolCallbacks">ResetBeforeToolCallbacks</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.resetChildAgents">ResetChildAgents</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.resetDeletionPolicy">ResetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.resetGuardrails">ResetGuardrails</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.resetId">ResetId</a></code> | *No description.* |
@@ -596,6 +597,12 @@ func ResetBeforeToolCallbacks()
 func ResetChildAgents()
 ```
 
+##### `ResetDeletionPolicy` <a name="ResetDeletionPolicy" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.resetDeletionPolicy"></a>
+
+```go
+func ResetDeletionPolicy()
+```
+
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.resetDescription"></a>
 
 ```go
@@ -765,7 +772,7 @@ The construct id used in the generated config for the GoogleCesAgent to import.
 
 The id of the existing GoogleCesAgent that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -820,6 +827,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.beforeModelCallbacksInput">BeforeModelCallbacksInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.beforeToolCallbacksInput">BeforeToolCallbacksInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.childAgentsInput">ChildAgentsInput</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.deletionPolicyInput">DeletionPolicyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.descriptionInput">DescriptionInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.displayNameInput">DisplayNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.guardrailsInput">GuardrailsInput</a></code> | <code>*[]*string</code> | *No description.* |
@@ -836,6 +844,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.agentId">AgentId</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.app">App</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.childAgents">ChildAgents</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.description">Description</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.displayName">DisplayName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.guardrails">Guardrails</a></code> | <code>*[]*string</code> | *No description.* |
@@ -1239,6 +1248,16 @@ func ChildAgentsInput() *[]*string
 
 ---
 
+##### `DeletionPolicyInput`<sup>Optional</sup> <a name="DeletionPolicyInput" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.deletionPolicyInput"></a>
+
+```go
+func DeletionPolicyInput() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `DescriptionInput`<sup>Optional</sup> <a name="DescriptionInput" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.descriptionInput"></a>
 
 ```go
@@ -1399,6 +1418,16 @@ func ChildAgents() *[]*string
 
 ---
 
+##### `DeletionPolicy`<sup>Required</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.deletionPolicy"></a>
+
+```go
+func DeletionPolicy() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `Description`<sup>Required</sup> <a name="Description" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgent.property.description"></a>
 
 ```go
@@ -1533,7 +1562,7 @@ PythonCode *string
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
 
 ---
 
@@ -1547,7 +1576,7 @@ Description *string
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
 
 ---
 
@@ -1561,7 +1590,7 @@ Disabled interface{}
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
 
 ---
 
@@ -1599,7 +1628,7 @@ PythonCode *string
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
 
 ---
 
@@ -1613,7 +1642,7 @@ Description *string
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
 
 ---
 
@@ -1627,7 +1656,7 @@ Disabled interface{}
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
 
 ---
 
@@ -1665,7 +1694,7 @@ PythonCode *string
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
 
 ---
 
@@ -1679,7 +1708,7 @@ Description *string
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
 
 ---
 
@@ -1693,7 +1722,7 @@ Disabled interface{}
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
 
 ---
 
@@ -1731,7 +1760,7 @@ PythonCode *string
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
 
 ---
 
@@ -1745,7 +1774,7 @@ Description *string
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
 
 ---
 
@@ -1759,7 +1788,7 @@ Disabled interface{}
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
 
 ---
 
@@ -1797,7 +1826,7 @@ PythonCode *string
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
 
 ---
 
@@ -1811,7 +1840,7 @@ Description *string
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
 
 ---
 
@@ -1825,7 +1854,7 @@ Disabled interface{}
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
 
 ---
 
@@ -1863,7 +1892,7 @@ PythonCode *string
 
 The python code to execute for the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
 
 ---
 
@@ -1877,7 +1906,7 @@ Description *string
 
 Human-readable description of the callback.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
 
 ---
 
@@ -1891,7 +1920,7 @@ Disabled interface{}
 
 Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
 
 ---
 
@@ -1921,6 +1950,7 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 	BeforeModelCallbacks: interface{},
 	BeforeToolCallbacks: interface{},
 	ChildAgents: *[]*string,
+	DeletionPolicy: *string,
 	Description: *string,
 	Guardrails: *[]*string,
 	Id: *string,
@@ -1957,13 +1987,14 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.beforeModelCallbacks">BeforeModelCallbacks</a></code> | <code>interface{}</code> | before_model_callbacks block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.beforeToolCallbacks">BeforeToolCallbacks</a></code> | <code>interface{}</code> | before_tool_callbacks block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.childAgents">ChildAgents</a></code> | <code>*[]*string</code> | List of child agents in the agent tree. Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.description">Description</a></code> | <code>*string</code> | Human-readable description of the agent. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.guardrails">Guardrails</a></code> | <code>*[]*string</code> | List of guardrails for the agent. Format: 'projects/{project}/locations/{location}/apps/{app}/guardrails/{guardrail}'. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#id GoogleCesAgent#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#id GoogleCesAgent#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.instruction">Instruction</a></code> | <code>*string</code> | Instructions for the LLM model to guide the agent's behavior. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.llmAgent">LlmAgent</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentLlmAgent">GoogleCesAgentLlmAgent</a></code> | llm_agent block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.modelSettings">ModelSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentModelSettings">GoogleCesAgentModelSettings</a></code> | model_settings block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#project GoogleCesAgent#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#project GoogleCesAgent#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.remoteDialogflowAgent">RemoteDialogflowAgent</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentRemoteDialogflowAgent">GoogleCesAgentRemoteDialogflowAgent</a></code> | remote_dialogflow_agent block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentTimeouts">GoogleCesAgentTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.tools">Tools</a></code> | <code>*[]*string</code> | List of available tools for the agent. Format: 'projects/{project}/locations/{location}/apps/{app}/tools/{tool}'. |
@@ -2051,7 +2082,7 @@ App *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#app GoogleCesAgent#app}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#app GoogleCesAgent#app}
 
 ---
 
@@ -2065,7 +2096,7 @@ DisplayName *string
 
 Display name of the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#display_name GoogleCesAgent#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#display_name GoogleCesAgent#display_name}
 
 ---
 
@@ -2079,7 +2110,7 @@ Location *string
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#location GoogleCesAgent#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#location GoogleCesAgent#location}
 
 ---
 
@@ -2093,7 +2124,7 @@ AfterAgentCallbacks interface{}
 
 after_agent_callbacks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#after_agent_callbacks GoogleCesAgent#after_agent_callbacks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#after_agent_callbacks GoogleCesAgent#after_agent_callbacks}
 
 ---
 
@@ -2107,7 +2138,7 @@ AfterModelCallbacks interface{}
 
 after_model_callbacks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#after_model_callbacks GoogleCesAgent#after_model_callbacks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#after_model_callbacks GoogleCesAgent#after_model_callbacks}
 
 ---
 
@@ -2121,7 +2152,7 @@ AfterToolCallbacks interface{}
 
 after_tool_callbacks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#after_tool_callbacks GoogleCesAgent#after_tool_callbacks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#after_tool_callbacks GoogleCesAgent#after_tool_callbacks}
 
 ---
 
@@ -2138,7 +2169,7 @@ The ID to use for the agent, which will become the final component of the agent'
 If not provided, a unique ID will be
 automatically assigned for the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#agent_id GoogleCesAgent#agent_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#agent_id GoogleCesAgent#agent_id}
 
 ---
 
@@ -2152,7 +2183,7 @@ BeforeAgentCallbacks interface{}
 
 before_agent_callbacks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#before_agent_callbacks GoogleCesAgent#before_agent_callbacks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#before_agent_callbacks GoogleCesAgent#before_agent_callbacks}
 
 ---
 
@@ -2166,7 +2197,7 @@ BeforeModelCallbacks interface{}
 
 before_model_callbacks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#before_model_callbacks GoogleCesAgent#before_model_callbacks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#before_model_callbacks GoogleCesAgent#before_model_callbacks}
 
 ---
 
@@ -2180,7 +2211,7 @@ BeforeToolCallbacks interface{}
 
 before_tool_callbacks block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#before_tool_callbacks GoogleCesAgent#before_tool_callbacks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#before_tool_callbacks GoogleCesAgent#before_tool_callbacks}
 
 ---
 
@@ -2194,7 +2225,28 @@ ChildAgents *[]*string
 
 List of child agents in the agent tree. Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#child_agents GoogleCesAgent#child_agents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#child_agents GoogleCesAgent#child_agents}
+
+---
+
+##### `DeletionPolicy`<sup>Optional</sup> <a name="DeletionPolicy" id="@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentConfig.property.deletionPolicy"></a>
+
+```go
+DeletionPolicy *string
+```
+
+- *Type:* *string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#deletion_policy GoogleCesAgent#deletion_policy}
 
 ---
 
@@ -2208,7 +2260,7 @@ Description *string
 
 Human-readable description of the agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
 
 ---
 
@@ -2222,7 +2274,7 @@ Guardrails *[]*string
 
 List of guardrails for the agent. Format: 'projects/{project}/locations/{location}/apps/{app}/guardrails/{guardrail}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#guardrails GoogleCesAgent#guardrails}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#guardrails GoogleCesAgent#guardrails}
 
 ---
 
@@ -2234,7 +2286,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#id GoogleCesAgent#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#id GoogleCesAgent#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2251,7 +2303,7 @@ Instruction *string
 
 Instructions for the LLM model to guide the agent's behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#instruction GoogleCesAgent#instruction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#instruction GoogleCesAgent#instruction}
 
 ---
 
@@ -2265,7 +2317,7 @@ LlmAgent GoogleCesAgentLlmAgent
 
 llm_agent block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#llm_agent GoogleCesAgent#llm_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#llm_agent GoogleCesAgent#llm_agent}
 
 ---
 
@@ -2279,7 +2331,7 @@ ModelSettings GoogleCesAgentModelSettings
 
 model_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#model_settings GoogleCesAgent#model_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#model_settings GoogleCesAgent#model_settings}
 
 ---
 
@@ -2291,7 +2343,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#project GoogleCesAgent#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#project GoogleCesAgent#project}.
 
 ---
 
@@ -2305,7 +2357,7 @@ RemoteDialogflowAgent GoogleCesAgentRemoteDialogflowAgent
 
 remote_dialogflow_agent block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#remote_dialogflow_agent GoogleCesAgent#remote_dialogflow_agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#remote_dialogflow_agent GoogleCesAgent#remote_dialogflow_agent}
 
 ---
 
@@ -2319,7 +2371,7 @@ Timeouts GoogleCesAgentTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#timeouts GoogleCesAgent#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#timeouts GoogleCesAgent#timeouts}
 
 ---
 
@@ -2333,7 +2385,7 @@ Tools *[]*string
 
 List of available tools for the agent. Format: 'projects/{project}/locations/{location}/apps/{app}/tools/{tool}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#tools GoogleCesAgent#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#tools GoogleCesAgent#tools}
 
 ---
 
@@ -2347,7 +2399,7 @@ Toolsets interface{}
 
 toolsets block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#toolsets GoogleCesAgent#toolsets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#toolsets GoogleCesAgent#toolsets}
 
 ---
 
@@ -2398,7 +2450,7 @@ The LLM model that the agent should use.
 
 If not set, the agent will inherit the model from its parent agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#model GoogleCesAgent#model}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#model GoogleCesAgent#model}
 
 ---
 
@@ -2417,7 +2469,7 @@ controls the randomness of the model's responses. Lower temperatures
 produce responses that are more predictable. Higher temperatures produce
 responses that are more creative.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#temperature GoogleCesAgent#temperature}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#temperature GoogleCesAgent#temperature}
 
 ---
 
@@ -2461,7 +2513,7 @@ Agent *string
 
 The [Dialogflow](https://cloud.google.com/dialogflow/cx/docs/concept/console-conversational-agents agent resource name. Format: 'projects/{project}/locations/{location}/agents/{agent}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#agent GoogleCesAgent#agent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#agent GoogleCesAgent#agent}
 
 ---
 
@@ -2475,7 +2527,7 @@ FlowId *string
 
 The flow ID of the flow in the Dialogflow agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#flow_id GoogleCesAgent#flow_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#flow_id GoogleCesAgent#flow_id}
 
 ---
 
@@ -2491,7 +2543,7 @@ The environment ID of the Dialogflow agent be used for the agent execution.
 
 If not specified, the draft environment will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#environment_id GoogleCesAgent#environment_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#environment_id GoogleCesAgent#environment_id}
 
 ---
 
@@ -2505,7 +2557,7 @@ InputVariableMapping *map[string]*string
 
 The mapping of the app variables names to the Dialogflow session parameters names to be sent to the Dialogflow agent as input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#input_variable_mapping GoogleCesAgent#input_variable_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#input_variable_mapping GoogleCesAgent#input_variable_mapping}
 
 ---
 
@@ -2519,7 +2571,7 @@ OutputVariableMapping *map[string]*string
 
 The mapping of the Dialogflow session parameters names to the app variables names to be sent back to the CES agent after the Dialogflow agent execution ends.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#output_variable_mapping GoogleCesAgent#output_variable_mapping}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#output_variable_mapping GoogleCesAgent#output_variable_mapping}
 
 ---
 
@@ -2535,7 +2587,7 @@ Indicates whether to respect the message-level interruption settings configured 
 
 * If false: all response messages from the Dialogflow agent follow the app-level barge-in settings. * If true: only response messages with ['allow_playback_interruption'](https://docs.cloud.google.com/dialogflow/cx/docs/reference/rpc/google.cloud.dialogflow.cx.v3#text) set to true will be interruptable, all other messages follow the app-level barge-in settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#respect_response_interruption_settings GoogleCesAgent#respect_response_interruption_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#respect_response_interruption_settings GoogleCesAgent#respect_response_interruption_settings}
 
 ---
 
@@ -2557,9 +2609,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlece
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#create GoogleCesAgent#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#delete GoogleCesAgent#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#update GoogleCesAgent#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#create GoogleCesAgent#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#delete GoogleCesAgent#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCesAgent.GoogleCesAgentTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#update GoogleCesAgent#update}. |
 
 ---
 
@@ -2571,7 +2623,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#create GoogleCesAgent#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#create GoogleCesAgent#create}.
 
 ---
 
@@ -2583,7 +2635,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#delete GoogleCesAgent#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#delete GoogleCesAgent#delete}.
 
 ---
 
@@ -2595,7 +2647,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#update GoogleCesAgent#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#update GoogleCesAgent#update}.
 
 ---
 
@@ -2631,7 +2683,7 @@ Toolset *string
 
 The resource name of the toolset. Format: 'projects/{project}/locations/{location}/apps/{app}/toolsets/{toolset}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#toolset GoogleCesAgent#toolset}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#toolset GoogleCesAgent#toolset}
 
 ---
 
@@ -2645,7 +2697,7 @@ ToolIds *[]*string
 
 The tools IDs to filter the toolset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_ces_agent#tool_ids GoogleCesAgent#tool_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_agent#tool_ids GoogleCesAgent#tool_ids}
 
 ---
 

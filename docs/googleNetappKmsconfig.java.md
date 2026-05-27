@@ -4,7 +4,7 @@
 
 ### GoogleNetappKmsconfig <a name="GoogleNetappKmsconfig" id="@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig google_netapp_kmsconfig}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig google_netapp_kmsconfig}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer"></a>
 
@@ -22,6 +22,7 @@ GoogleNetappKmsconfig.Builder.create(Construct scope, java.lang.String id)
     .cryptoKeyName(java.lang.String)
     .location(java.lang.String)
     .name(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -44,10 +45,11 @@ GoogleNetappKmsconfig.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.cryptoKeyName">cryptoKeyName</a></code> | <code>java.lang.String</code> | Resource name of the KMS key to use. Only regional keys are supported. Format: 'projects/{{project}}/locations/{{location}}/keyRings/{{key_ring}}/cryptoKeys/{{key}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | Name of the policy location. CMEK policies apply to the whole region. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the CMEK policy. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Description for the CMEK policy. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#id GoogleNetappKmsconfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#id GoogleNetappKmsconfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#project GoogleNetappKmsconfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#project GoogleNetappKmsconfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts">GoogleNetappKmsconfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Resource name of the KMS key to use. Only regional keys are supported. Format: 'projects/{{project}}/locations/{{location}}/keyRings/{{key_ring}}/cryptoKeys/{{key}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#crypto_key_name GoogleNetappKmsconfig#crypto_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#crypto_key_name GoogleNetappKmsconfig#crypto_key_name}
 
 ---
 
@@ -128,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the policy location. CMEK policies apply to the whole region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#location GoogleNetappKmsconfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#location GoogleNetappKmsconfig#location}
 
 ---
 
@@ -138,7 +140,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the CMEK policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#name GoogleNetappKmsconfig#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#name GoogleNetappKmsconfig#name}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#deletion_policy GoogleNetappKmsconfig#deletion_policy}
 
 ---
 
@@ -148,7 +167,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Description for the CMEK policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#description GoogleNetappKmsconfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#description GoogleNetappKmsconfig#description}
 
 ---
 
@@ -156,7 +175,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#id GoogleNetappKmsconfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#id GoogleNetappKmsconfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -172,7 +191,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#labels GoogleNetappKmsconfig#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#labels GoogleNetappKmsconfig#labels}
 
 ---
 
@@ -180,7 +199,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#project GoogleNetappKmsconfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#project GoogleNetappKmsconfig#project}.
 
 ---
 
@@ -190,7 +209,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#timeouts GoogleNetappKmsconfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#timeouts GoogleNetappKmsconfig#timeouts}
 
 ---
 
@@ -223,6 +242,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.resetLabels">resetLabels</a></code> | *No description.* |
@@ -554,6 +574,12 @@ public void putTimeouts(GoogleNetappKmsconfigTimeouts value)
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.resetDescription"></a>
 
 ```java
@@ -687,7 +713,7 @@ The construct id used in the generated config for the GoogleNetappKmsconfig to i
 
 The id of the existing GoogleNetappKmsconfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -723,6 +749,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.terraformLabels">terraformLabels</a></code> | <code>io.cdktn.cdktn.StringMap</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeoutsOutputReference">GoogleNetappKmsconfigTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.cryptoKeyNameInput">cryptoKeyNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.idInput">idInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.labelsInput">labelsInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -731,6 +758,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.projectInput">projectInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts">GoogleNetappKmsconfigTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.cryptoKeyName">cryptoKeyName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
@@ -942,6 +970,16 @@ public java.lang.String getCryptoKeyNameInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.descriptionInput"></a>
 
 ```java
@@ -1016,6 +1054,16 @@ public IResolvable|GoogleNetappKmsconfigTimeouts getTimeoutsInput();
 
 ```java
 public java.lang.String getCryptoKeyName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
 ```
 
 - *Type:* java.lang.String
@@ -1120,6 +1168,7 @@ GoogleNetappKmsconfigConfig.builder()
     .cryptoKeyName(java.lang.String)
     .location(java.lang.String)
     .name(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .labels(java.util.Map<java.lang.String, java.lang.String>)
@@ -1142,10 +1191,11 @@ GoogleNetappKmsconfigConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.cryptoKeyName">cryptoKeyName</a></code> | <code>java.lang.String</code> | Resource name of the KMS key to use. Only regional keys are supported. Format: 'projects/{{project}}/locations/{{location}}/keyRings/{{key_ring}}/cryptoKeys/{{key}}'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.location">location</a></code> | <code>java.lang.String</code> | Name of the policy location. CMEK policies apply to the whole region. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the CMEK policy. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.description">description</a></code> | <code>java.lang.String</code> | Description for the CMEK policy. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#id GoogleNetappKmsconfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#id GoogleNetappKmsconfig#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", "purpose": "testing" }'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#project GoogleNetappKmsconfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#project GoogleNetappKmsconfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts">GoogleNetappKmsconfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1230,7 +1280,7 @@ public java.lang.String getCryptoKeyName();
 
 Resource name of the KMS key to use. Only regional keys are supported. Format: 'projects/{{project}}/locations/{{location}}/keyRings/{{key_ring}}/cryptoKeys/{{key}}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#crypto_key_name GoogleNetappKmsconfig#crypto_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#crypto_key_name GoogleNetappKmsconfig#crypto_key_name}
 
 ---
 
@@ -1244,7 +1294,7 @@ public java.lang.String getLocation();
 
 Name of the policy location. CMEK policies apply to the whole region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#location GoogleNetappKmsconfig#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#location GoogleNetappKmsconfig#location}
 
 ---
 
@@ -1258,7 +1308,28 @@ public java.lang.String getName();
 
 Name of the CMEK policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#name GoogleNetappKmsconfig#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#name GoogleNetappKmsconfig#name}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#deletion_policy GoogleNetappKmsconfig#deletion_policy}
 
 ---
 
@@ -1272,7 +1343,7 @@ public java.lang.String getDescription();
 
 Description for the CMEK policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#description GoogleNetappKmsconfig#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#description GoogleNetappKmsconfig#description}
 
 ---
 
@@ -1284,7 +1355,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#id GoogleNetappKmsconfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#id GoogleNetappKmsconfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1304,7 +1375,7 @@ Labels as key value pairs. Example: '{ "owner": "Bob", "department": "finance", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#labels GoogleNetappKmsconfig#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#labels GoogleNetappKmsconfig#labels}
 
 ---
 
@@ -1316,7 +1387,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#project GoogleNetappKmsconfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#project GoogleNetappKmsconfig#project}.
 
 ---
 
@@ -1330,7 +1401,7 @@ public GoogleNetappKmsconfigTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#timeouts GoogleNetappKmsconfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#timeouts GoogleNetappKmsconfig#timeouts}
 
 ---
 
@@ -1352,9 +1423,9 @@ GoogleNetappKmsconfigTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#create GoogleNetappKmsconfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#delete GoogleNetappKmsconfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#update GoogleNetappKmsconfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#create GoogleNetappKmsconfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#delete GoogleNetappKmsconfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetappKmsconfig.GoogleNetappKmsconfigTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#update GoogleNetappKmsconfig#update}. |
 
 ---
 
@@ -1366,7 +1437,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#create GoogleNetappKmsconfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#create GoogleNetappKmsconfig#create}.
 
 ---
 
@@ -1378,7 +1449,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#delete GoogleNetappKmsconfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#delete GoogleNetappKmsconfig#delete}.
 
 ---
 
@@ -1390,7 +1461,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_netapp_kmsconfig#update GoogleNetappKmsconfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_netapp_kmsconfig#update GoogleNetappKmsconfig#update}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleDialogflowEntityType <a name="GoogleDialogflowEntityType" id="@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type google_dialogflow_entity_type}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type google_dialogflow_entity_type}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer"></a>
 
@@ -23,6 +23,7 @@ googleDialogflowEntityType.GoogleDialogflowEntityType(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   display_name: str,
   kind: str,
+  deletion_policy: str = None,
   enable_fuzzy_extraction: bool | IResolvable = None,
   entities: IResolvable | typing.List[GoogleDialogflowEntityTypeEntities] = None,
   id: str = None,
@@ -44,10 +45,11 @@ googleDialogflowEntityType.GoogleDialogflowEntityType(
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | The name of this entity type to be displayed on the console. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.kind">kind</a></code> | <code>str</code> | Indicates the kind of entity type. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.enableFuzzyExtraction">enable_fuzzy_extraction</a></code> | <code>bool \| cdktn.IResolvable</code> | Enables fuzzy entity extraction during classification. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.entities">entities</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeEntities">GoogleDialogflowEntityTypeEntities</a>]</code> | entities block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts">GoogleDialogflowEntityTypeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The name of this entity type to be displayed on the console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#display_name GoogleDialogflowEntityType#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#display_name GoogleDialogflowEntityType#display_name}
 
 ---
 
@@ -133,7 +135,24 @@ Indicates the kind of entity type.
   types can contain references to other entity types (with or without aliases).
 * KIND_REGEXP: Regexp entity types allow to specify regular expressions in entries values. Possible values: ["KIND_MAP", "KIND_LIST", "KIND_REGEXP"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#kind GoogleDialogflowEntityType#kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#kind GoogleDialogflowEntityType#kind}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#deletion_policy GoogleDialogflowEntityType#deletion_policy}
 
 ---
 
@@ -143,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Enables fuzzy entity extraction during classification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#enable_fuzzy_extraction GoogleDialogflowEntityType#enable_fuzzy_extraction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#enable_fuzzy_extraction GoogleDialogflowEntityType#enable_fuzzy_extraction}
 
 ---
 
@@ -153,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 entities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#entities GoogleDialogflowEntityType#entities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#entities GoogleDialogflowEntityType#entities}
 
 ---
 
@@ -161,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -172,7 +191,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}.
 
 ---
 
@@ -182,7 +201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#timeouts GoogleDialogflowEntityType#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#timeouts GoogleDialogflowEntityType#timeouts}
 
 ---
 
@@ -216,6 +235,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.putEntities">put_entities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.putTimeouts">put_timeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.resetEnableFuzzyExtraction">reset_enable_fuzzy_extraction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.resetEntities">reset_entities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.resetId">reset_id</a></code> | *No description.* |
@@ -600,7 +620,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#create GoogleDialogflowEntityType#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#create GoogleDialogflowEntityType#create}.
 
 ---
 
@@ -608,7 +628,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#delete GoogleDialogflowEntityType#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#delete GoogleDialogflowEntityType#delete}.
 
 ---
 
@@ -616,9 +636,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#update GoogleDialogflowEntityType#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#update GoogleDialogflowEntityType#update}.
 
 ---
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
+```
 
 ##### `reset_enable_fuzzy_extraction` <a name="reset_enable_fuzzy_extraction" id="@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.resetEnableFuzzyExtraction"></a>
 
@@ -764,7 +790,7 @@ The construct id used in the generated config for the GoogleDialogflowEntityType
 
 The id of the existing GoogleDialogflowEntityType that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -797,6 +823,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.entities">entities</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeEntitiesList">GoogleDialogflowEntityTypeEntitiesList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeoutsOutputReference">GoogleDialogflowEntityTypeTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.enableFuzzyExtractionInput">enable_fuzzy_extraction_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.entitiesInput">entities_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeEntities">GoogleDialogflowEntityTypeEntities</a>]</code> | *No description.* |
@@ -804,6 +831,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.kindInput">kind_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.projectInput">project_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts">GoogleDialogflowEntityTypeTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.enableFuzzyExtraction">enable_fuzzy_extraction</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -984,6 +1012,16 @@ timeouts: GoogleDialogflowEntityTypeTimeoutsOutputReference
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `display_name_input`<sup>Optional</sup> <a name="display_name_input" id="@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.displayNameInput"></a>
 
 ```python
@@ -1051,6 +1089,16 @@ timeouts_input: IResolvable | GoogleDialogflowEntityTypeTimeouts
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts">GoogleDialogflowEntityTypeTimeouts</a>
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityType.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
 
 ---
 
@@ -1141,6 +1189,7 @@ googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   display_name: str,
   kind: str,
+  deletion_policy: str = None,
   enable_fuzzy_extraction: bool | IResolvable = None,
   entities: IResolvable | typing.List[GoogleDialogflowEntityTypeEntities] = None,
   id: str = None,
@@ -1162,10 +1211,11 @@ googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.displayName">display_name</a></code> | <code>str</code> | The name of this entity type to be displayed on the console. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.kind">kind</a></code> | <code>str</code> | Indicates the kind of entity type. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.enableFuzzyExtraction">enable_fuzzy_extraction</a></code> | <code>bool \| cdktn.IResolvable</code> | Enables fuzzy entity extraction during classification. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.entities">entities</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeEntities">GoogleDialogflowEntityTypeEntities</a>]</code> | entities block. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts">GoogleDialogflowEntityTypeTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1250,7 +1300,7 @@ display_name: str
 
 The name of this entity type to be displayed on the console.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#display_name GoogleDialogflowEntityType#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#display_name GoogleDialogflowEntityType#display_name}
 
 ---
 
@@ -1269,7 +1319,28 @@ Indicates the kind of entity type.
   types can contain references to other entity types (with or without aliases).
 * KIND_REGEXP: Regexp entity types allow to specify regular expressions in entries values. Possible values: ["KIND_MAP", "KIND_LIST", "KIND_REGEXP"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#kind GoogleDialogflowEntityType#kind}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#kind GoogleDialogflowEntityType#kind}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#deletion_policy GoogleDialogflowEntityType#deletion_policy}
 
 ---
 
@@ -1283,7 +1354,7 @@ enable_fuzzy_extraction: bool | IResolvable
 
 Enables fuzzy entity extraction during classification.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#enable_fuzzy_extraction GoogleDialogflowEntityType#enable_fuzzy_extraction}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#enable_fuzzy_extraction GoogleDialogflowEntityType#enable_fuzzy_extraction}
 
 ---
 
@@ -1297,7 +1368,7 @@ entities: IResolvable | typing.List[GoogleDialogflowEntityTypeEntities]
 
 entities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#entities GoogleDialogflowEntityType#entities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#entities GoogleDialogflowEntityType#entities}
 
 ---
 
@@ -1309,7 +1380,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1324,7 +1395,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}.
 
 ---
 
@@ -1338,7 +1409,7 @@ timeouts: GoogleDialogflowEntityTypeTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#timeouts GoogleDialogflowEntityType#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#timeouts GoogleDialogflowEntityType#timeouts}
 
 ---
 
@@ -1380,7 +1451,7 @@ For KIND_LIST entity types:
 
 * This collection must contain exactly one synonym equal to value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#synonyms GoogleDialogflowEntityType#synonyms}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#synonyms GoogleDialogflowEntityType#synonyms}
 
 ---
 
@@ -1402,7 +1473,7 @@ For KIND_MAP entity types:
   For KIND_LIST entity types:
 * A string that can contain references to other entity types (with or without aliases).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#value GoogleDialogflowEntityType#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#value GoogleDialogflowEntityType#value}
 
 ---
 
@@ -1424,9 +1495,9 @@ googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#create GoogleDialogflowEntityType#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#delete GoogleDialogflowEntityType#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#update GoogleDialogflowEntityType#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#create GoogleDialogflowEntityType#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#delete GoogleDialogflowEntityType#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowEntityType.GoogleDialogflowEntityTypeTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#update GoogleDialogflowEntityType#update}. |
 
 ---
 
@@ -1438,7 +1509,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#create GoogleDialogflowEntityType#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#create GoogleDialogflowEntityType#create}.
 
 ---
 
@@ -1450,7 +1521,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#delete GoogleDialogflowEntityType#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#delete GoogleDialogflowEntityType#delete}.
 
 ---
 
@@ -1462,7 +1533,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_entity_type#update GoogleDialogflowEntityType#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_entity_type#update GoogleDialogflowEntityType#update}.
 
 ---
 

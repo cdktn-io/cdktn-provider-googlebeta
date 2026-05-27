@@ -4,7 +4,7 @@
 
 ### GoogleChronicleWatchlist <a name="GoogleChronicleWatchlist" id="@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist google_chronicle_watchlist}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist google_chronicle_watchlist}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer"></a>
 
@@ -23,6 +23,7 @@ GoogleChronicleWatchlist.Builder.create(Construct scope, java.lang.String id)
     .entityPopulationMechanism(GoogleChronicleWatchlistEntityPopulationMechanism)
     .instance(java.lang.String)
     .location(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .multiplyingFactor(java.lang.Number)
@@ -48,10 +49,11 @@ GoogleChronicleWatchlist.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.entityPopulationMechanism">entityPopulationMechanism</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanism">GoogleChronicleWatchlistEntityPopulationMechanism</a></code> | entity_population_mechanism block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.instance">instance</a></code> | <code>java.lang.String</code> | The unique identifier for the Chronicle instance, which is the same as the customer ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location of the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Optional. Description of the watchlist. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#id GoogleChronicleWatchlist#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#id GoogleChronicleWatchlist#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.multiplyingFactor">multiplyingFactor</a></code> | <code>java.lang.Number</code> | Optional. Weight applied to the risk score for entities in this watchlist. The default is 1.0 if it is not specified. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#project GoogleChronicleWatchlist#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#project GoogleChronicleWatchlist#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts">GoogleChronicleWatchlistTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.watchlistId">watchlistId</a></code> | <code>java.lang.String</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.watchlistUserPreferences">watchlistUserPreferences</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistWatchlistUserPreferences">GoogleChronicleWatchlistWatchlistUserPreferences</a></code> | watchlist_user_preferences block. |
@@ -124,7 +126,7 @@ Must be unique amongst siblings in the same scope
 
 Required. Display name of the watchlist. Note that it must be at least one character and less than 63 characters (https://google.aip.dev/148).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#display_name GoogleChronicleWatchlist#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#display_name GoogleChronicleWatchlist#display_name}
 
 ---
 
@@ -134,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 entity_population_mechanism block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#entity_population_mechanism GoogleChronicleWatchlist#entity_population_mechanism}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#entity_population_mechanism GoogleChronicleWatchlist#entity_population_mechanism}
 
 ---
 
@@ -144,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The unique identifier for the Chronicle instance, which is the same as the customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#instance GoogleChronicleWatchlist#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#instance GoogleChronicleWatchlist#instance}
 
 ---
 
@@ -156,7 +158,24 @@ The location of the resource.
 
 This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#location GoogleChronicleWatchlist#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#location GoogleChronicleWatchlist#location}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#deletion_policy GoogleChronicleWatchlist#deletion_policy}
 
 ---
 
@@ -166,7 +185,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. Description of the watchlist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#description GoogleChronicleWatchlist#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#description GoogleChronicleWatchlist#description}
 
 ---
 
@@ -174,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#id GoogleChronicleWatchlist#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#id GoogleChronicleWatchlist#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -187,7 +206,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 Optional. Weight applied to the risk score for entities in this watchlist. The default is 1.0 if it is not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#multiplying_factor GoogleChronicleWatchlist#multiplying_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#multiplying_factor GoogleChronicleWatchlist#multiplying_factor}
 
 ---
 
@@ -195,7 +214,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#project GoogleChronicleWatchlist#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#project GoogleChronicleWatchlist#project}.
 
 ---
 
@@ -205,7 +224,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#timeouts GoogleChronicleWatchlist#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#timeouts GoogleChronicleWatchlist#timeouts}
 
 ---
 
@@ -220,7 +239,7 @@ which will become the final component of the watchlist's resource name.
 This value should be 4-63 characters, and valid characters
 are /a-z-/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#watchlist_id GoogleChronicleWatchlist#watchlist_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#watchlist_id GoogleChronicleWatchlist#watchlist_id}
 
 ---
 
@@ -230,7 +249,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 watchlist_user_preferences block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#watchlist_user_preferences GoogleChronicleWatchlist#watchlist_user_preferences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#watchlist_user_preferences GoogleChronicleWatchlist#watchlist_user_preferences}
 
 ---
 
@@ -265,6 +284,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.putEntityPopulationMechanism">putEntityPopulationMechanism</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.putWatchlistUserPreferences">putWatchlistUserPreferences</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.resetMultiplyingFactor">resetMultiplyingFactor</a></code> | *No description.* |
@@ -622,6 +642,12 @@ public void putWatchlistUserPreferences(GoogleChronicleWatchlistWatchlistUserPre
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.resetDescription"></a>
 
 ```java
@@ -767,7 +793,7 @@ The construct id used in the generated config for the GoogleChronicleWatchlist t
 
 The id of the existing GoogleChronicleWatchlist that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -804,6 +830,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeoutsOutputReference">GoogleChronicleWatchlistTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.updateTime">updateTime</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.watchlistUserPreferences">watchlistUserPreferences</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistWatchlistUserPreferencesOutputReference">GoogleChronicleWatchlistWatchlistUserPreferencesOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.displayNameInput">displayNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.entityPopulationMechanismInput">entityPopulationMechanismInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanism">GoogleChronicleWatchlistEntityPopulationMechanism</a></code> | *No description.* |
@@ -815,6 +842,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts">GoogleChronicleWatchlistTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.watchlistIdInput">watchlistIdInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.watchlistUserPreferencesInput">watchlistUserPreferencesInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistWatchlistUserPreferences">GoogleChronicleWatchlistWatchlistUserPreferences</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.displayName">displayName</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1038,6 +1066,16 @@ public GoogleChronicleWatchlistWatchlistUserPreferencesOutputReference getWatchl
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.descriptionInput"></a>
 
 ```java
@@ -1145,6 +1183,16 @@ public GoogleChronicleWatchlistWatchlistUserPreferences getWatchlistUserPreferen
 ```
 
 - *Type:* <a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistWatchlistUserPreferences">GoogleChronicleWatchlistWatchlistUserPreferences</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlist.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -1267,6 +1315,7 @@ GoogleChronicleWatchlistConfig.builder()
     .entityPopulationMechanism(GoogleChronicleWatchlistEntityPopulationMechanism)
     .instance(java.lang.String)
     .location(java.lang.String)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .id(java.lang.String)
 //  .multiplyingFactor(java.lang.Number)
@@ -1292,10 +1341,11 @@ GoogleChronicleWatchlistConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.entityPopulationMechanism">entityPopulationMechanism</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistEntityPopulationMechanism">GoogleChronicleWatchlistEntityPopulationMechanism</a></code> | entity_population_mechanism block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.instance">instance</a></code> | <code>java.lang.String</code> | The unique identifier for the Chronicle instance, which is the same as the customer ID. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location of the resource. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.description">description</a></code> | <code>java.lang.String</code> | Optional. Description of the watchlist. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#id GoogleChronicleWatchlist#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#id GoogleChronicleWatchlist#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.multiplyingFactor">multiplyingFactor</a></code> | <code>java.lang.Number</code> | Optional. Weight applied to the risk score for entities in this watchlist. The default is 1.0 if it is not specified. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#project GoogleChronicleWatchlist#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#project GoogleChronicleWatchlist#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts">GoogleChronicleWatchlistTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.watchlistId">watchlistId</a></code> | <code>java.lang.String</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.watchlistUserPreferences">watchlistUserPreferences</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistWatchlistUserPreferences">GoogleChronicleWatchlistWatchlistUserPreferences</a></code> | watchlist_user_preferences block. |
@@ -1382,7 +1432,7 @@ public java.lang.String getDisplayName();
 
 Required. Display name of the watchlist. Note that it must be at least one character and less than 63 characters (https://google.aip.dev/148).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#display_name GoogleChronicleWatchlist#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#display_name GoogleChronicleWatchlist#display_name}
 
 ---
 
@@ -1396,7 +1446,7 @@ public GoogleChronicleWatchlistEntityPopulationMechanism getEntityPopulationMech
 
 entity_population_mechanism block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#entity_population_mechanism GoogleChronicleWatchlist#entity_population_mechanism}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#entity_population_mechanism GoogleChronicleWatchlist#entity_population_mechanism}
 
 ---
 
@@ -1410,7 +1460,7 @@ public java.lang.String getInstance();
 
 The unique identifier for the Chronicle instance, which is the same as the customer ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#instance GoogleChronicleWatchlist#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#instance GoogleChronicleWatchlist#instance}
 
 ---
 
@@ -1426,7 +1476,28 @@ The location of the resource.
 
 This is the geographical region where the Chronicle instance resides, such as "us" or "europe-west2".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#location GoogleChronicleWatchlist#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#location GoogleChronicleWatchlist#location}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#deletion_policy GoogleChronicleWatchlist#deletion_policy}
 
 ---
 
@@ -1440,7 +1511,7 @@ public java.lang.String getDescription();
 
 Optional. Description of the watchlist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#description GoogleChronicleWatchlist#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#description GoogleChronicleWatchlist#description}
 
 ---
 
@@ -1452,7 +1523,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#id GoogleChronicleWatchlist#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#id GoogleChronicleWatchlist#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1469,7 +1540,7 @@ public java.lang.Number getMultiplyingFactor();
 
 Optional. Weight applied to the risk score for entities in this watchlist. The default is 1.0 if it is not specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#multiplying_factor GoogleChronicleWatchlist#multiplying_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#multiplying_factor GoogleChronicleWatchlist#multiplying_factor}
 
 ---
 
@@ -1481,7 +1552,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#project GoogleChronicleWatchlist#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#project GoogleChronicleWatchlist#project}.
 
 ---
 
@@ -1495,7 +1566,7 @@ public GoogleChronicleWatchlistTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#timeouts GoogleChronicleWatchlist#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#timeouts GoogleChronicleWatchlist#timeouts}
 
 ---
 
@@ -1514,7 +1585,7 @@ which will become the final component of the watchlist's resource name.
 This value should be 4-63 characters, and valid characters
 are /a-z-/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#watchlist_id GoogleChronicleWatchlist#watchlist_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#watchlist_id GoogleChronicleWatchlist#watchlist_id}
 
 ---
 
@@ -1528,7 +1599,7 @@ public GoogleChronicleWatchlistWatchlistUserPreferences getWatchlistUserPreferen
 
 watchlist_user_preferences block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#watchlist_user_preferences GoogleChronicleWatchlist#watchlist_user_preferences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#watchlist_user_preferences GoogleChronicleWatchlist#watchlist_user_preferences}
 
 ---
 
@@ -1574,7 +1645,7 @@ public GoogleChronicleWatchlistEntityPopulationMechanismManual getManual();
 
 manual block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#manual GoogleChronicleWatchlist#manual}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#manual GoogleChronicleWatchlist#manual}
 
 ---
 
@@ -1608,9 +1679,9 @@ GoogleChronicleWatchlistTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#create GoogleChronicleWatchlist#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#delete GoogleChronicleWatchlist#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#update GoogleChronicleWatchlist#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#create GoogleChronicleWatchlist#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#delete GoogleChronicleWatchlist#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleWatchlist.GoogleChronicleWatchlistTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#update GoogleChronicleWatchlist#update}. |
 
 ---
 
@@ -1622,7 +1693,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#create GoogleChronicleWatchlist#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#create GoogleChronicleWatchlist#create}.
 
 ---
 
@@ -1634,7 +1705,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#delete GoogleChronicleWatchlist#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#delete GoogleChronicleWatchlist#delete}.
 
 ---
 
@@ -1646,7 +1717,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#update GoogleChronicleWatchlist#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#update GoogleChronicleWatchlist#update}.
 
 ---
 
@@ -1680,7 +1751,7 @@ public java.lang.Boolean|IResolvable getPinned();
 
 Optional. Whether the watchlist is pinned on the dashboard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_chronicle_watchlist#pinned GoogleChronicleWatchlist#pinned}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_chronicle_watchlist#pinned GoogleChronicleWatchlist#pinned}
 
 ---
 

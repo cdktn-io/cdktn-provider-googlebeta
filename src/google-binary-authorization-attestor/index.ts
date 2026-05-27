@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,14 +13,26 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleBinaryAuthorizationAttestorConfig extends cdktn.TerraformMetaArguments {
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#deletion_policy GoogleBinaryAuthorizationAttestor#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * A descriptive comment. This field may be updated. The field may be
   * displayed in chooser dialogs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#description GoogleBinaryAuthorizationAttestor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#description GoogleBinaryAuthorizationAttestor#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#id GoogleBinaryAuthorizationAttestor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#id GoogleBinaryAuthorizationAttestor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,23 +41,23 @@ export interface GoogleBinaryAuthorizationAttestorConfig extends cdktn.Terraform
   /**
   * The resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#name GoogleBinaryAuthorizationAttestor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#name GoogleBinaryAuthorizationAttestor#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#project GoogleBinaryAuthorizationAttestor#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#project GoogleBinaryAuthorizationAttestor#project}
   */
   readonly project?: string;
   /**
   * attestation_authority_note block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#attestation_authority_note GoogleBinaryAuthorizationAttestor#attestation_authority_note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#attestation_authority_note GoogleBinaryAuthorizationAttestor#attestation_authority_note}
   */
   readonly attestationAuthorityNote: GoogleBinaryAuthorizationAttestorAttestationAuthorityNote;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#timeouts GoogleBinaryAuthorizationAttestor#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#timeouts GoogleBinaryAuthorizationAttestor#timeouts}
   */
   readonly timeouts?: GoogleBinaryAuthorizationAttestorTimeouts;
 }
@@ -54,7 +66,7 @@ export interface GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublic
   * A PEM-encoded public key, as described in
   * 'https://tools.ietf.org/html/rfc7468#section-13'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#public_key_pem GoogleBinaryAuthorizationAttestor#public_key_pem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#public_key_pem GoogleBinaryAuthorizationAttestor#public_key_pem}
   */
   readonly publicKeyPem?: string;
   /**
@@ -64,7 +76,7 @@ export interface GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublic
   * publicKeyPem (i.e. this algorithm must match that of the
   * public key).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#signature_algorithm GoogleBinaryAuthorizationAttestor#signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#signature_algorithm GoogleBinaryAuthorizationAttestor#signature_algorithm}
   */
   readonly signatureAlgorithm?: string;
 }
@@ -187,13 +199,13 @@ export interface GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublic
   * upper-case hex. If id is provided by the caller, it will
   * be overwritten by the API-calculated ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#ascii_armored_pgp_public_key GoogleBinaryAuthorizationAttestor#ascii_armored_pgp_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#ascii_armored_pgp_public_key GoogleBinaryAuthorizationAttestor#ascii_armored_pgp_public_key}
   */
   readonly asciiArmoredPgpPublicKey?: string;
   /**
   * A descriptive comment. This field may be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#comment GoogleBinaryAuthorizationAttestor#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#comment GoogleBinaryAuthorizationAttestor#comment}
   */
   readonly comment?: string;
   /**
@@ -204,7 +216,7 @@ export interface GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublic
   * be imposed based on which public key type is encapsulated.
   * See the documentation on publicKey cases below for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#id GoogleBinaryAuthorizationAttestor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#id GoogleBinaryAuthorizationAttestor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -213,7 +225,7 @@ export interface GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublic
   /**
   * pkix_public_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#pkix_public_key GoogleBinaryAuthorizationAttestor#pkix_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#pkix_public_key GoogleBinaryAuthorizationAttestor#pkix_public_key}
   */
   readonly pkixPublicKey?: GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeysPkixPublicKey;
 }
@@ -404,7 +416,7 @@ export class GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeys
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -424,7 +436,7 @@ export interface GoogleBinaryAuthorizationAttestorAttestationAuthorityNote {
   * ATTESTATION_AUTHORITY Occurrence that names a container image
   * and that links to this Note.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#note_reference GoogleBinaryAuthorizationAttestor#note_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#note_reference GoogleBinaryAuthorizationAttestor#note_reference}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -432,7 +444,7 @@ export interface GoogleBinaryAuthorizationAttestorAttestationAuthorityNote {
   /**
   * public_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#public_keys GoogleBinaryAuthorizationAttestor#public_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#public_keys GoogleBinaryAuthorizationAttestor#public_keys}
   */
   readonly publicKeys?: GoogleBinaryAuthorizationAttestorAttestationAuthorityNotePublicKeys[] | cdktn.IResolvable;
 }
@@ -547,15 +559,15 @@ export class GoogleBinaryAuthorizationAttestorAttestationAuthorityNoteOutputRefe
 }
 export interface GoogleBinaryAuthorizationAttestorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#create GoogleBinaryAuthorizationAttestor#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#create GoogleBinaryAuthorizationAttestor#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#delete GoogleBinaryAuthorizationAttestor#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#delete GoogleBinaryAuthorizationAttestor#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#update GoogleBinaryAuthorizationAttestor#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#update GoogleBinaryAuthorizationAttestor#update}
   */
   readonly update?: string;
 }
@@ -707,7 +719,7 @@ export class GoogleBinaryAuthorizationAttestorTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor google_binary_authorization_attestor}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor google_binary_authorization_attestor}
 */
 export class GoogleBinaryAuthorizationAttestor extends cdktn.TerraformResource {
 
@@ -723,7 +735,7 @@ export class GoogleBinaryAuthorizationAttestor extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleBinaryAuthorizationAttestor resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleBinaryAuthorizationAttestor to import
-  * @param importFromId The id of the existing GoogleBinaryAuthorizationAttestor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleBinaryAuthorizationAttestor that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleBinaryAuthorizationAttestor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -735,7 +747,7 @@ export class GoogleBinaryAuthorizationAttestor extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_binary_authorization_attestor google_binary_authorization_attestor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_binary_authorization_attestor google_binary_authorization_attestor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -746,7 +758,7 @@ export class GoogleBinaryAuthorizationAttestor extends cdktn.TerraformResource {
       terraformResourceType: 'google_binary_authorization_attestor',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -757,6 +769,7 @@ export class GoogleBinaryAuthorizationAttestor extends cdktn.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._id = config.id;
     this._name = config.name;
@@ -768,6 +781,22 @@ export class GoogleBinaryAuthorizationAttestor extends cdktn.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
+  }
 
   // description - computed: false, optional: true, required: false
   private _description?: string; 
@@ -865,6 +894,7 @@ export class GoogleBinaryAuthorizationAttestor extends cdktn.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       id: cdktn.stringToTerraform(this._id),
       name: cdktn.stringToTerraform(this._name),
@@ -876,6 +906,12 @@ export class GoogleBinaryAuthorizationAttestor extends cdktn.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       description: {
         value: cdktn.stringToHclTerraform(this._description),
         isBlock: false,

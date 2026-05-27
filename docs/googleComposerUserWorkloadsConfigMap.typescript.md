@@ -4,7 +4,7 @@
 
 ### GoogleComposerUserWorkloadsConfigMap <a name="GoogleComposerUserWorkloadsConfigMap" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map google_composer_user_workloads_config_map}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map google_composer_user_workloads_config_map}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.Initializer"></a>
 
@@ -76,6 +76,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.putTimeouts">putTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.resetData">resetData</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.resetRegion">resetRegion</a></code> | *No description.* |
@@ -410,6 +411,12 @@ public putTimeouts(value: GoogleComposerUserWorkloadsConfigMapTimeouts): void
 public resetData(): void
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.resetId"></a>
 
 ```typescript
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleComposerUserWorkload
 
 The id of the existing GoogleComposerUserWorkloadsConfigMap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -569,6 +576,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeoutsOutputReference">GoogleComposerUserWorkloadsConfigMapTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.dataInput">dataInput</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.environmentInput">environmentInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
@@ -576,6 +584,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.regionInput">regionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts">GoogleComposerUserWorkloadsConfigMapTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.data">data</a></code> | <code>{[ key: string ]: string}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.environment">environment</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.name">name</a></code> | <code>string</code> | *No description.* |
@@ -746,6 +755,16 @@ public readonly dataInput: {[ key: string ]: string};
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `environmentInput`<sup>Optional</sup> <a name="environmentInput" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.environmentInput"></a>
 
 ```typescript
@@ -813,6 +832,16 @@ public readonly data: {[ key: string ]: string};
 ```
 
 - *Type:* {[ key: string ]: string}
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMap.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -910,8 +939,9 @@ const googleComposerUserWorkloadsConfigMapConfig: googleComposerUserWorkloadsCon
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.environment">environment</a></code> | <code>string</code> | Environment where the Kubernetes ConfigMap will be stored and used. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.name">name</a></code> | <code>string</code> | Name of the Kubernetes ConfigMap. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.data">data</a></code> | <code>{[ key: string ]: string}</code> | The "data" field of Kubernetes ConfigMap, organized in key-value pairs. For details see: https://kubernetes.io/docs/concepts/configuration/configmap/. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#id GoogleComposerUserWorkloadsConfigMap#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#project GoogleComposerUserWorkloadsConfigMap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#id GoogleComposerUserWorkloadsConfigMap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#project GoogleComposerUserWorkloadsConfigMap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.region">region</a></code> | <code>string</code> | The location or Compute Engine region for the environment. |
 | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts">GoogleComposerUserWorkloadsConfigMapTimeouts</a></code> | timeouts block. |
 
@@ -997,7 +1027,7 @@ public readonly environment: string;
 
 Environment where the Kubernetes ConfigMap will be stored and used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#environment GoogleComposerUserWorkloadsConfigMap#environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#environment GoogleComposerUserWorkloadsConfigMap#environment}
 
 ---
 
@@ -1011,7 +1041,7 @@ public readonly name: string;
 
 Name of the Kubernetes ConfigMap.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#name GoogleComposerUserWorkloadsConfigMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#name GoogleComposerUserWorkloadsConfigMap#name}
 
 ---
 
@@ -1025,7 +1055,29 @@ public readonly data: {[ key: string ]: string};
 
 The "data" field of Kubernetes ConfigMap, organized in key-value pairs. For details see: https://kubernetes.io/docs/concepts/configuration/configmap/.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#data GoogleComposerUserWorkloadsConfigMap#data}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#data GoogleComposerUserWorkloadsConfigMap#data}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#deletion_policy GoogleComposerUserWorkloadsConfigMap#deletion_policy}
 
 ---
 
@@ -1037,7 +1089,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#id GoogleComposerUserWorkloadsConfigMap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#id GoogleComposerUserWorkloadsConfigMap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1052,7 +1104,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#project GoogleComposerUserWorkloadsConfigMap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#project GoogleComposerUserWorkloadsConfigMap#project}.
 
 ---
 
@@ -1066,7 +1118,7 @@ public readonly region: string;
 
 The location or Compute Engine region for the environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#region GoogleComposerUserWorkloadsConfigMap#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#region GoogleComposerUserWorkloadsConfigMap#region}
 
 ---
 
@@ -1080,7 +1132,7 @@ public readonly timeouts: GoogleComposerUserWorkloadsConfigMapTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#timeouts GoogleComposerUserWorkloadsConfigMap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#timeouts GoogleComposerUserWorkloadsConfigMap#timeouts}
 
 ---
 
@@ -1098,9 +1150,9 @@ const googleComposerUserWorkloadsConfigMapTimeouts: googleComposerUserWorkloadsC
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#create GoogleComposerUserWorkloadsConfigMap#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#delete GoogleComposerUserWorkloadsConfigMap#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#update GoogleComposerUserWorkloadsConfigMap#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#create GoogleComposerUserWorkloadsConfigMap#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#delete GoogleComposerUserWorkloadsConfigMap#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComposerUserWorkloadsConfigMap.GoogleComposerUserWorkloadsConfigMapTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#update GoogleComposerUserWorkloadsConfigMap#update}. |
 
 ---
 
@@ -1112,7 +1164,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#create GoogleComposerUserWorkloadsConfigMap#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#create GoogleComposerUserWorkloadsConfigMap#create}.
 
 ---
 
@@ -1124,7 +1176,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#delete GoogleComposerUserWorkloadsConfigMap#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#delete GoogleComposerUserWorkloadsConfigMap#delete}.
 
 ---
 
@@ -1136,7 +1188,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_composer_user_workloads_config_map#update GoogleComposerUserWorkloadsConfigMap#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_composer_user_workloads_config_map#update GoogleComposerUserWorkloadsConfigMap#update}.
 
 ---
 

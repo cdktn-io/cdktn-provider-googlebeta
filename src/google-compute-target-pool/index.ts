@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,29 +15,41 @@ export interface GoogleComputeTargetPoolConfig extends cdktn.TerraformMetaArgume
   /**
   * URL to the backup target pool. Must also set failover_ratio.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#backup_pool GoogleComputeTargetPool#backup_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#backup_pool GoogleComputeTargetPool#backup_pool}
   */
   readonly backupPool?: string;
   /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#deletion_policy GoogleComputeTargetPool#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
+  /**
   * Textual description field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#description GoogleComputeTargetPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#description GoogleComputeTargetPool#description}
   */
   readonly description?: string;
   /**
   * Ratio (0 to 1) of failed nodes before using the backup pool (which must also be set).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#failover_ratio GoogleComputeTargetPool#failover_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#failover_ratio GoogleComputeTargetPool#failover_ratio}
   */
   readonly failoverRatio?: number;
   /**
   * List of zero or one health check name or self_link. Only legacy google_compute_http_health_check is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#health_checks GoogleComputeTargetPool#health_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#health_checks GoogleComputeTargetPool#health_checks}
   */
   readonly healthChecks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#id GoogleComputeTargetPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,57 +58,57 @@ export interface GoogleComputeTargetPoolConfig extends cdktn.TerraformMetaArgume
   /**
   * List of instances in the pool. They can be given as URLs, or in the form of "zone/name". Note that the instances need not exist at the time of target pool creation, so there is no need to use the Terraform interpolators to create a dependency on the instances from the target pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#instances GoogleComputeTargetPool#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#instances GoogleComputeTargetPool#instances}
   */
   readonly instances?: string[];
   /**
   * A unique name for the resource, required by GCE. Changing this forces a new resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#name GoogleComputeTargetPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#name GoogleComputeTargetPool#name}
   */
   readonly name: string;
   /**
   * The ID of the project in which the resource belongs. If it is not provided, the provider project is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#project GoogleComputeTargetPool#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#project GoogleComputeTargetPool#project}
   */
   readonly project?: string;
   /**
   * Where the target pool resides. Defaults to project region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#region GoogleComputeTargetPool#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#region GoogleComputeTargetPool#region}
   */
   readonly region?: string;
   /**
   * The resource URL for the security policy associated with this target pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#security_policy GoogleComputeTargetPool#security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#security_policy GoogleComputeTargetPool#security_policy}
   */
   readonly securityPolicy?: string;
   /**
   * How to distribute load. Options are "NONE" (no affinity). "CLIENT_IP" (hash of the source/dest addresses / ports), and "CLIENT_IP_PROTO" also includes the protocol (default "NONE").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#session_affinity GoogleComputeTargetPool#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#session_affinity GoogleComputeTargetPool#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#timeouts GoogleComputeTargetPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#timeouts GoogleComputeTargetPool#timeouts}
   */
   readonly timeouts?: GoogleComputeTargetPoolTimeouts;
 }
 export interface GoogleComputeTargetPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#create GoogleComputeTargetPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#create GoogleComputeTargetPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#delete GoogleComputeTargetPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#delete GoogleComputeTargetPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#update GoogleComputeTargetPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#update GoogleComputeTargetPool#update}
   */
   readonly update?: string;
 }
@@ -248,7 +260,7 @@ export class GoogleComputeTargetPoolTimeoutsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool google_compute_target_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool google_compute_target_pool}
 */
 export class GoogleComputeTargetPool extends cdktn.TerraformResource {
 
@@ -264,7 +276,7 @@ export class GoogleComputeTargetPool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleComputeTargetPool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeTargetPool to import
-  * @param importFromId The id of the existing GoogleComputeTargetPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeTargetPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeTargetPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -276,7 +288,7 @@ export class GoogleComputeTargetPool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_target_pool google_compute_target_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_target_pool google_compute_target_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,7 +299,7 @@ export class GoogleComputeTargetPool extends cdktn.TerraformResource {
       terraformResourceType: 'google_compute_target_pool',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -299,6 +311,7 @@ export class GoogleComputeTargetPool extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._backupPool = config.backupPool;
+    this._deletionPolicy = config.deletionPolicy;
     this._description = config.description;
     this._failoverRatio = config.failoverRatio;
     this._healthChecks = config.healthChecks;
@@ -330,6 +343,22 @@ export class GoogleComputeTargetPool extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get backupPoolInput() {
     return this._backupPool;
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // description - computed: false, optional: true, required: false
@@ -517,6 +546,7 @@ export class GoogleComputeTargetPool extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       backup_pool: cdktn.stringToTerraform(this._backupPool),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       description: cdktn.stringToTerraform(this._description),
       failover_ratio: cdktn.numberToTerraform(this._failoverRatio),
       health_checks: cdktn.listMapper(cdktn.stringToTerraform, false)(this._healthChecks),
@@ -535,6 +565,12 @@ export class GoogleComputeTargetPool extends cdktn.TerraformResource {
     const attrs = {
       backup_pool: {
         value: cdktn.stringToHclTerraform(this._backupPool),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

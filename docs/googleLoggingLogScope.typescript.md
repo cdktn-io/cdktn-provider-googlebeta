@@ -4,7 +4,7 @@
 
 ### GoogleLoggingLogScope <a name="GoogleLoggingLogScope" id="@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope google_logging_log_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope google_logging_log_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.resetLocation">resetLocation</a></code> | *No description.* |
@@ -404,6 +405,12 @@ public putTimeouts(value: GoogleLoggingLogScopeTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.resetDescription"></a>
 
 ```typescript
@@ -537,7 +544,7 @@ The construct id used in the generated config for the GoogleLoggingLogScope to i
 
 The id of the existing GoogleLoggingLogScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -570,6 +577,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.createTime">createTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeoutsOutputReference">GoogleLoggingLogScopeTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.updateTime">updateTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
@@ -577,6 +585,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.parentInput">parentInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.resourceNamesInput">resourceNamesInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeouts">GoogleLoggingLogScopeTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.location">location</a></code> | <code>string</code> | *No description.* |
@@ -758,6 +767,16 @@ public readonly updateTime: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.descriptionInput"></a>
 
 ```typescript
@@ -825,6 +844,16 @@ public readonly timeoutsInput: IResolvable | GoogleLoggingLogScopeTimeouts;
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeouts">GoogleLoggingLogScopeTimeouts</a>
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScope.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -931,8 +960,9 @@ const googleLoggingLogScopeConfig: googleLoggingLogScope.GoogleLoggingLogScopeCo
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.name">name</a></code> | <code>string</code> | The resource name of the log scope. For example: \'projects/my-project/locations/global/logScopes/my-log-scope\'. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.resourceNames">resourceNames</a></code> | <code>string[]</code> | Names of one or more parent resources : *  \'projects/[PROJECT_ID]\' May alternatively be one or more views : * \'projects/[PROJECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]/views/[VIEW_ID]\' A log scope can include a maximum of 50 projects and a maximum of 100 resources in total. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.description">description</a></code> | <code>string</code> | Describes this log scopes. |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#id GoogleLoggingLogScope#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#id GoogleLoggingLogScope#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.location">location</a></code> | <code>string</code> | The location of the resource. The only supported location is global so far. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.parent">parent</a></code> | <code>string</code> | The parent of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeouts">GoogleLoggingLogScopeTimeouts</a></code> | timeouts block. |
@@ -1019,7 +1049,7 @@ public readonly name: string;
 
 The resource name of the log scope. For example: \'projects/my-project/locations/global/logScopes/my-log-scope\'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#name GoogleLoggingLogScope#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#name GoogleLoggingLogScope#name}
 
 ---
 
@@ -1033,7 +1063,29 @@ public readonly resourceNames: string[];
 
 Names of one or more parent resources : *  \'projects/[PROJECT_ID]\' May alternatively be one or more views : * \'projects/[PROJECT_ID]/locations/[LOCATION_ID]/buckets/[BUCKET_ID]/views/[VIEW_ID]\' A log scope can include a maximum of 50 projects and a maximum of 100 resources in total.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#resource_names GoogleLoggingLogScope#resource_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#resource_names GoogleLoggingLogScope#resource_names}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#deletion_policy GoogleLoggingLogScope#deletion_policy}
 
 ---
 
@@ -1047,7 +1099,7 @@ public readonly description: string;
 
 Describes this log scopes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#description GoogleLoggingLogScope#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#description GoogleLoggingLogScope#description}
 
 ---
 
@@ -1059,7 +1111,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#id GoogleLoggingLogScope#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#id GoogleLoggingLogScope#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1076,7 +1128,7 @@ public readonly location: string;
 
 The location of the resource. The only supported location is global so far.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#location GoogleLoggingLogScope#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#location GoogleLoggingLogScope#location}
 
 ---
 
@@ -1090,7 +1142,7 @@ public readonly parent: string;
 
 The parent of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#parent GoogleLoggingLogScope#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#parent GoogleLoggingLogScope#parent}
 
 ---
 
@@ -1104,7 +1156,7 @@ public readonly timeouts: GoogleLoggingLogScopeTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#timeouts GoogleLoggingLogScope#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#timeouts GoogleLoggingLogScope#timeouts}
 
 ---
 
@@ -1122,9 +1174,9 @@ const googleLoggingLogScopeTimeouts: googleLoggingLogScope.GoogleLoggingLogScope
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#create GoogleLoggingLogScope#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#delete GoogleLoggingLogScope#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#update GoogleLoggingLogScope#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#create GoogleLoggingLogScope#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#delete GoogleLoggingLogScope#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleLoggingLogScope.GoogleLoggingLogScopeTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#update GoogleLoggingLogScope#update}. |
 
 ---
 
@@ -1136,7 +1188,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#create GoogleLoggingLogScope#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#create GoogleLoggingLogScope#create}.
 
 ---
 
@@ -1148,7 +1200,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#delete GoogleLoggingLogScope#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#delete GoogleLoggingLogScope#delete}.
 
 ---
 
@@ -1160,7 +1212,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_logging_log_scope#update GoogleLoggingLogScope#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_logging_log_scope#update GoogleLoggingLogScope#update}.
 
 ---
 

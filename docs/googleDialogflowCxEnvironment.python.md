@@ -4,7 +4,7 @@
 
 ### GoogleDialogflowCxEnvironment <a name="GoogleDialogflowCxEnvironment" id="@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment google_dialogflow_cx_environment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment google_dialogflow_cx_environment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer"></a>
 
@@ -23,6 +23,7 @@ googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   display_name: str,
   version_configs: IResolvable | typing.List[GoogleDialogflowCxEnvironmentVersionConfigs],
+  deletion_policy: str = None,
   description: str = None,
   id: str = None,
   parent: str = None,
@@ -43,8 +44,9 @@ googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment(
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.displayName">display_name</a></code> | <code>str</code> | The human-readable name of the environment (unique in an agent). Limit of 64 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.versionConfigs">version_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentVersionConfigs">GoogleDialogflowCxEnvironmentVersionConfigs</a>]</code> | version_configs block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.description">description</a></code> | <code>str</code> | The human-readable description of the environment. The maximum length is 500 characters. If exceeded, the request is rejected. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#id GoogleDialogflowCxEnvironment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#id GoogleDialogflowCxEnvironment#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.parent">parent</a></code> | <code>str</code> | The Agent to create an Environment for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts">GoogleDialogflowCxEnvironmentTimeouts</a></code> | timeouts block. |
 
@@ -116,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The human-readable name of the environment (unique in an agent). Limit of 64 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#display_name GoogleDialogflowCxEnvironment#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#display_name GoogleDialogflowCxEnvironment#display_name}
 
 ---
 
@@ -126,7 +128,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 version_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#version_configs GoogleDialogflowCxEnvironment#version_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#version_configs GoogleDialogflowCxEnvironment#version_configs}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#deletion_policy GoogleDialogflowCxEnvironment#deletion_policy}
 
 ---
 
@@ -136,7 +155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The human-readable description of the environment. The maximum length is 500 characters. If exceeded, the request is rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#description GoogleDialogflowCxEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#description GoogleDialogflowCxEnvironment#description}
 
 ---
 
@@ -144,7 +163,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#id GoogleDialogflowCxEnvironment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#id GoogleDialogflowCxEnvironment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -157,7 +176,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 The Agent to create an Environment for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#parent GoogleDialogflowCxEnvironment#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#parent GoogleDialogflowCxEnvironment#parent}
 
 ---
 
@@ -167,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#timeouts GoogleDialogflowCxEnvironment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#timeouts GoogleDialogflowCxEnvironment#timeouts}
 
 ---
 
@@ -201,6 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.putTimeouts">put_timeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.putVersionConfigs">put_version_configs</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.resetDeletionPolicy">reset_deletion_policy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.resetId">reset_id</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.resetParent">reset_parent</a></code> | *No description.* |
@@ -570,7 +590,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#create GoogleDialogflowCxEnvironment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#create GoogleDialogflowCxEnvironment#create}.
 
 ---
 
@@ -578,7 +598,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#delete GoogleDialogflowCxEnvironment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#delete GoogleDialogflowCxEnvironment#delete}.
 
 ---
 
@@ -586,7 +606,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#update GoogleDialogflowCxEnvironment#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#update GoogleDialogflowCxEnvironment#update}.
 
 ---
 
@@ -603,6 +623,12 @@ def put_version_configs(
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentVersionConfigs">GoogleDialogflowCxEnvironmentVersionConfigs</a>]
 
 ---
+
+##### `reset_deletion_policy` <a name="reset_deletion_policy" id="@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.resetDeletionPolicy"></a>
+
+```python
+def reset_deletion_policy() -> None
+```
 
 ##### `reset_description` <a name="reset_description" id="@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.resetDescription"></a>
 
@@ -742,7 +768,7 @@ The construct id used in the generated config for the GoogleDialogflowCxEnvironm
 
 The id of the existing GoogleDialogflowCxEnvironment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -776,12 +802,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeoutsOutputReference">GoogleDialogflowCxEnvironmentTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.updateTime">update_time</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.versionConfigs">version_configs</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentVersionConfigsList">GoogleDialogflowCxEnvironmentVersionConfigsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.deletionPolicyInput">deletion_policy_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.displayNameInput">display_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.parentInput">parent_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.timeoutsInput">timeouts_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts">GoogleDialogflowCxEnvironmentTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.versionConfigsInput">version_configs_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentVersionConfigs">GoogleDialogflowCxEnvironmentVersionConfigs</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.description">description</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.displayName">display_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -971,6 +999,16 @@ version_configs: GoogleDialogflowCxEnvironmentVersionConfigsList
 
 ---
 
+##### `deletion_policy_input`<sup>Optional</sup> <a name="deletion_policy_input" id="@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.deletionPolicyInput"></a>
+
+```python
+deletion_policy_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `description_input`<sup>Optional</sup> <a name="description_input" id="@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.descriptionInput"></a>
 
 ```python
@@ -1028,6 +1066,16 @@ version_configs_input: IResolvable | typing.List[GoogleDialogflowCxEnvironmentVe
 ```
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentVersionConfigs">GoogleDialogflowCxEnvironmentVersionConfigs</a>]
+
+---
+
+##### `deletion_policy`<sup>Required</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironment.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
 
 ---
 
@@ -1108,6 +1156,7 @@ googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig(
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   display_name: str,
   version_configs: IResolvable | typing.List[GoogleDialogflowCxEnvironmentVersionConfigs],
+  deletion_policy: str = None,
   description: str = None,
   id: str = None,
   parent: str = None,
@@ -1128,8 +1177,9 @@ googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig(
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.displayName">display_name</a></code> | <code>str</code> | The human-readable name of the environment (unique in an agent). Limit of 64 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.versionConfigs">version_configs</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentVersionConfigs">GoogleDialogflowCxEnvironmentVersionConfigs</a>]</code> | version_configs block. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.deletionPolicy">deletion_policy</a></code> | <code>str</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.description">description</a></code> | <code>str</code> | The human-readable description of the environment. The maximum length is 500 characters. If exceeded, the request is rejected. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#id GoogleDialogflowCxEnvironment#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#id GoogleDialogflowCxEnvironment#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.parent">parent</a></code> | <code>str</code> | The Agent to create an Environment for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>. |
 | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts">GoogleDialogflowCxEnvironmentTimeouts</a></code> | timeouts block. |
 
@@ -1215,7 +1265,7 @@ display_name: str
 
 The human-readable name of the environment (unique in an agent). Limit of 64 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#display_name GoogleDialogflowCxEnvironment#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#display_name GoogleDialogflowCxEnvironment#display_name}
 
 ---
 
@@ -1229,7 +1279,28 @@ version_configs: IResolvable | typing.List[GoogleDialogflowCxEnvironmentVersionC
 
 version_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#version_configs GoogleDialogflowCxEnvironment#version_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#version_configs GoogleDialogflowCxEnvironment#version_configs}
+
+---
+
+##### `deletion_policy`<sup>Optional</sup> <a name="deletion_policy" id="@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentConfig.property.deletionPolicy"></a>
+
+```python
+deletion_policy: str
+```
+
+- *Type:* str
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#deletion_policy GoogleDialogflowCxEnvironment#deletion_policy}
 
 ---
 
@@ -1243,7 +1314,7 @@ description: str
 
 The human-readable description of the environment. The maximum length is 500 characters. If exceeded, the request is rejected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#description GoogleDialogflowCxEnvironment#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#description GoogleDialogflowCxEnvironment#description}
 
 ---
 
@@ -1255,7 +1326,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#id GoogleDialogflowCxEnvironment#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#id GoogleDialogflowCxEnvironment#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1272,7 +1343,7 @@ parent: str
 
 The Agent to create an Environment for. Format: projects/<Project ID>/locations/<Location ID>/agents/<Agent ID>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#parent GoogleDialogflowCxEnvironment#parent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#parent GoogleDialogflowCxEnvironment#parent}
 
 ---
 
@@ -1286,7 +1357,7 @@ timeouts: GoogleDialogflowCxEnvironmentTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#timeouts GoogleDialogflowCxEnvironment#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#timeouts GoogleDialogflowCxEnvironment#timeouts}
 
 ---
 
@@ -1308,9 +1379,9 @@ googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#create GoogleDialogflowCxEnvironment#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#delete GoogleDialogflowCxEnvironment#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#update GoogleDialogflowCxEnvironment#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#create GoogleDialogflowCxEnvironment#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#delete GoogleDialogflowCxEnvironment#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDialogflowCxEnvironment.GoogleDialogflowCxEnvironmentTimeouts.property.update">update</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#update GoogleDialogflowCxEnvironment#update}. |
 
 ---
 
@@ -1322,7 +1393,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#create GoogleDialogflowCxEnvironment#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#create GoogleDialogflowCxEnvironment#create}.
 
 ---
 
@@ -1334,7 +1405,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#delete GoogleDialogflowCxEnvironment#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#delete GoogleDialogflowCxEnvironment#delete}.
 
 ---
 
@@ -1346,7 +1417,7 @@ update: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#update GoogleDialogflowCxEnvironment#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#update GoogleDialogflowCxEnvironment#update}.
 
 ---
 
@@ -1380,7 +1451,7 @@ version: str
 
 Format: projects/{{project}}/locations/{{location}}/agents/{{agent}}/flows/{{flow}}/versions/{{version}}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_dialogflow_cx_environment#version GoogleDialogflowCxEnvironment#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dialogflow_cx_environment#version GoogleDialogflowCxEnvironment#version}
 
 ---
 

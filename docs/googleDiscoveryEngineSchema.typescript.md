@@ -4,7 +4,7 @@
 
 ### GoogleDiscoveryEngineSchema <a name="GoogleDiscoveryEngineSchema" id="@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema google_discovery_engine_schema}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema google_discovery_engine_schema}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.resetJsonSchema">resetJsonSchema</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.resetProject">resetProject</a></code> | *No description.* |
@@ -403,6 +404,12 @@ public putTimeouts(value: GoogleDiscoveryEngineSchemaTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.resetId"></a>
 
 ```typescript
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleDiscoveryEngineSchem
 
 The id of the existing GoogleDiscoveryEngineSchema that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -563,6 +570,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaTimeoutsOutputReference">GoogleDiscoveryEngineSchemaTimeoutsOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.dataStoreIdInput">dataStoreIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.jsonSchemaInput">jsonSchemaInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.locationInput">locationInput</a></code> | <code>string</code> | *No description.* |
@@ -570,6 +578,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.schemaIdInput">schemaIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaTimeouts">GoogleDiscoveryEngineSchemaTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.dataStoreId">dataStoreId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.jsonSchema">jsonSchema</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.location">location</a></code> | <code>string</code> | *No description.* |
@@ -750,6 +759,16 @@ public readonly dataStoreIdInput: string;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.idInput"></a>
 
 ```typescript
@@ -814,6 +833,16 @@ public readonly timeoutsInput: IResolvable | GoogleDiscoveryEngineSchemaTimeouts
 
 ```typescript
 public readonly dataStoreId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchema.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -914,9 +943,10 @@ const googleDiscoveryEngineSchemaConfig: googleDiscoveryEngineSchema.GoogleDisco
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.dataStoreId">dataStoreId</a></code> | <code>string</code> | The unique id of the data store. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.location">location</a></code> | <code>string</code> | The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu". |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.schemaId">schemaId</a></code> | <code>string</code> | The unique id of the schema. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#id GoogleDiscoveryEngineSchema#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#id GoogleDiscoveryEngineSchema#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.jsonSchema">jsonSchema</a></code> | <code>string</code> | The JSON representation of the schema. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#project GoogleDiscoveryEngineSchema#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#project GoogleDiscoveryEngineSchema#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaTimeouts">GoogleDiscoveryEngineSchemaTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1001,7 +1031,7 @@ public readonly dataStoreId: string;
 
 The unique id of the data store.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#data_store_id GoogleDiscoveryEngineSchema#data_store_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#data_store_id GoogleDiscoveryEngineSchema#data_store_id}
 
 ---
 
@@ -1015,7 +1045,7 @@ public readonly location: string;
 
 The geographic location where the data store should reside. The value can only be one of "global", "us" and "eu".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#location GoogleDiscoveryEngineSchema#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#location GoogleDiscoveryEngineSchema#location}
 
 ---
 
@@ -1029,7 +1059,29 @@ public readonly schemaId: string;
 
 The unique id of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#schema_id GoogleDiscoveryEngineSchema#schema_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#schema_id GoogleDiscoveryEngineSchema#schema_id}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#deletion_policy GoogleDiscoveryEngineSchema#deletion_policy}
 
 ---
 
@@ -1041,7 +1093,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#id GoogleDiscoveryEngineSchema#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#id GoogleDiscoveryEngineSchema#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1058,7 +1110,7 @@ public readonly jsonSchema: string;
 
 The JSON representation of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#json_schema GoogleDiscoveryEngineSchema#json_schema}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#json_schema GoogleDiscoveryEngineSchema#json_schema}
 
 ---
 
@@ -1070,7 +1122,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#project GoogleDiscoveryEngineSchema#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#project GoogleDiscoveryEngineSchema#project}.
 
 ---
 
@@ -1084,7 +1136,7 @@ public readonly timeouts: GoogleDiscoveryEngineSchemaTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#timeouts GoogleDiscoveryEngineSchema#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#timeouts GoogleDiscoveryEngineSchema#timeouts}
 
 ---
 
@@ -1102,8 +1154,8 @@ const googleDiscoveryEngineSchemaTimeouts: googleDiscoveryEngineSchema.GoogleDis
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#create GoogleDiscoveryEngineSchema#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#delete GoogleDiscoveryEngineSchema#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#create GoogleDiscoveryEngineSchema#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDiscoveryEngineSchema.GoogleDiscoveryEngineSchemaTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#delete GoogleDiscoveryEngineSchema#delete}. |
 
 ---
 
@@ -1115,7 +1167,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#create GoogleDiscoveryEngineSchema#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#create GoogleDiscoveryEngineSchema#create}.
 
 ---
 
@@ -1127,7 +1179,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_discovery_engine_schema#delete GoogleDiscoveryEngineSchema#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_discovery_engine_schema#delete GoogleDiscoveryEngineSchema#delete}.
 
 ---
 

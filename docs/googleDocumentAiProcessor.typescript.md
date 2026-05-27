@@ -4,7 +4,7 @@
 
 ### GoogleDocumentAiProcessor <a name="GoogleDocumentAiProcessor" id="@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor google_document_ai_processor}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor google_document_ai_processor}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.putTimeouts">putTimeouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.resetKmsKeyName">resetKmsKeyName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.resetProject">resetProject</a></code> | *No description.* |
@@ -403,6 +404,12 @@ public putTimeouts(value: GoogleDocumentAiProcessorTimeouts): void
 
 ---
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.resetDeletionPolicy"></a>
+
+```typescript
+public resetDeletionPolicy(): void
+```
+
 ##### `resetId` <a name="resetId" id="@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.resetId"></a>
 
 ```typescript
@@ -530,7 +537,7 @@ The construct id used in the generated config for the GoogleDocumentAiProcessor 
 
 The id of the existing GoogleDocumentAiProcessor that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -562,6 +569,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.name">name</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorTimeoutsOutputReference">GoogleDocumentAiProcessorTimeoutsOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.displayNameInput">displayNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.kmsKeyNameInput">kmsKeyNameInput</a></code> | <code>string</code> | *No description.* |
@@ -569,6 +577,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorTimeouts">GoogleDocumentAiProcessorTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.typeInput">typeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.displayName">displayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.kmsKeyName">kmsKeyName</a></code> | <code>string</code> | *No description.* |
@@ -740,6 +749,16 @@ public readonly timeouts: GoogleDocumentAiProcessorTimeoutsOutputReference;
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.deletionPolicyInput"></a>
+
+```typescript
+public readonly deletionPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `displayNameInput`<sup>Optional</sup> <a name="displayNameInput" id="@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.displayNameInput"></a>
 
 ```typescript
@@ -804,6 +823,16 @@ public readonly timeoutsInput: IResolvable | GoogleDocumentAiProcessorTimeouts;
 
 ```typescript
 public readonly typeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessor.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
 ```
 
 - *Type:* string
@@ -914,9 +943,10 @@ const googleDocumentAiProcessorConfig: googleDocumentAiProcessor.GoogleDocumentA
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.displayName">displayName</a></code> | <code>string</code> | The display name. Must be unique. |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.location">location</a></code> | <code>string</code> | The location of the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.type">type</a></code> | <code>string</code> | The type of processor. For possible types see the [official list](https://cloud.google.com/document-ai/docs/reference/rest/v1/projects.locations/fetchProcessorTypes#google.cloud.documentai.v1.DocumentProcessorService.FetchProcessorTypes). |
-| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#id GoogleDocumentAiProcessor#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#id GoogleDocumentAiProcessor#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.kmsKeyName">kmsKeyName</a></code> | <code>string</code> | The KMS key used for encryption/decryption in CMEK scenarios. See https://cloud.google.com/security-key-management. |
-| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#project GoogleDocumentAiProcessor#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#project GoogleDocumentAiProcessor#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorTimeouts">GoogleDocumentAiProcessorTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1001,7 +1031,7 @@ public readonly displayName: string;
 
 The display name. Must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#display_name GoogleDocumentAiProcessor#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#display_name GoogleDocumentAiProcessor#display_name}
 
 ---
 
@@ -1015,7 +1045,7 @@ public readonly location: string;
 
 The location of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#location GoogleDocumentAiProcessor#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#location GoogleDocumentAiProcessor#location}
 
 ---
 
@@ -1029,7 +1059,29 @@ public readonly type: string;
 
 The type of processor. For possible types see the [official list](https://cloud.google.com/document-ai/docs/reference/rest/v1/projects.locations/fetchProcessorTypes#google.cloud.documentai.v1.DocumentProcessorService.FetchProcessorTypes).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#type GoogleDocumentAiProcessor#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#type GoogleDocumentAiProcessor#type}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorConfig.property.deletionPolicy"></a>
+
+```typescript
+public readonly deletionPolicy: string;
+```
+
+- *Type:* string
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#deletion_policy GoogleDocumentAiProcessor#deletion_policy}
 
 ---
 
@@ -1041,7 +1093,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#id GoogleDocumentAiProcessor#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#id GoogleDocumentAiProcessor#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1058,7 +1110,7 @@ public readonly kmsKeyName: string;
 
 The KMS key used for encryption/decryption in CMEK scenarios. See https://cloud.google.com/security-key-management.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#kms_key_name GoogleDocumentAiProcessor#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#kms_key_name GoogleDocumentAiProcessor#kms_key_name}
 
 ---
 
@@ -1070,7 +1122,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#project GoogleDocumentAiProcessor#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#project GoogleDocumentAiProcessor#project}.
 
 ---
 
@@ -1084,7 +1136,7 @@ public readonly timeouts: GoogleDocumentAiProcessorTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#timeouts GoogleDocumentAiProcessor#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#timeouts GoogleDocumentAiProcessor#timeouts}
 
 ---
 
@@ -1102,8 +1154,8 @@ const googleDocumentAiProcessorTimeouts: googleDocumentAiProcessor.GoogleDocumen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#create GoogleDocumentAiProcessor#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#delete GoogleDocumentAiProcessor#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#create GoogleDocumentAiProcessor#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDocumentAiProcessor.GoogleDocumentAiProcessorTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#delete GoogleDocumentAiProcessor#delete}. |
 
 ---
 
@@ -1115,7 +1167,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#create GoogleDocumentAiProcessor#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#create GoogleDocumentAiProcessor#create}.
 
 ---
 
@@ -1127,7 +1179,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_document_ai_processor#delete GoogleDocumentAiProcessor#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_document_ai_processor#delete GoogleDocumentAiProcessor#delete}.
 
 ---
 

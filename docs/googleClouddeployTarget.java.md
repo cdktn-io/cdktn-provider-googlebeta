@@ -4,7 +4,7 @@
 
 ### GoogleClouddeployTarget <a name="GoogleClouddeployTarget" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target google_clouddeploy_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target google_clouddeploy_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer"></a>
 
@@ -25,6 +25,7 @@ GoogleClouddeployTarget.Builder.create(Construct scope, java.lang.String id)
 //  .anthosCluster(GoogleClouddeployTargetAnthosCluster)
 //  .associatedEntities(IResolvable|java.util.List<GoogleClouddeployTargetAssociatedEntities>)
 //  .customTarget(GoogleClouddeployTargetCustomTarget)
+//  .deletionPolicy(java.lang.String)
 //  .deployParameters(java.util.Map<java.lang.String, java.lang.String>)
 //  .description(java.lang.String)
 //  .executionConfigs(IResolvable|java.util.List<GoogleClouddeployTargetExecutionConfigs>)
@@ -56,11 +57,12 @@ GoogleClouddeployTarget.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.anthosCluster">anthosCluster</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetAnthosCluster">GoogleClouddeployTargetAnthosCluster</a></code> | anthos_cluster block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.associatedEntities">associatedEntities</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetAssociatedEntities">GoogleClouddeployTargetAssociatedEntities</a>></code> | associated_entities block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.customTarget">customTarget</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetCustomTarget">GoogleClouddeployTargetCustomTarget</a></code> | custom_target block. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.deployParameters">deployParameters</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Optional. The deploy parameters to use for this target. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | Optional. Description of the `Target`. Max length is 255 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.executionConfigs">executionConfigs</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs">GoogleClouddeployTargetExecutionConfigs</a>></code> | execution_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.gke">gke</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetGke">GoogleClouddeployTargetGke</a></code> | gke block. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.multiTarget">multiTarget</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetMultiTarget">GoogleClouddeployTargetMultiTarget</a></code> | multi_target block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | The project for the resource. |
@@ -136,7 +138,7 @@ Must be unique amongst siblings in the same scope
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Name of the `Target`. Format is `[a-z]([a-z0-9-]{0,61}[a-z0-9])?`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
 
 ---
 
@@ -161,7 +163,7 @@ User annotations. These attributes can only be set and used by the user, and not
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field `effective_annotations` for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
 
 ---
 
@@ -171,7 +173,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 anthos_cluster block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
 
 ---
 
@@ -181,7 +183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 associated_entities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
 
 ---
 
@@ -191,7 +193,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 custom_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#deletion_policy GoogleClouddeployTarget#deletion_policy}
 
 ---
 
@@ -201,7 +220,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. The deploy parameters to use for this target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
 
 ---
 
@@ -211,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. Description of the `Target`. Max length is 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
 
 ---
 
@@ -221,7 +240,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 execution_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
 
 ---
 
@@ -231,7 +250,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 gke block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
 
 ---
 
@@ -239,7 +258,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -257,7 +276,7 @@ Labels are attributes that can be set and used by both the user and by Google Cl
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field `effective_labels` for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
 
 ---
 
@@ -267,7 +286,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 multi_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
 
 ---
 
@@ -277,7 +296,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The project for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
 
 ---
 
@@ -287,7 +306,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional. Whether or not the `Target` requires approval.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
 
 ---
 
@@ -297,7 +316,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 run block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
 
 ---
 
@@ -307,7 +326,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
 
 ---
 
@@ -351,6 +370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.resetAnthosCluster">resetAnthosCluster</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.resetAssociatedEntities">resetAssociatedEntities</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.resetCustomTarget">resetCustomTarget</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.resetDeployParameters">resetDeployParameters</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.resetExecutionConfigs">resetExecutionConfigs</a></code> | *No description.* |
@@ -796,6 +816,12 @@ public void resetAssociatedEntities()
 public void resetCustomTarget()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDeployParameters` <a name="resetDeployParameters" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.resetDeployParameters"></a>
 
 ```java
@@ -965,7 +991,7 @@ The construct id used in the generated config for the GoogleClouddeployTarget to
 
 The id of the existing GoogleClouddeployTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1015,6 +1041,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.anthosClusterInput">anthosClusterInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetAnthosCluster">GoogleClouddeployTargetAnthosCluster</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.associatedEntitiesInput">associatedEntitiesInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetAssociatedEntities">GoogleClouddeployTargetAssociatedEntities</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.customTargetInput">customTargetInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetCustomTarget">GoogleClouddeployTargetCustomTarget</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.deployParametersInput">deployParametersInput</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.executionConfigsInput">executionConfigsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs">GoogleClouddeployTargetExecutionConfigs</a>></code> | *No description.* |
@@ -1029,6 +1056,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.runInput">runInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetRun">GoogleClouddeployTargetRun</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts">GoogleClouddeployTargetTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.annotations">annotations</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.deployParameters">deployParameters</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1382,6 +1410,16 @@ public GoogleClouddeployTargetCustomTarget getCustomTargetInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `deployParametersInput`<sup>Optional</sup> <a name="deployParametersInput" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.deployParametersInput"></a>
 
 ```java
@@ -1522,6 +1560,16 @@ public java.util.Map<java.lang.String, java.lang.String> getAnnotations();
 
 ---
 
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `deployParameters`<sup>Required</sup> <a name="deployParameters" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTarget.property.deployParameters"></a>
 
 ```java
@@ -1652,7 +1700,7 @@ public java.lang.String getMembership();
 
 Membership of the GKE Hub-registered cluster to which to apply the Skaffold configuration. Format is `projects/{project}/locations/{location}/memberships/{membership_name}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
 
 ---
 
@@ -1690,7 +1738,7 @@ public java.lang.String getEntityId();
 
 The name for the key in the map for which this object is mapped to in the API.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#entity_id GoogleClouddeployTarget#entity_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#entity_id GoogleClouddeployTarget#entity_id}
 
 ---
 
@@ -1704,7 +1752,7 @@ public IResolvable|java.util.List<GoogleClouddeployTargetAssociatedEntitiesAntho
 
 anthos_clusters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#anthos_clusters GoogleClouddeployTarget#anthos_clusters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#anthos_clusters GoogleClouddeployTarget#anthos_clusters}
 
 ---
 
@@ -1718,7 +1766,7 @@ public IResolvable|java.util.List<GoogleClouddeployTargetAssociatedEntitiesGkeCl
 
 gke_clusters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#gke_clusters GoogleClouddeployTarget#gke_clusters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#gke_clusters GoogleClouddeployTarget#gke_clusters}
 
 ---
 
@@ -1752,7 +1800,7 @@ public java.lang.String getMembership();
 
 Optional. Membership of the GKE Hub-registered cluster to which to apply the Skaffold configuration. Format is `projects/{project}/locations/{location}/memberships/{membership_name}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
 
 ---
 
@@ -1790,7 +1838,7 @@ public java.lang.String getCluster();
 
 Optional. Information specifying a GKE Cluster. Format is `projects/{project_id}/locations/{location_id}/clusters/{cluster_id}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
 
 ---
 
@@ -1806,7 +1854,7 @@ Optional.
 
 If true, `cluster` is accessed using the private IP address of the control plane endpoint. Otherwise, the default IP address of the control plane endpoint is used. The default IP address is the private IP address for clusters with private control-plane endpoints and the public IP address otherwise. Only specify this option when `cluster` is a [private GKE cluster](https://cloud.google.com/kubernetes-engine/docs/concepts/private-cluster-concept).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
 
 ---
 
@@ -1820,7 +1868,7 @@ public java.lang.String getProxyUrl();
 
 Optional. If set, used to configure a [proxy](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#proxy) to the Kubernetes server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
 
 ---
 
@@ -1845,6 +1893,7 @@ GoogleClouddeployTargetConfig.builder()
 //  .anthosCluster(GoogleClouddeployTargetAnthosCluster)
 //  .associatedEntities(IResolvable|java.util.List<GoogleClouddeployTargetAssociatedEntities>)
 //  .customTarget(GoogleClouddeployTargetCustomTarget)
+//  .deletionPolicy(java.lang.String)
 //  .deployParameters(java.util.Map<java.lang.String, java.lang.String>)
 //  .description(java.lang.String)
 //  .executionConfigs(IResolvable|java.util.List<GoogleClouddeployTargetExecutionConfigs>)
@@ -1876,11 +1925,12 @@ GoogleClouddeployTargetConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.anthosCluster">anthosCluster</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetAnthosCluster">GoogleClouddeployTargetAnthosCluster</a></code> | anthos_cluster block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.associatedEntities">associatedEntities</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetAssociatedEntities">GoogleClouddeployTargetAssociatedEntities</a>></code> | associated_entities block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.customTarget">customTarget</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetCustomTarget">GoogleClouddeployTargetCustomTarget</a></code> | custom_target block. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.deployParameters">deployParameters</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Optional. The deploy parameters to use for this target. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.description">description</a></code> | <code>java.lang.String</code> | Optional. Description of the `Target`. Max length is 255 characters. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.executionConfigs">executionConfigs</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetExecutionConfigs">GoogleClouddeployTargetExecutionConfigs</a>></code> | execution_configs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.gke">gke</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetGke">GoogleClouddeployTargetGke</a></code> | gke block. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.multiTarget">multiTarget</a></code> | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetMultiTarget">GoogleClouddeployTargetMultiTarget</a></code> | multi_target block. |
 | <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.project">project</a></code> | <code>java.lang.String</code> | The project for the resource. |
@@ -1970,7 +2020,7 @@ public java.lang.String getLocation();
 
 The location for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
 
 ---
 
@@ -1984,7 +2034,7 @@ public java.lang.String getName();
 
 Name of the `Target`. Format is `[a-z]([a-z0-9-]{0,61}[a-z0-9])?`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
 
 ---
 
@@ -2003,7 +2053,7 @@ User annotations. These attributes can only be set and used by the user, and not
 **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 Please refer to the field `effective_annotations` for all of the annotations present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
 
 ---
 
@@ -2017,7 +2067,7 @@ public GoogleClouddeployTargetAnthosCluster getAnthosCluster();
 
 anthos_cluster block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
 
 ---
 
@@ -2031,7 +2081,7 @@ public IResolvable|java.util.List<GoogleClouddeployTargetAssociatedEntities> get
 
 associated_entities block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
 
 ---
 
@@ -2045,7 +2095,28 @@ public GoogleClouddeployTargetCustomTarget getCustomTarget();
 
 custom_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#deletion_policy GoogleClouddeployTarget#deletion_policy}
 
 ---
 
@@ -2059,7 +2130,7 @@ public java.util.Map<java.lang.String, java.lang.String> getDeployParameters();
 
 Optional. The deploy parameters to use for this target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
 
 ---
 
@@ -2073,7 +2144,7 @@ public java.lang.String getDescription();
 
 Optional. Description of the `Target`. Max length is 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
 
 ---
 
@@ -2087,7 +2158,7 @@ public IResolvable|java.util.List<GoogleClouddeployTargetExecutionConfigs> getEx
 
 execution_configs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
 
 ---
 
@@ -2101,7 +2172,7 @@ public GoogleClouddeployTargetGke getGke();
 
 gke block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
 
 ---
 
@@ -2113,7 +2184,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2135,7 +2206,7 @@ Labels are attributes that can be set and used by both the user and by Google Cl
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field `effective_labels` for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
 
 ---
 
@@ -2149,7 +2220,7 @@ public GoogleClouddeployTargetMultiTarget getMultiTarget();
 
 multi_target block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
 
 ---
 
@@ -2163,7 +2234,7 @@ public java.lang.String getProject();
 
 The project for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
 
 ---
 
@@ -2177,7 +2248,7 @@ public java.lang.Boolean|IResolvable getRequireApproval();
 
 Optional. Whether or not the `Target` requires approval.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
 
 ---
 
@@ -2191,7 +2262,7 @@ public GoogleClouddeployTargetRun getRun();
 
 run block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
 
 ---
 
@@ -2205,7 +2276,7 @@ public GoogleClouddeployTargetTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
 
 ---
 
@@ -2239,7 +2310,7 @@ public java.lang.String getCustomTargetType();
 
 Required. The name of the CustomTargetType. Format must be `projects/{project}/locations/{location}/customTargetTypes/{custom_target_type}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#custom_target_type GoogleClouddeployTarget#custom_target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#custom_target_type GoogleClouddeployTarget#custom_target_type}
 
 ---
 
@@ -2287,7 +2358,7 @@ public java.util.List<java.lang.String> getUsages();
 
 Required. Usages when this configuration should be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#usages GoogleClouddeployTarget#usages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#usages GoogleClouddeployTarget#usages}
 
 ---
 
@@ -2303,7 +2374,7 @@ Optional.
 
 Cloud Storage location in which to store execution outputs. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
 
 ---
 
@@ -2317,7 +2388,7 @@ public GoogleClouddeployTargetExecutionConfigsDefaultPool getDefaultPool();
 
 default_pool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#default_pool GoogleClouddeployTarget#default_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#default_pool GoogleClouddeployTarget#default_pool}
 
 ---
 
@@ -2333,7 +2404,7 @@ Optional.
 
 Execution timeout for a Cloud Build Execution. This must be between 10m and 24h in seconds format. If unspecified, a default timeout of 1h is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#execution_timeout GoogleClouddeployTarget#execution_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#execution_timeout GoogleClouddeployTarget#execution_timeout}
 
 ---
 
@@ -2347,7 +2418,7 @@ public GoogleClouddeployTargetExecutionConfigsPrivatePool getPrivatePool();
 
 private_pool block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#private_pool GoogleClouddeployTarget#private_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#private_pool GoogleClouddeployTarget#private_pool}
 
 ---
 
@@ -2361,7 +2432,7 @@ public java.lang.String getServiceAccount();
 
 Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
 
 ---
 
@@ -2375,7 +2446,7 @@ public java.lang.Boolean|IResolvable getVerbose();
 
 Optional. If true, additional logging will be enabled when running builds in this execution environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#verbose GoogleClouddeployTarget#verbose}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#verbose GoogleClouddeployTarget#verbose}
 
 ---
 
@@ -2391,7 +2462,7 @@ Optional.
 
 The resource name of the `WorkerPool`, with the format `projects/{project}/locations/{location}/workerPools/{worker_pool}`. If this optional field is unspecified, the default Cloud Build pool will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
 
 ---
 
@@ -2429,7 +2500,7 @@ Optional.
 
 Cloud Storage location where execution outputs should be stored. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
 
 ---
 
@@ -2443,7 +2514,7 @@ public java.lang.String getServiceAccount();
 
 Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
 
 ---
 
@@ -2481,7 +2552,7 @@ public java.lang.String getWorkerPool();
 
 Required. Resource name of the Cloud Build worker pool to use. The format is `projects/{project}/locations/{location}/workerPools/{pool}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
 
 ---
 
@@ -2497,7 +2568,7 @@ Optional.
 
 Cloud Storage location where execution outputs should be stored. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
 
 ---
 
@@ -2511,7 +2582,7 @@ public java.lang.String getServiceAccount();
 
 Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
 
 ---
 
@@ -2551,7 +2622,7 @@ public java.lang.String getCluster();
 
 Information specifying a GKE Cluster. Format is `projects/{project_id}/locations/{location_id}/clusters/{cluster_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
 
 ---
 
@@ -2567,7 +2638,7 @@ Optional.
 
 If set, the cluster will be accessed using the DNS endpoint. Note that both `dns_endpoint` and `internal_ip` cannot be set to true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#dns_endpoint GoogleClouddeployTarget#dns_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#dns_endpoint GoogleClouddeployTarget#dns_endpoint}
 
 ---
 
@@ -2583,7 +2654,7 @@ Optional.
 
 If true, `cluster` is accessed using the private IP address of the control plane endpoint. Otherwise, the default IP address of the control plane endpoint is used. The default IP address is the private IP address for clusters with private control-plane endpoints and the public IP address otherwise. Only specify this option when `cluster` is a [private GKE cluster](https://cloud.google.com/kubernetes-engine/docs/concepts/private-cluster-concept).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
 
 ---
 
@@ -2597,7 +2668,7 @@ public java.lang.String getProxyUrl();
 
 Optional. If set, used to configure a [proxy](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#proxy) to the Kubernetes server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
 
 ---
 
@@ -2631,7 +2702,7 @@ public java.util.List<java.lang.String> getTargetIds();
 
 Required. The target_ids of this multiTarget.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#target_ids GoogleClouddeployTarget#target_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#target_ids GoogleClouddeployTarget#target_ids}
 
 ---
 
@@ -2665,7 +2736,7 @@ public java.lang.String getLocation();
 
 Required. The location where the Cloud Run Service should be located. Format is `projects/{project}/locations/{location}`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
 
 ---
 
@@ -2687,9 +2758,9 @@ GoogleClouddeployTargetTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleClouddeployTarget.GoogleClouddeployTargetTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}. |
 
 ---
 
@@ -2701,7 +2772,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}.
 
 ---
 
@@ -2713,7 +2784,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}.
 
 ---
 
@@ -2725,7 +2796,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}.
 
 ---
 

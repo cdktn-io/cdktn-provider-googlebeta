@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionUrlMap <a name="GoogleComputeRegionUrlMap" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map google_compute_region_url_map}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map google_compute_region_url_map}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer"></a>
 
@@ -23,6 +23,7 @@ GoogleComputeRegionUrlMap.Builder.create(Construct scope, java.lang.String id)
 //  .defaultRouteAction(GoogleComputeRegionUrlMapDefaultRouteAction)
 //  .defaultService(java.lang.String)
 //  .defaultUrlRedirect(GoogleComputeRegionUrlMapDefaultUrlRedirect)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .headerAction(GoogleComputeRegionUrlMapHeaderAction)
 //  .hostRule(IResolvable|java.util.List<GoogleComputeRegionUrlMapHostRule>)
@@ -50,12 +51,13 @@ GoogleComputeRegionUrlMap.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.defaultRouteAction">defaultRouteAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultRouteAction">GoogleComputeRegionUrlMapDefaultRouteAction</a></code> | default_route_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.defaultService">defaultService</a></code> | <code>java.lang.String</code> | The full or partial URL of the defaultService resource to which traffic is directed if none of the hostRules match. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.defaultUrlRedirect">defaultUrlRedirect</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultUrlRedirect">GoogleComputeRegionUrlMapDefaultUrlRedirect</a></code> | default_url_redirect block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.headerAction">headerAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a></code> | header_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.hostRule">hostRule</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHostRule">GoogleComputeRegionUrlMapHostRule</a>></code> | host_rule block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.pathMatcher">pathMatcher</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher">GoogleComputeRegionUrlMapPathMatcher</a>></code> | path_matcher block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.region">region</a></code> | <code>java.lang.String</code> | The Region in which the url map should reside. If it is not provided, the provider region is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.test">test</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTest">GoogleComputeRegionUrlMapTest</a>></code> | test block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts">GoogleComputeRegionUrlMapTimeouts</a></code> | timeouts block. |
@@ -136,7 +138,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 default_route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
 
 ---
 
@@ -163,7 +165,7 @@ weightedBackendServices. Conversely, if routeAction specifies any
 weightedBackendServices, service must not be specified.  Only one of defaultService,
 defaultUrlRedirect or defaultRouteAction.weightedBackendService must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
 
 ---
 
@@ -173,7 +175,24 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 default_url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.Initializer.parameter.deletionPolicy"></a>
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#deletion_policy GoogleComputeRegionUrlMap#deletion_policy}
 
 ---
 
@@ -183,7 +202,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
 
 ---
 
@@ -193,7 +212,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -203,7 +222,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 host_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_rule GoogleComputeRegionUrlMap#host_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_rule GoogleComputeRegionUrlMap#host_rule}
 
 ---
 
@@ -211,7 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -224,7 +243,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 path_matcher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
 
 ---
 
@@ -232,7 +251,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}.
 
 ---
 
@@ -242,7 +261,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Region in which the url map should reside. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#region GoogleComputeRegionUrlMap#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#region GoogleComputeRegionUrlMap#region}
 
 ---
 
@@ -252,7 +271,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 test block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#test GoogleComputeRegionUrlMap#test}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#test GoogleComputeRegionUrlMap#test}
 
 ---
 
@@ -262,7 +281,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#timeouts GoogleComputeRegionUrlMap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#timeouts GoogleComputeRegionUrlMap#timeouts}
 
 ---
 
@@ -304,6 +323,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDefaultRouteAction">resetDefaultRouteAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDefaultService">resetDefaultService</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDefaultUrlRedirect">resetDefaultUrlRedirect</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDeletionPolicy">resetDeletionPolicy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetHeaderAction">resetHeaderAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetHostRule">resetHostRule</a></code> | *No description.* |
@@ -729,6 +749,12 @@ public void resetDefaultService()
 public void resetDefaultUrlRedirect()
 ```
 
+##### `resetDeletionPolicy` <a name="resetDeletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDeletionPolicy"></a>
+
+```java
+public void resetDeletionPolicy()
+```
+
 ##### `resetDescription` <a name="resetDescription" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.resetDescription"></a>
 
 ```java
@@ -886,7 +912,7 @@ The construct id used in the generated config for the GoogleComputeRegionUrlMap 
 
 The id of the existing GoogleComputeRegionUrlMap that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,6 +956,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.defaultRouteActionInput">defaultRouteActionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultRouteAction">GoogleComputeRegionUrlMapDefaultRouteAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.defaultServiceInput">defaultServiceInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.defaultUrlRedirectInput">defaultUrlRedirectInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultUrlRedirect">GoogleComputeRegionUrlMapDefaultUrlRedirect</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.deletionPolicyInput">deletionPolicyInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.descriptionInput">descriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.headerActionInput">headerActionInput</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.hostRuleInput">hostRuleInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHostRule">GoogleComputeRegionUrlMapHostRule</a>></code> | *No description.* |
@@ -941,6 +968,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.testInput">testInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTest">GoogleComputeRegionUrlMapTest</a>></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.timeoutsInput">timeoutsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts">GoogleComputeRegionUrlMapTimeouts</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.defaultService">defaultService</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.description">description</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.name">name</a></code> | <code>java.lang.String</code> | *No description.* |
@@ -1231,6 +1259,16 @@ public GoogleComputeRegionUrlMapDefaultUrlRedirect getDefaultUrlRedirectInput();
 
 ---
 
+##### `deletionPolicyInput`<sup>Optional</sup> <a name="deletionPolicyInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.deletionPolicyInput"></a>
+
+```java
+public java.lang.String getDeletionPolicyInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `descriptionInput`<sup>Optional</sup> <a name="descriptionInput" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.descriptionInput"></a>
 
 ```java
@@ -1341,6 +1379,16 @@ public java.lang.String getDefaultService();
 
 ---
 
+##### `deletionPolicy`<sup>Required</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `description`<sup>Required</sup> <a name="description" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMap.property.description"></a>
 
 ```java
@@ -1430,6 +1478,7 @@ GoogleComputeRegionUrlMapConfig.builder()
 //  .defaultRouteAction(GoogleComputeRegionUrlMapDefaultRouteAction)
 //  .defaultService(java.lang.String)
 //  .defaultUrlRedirect(GoogleComputeRegionUrlMapDefaultUrlRedirect)
+//  .deletionPolicy(java.lang.String)
 //  .description(java.lang.String)
 //  .headerAction(GoogleComputeRegionUrlMapHeaderAction)
 //  .hostRule(IResolvable|java.util.List<GoogleComputeRegionUrlMapHostRule>)
@@ -1457,12 +1506,13 @@ GoogleComputeRegionUrlMapConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.defaultRouteAction">defaultRouteAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultRouteAction">GoogleComputeRegionUrlMapDefaultRouteAction</a></code> | default_route_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.defaultService">defaultService</a></code> | <code>java.lang.String</code> | The full or partial URL of the defaultService resource to which traffic is directed if none of the hostRules match. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.defaultUrlRedirect">defaultUrlRedirect</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapDefaultUrlRedirect">GoogleComputeRegionUrlMapDefaultUrlRedirect</a></code> | default_url_redirect block. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.description">description</a></code> | <code>java.lang.String</code> | An optional description of this resource. Provide this property when you create the resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.headerAction">headerAction</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHeaderAction">GoogleComputeRegionUrlMapHeaderAction</a></code> | header_action block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.hostRule">hostRule</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapHostRule">GoogleComputeRegionUrlMapHostRule</a>></code> | host_rule block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.pathMatcher">pathMatcher</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapPathMatcher">GoogleComputeRegionUrlMapPathMatcher</a>></code> | path_matcher block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.region">region</a></code> | <code>java.lang.String</code> | The Region in which the url map should reside. If it is not provided, the provider region is used. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.test">test</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTest">GoogleComputeRegionUrlMapTest</a>></code> | test block. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts">GoogleComputeRegionUrlMapTimeouts</a></code> | timeouts block. |
@@ -1557,7 +1607,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
 
 ---
 
@@ -1571,7 +1621,7 @@ public GoogleComputeRegionUrlMapDefaultRouteAction getDefaultRouteAction();
 
 default_route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
 
 ---
 
@@ -1592,7 +1642,7 @@ weightedBackendServices. Conversely, if routeAction specifies any
 weightedBackendServices, service must not be specified.  Only one of defaultService,
 defaultUrlRedirect or defaultRouteAction.weightedBackendService must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
 
 ---
 
@@ -1606,7 +1656,28 @@ public GoogleComputeRegionUrlMapDefaultUrlRedirect getDefaultUrlRedirect();
 
 default_url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
+
+---
+
+##### `deletionPolicy`<sup>Optional</sup> <a name="deletionPolicy" id="@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapConfig.property.deletionPolicy"></a>
+
+```java
+public java.lang.String getDeletionPolicy();
+```
+
+- *Type:* java.lang.String
+
+Whether Terraform will be prevented from destroying the instance.
+
+Defaults to "DELETE".
+When a 'terraform destroy' or 'terraform apply' would delete the instance,
+the command will fail if this field is set to "PREVENT" in Terraform state.
+When set to "ABANDON", the command will remove the resource from Terraform
+management without updating or deleting the resource in the API.
+When set to "DELETE", deleting the resource is allowed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#deletion_policy GoogleComputeRegionUrlMap#deletion_policy}
 
 ---
 
@@ -1620,7 +1691,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
 
 ---
 
@@ -1634,7 +1705,7 @@ public GoogleComputeRegionUrlMapHeaderAction getHeaderAction();
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -1648,7 +1719,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapHostRule> getHostRule
 
 host_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_rule GoogleComputeRegionUrlMap#host_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_rule GoogleComputeRegionUrlMap#host_rule}
 
 ---
 
@@ -1660,7 +1731,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#id GoogleComputeRegionUrlMap#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1677,7 +1748,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcher> getPathM
 
 path_matcher block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
 
 ---
 
@@ -1689,7 +1760,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#project GoogleComputeRegionUrlMap#project}.
 
 ---
 
@@ -1703,7 +1774,7 @@ public java.lang.String getRegion();
 
 The Region in which the url map should reside. If it is not provided, the provider region is used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#region GoogleComputeRegionUrlMap#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#region GoogleComputeRegionUrlMap#region}
 
 ---
 
@@ -1717,7 +1788,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapTest> getTest();
 
 test block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#test GoogleComputeRegionUrlMap#test}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#test GoogleComputeRegionUrlMap#test}
 
 ---
 
@@ -1731,7 +1802,7 @@ public GoogleComputeRegionUrlMapTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#timeouts GoogleComputeRegionUrlMap#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#timeouts GoogleComputeRegionUrlMap#timeouts}
 
 ---
 
@@ -1777,7 +1848,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionCorsPolicy getCorsPolicy();
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
 
 ---
 
@@ -1791,7 +1862,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicy getFaultI
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
 
 ---
 
@@ -1805,7 +1876,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionRequestMirrorPolicy getRequest
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
 
 ---
 
@@ -1819,7 +1890,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionRetryPolicy getRetryPolicy();
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
 
 ---
 
@@ -1833,7 +1904,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionTimeout getTimeout();
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
 
 ---
 
@@ -1847,7 +1918,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionUrlRewrite getUrlRewrite();
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
 
 ---
 
@@ -1861,7 +1932,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapDefaultRouteActionWei
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
 
 ---
 
@@ -1912,7 +1983,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This field translates to the Access-Control-Allow-Credentials header.
 Default is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
 
 ---
 
@@ -1926,7 +1997,7 @@ public java.util.List<java.lang.String> getAllowHeaders();
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
 
 ---
 
@@ -1940,7 +2011,7 @@ public java.util.List<java.lang.String> getAllowMethods();
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
 
 ---
 
@@ -1958,7 +2029,7 @@ For regular expression grammar
 please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
 
 ---
 
@@ -1974,7 +2045,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
 
 ---
 
@@ -1990,7 +2061,7 @@ If true, the setting specifies the CORS policy is disabled.
 
 The default value of false, which indicates that the CORS policy is in effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
 
 ---
 
@@ -2004,7 +2075,7 @@ public java.util.List<java.lang.String> getExposeHeaders();
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
 
 ---
 
@@ -2018,7 +2089,7 @@ public java.lang.Number getMaxAge();
 
 Specifies how long results of a preflight request can be cached in seconds. This translates to the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
 
 ---
 
@@ -2054,7 +2125,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyAbort getA
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
 
 ---
 
@@ -2068,7 +2139,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyDelay getD
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
 
 ---
 
@@ -2104,7 +2175,7 @@ public java.lang.Number getHttpStatus();
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
 
 ---
 
@@ -2120,7 +2191,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -2156,7 +2227,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionFaultInjectionPolicyDelayFixed
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
 
 ---
 
@@ -2172,7 +2243,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -2211,7 +2282,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -2228,7 +2299,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -2267,7 +2338,7 @@ The full or partial URL to the RegionBackendService resource being mirrored to.
 The backend service configured for a mirroring policy must reference backends that are of the same type as the original backend service matched in the URL map.
 Serverless NEG backends are not currently supported as a mirrored backend service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -2281,7 +2352,7 @@ public java.lang.Number getMirrorPercent();
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
 
 ---
 
@@ -2319,7 +2390,7 @@ public java.lang.Number getNumRetries();
 
 Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
 
 ---
 
@@ -2333,7 +2404,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionRetryPolicyPerTryTimeout getPe
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
 
 ---
 
@@ -2360,7 +2431,7 @@ Valid values are listed below. Only the following codes are supported when the U
 * resource-exhausted : a retry is attempted if the gRPC status code in the response header is set to resource-exhausted.
 * unavailable : a retry is attempted if the gRPC status code in the response header is set to unavailable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
 
 ---
 
@@ -2399,7 +2470,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -2416,7 +2487,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -2454,7 +2525,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 
 Durations less than one second are represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -2470,7 +2541,7 @@ Span of time at a resolution of a second.
 
 Must be from 0 to 315,576,000,000 inclusive. Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -2508,7 +2579,7 @@ Before forwarding the request to the selected service, the request's host header
 
 The value must be from 1 to 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
 
 ---
 
@@ -2524,7 +2595,7 @@ Before forwarding the request to the selected backend service, the matching port
 
 The value must be from 1 to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -2564,7 +2635,7 @@ The full or partial URL to the default BackendService resource.
 
 Before forwarding the request to backendService, the load balancer applies any relevant headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -2578,7 +2649,7 @@ public GoogleComputeRegionUrlMapDefaultRouteActionWeightedBackendServicesHeaderA
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -2595,7 +2666,7 @@ Specifies the fraction of traffic sent to a backend service, computed as weight 
 The selection of a backend service is determined only for new traffic. Once a user's request has been directed to a backend service, subsequent requests are sent to the same backend service as determined by the backend service's session affinity policy.
 The value must be from 0 to 1000.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
 
 ---
 
@@ -2635,7 +2706,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapDefaultRouteActionWei
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -2649,7 +2720,7 @@ public java.util.List<java.lang.String> getRequestHeadersToRemove();
 
 A list of header names for headers that need to be removed from the request before forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -2663,7 +2734,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapDefaultRouteActionWei
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -2677,7 +2748,7 @@ public java.util.List<java.lang.String> getResponseHeadersToRemove();
 
 A list of header names for headers that need to be removed from the response before sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -2715,7 +2786,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -2729,7 +2800,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -2746,7 +2817,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that were set for that header.
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -2784,7 +2855,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -2798,7 +2869,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -2815,7 +2886,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that were set for that header.
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -2863,7 +2934,7 @@ If set to false, the query portion of the original URL is
 retained.
 This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
 
 ---
 
@@ -2879,7 +2950,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
 
 ---
 
@@ -2898,7 +2969,7 @@ false, the URL scheme of the redirected request will remain the same as that of 
 request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
 true for TargetHttpsProxy is not permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
 
 ---
 
@@ -2917,7 +2988,7 @@ prefixRedirect. Supply one alone or neither. If neither is supplied, the path of
 original request will be used for the redirect. The value must be between 1 and 1024
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
 
 ---
 
@@ -2935,7 +3006,7 @@ prefixRedirect cannot be supplied together with pathRedirect. Supply one alone o
 neither. If neither is supplied, the path of the original request will be used for
 the redirect. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
 
 ---
 
@@ -2957,7 +3028,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
 
 ---
 
@@ -2997,7 +3068,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapHeaderActionRequestHe
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -3011,7 +3082,7 @@ public java.util.List<java.lang.String> getRequestHeadersToRemove();
 
 A list of header names for headers that need to be removed from the request before forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -3025,7 +3096,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapHeaderActionResponseH
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -3039,7 +3110,7 @@ public java.util.List<java.lang.String> getResponseHeadersToRemove();
 
 A list of header names for headers that need to be removed from the response before sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -3077,7 +3148,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -3091,7 +3162,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -3108,7 +3179,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that were set for that header.
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -3146,7 +3217,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -3160,7 +3231,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -3177,7 +3248,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that were set for that header.
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -3220,7 +3291,7 @@ hostnames, except * will match any string of ([a-z0-9-.]*). In
 that case, * must be the first character and must be followed in
 the pattern by either - or ..
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#hosts GoogleComputeRegionUrlMap#hosts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#hosts GoogleComputeRegionUrlMap#hosts}
 
 ---
 
@@ -3234,7 +3305,7 @@ public java.lang.String getPathMatcher();
 
 The name of the PathMatcher to use to match the path portion of the URL if the hostRule matches the URL's host portion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_matcher GoogleComputeRegionUrlMap#path_matcher}
 
 ---
 
@@ -3248,7 +3319,7 @@ public java.lang.String getDescription();
 
 An optional description of this HostRule. Provide this property when you create the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
 
 ---
 
@@ -3296,7 +3367,7 @@ public java.lang.String getName();
 
 The name to which this PathMatcher is referred by the HostRule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
 
 ---
 
@@ -3310,7 +3381,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteAction getDefaultRouteAct
 
 default_route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#default_route_action GoogleComputeRegionUrlMap#default_route_action}
 
 ---
 
@@ -3328,7 +3399,7 @@ This will be used if
 none of the pathRules defined by this PathMatcher is matched by
 the URL's path portion.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#default_service GoogleComputeRegionUrlMap#default_service}
 
 ---
 
@@ -3342,7 +3413,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultUrlRedirect getDefaultUrlRedir
 
 default_url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#default_url_redirect GoogleComputeRegionUrlMap#default_url_redirect}
 
 ---
 
@@ -3356,7 +3427,7 @@ public java.lang.String getDescription();
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
 
 ---
 
@@ -3370,7 +3441,7 @@ public GoogleComputeRegionUrlMapPathMatcherHeaderAction getHeaderAction();
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -3384,7 +3455,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherPathRule> 
 
 path_rule block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_rule GoogleComputeRegionUrlMap#path_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_rule GoogleComputeRegionUrlMap#path_rule}
 
 ---
 
@@ -3398,7 +3469,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 route_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#route_rules GoogleComputeRegionUrlMap#route_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#route_rules GoogleComputeRegionUrlMap#route_rules}
 
 ---
 
@@ -3446,7 +3517,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionCorsPolicy getCorsP
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
 
 ---
 
@@ -3460,7 +3531,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolic
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
 
 ---
 
@@ -3474,7 +3545,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionMaxStreamDuration g
 
 max_stream_duration block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#max_stream_duration GoogleComputeRegionUrlMap#max_stream_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#max_stream_duration GoogleComputeRegionUrlMap#max_stream_duration}
 
 ---
 
@@ -3488,7 +3559,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionRequestMirrorPolicy
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
 
 ---
 
@@ -3502,7 +3573,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionRetryPolicy getRetr
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
 
 ---
 
@@ -3516,7 +3587,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionTimeout getTimeout(
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
 
 ---
 
@@ -3530,7 +3601,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionUrlRewrite getUrlRe
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
 
 ---
 
@@ -3544,7 +3615,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherDefaultRou
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
 
 ---
 
@@ -3594,7 +3665,7 @@ In response to a preflight request, setting this to true indicates that the actu
 
 This translates to the Access-Control-Allow-Credentials header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
 
 ---
 
@@ -3608,7 +3679,7 @@ public java.util.List<java.lang.String> getAllowHeaders();
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
 
 ---
 
@@ -3622,7 +3693,7 @@ public java.util.List<java.lang.String> getAllowMethods();
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
 
 ---
 
@@ -3640,7 +3711,7 @@ For regular expression grammar
 please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
 
 ---
 
@@ -3656,7 +3727,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 
 An origin is allowed if it matches either an item in allowOrigins or an item in allowOriginRegexes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
 
 ---
 
@@ -3672,7 +3743,7 @@ If true, specifies the CORS policy is disabled.
 
 The default value is false, which indicates that the CORS policy is in effect.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
 
 ---
 
@@ -3686,7 +3757,7 @@ public java.util.List<java.lang.String> getExposeHeaders();
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
 
 ---
 
@@ -3700,7 +3771,7 @@ public java.lang.Number getMaxAge();
 
 Specifies how long results of a preflight request can be cached in seconds. This translates to the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
 
 ---
 
@@ -3736,7 +3807,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolic
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
 
 ---
 
@@ -3750,7 +3821,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolic
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
 
 ---
 
@@ -3786,7 +3857,7 @@ public java.lang.Number getHttpStatus();
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
 
 ---
 
@@ -3802,7 +3873,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -3838,7 +3909,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionFaultInjectionPolic
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
 
 ---
 
@@ -3854,7 +3925,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 
 The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -3893,7 +3964,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -3910,7 +3981,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -3949,7 +4020,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -3966,7 +4037,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -4002,7 +4073,7 @@ public java.lang.String getBackendService();
 
 The full or partial URL to the BackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -4016,7 +4087,7 @@ public java.lang.Number getMirrorPercent();
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
 
 ---
 
@@ -4054,7 +4125,7 @@ public java.lang.Number getNumRetries();
 
 Specifies the allowed number retries. This number must be > 0. If not specified, defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
 
 ---
 
@@ -4068,7 +4139,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionRetryPolicyPerTryTi
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
 
 ---
 
@@ -4097,7 +4168,7 @@ Specfies one or more conditions when this retry rule applies. Valid values are:.
 * resource-exhausted: Loadbalancer will retry if the gRPC status code in the response header is set to resource-exhausted
 * unavailable: Loadbalancer will retry if the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
 
 ---
 
@@ -4136,7 +4207,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are
 represented with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -4153,7 +4224,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -4192,7 +4263,7 @@ Span of time that's a fraction of a second at nanosecond resolution.
 Durations less than one second are represented
 with a 0 seconds field and a positive nanos field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -4209,7 +4280,7 @@ Span of time at a resolution of a second.
 Must be from 0 to 315,576,000,000 inclusive.
 Note: these bounds are computed from: 60 sec/min * 60 min/hr * 24 hr/day * 365.25 days/year * 10000 years
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -4249,7 +4320,7 @@ Prior to forwarding the request to the selected service, the request's host head
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
 
 ---
 
@@ -4265,7 +4336,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -4293,7 +4364,7 @@ At least one non-empty routeRules[].matchRules[].path_template_match is required
 
 Only one of pathPrefixRewrite or pathTemplateRewrite may be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_template_rewrite GoogleComputeRegionUrlMap#path_template_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_template_rewrite GoogleComputeRegionUrlMap#path_template_rewrite}
 
 ---
 
@@ -4335,7 +4406,7 @@ Before forwarding the
 request to backendService, the loadbalancer applies any relevant headerActions
 specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -4349,7 +4420,7 @@ public GoogleComputeRegionUrlMapPathMatcherDefaultRouteActionWeightedBackendServ
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -4369,7 +4440,7 @@ as determined by the BackendService's session affinity policy.
 
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
 
 ---
 
@@ -4409,7 +4480,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherDefaultRou
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -4423,7 +4494,7 @@ public java.util.List<java.lang.String> getRequestHeadersToRemove();
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -4437,7 +4508,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherDefaultRou
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -4451,7 +4522,7 @@ public java.util.List<java.lang.String> getResponseHeadersToRemove();
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -4489,7 +4560,7 @@ public java.lang.String getHeaderName();
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -4503,7 +4574,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -4519,7 +4590,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -4557,7 +4628,7 @@ public java.lang.String getHeaderName();
 
 The name of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -4571,7 +4642,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -4587,7 +4658,7 @@ If false, headerValue is appended to any values that already exist for the heade
 
 If true, headerValue is set for the header, discarding any values that were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -4635,7 +4706,7 @@ If set to false, the query portion of the original URL is
 retained.
 This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
 
 ---
 
@@ -4651,7 +4722,7 @@ The host that will be used in the redirect response instead of the one that was 
 
 The value must be between 1 and 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
 
 ---
 
@@ -4670,7 +4741,7 @@ false, the URL scheme of the redirected request will remain the same as that of 
 request. This must only be set for UrlMaps used in TargetHttpProxys. Setting this
 true for TargetHttpsProxy is not permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
 
 ---
 
@@ -4689,7 +4760,7 @@ prefixRedirect. Supply one alone or neither. If neither is supplied, the path of
 original request will be used for the redirect. The value must be between 1 and 1024
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
 
 ---
 
@@ -4707,7 +4778,7 @@ prefixRedirect cannot be supplied together with pathRedirect. Supply one alone o
 neither. If neither is supplied, the path of the original request will be used for
 the redirect. The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
 
 ---
 
@@ -4729,7 +4800,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
 
 ---
 
@@ -4769,7 +4840,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherHeaderActi
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -4783,7 +4854,7 @@ public java.util.List<java.lang.String> getRequestHeadersToRemove();
 
 A list of header names for headers that need to be removed from the request before forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -4797,7 +4868,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherHeaderActi
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -4811,7 +4882,7 @@ public java.util.List<java.lang.String> getResponseHeadersToRemove();
 
 A list of header names for headers that need to be removed from the response before sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -4849,7 +4920,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -4863,7 +4934,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -4880,7 +4951,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that were set for that header.
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -4918,7 +4989,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -4932,7 +5003,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -4949,7 +5020,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that were set for that header.
 The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -4994,7 +5065,7 @@ Each must start with / and the only place a
 does not include any text after the first ? or #, and those chars are not
 allowed here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#paths GoogleComputeRegionUrlMap#paths}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#paths GoogleComputeRegionUrlMap#paths}
 
 ---
 
@@ -5008,7 +5079,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteAction getRouteAction();
 
 route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#route_action GoogleComputeRegionUrlMap#route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#route_action GoogleComputeRegionUrlMap#route_action}
 
 ---
 
@@ -5029,7 +5100,7 @@ contain any weightedBackendService s. Conversely, if routeAction specifies any
 weightedBackendServices, service must not be specified. Only one of urlRedirect,
 service or routeAction.weightedBackendService must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
 
 ---
 
@@ -5043,7 +5114,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleUrlRedirect getUrlRedirect();
 
 url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#url_redirect GoogleComputeRegionUrlMap#url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#url_redirect GoogleComputeRegionUrlMap#url_redirect}
 
 ---
 
@@ -5089,7 +5160,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionCorsPolicy getCors
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
 
 ---
 
@@ -5103,7 +5174,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPoli
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
 
 ---
 
@@ -5117,7 +5188,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolic
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
 
 ---
 
@@ -5131,7 +5202,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionRetryPolicy getRet
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
 
 ---
 
@@ -5145,7 +5216,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionTimeout getTimeout
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
 
 ---
 
@@ -5159,7 +5230,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionUrlRewrite getUrlR
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
 
 ---
 
@@ -5173,7 +5244,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherPathRuleRo
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
 
 ---
 
@@ -5221,7 +5292,7 @@ public java.lang.Boolean|IResolvable getDisabled();
 
 If true, specifies the CORS policy is disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
 
 ---
 
@@ -5238,7 +5309,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This translates to the Access-
 Control-Allow-Credentials header. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
 
 ---
 
@@ -5252,7 +5323,7 @@ public java.util.List<java.lang.String> getAllowHeaders();
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
 
 ---
 
@@ -5266,7 +5337,7 @@ public java.util.List<java.lang.String> getAllowMethods();
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
 
 ---
 
@@ -5284,7 +5355,7 @@ For
 regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
 
 ---
 
@@ -5301,7 +5372,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 An
 origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
 
 ---
 
@@ -5315,7 +5386,7 @@ public java.util.List<java.lang.String> getExposeHeaders();
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
 
 ---
 
@@ -5332,7 +5403,7 @@ Specifies how long the results of a preflight request can be cached.
 This
 translates to the content for the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
 
 ---
 
@@ -5368,7 +5439,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPoli
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
 
 ---
 
@@ -5382,7 +5453,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPoli
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
 
 ---
 
@@ -5418,7 +5489,7 @@ public java.lang.Number getHttpStatus();
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
 
 ---
 
@@ -5435,7 +5506,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 The value must be between 0.0 and 100.0
 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -5471,7 +5542,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionFaultInjectionPoli
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
 
 ---
 
@@ -5488,7 +5559,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 The value must be between 0.0 and
 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -5524,7 +5595,7 @@ public java.lang.String getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -5542,7 +5613,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -5578,7 +5649,7 @@ public java.lang.String getBackendService();
 
 The RegionBackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -5592,7 +5663,7 @@ public java.lang.Number getMirrorPercent();
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
 
 ---
 
@@ -5630,7 +5701,7 @@ public java.lang.Number getNumRetries();
 
 Specifies the allowed number retries. This number must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
 
 ---
 
@@ -5644,7 +5715,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionRetryPolicyPerTryT
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
 
 ---
 
@@ -5679,7 +5750,7 @@ Specifies one or more conditions when this retry rule applies. Valid values are:
 * unavailable: Loadbalancer will retry if
   the gRPC status code in the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
 
 ---
 
@@ -5715,7 +5786,7 @@ public java.lang.String getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -5733,7 +5804,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -5769,7 +5840,7 @@ public java.lang.String getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -5787,7 +5858,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -5826,7 +5897,7 @@ Prior to forwarding the request to the selected service, the request's host head
 The value must be between 1 and
 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
 
 ---
 
@@ -5843,7 +5914,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 The value must
 be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -5885,7 +5956,7 @@ Before
 forwarding the request to backendService, the loadbalancer applies any relevant
 headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -5905,7 +5976,7 @@ been directed to a backendService, subsequent requests will be sent to the same
 backendService as determined by the BackendService's session affinity policy.
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
 
 ---
 
@@ -5919,7 +5990,7 @@ public GoogleComputeRegionUrlMapPathMatcherPathRuleRouteActionWeightedBackendSer
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -5959,7 +6030,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherPathRuleRo
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -5973,7 +6044,7 @@ public java.util.List<java.lang.String> getRequestHeadersToRemove();
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -5987,7 +6058,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherPathRuleRo
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -6001,7 +6072,7 @@ public java.util.List<java.lang.String> getResponseHeadersToRemove();
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -6039,7 +6110,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -6053,7 +6124,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -6070,7 +6141,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -6108,7 +6179,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -6122,7 +6193,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -6139,7 +6210,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -6187,7 +6258,7 @@ If set to false, the query portion of the
 original URL is retained.
 This field is required to ensure an empty block is not set. The normal default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
 
 ---
 
@@ -6204,7 +6275,7 @@ The host that will be used in the redirect response instead of the one that was 
 The value must be between 1 and 255
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
 
 ---
 
@@ -6223,7 +6294,7 @@ same as that of the request. This must only be set for UrlMaps used in
 TargetHttpProxys. Setting this true for TargetHttpsProxy is not
 permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
 
 ---
 
@@ -6242,7 +6313,7 @@ together with prefixRedirect. Supply one alone or neither. If neither is
 supplied, the path of the original request will be used for the redirect.
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
 
 ---
 
@@ -6261,7 +6332,7 @@ pathRedirect. Supply one alone or neither. If neither is supplied, the
 path of the original request will be used for the redirect. The value
 must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
 
 ---
 
@@ -6283,7 +6354,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
 
 ---
 
@@ -6342,7 +6413,7 @@ in the future without affecting the rest of the rules. For example,
 you could add rules numbered from 6 to 8, 10 to 11, and 13 to 15 in the
 future without any impact on existing rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#priority GoogleComputeRegionUrlMap#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#priority GoogleComputeRegionUrlMap#priority}
 
 ---
 
@@ -6356,7 +6427,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesHeaderAction getHeaderActio
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -6370,7 +6441,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 match_rules block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#match_rules GoogleComputeRegionUrlMap#match_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#match_rules GoogleComputeRegionUrlMap#match_rules}
 
 ---
 
@@ -6384,7 +6455,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteAction getRouteAction(
 
 route_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#route_action GoogleComputeRegionUrlMap#route_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#route_action GoogleComputeRegionUrlMap#route_action}
 
 ---
 
@@ -6405,7 +6476,7 @@ contain any weightedBackendService s. Conversely, if routeAction specifies any
 weightedBackendServices, service must not be specified. Only one of urlRedirect,
 service or routeAction.weightedBackendService must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
 
 ---
 
@@ -6419,7 +6490,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesUrlRedirect getUrlRedirect(
 
 url_redirect block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#url_redirect GoogleComputeRegionUrlMap#url_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#url_redirect GoogleComputeRegionUrlMap#url_redirect}
 
 ---
 
@@ -6459,7 +6530,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -6473,7 +6544,7 @@ public java.util.List<java.lang.String> getRequestHeadersToRemove();
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -6487,7 +6558,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -6501,7 +6572,7 @@ public java.util.List<java.lang.String> getResponseHeadersToRemove();
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -6539,7 +6610,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -6553,7 +6624,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -6570,7 +6641,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -6608,7 +6679,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -6622,7 +6693,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -6639,7 +6710,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -6691,7 +6762,7 @@ FullPathMatch must be between 1
 and 1024 characters. Only one of prefixMatch, fullPathMatch or regexMatch must
 be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#full_path_match GoogleComputeRegionUrlMap#full_path_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#full_path_match GoogleComputeRegionUrlMap#full_path_match}
 
 ---
 
@@ -6705,7 +6776,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 header_matches block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_matches GoogleComputeRegionUrlMap#header_matches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_matches GoogleComputeRegionUrlMap#header_matches}
 
 ---
 
@@ -6719,7 +6790,7 @@ public java.lang.Boolean|IResolvable getIgnoreCase();
 
 Specifies that prefixMatch and fullPathMatch matches are case sensitive. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#ignore_case GoogleComputeRegionUrlMap#ignore_case}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#ignore_case GoogleComputeRegionUrlMap#ignore_case}
 
 ---
 
@@ -6733,7 +6804,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 metadata_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#metadata_filters GoogleComputeRegionUrlMap#metadata_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#metadata_filters GoogleComputeRegionUrlMap#metadata_filters}
 
 ---
 
@@ -6752,7 +6823,7 @@ pathTemplateMatch must be between 1 and 255 characters
 have at most 5 wildcard operators and at most 5 variable
 captures in total.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_template_match GoogleComputeRegionUrlMap#path_template_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_template_match GoogleComputeRegionUrlMap#path_template_match}
 
 ---
 
@@ -6770,7 +6841,7 @@ prefixMatch must begin with a /. The value must be
 between 1 and 1024 characters. Only one of prefixMatch, fullPathMatch or
 regexMatch must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#prefix_match GoogleComputeRegionUrlMap#prefix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#prefix_match GoogleComputeRegionUrlMap#prefix_match}
 
 ---
 
@@ -6784,7 +6855,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 query_parameter_matches block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#query_parameter_matches GoogleComputeRegionUrlMap#query_parameter_matches}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#query_parameter_matches GoogleComputeRegionUrlMap#query_parameter_matches}
 
 ---
 
@@ -6802,7 +6873,7 @@ For regular expression grammar please
 see en.cppreference.com/w/cpp/regex/ecmascript  Only one of prefixMatch,
 fullPathMatch or regexMatch must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
 
 ---
 
@@ -6854,7 +6925,7 @@ For matching against the HTTP request's
 authority, use a headerMatch with the header name ":authority". For matching a
 request's method, use the headerName ":method".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -6871,7 +6942,7 @@ The value should exactly match contents of exactMatch.
 Only one of exactMatch,
 prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#exact_match GoogleComputeRegionUrlMap#exact_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#exact_match GoogleComputeRegionUrlMap#exact_match}
 
 ---
 
@@ -6888,7 +6959,7 @@ If set to false, the headerMatch is considered a match if the match criteria abo
 If set to true, the headerMatch is considered a match if the
 match criteria above are NOT met. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#invert_match GoogleComputeRegionUrlMap#invert_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#invert_match GoogleComputeRegionUrlMap#invert_match}
 
 ---
 
@@ -6906,7 +6977,7 @@ Only one of
 exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#prefix_match GoogleComputeRegionUrlMap#prefix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#prefix_match GoogleComputeRegionUrlMap#prefix_match}
 
 ---
 
@@ -6924,7 +6995,7 @@ The match takes place
 whether or not the request's header has a value or not. Only one of exactMatch,
 prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#present_match GoogleComputeRegionUrlMap#present_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#present_match GoogleComputeRegionUrlMap#present_match}
 
 ---
 
@@ -6938,7 +7009,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesMatchRulesHeaderMatchesRang
 
 range_match block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#range_match GoogleComputeRegionUrlMap#range_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#range_match GoogleComputeRegionUrlMap#range_match}
 
 ---
 
@@ -6959,7 +7030,7 @@ a regular expression that satisfies the RFC2616 Host header's port specifier.
 Only one of exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or
 rangeMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
 
 ---
 
@@ -6977,7 +7048,7 @@ Only one of
 exactMatch, prefixMatch, suffixMatch, regexMatch, presentMatch or rangeMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#suffix_match GoogleComputeRegionUrlMap#suffix_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#suffix_match GoogleComputeRegionUrlMap#suffix_match}
 
 ---
 
@@ -7013,7 +7084,7 @@ public java.lang.Number getRangeEnd();
 
 The end of the range (exclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#range_end GoogleComputeRegionUrlMap#range_end}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#range_end GoogleComputeRegionUrlMap#range_end}
 
 ---
 
@@ -7027,7 +7098,7 @@ public java.lang.Number getRangeStart();
 
 The start of the range (inclusive).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#range_start GoogleComputeRegionUrlMap#range_start}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#range_start GoogleComputeRegionUrlMap#range_start}
 
 ---
 
@@ -7063,7 +7134,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 filter_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#filter_labels GoogleComputeRegionUrlMap#filter_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#filter_labels GoogleComputeRegionUrlMap#filter_labels}
 
 ---
 
@@ -7082,7 +7153,7 @@ Specifies how individual filterLabel matches within the list of filterLabels con
 * MATCH_ALL: All filterLabels must have matching labels in
   the provided metadata. Possible values: ["MATCH_ALL", "MATCH_ANY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#filter_match_criteria GoogleComputeRegionUrlMap#filter_match_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#filter_match_criteria GoogleComputeRegionUrlMap#filter_match_criteria}
 
 ---
 
@@ -7121,7 +7192,7 @@ Name of metadata label.
 The name can have a maximum length of 1024 characters
 and must be at least 1 character long.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
 
 ---
 
@@ -7135,7 +7206,7 @@ public java.lang.String getValue();
 
 The value of the label must match the specified value. value can have a maximum length of 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#value GoogleComputeRegionUrlMap#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#value GoogleComputeRegionUrlMap#value}
 
 ---
 
@@ -7178,7 +7249,7 @@ The name of the query parameter to match.
 The query parameter must exist in the
 request, in the absence of which the request match fails.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#name GoogleComputeRegionUrlMap#name}
 
 ---
 
@@ -7195,7 +7266,7 @@ The queryParameterMatch matches if the value of the parameter exactly matches th
 Only one of presentMatch, exactMatch and regexMatch
 must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#exact_match GoogleComputeRegionUrlMap#exact_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#exact_match GoogleComputeRegionUrlMap#exact_match}
 
 ---
 
@@ -7212,7 +7283,7 @@ Specifies that the queryParameterMatch matches if the request contains the query
 Only one of
 presentMatch, exactMatch and regexMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#present_match GoogleComputeRegionUrlMap#present_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#present_match GoogleComputeRegionUrlMap#present_match}
 
 ---
 
@@ -7230,7 +7301,7 @@ For the regular expression grammar,
 please see en.cppreference.com/w/cpp/regex/ecmascript  Only one of presentMatch,
 exactMatch and regexMatch must be set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#regex_match GoogleComputeRegionUrlMap#regex_match}
 
 ---
 
@@ -7276,7 +7347,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionCorsPolicy getCo
 
 cors_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#cors_policy GoogleComputeRegionUrlMap#cors_policy}
 
 ---
 
@@ -7290,7 +7361,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPo
 
 fault_injection_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#fault_injection_policy GoogleComputeRegionUrlMap#fault_injection_policy}
 
 ---
 
@@ -7304,7 +7375,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPol
 
 request_mirror_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_mirror_policy GoogleComputeRegionUrlMap#request_mirror_policy}
 
 ---
 
@@ -7318,7 +7389,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionRetryPolicy getR
 
 retry_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#retry_policy GoogleComputeRegionUrlMap#retry_policy}
 
 ---
 
@@ -7332,7 +7403,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionTimeout getTimeo
 
 timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#timeout GoogleComputeRegionUrlMap#timeout}
 
 ---
 
@@ -7346,7 +7417,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewrite getUr
 
 url_rewrite block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#url_rewrite GoogleComputeRegionUrlMap#url_rewrite}
 
 ---
 
@@ -7360,7 +7431,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 weighted_backend_services block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#weighted_backend_services GoogleComputeRegionUrlMap#weighted_backend_services}
 
 ---
 
@@ -7411,7 +7482,7 @@ In response to a preflight request, setting this to true indicates that the actu
 This translates to the Access-
 Control-Allow-Credentials header. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_credentials GoogleComputeRegionUrlMap#allow_credentials}
 
 ---
 
@@ -7425,7 +7496,7 @@ public java.util.List<java.lang.String> getAllowHeaders();
 
 Specifies the content for the Access-Control-Allow-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_headers GoogleComputeRegionUrlMap#allow_headers}
 
 ---
 
@@ -7439,7 +7510,7 @@ public java.util.List<java.lang.String> getAllowMethods();
 
 Specifies the content for the Access-Control-Allow-Methods header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_methods GoogleComputeRegionUrlMap#allow_methods}
 
 ---
 
@@ -7457,7 +7528,7 @@ For
 regular expression grammar please see en.cppreference.com/w/cpp/regex/ecmascript
 An origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_origin_regexes GoogleComputeRegionUrlMap#allow_origin_regexes}
 
 ---
 
@@ -7474,7 +7545,7 @@ Specifies the list of origins that will be allowed to do CORS requests.
 An
 origin is allowed if it matches either allow_origins or allow_origin_regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#allow_origins GoogleComputeRegionUrlMap#allow_origins}
 
 ---
 
@@ -7488,7 +7559,7 @@ public java.lang.Boolean|IResolvable getDisabled();
 
 If true, specifies the CORS policy is disabled. which indicates that the CORS policy is in effect. Defaults to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#disabled GoogleComputeRegionUrlMap#disabled}
 
 ---
 
@@ -7502,7 +7573,7 @@ public java.util.List<java.lang.String> getExposeHeaders();
 
 Specifies the content for the Access-Control-Expose-Headers header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#expose_headers GoogleComputeRegionUrlMap#expose_headers}
 
 ---
 
@@ -7519,7 +7590,7 @@ Specifies how long the results of a preflight request can be cached.
 This
 translates to the content for the Access-Control-Max-Age header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#max_age GoogleComputeRegionUrlMap#max_age}
 
 ---
 
@@ -7555,7 +7626,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPo
 
 abort block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#abort GoogleComputeRegionUrlMap#abort}
 
 ---
 
@@ -7569,7 +7640,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPo
 
 delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#delay GoogleComputeRegionUrlMap#delay}
 
 ---
 
@@ -7605,7 +7676,7 @@ public java.lang.Number getHttpStatus();
 
 The HTTP status code used to abort the request. The value must be between 200 and 599 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#http_status GoogleComputeRegionUrlMap#http_status}
 
 ---
 
@@ -7622,7 +7693,7 @@ The percentage of traffic (connections/operations/requests) which will be aborte
 The value must be between 0.0 and 100.0
 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -7658,7 +7729,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPo
 
 fixed_delay block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#fixed_delay GoogleComputeRegionUrlMap#fixed_delay}
 
 ---
 
@@ -7675,7 +7746,7 @@ The percentage of traffic (connections/operations/requests) on which delay will 
 The value must be between 0.0 and
 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#percentage GoogleComputeRegionUrlMap#percentage}
 
 ---
 
@@ -7711,7 +7782,7 @@ public java.lang.String getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -7729,7 +7800,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -7765,7 +7836,7 @@ public java.lang.String getBackendService();
 
 The RegionBackendService resource being mirrored to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -7779,7 +7850,7 @@ public java.lang.Number getMirrorPercent();
 
 The percentage of requests to be mirrored to backendService. The value must be between 0.0 and 100.0 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#mirror_percent GoogleComputeRegionUrlMap#mirror_percent}
 
 ---
 
@@ -7817,7 +7888,7 @@ public java.lang.Number getNumRetries();
 
 Specifies the allowed number retries. This number must be > 0.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#num_retries GoogleComputeRegionUrlMap#num_retries}
 
 ---
 
@@ -7831,7 +7902,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionRetryPolicyPerTr
 
 per_try_timeout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#per_try_timeout GoogleComputeRegionUrlMap#per_try_timeout}
 
 ---
 
@@ -7866,7 +7937,7 @@ Specifies one or more conditions when this retry rule applies. Valid values are:
 * unavailable: Loadbalancer will retry if the gRPC status code in
   the response header is set to unavailable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#retry_conditions GoogleComputeRegionUrlMap#retry_conditions}
 
 ---
 
@@ -7902,7 +7973,7 @@ public java.lang.String getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -7920,7 +7991,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -7956,7 +8027,7 @@ public java.lang.String getSeconds();
 
 Span of time at a resolution of a second. Must be from 0 to 315,576,000,000 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#seconds GoogleComputeRegionUrlMap#seconds}
 
 ---
 
@@ -7974,7 +8045,7 @@ Durations
 less than one second are represented with a 0 'seconds' field and a positive
 'nanos' field. Must be from 0 to 999,999,999 inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#nanos GoogleComputeRegionUrlMap#nanos}
 
 ---
 
@@ -8015,7 +8086,7 @@ Prior to forwarding the request to the selected service, the request's host head
 The value must be between 1 and
 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_rewrite GoogleComputeRegionUrlMap#host_rewrite}
 
 ---
 
@@ -8032,7 +8103,7 @@ Prior to forwarding the request to the selected backend service, the matching po
 The value must
 be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_prefix_rewrite GoogleComputeRegionUrlMap#path_prefix_rewrite}
 
 ---
 
@@ -8056,7 +8127,7 @@ MatchRules specify pathTemplate.
 Only one of pathPrefixRewrite and pathTemplateRewrite may be
 specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_template_rewrite GoogleComputeRegionUrlMap#path_template_rewrite}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_template_rewrite GoogleComputeRegionUrlMap#path_template_rewrite}
 
 ---
 
@@ -8098,7 +8169,7 @@ Before
 forwarding the request to backendService, the loadbalancer applies any relevant
 headerActions specified as part of this backendServiceWeight.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#backend_service GoogleComputeRegionUrlMap#backend_service}
 
 ---
 
@@ -8118,7 +8189,7 @@ been directed to a backendService, subsequent requests will be sent to the same
 backendService as determined by the BackendService's session affinity policy.
 The value must be between 0 and 1000
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#weight GoogleComputeRegionUrlMap#weight}
 
 ---
 
@@ -8132,7 +8203,7 @@ public GoogleComputeRegionUrlMapPathMatcherRouteRulesRouteActionWeightedBackendS
 
 header_action block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_action GoogleComputeRegionUrlMap#header_action}
 
 ---
 
@@ -8172,7 +8243,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 request_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_add GoogleComputeRegionUrlMap#request_headers_to_add}
 
 ---
 
@@ -8186,7 +8257,7 @@ public java.util.List<java.lang.String> getRequestHeadersToRemove();
 
 A list of header names for headers that need to be removed from the request prior to forwarding the request to the backendService.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#request_headers_to_remove GoogleComputeRegionUrlMap#request_headers_to_remove}
 
 ---
 
@@ -8200,7 +8271,7 @@ public IResolvable|java.util.List<GoogleComputeRegionUrlMapPathMatcherRouteRules
 
 response_headers_to_add block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_add GoogleComputeRegionUrlMap#response_headers_to_add}
 
 ---
 
@@ -8214,7 +8285,7 @@ public java.util.List<java.lang.String> getResponseHeadersToRemove();
 
 A list of header names for headers that need to be removed from the response prior to sending the response back to the client.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#response_headers_to_remove GoogleComputeRegionUrlMap#response_headers_to_remove}
 
 ---
 
@@ -8252,7 +8323,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -8266,7 +8337,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -8283,7 +8354,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -8321,7 +8392,7 @@ public java.lang.String getHeaderName();
 
 The name of the header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_name GoogleComputeRegionUrlMap#header_name}
 
 ---
 
@@ -8335,7 +8406,7 @@ public java.lang.String getHeaderValue();
 
 The value of the header to add.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#header_value GoogleComputeRegionUrlMap#header_value}
 
 ---
 
@@ -8352,7 +8423,7 @@ If false, headerValue is appended to any values that already exist for the heade
 If true, headerValue is set for the header, discarding any values that
 were set for that header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#replace GoogleComputeRegionUrlMap#replace}
 
 ---
 
@@ -8399,7 +8470,7 @@ The host that will be used in the redirect response instead of the one that was 
 The value must be between 1 and 255
 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host_redirect GoogleComputeRegionUrlMap#host_redirect}
 
 ---
 
@@ -8418,7 +8489,7 @@ same as that of the request. This must only be set for UrlMaps used in
 TargetHttpProxys. Setting this true for TargetHttpsProxy is not
 permitted. The default is set to false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#https_redirect GoogleComputeRegionUrlMap#https_redirect}
 
 ---
 
@@ -8437,7 +8508,7 @@ together with prefixRedirect. Supply one alone or neither. If neither is
 supplied, the path of the original request will be used for the redirect.
 The value must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path_redirect GoogleComputeRegionUrlMap#path_redirect}
 
 ---
 
@@ -8456,7 +8527,7 @@ pathRedirect. Supply one alone or neither. If neither is supplied, the
 path of the original request will be used for the redirect. The value
 must be between 1 and 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#prefix_redirect GoogleComputeRegionUrlMap#prefix_redirect}
 
 ---
 
@@ -8478,7 +8549,7 @@ The HTTP Status code to use for this RedirectAction. Supported values are:.
 * PERMANENT_REDIRECT, which corresponds to 308. In this case,
   the request method will be retained. Possible values: ["FOUND", "MOVED_PERMANENTLY_DEFAULT", "PERMANENT_REDIRECT", "SEE_OTHER", "TEMPORARY_REDIRECT"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#redirect_response_code GoogleComputeRegionUrlMap#redirect_response_code}
 
 ---
 
@@ -8495,7 +8566,7 @@ If set to true, any accompanying query portion of the original URL is removed pr
 If set to false, the query
 portion of the original URL is retained. The default value is false.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#strip_query GoogleComputeRegionUrlMap#strip_query}
 
 ---
 
@@ -8535,7 +8606,7 @@ public java.lang.String getHost();
 
 Host portion of the URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#host GoogleComputeRegionUrlMap#host}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#host GoogleComputeRegionUrlMap#host}
 
 ---
 
@@ -8549,7 +8620,7 @@ public java.lang.String getPath();
 
 Path portion of the URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#path GoogleComputeRegionUrlMap#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#path GoogleComputeRegionUrlMap#path}
 
 ---
 
@@ -8563,7 +8634,7 @@ public java.lang.String getService();
 
 A reference to expected RegionBackendService resource the given URL should be mapped to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#service GoogleComputeRegionUrlMap#service}
 
 ---
 
@@ -8577,7 +8648,7 @@ public java.lang.String getDescription();
 
 Description of this test case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#description GoogleComputeRegionUrlMap#description}
 
 ---
 
@@ -8599,9 +8670,9 @@ GoogleComputeRegionUrlMapTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#create GoogleComputeRegionUrlMap#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#delete GoogleComputeRegionUrlMap#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#update GoogleComputeRegionUrlMap#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#create GoogleComputeRegionUrlMap#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#delete GoogleComputeRegionUrlMap#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionUrlMap.GoogleComputeRegionUrlMapTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#update GoogleComputeRegionUrlMap#update}. |
 
 ---
 
@@ -8613,7 +8684,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#create GoogleComputeRegionUrlMap#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#create GoogleComputeRegionUrlMap#create}.
 
 ---
 
@@ -8625,7 +8696,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#delete GoogleComputeRegionUrlMap#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#delete GoogleComputeRegionUrlMap#delete}.
 
 ---
 
@@ -8637,7 +8708,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_compute_region_url_map#update GoogleComputeRegionUrlMap#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_region_url_map#update GoogleComputeRegionUrlMap#update}.
 
 ---
 

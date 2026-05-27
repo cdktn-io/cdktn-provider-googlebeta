@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,9 +16,21 @@ export interface GoogleMemcacheInstanceConfig extends cdktn.TerraformMetaArgumen
   * The full name of the GCE network to connect the instance to.  If not provided,
   * 'default' will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#authorized_network GoogleMemcacheInstance#authorized_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#authorized_network GoogleMemcacheInstance#authorized_network}
   */
   readonly authorizedNetwork?: string;
+  /**
+  * Whether Terraform will be prevented from destroying the instance. Defaults to "DELETE".
+  * When a 'terraform destroy' or 'terraform apply' would delete the instance,
+  * the command will fail if this field is set to "PREVENT" in Terraform state.
+  * When set to "ABANDON", the command will remove the resource from Terraform
+  * management without updating or deleting the resource in the API.
+  * When set to "DELETE", deleting the resource is allowed.
+  * 
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#deletion_policy GoogleMemcacheInstance#deletion_policy}
+  */
+  readonly deletionPolicy?: string;
   /**
   * Whether Terraform will be prevented from destroying the instance.
   * When a 'terraform destroy' or 'terraform apply' would delete the instance,
@@ -27,17 +39,17 @@ export interface GoogleMemcacheInstanceConfig extends cdktn.TerraformMetaArgumen
   * or 'terraform destroy' that would delete the instance will fail.
   * When the field is set to false, deleting the instance is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#deletion_protection GoogleMemcacheInstance#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#deletion_protection GoogleMemcacheInstance#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * A user-visible name for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#display_name GoogleMemcacheInstance#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#display_name GoogleMemcacheInstance#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#id GoogleMemcacheInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +62,7 @@ export interface GoogleMemcacheInstanceConfig extends cdktn.TerraformMetaArgumen
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#labels GoogleMemcacheInstance#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#labels GoogleMemcacheInstance#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -58,29 +70,29 @@ export interface GoogleMemcacheInstanceConfig extends cdktn.TerraformMetaArgumen
   * Currently the latest supported major version is MEMCACHE_1_5. The minor version will be automatically
   * determined by our system based on the latest supported minor version. Default value: "MEMCACHE_1_5" Possible values: ["MEMCACHE_1_5", "MEMCACHE_1_6_15"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#memcache_version GoogleMemcacheInstance#memcache_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#memcache_version GoogleMemcacheInstance#memcache_version}
   */
   readonly memcacheVersion?: string;
   /**
   * The resource name of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#name GoogleMemcacheInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#name GoogleMemcacheInstance#name}
   */
   readonly name: string;
   /**
   * Number of nodes in the memcache instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#node_count GoogleMemcacheInstance#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#node_count GoogleMemcacheInstance#node_count}
   */
   readonly nodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#project GoogleMemcacheInstance#project}
   */
   readonly project?: string;
   /**
   * The region of the Memcache instance. If it is not provided, the provider region is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#region GoogleMemcacheInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#region GoogleMemcacheInstance#region}
   */
   readonly region?: string;
   /**
@@ -88,38 +100,38 @@ export interface GoogleMemcacheInstanceConfig extends cdktn.TerraformMetaArgumen
   * the private service access connection for example, "test-default"
   * associated with IP range 10.0.0.0/29.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#reserved_ip_range_id GoogleMemcacheInstance#reserved_ip_range_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#reserved_ip_range_id GoogleMemcacheInstance#reserved_ip_range_id}
   */
   readonly reservedIpRangeId?: string[];
   /**
   * Zones where memcache nodes should be provisioned.  If not
   * provided, all zones will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#zones GoogleMemcacheInstance#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#zones GoogleMemcacheInstance#zones}
   */
   readonly zones?: string[];
   /**
   * maintenance_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#maintenance_policy GoogleMemcacheInstance#maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#maintenance_policy GoogleMemcacheInstance#maintenance_policy}
   */
   readonly maintenancePolicy?: GoogleMemcacheInstanceMaintenancePolicy;
   /**
   * memcache_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#memcache_parameters GoogleMemcacheInstance#memcache_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#memcache_parameters GoogleMemcacheInstance#memcache_parameters}
   */
   readonly memcacheParameters?: GoogleMemcacheInstanceMemcacheParameters;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#node_config GoogleMemcacheInstance#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#node_config GoogleMemcacheInstance#node_config}
   */
   readonly nodeConfig: GoogleMemcacheInstanceNodeConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#timeouts GoogleMemcacheInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#timeouts GoogleMemcacheInstance#timeouts}
   */
   readonly timeouts?: GoogleMemcacheInstanceTimeouts;
 }
@@ -198,7 +210,7 @@ export class GoogleMemcacheInstanceMaintenanceScheduleList extends cdktn.Complex
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -293,7 +305,7 @@ export class GoogleMemcacheInstanceMemcacheNodesList extends cdktn.ComplexList {
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -308,26 +320,26 @@ export interface GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowS
   * Hours of day in 24 hour format. Should be from 0 to 23.
   * An API may choose to allow the value "24:00:00" for scenarios like business closing time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#hours GoogleMemcacheInstance#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#hours GoogleMemcacheInstance#hours}
   */
   readonly hours?: number;
   /**
   * Minutes of hour of day. Must be from 0 to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#minutes GoogleMemcacheInstance#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#minutes GoogleMemcacheInstance#minutes}
   */
   readonly minutes?: number;
   /**
   * Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#nanos GoogleMemcacheInstance#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#nanos GoogleMemcacheInstance#nanos}
   */
   readonly nanos?: number;
   /**
   * Seconds of minutes of the time. Must normally be from 0 to 59.
   * An API may allow the value 60 if it allows leap-seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#seconds GoogleMemcacheInstance#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#seconds GoogleMemcacheInstance#seconds}
   */
   readonly seconds?: number;
 }
@@ -508,7 +520,7 @@ export interface GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindow 
   * - SATURDAY: Saturday
   * - SUNDAY: Sunday Possible values: ["DAY_OF_WEEK_UNSPECIFIED", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#day GoogleMemcacheInstance#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#day GoogleMemcacheInstance#day}
   */
   readonly day: string;
   /**
@@ -516,13 +528,13 @@ export interface GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindow 
   * A duration in seconds with up to nine fractional digits,
   * terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#duration GoogleMemcacheInstance#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#duration GoogleMemcacheInstance#duration}
   */
   readonly duration: string;
   /**
   * start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#start_time GoogleMemcacheInstance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#start_time GoogleMemcacheInstance#start_time}
   */
   readonly startTime: GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowStartTime;
 }
@@ -675,7 +687,7 @@ export class GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindowList 
   * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
   constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
-    super(terraformResource, terraformAttribute, wrapsSet)
+    super(terraformResource, terraformAttribute, wrapsSet);
   }
 
   /**
@@ -691,13 +703,13 @@ export interface GoogleMemcacheInstanceMaintenancePolicy {
   * Create/Update methods return INVALID_ARGUMENT if the
   * length is greater than 512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#description GoogleMemcacheInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#description GoogleMemcacheInstance#description}
   */
   readonly description?: string;
   /**
   * weekly_maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#weekly_maintenance_window GoogleMemcacheInstance#weekly_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#weekly_maintenance_window GoogleMemcacheInstance#weekly_maintenance_window}
   */
   readonly weeklyMaintenanceWindow: GoogleMemcacheInstanceMaintenancePolicyWeeklyMaintenanceWindow[] | cdktn.IResolvable;
 }
@@ -819,7 +831,7 @@ export interface GoogleMemcacheInstanceMemcacheParameters {
   /**
   * User-defined set of parameters to use in the memcache process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#params GoogleMemcacheInstance#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#params GoogleMemcacheInstance#params}
   */
   readonly params?: { [key: string]: string };
 }
@@ -910,13 +922,13 @@ export interface GoogleMemcacheInstanceNodeConfig {
   /**
   * Number of CPUs per node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#cpu_count GoogleMemcacheInstance#cpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#cpu_count GoogleMemcacheInstance#cpu_count}
   */
   readonly cpuCount: number;
   /**
   * Memory size in Mebibytes for each memcache node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#memory_size_mb GoogleMemcacheInstance#memory_size_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#memory_size_mb GoogleMemcacheInstance#memory_size_mb}
   */
   readonly memorySizeMb: number;
 }
@@ -1023,15 +1035,15 @@ export class GoogleMemcacheInstanceNodeConfigOutputReference extends cdktn.Compl
 }
 export interface GoogleMemcacheInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#create GoogleMemcacheInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#create GoogleMemcacheInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#delete GoogleMemcacheInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#delete GoogleMemcacheInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#update GoogleMemcacheInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#update GoogleMemcacheInstance#update}
   */
   readonly update?: string;
 }
@@ -1183,7 +1195,7 @@ export class GoogleMemcacheInstanceTimeoutsOutputReference extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance google_memcache_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance google_memcache_instance}
 */
 export class GoogleMemcacheInstance extends cdktn.TerraformResource {
 
@@ -1199,7 +1211,7 @@ export class GoogleMemcacheInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleMemcacheInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleMemcacheInstance to import
-  * @param importFromId The id of the existing GoogleMemcacheInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleMemcacheInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleMemcacheInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1211,7 +1223,7 @@ export class GoogleMemcacheInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.32.0/docs/resources/google_memcache_instance google_memcache_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_memcache_instance google_memcache_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1222,7 +1234,7 @@ export class GoogleMemcacheInstance extends cdktn.TerraformResource {
       terraformResourceType: 'google_memcache_instance',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.32.0',
+        providerVersion: '7.33.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -1234,6 +1246,7 @@ export class GoogleMemcacheInstance extends cdktn.TerraformResource {
       forEach: config.forEach
     });
     this._authorizedNetwork = config.authorizedNetwork;
+    this._deletionPolicy = config.deletionPolicy;
     this._deletionProtection = config.deletionProtection;
     this._displayName = config.displayName;
     this._id = config.id;
@@ -1274,6 +1287,22 @@ export class GoogleMemcacheInstance extends cdktn.TerraformResource {
   // create_time - computed: true, optional: false, required: false
   public get createTime() {
     return this.getStringAttribute('create_time');
+  }
+
+  // deletion_policy - computed: true, optional: true, required: false
+  private _deletionPolicy?: string; 
+  public get deletionPolicy() {
+    return this.getStringAttribute('deletion_policy');
+  }
+  public set deletionPolicy(value: string) {
+    this._deletionPolicy = value;
+  }
+  public resetDeletionPolicy() {
+    this._deletionPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deletionPolicyInput() {
+    return this._deletionPolicy;
   }
 
   // deletion_protection - computed: false, optional: true, required: false
@@ -1548,6 +1577,7 @@ export class GoogleMemcacheInstance extends cdktn.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       authorized_network: cdktn.stringToTerraform(this._authorizedNetwork),
+      deletion_policy: cdktn.stringToTerraform(this._deletionPolicy),
       deletion_protection: cdktn.booleanToTerraform(this._deletionProtection),
       display_name: cdktn.stringToTerraform(this._displayName),
       id: cdktn.stringToTerraform(this._id),
@@ -1570,6 +1600,12 @@ export class GoogleMemcacheInstance extends cdktn.TerraformResource {
     const attrs = {
       authorized_network: {
         value: cdktn.stringToHclTerraform(this._authorizedNetwork),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      deletion_policy: {
+        value: cdktn.stringToHclTerraform(this._deletionPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
