@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleNetworkServicesMeshConfig extends cdktn.TerraformMetaArgu
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#deletion_policy GoogleNetworkServicesMesh#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#deletion_policy GoogleNetworkServicesMesh#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A free-text description of the resource. Max length 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#description GoogleNetworkServicesMesh#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#description GoogleNetworkServicesMesh#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#id GoogleNetworkServicesMesh#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#id GoogleNetworkServicesMesh#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ export interface GoogleNetworkServicesMeshConfig extends cdktn.TerraformMetaArgu
   * '15001' is used as the interception port. This will is applicable only for sidecar proxy
   * deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#interception_port GoogleNetworkServicesMesh#interception_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#interception_port GoogleNetworkServicesMesh#interception_port}
   */
   readonly interceptionPort?: number;
   /**
@@ -53,43 +53,43 @@ export interface GoogleNetworkServicesMeshConfig extends cdktn.TerraformMetaArgu
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#labels GoogleNetworkServicesMesh#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#labels GoogleNetworkServicesMesh#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Location (region) of the Mesh resource to be created. Only the value 'global' is currently allowed; defaults to 'global' if omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#location GoogleNetworkServicesMesh#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#location GoogleNetworkServicesMesh#location}
   */
   readonly location?: string;
   /**
   * Short name of the Mesh resource to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#name GoogleNetworkServicesMesh#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#name GoogleNetworkServicesMesh#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#project GoogleNetworkServicesMesh#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#project GoogleNetworkServicesMesh#project}
   */
   readonly project?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#timeouts GoogleNetworkServicesMesh#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#timeouts GoogleNetworkServicesMesh#timeouts}
   */
   readonly timeouts?: GoogleNetworkServicesMeshTimeouts;
 }
 export interface GoogleNetworkServicesMeshTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#create GoogleNetworkServicesMesh#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#create GoogleNetworkServicesMesh#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#delete GoogleNetworkServicesMesh#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#delete GoogleNetworkServicesMesh#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#update GoogleNetworkServicesMesh#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#update GoogleNetworkServicesMesh#update}
   */
   readonly update?: string;
 }
@@ -241,7 +241,7 @@ export class GoogleNetworkServicesMeshTimeoutsOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh google_network_services_mesh}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh google_network_services_mesh}
 */
 export class GoogleNetworkServicesMesh extends cdktn.TerraformResource {
 
@@ -257,7 +257,7 @@ export class GoogleNetworkServicesMesh extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleNetworkServicesMesh resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkServicesMesh to import
-  * @param importFromId The id of the existing GoogleNetworkServicesMesh that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkServicesMesh that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkServicesMesh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -269,7 +269,7 @@ export class GoogleNetworkServicesMesh extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_services_mesh google_network_services_mesh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_services_mesh google_network_services_mesh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,7 +280,7 @@ export class GoogleNetworkServicesMesh extends cdktn.TerraformResource {
       terraformResourceType: 'google_network_services_mesh',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.33.0',
+        providerVersion: '7.34.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleSccV2FolderNotificationConfigConfig extends cdktn.Terrafo
   /**
   * This must be unique within the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#config_id GoogleSccV2FolderNotificationConfig#config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#config_id GoogleSccV2FolderNotificationConfig#config_id}
   */
   readonly configId: string;
   /**
@@ -27,23 +27,23 @@ export interface GoogleSccV2FolderNotificationConfigConfig extends cdktn.Terrafo
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#deletion_policy GoogleSccV2FolderNotificationConfig#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#deletion_policy GoogleSccV2FolderNotificationConfig#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The description of the notification config (max of 1024 characters).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#description GoogleSccV2FolderNotificationConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#description GoogleSccV2FolderNotificationConfig#description}
   */
   readonly description?: string;
   /**
   * Numerical ID of the parent folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#folder GoogleSccV2FolderNotificationConfig#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#folder GoogleSccV2FolderNotificationConfig#folder}
   */
   readonly folder: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#id GoogleSccV2FolderNotificationConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#id GoogleSccV2FolderNotificationConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,26 +52,26 @@ export interface GoogleSccV2FolderNotificationConfigConfig extends cdktn.Terrafo
   /**
   * Location ID of the parent organization. If not provided, 'global' will be used as the default location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#location GoogleSccV2FolderNotificationConfig#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#location GoogleSccV2FolderNotificationConfig#location}
   */
   readonly location?: string;
   /**
   * The Pub/Sub topic to send notifications to. Its format is
   * "projects/[project_id]/topics/[topic]".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#pubsub_topic GoogleSccV2FolderNotificationConfig#pubsub_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#pubsub_topic GoogleSccV2FolderNotificationConfig#pubsub_topic}
   */
   readonly pubsubTopic: string;
   /**
   * streaming_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#streaming_config GoogleSccV2FolderNotificationConfig#streaming_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#streaming_config GoogleSccV2FolderNotificationConfig#streaming_config}
   */
   readonly streamingConfig: GoogleSccV2FolderNotificationConfigStreamingConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#timeouts GoogleSccV2FolderNotificationConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#timeouts GoogleSccV2FolderNotificationConfig#timeouts}
   */
   readonly timeouts?: GoogleSccV2FolderNotificationConfigTimeouts;
 }
@@ -103,7 +103,7 @@ export interface GoogleSccV2FolderNotificationConfigStreamingConfig {
   * [Filtering notifications](https://cloud.google.com/security-command-center/docs/how-to-api-filter-notifications)
   * for information on how to write a filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#filter GoogleSccV2FolderNotificationConfig#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#filter GoogleSccV2FolderNotificationConfig#filter}
   */
   readonly filter: string;
 }
@@ -184,15 +184,15 @@ export class GoogleSccV2FolderNotificationConfigStreamingConfigOutputReference e
 }
 export interface GoogleSccV2FolderNotificationConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#create GoogleSccV2FolderNotificationConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#create GoogleSccV2FolderNotificationConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#delete GoogleSccV2FolderNotificationConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#delete GoogleSccV2FolderNotificationConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#update GoogleSccV2FolderNotificationConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#update GoogleSccV2FolderNotificationConfig#update}
   */
   readonly update?: string;
 }
@@ -344,7 +344,7 @@ export class GoogleSccV2FolderNotificationConfigTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config google_scc_v2_folder_notification_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config google_scc_v2_folder_notification_config}
 */
 export class GoogleSccV2FolderNotificationConfig extends cdktn.TerraformResource {
 
@@ -360,7 +360,7 @@ export class GoogleSccV2FolderNotificationConfig extends cdktn.TerraformResource
   * Generates CDKTN code for importing a GoogleSccV2FolderNotificationConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSccV2FolderNotificationConfig to import
-  * @param importFromId The id of the existing GoogleSccV2FolderNotificationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSccV2FolderNotificationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSccV2FolderNotificationConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -372,7 +372,7 @@ export class GoogleSccV2FolderNotificationConfig extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_v2_folder_notification_config google_scc_v2_folder_notification_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_v2_folder_notification_config google_scc_v2_folder_notification_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -383,7 +383,7 @@ export class GoogleSccV2FolderNotificationConfig extends cdktn.TerraformResource
       terraformResourceType: 'google_scc_v2_folder_notification_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.33.0',
+        providerVersion: '7.34.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
