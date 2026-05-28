@@ -4,7 +4,7 @@
 
 ### GoogleComputeInstantSnapshotIamMember <a name="GoogleComputeInstantSnapshotIamMember" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member google_compute_instant_snapshot_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member google_compute_instant_snapshot_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMember.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeInstantSnapsh
 
 The id of the existing GoogleComputeInstantSnapshotIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,9 +904,9 @@ const googleComputeInstantSnapshotIamMemberCondition: googleComputeInstantSnapsh
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#expression GoogleComputeInstantSnapshotIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#title GoogleComputeInstantSnapshotIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#description GoogleComputeInstantSnapshotIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#expression GoogleComputeInstantSnapshotIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#title GoogleComputeInstantSnapshotIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#description GoogleComputeInstantSnapshotIamMember#description}. |
 
 ---
 
@@ -918,7 +918,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#expression GoogleComputeInstantSnapshotIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#expression GoogleComputeInstantSnapshotIamMember#expression}.
 
 ---
 
@@ -930,7 +930,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#title GoogleComputeInstantSnapshotIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#title GoogleComputeInstantSnapshotIamMember#title}.
 
 ---
 
@@ -942,7 +942,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#description GoogleComputeInstantSnapshotIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#description GoogleComputeInstantSnapshotIamMember#description}.
 
 ---
 
@@ -967,13 +967,13 @@ const googleComputeInstantSnapshotIamMemberConfig: googleComputeInstantSnapshotI
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#member GoogleComputeInstantSnapshotIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#name GoogleComputeInstantSnapshotIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#role GoogleComputeInstantSnapshotIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.member">member</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#member GoogleComputeInstantSnapshotIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#name GoogleComputeInstantSnapshotIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#role GoogleComputeInstantSnapshotIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberCondition">GoogleComputeInstantSnapshotIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#id GoogleComputeInstantSnapshotIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#project GoogleComputeInstantSnapshotIamMember#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.zone">zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#zone GoogleComputeInstantSnapshotIamMember#zone}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#id GoogleComputeInstantSnapshotIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#project GoogleComputeInstantSnapshotIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeInstantSnapshotIamMember.GoogleComputeInstantSnapshotIamMemberConfig.property.zone">zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#zone GoogleComputeInstantSnapshotIamMember#zone}. |
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly member: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#member GoogleComputeInstantSnapshotIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#member GoogleComputeInstantSnapshotIamMember#member}.
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#name GoogleComputeInstantSnapshotIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#name GoogleComputeInstantSnapshotIamMember#name}.
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#role GoogleComputeInstantSnapshotIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#role GoogleComputeInstantSnapshotIamMember#role}.
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly condition: GoogleComputeInstantSnapshotIamMemberCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#condition GoogleComputeInstantSnapshotIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#condition GoogleComputeInstantSnapshotIamMember#condition}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#id GoogleComputeInstantSnapshotIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#id GoogleComputeInstantSnapshotIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1120,7 +1120,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#project GoogleComputeInstantSnapshotIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#project GoogleComputeInstantSnapshotIamMember#project}.
 
 ---
 
@@ -1132,7 +1132,7 @@ public readonly zone: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_instant_snapshot_iam_member#zone GoogleComputeInstantSnapshotIamMember#zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_instant_snapshot_iam_member#zone GoogleComputeInstantSnapshotIamMember#zone}.
 
 ---
 

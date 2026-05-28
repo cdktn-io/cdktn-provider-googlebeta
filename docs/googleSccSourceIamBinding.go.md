@@ -4,7 +4,7 @@
 
 ### GoogleSccSourceIamBinding <a name="GoogleSccSourceIamBinding" id="@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding google_scc_source_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding google_scc_source_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBinding.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the GoogleSccSourceIamBinding 
 
 The id of the existing GoogleSccSourceIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -872,9 +872,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#expression GoogleSccSourceIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#title GoogleSccSourceIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#description GoogleSccSourceIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingCondition.property.expression">Expression</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#expression GoogleSccSourceIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingCondition.property.title">Title</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#title GoogleSccSourceIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingCondition.property.description">Description</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#description GoogleSccSourceIamBinding#description}. |
 
 ---
 
@@ -886,7 +886,7 @@ Expression *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#expression GoogleSccSourceIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#expression GoogleSccSourceIamBinding#expression}.
 
 ---
 
@@ -898,7 +898,7 @@ Title *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#title GoogleSccSourceIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#title GoogleSccSourceIamBinding#title}.
 
 ---
 
@@ -910,7 +910,7 @@ Description *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#description GoogleSccSourceIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#description GoogleSccSourceIamBinding#description}.
 
 ---
 
@@ -949,12 +949,12 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googlesc
 | <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#members GoogleSccSourceIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.organization">Organization</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#organization GoogleSccSourceIamBinding#organization}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#role GoogleSccSourceIamBinding#role}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.source">Source</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#source GoogleSccSourceIamBinding#source}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.members">Members</a></code> | <code>*[]*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#members GoogleSccSourceIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.organization">Organization</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#organization GoogleSccSourceIamBinding#organization}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.role">Role</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#role GoogleSccSourceIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.source">Source</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#source GoogleSccSourceIamBinding#source}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingCondition">GoogleSccSourceIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#id GoogleSccSourceIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSccSourceIamBinding.GoogleSccSourceIamBindingConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#id GoogleSccSourceIamBinding#id}. |
 
 ---
 
@@ -1036,7 +1036,7 @@ Members *[]*string
 
 - *Type:* *[]*string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#members GoogleSccSourceIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#members GoogleSccSourceIamBinding#members}.
 
 ---
 
@@ -1048,7 +1048,7 @@ Organization *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#organization GoogleSccSourceIamBinding#organization}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#organization GoogleSccSourceIamBinding#organization}.
 
 ---
 
@@ -1060,7 +1060,7 @@ Role *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#role GoogleSccSourceIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#role GoogleSccSourceIamBinding#role}.
 
 ---
 
@@ -1072,7 +1072,7 @@ Source *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#source GoogleSccSourceIamBinding#source}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#source GoogleSccSourceIamBinding#source}.
 
 ---
 
@@ -1086,7 +1086,7 @@ Condition GoogleSccSourceIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#condition GoogleSccSourceIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#condition GoogleSccSourceIamBinding#condition}
 
 ---
 
@@ -1098,7 +1098,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_scc_source_iam_binding#id GoogleSccSourceIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_scc_source_iam_binding#id GoogleSccSourceIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -489,6 +489,7 @@ Object.defineProperty(exports, 'googleComputeUrlMap', { get: function () { retur
 Object.defineProperty(exports, 'googleComputeVpnGateway', { get: function () { return require('./google-compute-vpn-gateway'); } });
 Object.defineProperty(exports, 'googleComputeVpnTunnel', { get: function () { return require('./google-compute-vpn-tunnel'); } });
 Object.defineProperty(exports, 'googleComputeWireGroup', { get: function () { return require('./google-compute-wire-group'); } });
+Object.defineProperty(exports, 'googleConfigDeployment', { get: function () { return require('./google-config-deployment'); } });
 Object.defineProperty(exports, 'googleContactCenterInsightsAnalysisRule', { get: function () { return require('./google-contact-center-insights-analysis-rule'); } });
 Object.defineProperty(exports, 'googleContactCenterInsightsAssessmentRule', { get: function () { return require('./google-contact-center-insights-assessment-rule'); } });
 Object.defineProperty(exports, 'googleContactCenterInsightsAutoLabelingRule', { get: function () { return require('./google-contact-center-insights-auto-labeling-rule'); } });
@@ -660,6 +661,7 @@ Object.defineProperty(exports, 'googleDialogflowEnvironment', { get: function ()
 Object.defineProperty(exports, 'googleDialogflowFulfillment', { get: function () { return require('./google-dialogflow-fulfillment'); } });
 Object.defineProperty(exports, 'googleDialogflowGenerator', { get: function () { return require('./google-dialogflow-generator'); } });
 Object.defineProperty(exports, 'googleDialogflowIntent', { get: function () { return require('./google-dialogflow-intent'); } });
+Object.defineProperty(exports, 'googleDialogflowSipTrunk', { get: function () { return require('./google-dialogflow-sip-trunk'); } });
 Object.defineProperty(exports, 'googleDialogflowVersion', { get: function () { return require('./google-dialogflow-version'); } });
 Object.defineProperty(exports, 'googleDiscoveryEngineAclConfig', { get: function () { return require('./google-discovery-engine-acl-config'); } });
 Object.defineProperty(exports, 'googleDiscoveryEngineAssistant', { get: function () { return require('./google-discovery-engine-assistant'); } });
@@ -972,8 +974,12 @@ Object.defineProperty(exports, 'googleManagedKafkaTopic', { get: function () { r
 Object.defineProperty(exports, 'googleMemcacheInstance', { get: function () { return require('./google-memcache-instance'); } });
 Object.defineProperty(exports, 'googleMemorystoreInstance', { get: function () { return require('./google-memorystore-instance'); } });
 Object.defineProperty(exports, 'googleMemorystoreInstanceDesiredUserCreatedEndpoints', { get: function () { return require('./google-memorystore-instance-desired-user-created-endpoints'); } });
+Object.defineProperty(exports, 'googleMigrationCenterAssetsExportJob', { get: function () { return require('./google-migration-center-assets-export-job'); } });
 Object.defineProperty(exports, 'googleMigrationCenterGroup', { get: function () { return require('./google-migration-center-group'); } });
 Object.defineProperty(exports, 'googleMigrationCenterPreferenceSet', { get: function () { return require('./google-migration-center-preference-set'); } });
+Object.defineProperty(exports, 'googleMigrationCenterReportConfig', { get: function () { return require('./google-migration-center-report-config'); } });
+Object.defineProperty(exports, 'googleMigrationCenterSettings', { get: function () { return require('./google-migration-center-settings'); } });
+Object.defineProperty(exports, 'googleMigrationCenterSource', { get: function () { return require('./google-migration-center-source'); } });
 Object.defineProperty(exports, 'googleMlEngineModel', { get: function () { return require('./google-ml-engine-model'); } });
 Object.defineProperty(exports, 'googleModelArmorFloorsetting', { get: function () { return require('./google-model-armor-floorsetting'); } });
 Object.defineProperty(exports, 'googleModelArmorTemplate', { get: function () { return require('./google-model-armor-template'); } });
@@ -1556,6 +1562,7 @@ Object.defineProperty(exports, 'dataGoogleComputeRouterNat', { get: function () 
 Object.defineProperty(exports, 'dataGoogleComputeRouterStatus', { get: function () { return require('./data-google-compute-router-status'); } });
 Object.defineProperty(exports, 'dataGoogleComputeRouters', { get: function () { return require('./data-google-compute-routers'); } });
 Object.defineProperty(exports, 'dataGoogleComputeSecurityPolicy', { get: function () { return require('./data-google-compute-security-policy'); } });
+Object.defineProperty(exports, 'dataGoogleComputeServiceAttachment', { get: function () { return require('./data-google-compute-service-attachment'); } });
 Object.defineProperty(exports, 'dataGoogleComputeSnapshot', { get: function () { return require('./data-google-compute-snapshot'); } });
 Object.defineProperty(exports, 'dataGoogleComputeSnapshotIamPolicy', { get: function () { return require('./data-google-compute-snapshot-iam-policy'); } });
 Object.defineProperty(exports, 'dataGoogleComputeSslCertificate', { get: function () { return require('./data-google-compute-ssl-certificate'); } });
@@ -1715,6 +1722,7 @@ Object.defineProperty(exports, 'dataGoogleOracleDatabaseCloudVmCluster', { get: 
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseCloudVmClusters', { get: function () { return require('./data-google-oracle-database-cloud-vm-clusters'); } });
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseDbNodes', { get: function () { return require('./data-google-oracle-database-db-nodes'); } });
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseDbServers', { get: function () { return require('./data-google-oracle-database-db-servers'); } });
+Object.defineProperty(exports, 'dataGoogleOracleDatabaseGoldengateDeploymentEnvironments', { get: function () { return require('./data-google-oracle-database-goldengate-deployment-environments'); } });
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseOdbNetwork', { get: function () { return require('./data-google-oracle-database-odb-network'); } });
 Object.defineProperty(exports, 'dataGoogleOracleDatabaseOdbSubnet', { get: function () { return require('./data-google-oracle-database-odb-subnet'); } });
 Object.defineProperty(exports, 'dataGoogleOrganization', { get: function () { return require('./data-google-organization'); } });

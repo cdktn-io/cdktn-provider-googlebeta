@@ -4,7 +4,7 @@
 
 ### GoogleMonitoringService <a name="GoogleMonitoringService" id="@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service google_monitoring_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service google_monitoring_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringService.Initializer"></a>
 
@@ -564,7 +564,7 @@ The construct id used in the generated config for the GoogleMonitoringService to
 
 The id of the existing GoogleMonitoringService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -989,7 +989,7 @@ public System.Collections.Generic.IDictionary<string, string> ServiceLabels { ge
 
 Labels that specify the resource that emits the monitoring data which is used for SLO reporting of this 'Service'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#service_labels GoogleMonitoringService#service_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#service_labels GoogleMonitoringService#service_labels}
 
 ---
 
@@ -1003,7 +1003,7 @@ public string ServiceType { get; set; }
 
 The type of service that this basic service defines, e.g. APP_ENGINE service type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#service_type GoogleMonitoringService#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#service_type GoogleMonitoringService#service_type}
 
 ---
 
@@ -1048,8 +1048,8 @@ new GoogleMonitoringServiceConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig.property.basicService">BasicService</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceBasicService">GoogleMonitoringServiceBasicService</a></code> | basic_service block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig.property.displayName">DisplayName</a></code> | <code>string</code> | Name used for UI elements listing this Service. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#id GoogleMonitoringService#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#project GoogleMonitoringService#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#id GoogleMonitoringService#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#project GoogleMonitoringService#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeouts">GoogleMonitoringServiceTimeouts</a></code> | timeouts block. |
 | <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceConfig.property.userLabels">UserLabels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Labels which have been used to annotate the service. |
 
@@ -1135,7 +1135,7 @@ public string ServiceId { get; set; }
 
 An optional service ID to use. If not given, the server will generate a service ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#service_id GoogleMonitoringService#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#service_id GoogleMonitoringService#service_id}
 
 ---
 
@@ -1149,7 +1149,7 @@ public GoogleMonitoringServiceBasicService BasicService { get; set; }
 
 basic_service block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#basic_service GoogleMonitoringService#basic_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#basic_service GoogleMonitoringService#basic_service}
 
 ---
 
@@ -1170,7 +1170,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#deletion_policy GoogleMonitoringService#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#deletion_policy GoogleMonitoringService#deletion_policy}
 
 ---
 
@@ -1184,7 +1184,7 @@ public string DisplayName { get; set; }
 
 Name used for UI elements listing this Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#display_name GoogleMonitoringService#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#display_name GoogleMonitoringService#display_name}
 
 ---
 
@@ -1196,7 +1196,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#id GoogleMonitoringService#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#id GoogleMonitoringService#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1211,7 +1211,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#project GoogleMonitoringService#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#project GoogleMonitoringService#project}.
 
 ---
 
@@ -1225,7 +1225,7 @@ public GoogleMonitoringServiceTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#timeouts GoogleMonitoringService#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#timeouts GoogleMonitoringService#timeouts}
 
 ---
 
@@ -1246,7 +1246,7 @@ length of 63 characters, and must be less than 128 bytes in size. Up to 64
 label entries may be stored. For labels which do not have a semantic value,
 the empty string may be supplied for the label value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#user_labels GoogleMonitoringService#user_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#user_labels GoogleMonitoringService#user_labels}
 
 ---
 
@@ -1281,9 +1281,9 @@ new GoogleMonitoringServiceTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#create GoogleMonitoringService#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#delete GoogleMonitoringService#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#update GoogleMonitoringService#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#create GoogleMonitoringService#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#delete GoogleMonitoringService#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleMonitoringService.GoogleMonitoringServiceTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#update GoogleMonitoringService#update}. |
 
 ---
 
@@ -1295,7 +1295,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#create GoogleMonitoringService#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#create GoogleMonitoringService#create}.
 
 ---
 
@@ -1307,7 +1307,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#delete GoogleMonitoringService#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#delete GoogleMonitoringService#delete}.
 
 ---
 
@@ -1319,7 +1319,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_monitoring_service#update GoogleMonitoringService#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_monitoring_service#update GoogleMonitoringService#update}.
 
 ---
 

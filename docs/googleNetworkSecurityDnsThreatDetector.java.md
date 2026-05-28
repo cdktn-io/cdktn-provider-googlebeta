@@ -4,7 +4,7 @@
 
 ### GoogleNetworkSecurityDnsThreatDetector <a name="GoogleNetworkSecurityDnsThreatDetector" id="@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector google_network_security_dns_threat_detector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer"></a>
 
@@ -45,10 +45,10 @@ GoogleNetworkSecurityDnsThreatDetector.Builder.create(Construct scope, java.lang
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Name of the DnsThreatDetector resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.excludedNetworks">excludedNetworks</a></code> | <code>java.util.List<java.lang.String></code> | List of networks that are excluded from detection. Format: projects/{project}/global/networks/{name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#id GoogleNetworkSecurityDnsThreatDetector#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#id GoogleNetworkSecurityDnsThreatDetector#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Set of label tags associated with the DNS Threat Detector resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.location">location</a></code> | <code>java.lang.String</code> | The location of the DNS Threat Detector. The only supported value is 'global'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#project GoogleNetworkSecurityDnsThreatDetector#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#project GoogleNetworkSecurityDnsThreatDetector#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.threatDetectorProvider">threatDetectorProvider</a></code> | <code>java.lang.String</code> | DNS Threat Detection provider. The only supported value is 'INFOBLOX'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetector.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorTimeouts">GoogleNetworkSecurityDnsThreatDetectorTimeouts</a></code> | timeouts block. |
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 Name of the DnsThreatDetector resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#name GoogleNetworkSecurityDnsThreatDetector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#name GoogleNetworkSecurityDnsThreatDetector#name}
 
 ---
 
@@ -137,7 +137,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#deletion_policy GoogleNetworkSecurityDnsThreatDetector#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#deletion_policy GoogleNetworkSecurityDnsThreatDetector#deletion_policy}
 
 ---
 
@@ -147,7 +147,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of networks that are excluded from detection. Format: projects/{project}/global/networks/{name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#excluded_networks GoogleNetworkSecurityDnsThreatDetector#excluded_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#excluded_networks GoogleNetworkSecurityDnsThreatDetector#excluded_networks}
 
 ---
 
@@ -155,7 +155,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#id GoogleNetworkSecurityDnsThreatDetector#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#id GoogleNetworkSecurityDnsThreatDetector#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -173,7 +173,7 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#labels GoogleNetworkSecurityDnsThreatDetector#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#labels GoogleNetworkSecurityDnsThreatDetector#labels}
 
 ---
 
@@ -183,7 +183,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The location of the DNS Threat Detector. The only supported value is 'global'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#location GoogleNetworkSecurityDnsThreatDetector#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#location GoogleNetworkSecurityDnsThreatDetector#location}
 
 ---
 
@@ -191,7 +191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#project GoogleNetworkSecurityDnsThreatDetector#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#project GoogleNetworkSecurityDnsThreatDetector#project}.
 
 ---
 
@@ -201,7 +201,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 DNS Threat Detection provider. The only supported value is 'INFOBLOX'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#threat_detector_provider GoogleNetworkSecurityDnsThreatDetector#threat_detector_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#threat_detector_provider GoogleNetworkSecurityDnsThreatDetector#threat_detector_provider}
 
 ---
 
@@ -211,7 +211,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#timeouts GoogleNetworkSecurityDnsThreatDetector#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#timeouts GoogleNetworkSecurityDnsThreatDetector#timeouts}
 
 ---
 
@@ -729,7 +729,7 @@ The construct id used in the generated config for the GoogleNetworkSecurityDnsTh
 
 The id of the existing GoogleNetworkSecurityDnsThreatDetector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1207,10 +1207,10 @@ GoogleNetworkSecurityDnsThreatDetectorConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.name">name</a></code> | <code>java.lang.String</code> | Name of the DnsThreatDetector resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>java.lang.String</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.excludedNetworks">excludedNetworks</a></code> | <code>java.util.List<java.lang.String></code> | List of networks that are excluded from detection. Format: projects/{project}/global/networks/{name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#id GoogleNetworkSecurityDnsThreatDetector#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#id GoogleNetworkSecurityDnsThreatDetector#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.labels">labels</a></code> | <code>java.util.Map<java.lang.String, java.lang.String></code> | Set of label tags associated with the DNS Threat Detector resource. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.location">location</a></code> | <code>java.lang.String</code> | The location of the DNS Threat Detector. The only supported value is 'global'. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#project GoogleNetworkSecurityDnsThreatDetector#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#project GoogleNetworkSecurityDnsThreatDetector#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.threatDetectorProvider">threatDetectorProvider</a></code> | <code>java.lang.String</code> | DNS Threat Detection provider. The only supported value is 'INFOBLOX'. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorTimeouts">GoogleNetworkSecurityDnsThreatDetectorTimeouts</a></code> | timeouts block. |
 
@@ -1296,7 +1296,7 @@ public java.lang.String getName();
 
 Name of the DnsThreatDetector resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#name GoogleNetworkSecurityDnsThreatDetector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#name GoogleNetworkSecurityDnsThreatDetector#name}
 
 ---
 
@@ -1317,7 +1317,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#deletion_policy GoogleNetworkSecurityDnsThreatDetector#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#deletion_policy GoogleNetworkSecurityDnsThreatDetector#deletion_policy}
 
 ---
 
@@ -1331,7 +1331,7 @@ public java.util.List<java.lang.String> getExcludedNetworks();
 
 List of networks that are excluded from detection. Format: projects/{project}/global/networks/{name}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#excluded_networks GoogleNetworkSecurityDnsThreatDetector#excluded_networks}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#excluded_networks GoogleNetworkSecurityDnsThreatDetector#excluded_networks}
 
 ---
 
@@ -1343,7 +1343,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#id GoogleNetworkSecurityDnsThreatDetector#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#id GoogleNetworkSecurityDnsThreatDetector#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1365,7 +1365,7 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#labels GoogleNetworkSecurityDnsThreatDetector#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#labels GoogleNetworkSecurityDnsThreatDetector#labels}
 
 ---
 
@@ -1379,7 +1379,7 @@ public java.lang.String getLocation();
 
 The location of the DNS Threat Detector. The only supported value is 'global'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#location GoogleNetworkSecurityDnsThreatDetector#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#location GoogleNetworkSecurityDnsThreatDetector#location}
 
 ---
 
@@ -1391,7 +1391,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#project GoogleNetworkSecurityDnsThreatDetector#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#project GoogleNetworkSecurityDnsThreatDetector#project}.
 
 ---
 
@@ -1405,7 +1405,7 @@ public java.lang.String getThreatDetectorProvider();
 
 DNS Threat Detection provider. The only supported value is 'INFOBLOX'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#threat_detector_provider GoogleNetworkSecurityDnsThreatDetector#threat_detector_provider}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#threat_detector_provider GoogleNetworkSecurityDnsThreatDetector#threat_detector_provider}
 
 ---
 
@@ -1419,7 +1419,7 @@ public GoogleNetworkSecurityDnsThreatDetectorTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#timeouts GoogleNetworkSecurityDnsThreatDetector#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#timeouts GoogleNetworkSecurityDnsThreatDetector#timeouts}
 
 ---
 
@@ -1441,9 +1441,9 @@ GoogleNetworkSecurityDnsThreatDetectorTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#create GoogleNetworkSecurityDnsThreatDetector#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#delete GoogleNetworkSecurityDnsThreatDetector#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#update GoogleNetworkSecurityDnsThreatDetector#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#create GoogleNetworkSecurityDnsThreatDetector#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#delete GoogleNetworkSecurityDnsThreatDetector#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkSecurityDnsThreatDetector.GoogleNetworkSecurityDnsThreatDetectorTimeouts.property.update">update</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#update GoogleNetworkSecurityDnsThreatDetector#update}. |
 
 ---
 
@@ -1455,7 +1455,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#create GoogleNetworkSecurityDnsThreatDetector#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#create GoogleNetworkSecurityDnsThreatDetector#create}.
 
 ---
 
@@ -1467,7 +1467,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#delete GoogleNetworkSecurityDnsThreatDetector#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#delete GoogleNetworkSecurityDnsThreatDetector#delete}.
 
 ---
 
@@ -1479,7 +1479,7 @@ public java.lang.String getUpdate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_security_dns_threat_detector#update GoogleNetworkSecurityDnsThreatDetector#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_security_dns_threat_detector#update GoogleNetworkSecurityDnsThreatDetector#update}.
 
 ---
 

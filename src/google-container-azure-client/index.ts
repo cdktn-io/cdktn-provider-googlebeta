@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleContainerAzureClientConfig extends cdktn.TerraformMetaArg
   /**
   * The Azure Active Directory Application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#application_id GoogleContainerAzureClient#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#application_id GoogleContainerAzureClient#application_id}
   */
   readonly applicationId: string;
   /**
@@ -27,11 +27,11 @@ export interface GoogleContainerAzureClientConfig extends cdktn.TerraformMetaArg
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#deletion_policy GoogleContainerAzureClient#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#deletion_policy GoogleContainerAzureClient#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#id GoogleContainerAzureClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,41 +40,41 @@ export interface GoogleContainerAzureClientConfig extends cdktn.TerraformMetaArg
   /**
   * The location for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#location GoogleContainerAzureClient#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#location GoogleContainerAzureClient#location}
   */
   readonly location: string;
   /**
   * The name of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#name GoogleContainerAzureClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#name GoogleContainerAzureClient#name}
   */
   readonly name: string;
   /**
   * The project for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#project GoogleContainerAzureClient#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#project GoogleContainerAzureClient#project}
   */
   readonly project?: string;
   /**
   * The Azure Active Directory Tenant ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#tenant_id GoogleContainerAzureClient#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#tenant_id GoogleContainerAzureClient#tenant_id}
   */
   readonly tenantId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#timeouts GoogleContainerAzureClient#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#timeouts GoogleContainerAzureClient#timeouts}
   */
   readonly timeouts?: GoogleContainerAzureClientTimeouts;
 }
 export interface GoogleContainerAzureClientTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#create GoogleContainerAzureClient#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#create GoogleContainerAzureClient#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#delete GoogleContainerAzureClient#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#delete GoogleContainerAzureClient#delete}
   */
   readonly delete?: string;
 }
@@ -197,7 +197,7 @@ export class GoogleContainerAzureClientTimeoutsOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client google_container_azure_client}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client google_container_azure_client}
 */
 export class GoogleContainerAzureClient extends cdktn.TerraformResource {
 
@@ -213,7 +213,7 @@ export class GoogleContainerAzureClient extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleContainerAzureClient resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleContainerAzureClient to import
-  * @param importFromId The id of the existing GoogleContainerAzureClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleContainerAzureClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleContainerAzureClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -225,7 +225,7 @@ export class GoogleContainerAzureClient extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_container_azure_client google_container_azure_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_container_azure_client google_container_azure_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,7 +236,7 @@ export class GoogleContainerAzureClient extends cdktn.TerraformResource {
       terraformResourceType: 'google_container_azure_client',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.33.0',
+        providerVersion: '7.34.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### GoogleDataformConfig <a name="GoogleDataformConfig" id="@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config google_dataform_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config google_dataform_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfig.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleDataformConfig to im
 
 The id of the existing GoogleDataformConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -858,8 +858,8 @@ const googleDataformConfigConfig: googleDataformConfig.GoogleDataformConfigConfi
 | <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigConfig.property.region">region</a></code> | <code>string</code> | A reference to the region. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigConfig.property.defaultKmsKeyName">defaultKmsKeyName</a></code> | <code>string</code> | Optional. A reference to the customer-managed encryption key (CMEK) that will be used by default to encrypt user data. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#id GoogleDataformConfig#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#project GoogleDataformConfig#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#id GoogleDataformConfig#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#project GoogleDataformConfig#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigTimeouts">GoogleDataformConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -944,7 +944,7 @@ public readonly region: string;
 
 A reference to the region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#region GoogleDataformConfig#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#region GoogleDataformConfig#region}
 
 ---
 
@@ -958,7 +958,7 @@ public readonly defaultKmsKeyName: string;
 
 Optional. A reference to the customer-managed encryption key (CMEK) that will be used by default to encrypt user data.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#default_kms_key_name GoogleDataformConfig#default_kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#default_kms_key_name GoogleDataformConfig#default_kms_key_name}
 
 ---
 
@@ -970,7 +970,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#id GoogleDataformConfig#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#id GoogleDataformConfig#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -985,7 +985,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#project GoogleDataformConfig#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#project GoogleDataformConfig#project}.
 
 ---
 
@@ -999,7 +999,7 @@ public readonly timeouts: GoogleDataformConfigTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#timeouts GoogleDataformConfig#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#timeouts GoogleDataformConfig#timeouts}
 
 ---
 
@@ -1017,9 +1017,9 @@ const googleDataformConfigTimeouts: googleDataformConfig.GoogleDataformConfigTim
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#create GoogleDataformConfig#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#delete GoogleDataformConfig#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#update GoogleDataformConfig#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#create GoogleDataformConfig#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#delete GoogleDataformConfig#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleDataformConfig.GoogleDataformConfigTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#update GoogleDataformConfig#update}. |
 
 ---
 
@@ -1031,7 +1031,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#create GoogleDataformConfig#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#create GoogleDataformConfig#create}.
 
 ---
 
@@ -1043,7 +1043,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#delete GoogleDataformConfig#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#delete GoogleDataformConfig#delete}.
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_dataform_config#update GoogleDataformConfig#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_config#update GoogleDataformConfig#update}.
 
 ---
 

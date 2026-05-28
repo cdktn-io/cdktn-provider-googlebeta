@@ -4,7 +4,7 @@
 
 ### GoogleCloudfunctions2Function <a name="GoogleCloudfunctions2Function" id="@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2Function"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function google_cloudfunctions2_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function google_cloudfunctions2_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2Function.Initializer"></a>
 
@@ -611,7 +611,7 @@ The construct id used in the generated config for the GoogleCloudfunctions2Funct
 
 The id of the existing GoogleCloudfunctions2Function that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1172,7 +1172,7 @@ public readonly automaticUpdatePolicy: GoogleCloudfunctions2FunctionBuildConfigA
 
 automatic_update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#automatic_update_policy GoogleCloudfunctions2Function#automatic_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#automatic_update_policy GoogleCloudfunctions2Function#automatic_update_policy}
 
 ---
 
@@ -1186,7 +1186,7 @@ public readonly dockerRepository: string;
 
 User managed repository created in Artifact Registry optionally with a customer managed encryption key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#docker_repository GoogleCloudfunctions2Function#docker_repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#docker_repository GoogleCloudfunctions2Function#docker_repository}
 
 ---
 
@@ -1205,7 +1205,7 @@ compatibility, if function with given name is not found, then the system
 will try to use function named "function". For Node.js this is name of a
 function exported by the module specified in source_location.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#entry_point GoogleCloudfunctions2Function#entry_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#entry_point GoogleCloudfunctions2Function#entry_point}
 
 ---
 
@@ -1219,7 +1219,7 @@ public readonly environmentVariables: {[ key: string ]: string};
 
 User-provided build-time environment variables for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#environment_variables GoogleCloudfunctions2Function#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#environment_variables GoogleCloudfunctions2Function#environment_variables}
 
 ---
 
@@ -1233,7 +1233,7 @@ public readonly onDeployUpdatePolicy: GoogleCloudfunctions2FunctionBuildConfigOn
 
 on_deploy_update_policy block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#on_deploy_update_policy GoogleCloudfunctions2Function#on_deploy_update_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#on_deploy_update_policy GoogleCloudfunctions2Function#on_deploy_update_policy}
 
 ---
 
@@ -1247,7 +1247,7 @@ public readonly runtime: string;
 
 The runtime in which to run the function. Required when deploying a new function, optional when updating an existing function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#runtime GoogleCloudfunctions2Function#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#runtime GoogleCloudfunctions2Function#runtime}
 
 ---
 
@@ -1261,7 +1261,7 @@ public readonly serviceAccount: string;
 
 The fully-qualified name of the service account to be used for building the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#service_account GoogleCloudfunctions2Function#service_account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#service_account GoogleCloudfunctions2Function#service_account}
 
 ---
 
@@ -1275,7 +1275,7 @@ public readonly source: GoogleCloudfunctions2FunctionBuildConfigSource;
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#source GoogleCloudfunctions2Function#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#source GoogleCloudfunctions2Function#source}
 
 ---
 
@@ -1289,7 +1289,7 @@ public readonly workerPool: string;
 
 Name of the Cloud Build Custom Worker Pool that should be used to build the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#worker_pool GoogleCloudfunctions2Function#worker_pool}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#worker_pool GoogleCloudfunctions2Function#worker_pool}
 
 ---
 
@@ -1344,7 +1344,7 @@ public readonly repoSource: GoogleCloudfunctions2FunctionBuildConfigSourceRepoSo
 
 repo_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#repo_source GoogleCloudfunctions2Function#repo_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#repo_source GoogleCloudfunctions2Function#repo_source}
 
 ---
 
@@ -1358,7 +1358,7 @@ public readonly storageSource: GoogleCloudfunctions2FunctionBuildConfigSourceSto
 
 storage_source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#storage_source GoogleCloudfunctions2Function#storage_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#storage_source GoogleCloudfunctions2Function#storage_source}
 
 ---
 
@@ -1396,7 +1396,7 @@ public readonly branchName: string;
 
 Regex matching branches to build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#branch_name GoogleCloudfunctions2Function#branch_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#branch_name GoogleCloudfunctions2Function#branch_name}
 
 ---
 
@@ -1410,7 +1410,7 @@ public readonly commitSha: string;
 
 Regex matching tags to build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#commit_sha GoogleCloudfunctions2Function#commit_sha}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#commit_sha GoogleCloudfunctions2Function#commit_sha}
 
 ---
 
@@ -1424,7 +1424,7 @@ public readonly dir: string;
 
 Directory, relative to the source root, in which to run the build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#dir GoogleCloudfunctions2Function#dir}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#dir GoogleCloudfunctions2Function#dir}
 
 ---
 
@@ -1438,7 +1438,7 @@ public readonly invertRegex: boolean | IResolvable;
 
 Only trigger a build if the revision regex does NOT match the revision regex.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#invert_regex GoogleCloudfunctions2Function#invert_regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#invert_regex GoogleCloudfunctions2Function#invert_regex}
 
 ---
 
@@ -1452,7 +1452,7 @@ public readonly projectId: string;
 
 ID of the project that owns the Cloud Source Repository. If omitted, the project ID requesting the build is assumed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#project_id GoogleCloudfunctions2Function#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#project_id GoogleCloudfunctions2Function#project_id}
 
 ---
 
@@ -1466,7 +1466,7 @@ public readonly repoName: string;
 
 Name of the Cloud Source Repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#repo_name GoogleCloudfunctions2Function#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#repo_name GoogleCloudfunctions2Function#repo_name}
 
 ---
 
@@ -1480,7 +1480,7 @@ public readonly tagName: string;
 
 Regex matching tags to build.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#tag_name GoogleCloudfunctions2Function#tag_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#tag_name GoogleCloudfunctions2Function#tag_name}
 
 ---
 
@@ -1514,7 +1514,7 @@ public readonly bucket: string;
 
 Google Cloud Storage bucket containing the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#bucket GoogleCloudfunctions2Function#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#bucket GoogleCloudfunctions2Function#bucket}
 
 ---
 
@@ -1528,7 +1528,7 @@ public readonly generation: number;
 
 Google Cloud Storage generation for the object. If the generation is omitted, the latest generation will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#generation GoogleCloudfunctions2Function#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#generation GoogleCloudfunctions2Function#generation}
 
 ---
 
@@ -1542,7 +1542,7 @@ public readonly object: string;
 
 Google Cloud Storage object containing the source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#object GoogleCloudfunctions2Function#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#object GoogleCloudfunctions2Function#object}
 
 ---
 
@@ -1573,10 +1573,10 @@ const googleCloudfunctions2FunctionConfig: googleCloudfunctions2Function.GoogleC
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.description">description</a></code> | <code>string</code> | User-provided description of a function. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.eventTrigger">eventTrigger</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionEventTrigger">GoogleCloudfunctions2FunctionEventTrigger</a></code> | event_trigger block. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#id GoogleCloudfunctions2Function#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#id GoogleCloudfunctions2Function#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.kmsKeyName">kmsKeyName</a></code> | <code>string</code> | Resource name of a KMS crypto key (managed by the user) used to encrypt/decrypt function resources. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.labels">labels</a></code> | <code>{[ key: string ]: string}</code> | A set of key/value label pairs associated with this Cloud Function. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#project GoogleCloudfunctions2Function#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#project GoogleCloudfunctions2Function#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.serviceConfig">serviceConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionServiceConfig">GoogleCloudfunctions2FunctionServiceConfig</a></code> | service_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionTimeouts">GoogleCloudfunctions2FunctionTimeouts</a></code> | timeouts block. |
 
@@ -1662,7 +1662,7 @@ public readonly location: string;
 
 The location of this cloud function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#location GoogleCloudfunctions2Function#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#location GoogleCloudfunctions2Function#location}
 
 ---
 
@@ -1676,7 +1676,7 @@ public readonly name: string;
 
 A user-defined name of the function. Function names must be unique globally and match pattern 'projects/* /locations/* /functions/*'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#name GoogleCloudfunctions2Function#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#name GoogleCloudfunctions2Function#name}
 
 Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 
@@ -1692,7 +1692,7 @@ public readonly buildConfig: GoogleCloudfunctions2FunctionBuildConfig;
 
 build_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#build_config GoogleCloudfunctions2Function#build_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#build_config GoogleCloudfunctions2Function#build_config}
 
 ---
 
@@ -1714,7 +1714,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#deletion_policy GoogleCloudfunctions2Function#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#deletion_policy GoogleCloudfunctions2Function#deletion_policy}
 
 ---
 
@@ -1728,7 +1728,7 @@ public readonly description: string;
 
 User-provided description of a function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#description GoogleCloudfunctions2Function#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#description GoogleCloudfunctions2Function#description}
 
 ---
 
@@ -1742,7 +1742,7 @@ public readonly eventTrigger: GoogleCloudfunctions2FunctionEventTrigger;
 
 event_trigger block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#event_trigger GoogleCloudfunctions2Function#event_trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#event_trigger GoogleCloudfunctions2Function#event_trigger}
 
 ---
 
@@ -1754,7 +1754,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#id GoogleCloudfunctions2Function#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#id GoogleCloudfunctions2Function#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1773,7 +1773,7 @@ Resource name of a KMS crypto key (managed by the user) used to encrypt/decrypt 
 
 It must match the pattern projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{crypto_key}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#kms_key_name GoogleCloudfunctions2Function#kms_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#kms_key_name GoogleCloudfunctions2Function#kms_key_name}
 
 ---
 
@@ -1790,7 +1790,7 @@ A set of key/value label pairs associated with this Cloud Function.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#labels GoogleCloudfunctions2Function#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#labels GoogleCloudfunctions2Function#labels}
 
 ---
 
@@ -1802,7 +1802,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#project GoogleCloudfunctions2Function#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#project GoogleCloudfunctions2Function#project}.
 
 ---
 
@@ -1816,7 +1816,7 @@ public readonly serviceConfig: GoogleCloudfunctions2FunctionServiceConfig;
 
 service_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#service_config GoogleCloudfunctions2Function#service_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#service_config GoogleCloudfunctions2Function#service_config}
 
 ---
 
@@ -1830,7 +1830,7 @@ public readonly timeouts: GoogleCloudfunctions2FunctionTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#timeouts GoogleCloudfunctions2Function#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#timeouts GoogleCloudfunctions2Function#timeouts}
 
 ---
 
@@ -1867,7 +1867,7 @@ public readonly eventType: string;
 
 Required. The type of event to observe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#event_type GoogleCloudfunctions2Function#event_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#event_type GoogleCloudfunctions2Function#event_type}
 
 ---
 
@@ -1881,7 +1881,7 @@ public readonly eventFilters: IResolvable | GoogleCloudfunctions2FunctionEventTr
 
 event_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#event_filters GoogleCloudfunctions2Function#event_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#event_filters GoogleCloudfunctions2Function#event_filters}
 
 ---
 
@@ -1895,7 +1895,7 @@ public readonly pubsubTopic: string;
 
 The name of a Pub/Sub topic in the same project that will be used as the transport topic for the event delivery.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#pubsub_topic GoogleCloudfunctions2Function#pubsub_topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#pubsub_topic GoogleCloudfunctions2Function#pubsub_topic}
 
 ---
 
@@ -1911,7 +1911,7 @@ Describes the retry policy in case of function's execution failure.
 
 Retried execution is charged as any other execution. Possible values: ["RETRY_POLICY_UNSPECIFIED", "RETRY_POLICY_DO_NOT_RETRY", "RETRY_POLICY_RETRY"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#retry_policy GoogleCloudfunctions2Function#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#retry_policy GoogleCloudfunctions2Function#retry_policy}
 
 ---
 
@@ -1929,7 +1929,7 @@ The email of the trigger's service account. The service account
 must have permission to invoke Cloud Run services. If empty, defaults to the
 Compute Engine default service account: {project_number}-compute@developer.gserviceaccount.com.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#service_account_email GoogleCloudfunctions2Function#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#service_account_email GoogleCloudfunctions2Function#service_account_email}
 
 ---
 
@@ -1948,7 +1948,7 @@ events originating in this region. It can be the same
 region as the function, a different region or multi-region, or the global
 region. If not provided, defaults to the same region as the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#trigger_region GoogleCloudfunctions2Function#trigger_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#trigger_region GoogleCloudfunctions2Function#trigger_region}
 
 ---
 
@@ -1986,7 +1986,7 @@ The name of a CloudEvents attribute.
 Currently, only a subset of attributes are supported for filtering. Use the 'gcloud eventarc providers describe' command to learn more about events and their attributes.
 Do not filter for the 'type' attribute here, as this is already achieved by the resource's 'event_type' attribute.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#attribute GoogleCloudfunctions2Function#attribute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#attribute GoogleCloudfunctions2Function#attribute}
 
 ---
 
@@ -2003,7 +2003,7 @@ Required.
 The value for the attribute.
 If the operator field is set as 'match-path-pattern', this value can be a path pattern instead of an exact value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#value GoogleCloudfunctions2Function#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#value GoogleCloudfunctions2Function#value}
 
 ---
 
@@ -2023,7 +2023,7 @@ pair specified in the filter are matched.
 The only allowed value is 'match-path-pattern'.
 [See documentation on path patterns here](https://cloud.google.com/eventarc/docs/path-patterns)'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#operator GoogleCloudfunctions2Function#operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#operator GoogleCloudfunctions2Function#operator}
 
 ---
 
@@ -2073,7 +2073,7 @@ Whether 100% of traffic is routed to the latest revision.
 
 Defaults to true. When false, GCF honors the existing traffic configuration of the underlying Cloud Run service. If that configuration is set to route to LATEST (the default), the new deployment will become LATEST and intercept the traffic. To prevent traffic from shifting, you must manually pin the existing service to a specific revision name in Cloud Run before deploying.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#all_traffic_on_latest_revision GoogleCloudfunctions2Function#all_traffic_on_latest_revision}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#all_traffic_on_latest_revision GoogleCloudfunctions2Function#all_traffic_on_latest_revision}
 
 ---
 
@@ -2087,7 +2087,7 @@ public readonly availableCpu: string;
 
 The number of CPUs used in a single container instance. Default value is calculated from available memory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#available_cpu GoogleCloudfunctions2Function#available_cpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#available_cpu GoogleCloudfunctions2Function#available_cpu}
 
 ---
 
@@ -2104,7 +2104,7 @@ The amount of memory available for a function.
 Defaults to 256M. Supported units are k, M, G, Mi, Gi. If no unit is
 supplied the value is interpreted as bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#available_memory GoogleCloudfunctions2Function#available_memory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#available_memory GoogleCloudfunctions2Function#available_memory}
 
 ---
 
@@ -2118,7 +2118,7 @@ public readonly binaryAuthorizationPolicy: string;
 
 The binary authorization policy to be checked when deploying the Cloud Run service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#binary_authorization_policy GoogleCloudfunctions2Function#binary_authorization_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#binary_authorization_policy GoogleCloudfunctions2Function#binary_authorization_policy}
 
 ---
 
@@ -2132,7 +2132,7 @@ public readonly directVpcEgress: string;
 
 Egress settings for direct VPC. If not provided, it defaults to VPC_EGRESS_PRIVATE_RANGES_ONLY. Possible values: ["VPC_EGRESS_ALL_TRAFFIC", "VPC_EGRESS_PRIVATE_RANGES_ONLY"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#direct_vpc_egress GoogleCloudfunctions2Function#direct_vpc_egress}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#direct_vpc_egress GoogleCloudfunctions2Function#direct_vpc_egress}
 
 ---
 
@@ -2146,7 +2146,7 @@ public readonly directVpcNetworkInterface: IResolvable | GoogleCloudfunctions2Fu
 
 direct_vpc_network_interface block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#direct_vpc_network_interface GoogleCloudfunctions2Function#direct_vpc_network_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#direct_vpc_network_interface GoogleCloudfunctions2Function#direct_vpc_network_interface}
 
 ---
 
@@ -2160,7 +2160,7 @@ public readonly environmentVariables: {[ key: string ]: string};
 
 Environment variables that shall be available during function execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#environment_variables GoogleCloudfunctions2Function#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#environment_variables GoogleCloudfunctions2Function#environment_variables}
 
 ---
 
@@ -2174,7 +2174,7 @@ public readonly ingressSettings: string;
 
 Available ingress settings. Defaults to "ALLOW_ALL" if unspecified. Default value: "ALLOW_ALL" Possible values: ["ALLOW_ALL", "ALLOW_INTERNAL_ONLY", "ALLOW_INTERNAL_AND_GCLB"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#ingress_settings GoogleCloudfunctions2Function#ingress_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#ingress_settings GoogleCloudfunctions2Function#ingress_settings}
 
 ---
 
@@ -2188,7 +2188,7 @@ public readonly maxInstanceCount: number;
 
 The limit on the maximum number of function instances that may coexist at a given time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#max_instance_count GoogleCloudfunctions2Function#max_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#max_instance_count GoogleCloudfunctions2Function#max_instance_count}
 
 ---
 
@@ -2202,7 +2202,7 @@ public readonly maxInstanceRequestConcurrency: number;
 
 Sets the maximum number of concurrent requests that each instance can receive. Defaults to 1.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#max_instance_request_concurrency GoogleCloudfunctions2Function#max_instance_request_concurrency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#max_instance_request_concurrency GoogleCloudfunctions2Function#max_instance_request_concurrency}
 
 ---
 
@@ -2216,7 +2216,7 @@ public readonly minInstanceCount: number;
 
 The limit on the minimum number of function instances that may coexist at a given time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#min_instance_count GoogleCloudfunctions2Function#min_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#min_instance_count GoogleCloudfunctions2Function#min_instance_count}
 
 ---
 
@@ -2230,7 +2230,7 @@ public readonly secretEnvironmentVariables: IResolvable | GoogleCloudfunctions2F
 
 secret_environment_variables block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#secret_environment_variables GoogleCloudfunctions2Function#secret_environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#secret_environment_variables GoogleCloudfunctions2Function#secret_environment_variables}
 
 ---
 
@@ -2244,7 +2244,7 @@ public readonly secretVolumes: IResolvable | GoogleCloudfunctions2FunctionServic
 
 secret_volumes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#secret_volumes GoogleCloudfunctions2Function#secret_volumes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#secret_volumes GoogleCloudfunctions2Function#secret_volumes}
 
 ---
 
@@ -2258,7 +2258,7 @@ public readonly serviceAccountEmail: string;
 
 The email of the service account for this function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#service_account_email GoogleCloudfunctions2Function#service_account_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#service_account_email GoogleCloudfunctions2Function#service_account_email}
 
 ---
 
@@ -2276,7 +2276,7 @@ Execution is considered failed and
 can be terminated if the function is not completed at the end of the
 timeout period. Defaults to 60 seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#timeout_seconds GoogleCloudfunctions2Function#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#timeout_seconds GoogleCloudfunctions2Function#timeout_seconds}
 
 ---
 
@@ -2290,7 +2290,7 @@ public readonly vpcConnector: string;
 
 The Serverless VPC Access connector that this cloud function can connect to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#vpc_connector GoogleCloudfunctions2Function#vpc_connector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#vpc_connector GoogleCloudfunctions2Function#vpc_connector}
 
 ---
 
@@ -2304,7 +2304,7 @@ public readonly vpcConnectorEgressSettings: string;
 
 Available egress settings. Possible values: ["VPC_CONNECTOR_EGRESS_SETTINGS_UNSPECIFIED", "PRIVATE_RANGES_ONLY", "ALL_TRAFFIC"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#vpc_connector_egress_settings GoogleCloudfunctions2Function#vpc_connector_egress_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#vpc_connector_egress_settings GoogleCloudfunctions2Function#vpc_connector_egress_settings}
 
 ---
 
@@ -2340,7 +2340,7 @@ The name of the VPC network to which the function will be connected.
 
 Specify either a VPC network or a subnet, or both. If you specify only a network, the subnet uses the same name as the network.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#network GoogleCloudfunctions2Function#network}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#network GoogleCloudfunctions2Function#network}
 
 ---
 
@@ -2356,7 +2356,7 @@ The name of the VPC subnetwork that the Cloud Function resource will get IPs fro
 
 Specify either a VPC network or a subnet, or both. If both network and subnetwork are specified, the given VPC subnetwork must belong to the given VPC network. If subnetwork is not specified, the subnetwork with the same name with the network will be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#subnetwork GoogleCloudfunctions2Function#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#subnetwork GoogleCloudfunctions2Function#subnetwork}
 
 ---
 
@@ -2370,7 +2370,7 @@ public readonly tags: string[];
 
 Network tags applied to this Cloud Function resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#tags GoogleCloudfunctions2Function#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#tags GoogleCloudfunctions2Function#tags}
 
 ---
 
@@ -2405,7 +2405,7 @@ public readonly key: string;
 
 Name of the environment variable.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#key GoogleCloudfunctions2Function#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#key GoogleCloudfunctions2Function#key}
 
 ---
 
@@ -2421,7 +2421,7 @@ Project identifier (preferably project number but can also be the project ID) of
 
 If not set, it will be populated with the function's project assuming that the secret exists in the same project as of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#project_id GoogleCloudfunctions2Function#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#project_id GoogleCloudfunctions2Function#project_id}
 
 ---
 
@@ -2435,7 +2435,7 @@ public readonly secret: string;
 
 Name of the secret in secret manager (not the full resource name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#secret GoogleCloudfunctions2Function#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#secret GoogleCloudfunctions2Function#secret}
 
 ---
 
@@ -2451,7 +2451,7 @@ Version of the secret (version number or the string 'latest').
 
 It is recommended to use a numeric version for secret environment variables as any updates to the secret value is not reflected until new instances start.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#version GoogleCloudfunctions2Function#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#version GoogleCloudfunctions2Function#version}
 
 ---
 
@@ -2488,7 +2488,7 @@ The path within the container to mount the secret volume.
 
 For example, setting the mountPath as /etc/secrets would mount the secret value files under the /etc/secrets directory. This directory will also be completely shadowed and unavailable to mount any other secrets. Recommended mount path: /etc/secrets
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#mount_path GoogleCloudfunctions2Function#mount_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#mount_path GoogleCloudfunctions2Function#mount_path}
 
 ---
 
@@ -2504,7 +2504,7 @@ Project identifier (preferably project number but can also be the project ID) of
 
 If not set, it will be populated with the function's project assuming that the secret exists in the same project as of the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#project_id GoogleCloudfunctions2Function#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#project_id GoogleCloudfunctions2Function#project_id}
 
 ---
 
@@ -2518,7 +2518,7 @@ public readonly secret: string;
 
 Name of the secret in secret manager (not the full resource name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#secret GoogleCloudfunctions2Function#secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#secret GoogleCloudfunctions2Function#secret}
 
 ---
 
@@ -2532,7 +2532,7 @@ public readonly versions: IResolvable | GoogleCloudfunctions2FunctionServiceConf
 
 versions block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#versions GoogleCloudfunctions2Function#versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#versions GoogleCloudfunctions2Function#versions}
 
 ---
 
@@ -2567,7 +2567,7 @@ Relative path of the file under the mount path where the secret value for this v
 
 For example, setting the mountPath as '/etc/secrets' and path as secret_foo would mount the secret value file at /etc/secrets/secret_foo.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#path GoogleCloudfunctions2Function#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#path GoogleCloudfunctions2Function#path}
 
 ---
 
@@ -2583,7 +2583,7 @@ Version of the secret (version number or the string 'latest').
 
 It is preferable to use latest version with secret volumes as secret value changes are reflected immediately.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#version GoogleCloudfunctions2Function#version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#version GoogleCloudfunctions2Function#version}
 
 ---
 
@@ -2601,9 +2601,9 @@ const googleCloudfunctions2FunctionTimeouts: googleCloudfunctions2Function.Googl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#create GoogleCloudfunctions2Function#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#delete GoogleCloudfunctions2Function#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#update GoogleCloudfunctions2Function#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#create GoogleCloudfunctions2Function#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#delete GoogleCloudfunctions2Function#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleCloudfunctions2Function.GoogleCloudfunctions2FunctionTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#update GoogleCloudfunctions2Function#update}. |
 
 ---
 
@@ -2615,7 +2615,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#create GoogleCloudfunctions2Function#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#create GoogleCloudfunctions2Function#create}.
 
 ---
 
@@ -2627,7 +2627,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#delete GoogleCloudfunctions2Function#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#delete GoogleCloudfunctions2Function#delete}.
 
 ---
 
@@ -2639,7 +2639,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_cloudfunctions2_function#update GoogleCloudfunctions2Function#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_cloudfunctions2_function#update GoogleCloudfunctions2Function#update}.
 
 ---
 

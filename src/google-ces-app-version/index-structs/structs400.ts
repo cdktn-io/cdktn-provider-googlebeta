@@ -904,11 +904,11 @@ export class GoogleCesAppVersionSnapshotList extends cdktn.ComplexList {
 }
 export interface GoogleCesAppVersionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_ces_app_version#create GoogleCesAppVersion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_ces_app_version#delete GoogleCesAppVersion#delete}
   */
   readonly delete?: string;
 }

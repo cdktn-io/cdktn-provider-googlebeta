@@ -4,7 +4,7 @@
 
 ### GoogleNetworkConnectivityHubIamBinding <a name="GoogleNetworkConnectivityHubIamBinding" id="@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding google_network_connectivity_hub_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding google_network_connectivity_hub_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer"></a>
 
@@ -41,12 +41,12 @@ googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding(
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.hub">hub</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#hub GoogleNetworkConnectivityHubIamBinding#hub}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.members">members</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#members GoogleNetworkConnectivityHubIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#role GoogleNetworkConnectivityHubIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.hub">hub</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#hub GoogleNetworkConnectivityHubIamBinding#hub}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.members">members</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#members GoogleNetworkConnectivityHubIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#role GoogleNetworkConnectivityHubIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCondition">GoogleNetworkConnectivityHubIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#id GoogleNetworkConnectivityHubIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#project GoogleNetworkConnectivityHubIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#id GoogleNetworkConnectivityHubIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBinding.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#project GoogleNetworkConnectivityHubIamBinding#project}. |
 
 ---
 
@@ -114,7 +114,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#hub GoogleNetworkConnectivityHubIamBinding#hub}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#hub GoogleNetworkConnectivityHubIamBinding#hub}.
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#members GoogleNetworkConnectivityHubIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#members GoogleNetworkConnectivityHubIamBinding#members}.
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#role GoogleNetworkConnectivityHubIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#role GoogleNetworkConnectivityHubIamBinding#role}.
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#condition GoogleNetworkConnectivityHubIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#condition GoogleNetworkConnectivityHubIamBinding#condition}
 
 ---
 
@@ -148,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#id GoogleNetworkConnectivityHubIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#id GoogleNetworkConnectivityHubIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,7 +159,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#project GoogleNetworkConnectivityHubIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#project GoogleNetworkConnectivityHubIamBinding#project}.
 
 ---
 
@@ -560,7 +560,7 @@ def put_condition(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#expression GoogleNetworkConnectivityHubIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#expression GoogleNetworkConnectivityHubIamBinding#expression}.
 
 ---
 
@@ -568,7 +568,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#title GoogleNetworkConnectivityHubIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#title GoogleNetworkConnectivityHubIamBinding#title}.
 
 ---
 
@@ -576,7 +576,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#description GoogleNetworkConnectivityHubIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#description GoogleNetworkConnectivityHubIamBinding#description}.
 
 ---
 
@@ -712,7 +712,7 @@ The construct id used in the generated config for the GoogleNetworkConnectivityH
 
 The id of the existing GoogleNetworkConnectivityHubIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1068,9 +1068,9 @@ googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCon
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#expression GoogleNetworkConnectivityHubIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#title GoogleNetworkConnectivityHubIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#description GoogleNetworkConnectivityHubIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCondition.property.expression">expression</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#expression GoogleNetworkConnectivityHubIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCondition.property.title">title</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#title GoogleNetworkConnectivityHubIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCondition.property.description">description</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#description GoogleNetworkConnectivityHubIamBinding#description}. |
 
 ---
 
@@ -1082,7 +1082,7 @@ expression: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#expression GoogleNetworkConnectivityHubIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#expression GoogleNetworkConnectivityHubIamBinding#expression}.
 
 ---
 
@@ -1094,7 +1094,7 @@ title: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#title GoogleNetworkConnectivityHubIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#title GoogleNetworkConnectivityHubIamBinding#title}.
 
 ---
 
@@ -1106,7 +1106,7 @@ description: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#description GoogleNetworkConnectivityHubIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#description GoogleNetworkConnectivityHubIamBinding#description}.
 
 ---
 
@@ -1145,12 +1145,12 @@ googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCon
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.hub">hub</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#hub GoogleNetworkConnectivityHubIamBinding#hub}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.members">members</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#members GoogleNetworkConnectivityHubIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#role GoogleNetworkConnectivityHubIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.hub">hub</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#hub GoogleNetworkConnectivityHubIamBinding#hub}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.members">members</a></code> | <code>typing.List[str]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#members GoogleNetworkConnectivityHubIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.role">role</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#role GoogleNetworkConnectivityHubIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingCondition">GoogleNetworkConnectivityHubIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#id GoogleNetworkConnectivityHubIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#project GoogleNetworkConnectivityHubIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#id GoogleNetworkConnectivityHubIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleNetworkConnectivityHubIamBinding.GoogleNetworkConnectivityHubIamBindingConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#project GoogleNetworkConnectivityHubIamBinding#project}. |
 
 ---
 
@@ -1232,7 +1232,7 @@ hub: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#hub GoogleNetworkConnectivityHubIamBinding#hub}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#hub GoogleNetworkConnectivityHubIamBinding#hub}.
 
 ---
 
@@ -1244,7 +1244,7 @@ members: typing.List[str]
 
 - *Type:* typing.List[str]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#members GoogleNetworkConnectivityHubIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#members GoogleNetworkConnectivityHubIamBinding#members}.
 
 ---
 
@@ -1256,7 +1256,7 @@ role: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#role GoogleNetworkConnectivityHubIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#role GoogleNetworkConnectivityHubIamBinding#role}.
 
 ---
 
@@ -1270,7 +1270,7 @@ condition: GoogleNetworkConnectivityHubIamBindingCondition
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#condition GoogleNetworkConnectivityHubIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#condition GoogleNetworkConnectivityHubIamBinding#condition}
 
 ---
 
@@ -1282,7 +1282,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#id GoogleNetworkConnectivityHubIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#id GoogleNetworkConnectivityHubIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1297,7 +1297,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_network_connectivity_hub_iam_binding#project GoogleNetworkConnectivityHubIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_network_connectivity_hub_iam_binding#project GoogleNetworkConnectivityHubIamBinding#project}.
 
 ---
 
