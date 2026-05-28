@@ -4,7 +4,7 @@
 
 ### GoogleVertexAiEndpointIamPolicy <a name="GoogleVertexAiEndpointIamPolicy" id="@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy google_vertex_ai_endpoint_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy google_vertex_ai_endpoint_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicy.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleVertexAiEndpointIamP
 
 The id of the existing GoogleVertexAiEndpointIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -847,11 +847,11 @@ const googleVertexAiEndpointIamPolicyConfig: googleVertexAiEndpointIamPolicy.Goo
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.endpoint">endpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#endpoint GoogleVertexAiEndpointIamPolicy#endpoint}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.policyData">policyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#policy_data GoogleVertexAiEndpointIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#id GoogleVertexAiEndpointIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#location GoogleVertexAiEndpointIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#project GoogleVertexAiEndpointIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.endpoint">endpoint</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#endpoint GoogleVertexAiEndpointIamPolicy#endpoint}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.policyData">policyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#policy_data GoogleVertexAiEndpointIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#id GoogleVertexAiEndpointIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#location GoogleVertexAiEndpointIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleVertexAiEndpointIamPolicy.GoogleVertexAiEndpointIamPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#project GoogleVertexAiEndpointIamPolicy#project}. |
 
 ---
 
@@ -933,7 +933,7 @@ public readonly endpoint: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#endpoint GoogleVertexAiEndpointIamPolicy#endpoint}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#endpoint GoogleVertexAiEndpointIamPolicy#endpoint}.
 
 ---
 
@@ -945,7 +945,7 @@ public readonly policyData: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#policy_data GoogleVertexAiEndpointIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#policy_data GoogleVertexAiEndpointIamPolicy#policy_data}.
 
 ---
 
@@ -957,7 +957,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#id GoogleVertexAiEndpointIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#id GoogleVertexAiEndpointIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -972,7 +972,7 @@ public readonly location: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#location GoogleVertexAiEndpointIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#location GoogleVertexAiEndpointIamPolicy#location}.
 
 ---
 
@@ -984,7 +984,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_vertex_ai_endpoint_iam_policy#project GoogleVertexAiEndpointIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vertex_ai_endpoint_iam_policy#project GoogleVertexAiEndpointIamPolicy#project}.
 
 ---
 

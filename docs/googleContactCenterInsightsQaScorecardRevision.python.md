@@ -4,7 +4,7 @@
 
 ### GoogleContactCenterInsightsQaScorecardRevision <a name="GoogleContactCenterInsightsQaScorecardRevision" id="@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision google_contact_center_insights_qa_scorecard_revision}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision google_contact_center_insights_qa_scorecard_revision}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer"></a>
 
@@ -43,8 +43,8 @@ googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScor
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer.parameter.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer.parameter.qaScorecard">qa_scorecard</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#id GoogleContactCenterInsightsQaScorecardRevision#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#project GoogleContactCenterInsightsQaScorecardRevision#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer.parameter.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#id GoogleContactCenterInsightsQaScorecardRevision#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer.parameter.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#project GoogleContactCenterInsightsQaScorecardRevision#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer.parameter.qaScorecardRevisionId">qa_scorecard_revision_id</a></code> | <code>str</code> | A unique ID for the new QaScorecardRevision. |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevision.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionTimeouts">GoogleContactCenterInsightsQaScorecardRevisionTimeouts</a></code> | timeouts block. |
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#location GoogleContactCenterInsightsQaScorecardRevision#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#location GoogleContactCenterInsightsQaScorecardRevision#location}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#qa_scorecard GoogleContactCenterInsightsQaScorecardRevision#qa_scorecard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#qa_scorecard GoogleContactCenterInsightsQaScorecardRevision#qa_scorecard}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#id GoogleContactCenterInsightsQaScorecardRevision#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#id GoogleContactCenterInsightsQaScorecardRevision#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -145,7 +145,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#project GoogleContactCenterInsightsQaScorecardRevision#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#project GoogleContactCenterInsightsQaScorecardRevision#project}.
 
 ---
 
@@ -159,7 +159,7 @@ This ID will become the final
 component of the QaScorecardRevision's resource name.
 If no ID is specified this resource will get the latest revision on the given scorecard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#qa_scorecard_revision_id GoogleContactCenterInsightsQaScorecardRevision#qa_scorecard_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#qa_scorecard_revision_id GoogleContactCenterInsightsQaScorecardRevision#qa_scorecard_revision_id}
 
 ---
 
@@ -169,7 +169,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#timeouts GoogleContactCenterInsightsQaScorecardRevision#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#timeouts GoogleContactCenterInsightsQaScorecardRevision#timeouts}
 
 ---
 
@@ -570,7 +570,7 @@ def put_timeouts(
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#create GoogleContactCenterInsightsQaScorecardRevision#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#create GoogleContactCenterInsightsQaScorecardRevision#create}.
 
 ---
 
@@ -578,7 +578,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#delete GoogleContactCenterInsightsQaScorecardRevision#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#delete GoogleContactCenterInsightsQaScorecardRevision#delete}.
 
 ---
 
@@ -720,7 +720,7 @@ The construct id used in the generated config for the GoogleContactCenterInsight
 
 The id of the existing GoogleContactCenterInsightsQaScorecardRevision that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1139,8 +1139,8 @@ googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScor
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionConfig.property.location">location</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionConfig.property.qaScorecard">qa_scorecard</a></code> | <code>str</code> | Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122. |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#id GoogleContactCenterInsightsQaScorecardRevision#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#project GoogleContactCenterInsightsQaScorecardRevision#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionConfig.property.id">id</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#id GoogleContactCenterInsightsQaScorecardRevision#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionConfig.property.project">project</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#project GoogleContactCenterInsightsQaScorecardRevision#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionConfig.property.qaScorecardRevisionId">qa_scorecard_revision_id</a></code> | <code>str</code> | A unique ID for the new QaScorecardRevision. |
 | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionTimeouts">GoogleContactCenterInsightsQaScorecardRevisionTimeouts</a></code> | timeouts block. |
 
@@ -1226,7 +1226,7 @@ location: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#location GoogleContactCenterInsightsQaScorecardRevision#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#location GoogleContactCenterInsightsQaScorecardRevision#location}
 
 ---
 
@@ -1240,7 +1240,7 @@ qa_scorecard: str
 
 Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#qa_scorecard GoogleContactCenterInsightsQaScorecardRevision#qa_scorecard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#qa_scorecard GoogleContactCenterInsightsQaScorecardRevision#qa_scorecard}
 
 ---
 
@@ -1252,7 +1252,7 @@ id: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#id GoogleContactCenterInsightsQaScorecardRevision#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#id GoogleContactCenterInsightsQaScorecardRevision#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1267,7 +1267,7 @@ project: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#project GoogleContactCenterInsightsQaScorecardRevision#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#project GoogleContactCenterInsightsQaScorecardRevision#project}.
 
 ---
 
@@ -1285,7 +1285,7 @@ This ID will become the final
 component of the QaScorecardRevision's resource name.
 If no ID is specified this resource will get the latest revision on the given scorecard.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#qa_scorecard_revision_id GoogleContactCenterInsightsQaScorecardRevision#qa_scorecard_revision_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#qa_scorecard_revision_id GoogleContactCenterInsightsQaScorecardRevision#qa_scorecard_revision_id}
 
 ---
 
@@ -1299,7 +1299,7 @@ timeouts: GoogleContactCenterInsightsQaScorecardRevisionTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#timeouts GoogleContactCenterInsightsQaScorecardRevision#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#timeouts GoogleContactCenterInsightsQaScorecardRevision#timeouts}
 
 ---
 
@@ -1331,8 +1331,8 @@ googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScor
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#create GoogleContactCenterInsightsQaScorecardRevision#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#delete GoogleContactCenterInsightsQaScorecardRevision#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionTimeouts.property.create">create</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#create GoogleContactCenterInsightsQaScorecardRevision#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleContactCenterInsightsQaScorecardRevision.GoogleContactCenterInsightsQaScorecardRevisionTimeouts.property.delete">delete</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#delete GoogleContactCenterInsightsQaScorecardRevision#delete}. |
 
 ---
 
@@ -1344,7 +1344,7 @@ create: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#create GoogleContactCenterInsightsQaScorecardRevision#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#create GoogleContactCenterInsightsQaScorecardRevision#create}.
 
 ---
 
@@ -1356,7 +1356,7 @@ delete: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#delete GoogleContactCenterInsightsQaScorecardRevision#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_contact_center_insights_qa_scorecard_revision#delete GoogleContactCenterInsightsQaScorecardRevision#delete}.
 
 ---
 

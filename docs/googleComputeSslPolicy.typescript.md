@@ -4,7 +4,7 @@
 
 ### GoogleComputeSslPolicy <a name="GoogleComputeSslPolicy" id="@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy google_compute_ssl_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy google_compute_ssl_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.Initializer"></a>
 
@@ -80,6 +80,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.resetId">resetId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.resetMinTlsVersion">resetMinTlsVersion</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.resetPostQuantumKeyExchange">resetPostQuantumKeyExchange</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.resetProfile">resetProfile</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.resetProject">resetProject</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.resetTimeouts">resetTimeouts</a></code> | *No description.* |
@@ -437,6 +438,12 @@ public resetId(): void
 public resetMinTlsVersion(): void
 ```
 
+##### `resetPostQuantumKeyExchange` <a name="resetPostQuantumKeyExchange" id="@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.resetPostQuantumKeyExchange"></a>
+
+```typescript
+public resetPostQuantumKeyExchange(): void
+```
+
 ##### `resetProfile` <a name="resetProfile" id="@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.resetProfile"></a>
 
 ```typescript
@@ -558,7 +565,7 @@ The construct id used in the generated config for the GoogleComputeSslPolicy to 
 
 The id of the existing GoogleComputeSslPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -599,6 +606,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.minTlsVersionInput">minTlsVersionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.postQuantumKeyExchangeInput">postQuantumKeyExchangeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.profileInput">profileInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.projectInput">projectInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.timeoutsInput">timeoutsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts">GoogleComputeSslPolicyTimeouts</a></code> | *No description.* |
@@ -608,6 +616,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-bet
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.minTlsVersion">minTlsVersion</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.name">name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.postQuantumKeyExchange">postQuantumKeyExchange</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.profile">profile</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.project">project</a></code> | <code>string</code> | *No description.* |
 
@@ -865,6 +874,16 @@ public readonly nameInput: string;
 
 ---
 
+##### `postQuantumKeyExchangeInput`<sup>Optional</sup> <a name="postQuantumKeyExchangeInput" id="@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.postQuantumKeyExchangeInput"></a>
+
+```typescript
+public readonly postQuantumKeyExchangeInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `profileInput`<sup>Optional</sup> <a name="profileInput" id="@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.profileInput"></a>
 
 ```typescript
@@ -955,6 +974,16 @@ public readonly name: string;
 
 ---
 
+##### `postQuantumKeyExchange`<sup>Required</sup> <a name="postQuantumKeyExchange" id="@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.postQuantumKeyExchange"></a>
+
+```typescript
+public readonly postQuantumKeyExchange: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `profile`<sup>Required</sup> <a name="profile" id="@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicy.property.profile"></a>
 
 ```typescript
@@ -1020,10 +1049,11 @@ const googleComputeSslPolicyConfig: googleComputeSslPolicy.GoogleComputeSslPolic
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.customFeatures">customFeatures</a></code> | <code>string[]</code> | Profile specifies the set of SSL features that can be used by the load balancer when negotiating SSL with clients. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.description">description</a></code> | <code>string</code> | An optional description of this resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#id GoogleComputeSslPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#id GoogleComputeSslPolicy#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.minTlsVersion">minTlsVersion</a></code> | <code>string</code> | The minimum version of SSL protocol that can be used by the clients to establish a connection with the load balancer. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.postQuantumKeyExchange">postQuantumKeyExchange</a></code> | <code>string</code> | One of 'DEFAULT', 'ENABLED', or 'DEFERRED'. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.profile">profile</a></code> | <code>string</code> | Profile specifies the set of SSL features that can be used by the load balancer when negotiating SSL with clients. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#project GoogleComputeSslPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#project GoogleComputeSslPolicy#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts">GoogleComputeSslPolicyTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1116,7 +1146,7 @@ first character must be a lowercase letter, and all following
 characters must be a dash, lowercase letter, or digit, except the last
 character, which cannot be a dash.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#name GoogleComputeSslPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#name GoogleComputeSslPolicy#name}
 
 ---
 
@@ -1140,7 +1170,7 @@ for which ciphers are available to use. **Note**: this argument
 *must* be present when using the 'CUSTOM' profile. This argument
 *must not* be present when using any other profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#custom_features GoogleComputeSslPolicy#custom_features}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#custom_features GoogleComputeSslPolicy#custom_features}
 
 ---
 
@@ -1162,7 +1192,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#deletion_policy GoogleComputeSslPolicy#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#deletion_policy GoogleComputeSslPolicy#deletion_policy}
 
 ---
 
@@ -1176,7 +1206,7 @@ public readonly description: string;
 
 An optional description of this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#description GoogleComputeSslPolicy#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#description GoogleComputeSslPolicy#description}
 
 ---
 
@@ -1188,7 +1218,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#id GoogleComputeSslPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#id GoogleComputeSslPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1208,7 +1238,31 @@ The minimum version of SSL protocol that can be used by the clients to establish
 When set to'
 TLS_1_3', the profile field must be set to 'RESTRICTED'. Default value: "TLS_1_0" Possible values: ["TLS_1_0", "TLS_1_1", "TLS_1_2", "TLS_1_3"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#min_tls_version GoogleComputeSslPolicy#min_tls_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#min_tls_version GoogleComputeSslPolicy#min_tls_version}
+
+---
+
+##### `postQuantumKeyExchange`<sup>Optional</sup> <a name="postQuantumKeyExchange" id="@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyConfig.property.postQuantumKeyExchange"></a>
+
+```typescript
+public readonly postQuantumKeyExchange: string;
+```
+
+- *Type:* string
+
+One of 'DEFAULT', 'ENABLED', or 'DEFERRED'.
+
+Controls whether the load balancer
+negotiates X25519MLKEM768 key exchange when clients advertise support for it.
+When set to 'DEFAULT', or if no SSL Policy is attached to
+the target proxy, the load balancer disallows X25519MLKEM768 key
+exchange before October 2026, and allows it afterward. When set to
+'ENABLED', the load balancer allows X25519MLKEM768 key
+exchange. When set to 'DEFERRED', the load balancer
+disallows X25519MLKEM768 key exchange until October 2027, and allows
+it afterward. Possible values: ["DEFAULT", "ENABLED", "DEFERRED"]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#post_quantum_key_exchange GoogleComputeSslPolicy#post_quantum_key_exchange}
 
 ---
 
@@ -1232,7 +1286,7 @@ for information on what cipher suites each profile provides. If
 If set to 'FIPS_202205', 'minTlsVersion' must also be set to
 'TLS_1_2'. Default value: "COMPATIBLE" Possible values: ["COMPATIBLE", "MODERN", "RESTRICTED", "CUSTOM", "FIPS_202205"]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#profile GoogleComputeSslPolicy#profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#profile GoogleComputeSslPolicy#profile}
 
 ---
 
@@ -1244,7 +1298,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#project GoogleComputeSslPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#project GoogleComputeSslPolicy#project}.
 
 ---
 
@@ -1258,7 +1312,7 @@ public readonly timeouts: GoogleComputeSslPolicyTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#timeouts GoogleComputeSslPolicy#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#timeouts GoogleComputeSslPolicy#timeouts}
 
 ---
 
@@ -1276,9 +1330,9 @@ const googleComputeSslPolicyTimeouts: googleComputeSslPolicy.GoogleComputeSslPol
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#create GoogleComputeSslPolicy#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#delete GoogleComputeSslPolicy#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#update GoogleComputeSslPolicy#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#create GoogleComputeSslPolicy#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#delete GoogleComputeSslPolicy#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeSslPolicy.GoogleComputeSslPolicyTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#update GoogleComputeSslPolicy#update}. |
 
 ---
 
@@ -1290,7 +1344,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#create GoogleComputeSslPolicy#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#create GoogleComputeSslPolicy#create}.
 
 ---
 
@@ -1302,7 +1356,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#delete GoogleComputeSslPolicy#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#delete GoogleComputeSslPolicy#delete}.
 
 ---
 
@@ -1314,7 +1368,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_compute_ssl_policy#update GoogleComputeSslPolicy#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_ssl_policy#update GoogleComputeSslPolicy#update}.
 
 ---
 

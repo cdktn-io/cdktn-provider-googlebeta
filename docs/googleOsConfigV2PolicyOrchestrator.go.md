@@ -4,7 +4,7 @@
 
 ### GoogleOsConfigV2PolicyOrchestrator <a name="GoogleOsConfigV2PolicyOrchestrator" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestrator"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator google_os_config_v2_policy_orchestrator}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestrator.Initializer"></a>
 
@@ -584,7 +584,7 @@ The construct id used in the generated config for the GoogleOsConfigV2PolicyOrch
 
 The id of the existing GoogleOsConfigV2PolicyOrchestrator that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1143,10 +1143,10 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleos
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.policyOrchestratorId">PolicyOrchestratorId</a></code> | <code>*string</code> | Required. The logical identifier of the policy orchestrator, with the following restrictions:. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>*string</code> | Whether Terraform will be prevented from destroying the instance. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.description">Description</a></code> | <code>*string</code> | Optional. Freeform text describing the purpose of the resource. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.id">Id</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.labels">Labels</a></code> | <code>*map[string]*string</code> | Optional. Labels as key value pairs. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.orchestrationScope">OrchestrationScope</a></code> | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorOrchestrationScope">GoogleOsConfigV2PolicyOrchestratorOrchestrationScope</a></code> | orchestration_scope block. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#project GoogleOsConfigV2PolicyOrchestrator#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.project">Project</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#project GoogleOsConfigV2PolicyOrchestrator#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.state">State</a></code> | <code>*string</code> | Optional. |
 | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorTimeouts">GoogleOsConfigV2PolicyOrchestratorTimeouts</a></code> | timeouts block. |
 
@@ -1239,7 +1239,7 @@ Action to be done by the orchestrator in
 * 'UPSERT' - Orchestrator will create or update target resources.
 * 'DELETE' - Orchestrator will delete target resources, if they exist
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#action GoogleOsConfigV2PolicyOrchestrator#action}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#action GoogleOsConfigV2PolicyOrchestrator#action}
 
 ---
 
@@ -1253,7 +1253,7 @@ OrchestratedResource GoogleOsConfigV2PolicyOrchestratorOrchestratedResource
 
 orchestrated_resource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#orchestrated_resource GoogleOsConfigV2PolicyOrchestrator#orchestrated_resource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#orchestrated_resource GoogleOsConfigV2PolicyOrchestrator#orchestrated_resource}
 
 ---
 
@@ -1273,7 +1273,7 @@ Required. The logical identifier of the policy orchestrator, with the following 
 * Must end with a number or a letter.
 * Must be unique within the parent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#policy_orchestrator_id GoogleOsConfigV2PolicyOrchestrator#policy_orchestrator_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#policy_orchestrator_id GoogleOsConfigV2PolicyOrchestrator#policy_orchestrator_id}
 
 ---
 
@@ -1294,7 +1294,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#deletion_policy GoogleOsConfigV2PolicyOrchestrator#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#deletion_policy GoogleOsConfigV2PolicyOrchestrator#deletion_policy}
 
 ---
 
@@ -1308,7 +1308,7 @@ Description *string
 
 Optional. Freeform text describing the purpose of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#description GoogleOsConfigV2PolicyOrchestrator#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#description GoogleOsConfigV2PolicyOrchestrator#description}
 
 ---
 
@@ -1320,7 +1320,7 @@ Id *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1340,7 +1340,7 @@ Optional. Labels as key value pairs.
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#labels GoogleOsConfigV2PolicyOrchestrator#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#labels GoogleOsConfigV2PolicyOrchestrator#labels}
 
 ---
 
@@ -1354,7 +1354,7 @@ OrchestrationScope GoogleOsConfigV2PolicyOrchestratorOrchestrationScope
 
 orchestration_scope block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#orchestration_scope GoogleOsConfigV2PolicyOrchestrator#orchestration_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#orchestration_scope GoogleOsConfigV2PolicyOrchestrator#orchestration_scope}
 
 ---
 
@@ -1366,7 +1366,7 @@ Project *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#project GoogleOsConfigV2PolicyOrchestrator#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#project GoogleOsConfigV2PolicyOrchestrator#project}.
 
 ---
 
@@ -1390,7 +1390,7 @@ Note: There might be more states added in the future. We use string here
 instead of an enum, to avoid the need of propagating new states to all the
 client code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#state GoogleOsConfigV2PolicyOrchestrator#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#state GoogleOsConfigV2PolicyOrchestrator#state}
 
 ---
 
@@ -1404,7 +1404,7 @@ Timeouts GoogleOsConfigV2PolicyOrchestratorTimeouts
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#timeouts GoogleOsConfigV2PolicyOrchestrator#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#timeouts GoogleOsConfigV2PolicyOrchestrator#timeouts}
 
 ---
 
@@ -1453,7 +1453,7 @@ restrictions:
 For DELETE action, ID must be specified explicitly during
 PolicyOrchestrator creation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1470,7 +1470,7 @@ OsPolicyAssignmentV1Payload GoogleOsConfigV2PolicyOrchestratorOrchestratedResour
 
 os_policy_assignment_v1_payload block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#os_policy_assignment_v1_payload GoogleOsConfigV2PolicyOrchestrator#os_policy_assignment_v1_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#os_policy_assignment_v1_payload GoogleOsConfigV2PolicyOrchestrator#os_policy_assignment_v1_payload}
 
 ---
 
@@ -1512,7 +1512,7 @@ InstanceFilter GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAss
 
 instance_filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#instance_filter GoogleOsConfigV2PolicyOrchestrator#instance_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#instance_filter GoogleOsConfigV2PolicyOrchestrator#instance_filter}
 
 ---
 
@@ -1526,7 +1526,7 @@ OsPolicies interface{}
 
 os_policies block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#os_policies GoogleOsConfigV2PolicyOrchestrator#os_policies}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#os_policies GoogleOsConfigV2PolicyOrchestrator#os_policies}
 
 ---
 
@@ -1540,7 +1540,7 @@ Rollout GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignment
 
 rollout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#rollout GoogleOsConfigV2PolicyOrchestrator#rollout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#rollout GoogleOsConfigV2PolicyOrchestrator#rollout}
 
 ---
 
@@ -1554,7 +1554,7 @@ Description *string
 
 OS policy assignment description. Length of the description is limited to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#description GoogleOsConfigV2PolicyOrchestrator#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#description GoogleOsConfigV2PolicyOrchestrator#description}
 
 ---
 
@@ -1573,7 +1573,7 @@ Format:
 
 This field is ignored when you create an OS policy assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
 
 ---
 
@@ -1613,7 +1613,7 @@ All interface{}
 
 Target all VMs in the project. If true, no other criteria is permitted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#all GoogleOsConfigV2PolicyOrchestrator#all}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#all GoogleOsConfigV2PolicyOrchestrator#all}
 
 ---
 
@@ -1627,7 +1627,7 @@ ExclusionLabels interface{}
 
 exclusion_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#exclusion_labels GoogleOsConfigV2PolicyOrchestrator#exclusion_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#exclusion_labels GoogleOsConfigV2PolicyOrchestrator#exclusion_labels}
 
 ---
 
@@ -1641,7 +1641,7 @@ InclusionLabels interface{}
 
 inclusion_labels block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#inclusion_labels GoogleOsConfigV2PolicyOrchestrator#inclusion_labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#inclusion_labels GoogleOsConfigV2PolicyOrchestrator#inclusion_labels}
 
 ---
 
@@ -1655,7 +1655,7 @@ Inventories interface{}
 
 inventories block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#inventories GoogleOsConfigV2PolicyOrchestrator#inventories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#inventories GoogleOsConfigV2PolicyOrchestrator#inventories}
 
 ---
 
@@ -1692,7 +1692,7 @@ Labels are identified by key/value pairs in this map.
 A VM should contain all the key/value pairs specified in this
 map to be selected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#labels GoogleOsConfigV2PolicyOrchestrator#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#labels GoogleOsConfigV2PolicyOrchestrator#labels}
 
 ---
 
@@ -1729,7 +1729,7 @@ Labels are identified by key/value pairs in this map.
 A VM should contain all the key/value pairs specified in this
 map to be selected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#labels GoogleOsConfigV2PolicyOrchestrator#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#labels GoogleOsConfigV2PolicyOrchestrator#labels}
 
 ---
 
@@ -1765,7 +1765,7 @@ OsShortName *string
 
 Required. The OS short name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#os_short_name GoogleOsConfigV2PolicyOrchestrator#os_short_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#os_short_name GoogleOsConfigV2PolicyOrchestrator#os_short_name}
 
 ---
 
@@ -1785,7 +1785,7 @@ version of '7', specify the following value for this field '7.*'
 
 An empty string matches all OS versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#os_version GoogleOsConfigV2PolicyOrchestrator#os_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#os_version GoogleOsConfigV2PolicyOrchestrator#os_version}
 
 ---
 
@@ -1833,7 +1833,7 @@ Required. The id of the OS policy with the following restrictions:.
 * Must end with a number or a letter.
 * Must be unique within the assignment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1850,7 +1850,7 @@ Mode *string
 
 Required. Policy mode Possible values: MODE_UNSPECIFIED VALIDATION ENFORCEMENT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#mode GoogleOsConfigV2PolicyOrchestrator#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#mode GoogleOsConfigV2PolicyOrchestrator#mode}
 
 ---
 
@@ -1864,7 +1864,7 @@ ResourceGroups interface{}
 
 resource_groups block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#resource_groups GoogleOsConfigV2PolicyOrchestrator#resource_groups}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#resource_groups GoogleOsConfigV2PolicyOrchestrator#resource_groups}
 
 ---
 
@@ -1882,7 +1882,7 @@ Set this value
 to 'true' if the policy needs to be reported as compliant even if the
 policy has nothing to validate or enforce.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_no_resource_group_match GoogleOsConfigV2PolicyOrchestrator#allow_no_resource_group_match}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_no_resource_group_match GoogleOsConfigV2PolicyOrchestrator#allow_no_resource_group_match}
 
 ---
 
@@ -1896,7 +1896,7 @@ Description *string
 
 Policy description. Length of the description is limited to 1024 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#description GoogleOsConfigV2PolicyOrchestrator#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#description GoogleOsConfigV2PolicyOrchestrator#description}
 
 ---
 
@@ -1932,7 +1932,7 @@ Resources interface{}
 
 resources block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#resources GoogleOsConfigV2PolicyOrchestrator#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#resources GoogleOsConfigV2PolicyOrchestrator#resources}
 
 ---
 
@@ -1946,7 +1946,7 @@ InventoryFilters interface{}
 
 inventory_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#inventory_filters GoogleOsConfigV2PolicyOrchestrator#inventory_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#inventory_filters GoogleOsConfigV2PolicyOrchestrator#inventory_filters}
 
 ---
 
@@ -1982,7 +1982,7 @@ OsShortName *string
 
 Required. The OS short name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#os_short_name GoogleOsConfigV2PolicyOrchestrator#os_short_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#os_short_name GoogleOsConfigV2PolicyOrchestrator#os_short_name}
 
 ---
 
@@ -2002,7 +2002,7 @@ version of '7', specify the following value for this field '7.*'
 
 An empty string matches all OS versions.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#os_version GoogleOsConfigV2PolicyOrchestrator#os_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#os_version GoogleOsConfigV2PolicyOrchestrator#os_version}
 
 ---
 
@@ -2050,7 +2050,7 @@ Required. The id of the resource with the following restrictions:.
 * Must end with a number or a letter.
 * Must be unique within the OS policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2067,7 +2067,7 @@ Exec GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1P
 
 exec block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#exec GoogleOsConfigV2PolicyOrchestrator#exec}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#exec GoogleOsConfigV2PolicyOrchestrator#exec}
 
 ---
 
@@ -2081,7 +2081,7 @@ File GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1P
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#file GoogleOsConfigV2PolicyOrchestrator#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#file GoogleOsConfigV2PolicyOrchestrator#file}
 
 ---
 
@@ -2095,7 +2095,7 @@ Pkg GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 pkg block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#pkg GoogleOsConfigV2PolicyOrchestrator#pkg}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#pkg GoogleOsConfigV2PolicyOrchestrator#pkg}
 
 ---
 
@@ -2109,7 +2109,7 @@ Repository GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignm
 
 repository block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#repository GoogleOsConfigV2PolicyOrchestrator#repository}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#repository GoogleOsConfigV2PolicyOrchestrator#repository}
 
 ---
 
@@ -2145,7 +2145,7 @@ Validate GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmen
 
 validate block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#validate GoogleOsConfigV2PolicyOrchestrator#validate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#validate GoogleOsConfigV2PolicyOrchestrator#validate}
 
 ---
 
@@ -2159,7 +2159,7 @@ Enforce GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignment
 
 enforce block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#enforce GoogleOsConfigV2PolicyOrchestrator#enforce}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#enforce GoogleOsConfigV2PolicyOrchestrator#enforce}
 
 ---
 
@@ -2201,7 +2201,7 @@ Interpreter *string
 
 Required. The script interpreter to use. Possible values: INTERPRETER_UNSPECIFIED NONE SHELL POWERSHELL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#interpreter GoogleOsConfigV2PolicyOrchestrator#interpreter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#interpreter GoogleOsConfigV2PolicyOrchestrator#interpreter}
 
 ---
 
@@ -2215,7 +2215,7 @@ Args *[]*string
 
 Optional arguments to pass to the source during execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#args GoogleOsConfigV2PolicyOrchestrator#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#args GoogleOsConfigV2PolicyOrchestrator#args}
 
 ---
 
@@ -2229,7 +2229,7 @@ File GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1P
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#file GoogleOsConfigV2PolicyOrchestrator#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#file GoogleOsConfigV2PolicyOrchestrator#file}
 
 ---
 
@@ -2249,7 +2249,7 @@ successful run. Absence or failure to read this file will result in
 this ExecResource being non-compliant. Output file size is limited to
 500K bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#output_file_path GoogleOsConfigV2PolicyOrchestrator#output_file_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#output_file_path GoogleOsConfigV2PolicyOrchestrator#output_file_path}
 
 ---
 
@@ -2263,7 +2263,7 @@ Script *string
 
 An inline script. The size of the script is limited to 32KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#script GoogleOsConfigV2PolicyOrchestrator#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#script GoogleOsConfigV2PolicyOrchestrator#script}
 
 ---
 
@@ -2306,7 +2306,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
 
 ---
 
@@ -2320,7 +2320,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
 
 ---
 
@@ -2334,7 +2334,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
 
 ---
 
@@ -2348,7 +2348,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
 
 ---
 
@@ -2386,7 +2386,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
 
 ---
 
@@ -2400,7 +2400,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
 
 ---
 
@@ -2414,7 +2414,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
 
 ---
 
@@ -2450,7 +2450,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
 
 ---
 
@@ -2464,7 +2464,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
 
 ---
 
@@ -2506,7 +2506,7 @@ Interpreter *string
 
 Required. The script interpreter to use. Possible values: INTERPRETER_UNSPECIFIED NONE SHELL POWERSHELL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#interpreter GoogleOsConfigV2PolicyOrchestrator#interpreter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#interpreter GoogleOsConfigV2PolicyOrchestrator#interpreter}
 
 ---
 
@@ -2520,7 +2520,7 @@ Args *[]*string
 
 Optional arguments to pass to the source during execution.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#args GoogleOsConfigV2PolicyOrchestrator#args}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#args GoogleOsConfigV2PolicyOrchestrator#args}
 
 ---
 
@@ -2534,7 +2534,7 @@ File GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1P
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#file GoogleOsConfigV2PolicyOrchestrator#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#file GoogleOsConfigV2PolicyOrchestrator#file}
 
 ---
 
@@ -2554,7 +2554,7 @@ successful run. Absence or failure to read this file will result in
 this ExecResource being non-compliant. Output file size is limited to
 500K bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#output_file_path GoogleOsConfigV2PolicyOrchestrator#output_file_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#output_file_path GoogleOsConfigV2PolicyOrchestrator#output_file_path}
 
 ---
 
@@ -2568,7 +2568,7 @@ Script *string
 
 An inline script. The size of the script is limited to 32KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#script GoogleOsConfigV2PolicyOrchestrator#script}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#script GoogleOsConfigV2PolicyOrchestrator#script}
 
 ---
 
@@ -2611,7 +2611,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
 
 ---
 
@@ -2625,7 +2625,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
 
 ---
 
@@ -2639,7 +2639,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
 
 ---
 
@@ -2653,7 +2653,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
 
 ---
 
@@ -2691,7 +2691,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
 
 ---
 
@@ -2705,7 +2705,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
 
 ---
 
@@ -2719,7 +2719,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
 
 ---
 
@@ -2755,7 +2755,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
 
 ---
 
@@ -2769,7 +2769,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
 
 ---
 
@@ -2811,7 +2811,7 @@ Path *string
 
 Required. The absolute path of the file within the VM.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#path GoogleOsConfigV2PolicyOrchestrator#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#path GoogleOsConfigV2PolicyOrchestrator#path}
 
 ---
 
@@ -2825,7 +2825,7 @@ State *string
 
 Required. Desired state of the file. Possible values: DESIRED_STATE_UNSPECIFIED PRESENT ABSENT CONTENTS_MATCH.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#state GoogleOsConfigV2PolicyOrchestrator#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#state GoogleOsConfigV2PolicyOrchestrator#state}
 
 ---
 
@@ -2839,7 +2839,7 @@ Content *string
 
 A a file with this content. The size of the content is limited to 32KiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#content GoogleOsConfigV2PolicyOrchestrator#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#content GoogleOsConfigV2PolicyOrchestrator#content}
 
 ---
 
@@ -2853,7 +2853,7 @@ File GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1P
 
 file block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#file GoogleOsConfigV2PolicyOrchestrator#file}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#file GoogleOsConfigV2PolicyOrchestrator#file}
 
 ---
 
@@ -2878,7 +2878,7 @@ read and execute: 5
 read and write: 6
 read only: 4
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#permissions GoogleOsConfigV2PolicyOrchestrator#permissions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#permissions GoogleOsConfigV2PolicyOrchestrator#permissions}
 
 ---
 
@@ -2921,7 +2921,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
 
 ---
 
@@ -2935,7 +2935,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
 
 ---
 
@@ -2949,7 +2949,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
 
 ---
 
@@ -2963,7 +2963,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
 
 ---
 
@@ -3001,7 +3001,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
 
 ---
 
@@ -3015,7 +3015,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
 
 ---
 
@@ -3029,7 +3029,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
 
 ---
 
@@ -3065,7 +3065,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
 
 ---
 
@@ -3079,7 +3079,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
 
 ---
 
@@ -3127,7 +3127,7 @@ DesiredState *string
 
 Required. The desired state the agent should maintain for this package. Possible values: DESIRED_STATE_UNSPECIFIED INSTALLED REMOVED.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#desired_state GoogleOsConfigV2PolicyOrchestrator#desired_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#desired_state GoogleOsConfigV2PolicyOrchestrator#desired_state}
 
 ---
 
@@ -3141,7 +3141,7 @@ Apt GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 apt block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#apt GoogleOsConfigV2PolicyOrchestrator#apt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#apt GoogleOsConfigV2PolicyOrchestrator#apt}
 
 ---
 
@@ -3155,7 +3155,7 @@ Deb GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 deb block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#deb GoogleOsConfigV2PolicyOrchestrator#deb}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#deb GoogleOsConfigV2PolicyOrchestrator#deb}
 
 ---
 
@@ -3169,7 +3169,7 @@ Googet GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 googet block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#googet GoogleOsConfigV2PolicyOrchestrator#googet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#googet GoogleOsConfigV2PolicyOrchestrator#googet}
 
 ---
 
@@ -3183,7 +3183,7 @@ Msi GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 msi block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#msi GoogleOsConfigV2PolicyOrchestrator#msi}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#msi GoogleOsConfigV2PolicyOrchestrator#msi}
 
 ---
 
@@ -3197,7 +3197,7 @@ Rpm GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 rpm block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#rpm GoogleOsConfigV2PolicyOrchestrator#rpm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#rpm GoogleOsConfigV2PolicyOrchestrator#rpm}
 
 ---
 
@@ -3211,7 +3211,7 @@ Yum GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 yum block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#yum GoogleOsConfigV2PolicyOrchestrator#yum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#yum GoogleOsConfigV2PolicyOrchestrator#yum}
 
 ---
 
@@ -3225,7 +3225,7 @@ Zypper GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 zypper block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#zypper GoogleOsConfigV2PolicyOrchestrator#zypper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#zypper GoogleOsConfigV2PolicyOrchestrator#zypper}
 
 ---
 
@@ -3259,7 +3259,7 @@ Name *string
 
 Required. Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
 
 ---
 
@@ -3295,7 +3295,7 @@ Source GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#source GoogleOsConfigV2PolicyOrchestrator#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#source GoogleOsConfigV2PolicyOrchestrator#source}
 
 ---
 
@@ -3313,7 +3313,7 @@ Whether dependencies should also be installed.
 * install when true: 'apt-get update && apt-get -y install
   package.deb'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#pull_deps GoogleOsConfigV2PolicyOrchestrator#pull_deps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#pull_deps GoogleOsConfigV2PolicyOrchestrator#pull_deps}
 
 ---
 
@@ -3356,7 +3356,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
 
 ---
 
@@ -3370,7 +3370,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
 
 ---
 
@@ -3384,7 +3384,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
 
 ---
 
@@ -3398,7 +3398,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
 
 ---
 
@@ -3436,7 +3436,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
 
 ---
 
@@ -3450,7 +3450,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
 
 ---
 
@@ -3464,7 +3464,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
 
 ---
 
@@ -3500,7 +3500,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
 
 ---
 
@@ -3514,7 +3514,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
 
 ---
 
@@ -3548,7 +3548,7 @@ Name *string
 
 Required. Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
 
 ---
 
@@ -3584,7 +3584,7 @@ Source GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#source GoogleOsConfigV2PolicyOrchestrator#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#source GoogleOsConfigV2PolicyOrchestrator#source}
 
 ---
 
@@ -3598,7 +3598,7 @@ Properties *[]*string
 
 Additional properties to use during installation. This should be in the format of Property=Setting. Appended to the defaults of 'ACTION=INSTALL REBOOT=ReallySuppress'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#properties GoogleOsConfigV2PolicyOrchestrator#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#properties GoogleOsConfigV2PolicyOrchestrator#properties}
 
 ---
 
@@ -3641,7 +3641,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
 
 ---
 
@@ -3655,7 +3655,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
 
 ---
 
@@ -3669,7 +3669,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
 
 ---
 
@@ -3683,7 +3683,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
 
 ---
 
@@ -3721,7 +3721,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
 
 ---
 
@@ -3735,7 +3735,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
 
 ---
 
@@ -3749,7 +3749,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
 
 ---
 
@@ -3785,7 +3785,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
 
 ---
 
@@ -3799,7 +3799,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
 
 ---
 
@@ -3835,7 +3835,7 @@ Source GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 source block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#source GoogleOsConfigV2PolicyOrchestrator#source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#source GoogleOsConfigV2PolicyOrchestrator#source}
 
 ---
 
@@ -3853,7 +3853,7 @@ Whether dependencies should also be installed.
 * install when true: 'yum -y install package.rpm' or
   'zypper -y install package.rpm'
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#pull_deps GoogleOsConfigV2PolicyOrchestrator#pull_deps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#pull_deps GoogleOsConfigV2PolicyOrchestrator#pull_deps}
 
 ---
 
@@ -3896,7 +3896,7 @@ Defaults to false. When false, files are subject to validations based on the fil
 Remote: A checksum must be specified.
 Cloud Storage: An object generation number must be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#allow_insecure GoogleOsConfigV2PolicyOrchestrator#allow_insecure}
 
 ---
 
@@ -3910,7 +3910,7 @@ Gcs GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 gcs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#gcs GoogleOsConfigV2PolicyOrchestrator#gcs}
 
 ---
 
@@ -3924,7 +3924,7 @@ LocalPath *string
 
 A local path within the VM to use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#local_path GoogleOsConfigV2PolicyOrchestrator#local_path}
 
 ---
 
@@ -3938,7 +3938,7 @@ Remote GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 remote block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#remote GoogleOsConfigV2PolicyOrchestrator#remote}
 
 ---
 
@@ -3976,7 +3976,7 @@ Bucket *string
 
 Required. Bucket of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#bucket GoogleOsConfigV2PolicyOrchestrator#bucket}
 
 ---
 
@@ -3990,7 +3990,7 @@ Object *string
 
 Required. Name of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#object GoogleOsConfigV2PolicyOrchestrator#object}
 
 ---
 
@@ -4004,7 +4004,7 @@ Generation *string
 
 Generation number of the Cloud Storage object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#generation GoogleOsConfigV2PolicyOrchestrator#generation}
 
 ---
 
@@ -4040,7 +4040,7 @@ Uri *string
 
 Required. URI from which to fetch the object. It should contain both the protocol and path following the format '{protocol}://{location}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
 
 ---
 
@@ -4054,7 +4054,7 @@ Sha256Checksum *string
 
 SHA256 checksum of the remote file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#sha256_checksum GoogleOsConfigV2PolicyOrchestrator#sha256_checksum}
 
 ---
 
@@ -4088,7 +4088,7 @@ Name *string
 
 Required. Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
 
 ---
 
@@ -4122,7 +4122,7 @@ Name *string
 
 Required. Package name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
 
 ---
 
@@ -4162,7 +4162,7 @@ Apt GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 apt block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#apt GoogleOsConfigV2PolicyOrchestrator#apt}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#apt GoogleOsConfigV2PolicyOrchestrator#apt}
 
 ---
 
@@ -4176,7 +4176,7 @@ Goo GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 goo block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#goo GoogleOsConfigV2PolicyOrchestrator#goo}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#goo GoogleOsConfigV2PolicyOrchestrator#goo}
 
 ---
 
@@ -4190,7 +4190,7 @@ Yum GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV1Pa
 
 yum block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#yum GoogleOsConfigV2PolicyOrchestrator#yum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#yum GoogleOsConfigV2PolicyOrchestrator#yum}
 
 ---
 
@@ -4204,7 +4204,7 @@ Zypper GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyAssignmentV
 
 zypper block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#zypper GoogleOsConfigV2PolicyOrchestrator#zypper}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#zypper GoogleOsConfigV2PolicyOrchestrator#zypper}
 
 ---
 
@@ -4246,7 +4246,7 @@ ArchiveType *string
 
 Required. Type of archive files in this repository. Possible values: ARCHIVE_TYPE_UNSPECIFIED DEB DEB_SRC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#archive_type GoogleOsConfigV2PolicyOrchestrator#archive_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#archive_type GoogleOsConfigV2PolicyOrchestrator#archive_type}
 
 ---
 
@@ -4260,7 +4260,7 @@ Components *[]*string
 
 Required. List of components for this repository. Must contain at least one item.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#components GoogleOsConfigV2PolicyOrchestrator#components}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#components GoogleOsConfigV2PolicyOrchestrator#components}
 
 ---
 
@@ -4274,7 +4274,7 @@ Distribution *string
 
 Required. Distribution of this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#distribution GoogleOsConfigV2PolicyOrchestrator#distribution}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#distribution GoogleOsConfigV2PolicyOrchestrator#distribution}
 
 ---
 
@@ -4288,7 +4288,7 @@ Uri *string
 
 Required. URI for this repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#uri GoogleOsConfigV2PolicyOrchestrator#uri}
 
 ---
 
@@ -4302,7 +4302,7 @@ GpgKey *string
 
 URI of the key file for this repository. The agent maintains a keyring at '/etc/apt/trusted.gpg.d/osconfig_agent_managed.gpg'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#gpg_key GoogleOsConfigV2PolicyOrchestrator#gpg_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#gpg_key GoogleOsConfigV2PolicyOrchestrator#gpg_key}
 
 ---
 
@@ -4338,7 +4338,7 @@ Name *string
 
 Required. The name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#name GoogleOsConfigV2PolicyOrchestrator#name}
 
 ---
 
@@ -4352,7 +4352,7 @@ Url *string
 
 Required. The url of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#url GoogleOsConfigV2PolicyOrchestrator#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#url GoogleOsConfigV2PolicyOrchestrator#url}
 
 ---
 
@@ -4392,7 +4392,7 @@ BaseUrl *string
 
 Required. The location of the repository directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#base_url GoogleOsConfigV2PolicyOrchestrator#base_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#base_url GoogleOsConfigV2PolicyOrchestrator#base_url}
 
 ---
 
@@ -4411,7 +4411,7 @@ id' in the yum config file and also the 'display_name' if
 'display_name' is omitted. This id is also used as the unique
 identifier when checking for resource conflicts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4428,7 +4428,7 @@ DisplayName *string
 
 The display name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#display_name GoogleOsConfigV2PolicyOrchestrator#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#display_name GoogleOsConfigV2PolicyOrchestrator#display_name}
 
 ---
 
@@ -4442,7 +4442,7 @@ GpgKeys *[]*string
 
 URIs of GPG keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#gpg_keys GoogleOsConfigV2PolicyOrchestrator#gpg_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#gpg_keys GoogleOsConfigV2PolicyOrchestrator#gpg_keys}
 
 ---
 
@@ -4482,7 +4482,7 @@ BaseUrl *string
 
 Required. The location of the repository directory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#base_url GoogleOsConfigV2PolicyOrchestrator#base_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#base_url GoogleOsConfigV2PolicyOrchestrator#base_url}
 
 ---
 
@@ -4501,7 +4501,7 @@ id' in the zypper config file and also the 'display_name' if
 'display_name' is omitted. This id is also used as the unique
 identifier when checking for GuestPolicy conflicts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#id GoogleOsConfigV2PolicyOrchestrator#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4518,7 +4518,7 @@ DisplayName *string
 
 The display name of the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#display_name GoogleOsConfigV2PolicyOrchestrator#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#display_name GoogleOsConfigV2PolicyOrchestrator#display_name}
 
 ---
 
@@ -4532,7 +4532,7 @@ GpgKeys *[]*string
 
 URIs of GPG keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#gpg_keys GoogleOsConfigV2PolicyOrchestrator#gpg_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#gpg_keys GoogleOsConfigV2PolicyOrchestrator#gpg_keys}
 
 ---
 
@@ -4568,7 +4568,7 @@ DisruptionBudget GoogleOsConfigV2PolicyOrchestratorOrchestratedResourceOsPolicyA
 
 disruption_budget block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#disruption_budget GoogleOsConfigV2PolicyOrchestrator#disruption_budget}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#disruption_budget GoogleOsConfigV2PolicyOrchestrator#disruption_budget}
 
 ---
 
@@ -4588,7 +4588,7 @@ VM continues to count towards the 'disruption_budget' at least
 until this duration of time has passed after configuration changes are
 applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#min_wait_duration GoogleOsConfigV2PolicyOrchestrator#min_wait_duration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#min_wait_duration GoogleOsConfigV2PolicyOrchestrator#min_wait_duration}
 
 ---
 
@@ -4624,7 +4624,7 @@ Fixed *f64
 
 Specifies a fixed value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#fixed GoogleOsConfigV2PolicyOrchestrator#fixed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#fixed GoogleOsConfigV2PolicyOrchestrator#fixed}
 
 ---
 
@@ -4638,7 +4638,7 @@ Percent *f64
 
 Specifies the relative value defined as a percentage, which will be multiplied by a reference value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#percent GoogleOsConfigV2PolicyOrchestrator#percent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#percent GoogleOsConfigV2PolicyOrchestrator#percent}
 
 ---
 
@@ -4672,7 +4672,7 @@ Selectors interface{}
 
 selectors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#selectors GoogleOsConfigV2PolicyOrchestrator#selectors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#selectors GoogleOsConfigV2PolicyOrchestrator#selectors}
 
 ---
 
@@ -4708,7 +4708,7 @@ LocationSelector GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSelectorsLo
 
 location_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#location_selector GoogleOsConfigV2PolicyOrchestrator#location_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#location_selector GoogleOsConfigV2PolicyOrchestrator#location_selector}
 
 ---
 
@@ -4722,7 +4722,7 @@ ResourceHierarchySelector GoogleOsConfigV2PolicyOrchestratorOrchestrationScopeSe
 
 resource_hierarchy_selector block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#resource_hierarchy_selector GoogleOsConfigV2PolicyOrchestrator#resource_hierarchy_selector}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#resource_hierarchy_selector GoogleOsConfigV2PolicyOrchestrator#resource_hierarchy_selector}
 
 ---
 
@@ -4756,7 +4756,7 @@ IncludedLocations *[]*string
 
 Optional. Names of the locations in scope. Format: 'us-central1-a'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#included_locations GoogleOsConfigV2PolicyOrchestrator#included_locations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#included_locations GoogleOsConfigV2PolicyOrchestrator#included_locations}
 
 ---
 
@@ -4792,7 +4792,7 @@ IncludedFolders *[]*string
 
 Optional. Names of the folders in scope. Format: 'folders/{folder_id}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#included_folders GoogleOsConfigV2PolicyOrchestrator#included_folders}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#included_folders GoogleOsConfigV2PolicyOrchestrator#included_folders}
 
 ---
 
@@ -4806,7 +4806,7 @@ IncludedProjects *[]*string
 
 Optional. Names of the projects in scope. Format: 'projects/{project_number}'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#included_projects GoogleOsConfigV2PolicyOrchestrator#included_projects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#included_projects GoogleOsConfigV2PolicyOrchestrator#included_projects}
 
 ---
 
@@ -4919,9 +4919,9 @@ import "github.com/cdktn-io/cdktn-provider-googlebeta-go/googlebeta/v19/googleos
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#create GoogleOsConfigV2PolicyOrchestrator#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#delete GoogleOsConfigV2PolicyOrchestrator#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#update GoogleOsConfigV2PolicyOrchestrator#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorTimeouts.property.create">Create</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#create GoogleOsConfigV2PolicyOrchestrator#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorTimeouts.property.delete">Delete</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#delete GoogleOsConfigV2PolicyOrchestrator#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleOsConfigV2PolicyOrchestrator.GoogleOsConfigV2PolicyOrchestratorTimeouts.property.update">Update</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#update GoogleOsConfigV2PolicyOrchestrator#update}. |
 
 ---
 
@@ -4933,7 +4933,7 @@ Create *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#create GoogleOsConfigV2PolicyOrchestrator#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#create GoogleOsConfigV2PolicyOrchestrator#create}.
 
 ---
 
@@ -4945,7 +4945,7 @@ Delete *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#delete GoogleOsConfigV2PolicyOrchestrator#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#delete GoogleOsConfigV2PolicyOrchestrator#delete}.
 
 ---
 
@@ -4957,7 +4957,7 @@ Update *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.33.0/docs/resources/google_os_config_v2_policy_orchestrator#update GoogleOsConfigV2PolicyOrchestrator#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_os_config_v2_policy_orchestrator#update GoogleOsConfigV2PolicyOrchestrator#update}.
 
 ---
 
