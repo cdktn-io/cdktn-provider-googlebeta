@@ -4,7 +4,7 @@
 
 ### GoogleComputeRouterInterface <a name="GoogleComputeRouterInterface" id="@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterface"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface google_compute_router_interface}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface google_compute_router_interface}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterface.Initializer"></a>
 
@@ -586,7 +586,7 @@ The construct id used in the generated config for the GoogleComputeRouterInterfa
 
 The id of the existing GoogleComputeRouterInterface that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1113,7 +1113,7 @@ const googleComputeRouterInterfaceConfig: googleComputeRouterInterface.GoogleCom
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig.property.name">name</a></code> | <code>string</code> | A unique name for the interface, required by GCE. Changing this forces a new interface to be created. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig.property.router">router</a></code> | <code>string</code> | The name of the router this interface will be attached to. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#id GoogleComputeRouterInterface#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#id GoogleComputeRouterInterface#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig.property.interconnectAttachment">interconnectAttachment</a></code> | <code>string</code> | The name or resource link to the VLAN interconnect for this interface. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig.property.ipRange">ipRange</a></code> | <code>string</code> | The IP address and range of the interface. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceConfig.property.ipVersion">ipVersion</a></code> | <code>string</code> | IP version of this interface. |
@@ -1207,7 +1207,7 @@ public readonly name: string;
 
 A unique name for the interface, required by GCE. Changing this forces a new interface to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#name GoogleComputeRouterInterface#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#name GoogleComputeRouterInterface#name}
 
 ---
 
@@ -1223,7 +1223,7 @@ The name of the router this interface will be attached to.
 
 Changing this forces a new interface to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#router GoogleComputeRouterInterface#router}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#router GoogleComputeRouterInterface#router}
 
 ---
 
@@ -1245,7 +1245,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#deletion_policy GoogleComputeRouterInterface#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#deletion_policy GoogleComputeRouterInterface#deletion_policy}
 
 ---
 
@@ -1257,7 +1257,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#id GoogleComputeRouterInterface#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#id GoogleComputeRouterInterface#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1276,7 +1276,7 @@ The name or resource link to the VLAN interconnect for this interface.
 
 Changing this forces a new interface to be created. Only one of interconnect_attachment, subnetwork or vpn_tunnel can be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#interconnect_attachment GoogleComputeRouterInterface#interconnect_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#interconnect_attachment GoogleComputeRouterInterface#interconnect_attachment}
 
 ---
 
@@ -1292,7 +1292,7 @@ The IP address and range of the interface.
 
 The IP range must be in the RFC3927 link-local IP space. Changing this forces a new interface to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#ip_range GoogleComputeRouterInterface#ip_range}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#ip_range GoogleComputeRouterInterface#ip_range}
 
 ---
 
@@ -1306,7 +1306,7 @@ public readonly ipVersion: string;
 
 IP version of this interface.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#ip_version GoogleComputeRouterInterface#ip_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#ip_version GoogleComputeRouterInterface#ip_version}
 
 ---
 
@@ -1322,7 +1322,7 @@ The regional private internal IP address that is used to establish BGP sessions 
 
 Changing this forces a new interface to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#private_ip_address GoogleComputeRouterInterface#private_ip_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#private_ip_address GoogleComputeRouterInterface#private_ip_address}
 
 ---
 
@@ -1338,7 +1338,7 @@ The ID of the project in which this interface's router belongs.
 
 If it is not provided, the provider project is used. Changing this forces a new interface to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#project GoogleComputeRouterInterface#project}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#project GoogleComputeRouterInterface#project}
 
 ---
 
@@ -1354,7 +1354,7 @@ The name of the interface that is redundant to this interface.
 
 Changing this forces a new interface to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#redundant_interface GoogleComputeRouterInterface#redundant_interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#redundant_interface GoogleComputeRouterInterface#redundant_interface}
 
 ---
 
@@ -1370,7 +1370,7 @@ The region this interface's router sits in.
 
 If not specified, the project region will be used. Changing this forces a new interface to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#region GoogleComputeRouterInterface#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#region GoogleComputeRouterInterface#region}
 
 ---
 
@@ -1386,7 +1386,7 @@ The URI of the subnetwork resource that this interface belongs to, which must be
 
 Changing this forces a new interface to be created. Only one of subnetwork, interconnect_attachment or vpn_tunnel can be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#subnetwork GoogleComputeRouterInterface#subnetwork}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#subnetwork GoogleComputeRouterInterface#subnetwork}
 
 ---
 
@@ -1400,7 +1400,7 @@ public readonly timeouts: GoogleComputeRouterInterfaceTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#timeouts GoogleComputeRouterInterface#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#timeouts GoogleComputeRouterInterface#timeouts}
 
 ---
 
@@ -1416,7 +1416,7 @@ The name or resource link to the VPN tunnel this interface will be linked to.
 
 Changing this forces a new interface to be created. Only one of vpn_tunnel, interconnect_attachment or subnetwork can be specified.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#vpn_tunnel GoogleComputeRouterInterface#vpn_tunnel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#vpn_tunnel GoogleComputeRouterInterface#vpn_tunnel}
 
 ---
 
@@ -1434,8 +1434,8 @@ const googleComputeRouterInterfaceTimeouts: googleComputeRouterInterface.GoogleC
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#create GoogleComputeRouterInterface#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#delete GoogleComputeRouterInterface#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#create GoogleComputeRouterInterface#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRouterInterface.GoogleComputeRouterInterfaceTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#delete GoogleComputeRouterInterface#delete}. |
 
 ---
 
@@ -1447,7 +1447,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#create GoogleComputeRouterInterface#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#create GoogleComputeRouterInterface#create}.
 
 ---
 
@@ -1459,7 +1459,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_router_interface#delete GoogleComputeRouterInterface#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_router_interface#delete GoogleComputeRouterInterface#delete}.
 
 ---
 

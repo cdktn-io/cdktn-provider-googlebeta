@@ -4,7 +4,7 @@
 
 ### GoogleServiceDirectoryNamespaceIamPolicy <a name="GoogleServiceDirectoryNamespaceIamPolicy" id="@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_service_directory_namespace_iam_policy google_service_directory_namespace_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicy.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the GoogleServiceDirectoryName
 
 The id of the existing GoogleServiceDirectoryNamespaceIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_service_directory_namespace_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_service_directory_namespace_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -800,9 +800,9 @@ new GoogleServiceDirectoryNamespaceIamPolicyConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicyConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicyConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicyConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_service_directory_namespace_iam_policy#name GoogleServiceDirectoryNamespaceIamPolicy#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_service_directory_namespace_iam_policy#policy_data GoogleServiceDirectoryNamespaceIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_service_directory_namespace_iam_policy#id GoogleServiceDirectoryNamespaceIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicyConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_service_directory_namespace_iam_policy#name GoogleServiceDirectoryNamespaceIamPolicy#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicyConfig.property.policyData">PolicyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_service_directory_namespace_iam_policy#policy_data GoogleServiceDirectoryNamespaceIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleServiceDirectoryNamespaceIamPolicy.GoogleServiceDirectoryNamespaceIamPolicyConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_service_directory_namespace_iam_policy#id GoogleServiceDirectoryNamespaceIamPolicy#id}. |
 
 ---
 
@@ -884,7 +884,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_service_directory_namespace_iam_policy#name GoogleServiceDirectoryNamespaceIamPolicy#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_service_directory_namespace_iam_policy#name GoogleServiceDirectoryNamespaceIamPolicy#name}.
 
 ---
 
@@ -896,7 +896,7 @@ public string PolicyData { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_service_directory_namespace_iam_policy#policy_data GoogleServiceDirectoryNamespaceIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_service_directory_namespace_iam_policy#policy_data GoogleServiceDirectoryNamespaceIamPolicy#policy_data}.
 
 ---
 
@@ -908,7 +908,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_service_directory_namespace_iam_policy#id GoogleServiceDirectoryNamespaceIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_service_directory_namespace_iam_policy#id GoogleServiceDirectoryNamespaceIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -4,7 +4,7 @@
 
 ### GoogleSecureSourceManagerRepositoryIamPolicy <a name="GoogleSecureSourceManagerRepositoryIamPolicy" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy google_secure_source_manager_repository_iam_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy google_secure_source_manager_repository_iam_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicy.Initializer"></a>
 
@@ -510,7 +510,7 @@ The construct id used in the generated config for the GoogleSecureSourceManagerR
 
 The id of the existing GoogleSecureSourceManagerRepositoryIamPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -847,11 +847,11 @@ const googleSecureSourceManagerRepositoryIamPolicyConfig: googleSecureSourceMana
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.policyData">policyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#policy_data GoogleSecureSourceManagerRepositoryIamPolicy#policy_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.repositoryId">repositoryId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#repository_id GoogleSecureSourceManagerRepositoryIamPolicy#repository_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#id GoogleSecureSourceManagerRepositoryIamPolicy#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#location GoogleSecureSourceManagerRepositoryIamPolicy#location}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#project GoogleSecureSourceManagerRepositoryIamPolicy#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.policyData">policyData</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#policy_data GoogleSecureSourceManagerRepositoryIamPolicy#policy_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.repositoryId">repositoryId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#repository_id GoogleSecureSourceManagerRepositoryIamPolicy#repository_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#id GoogleSecureSourceManagerRepositoryIamPolicy#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.location">location</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#location GoogleSecureSourceManagerRepositoryIamPolicy#location}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSecureSourceManagerRepositoryIamPolicy.GoogleSecureSourceManagerRepositoryIamPolicyConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#project GoogleSecureSourceManagerRepositoryIamPolicy#project}. |
 
 ---
 
@@ -933,7 +933,7 @@ public readonly policyData: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#policy_data GoogleSecureSourceManagerRepositoryIamPolicy#policy_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#policy_data GoogleSecureSourceManagerRepositoryIamPolicy#policy_data}.
 
 ---
 
@@ -945,7 +945,7 @@ public readonly repositoryId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#repository_id GoogleSecureSourceManagerRepositoryIamPolicy#repository_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#repository_id GoogleSecureSourceManagerRepositoryIamPolicy#repository_id}.
 
 ---
 
@@ -957,7 +957,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#id GoogleSecureSourceManagerRepositoryIamPolicy#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#id GoogleSecureSourceManagerRepositoryIamPolicy#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -972,7 +972,7 @@ public readonly location: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#location GoogleSecureSourceManagerRepositoryIamPolicy#location}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#location GoogleSecureSourceManagerRepositoryIamPolicy#location}.
 
 ---
 
@@ -984,7 +984,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_secure_source_manager_repository_iam_policy#project GoogleSecureSourceManagerRepositoryIamPolicy#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_secure_source_manager_repository_iam_policy#project GoogleSecureSourceManagerRepositoryIamPolicy#project}.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### GoogleFolderServiceIdentity <a name="GoogleFolderServiceIdentity" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity google_folder_service_identity}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity google_folder_service_identity}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer"></a>
 
@@ -37,9 +37,9 @@ GoogleFolderServiceIdentity.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.folder">folder</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#folder GoogleFolderServiceIdentity#folder}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.service">service</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#service GoogleFolderServiceIdentity#service}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#id GoogleFolderServiceIdentity#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.folder">folder</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#folder GoogleFolderServiceIdentity#folder}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.service">service</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#service GoogleFolderServiceIdentity#service}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#id GoogleFolderServiceIdentity#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentity.Initializer.parameter.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts">GoogleFolderServiceIdentityTimeouts</a></code> | timeouts block. |
 
 ---
@@ -108,7 +108,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#folder GoogleFolderServiceIdentity#folder}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#folder GoogleFolderServiceIdentity#folder}.
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#service GoogleFolderServiceIdentity#service}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#service GoogleFolderServiceIdentity#service}.
 
 ---
 
@@ -124,7 +124,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#id GoogleFolderServiceIdentity#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#id GoogleFolderServiceIdentity#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#timeouts GoogleFolderServiceIdentity#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#timeouts GoogleFolderServiceIdentity#timeouts}
 
 ---
 
@@ -613,7 +613,7 @@ The construct id used in the generated config for the GoogleFolderServiceIdentit
 
 The id of the existing GoogleFolderServiceIdentity that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -951,9 +951,9 @@ GoogleFolderServiceIdentityConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.folder">folder</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#folder GoogleFolderServiceIdentity#folder}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.service">service</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#service GoogleFolderServiceIdentity#service}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#id GoogleFolderServiceIdentity#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.folder">folder</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#folder GoogleFolderServiceIdentity#folder}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.service">service</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#service GoogleFolderServiceIdentity#service}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#id GoogleFolderServiceIdentity#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts">GoogleFolderServiceIdentityTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1036,7 +1036,7 @@ public java.lang.String getFolder();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#folder GoogleFolderServiceIdentity#folder}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#folder GoogleFolderServiceIdentity#folder}.
 
 ---
 
@@ -1048,7 +1048,7 @@ public java.lang.String getService();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#service GoogleFolderServiceIdentity#service}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#service GoogleFolderServiceIdentity#service}.
 
 ---
 
@@ -1060,7 +1060,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#id GoogleFolderServiceIdentity#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#id GoogleFolderServiceIdentity#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1077,7 +1077,7 @@ public GoogleFolderServiceIdentityTimeouts getTimeouts();
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#timeouts GoogleFolderServiceIdentity#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#timeouts GoogleFolderServiceIdentity#timeouts}
 
 ---
 
@@ -1099,9 +1099,9 @@ GoogleFolderServiceIdentityTimeouts.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#create GoogleFolderServiceIdentity#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#delete GoogleFolderServiceIdentity#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts.property.read">read</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#read GoogleFolderServiceIdentity#read}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts.property.create">create</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#create GoogleFolderServiceIdentity#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts.property.delete">delete</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#delete GoogleFolderServiceIdentity#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFolderServiceIdentity.GoogleFolderServiceIdentityTimeouts.property.read">read</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#read GoogleFolderServiceIdentity#read}. |
 
 ---
 
@@ -1113,7 +1113,7 @@ public java.lang.String getCreate();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#create GoogleFolderServiceIdentity#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#create GoogleFolderServiceIdentity#create}.
 
 ---
 
@@ -1125,7 +1125,7 @@ public java.lang.String getDelete();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#delete GoogleFolderServiceIdentity#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#delete GoogleFolderServiceIdentity#delete}.
 
 ---
 
@@ -1137,7 +1137,7 @@ public java.lang.String getRead();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_folder_service_identity#read GoogleFolderServiceIdentity#read}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_folder_service_identity#read GoogleFolderServiceIdentity#read}.
 
 ---
 

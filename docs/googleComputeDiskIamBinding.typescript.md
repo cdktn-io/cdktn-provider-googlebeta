@@ -4,7 +4,7 @@
 
 ### GoogleComputeDiskIamBinding <a name="GoogleComputeDiskIamBinding" id="@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding google_compute_disk_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding google_compute_disk_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeDiskIamBindin
 
 The id of the existing GoogleComputeDiskIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -904,9 +904,9 @@ const googleComputeDiskIamBindingCondition: googleComputeDiskIamBinding.GoogleCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#expression GoogleComputeDiskIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#title GoogleComputeDiskIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#description GoogleComputeDiskIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingCondition.property.expression">expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#expression GoogleComputeDiskIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingCondition.property.title">title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#title GoogleComputeDiskIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingCondition.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#description GoogleComputeDiskIamBinding#description}. |
 
 ---
 
@@ -918,7 +918,7 @@ public readonly expression: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#expression GoogleComputeDiskIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#expression GoogleComputeDiskIamBinding#expression}.
 
 ---
 
@@ -930,7 +930,7 @@ public readonly title: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#title GoogleComputeDiskIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#title GoogleComputeDiskIamBinding#title}.
 
 ---
 
@@ -942,7 +942,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#description GoogleComputeDiskIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#description GoogleComputeDiskIamBinding#description}.
 
 ---
 
@@ -967,13 +967,13 @@ const googleComputeDiskIamBindingConfig: googleComputeDiskIamBinding.GoogleCompu
 | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#members GoogleComputeDiskIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#name GoogleComputeDiskIamBinding#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#role GoogleComputeDiskIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.members">members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#members GoogleComputeDiskIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.name">name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#name GoogleComputeDiskIamBinding#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.role">role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#role GoogleComputeDiskIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingCondition">GoogleComputeDiskIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#id GoogleComputeDiskIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#project GoogleComputeDiskIamBinding#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.zone">zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#zone GoogleComputeDiskIamBinding#zone}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#id GoogleComputeDiskIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#project GoogleComputeDiskIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeDiskIamBinding.GoogleComputeDiskIamBindingConfig.property.zone">zone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#zone GoogleComputeDiskIamBinding#zone}. |
 
 ---
 
@@ -1055,7 +1055,7 @@ public readonly members: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#members GoogleComputeDiskIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#members GoogleComputeDiskIamBinding#members}.
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly name: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#name GoogleComputeDiskIamBinding#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#name GoogleComputeDiskIamBinding#name}.
 
 ---
 
@@ -1079,7 +1079,7 @@ public readonly role: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#role GoogleComputeDiskIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#role GoogleComputeDiskIamBinding#role}.
 
 ---
 
@@ -1093,7 +1093,7 @@ public readonly condition: GoogleComputeDiskIamBindingCondition;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#condition GoogleComputeDiskIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#condition GoogleComputeDiskIamBinding#condition}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#id GoogleComputeDiskIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#id GoogleComputeDiskIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1120,7 +1120,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#project GoogleComputeDiskIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#project GoogleComputeDiskIamBinding#project}.
 
 ---
 
@@ -1132,7 +1132,7 @@ public readonly zone: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_disk_iam_binding#zone GoogleComputeDiskIamBinding#zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_disk_iam_binding#zone GoogleComputeDiskIamBinding#zone}.
 
 ---
 

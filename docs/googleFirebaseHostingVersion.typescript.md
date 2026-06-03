@@ -4,7 +4,7 @@
 
 ### GoogleFirebaseHostingVersion <a name="GoogleFirebaseHostingVersion" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersion"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version google_firebase_hosting_version}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersion.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the GoogleFirebaseHostingVersi
 
 The id of the existing GoogleFirebaseHostingVersion that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -864,7 +864,7 @@ const googleFirebaseHostingVersionConfig: googleFirebaseHostingVersion.GoogleFir
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.siteId">siteId</a></code> | <code>string</code> | Required. The ID of the site in which to create this Version. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.config">config</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfigA">GoogleFirebaseHostingVersionConfigA</a></code> | config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#id GoogleFirebaseHostingVersion#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#id GoogleFirebaseHostingVersion#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts">GoogleFirebaseHostingVersionTimeouts</a></code> | timeouts block. |
 
 ---
@@ -949,7 +949,7 @@ public readonly siteId: string;
 
 Required. The ID of the site in which to create this Version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#site_id GoogleFirebaseHostingVersion#site_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#site_id GoogleFirebaseHostingVersion#site_id}
 
 ---
 
@@ -963,7 +963,7 @@ public readonly config: GoogleFirebaseHostingVersionConfigA;
 
 config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#config GoogleFirebaseHostingVersion#config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#config GoogleFirebaseHostingVersion#config}
 
 ---
 
@@ -975,7 +975,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#id GoogleFirebaseHostingVersion#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#id GoogleFirebaseHostingVersion#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -992,7 +992,7 @@ public readonly timeouts: GoogleFirebaseHostingVersionTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#timeouts GoogleFirebaseHostingVersion#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#timeouts GoogleFirebaseHostingVersion#timeouts}
 
 ---
 
@@ -1026,7 +1026,7 @@ public readonly headers: IResolvable | GoogleFirebaseHostingVersionConfigHeaders
 
 headers block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#headers GoogleFirebaseHostingVersion#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#headers GoogleFirebaseHostingVersion#headers}
 
 ---
 
@@ -1040,7 +1040,7 @@ public readonly redirects: IResolvable | GoogleFirebaseHostingVersionConfigRedir
 
 redirects block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#redirects GoogleFirebaseHostingVersion#redirects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#redirects GoogleFirebaseHostingVersion#redirects}
 
 ---
 
@@ -1054,7 +1054,7 @@ public readonly rewrites: IResolvable | GoogleFirebaseHostingVersionConfigRewrit
 
 rewrites block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#rewrites GoogleFirebaseHostingVersion#rewrites}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#rewrites GoogleFirebaseHostingVersion#rewrites}
 
 ---
 
@@ -1088,7 +1088,7 @@ public readonly headers: {[ key: string ]: string};
 
 The additional headers to add to the response. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#headers GoogleFirebaseHostingVersion#headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#headers GoogleFirebaseHostingVersion#headers}
 
 ---
 
@@ -1102,7 +1102,7 @@ public readonly glob: string;
 
 The user-supplied glob to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
 
 ---
 
@@ -1116,7 +1116,7 @@ public readonly regex: string;
 
 The user-supplied RE2 regular expression to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
 
 ---
 
@@ -1162,7 +1162,7 @@ redirects {
 }
 ```
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#location GoogleFirebaseHostingVersion#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#location GoogleFirebaseHostingVersion#location}
 
 ---
 
@@ -1176,7 +1176,7 @@ public readonly statusCode: number;
 
 The status HTTP code to return in the response. It must be a valid 3xx status code.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#status_code GoogleFirebaseHostingVersion#status_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#status_code GoogleFirebaseHostingVersion#status_code}
 
 ---
 
@@ -1190,7 +1190,7 @@ public readonly glob: string;
 
 The user-supplied glob to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
 
 ---
 
@@ -1204,7 +1204,7 @@ public readonly regex: string;
 
 The user-supplied RE2 regular expression to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
 
 ---
 
@@ -1240,7 +1240,7 @@ public readonly function: string;
 
 The function to proxy requests to. Must match the exported function name exactly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#function GoogleFirebaseHostingVersion#function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#function GoogleFirebaseHostingVersion#function}
 
 ---
 
@@ -1254,7 +1254,7 @@ public readonly glob: string;
 
 The user-supplied glob to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#glob GoogleFirebaseHostingVersion#glob}
 
 ---
 
@@ -1268,7 +1268,7 @@ public readonly path: string;
 
 The URL path to rewrite the request to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#path GoogleFirebaseHostingVersion#path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#path GoogleFirebaseHostingVersion#path}
 
 ---
 
@@ -1282,7 +1282,7 @@ public readonly regex: string;
 
 The user-supplied RE2 regular expression to match against the request URL path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#regex GoogleFirebaseHostingVersion#regex}
 
 ---
 
@@ -1296,7 +1296,7 @@ public readonly run: GoogleFirebaseHostingVersionConfigRewritesRun;
 
 run block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#run GoogleFirebaseHostingVersion#run}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#run GoogleFirebaseHostingVersion#run}
 
 ---
 
@@ -1329,7 +1329,7 @@ public readonly serviceId: string;
 
 User-defined ID of the Cloud Run service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#service_id GoogleFirebaseHostingVersion#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#service_id GoogleFirebaseHostingVersion#service_id}
 
 ---
 
@@ -1343,7 +1343,7 @@ public readonly region: string;
 
 Optional. User-provided region where the Cloud Run service is hosted. Defaults to 'us-central1' if not supplied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#region GoogleFirebaseHostingVersion#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#region GoogleFirebaseHostingVersion#region}
 
 ---
 
@@ -1361,8 +1361,8 @@ const googleFirebaseHostingVersionTimeouts: googleFirebaseHostingVersion.GoogleF
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#create GoogleFirebaseHostingVersion#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#delete GoogleFirebaseHostingVersion#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#create GoogleFirebaseHostingVersion#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleFirebaseHostingVersion.GoogleFirebaseHostingVersionTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#delete GoogleFirebaseHostingVersion#delete}. |
 
 ---
 
@@ -1374,7 +1374,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#create GoogleFirebaseHostingVersion#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#create GoogleFirebaseHostingVersion#create}.
 
 ---
 
@@ -1386,7 +1386,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_firebase_hosting_version#delete GoogleFirebaseHostingVersion#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_version#delete GoogleFirebaseHostingVersion#delete}.
 
 ---
 

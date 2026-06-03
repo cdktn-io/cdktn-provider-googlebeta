@@ -4,7 +4,7 @@
 
 ### GoogleBiglakeIcebergCatalogIamMember <a name="GoogleBiglakeIcebergCatalogIamMember" id="@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member google_biglake_iceberg_catalog_iam_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member google_biglake_iceberg_catalog_iam_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer"></a>
 
@@ -39,12 +39,12 @@ GoogleBiglakeIcebergCatalogIamMember.Builder.create(Construct scope, java.lang.S
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#member GoogleBiglakeIcebergCatalogIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#name GoogleBiglakeIcebergCatalogIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#role GoogleBiglakeIcebergCatalogIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#member GoogleBiglakeIcebergCatalogIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#name GoogleBiglakeIcebergCatalogIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#role GoogleBiglakeIcebergCatalogIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberCondition">GoogleBiglakeIcebergCatalogIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#id GoogleBiglakeIcebergCatalogIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#project GoogleBiglakeIcebergCatalogIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#id GoogleBiglakeIcebergCatalogIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMember.Initializer.parameter.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#project GoogleBiglakeIcebergCatalogIamMember#project}. |
 
 ---
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#member GoogleBiglakeIcebergCatalogIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#member GoogleBiglakeIcebergCatalogIamMember#member}.
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#name GoogleBiglakeIcebergCatalogIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#name GoogleBiglakeIcebergCatalogIamMember#name}.
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#role GoogleBiglakeIcebergCatalogIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#role GoogleBiglakeIcebergCatalogIamMember#role}.
 
 ---
 
@@ -138,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#condition GoogleBiglakeIcebergCatalogIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#condition GoogleBiglakeIcebergCatalogIamMember#condition}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#id GoogleBiglakeIcebergCatalogIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#id GoogleBiglakeIcebergCatalogIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -157,7 +157,7 @@ If you experience problems setting this value it might not be settable. Please t
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#project GoogleBiglakeIcebergCatalogIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#project GoogleBiglakeIcebergCatalogIamMember#project}.
 
 ---
 
@@ -640,7 +640,7 @@ The construct id used in the generated config for the GoogleBiglakeIcebergCatalo
 
 The id of the existing GoogleBiglakeIcebergCatalogIamMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -996,9 +996,9 @@ GoogleBiglakeIcebergCatalogIamMemberCondition.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberCondition.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#expression GoogleBiglakeIcebergCatalogIamMember#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberCondition.property.title">title</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#title GoogleBiglakeIcebergCatalogIamMember#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberCondition.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#description GoogleBiglakeIcebergCatalogIamMember#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberCondition.property.expression">expression</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#expression GoogleBiglakeIcebergCatalogIamMember#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberCondition.property.title">title</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#title GoogleBiglakeIcebergCatalogIamMember#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberCondition.property.description">description</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#description GoogleBiglakeIcebergCatalogIamMember#description}. |
 
 ---
 
@@ -1010,7 +1010,7 @@ public java.lang.String getExpression();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#expression GoogleBiglakeIcebergCatalogIamMember#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#expression GoogleBiglakeIcebergCatalogIamMember#expression}.
 
 ---
 
@@ -1022,7 +1022,7 @@ public java.lang.String getTitle();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#title GoogleBiglakeIcebergCatalogIamMember#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#title GoogleBiglakeIcebergCatalogIamMember#title}.
 
 ---
 
@@ -1034,7 +1034,7 @@ public java.lang.String getDescription();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#description GoogleBiglakeIcebergCatalogIamMember#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#description GoogleBiglakeIcebergCatalogIamMember#description}.
 
 ---
 
@@ -1073,12 +1073,12 @@ GoogleBiglakeIcebergCatalogIamMemberConfig.builder()
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.lifecycle">lifecycle</a></code> | <code>io.cdktn.cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#member GoogleBiglakeIcebergCatalogIamMember#member}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#name GoogleBiglakeIcebergCatalogIamMember#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#role GoogleBiglakeIcebergCatalogIamMember#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.member">member</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#member GoogleBiglakeIcebergCatalogIamMember#member}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.name">name</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#name GoogleBiglakeIcebergCatalogIamMember#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.role">role</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#role GoogleBiglakeIcebergCatalogIamMember#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.condition">condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberCondition">GoogleBiglakeIcebergCatalogIamMemberCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#id GoogleBiglakeIcebergCatalogIamMember#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#project GoogleBiglakeIcebergCatalogIamMember#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.id">id</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#id GoogleBiglakeIcebergCatalogIamMember#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleBiglakeIcebergCatalogIamMember.GoogleBiglakeIcebergCatalogIamMemberConfig.property.project">project</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#project GoogleBiglakeIcebergCatalogIamMember#project}. |
 
 ---
 
@@ -1160,7 +1160,7 @@ public java.lang.String getMember();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#member GoogleBiglakeIcebergCatalogIamMember#member}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#member GoogleBiglakeIcebergCatalogIamMember#member}.
 
 ---
 
@@ -1172,7 +1172,7 @@ public java.lang.String getName();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#name GoogleBiglakeIcebergCatalogIamMember#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#name GoogleBiglakeIcebergCatalogIamMember#name}.
 
 ---
 
@@ -1184,7 +1184,7 @@ public java.lang.String getRole();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#role GoogleBiglakeIcebergCatalogIamMember#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#role GoogleBiglakeIcebergCatalogIamMember#role}.
 
 ---
 
@@ -1198,7 +1198,7 @@ public GoogleBiglakeIcebergCatalogIamMemberCondition getCondition();
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#condition GoogleBiglakeIcebergCatalogIamMember#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#condition GoogleBiglakeIcebergCatalogIamMember#condition}
 
 ---
 
@@ -1210,7 +1210,7 @@ public java.lang.String getId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#id GoogleBiglakeIcebergCatalogIamMember#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#id GoogleBiglakeIcebergCatalogIamMember#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1225,7 +1225,7 @@ public java.lang.String getProject();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_biglake_iceberg_catalog_iam_member#project GoogleBiglakeIcebergCatalogIamMember#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_biglake_iceberg_catalog_iam_member#project GoogleBiglakeIcebergCatalogIamMember#project}.
 
 ---
 
