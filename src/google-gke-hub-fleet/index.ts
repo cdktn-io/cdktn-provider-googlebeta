@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,37 +21,37 @@ export interface GoogleGkeHubFleetConfig extends cdktn.TerraformMetaArguments {
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#deletion_policy GoogleGkeHubFleet#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#deletion_policy GoogleGkeHubFleet#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A user-assigned display name of the Fleet. When present, it must be between 4 to 30 characters.
   * Allowed characters are: lowercase and uppercase letters, numbers, hyphen, single-quote, double-quote, space, and exclamation point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#display_name GoogleGkeHubFleet#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#display_name GoogleGkeHubFleet#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#id GoogleGkeHubFleet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#id GoogleGkeHubFleet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#project GoogleGkeHubFleet#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#project GoogleGkeHubFleet#project}
   */
   readonly project?: string;
   /**
   * default_cluster_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#default_cluster_config GoogleGkeHubFleet#default_cluster_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#default_cluster_config GoogleGkeHubFleet#default_cluster_config}
   */
   readonly defaultClusterConfig?: GoogleGkeHubFleetDefaultClusterConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#timeouts GoogleGkeHubFleet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#timeouts GoogleGkeHubFleet#timeouts}
   */
   readonly timeouts?: GoogleGkeHubFleetTimeouts;
 }
@@ -136,7 +136,7 @@ export interface GoogleGkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigP
   * platform policies have the following format:
   * 'projects/{project_number}/platforms/gke/policies/{policy_id}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#name GoogleGkeHubFleet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#name GoogleGkeHubFleet#name}
   */
   readonly name?: string;
 }
@@ -254,13 +254,13 @@ export interface GoogleGkeHubFleetDefaultClusterConfigBinaryAuthorizationConfig 
   /**
   * Mode of operation for binauthz policy evaluation. Possible values: ["DISABLED", "POLICY_BINDINGS"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#evaluation_mode GoogleGkeHubFleet#evaluation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#evaluation_mode GoogleGkeHubFleet#evaluation_mode}
   */
   readonly evaluationMode?: string;
   /**
   * policy_bindings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#policy_bindings GoogleGkeHubFleet#policy_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#policy_bindings GoogleGkeHubFleet#policy_bindings}
   */
   readonly policyBindings?: GoogleGkeHubFleetDefaultClusterConfigBinaryAuthorizationConfigPolicyBindings[] | cdktn.IResolvable;
 }
@@ -375,13 +375,13 @@ export interface GoogleGkeHubFleetDefaultClusterConfigSecurityPostureConfig {
   /**
   * Sets which mode to use for Security Posture features. Possible values: ["DISABLED", "BASIC", "ENTERPRISE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#mode GoogleGkeHubFleet#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#mode GoogleGkeHubFleet#mode}
   */
   readonly mode?: string;
   /**
   * Sets which mode to use for vulnerability scanning. Possible values: ["VULNERABILITY_DISABLED", "VULNERABILITY_BASIC", "VULNERABILITY_ENTERPRISE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#vulnerability_mode GoogleGkeHubFleet#vulnerability_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#vulnerability_mode GoogleGkeHubFleet#vulnerability_mode}
   */
   readonly vulnerabilityMode?: string;
 }
@@ -496,13 +496,13 @@ export interface GoogleGkeHubFleetDefaultClusterConfig {
   /**
   * binary_authorization_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#binary_authorization_config GoogleGkeHubFleet#binary_authorization_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#binary_authorization_config GoogleGkeHubFleet#binary_authorization_config}
   */
   readonly binaryAuthorizationConfig?: GoogleGkeHubFleetDefaultClusterConfigBinaryAuthorizationConfig;
   /**
   * security_posture_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#security_posture_config GoogleGkeHubFleet#security_posture_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#security_posture_config GoogleGkeHubFleet#security_posture_config}
   */
   readonly securityPostureConfig?: GoogleGkeHubFleetDefaultClusterConfigSecurityPostureConfig;
 }
@@ -615,15 +615,15 @@ export class GoogleGkeHubFleetDefaultClusterConfigOutputReference extends cdktn.
 }
 export interface GoogleGkeHubFleetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#create GoogleGkeHubFleet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#create GoogleGkeHubFleet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#delete GoogleGkeHubFleet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#delete GoogleGkeHubFleet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#update GoogleGkeHubFleet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#update GoogleGkeHubFleet#update}
   */
   readonly update?: string;
 }
@@ -775,7 +775,7 @@ export class GoogleGkeHubFleetTimeoutsOutputReference extends cdktn.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet}
 */
 export class GoogleGkeHubFleet extends cdktn.TerraformResource {
 
@@ -791,7 +791,7 @@ export class GoogleGkeHubFleet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleGkeHubFleet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGkeHubFleet to import
-  * @param importFromId The id of the existing GoogleGkeHubFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleGkeHubFleet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGkeHubFleet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -803,7 +803,7 @@ export class GoogleGkeHubFleet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_fleet google_gke_hub_fleet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -814,7 +814,7 @@ export class GoogleGkeHubFleet extends cdktn.TerraformResource {
       terraformResourceType: 'google_gke_hub_fleet',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.34.0',
+        providerVersion: '7.35.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

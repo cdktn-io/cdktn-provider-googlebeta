@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,7 +16,7 @@ export interface GoogleDataformFolderConfig extends cdktn.TerraformMetaArguments
   * Optional. The containing Folder resource name.
   * Format: 'projects/* /locations/* /folders/*' or 'projects/* /locations/* /teamFolders/*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#containing_folder GoogleDataformFolder#containing_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#containing_folder GoogleDataformFolder#containing_folder}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -30,50 +30,50 @@ export interface GoogleDataformFolderConfig extends cdktn.TerraformMetaArguments
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#deletion_policy GoogleDataformFolder#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#deletion_policy GoogleDataformFolder#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Required. The Folder's user-friendly name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#display_name GoogleDataformFolder#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#display_name GoogleDataformFolder#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#id GoogleDataformFolder#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#id GoogleDataformFolder#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#project GoogleDataformFolder#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#project GoogleDataformFolder#project}
   */
   readonly project?: string;
   /**
   * A reference to the region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#region GoogleDataformFolder#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#region GoogleDataformFolder#region}
   */
   readonly region: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#timeouts GoogleDataformFolder#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#timeouts GoogleDataformFolder#timeouts}
   */
   readonly timeouts?: GoogleDataformFolderTimeouts;
 }
 export interface GoogleDataformFolderTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#create GoogleDataformFolder#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#create GoogleDataformFolder#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#delete GoogleDataformFolder#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#delete GoogleDataformFolder#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#update GoogleDataformFolder#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#update GoogleDataformFolder#update}
   */
   readonly update?: string;
 }
@@ -225,7 +225,7 @@ export class GoogleDataformFolderTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder google_dataform_folder}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder google_dataform_folder}
 */
 export class GoogleDataformFolder extends cdktn.TerraformResource {
 
@@ -241,7 +241,7 @@ export class GoogleDataformFolder extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDataformFolder resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDataformFolder to import
-  * @param importFromId The id of the existing GoogleDataformFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDataformFolder that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDataformFolder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -253,7 +253,7 @@ export class GoogleDataformFolder extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_dataform_folder google_dataform_folder} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dataform_folder google_dataform_folder} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,7 +264,7 @@ export class GoogleDataformFolder extends cdktn.TerraformResource {
       terraformResourceType: 'google_dataform_folder',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.34.0',
+        providerVersion: '7.35.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
