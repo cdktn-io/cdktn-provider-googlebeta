@@ -4,7 +4,7 @@
 
 ### GoogleSpannerInstanceConfigA <a name="GoogleSpannerInstanceConfigA" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigA"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config google_spanner_instance_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config google_spanner_instance_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigA.Initializer"></a>
 
@@ -564,7 +564,7 @@ The construct id used in the generated config for the GoogleSpannerInstanceConfi
 
 The id of the existing GoogleSpannerInstanceConfigA that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1032,10 +1032,10 @@ new GoogleSpannerInstanceConfigAConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.replicas">Replicas</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigReplicas">GoogleSpannerInstanceConfigReplicas</a>[]</code> | replicas block. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.baseConfig">BaseConfig</a></code> | <code>string</code> | Base configuration name, e.g. nam3, based on which this configuration is created. Only set for user managed configurations. baseConfig must refer to a configuration of type GOOGLE_MANAGED in the same project as this configuration. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.deletionPolicy">DeletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#id GoogleSpannerInstanceConfigA#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#id GoogleSpannerInstanceConfigA#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.labels">Labels</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | An object containing a list of "key": value pairs. Example: { "name": "wrench", "mass": "1.3kg", "count": "3" }. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.name">Name</a></code> | <code>string</code> | A unique identifier for the instance configuration. Values are of the form projects/<project>/instanceConfigs/[a-z][-a-z0-9]*. |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#project GoogleSpannerInstanceConfigA#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#project GoogleSpannerInstanceConfigA#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigAConfig.property.timeouts">Timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts">GoogleSpannerInstanceConfigTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1120,7 +1120,7 @@ public string DisplayName { get; set; }
 
 The name of this instance configuration as it appears in UIs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#display_name GoogleSpannerInstanceConfigA#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#display_name GoogleSpannerInstanceConfigA#display_name}
 
 ---
 
@@ -1134,7 +1134,7 @@ public IResolvable|GoogleSpannerInstanceConfigReplicas[] Replicas { get; set; }
 
 replicas block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#replicas GoogleSpannerInstanceConfigA#replicas}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#replicas GoogleSpannerInstanceConfigA#replicas}
 
 ---
 
@@ -1148,7 +1148,7 @@ public string BaseConfig { get; set; }
 
 Base configuration name, e.g. nam3, based on which this configuration is created. Only set for user managed configurations. baseConfig must refer to a configuration of type GOOGLE_MANAGED in the same project as this configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#base_config GoogleSpannerInstanceConfigA#base_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#base_config GoogleSpannerInstanceConfigA#base_config}
 
 ---
 
@@ -1169,7 +1169,7 @@ When set to "ABANDON", the command will remove the resource from Terraform
 management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#deletion_policy GoogleSpannerInstanceConfigA#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#deletion_policy GoogleSpannerInstanceConfigA#deletion_policy}
 
 ---
 
@@ -1181,7 +1181,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#id GoogleSpannerInstanceConfigA#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#id GoogleSpannerInstanceConfigA#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1201,7 +1201,7 @@ An object containing a list of "key": value pairs. Example: { "name": "wrench", 
 **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 Please refer to the field 'effective_labels' for all of the labels present on the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#labels GoogleSpannerInstanceConfigA#labels}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#labels GoogleSpannerInstanceConfigA#labels}
 
 ---
 
@@ -1215,7 +1215,7 @@ public string Name { get; set; }
 
 A unique identifier for the instance configuration. Values are of the form projects/<project>/instanceConfigs/[a-z][-a-z0-9]*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#name GoogleSpannerInstanceConfigA#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#name GoogleSpannerInstanceConfigA#name}
 
 ---
 
@@ -1227,7 +1227,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#project GoogleSpannerInstanceConfigA#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#project GoogleSpannerInstanceConfigA#project}.
 
 ---
 
@@ -1241,7 +1241,7 @@ public GoogleSpannerInstanceConfigTimeouts Timeouts { get; set; }
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#timeouts GoogleSpannerInstanceConfigA#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#timeouts GoogleSpannerInstanceConfigA#timeouts}
 
 ---
 
@@ -1279,7 +1279,7 @@ public bool|IResolvable DefaultLeaderLocation { get; set; }
 
 If true, this location is designated as the default leader location where leader replicas are placed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#default_leader_location GoogleSpannerInstanceConfigA#default_leader_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#default_leader_location GoogleSpannerInstanceConfigA#default_leader_location}
 
 ---
 
@@ -1293,7 +1293,7 @@ public string Location { get; set; }
 
 The location of the serving resources, e.g. "us-central1".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#location GoogleSpannerInstanceConfigA#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#location GoogleSpannerInstanceConfigA#location}
 
 ---
 
@@ -1307,7 +1307,7 @@ public string Type { get; set; }
 
 Indicates the type of replica.  See the [replica types documentation](https://cloud.google.com/spanner/docs/replication#replica_types) for more details. Possible values: ["READ_WRITE", "READ_ONLY", "WITNESS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#type GoogleSpannerInstanceConfigA#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#type GoogleSpannerInstanceConfigA#type}
 
 ---
 
@@ -1329,9 +1329,9 @@ new GoogleSpannerInstanceConfigTimeouts {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#create GoogleSpannerInstanceConfigA#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#delete GoogleSpannerInstanceConfigA#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#update GoogleSpannerInstanceConfigA#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts.property.create">Create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#create GoogleSpannerInstanceConfigA#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts.property.delete">Delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#delete GoogleSpannerInstanceConfigA#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleSpannerInstanceConfig.GoogleSpannerInstanceConfigTimeouts.property.update">Update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#update GoogleSpannerInstanceConfigA#update}. |
 
 ---
 
@@ -1343,7 +1343,7 @@ public string Create { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#create GoogleSpannerInstanceConfigA#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#create GoogleSpannerInstanceConfigA#create}.
 
 ---
 
@@ -1355,7 +1355,7 @@ public string Delete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#delete GoogleSpannerInstanceConfigA#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#delete GoogleSpannerInstanceConfigA#delete}.
 
 ---
 
@@ -1367,7 +1367,7 @@ public string Update { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_spanner_instance_config#update GoogleSpannerInstanceConfigA#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_spanner_instance_config#update GoogleSpannerInstanceConfigA#update}.
 
 ---
 

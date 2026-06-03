@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleVmwareengineNetworkConfig extends cdktn.TerraformMetaArgu
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#deletion_policy GoogleVmwareengineNetwork#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#deletion_policy GoogleVmwareengineNetwork#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * User-provided description for this VMware Engine network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#description GoogleVmwareengineNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#description GoogleVmwareengineNetwork#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#id GoogleVmwareengineNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#id GoogleVmwareengineNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,29 +40,29 @@ export interface GoogleVmwareengineNetworkConfig extends cdktn.TerraformMetaArgu
   /**
   * The location where the VMwareEngineNetwork should reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#location GoogleVmwareengineNetwork#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#location GoogleVmwareengineNetwork#location}
   */
   readonly location: string;
   /**
   * The ID of the VMwareEngineNetwork.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#name GoogleVmwareengineNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#name GoogleVmwareengineNetwork#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#project GoogleVmwareengineNetwork#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#project GoogleVmwareengineNetwork#project}
   */
   readonly project?: string;
   /**
   * VMware Engine network type. Possible values: ["LEGACY", "STANDARD"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#type GoogleVmwareengineNetwork#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#type GoogleVmwareengineNetwork#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#timeouts GoogleVmwareengineNetwork#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#timeouts GoogleVmwareengineNetwork#timeouts}
   */
   readonly timeouts?: GoogleVmwareengineNetworkTimeouts;
 }
@@ -148,15 +148,15 @@ export class GoogleVmwareengineNetworkVpcNetworksList extends cdktn.ComplexList 
 }
 export interface GoogleVmwareengineNetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#create GoogleVmwareengineNetwork#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#create GoogleVmwareengineNetwork#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#delete GoogleVmwareengineNetwork#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#delete GoogleVmwareengineNetwork#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#update GoogleVmwareengineNetwork#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#update GoogleVmwareengineNetwork#update}
   */
   readonly update?: string;
 }
@@ -308,7 +308,7 @@ export class GoogleVmwareengineNetworkTimeoutsOutputReference extends cdktn.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network google_vmwareengine_network}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network google_vmwareengine_network}
 */
 export class GoogleVmwareengineNetwork extends cdktn.TerraformResource {
 
@@ -324,7 +324,7 @@ export class GoogleVmwareengineNetwork extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleVmwareengineNetwork resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVmwareengineNetwork to import
-  * @param importFromId The id of the existing GoogleVmwareengineNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVmwareengineNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVmwareengineNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -336,7 +336,7 @@ export class GoogleVmwareengineNetwork extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_vmwareengine_network google_vmwareengine_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vmwareengine_network google_vmwareengine_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -347,7 +347,7 @@ export class GoogleVmwareengineNetwork extends cdktn.TerraformResource {
       terraformResourceType: 'google_vmwareengine_network',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.34.0',
+        providerVersion: '7.35.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

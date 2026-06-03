@@ -4,7 +4,7 @@
 
 ### GoogleComputeRegionBackendBucketIamBinding <a name="GoogleComputeRegionBackendBucketIamBinding" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBinding"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding google_compute_region_backend_bucket_iam_binding}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding google_compute_region_backend_bucket_iam_binding}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBinding.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the GoogleComputeRegionBackend
 
 The id of the existing GoogleComputeRegionBackendBucketIamBinding that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -908,9 +908,9 @@ new GoogleComputeRegionBackendBucketIamBindingCondition {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#expression GoogleComputeRegionBackendBucketIamBinding#expression}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#title GoogleComputeRegionBackendBucketIamBinding#title}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#description GoogleComputeRegionBackendBucketIamBinding#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingCondition.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#expression GoogleComputeRegionBackendBucketIamBinding#expression}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingCondition.property.title">Title</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#title GoogleComputeRegionBackendBucketIamBinding#title}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingCondition.property.description">Description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#description GoogleComputeRegionBackendBucketIamBinding#description}. |
 
 ---
 
@@ -922,7 +922,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#expression GoogleComputeRegionBackendBucketIamBinding#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#expression GoogleComputeRegionBackendBucketIamBinding#expression}.
 
 ---
 
@@ -934,7 +934,7 @@ public string Title { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#title GoogleComputeRegionBackendBucketIamBinding#title}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#title GoogleComputeRegionBackendBucketIamBinding#title}.
 
 ---
 
@@ -946,7 +946,7 @@ public string Description { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#description GoogleComputeRegionBackendBucketIamBinding#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#description GoogleComputeRegionBackendBucketIamBinding#description}.
 
 ---
 
@@ -986,13 +986,13 @@ new GoogleComputeRegionBackendBucketIamBindingConfig {
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.members">Members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#members GoogleComputeRegionBackendBucketIamBinding#members}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#name GoogleComputeRegionBackendBucketIamBinding#name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#role GoogleComputeRegionBackendBucketIamBinding#role}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.members">Members</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#members GoogleComputeRegionBackendBucketIamBinding#members}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#name GoogleComputeRegionBackendBucketIamBinding#name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.role">Role</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#role GoogleComputeRegionBackendBucketIamBinding#role}. |
 | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.condition">Condition</a></code> | <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingCondition">GoogleComputeRegionBackendBucketIamBindingCondition</a></code> | condition block. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#id GoogleComputeRegionBackendBucketIamBinding#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#project GoogleComputeRegionBackendBucketIamBinding#project}. |
-| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#region GoogleComputeRegionBackendBucketIamBinding#region}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#id GoogleComputeRegionBackendBucketIamBinding#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.project">Project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#project GoogleComputeRegionBackendBucketIamBinding#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleComputeRegionBackendBucketIamBinding.GoogleComputeRegionBackendBucketIamBindingConfig.property.region">Region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#region GoogleComputeRegionBackendBucketIamBinding#region}. |
 
 ---
 
@@ -1074,7 +1074,7 @@ public string[] Members { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#members GoogleComputeRegionBackendBucketIamBinding#members}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#members GoogleComputeRegionBackendBucketIamBinding#members}.
 
 ---
 
@@ -1086,7 +1086,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#name GoogleComputeRegionBackendBucketIamBinding#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#name GoogleComputeRegionBackendBucketIamBinding#name}.
 
 ---
 
@@ -1098,7 +1098,7 @@ public string Role { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#role GoogleComputeRegionBackendBucketIamBinding#role}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#role GoogleComputeRegionBackendBucketIamBinding#role}.
 
 ---
 
@@ -1112,7 +1112,7 @@ public GoogleComputeRegionBackendBucketIamBindingCondition Condition { get; set;
 
 condition block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#condition GoogleComputeRegionBackendBucketIamBinding#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#condition GoogleComputeRegionBackendBucketIamBinding#condition}
 
 ---
 
@@ -1124,7 +1124,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#id GoogleComputeRegionBackendBucketIamBinding#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#id GoogleComputeRegionBackendBucketIamBinding#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1139,7 +1139,7 @@ public string Project { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#project GoogleComputeRegionBackendBucketIamBinding#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#project GoogleComputeRegionBackendBucketIamBinding#project}.
 
 ---
 
@@ -1151,7 +1151,7 @@ public string Region { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_compute_region_backend_bucket_iam_binding#region GoogleComputeRegionBackendBucketIamBinding#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_backend_bucket_iam_binding#region GoogleComputeRegionBackendBucketIamBinding#region}.
 
 ---
 

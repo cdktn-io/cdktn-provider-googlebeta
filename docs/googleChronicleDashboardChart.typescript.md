@@ -4,7 +4,7 @@
 
 ### GoogleChronicleDashboardChart <a name="GoogleChronicleDashboardChart" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChart"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart google_chronicle_dashboard_chart}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChart.Initializer"></a>
 
@@ -590,7 +590,7 @@ The construct id used in the generated config for the GoogleChronicleDashboardCh
 
 The id of the existing GoogleChronicleDashboardChart that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1041,10 +1041,10 @@ const googleChronicleDashboardChartChartLayout: googleChronicleDashboardChart.Go
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout.property.spanX">spanX</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#span_x GoogleChronicleDashboardChart#span_x}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout.property.spanY">spanY</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#span_y GoogleChronicleDashboardChart#span_y}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout.property.startX">startX</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#start_x GoogleChronicleDashboardChart#start_x}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout.property.startY">startY</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#start_y GoogleChronicleDashboardChart#start_y}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout.property.spanX">spanX</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#span_x GoogleChronicleDashboardChart#span_x}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout.property.spanY">spanY</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#span_y GoogleChronicleDashboardChart#span_y}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout.property.startX">startX</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_x GoogleChronicleDashboardChart#start_x}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout.property.startY">startY</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_y GoogleChronicleDashboardChart#start_y}. |
 
 ---
 
@@ -1056,7 +1056,7 @@ public readonly spanX: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#span_x GoogleChronicleDashboardChart#span_x}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#span_x GoogleChronicleDashboardChart#span_x}.
 
 ---
 
@@ -1068,7 +1068,7 @@ public readonly spanY: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#span_y GoogleChronicleDashboardChart#span_y}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#span_y GoogleChronicleDashboardChart#span_y}.
 
 ---
 
@@ -1080,7 +1080,7 @@ public readonly startX: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#start_x GoogleChronicleDashboardChart#start_x}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_x GoogleChronicleDashboardChart#start_x}.
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly startY: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#start_y GoogleChronicleDashboardChart#start_y}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_y GoogleChronicleDashboardChart#start_y}.
 
 ---
 
@@ -1123,9 +1123,9 @@ const googleChronicleDashboardChartConfig: googleChronicleDashboardChart.GoogleC
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.property.chartLayout">chartLayout</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartChartLayout">GoogleChronicleDashboardChartChartLayout</a></code> | chart_layout block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.property.dashboardQuery">dashboardQuery</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQuery">GoogleChronicleDashboardChartDashboardQuery</a></code> | dashboard_query block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.property.deletionPolicy">deletionPolicy</a></code> | <code>string</code> | Whether Terraform will be prevented from destroying the instance. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.property.nativeDashboard">nativeDashboard</a></code> | <code>string</code> | The parent NativeDashboard resource name, formatted as projects/{project}/locations/{location}/instances/{instance}/nativeDashboards/{dashboard_id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#project GoogleChronicleDashboardChart#project}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.property.project">project</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#project GoogleChronicleDashboardChart#project}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartConfig.property.timeouts">timeouts</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts">GoogleChronicleDashboardChartTimeouts</a></code> | timeouts block. |
 
 ---
@@ -1210,7 +1210,7 @@ public readonly dashboardChart: GoogleChronicleDashboardChartDashboardChart;
 
 dashboard_chart block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#dashboard_chart GoogleChronicleDashboardChart#dashboard_chart}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_chart GoogleChronicleDashboardChart#dashboard_chart}
 
 ---
 
@@ -1224,7 +1224,7 @@ public readonly instance: string;
 
 The ID of the Chronicle instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#instance GoogleChronicleDashboardChart#instance}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#instance GoogleChronicleDashboardChart#instance}
 
 ---
 
@@ -1238,7 +1238,7 @@ public readonly location: string;
 
 The location of the Chronicle instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#location GoogleChronicleDashboardChart#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#location GoogleChronicleDashboardChart#location}
 
 ---
 
@@ -1252,7 +1252,7 @@ public readonly chartLayout: GoogleChronicleDashboardChartChartLayout;
 
 chart_layout block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#chart_layout GoogleChronicleDashboardChart#chart_layout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#chart_layout GoogleChronicleDashboardChart#chart_layout}
 
 ---
 
@@ -1266,7 +1266,7 @@ public readonly dashboardQuery: GoogleChronicleDashboardChartDashboardQuery;
 
 dashboard_query block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#dashboard_query GoogleChronicleDashboardChart#dashboard_query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_query GoogleChronicleDashboardChart#dashboard_query}
 
 ---
 
@@ -1288,7 +1288,7 @@ management without updating or deleting the resource in the API.
 When set to "DELETE", deleting the resource is allowed.
 
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#deletion_policy GoogleChronicleDashboardChart#deletion_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#deletion_policy GoogleChronicleDashboardChart#deletion_policy}
 
 ---
 
@@ -1300,7 +1300,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1317,7 +1317,7 @@ public readonly nativeDashboard: string;
 
 The parent NativeDashboard resource name, formatted as projects/{project}/locations/{location}/instances/{instance}/nativeDashboards/{dashboard_id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#native_dashboard GoogleChronicleDashboardChart#native_dashboard}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#native_dashboard GoogleChronicleDashboardChart#native_dashboard}
 
 ---
 
@@ -1329,7 +1329,7 @@ public readonly project: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#project GoogleChronicleDashboardChart#project}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#project GoogleChronicleDashboardChart#project}.
 
 ---
 
@@ -1343,7 +1343,7 @@ public readonly timeouts: GoogleChronicleDashboardChartTimeouts;
 
 timeouts block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#timeouts GoogleChronicleDashboardChart#timeouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#timeouts GoogleChronicleDashboardChart#timeouts}
 
 ---
 
@@ -1380,7 +1380,7 @@ public readonly displayName: string;
 
 Display name/Title of the dashboardChart visible to users.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}
 
 ---
 
@@ -1394,7 +1394,7 @@ public readonly visualization: GoogleChronicleDashboardChartDashboardChartVisual
 
 visualization block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#visualization GoogleChronicleDashboardChart#visualization}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#visualization GoogleChronicleDashboardChart#visualization}
 
 ---
 
@@ -1408,7 +1408,7 @@ public readonly chartDatasource: GoogleChronicleDashboardChartDashboardChartChar
 
 chart_datasource block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#chart_datasource GoogleChronicleDashboardChart#chart_datasource}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#chart_datasource GoogleChronicleDashboardChart#chart_datasource}
 
 ---
 
@@ -1422,7 +1422,7 @@ public readonly description: string;
 
 Description of the dashboardChart.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}
 
 ---
 
@@ -1436,7 +1436,7 @@ public readonly drillDownConfig: GoogleChronicleDashboardChartDashboardChartDril
 
 drill_down_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#drill_down_config GoogleChronicleDashboardChart#drill_down_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#drill_down_config GoogleChronicleDashboardChart#drill_down_config}
 
 ---
 
@@ -1450,7 +1450,7 @@ public readonly tileType: string;
 
 Type of tile (e.g., visualization, button, markdown). Possible values: ["TILE_TYPE_UNSPECIFIED", "TILE_TYPE_VISUALIZATION", "TILE_TYPE_BUTTON", "TILE_TYPE_MARKDOWN"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#tile_type GoogleChronicleDashboardChart#tile_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#tile_type GoogleChronicleDashboardChart#tile_type}
 
 ---
 
@@ -1487,7 +1487,7 @@ Available values include:
 'GLOBAL', 'IOC_MATCHES', 'RULES', 'SOAR_CASES', 'SOAR_PLAYBOOKS',
 'SOAR_CASE_HISTORY', 'DATA_TABLE', 'INVESTIGATION', 'INVESTIGATION_FEEDBACK'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#data_sources GoogleChronicleDashboardChart#data_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#data_sources GoogleChronicleDashboardChart#data_sources}
 
 ---
 
@@ -1520,7 +1520,7 @@ public readonly leftDrillDowns: IResolvable | GoogleChronicleDashboardChartDashb
 
 left_drill_downs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#left_drill_downs GoogleChronicleDashboardChart#left_drill_downs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#left_drill_downs GoogleChronicleDashboardChart#left_drill_downs}
 
 ---
 
@@ -1534,7 +1534,7 @@ public readonly rightDrillDowns: IResolvable | GoogleChronicleDashboardChartDash
 
 right_drill_downs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#right_drill_downs GoogleChronicleDashboardChart#right_drill_downs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#right_drill_downs GoogleChronicleDashboardChart#right_drill_downs}
 
 ---
 
@@ -1552,8 +1552,8 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns: 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns.property.customSettings">customSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings">GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings</a></code> | custom_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDowns.property.defaultSettings">defaultSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings">GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings</a></code> | default_settings block. |
 
@@ -1567,7 +1567,7 @@ public readonly displayName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}.
 
 ---
 
@@ -1579,7 +1579,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1596,7 +1596,7 @@ public readonly customSettings: GoogleChronicleDashboardChartDashboardChartDrill
 
 custom_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#custom_settings GoogleChronicleDashboardChart#custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#custom_settings GoogleChronicleDashboardChart#custom_settings}
 
 ---
 
@@ -1610,7 +1610,7 @@ public readonly defaultSettings: GoogleChronicleDashboardChartDashboardChartDril
 
 default_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#default_settings GoogleChronicleDashboardChart#default_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#default_settings GoogleChronicleDashboardChart#default_settings}
 
 ---
 
@@ -1628,10 +1628,10 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings.property.newTab">newTab</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings.property.newTab">newTab</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings.property.externalLink">externalLink</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink">GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink</a></code> | external_link block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings.property.filter">filter</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter">GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilter</a></code> | filter block. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings.property.leftClickColumn">leftClickColumn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#left_click_column GoogleChronicleDashboardChart#left_click_column}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings.property.leftClickColumn">leftClickColumn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#left_click_column GoogleChronicleDashboardChart#left_click_column}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettings.property.query">query</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery">GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery</a></code> | query block. |
 
 ---
@@ -1644,7 +1644,7 @@ public readonly newTab: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}.
 
 ---
 
@@ -1658,7 +1658,7 @@ public readonly externalLink: GoogleChronicleDashboardChartDashboardChartDrillDo
 
 external_link block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#external_link GoogleChronicleDashboardChart#external_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#external_link GoogleChronicleDashboardChart#external_link}
 
 ---
 
@@ -1672,7 +1672,7 @@ public readonly filter: GoogleChronicleDashboardChartDashboardChartDrillDownConf
 
 filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#filter GoogleChronicleDashboardChart#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter GoogleChronicleDashboardChart#filter}
 
 ---
 
@@ -1684,7 +1684,7 @@ public readonly leftClickColumn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#left_click_column GoogleChronicleDashboardChart#left_click_column}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#left_click_column GoogleChronicleDashboardChart#left_click_column}.
 
 ---
 
@@ -1698,7 +1698,7 @@ public readonly query: GoogleChronicleDashboardChartDashboardChartDrillDownConfi
 
 query block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
 
 ---
 
@@ -1716,8 +1716,8 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink.property.link">link</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink.property.link">link</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsExternalLink.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}. |
 
 ---
 
@@ -1729,7 +1729,7 @@ public readonly link: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}.
 
 ---
 
@@ -1741,7 +1741,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}.
 
 ---
 
@@ -1773,7 +1773,7 @@ public readonly dashboardFilters: IResolvable | GoogleChronicleDashboardChartDas
 
 dashboard_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filters GoogleChronicleDashboardChart#dashboard_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filters GoogleChronicleDashboardChart#dashboard_filters}
 
 ---
 
@@ -1791,7 +1791,7 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFilters.property.dashboardFilterId">dashboardFilterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFilters.property.dashboardFilterId">dashboardFilterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFilters.property.filterOperatorAndValues">filterOperatorAndValues</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues">GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues</a>[]</code> | filter_operator_and_values block. |
 
 ---
@@ -1804,7 +1804,7 @@ public readonly dashboardFilterId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}.
 
 ---
 
@@ -1818,7 +1818,7 @@ public readonly filterOperatorAndValues: IResolvable | GoogleChronicleDashboardC
 
 filter_operator_and_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#filter_operator_and_values GoogleChronicleDashboardChart#filter_operator_and_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter_operator_and_values GoogleChronicleDashboardChart#filter_operator_and_values}
 
 ---
 
@@ -1836,7 +1836,7 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues.property.fieldValues">fieldValues</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues.property.fieldValues">fieldValues</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues.property.filterOperator">filterOperator</a></code> | <code>string</code> | Possible values: ["EQUAL", "NOT_EQUAL", "IN", "GREATER_THAN", "GREATER_THAN_OR_EQUAL_TO", "LESS_THAN", "LESS_THAN_OR_EQUAL_TO", "BETWEEN", "PAST", "IS_NULL", "IS_NOT_NULL", "STARTS_WITH", "ENDS_WITH", "DOES_NOT_STARTS_WITH", "DOES_NOT_ENDS_WITH", "NOT_IN", "CONTAINS", "DOES_NOT_CONTAIN"]. |
 
 ---
@@ -1849,7 +1849,7 @@ public readonly fieldValues: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}.
 
 ---
 
@@ -1863,7 +1863,7 @@ public readonly filterOperator: string;
 
 Possible values: ["EQUAL", "NOT_EQUAL", "IN", "GREATER_THAN", "GREATER_THAN_OR_EQUAL_TO", "LESS_THAN", "LESS_THAN_OR_EQUAL_TO", "BETWEEN", "PAST", "IS_NULL", "IS_NOT_NULL", "STARTS_WITH", "ENDS_WITH", "DOES_NOT_STARTS_WITH", "DOES_NOT_ENDS_WITH", "NOT_IN", "CONTAINS", "DOES_NOT_CONTAIN"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#filter_operator GoogleChronicleDashboardChart#filter_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter_operator GoogleChronicleDashboardChart#filter_operator}
 
 ---
 
@@ -1881,7 +1881,7 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery.property.query">query</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsCustomSettingsQuery.property.query">query</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}. |
 
 ---
 
@@ -1893,7 +1893,7 @@ public readonly query: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}.
 
 ---
 
@@ -1911,7 +1911,7 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigLeftDrillDownsDefaultSettings.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}. |
 
 ---
 
@@ -1923,7 +1923,7 @@ public readonly enabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}.
 
 ---
 
@@ -1941,8 +1941,8 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns:
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns.property.customSettings">customSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings">GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings</a></code> | custom_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDowns.property.defaultSettings">defaultSettings</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings">GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings</a></code> | default_settings block. |
 
@@ -1956,7 +1956,7 @@ public readonly displayName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}.
 
 ---
 
@@ -1968,7 +1968,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1985,7 +1985,7 @@ public readonly customSettings: GoogleChronicleDashboardChartDashboardChartDrill
 
 custom_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#custom_settings GoogleChronicleDashboardChart#custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#custom_settings GoogleChronicleDashboardChart#custom_settings}
 
 ---
 
@@ -1999,7 +1999,7 @@ public readonly defaultSettings: GoogleChronicleDashboardChartDashboardChartDril
 
 default_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#default_settings GoogleChronicleDashboardChart#default_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#default_settings GoogleChronicleDashboardChart#default_settings}
 
 ---
 
@@ -2017,7 +2017,7 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsC
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings.property.newTab">newTab</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings.property.newTab">newTab</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings.property.externalLink">externalLink</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink">GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink</a></code> | external_link block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings.property.filter">filter</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilter">GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilter</a></code> | filter block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettings.property.query">query</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery">GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery</a></code> | query block. |
@@ -2032,7 +2032,7 @@ public readonly newTab: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}.
 
 ---
 
@@ -2046,7 +2046,7 @@ public readonly externalLink: GoogleChronicleDashboardChartDashboardChartDrillDo
 
 external_link block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#external_link GoogleChronicleDashboardChart#external_link}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#external_link GoogleChronicleDashboardChart#external_link}
 
 ---
 
@@ -2060,7 +2060,7 @@ public readonly filter: GoogleChronicleDashboardChartDashboardChartDrillDownConf
 
 filter block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#filter GoogleChronicleDashboardChart#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter GoogleChronicleDashboardChart#filter}
 
 ---
 
@@ -2074,7 +2074,7 @@ public readonly query: GoogleChronicleDashboardChartDashboardChartDrillDownConfi
 
 query block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
 
 ---
 
@@ -2092,8 +2092,8 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsC
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink.property.link">link</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink.property.link">link</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsExternalLink.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}. |
 
 ---
 
@@ -2105,7 +2105,7 @@ public readonly link: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#link GoogleChronicleDashboardChart#link}.
 
 ---
 
@@ -2117,7 +2117,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}.
 
 ---
 
@@ -2149,7 +2149,7 @@ public readonly dashboardFilters: IResolvable | GoogleChronicleDashboardChartDas
 
 dashboard_filters block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filters GoogleChronicleDashboardChart#dashboard_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filters GoogleChronicleDashboardChart#dashboard_filters}
 
 ---
 
@@ -2167,7 +2167,7 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsC
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFilters.property.dashboardFilterId">dashboardFilterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFilters.property.dashboardFilterId">dashboardFilterId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFilters.property.filterOperatorAndValues">filterOperatorAndValues</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues">GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues</a>[]</code> | filter_operator_and_values block. |
 
 ---
@@ -2180,7 +2180,7 @@ public readonly dashboardFilterId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#dashboard_filter_id GoogleChronicleDashboardChart#dashboard_filter_id}.
 
 ---
 
@@ -2194,7 +2194,7 @@ public readonly filterOperatorAndValues: IResolvable | GoogleChronicleDashboardC
 
 filter_operator_and_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#filter_operator_and_values GoogleChronicleDashboardChart#filter_operator_and_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter_operator_and_values GoogleChronicleDashboardChart#filter_operator_and_values}
 
 ---
 
@@ -2212,7 +2212,7 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsC
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues.property.fieldValues">fieldValues</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues.property.fieldValues">fieldValues</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsFilterDashboardFiltersFilterOperatorAndValues.property.filterOperator">filterOperator</a></code> | <code>string</code> | Possible values: ["EQUAL", "NOT_EQUAL", "IN", "GREATER_THAN", "GREATER_THAN_OR_EQUAL_TO", "LESS_THAN", "LESS_THAN_OR_EQUAL_TO", "BETWEEN", "PAST", "IS_NULL", "IS_NOT_NULL", "STARTS_WITH", "ENDS_WITH", "DOES_NOT_STARTS_WITH", "DOES_NOT_ENDS_WITH", "NOT_IN", "CONTAINS", "DOES_NOT_CONTAIN"]. |
 
 ---
@@ -2225,7 +2225,7 @@ public readonly fieldValues: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field_values GoogleChronicleDashboardChart#field_values}.
 
 ---
 
@@ -2239,7 +2239,7 @@ public readonly filterOperator: string;
 
 Possible values: ["EQUAL", "NOT_EQUAL", "IN", "GREATER_THAN", "GREATER_THAN_OR_EQUAL_TO", "LESS_THAN", "LESS_THAN_OR_EQUAL_TO", "BETWEEN", "PAST", "IS_NULL", "IS_NOT_NULL", "STARTS_WITH", "ENDS_WITH", "DOES_NOT_STARTS_WITH", "DOES_NOT_ENDS_WITH", "NOT_IN", "CONTAINS", "DOES_NOT_CONTAIN"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#filter_operator GoogleChronicleDashboardChart#filter_operator}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#filter_operator GoogleChronicleDashboardChart#filter_operator}
 
 ---
 
@@ -2257,7 +2257,7 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsC
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery.property.query">query</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsCustomSettingsQuery.property.query">query</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}. |
 
 ---
 
@@ -2269,7 +2269,7 @@ public readonly query: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}.
 
 ---
 
@@ -2287,7 +2287,7 @@ const googleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsD
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartDrillDownConfigRightDrillDownsDefaultSettings.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}. |
 
 ---
 
@@ -2299,7 +2299,7 @@ public readonly enabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#enabled GoogleChronicleDashboardChart#enabled}.
 
 ---
 
@@ -2320,13 +2320,13 @@ const googleChronicleDashboardChartDashboardChartVisualization: googleChronicleD
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.button">button</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton">GoogleChronicleDashboardChartDashboardChartVisualizationButton</a></code> | button block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.columnDefs">columnDefs</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs">GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs</a>[]</code> | column_defs block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.googleMapsConfig">googleMapsConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfig">GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfig</a></code> | google_maps_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.groupingType">groupingType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#grouping_type GoogleChronicleDashboardChart#grouping_type}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.groupingType">groupingType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#grouping_type GoogleChronicleDashboardChart#grouping_type}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.legends">legends</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends">GoogleChronicleDashboardChartDashboardChartVisualizationLegends</a>[]</code> | legends block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.markdown">markdown</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown">GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown</a></code> | markdown block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.series">series</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries">GoogleChronicleDashboardChartDashboardChartVisualizationSeries</a>[]</code> | series block. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.seriesColumn">seriesColumn</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#series_column GoogleChronicleDashboardChart#series_column}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.seriesColumn">seriesColumn</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_column GoogleChronicleDashboardChart#series_column}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.tableConfig">tableConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig">GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig</a></code> | table_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.thresholdColoringEnabled">thresholdColoringEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#threshold_coloring_enabled GoogleChronicleDashboardChart#threshold_coloring_enabled}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.thresholdColoringEnabled">thresholdColoringEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#threshold_coloring_enabled GoogleChronicleDashboardChart#threshold_coloring_enabled}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.tooltip">tooltip</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTooltip">GoogleChronicleDashboardChartDashboardChartVisualizationTooltip</a></code> | tooltip block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.visualMaps">visualMaps</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMaps">GoogleChronicleDashboardChartDashboardChartVisualizationVisualMaps</a>[]</code> | visual_maps block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualization.property.xAxes">xAxes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes">GoogleChronicleDashboardChartDashboardChartVisualizationXAxes</a>[]</code> | x_axes block. |
@@ -2344,7 +2344,7 @@ public readonly button: GoogleChronicleDashboardChartDashboardChartVisualization
 
 button block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#button GoogleChronicleDashboardChart#button}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#button GoogleChronicleDashboardChart#button}
 
 ---
 
@@ -2358,7 +2358,7 @@ public readonly columnDefs: IResolvable | GoogleChronicleDashboardChartDashboard
 
 column_defs block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#column_defs GoogleChronicleDashboardChart#column_defs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#column_defs GoogleChronicleDashboardChart#column_defs}
 
 ---
 
@@ -2372,7 +2372,7 @@ public readonly googleMapsConfig: GoogleChronicleDashboardChartDashboardChartVis
 
 google_maps_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#google_maps_config GoogleChronicleDashboardChart#google_maps_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#google_maps_config GoogleChronicleDashboardChart#google_maps_config}
 
 ---
 
@@ -2384,7 +2384,7 @@ public readonly groupingType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#grouping_type GoogleChronicleDashboardChart#grouping_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#grouping_type GoogleChronicleDashboardChart#grouping_type}.
 
 ---
 
@@ -2398,7 +2398,7 @@ public readonly legends: IResolvable | GoogleChronicleDashboardChartDashboardCha
 
 legends block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#legends GoogleChronicleDashboardChart#legends}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#legends GoogleChronicleDashboardChart#legends}
 
 ---
 
@@ -2412,7 +2412,7 @@ public readonly markdown: GoogleChronicleDashboardChartDashboardChartVisualizati
 
 markdown block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#markdown GoogleChronicleDashboardChart#markdown}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#markdown GoogleChronicleDashboardChart#markdown}
 
 ---
 
@@ -2426,7 +2426,7 @@ public readonly series: IResolvable | GoogleChronicleDashboardChartDashboardChar
 
 series block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#series GoogleChronicleDashboardChart#series}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series GoogleChronicleDashboardChart#series}
 
 ---
 
@@ -2438,7 +2438,7 @@ public readonly seriesColumn: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#series_column GoogleChronicleDashboardChart#series_column}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_column GoogleChronicleDashboardChart#series_column}.
 
 ---
 
@@ -2452,7 +2452,7 @@ public readonly tableConfig: GoogleChronicleDashboardChartDashboardChartVisualiz
 
 table_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#table_config GoogleChronicleDashboardChart#table_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#table_config GoogleChronicleDashboardChart#table_config}
 
 ---
 
@@ -2464,7 +2464,7 @@ public readonly thresholdColoringEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#threshold_coloring_enabled GoogleChronicleDashboardChart#threshold_coloring_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#threshold_coloring_enabled GoogleChronicleDashboardChart#threshold_coloring_enabled}.
 
 ---
 
@@ -2478,7 +2478,7 @@ public readonly tooltip: GoogleChronicleDashboardChartDashboardChartVisualizatio
 
 tooltip block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#tooltip GoogleChronicleDashboardChart#tooltip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#tooltip GoogleChronicleDashboardChart#tooltip}
 
 ---
 
@@ -2492,7 +2492,7 @@ public readonly visualMaps: IResolvable | GoogleChronicleDashboardChartDashboard
 
 visual_maps block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#visual_maps GoogleChronicleDashboardChart#visual_maps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#visual_maps GoogleChronicleDashboardChart#visual_maps}
 
 ---
 
@@ -2506,7 +2506,7 @@ public readonly xAxes: IResolvable | GoogleChronicleDashboardChartDashboardChart
 
 x_axes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#x_axes GoogleChronicleDashboardChart#x_axes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#x_axes GoogleChronicleDashboardChart#x_axes}
 
 ---
 
@@ -2520,7 +2520,7 @@ public readonly yAxes: IResolvable | GoogleChronicleDashboardChartDashboardChart
 
 y_axes block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#y_axes GoogleChronicleDashboardChart#y_axes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#y_axes GoogleChronicleDashboardChart#y_axes}
 
 ---
 
@@ -2538,10 +2538,10 @@ const googleChronicleDashboardChartDashboardChartVisualizationButton: googleChro
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.property.hyperlink">hyperlink</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#hyperlink GoogleChronicleDashboardChart#hyperlink}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.property.newTab">newTab</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.property.hyperlink">hyperlink</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#hyperlink GoogleChronicleDashboardChart#hyperlink}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.property.description">description</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.property.newTab">newTab</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButton.property.properties">properties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties">GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties</a></code> | properties block. |
 
 ---
@@ -2554,7 +2554,7 @@ public readonly hyperlink: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#hyperlink GoogleChronicleDashboardChart#hyperlink}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#hyperlink GoogleChronicleDashboardChart#hyperlink}.
 
 ---
 
@@ -2566,7 +2566,7 @@ public readonly label: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}.
 
 ---
 
@@ -2578,7 +2578,7 @@ public readonly description: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#description GoogleChronicleDashboardChart#description}.
 
 ---
 
@@ -2590,7 +2590,7 @@ public readonly newTab: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#new_tab GoogleChronicleDashboardChart#new_tab}.
 
 ---
 
@@ -2604,7 +2604,7 @@ public readonly properties: GoogleChronicleDashboardChartDashboardChartVisualiza
 
 properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#properties GoogleChronicleDashboardChart#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#properties GoogleChronicleDashboardChart#properties}
 
 ---
 
@@ -2623,7 +2623,7 @@ const googleChronicleDashboardChartDashboardChartVisualizationButtonProperties: 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties.property.buttonStyle">buttonStyle</a></code> | <code>string</code> | Possible values: ["BUTTON_STYLE_UNSPECIFIED", "BUTTON_STYLE_FILLED", "BUTTON_STYLE_OUTLINED", "BUTTON_STYLE_TRANSPARENT"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationButtonProperties.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
 
 ---
 
@@ -2637,7 +2637,7 @@ public readonly buttonStyle: string;
 
 Possible values: ["BUTTON_STYLE_UNSPECIFIED", "BUTTON_STYLE_FILLED", "BUTTON_STYLE_OUTLINED", "BUTTON_STYLE_TRANSPARENT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#button_style GoogleChronicleDashboardChart#button_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#button_style GoogleChronicleDashboardChart#button_style}
 
 ---
 
@@ -2649,7 +2649,7 @@ public readonly color: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
 
 ---
 
@@ -2667,8 +2667,8 @@ const googleChronicleDashboardChartDashboardChartVisualizationColumnDefs: google
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs.property.field">field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs.property.header">header</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#header GoogleChronicleDashboardChart#header}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs.property.field">field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationColumnDefs.property.header">header</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#header GoogleChronicleDashboardChart#header}. |
 
 ---
 
@@ -2680,7 +2680,7 @@ public readonly field: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}.
 
 ---
 
@@ -2692,7 +2692,7 @@ public readonly header: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#header GoogleChronicleDashboardChart#header}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#header GoogleChronicleDashboardChart#header}.
 
 ---
 
@@ -2727,7 +2727,7 @@ public readonly dataSettings: GoogleChronicleDashboardChartDashboardChartVisuali
 
 data_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#data_settings GoogleChronicleDashboardChart#data_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#data_settings GoogleChronicleDashboardChart#data_settings}
 
 ---
 
@@ -2741,7 +2741,7 @@ public readonly mapPosition: GoogleChronicleDashboardChartDashboardChartVisualiz
 
 map_position block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#map_position GoogleChronicleDashboardChart#map_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#map_position GoogleChronicleDashboardChart#map_position}
 
 ---
 
@@ -2755,7 +2755,7 @@ public readonly plotMode: string;
 
 Possible values: ["PLOT_MODE_UNSPECIFIED", "PLOT_MODE_POINTS", "PLOT_MODE_HEATMAP", "PLOT_MODE_BOTH"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#plot_mode GoogleChronicleDashboardChart#plot_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#plot_mode GoogleChronicleDashboardChart#plot_mode}
 
 ---
 
@@ -2769,7 +2769,7 @@ public readonly pointSettings: GoogleChronicleDashboardChartDashboardChartVisual
 
 point_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#point_settings GoogleChronicleDashboardChart#point_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#point_settings GoogleChronicleDashboardChart#point_settings}
 
 ---
 
@@ -2787,9 +2787,9 @@ const googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings.property.countColumn">countColumn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#count_column GoogleChronicleDashboardChart#count_column}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings.property.latitudeColumn">latitudeColumn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#latitude_column GoogleChronicleDashboardChart#latitude_column}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings.property.longitudeColumn">longitudeColumn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#longitude_column GoogleChronicleDashboardChart#longitude_column}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings.property.countColumn">countColumn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#count_column GoogleChronicleDashboardChart#count_column}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings.property.latitudeColumn">latitudeColumn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#latitude_column GoogleChronicleDashboardChart#latitude_column}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigDataSettings.property.longitudeColumn">longitudeColumn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#longitude_column GoogleChronicleDashboardChart#longitude_column}. |
 
 ---
 
@@ -2801,7 +2801,7 @@ public readonly countColumn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#count_column GoogleChronicleDashboardChart#count_column}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#count_column GoogleChronicleDashboardChart#count_column}.
 
 ---
 
@@ -2813,7 +2813,7 @@ public readonly latitudeColumn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#latitude_column GoogleChronicleDashboardChart#latitude_column}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#latitude_column GoogleChronicleDashboardChart#latitude_column}.
 
 ---
 
@@ -2825,7 +2825,7 @@ public readonly longitudeColumn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#longitude_column GoogleChronicleDashboardChart#longitude_column}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#longitude_column GoogleChronicleDashboardChart#longitude_column}.
 
 ---
 
@@ -2843,10 +2843,10 @@ const googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMa
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition.property.fitData">fitData</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#fit_data GoogleChronicleDashboardChart#fit_data}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition.property.latitudeValue">latitudeValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#latitude_value GoogleChronicleDashboardChart#latitude_value}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition.property.longitudeValue">longitudeValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#longitude_value GoogleChronicleDashboardChart#longitude_value}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition.property.zoomScaleValue">zoomScaleValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#zoom_scale_value GoogleChronicleDashboardChart#zoom_scale_value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition.property.fitData">fitData</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#fit_data GoogleChronicleDashboardChart#fit_data}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition.property.latitudeValue">latitudeValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#latitude_value GoogleChronicleDashboardChart#latitude_value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition.property.longitudeValue">longitudeValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#longitude_value GoogleChronicleDashboardChart#longitude_value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigMapPosition.property.zoomScaleValue">zoomScaleValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#zoom_scale_value GoogleChronicleDashboardChart#zoom_scale_value}. |
 
 ---
 
@@ -2858,7 +2858,7 @@ public readonly fitData: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#fit_data GoogleChronicleDashboardChart#fit_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#fit_data GoogleChronicleDashboardChart#fit_data}.
 
 ---
 
@@ -2870,7 +2870,7 @@ public readonly latitudeValue: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#latitude_value GoogleChronicleDashboardChart#latitude_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#latitude_value GoogleChronicleDashboardChart#latitude_value}.
 
 ---
 
@@ -2882,7 +2882,7 @@ public readonly longitudeValue: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#longitude_value GoogleChronicleDashboardChart#longitude_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#longitude_value GoogleChronicleDashboardChart#longitude_value}.
 
 ---
 
@@ -2894,7 +2894,7 @@ public readonly zoomScaleValue: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#zoom_scale_value GoogleChronicleDashboardChart#zoom_scale_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#zoom_scale_value GoogleChronicleDashboardChart#zoom_scale_value}.
 
 ---
 
@@ -2912,7 +2912,7 @@ const googleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationGoogleMapsConfigPointSettings.property.pointSizeType">pointSizeType</a></code> | <code>string</code> | Possible values: ["POINT_SIZE_TYPE_UNSPECIFIED", "POINT_SIZE_TYPE_FIXED", "POINT_SIZE_TYPE_PROPORTIONAL_TO_SIZE"]. |
 
 ---
@@ -2925,7 +2925,7 @@ public readonly color: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
 
 ---
 
@@ -2939,7 +2939,7 @@ public readonly pointSizeType: string;
 
 Possible values: ["POINT_SIZE_TYPE_UNSPECIFIED", "POINT_SIZE_TYPE_FIXED", "POINT_SIZE_TYPE_PROPORTIONAL_TO_SIZE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#point_size_type GoogleChronicleDashboardChart#point_size_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#point_size_type GoogleChronicleDashboardChart#point_size_type}
 
 ---
 
@@ -2957,17 +2957,17 @@ const googleChronicleDashboardChartDashboardChartVisualizationLegends: googleChr
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.bottom">bottom</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#bottom GoogleChronicleDashboardChart#bottom}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.left">left</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#left GoogleChronicleDashboardChart#left}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.bottom">bottom</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#bottom GoogleChronicleDashboardChart#bottom}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.id">id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.left">left</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#left GoogleChronicleDashboardChart#left}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.legendAlign">legendAlign</a></code> | <code>string</code> | Possible values: ["AUTO", "LEFT", "RIGHT"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.legendOrient">legendOrient</a></code> | <code>string</code> | Possible values: ["VERTICAL", "HORIZONTAL"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.padding">padding</a></code> | <code>number[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#padding GoogleChronicleDashboardChart#padding}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.right">right</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#right GoogleChronicleDashboardChart#right}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.show">show</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.top">top</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#top GoogleChronicleDashboardChart#top}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.z">z</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#z GoogleChronicleDashboardChart#z}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.zLevel">zLevel</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#z_level GoogleChronicleDashboardChart#z_level}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.padding">padding</a></code> | <code>number[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#padding GoogleChronicleDashboardChart#padding}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.right">right</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#right GoogleChronicleDashboardChart#right}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.show">show</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.top">top</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#top GoogleChronicleDashboardChart#top}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.z">z</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#z GoogleChronicleDashboardChart#z}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationLegends.property.zLevel">zLevel</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#z_level GoogleChronicleDashboardChart#z_level}. |
 
 ---
 
@@ -2979,7 +2979,7 @@ public readonly bottom: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#bottom GoogleChronicleDashboardChart#bottom}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#bottom GoogleChronicleDashboardChart#bottom}.
 
 ---
 
@@ -2991,7 +2991,7 @@ public readonly id: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#id GoogleChronicleDashboardChart#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3006,7 +3006,7 @@ public readonly left: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#left GoogleChronicleDashboardChart#left}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#left GoogleChronicleDashboardChart#left}.
 
 ---
 
@@ -3020,7 +3020,7 @@ public readonly legendAlign: string;
 
 Possible values: ["AUTO", "LEFT", "RIGHT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#legend_align GoogleChronicleDashboardChart#legend_align}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#legend_align GoogleChronicleDashboardChart#legend_align}
 
 ---
 
@@ -3034,7 +3034,7 @@ public readonly legendOrient: string;
 
 Possible values: ["VERTICAL", "HORIZONTAL"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#legend_orient GoogleChronicleDashboardChart#legend_orient}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#legend_orient GoogleChronicleDashboardChart#legend_orient}
 
 ---
 
@@ -3046,7 +3046,7 @@ public readonly padding: number[];
 
 - *Type:* number[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#padding GoogleChronicleDashboardChart#padding}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#padding GoogleChronicleDashboardChart#padding}.
 
 ---
 
@@ -3058,7 +3058,7 @@ public readonly right: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#right GoogleChronicleDashboardChart#right}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#right GoogleChronicleDashboardChart#right}.
 
 ---
 
@@ -3070,7 +3070,7 @@ public readonly show: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}.
 
 ---
 
@@ -3082,7 +3082,7 @@ public readonly top: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#top GoogleChronicleDashboardChart#top}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#top GoogleChronicleDashboardChart#top}.
 
 ---
 
@@ -3094,7 +3094,7 @@ public readonly z: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#z GoogleChronicleDashboardChart#z}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#z GoogleChronicleDashboardChart#z}.
 
 ---
 
@@ -3106,7 +3106,7 @@ public readonly zLevel: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#z_level GoogleChronicleDashboardChart#z_level}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#z_level GoogleChronicleDashboardChart#z_level}.
 
 ---
 
@@ -3124,7 +3124,7 @@ const googleChronicleDashboardChartDashboardChartVisualizationMarkdown: googleCh
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown.property.content">content</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#content GoogleChronicleDashboardChart#content}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown.property.content">content</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#content GoogleChronicleDashboardChart#content}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdown.property.properties">properties</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties">GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties</a></code> | properties block. |
 
 ---
@@ -3137,7 +3137,7 @@ public readonly content: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#content GoogleChronicleDashboardChart#content}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#content GoogleChronicleDashboardChart#content}.
 
 ---
 
@@ -3151,7 +3151,7 @@ public readonly properties: GoogleChronicleDashboardChartDashboardChartVisualiza
 
 properties block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#properties GoogleChronicleDashboardChart#properties}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#properties GoogleChronicleDashboardChart#properties}
 
 ---
 
@@ -3169,7 +3169,7 @@ const googleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties.property.backgroundColor">backgroundColor</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#background_color GoogleChronicleDashboardChart#background_color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationMarkdownProperties.property.backgroundColor">backgroundColor</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#background_color GoogleChronicleDashboardChart#background_color}. |
 
 ---
 
@@ -3181,7 +3181,7 @@ public readonly backgroundColor: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#background_color GoogleChronicleDashboardChart#background_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#background_color GoogleChronicleDashboardChart#background_color}.
 
 ---
 
@@ -3202,20 +3202,20 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeries: googleChro
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.areaStyle">areaStyle</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle">GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle</a></code> | area_style block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.dataLabel">dataLabel</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabel">GoogleChronicleDashboardChartDashboardChartVisualizationSeriesDataLabel</a></code> | data_label block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.encode">encode</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode">GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode</a></code> | encode block. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.field">field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.field">field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.gaugeConfig">gaugeConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfig">GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfig</a></code> | gauge_config block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.itemColors">itemColors</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColors">GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColors</a></code> | item_colors block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.itemStyle">itemStyle</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle">GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle</a></code> | item_style block. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.metricTrendConfig">metricTrendConfig</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig">GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig</a></code> | metric_trend_config block. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.radius">radius</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#radius GoogleChronicleDashboardChart#radius}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.radius">radius</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#radius GoogleChronicleDashboardChart#radius}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.seriesName">seriesName</a></code> | <code>string</code> | User specified series label. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.seriesStackStrategy">seriesStackStrategy</a></code> | <code>string</code> | Possible values: ["SAMESIGN", "ALL", "POSITIVE", "NEGATIVE"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.seriesType">seriesType</a></code> | <code>string</code> | Possible values: ["LINE", "BAR", "PIE", "TEXT", "MAP", "GAUGE", "SCATTERPLOT"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.seriesUniqueValue">seriesUniqueValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#series_unique_value GoogleChronicleDashboardChart#series_unique_value}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.showBackground">showBackground</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show_background GoogleChronicleDashboardChart#show_background}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.showSymbol">showSymbol</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show_symbol GoogleChronicleDashboardChart#show_symbol}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.stack">stack</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#stack GoogleChronicleDashboardChart#stack}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.seriesUniqueValue">seriesUniqueValue</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_unique_value GoogleChronicleDashboardChart#series_unique_value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.showBackground">showBackground</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show_background GoogleChronicleDashboardChart#show_background}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.showSymbol">showSymbol</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show_symbol GoogleChronicleDashboardChart#show_symbol}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeries.property.stack">stack</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#stack GoogleChronicleDashboardChart#stack}. |
 
 ---
 
@@ -3229,7 +3229,7 @@ public readonly areaStyle: GoogleChronicleDashboardChartDashboardChartVisualizat
 
 area_style block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#area_style GoogleChronicleDashboardChart#area_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#area_style GoogleChronicleDashboardChart#area_style}
 
 ---
 
@@ -3243,7 +3243,7 @@ public readonly dataLabel: GoogleChronicleDashboardChartDashboardChartVisualizat
 
 data_label block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#data_label GoogleChronicleDashboardChart#data_label}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#data_label GoogleChronicleDashboardChart#data_label}
 
 ---
 
@@ -3257,7 +3257,7 @@ public readonly encode: GoogleChronicleDashboardChartDashboardChartVisualization
 
 encode block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#encode GoogleChronicleDashboardChart#encode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#encode GoogleChronicleDashboardChart#encode}
 
 ---
 
@@ -3269,7 +3269,7 @@ public readonly field: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}.
 
 ---
 
@@ -3283,7 +3283,7 @@ public readonly gaugeConfig: GoogleChronicleDashboardChartDashboardChartVisualiz
 
 gauge_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#gauge_config GoogleChronicleDashboardChart#gauge_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#gauge_config GoogleChronicleDashboardChart#gauge_config}
 
 ---
 
@@ -3297,7 +3297,7 @@ public readonly itemColors: GoogleChronicleDashboardChartDashboardChartVisualiza
 
 item_colors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#item_colors GoogleChronicleDashboardChart#item_colors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#item_colors GoogleChronicleDashboardChart#item_colors}
 
 ---
 
@@ -3311,7 +3311,7 @@ public readonly itemStyle: GoogleChronicleDashboardChartDashboardChartVisualizat
 
 item_style block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#item_style GoogleChronicleDashboardChart#item_style}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#item_style GoogleChronicleDashboardChart#item_style}
 
 ---
 
@@ -3323,7 +3323,7 @@ public readonly label: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}.
 
 ---
 
@@ -3337,7 +3337,7 @@ public readonly metricTrendConfig: GoogleChronicleDashboardChartDashboardChartVi
 
 metric_trend_config block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#metric_trend_config GoogleChronicleDashboardChart#metric_trend_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#metric_trend_config GoogleChronicleDashboardChart#metric_trend_config}
 
 ---
 
@@ -3349,7 +3349,7 @@ public readonly radius: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#radius GoogleChronicleDashboardChart#radius}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#radius GoogleChronicleDashboardChart#radius}.
 
 ---
 
@@ -3363,7 +3363,7 @@ public readonly seriesName: string;
 
 User specified series label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#series_name GoogleChronicleDashboardChart#series_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_name GoogleChronicleDashboardChart#series_name}
 
 ---
 
@@ -3377,7 +3377,7 @@ public readonly seriesStackStrategy: string;
 
 Possible values: ["SAMESIGN", "ALL", "POSITIVE", "NEGATIVE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#series_stack_strategy GoogleChronicleDashboardChart#series_stack_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_stack_strategy GoogleChronicleDashboardChart#series_stack_strategy}
 
 ---
 
@@ -3391,7 +3391,7 @@ public readonly seriesType: string;
 
 Possible values: ["LINE", "BAR", "PIE", "TEXT", "MAP", "GAUGE", "SCATTERPLOT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#series_type GoogleChronicleDashboardChart#series_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_type GoogleChronicleDashboardChart#series_type}
 
 ---
 
@@ -3403,7 +3403,7 @@ public readonly seriesUniqueValue: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#series_unique_value GoogleChronicleDashboardChart#series_unique_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#series_unique_value GoogleChronicleDashboardChart#series_unique_value}.
 
 ---
 
@@ -3415,7 +3415,7 @@ public readonly showBackground: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show_background GoogleChronicleDashboardChart#show_background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show_background GoogleChronicleDashboardChart#show_background}.
 
 ---
 
@@ -3427,7 +3427,7 @@ public readonly showSymbol: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show_symbol GoogleChronicleDashboardChart#show_symbol}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show_symbol GoogleChronicleDashboardChart#show_symbol}.
 
 ---
 
@@ -3439,7 +3439,7 @@ public readonly stack: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#stack GoogleChronicleDashboardChart#stack}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#stack GoogleChronicleDashboardChart#stack}.
 
 ---
 
@@ -3457,13 +3457,13 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle: g
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.opacity">opacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#opacity GoogleChronicleDashboardChart#opacity}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.origin">origin</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#origin GoogleChronicleDashboardChart#origin}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.shadowBlur">shadowBlur</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#shadow_blur GoogleChronicleDashboardChart#shadow_blur}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.shadowColor">shadowColor</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#shadow_color GoogleChronicleDashboardChart#shadow_color}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.shadowOffsetX">shadowOffsetX</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_x GoogleChronicleDashboardChart#shadow_offset_x}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.shadowOffsetY">shadowOffsetY</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_y GoogleChronicleDashboardChart#shadow_offset_y}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.opacity">opacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#opacity GoogleChronicleDashboardChart#opacity}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.origin">origin</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#origin GoogleChronicleDashboardChart#origin}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.shadowBlur">shadowBlur</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_blur GoogleChronicleDashboardChart#shadow_blur}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.shadowColor">shadowColor</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_color GoogleChronicleDashboardChart#shadow_color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.shadowOffsetX">shadowOffsetX</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_x GoogleChronicleDashboardChart#shadow_offset_x}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesAreaStyle.property.shadowOffsetY">shadowOffsetY</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_y GoogleChronicleDashboardChart#shadow_offset_y}. |
 
 ---
 
@@ -3475,7 +3475,7 @@ public readonly color: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
 
 ---
 
@@ -3487,7 +3487,7 @@ public readonly opacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#opacity GoogleChronicleDashboardChart#opacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#opacity GoogleChronicleDashboardChart#opacity}.
 
 ---
 
@@ -3499,7 +3499,7 @@ public readonly origin: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#origin GoogleChronicleDashboardChart#origin}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#origin GoogleChronicleDashboardChart#origin}.
 
 ---
 
@@ -3511,7 +3511,7 @@ public readonly shadowBlur: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#shadow_blur GoogleChronicleDashboardChart#shadow_blur}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_blur GoogleChronicleDashboardChart#shadow_blur}.
 
 ---
 
@@ -3523,7 +3523,7 @@ public readonly shadowColor: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#shadow_color GoogleChronicleDashboardChart#shadow_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_color GoogleChronicleDashboardChart#shadow_color}.
 
 ---
 
@@ -3535,7 +3535,7 @@ public readonly shadowOffsetX: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_x GoogleChronicleDashboardChart#shadow_offset_x}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_x GoogleChronicleDashboardChart#shadow_offset_x}.
 
 ---
 
@@ -3547,7 +3547,7 @@ public readonly shadowOffsetY: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_y GoogleChronicleDashboardChart#shadow_offset_y}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#shadow_offset_y GoogleChronicleDashboardChart#shadow_offset_y}.
 
 ---
 
@@ -3579,7 +3579,7 @@ public readonly show: boolean | IResolvable;
 
 Whether to show data label.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}
 
 ---
 
@@ -3597,10 +3597,10 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeriesEncode: goog
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode.property.itemName">itemName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#item_name GoogleChronicleDashboardChart#item_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode.property.x">x</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#x GoogleChronicleDashboardChart#x}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode.property.y">y</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#y GoogleChronicleDashboardChart#y}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode.property.itemName">itemName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#item_name GoogleChronicleDashboardChart#item_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode.property.x">x</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#x GoogleChronicleDashboardChart#x}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesEncode.property.y">y</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#y GoogleChronicleDashboardChart#y}. |
 
 ---
 
@@ -3612,7 +3612,7 @@ public readonly itemName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#item_name GoogleChronicleDashboardChart#item_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#item_name GoogleChronicleDashboardChart#item_name}.
 
 ---
 
@@ -3624,7 +3624,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}.
 
 ---
 
@@ -3636,7 +3636,7 @@ public readonly x: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#x GoogleChronicleDashboardChart#x}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#x GoogleChronicleDashboardChart#x}.
 
 ---
 
@@ -3648,7 +3648,7 @@ public readonly y: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#y GoogleChronicleDashboardChart#y}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#y GoogleChronicleDashboardChart#y}.
 
 ---
 
@@ -3682,7 +3682,7 @@ public readonly baseValue: GoogleChronicleDashboardChartDashboardChartVisualizat
 
 base_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#base_value GoogleChronicleDashboardChart#base_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#base_value GoogleChronicleDashboardChart#base_value}
 
 ---
 
@@ -3696,7 +3696,7 @@ public readonly limitValue: GoogleChronicleDashboardChartDashboardChartVisualiza
 
 limit_value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#limit_value GoogleChronicleDashboardChart#limit_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#limit_value GoogleChronicleDashboardChart#limit_value}
 
 ---
 
@@ -3710,7 +3710,7 @@ public readonly thresholdValues: IResolvable | GoogleChronicleDashboardChartDash
 
 threshold_values block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#threshold_values GoogleChronicleDashboardChart#threshold_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#threshold_values GoogleChronicleDashboardChart#threshold_values}
 
 ---
 
@@ -3728,8 +3728,8 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigB
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigBaseValue.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}. |
 
 ---
 
@@ -3741,7 +3741,7 @@ public readonly color: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
 
 ---
 
@@ -3753,7 +3753,7 @@ public readonly value: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}.
 
 ---
 
@@ -3771,8 +3771,8 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigL
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigLimitValue.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}. |
 
 ---
 
@@ -3784,7 +3784,7 @@ public readonly color: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
 
 ---
 
@@ -3796,7 +3796,7 @@ public readonly value: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}.
 
 ---
 
@@ -3814,8 +3814,8 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesGaugeConfigThresholdValues.property.value">value</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}. |
 
 ---
 
@@ -3827,7 +3827,7 @@ public readonly color: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
 
 ---
 
@@ -3839,7 +3839,7 @@ public readonly value: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}.
 
 ---
 
@@ -3871,7 +3871,7 @@ public readonly colors: IResolvable | GoogleChronicleDashboardChartDashboardChar
 
 colors block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#colors GoogleChronicleDashboardChart#colors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#colors GoogleChronicleDashboardChart#colors}
 
 ---
 
@@ -3889,7 +3889,7 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColors.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#key GoogleChronicleDashboardChart#key}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColors.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#key GoogleChronicleDashboardChart#key}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColors.property.value">value</a></code> | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue">GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue</a></code> | value block. |
 
 ---
@@ -3902,7 +3902,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#key GoogleChronicleDashboardChart#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#key GoogleChronicleDashboardChart#key}.
 
 ---
 
@@ -3916,7 +3916,7 @@ public readonly value: GoogleChronicleDashboardChartDashboardChartVisualizationS
 
 value block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#value GoogleChronicleDashboardChart#value}
 
 ---
 
@@ -3934,8 +3934,8 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsCo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemColorsColorsValue.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}. |
 
 ---
 
@@ -3947,7 +3947,7 @@ public readonly color: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
 
 ---
 
@@ -3959,7 +3959,7 @@ public readonly label: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}.
 
 ---
 
@@ -3977,9 +3977,9 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle: g
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle.property.borderColor">borderColor</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#border_color GoogleChronicleDashboardChart#border_color}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle.property.borderWidth">borderWidth</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#border_width GoogleChronicleDashboardChart#border_width}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle.property.borderColor">borderColor</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#border_color GoogleChronicleDashboardChart#border_color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle.property.borderWidth">borderWidth</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#border_width GoogleChronicleDashboardChart#border_width}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesItemStyle.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
 
 ---
 
@@ -3991,7 +3991,7 @@ public readonly borderColor: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#border_color GoogleChronicleDashboardChart#border_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#border_color GoogleChronicleDashboardChart#border_color}.
 
 ---
 
@@ -4003,7 +4003,7 @@ public readonly borderWidth: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#border_width GoogleChronicleDashboardChart#border_width}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#border_width GoogleChronicleDashboardChart#border_width}.
 
 ---
 
@@ -4015,7 +4015,7 @@ public readonly color: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
 
 ---
 
@@ -4036,7 +4036,7 @@ const googleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendC
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig.property.metricDisplayTrend">metricDisplayTrend</a></code> | <code>string</code> | Possible values: ["METRIC_DISPLAY_TREND_UNSPECIFIED", "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE", "METRIC_DISPLAY_TREND_PERCENTAGE", "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE_AND_PERCENTAGE"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig.property.metricFormat">metricFormat</a></code> | <code>string</code> | Possible values: ["METRIC_FORMAT_UNSPECIFIED", "METRIC_FORMAT_NUMBER", "METRIC_FORMAT_PLAIN_TEXT"]. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig.property.metricTrendType">metricTrendType</a></code> | <code>string</code> | Possible values: ["METRIC_TREND_TYPE_UNSPECIFIED", "METRIC_TREND_TYPE_REGULAR", "METRIC_TREND_TYPE_INVERSE"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig.property.showMetricTrend">showMetricTrend</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show_metric_trend GoogleChronicleDashboardChart#show_metric_trend}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationSeriesMetricTrendConfig.property.showMetricTrend">showMetricTrend</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show_metric_trend GoogleChronicleDashboardChart#show_metric_trend}. |
 
 ---
 
@@ -4050,7 +4050,7 @@ public readonly metricDisplayTrend: string;
 
 Possible values: ["METRIC_DISPLAY_TREND_UNSPECIFIED", "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE", "METRIC_DISPLAY_TREND_PERCENTAGE", "METRIC_DISPLAY_TREND_ABSOLUTE_VALUE_AND_PERCENTAGE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#metric_display_trend GoogleChronicleDashboardChart#metric_display_trend}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#metric_display_trend GoogleChronicleDashboardChart#metric_display_trend}
 
 ---
 
@@ -4064,7 +4064,7 @@ public readonly metricFormat: string;
 
 Possible values: ["METRIC_FORMAT_UNSPECIFIED", "METRIC_FORMAT_NUMBER", "METRIC_FORMAT_PLAIN_TEXT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#metric_format GoogleChronicleDashboardChart#metric_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#metric_format GoogleChronicleDashboardChart#metric_format}
 
 ---
 
@@ -4078,7 +4078,7 @@ public readonly metricTrendType: string;
 
 Possible values: ["METRIC_TREND_TYPE_UNSPECIFIED", "METRIC_TREND_TYPE_REGULAR", "METRIC_TREND_TYPE_INVERSE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#metric_trend_type GoogleChronicleDashboardChart#metric_trend_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#metric_trend_type GoogleChronicleDashboardChart#metric_trend_type}
 
 ---
 
@@ -4090,7 +4090,7 @@ public readonly showMetricTrend: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show_metric_trend GoogleChronicleDashboardChart#show_metric_trend}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show_metric_trend GoogleChronicleDashboardChart#show_metric_trend}.
 
 ---
 
@@ -4110,7 +4110,7 @@ const googleChronicleDashboardChartDashboardChartVisualizationTableConfig: googl
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig.property.columnRenderTypeSettings">columnRenderTypeSettings</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings">GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings</a>[]</code> | column_render_type_settings block. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig.property.columnTooltipSettings">columnTooltipSettings</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings">GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings</a>[]</code> | column_tooltip_settings block. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig.property.enableTextWrap">enableTextWrap</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#enable_text_wrap GoogleChronicleDashboardChart#enable_text_wrap}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfig.property.enableTextWrap">enableTextWrap</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#enable_text_wrap GoogleChronicleDashboardChart#enable_text_wrap}. |
 
 ---
 
@@ -4124,7 +4124,7 @@ public readonly columnRenderTypeSettings: IResolvable | GoogleChronicleDashboard
 
 column_render_type_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#column_render_type_settings GoogleChronicleDashboardChart#column_render_type_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#column_render_type_settings GoogleChronicleDashboardChart#column_render_type_settings}
 
 ---
 
@@ -4138,7 +4138,7 @@ public readonly columnTooltipSettings: IResolvable | GoogleChronicleDashboardCha
 
 column_tooltip_settings block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#column_tooltip_settings GoogleChronicleDashboardChart#column_tooltip_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#column_tooltip_settings GoogleChronicleDashboardChart#column_tooltip_settings}
 
 ---
 
@@ -4150,7 +4150,7 @@ public readonly enableTextWrap: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#enable_text_wrap GoogleChronicleDashboardChart#enable_text_wrap}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#enable_text_wrap GoogleChronicleDashboardChart#enable_text_wrap}.
 
 ---
 
@@ -4169,7 +4169,7 @@ const googleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnR
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings.property.columnRenderType">columnRenderType</a></code> | <code>string</code> | Possible values: ["RENDER_TYPE_UNSPECIFIED", "RENDER_TYPE_TEXT", "RENDER_TYPE_ICON", "RENDER_TYPE_ICON_AND_TEXT"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings.property.field">field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnRenderTypeSettings.property.field">field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}. |
 
 ---
 
@@ -4183,7 +4183,7 @@ public readonly columnRenderType: string;
 
 Possible values: ["RENDER_TYPE_UNSPECIFIED", "RENDER_TYPE_TEXT", "RENDER_TYPE_ICON", "RENDER_TYPE_ICON_AND_TEXT"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#column_render_type GoogleChronicleDashboardChart#column_render_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#column_render_type GoogleChronicleDashboardChart#column_render_type}
 
 ---
 
@@ -4195,7 +4195,7 @@ public readonly field: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}.
 
 ---
 
@@ -4213,9 +4213,9 @@ const googleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings.property.field">field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings.property.cellTooltipText">cellTooltipText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#cell_tooltip_text GoogleChronicleDashboardChart#cell_tooltip_text}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings.property.headerTooltipText">headerTooltipText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#header_tooltip_text GoogleChronicleDashboardChart#header_tooltip_text}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings.property.field">field</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings.property.cellTooltipText">cellTooltipText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#cell_tooltip_text GoogleChronicleDashboardChart#cell_tooltip_text}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTableConfigColumnTooltipSettings.property.headerTooltipText">headerTooltipText</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#header_tooltip_text GoogleChronicleDashboardChart#header_tooltip_text}. |
 
 ---
 
@@ -4227,7 +4227,7 @@ public readonly field: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#field GoogleChronicleDashboardChart#field}.
 
 ---
 
@@ -4239,7 +4239,7 @@ public readonly cellTooltipText: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#cell_tooltip_text GoogleChronicleDashboardChart#cell_tooltip_text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#cell_tooltip_text GoogleChronicleDashboardChart#cell_tooltip_text}.
 
 ---
 
@@ -4251,7 +4251,7 @@ public readonly headerTooltipText: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#header_tooltip_text GoogleChronicleDashboardChart#header_tooltip_text}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#header_tooltip_text GoogleChronicleDashboardChart#header_tooltip_text}.
 
 ---
 
@@ -4269,7 +4269,7 @@ const googleChronicleDashboardChartDashboardChartVisualizationTooltip: googleChr
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTooltip.property.show">show</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTooltip.property.show">show</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationTooltip.property.tooltipTrigger">tooltipTrigger</a></code> | <code>string</code> | Possible values: ["TOOLTIP_TRIGGER_UNSPECIFIED", "TOOLTIP_TRIGGER_NONE", "TOOLTIP_TRIGGER_ITEM", "TOOLTIP_TRIGGER_AXIS"]. |
 
 ---
@@ -4282,7 +4282,7 @@ public readonly show: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#show GoogleChronicleDashboardChart#show}.
 
 ---
 
@@ -4296,7 +4296,7 @@ public readonly tooltipTrigger: string;
 
 Possible values: ["TOOLTIP_TRIGGER_UNSPECIFIED", "TOOLTIP_TRIGGER_NONE", "TOOLTIP_TRIGGER_ITEM", "TOOLTIP_TRIGGER_AXIS"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#tooltip_trigger GoogleChronicleDashboardChart#tooltip_trigger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#tooltip_trigger GoogleChronicleDashboardChart#tooltip_trigger}
 
 ---
 
@@ -4329,7 +4329,7 @@ public readonly pieces: IResolvable | GoogleChronicleDashboardChartDashboardChar
 
 pieces block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#pieces GoogleChronicleDashboardChart#pieces}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#pieces GoogleChronicleDashboardChart#pieces}
 
 ---
 
@@ -4343,7 +4343,7 @@ public readonly visualMapType: string;
 
 Possible values: ["VISUAL_MAP_TYPE_UNSPECIFIED", "CONTINUOUS", "PIECEWISE"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#visual_map_type GoogleChronicleDashboardChart#visual_map_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#visual_map_type GoogleChronicleDashboardChart#visual_map_type}
 
 ---
 
@@ -4361,10 +4361,10 @@ const googleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces: 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces.property.max">max</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces.property.min">min</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces.property.color">color</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces.property.label">label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces.property.max">max</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationVisualMapsPieces.property.min">min</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}. |
 
 ---
 
@@ -4376,7 +4376,7 @@ public readonly color: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#color GoogleChronicleDashboardChart#color}.
 
 ---
 
@@ -4388,7 +4388,7 @@ public readonly label: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#label GoogleChronicleDashboardChart#label}.
 
 ---
 
@@ -4400,7 +4400,7 @@ public readonly max: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}.
 
 ---
 
@@ -4412,7 +4412,7 @@ public readonly min: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}.
 
 ---
 
@@ -4431,9 +4431,9 @@ const googleChronicleDashboardChartDashboardChartVisualizationXAxes: googleChron
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes.property.axisType">axisType</a></code> | <code>string</code> | Possible values: ["VALUE", "CATEGORY", "TIME", "LOG"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes.property.max">max</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes.property.min">min</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes.property.max">max</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationXAxes.property.min">min</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}. |
 
 ---
 
@@ -4447,7 +4447,7 @@ public readonly axisType: string;
 
 Possible values: ["VALUE", "CATEGORY", "TIME", "LOG"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#axis_type GoogleChronicleDashboardChart#axis_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#axis_type GoogleChronicleDashboardChart#axis_type}
 
 ---
 
@@ -4459,7 +4459,7 @@ public readonly displayName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}.
 
 ---
 
@@ -4471,7 +4471,7 @@ public readonly max: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}.
 
 ---
 
@@ -4483,7 +4483,7 @@ public readonly min: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}.
 
 ---
 
@@ -4502,9 +4502,9 @@ const googleChronicleDashboardChartDashboardChartVisualizationYAxes: googleChron
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxes.property.axisType">axisType</a></code> | <code>string</code> | Possible values: ["VALUE", "CATEGORY", "TIME", "LOG"]. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxes.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxes.property.max">max</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxes.property.min">min</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxes.property.displayName">displayName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxes.property.max">max</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardChartVisualizationYAxes.property.min">min</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}. |
 
 ---
 
@@ -4518,7 +4518,7 @@ public readonly axisType: string;
 
 Possible values: ["VALUE", "CATEGORY", "TIME", "LOG"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#axis_type GoogleChronicleDashboardChart#axis_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#axis_type GoogleChronicleDashboardChart#axis_type}
 
 ---
 
@@ -4530,7 +4530,7 @@ public readonly displayName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#display_name GoogleChronicleDashboardChart#display_name}.
 
 ---
 
@@ -4542,7 +4542,7 @@ public readonly max: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#max GoogleChronicleDashboardChart#max}.
 
 ---
 
@@ -4554,7 +4554,7 @@ public readonly min: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#min GoogleChronicleDashboardChart#min}.
 
 ---
 
@@ -4587,7 +4587,7 @@ public readonly query: string;
 
 The raw query string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#query GoogleChronicleDashboardChart#query}
 
 ---
 
@@ -4601,7 +4601,7 @@ public readonly input: GoogleChronicleDashboardChartDashboardQueryInput;
 
 input block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#input GoogleChronicleDashboardChart#input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#input GoogleChronicleDashboardChart#input}
 
 ---
 
@@ -4634,7 +4634,7 @@ public readonly relativeTime: GoogleChronicleDashboardChartDashboardQueryInputRe
 
 relative_time block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#relative_time GoogleChronicleDashboardChart#relative_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#relative_time GoogleChronicleDashboardChart#relative_time}
 
 ---
 
@@ -4648,7 +4648,7 @@ public readonly timeWindow: GoogleChronicleDashboardChartDashboardQueryInputTime
 
 time_window block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#time_window GoogleChronicleDashboardChart#time_window}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#time_window GoogleChronicleDashboardChart#time_window}
 
 ---
 
@@ -4666,7 +4666,7 @@ const googleChronicleDashboardChartDashboardQueryInputRelativeTime: googleChroni
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputRelativeTime.property.startTimeVal">startTimeVal</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#start_time_val GoogleChronicleDashboardChart#start_time_val}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputRelativeTime.property.startTimeVal">startTimeVal</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_time_val GoogleChronicleDashboardChart#start_time_val}. |
 | <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputRelativeTime.property.timeUnit">timeUnit</a></code> | <code>string</code> | The time unit for the relative range. Possible values: ["SECOND", "MINUTE", "HOUR", "DAY", "WEEK", "MONTH", "YEAR"]. |
 
 ---
@@ -4679,7 +4679,7 @@ public readonly startTimeVal: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#start_time_val GoogleChronicleDashboardChart#start_time_val}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_time_val GoogleChronicleDashboardChart#start_time_val}.
 
 ---
 
@@ -4693,7 +4693,7 @@ public readonly timeUnit: string;
 
 The time unit for the relative range. Possible values: ["SECOND", "MINUTE", "HOUR", "DAY", "WEEK", "MONTH", "YEAR"].
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#time_unit GoogleChronicleDashboardChart#time_unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#time_unit GoogleChronicleDashboardChart#time_unit}
 
 ---
 
@@ -4711,8 +4711,8 @@ const googleChronicleDashboardChartDashboardQueryInputTimeWindow: googleChronicl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputTimeWindow.property.endTime">endTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#end_time GoogleChronicleDashboardChart#end_time}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputTimeWindow.property.startTime">startTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#start_time GoogleChronicleDashboardChart#start_time}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputTimeWindow.property.endTime">endTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#end_time GoogleChronicleDashboardChart#end_time}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartDashboardQueryInputTimeWindow.property.startTime">startTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_time GoogleChronicleDashboardChart#start_time}. |
 
 ---
 
@@ -4724,7 +4724,7 @@ public readonly endTime: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#end_time GoogleChronicleDashboardChart#end_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#end_time GoogleChronicleDashboardChart#end_time}.
 
 ---
 
@@ -4736,7 +4736,7 @@ public readonly startTime: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#start_time GoogleChronicleDashboardChart#start_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#start_time GoogleChronicleDashboardChart#start_time}.
 
 ---
 
@@ -4754,9 +4754,9 @@ const googleChronicleDashboardChartTimeouts: googleChronicleDashboardChart.Googl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#create GoogleChronicleDashboardChart#create}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#delete GoogleChronicleDashboardChart#delete}. |
-| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#update GoogleChronicleDashboardChart#update}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts.property.create">create</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#create GoogleChronicleDashboardChart#create}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts.property.delete">delete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#delete GoogleChronicleDashboardChart#delete}. |
+| <code><a href="#@cdktn/provider-google-beta.googleChronicleDashboardChart.GoogleChronicleDashboardChartTimeouts.property.update">update</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#update GoogleChronicleDashboardChart#update}. |
 
 ---
 
@@ -4768,7 +4768,7 @@ public readonly create: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#create GoogleChronicleDashboardChart#create}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#create GoogleChronicleDashboardChart#create}.
 
 ---
 
@@ -4780,7 +4780,7 @@ public readonly delete: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#delete GoogleChronicleDashboardChart#delete}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#delete GoogleChronicleDashboardChart#delete}.
 
 ---
 
@@ -4792,7 +4792,7 @@ public readonly update: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_chronicle_dashboard_chart#update GoogleChronicleDashboardChart#update}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_chronicle_dashboard_chart#update GoogleChronicleDashboardChart#update}.
 
 ---
 

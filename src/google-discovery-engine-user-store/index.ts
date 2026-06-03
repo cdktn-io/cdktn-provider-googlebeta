@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,7 +21,7 @@ export interface GoogleDiscoveryEngineUserStoreConfig extends cdktn.TerraformMet
   * If the default license config doesn't have remaining license seats left,
   * new users will not be assigned with license.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#default_license_config GoogleDiscoveryEngineUserStore#default_license_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#default_license_config GoogleDiscoveryEngineUserStore#default_license_config}
   */
   readonly defaultLicenseConfig?: string;
   /**
@@ -30,7 +30,7 @@ export interface GoogleDiscoveryEngineUserStoreConfig extends cdktn.TerraformMet
   * automatically be updated to the default subscription if there are
   * remaining license seats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#enable_expired_license_auto_update GoogleDiscoveryEngineUserStore#enable_expired_license_auto_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#enable_expired_license_auto_update GoogleDiscoveryEngineUserStore#enable_expired_license_auto_update}
   */
   readonly enableExpiredLicenseAutoUpdate?: boolean | cdktn.IResolvable;
   /**
@@ -38,11 +38,11 @@ export interface GoogleDiscoveryEngineUserStoreConfig extends cdktn.TerraformMet
   * this user store. If enabled, new users will automatically register under
   * the default subscription.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#enable_license_auto_register GoogleDiscoveryEngineUserStore#enable_license_auto_register}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#enable_license_auto_register GoogleDiscoveryEngineUserStore#enable_license_auto_register}
   */
   readonly enableLicenseAutoRegister?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#id GoogleDiscoveryEngineUserStore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#id GoogleDiscoveryEngineUserStore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,37 +52,37 @@ export interface GoogleDiscoveryEngineUserStoreConfig extends cdktn.TerraformMet
   * The geographic location where the data store should reside. The value can
   * only be one of "global", "us" and "eu".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#location GoogleDiscoveryEngineUserStore#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#location GoogleDiscoveryEngineUserStore#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#project GoogleDiscoveryEngineUserStore#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#project GoogleDiscoveryEngineUserStore#project}
   */
   readonly project?: string;
   /**
   * The ID of the user store. Currently only accepts "default_user_store".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#user_store_id GoogleDiscoveryEngineUserStore#user_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#user_store_id GoogleDiscoveryEngineUserStore#user_store_id}
   */
   readonly userStoreId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#timeouts GoogleDiscoveryEngineUserStore#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#timeouts GoogleDiscoveryEngineUserStore#timeouts}
   */
   readonly timeouts?: GoogleDiscoveryEngineUserStoreTimeouts;
 }
 export interface GoogleDiscoveryEngineUserStoreTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#create GoogleDiscoveryEngineUserStore#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#create GoogleDiscoveryEngineUserStore#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#delete GoogleDiscoveryEngineUserStore#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#delete GoogleDiscoveryEngineUserStore#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#update GoogleDiscoveryEngineUserStore#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#update GoogleDiscoveryEngineUserStore#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class GoogleDiscoveryEngineUserStoreTimeoutsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store google_discovery_engine_user_store}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store google_discovery_engine_user_store}
 */
 export class GoogleDiscoveryEngineUserStore extends cdktn.TerraformResource {
 
@@ -250,7 +250,7 @@ export class GoogleDiscoveryEngineUserStore extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDiscoveryEngineUserStore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDiscoveryEngineUserStore to import
-  * @param importFromId The id of the existing GoogleDiscoveryEngineUserStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDiscoveryEngineUserStore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDiscoveryEngineUserStore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -262,7 +262,7 @@ export class GoogleDiscoveryEngineUserStore extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.34.0/docs/resources/google_discovery_engine_user_store google_discovery_engine_user_store} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_discovery_engine_user_store google_discovery_engine_user_store} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,7 +273,7 @@ export class GoogleDiscoveryEngineUserStore extends cdktn.TerraformResource {
       terraformResourceType: 'google_discovery_engine_user_store',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.34.0',
+        providerVersion: '7.35.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
