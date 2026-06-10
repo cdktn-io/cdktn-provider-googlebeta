@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,11 +21,11 @@ export interface GoogleTranscoderJobConfig extends cdktn.TerraformMetaArguments 
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#deletion_policy GoogleTranscoderJob#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#deletion_policy GoogleTranscoderJob#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#id GoogleTranscoderJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#id GoogleTranscoderJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,36 +38,36 @@ export interface GoogleTranscoderJobConfig extends cdktn.TerraformMetaArguments 
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#labels GoogleTranscoderJob#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#labels GoogleTranscoderJob#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location of the transcoding job resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#location GoogleTranscoderJob#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#location GoogleTranscoderJob#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#project GoogleTranscoderJob#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#project GoogleTranscoderJob#project}
   */
   readonly project?: string;
   /**
   * Specify the templateId to use for populating Job.config.
   * The default is preset/web-hd, which is the only supported preset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#template_id GoogleTranscoderJob#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#template_id GoogleTranscoderJob#template_id}
   */
   readonly templateId?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#config GoogleTranscoderJob#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#config GoogleTranscoderJob#config}
   */
   readonly config?: GoogleTranscoderJobConfigA;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#timeouts GoogleTranscoderJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#timeouts GoogleTranscoderJob#timeouts}
   */
   readonly timeouts?: GoogleTranscoderJobTimeouts;
 }
@@ -75,7 +75,7 @@ export interface GoogleTranscoderJobConfigAdBreaks {
   /**
   * Start time in seconds for the ad break, relative to the output file timeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#start_time_offset GoogleTranscoderJob#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#start_time_offset GoogleTranscoderJob#start_time_offset}
   */
   readonly startTimeOffset?: string;
 }
@@ -83,7 +83,7 @@ export interface GoogleTranscoderJobConfigAdBreaks {
 export function googleTranscoderJobConfigAdBreaksToTerraform(struct?: GoogleTranscoderJobConfigAdBreaks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     start_time_offset: cdktn.stringToTerraform(struct!.startTimeOffset),
@@ -94,7 +94,7 @@ export function googleTranscoderJobConfigAdBreaksToTerraform(struct?: GoogleTran
 export function googleTranscoderJobConfigAdBreaksToHclTerraform(struct?: GoogleTranscoderJobConfigAdBreaks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     start_time_offset: {
@@ -193,19 +193,19 @@ export interface GoogleTranscoderJobConfigEditListStruct {
   /**
   * List of values identifying files that should be used in this atom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#inputs GoogleTranscoderJob#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#inputs GoogleTranscoderJob#inputs}
   */
   readonly inputs?: string[];
   /**
   * A unique key for this atom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#key GoogleTranscoderJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#key GoogleTranscoderJob#key}
   */
   readonly key?: string;
   /**
   * Start time in seconds for the atom, relative to the input file timeline. The default is '0s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#start_time_offset GoogleTranscoderJob#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#start_time_offset GoogleTranscoderJob#start_time_offset}
   */
   readonly startTimeOffset?: string;
 }
@@ -213,7 +213,7 @@ export interface GoogleTranscoderJobConfigEditListStruct {
 export function googleTranscoderJobConfigEditListStructToTerraform(struct?: GoogleTranscoderJobConfigEditListStruct | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     inputs: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.inputs),
@@ -226,7 +226,7 @@ export function googleTranscoderJobConfigEditListStructToTerraform(struct?: Goog
 export function googleTranscoderJobConfigEditListStructToHclTerraform(struct?: GoogleTranscoderJobConfigEditListStruct | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     inputs: {
@@ -381,31 +381,31 @@ export interface GoogleTranscoderJobConfigElementaryStreamsAudioStream {
   /**
   * Audio bitrate in bits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#bitrate_bps GoogleTranscoderJob#bitrate_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#bitrate_bps GoogleTranscoderJob#bitrate_bps}
   */
   readonly bitrateBps: number;
   /**
   * Number of audio channels. The default is '2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#channel_count GoogleTranscoderJob#channel_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#channel_count GoogleTranscoderJob#channel_count}
   */
   readonly channelCount?: number;
   /**
   * A list of channel names specifying layout of the audio channels. The default is ["fl", "fr"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#channel_layout GoogleTranscoderJob#channel_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#channel_layout GoogleTranscoderJob#channel_layout}
   */
   readonly channelLayout?: string[];
   /**
   * The codec for this audio stream. The default is 'aac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#codec GoogleTranscoderJob#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#codec GoogleTranscoderJob#codec}
   */
   readonly codec?: string;
   /**
   * The audio sample rate in Hertz. The default is '48000'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#sample_rate_hertz GoogleTranscoderJob#sample_rate_hertz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#sample_rate_hertz GoogleTranscoderJob#sample_rate_hertz}
   */
   readonly sampleRateHertz?: number;
 }
@@ -413,7 +413,7 @@ export interface GoogleTranscoderJobConfigElementaryStreamsAudioStream {
 export function googleTranscoderJobConfigElementaryStreamsAudioStreamToTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsAudioStreamOutputReference | GoogleTranscoderJobConfigElementaryStreamsAudioStream): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bitrate_bps: cdktn.numberToTerraform(struct!.bitrateBps),
@@ -428,7 +428,7 @@ export function googleTranscoderJobConfigElementaryStreamsAudioStreamToTerraform
 export function googleTranscoderJobConfigElementaryStreamsAudioStreamToHclTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsAudioStreamOutputReference | GoogleTranscoderJobConfigElementaryStreamsAudioStream): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bitrate_bps: {
@@ -606,7 +606,7 @@ export interface GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Hlg {
 export function googleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgToTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference | GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Hlg): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -616,7 +616,7 @@ export function googleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgToTe
 export function googleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgToHclTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264HlgOutputReference | GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Hlg): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -655,7 +655,7 @@ export interface GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Sdr {
 export function googleTranscoderJobConfigElementaryStreamsVideoStreamH264SdrToTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference | GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Sdr): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -665,7 +665,7 @@ export function googleTranscoderJobConfigElementaryStreamsVideoStreamH264SdrToTe
 export function googleTranscoderJobConfigElementaryStreamsVideoStreamH264SdrToHclTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264SdrOutputReference | GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Sdr): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -702,91 +702,91 @@ export interface GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264 {
   /**
   * The video bitrate in bits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#bitrate_bps GoogleTranscoderJob#bitrate_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#bitrate_bps GoogleTranscoderJob#bitrate_bps}
   */
   readonly bitrateBps: number;
   /**
   * Target CRF level. The default is '21'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#crf_level GoogleTranscoderJob#crf_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#crf_level GoogleTranscoderJob#crf_level}
   */
   readonly crfLevel?: number;
   /**
   * The entropy coder to use. The default is 'cabac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#entropy_coder GoogleTranscoderJob#entropy_coder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#entropy_coder GoogleTranscoderJob#entropy_coder}
   */
   readonly entropyCoder?: string;
   /**
   * The target video frame rate in frames per second (FPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#frame_rate GoogleTranscoderJob#frame_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#frame_rate GoogleTranscoderJob#frame_rate}
   */
   readonly frameRate: number;
   /**
   * Select the GOP size based on the specified duration. The default is '3s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#gop_duration GoogleTranscoderJob#gop_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#gop_duration GoogleTranscoderJob#gop_duration}
   */
   readonly gopDuration?: string;
   /**
   * The height of the video in pixels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#height_pixels GoogleTranscoderJob#height_pixels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#height_pixels GoogleTranscoderJob#height_pixels}
   */
   readonly heightPixels?: number;
   /**
   * Pixel format to use. The default is 'yuv420p'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#pixel_format GoogleTranscoderJob#pixel_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#pixel_format GoogleTranscoderJob#pixel_format}
   */
   readonly pixelFormat?: string;
   /**
   * Enforces the specified codec preset. The default is 'veryfast'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#preset GoogleTranscoderJob#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#preset GoogleTranscoderJob#preset}
   */
   readonly preset?: string;
   /**
   * Enforces the specified codec profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#profile GoogleTranscoderJob#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#profile GoogleTranscoderJob#profile}
   */
   readonly profile?: string;
   /**
   * Specify the mode. The default is 'vbr'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#rate_control_mode GoogleTranscoderJob#rate_control_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#rate_control_mode GoogleTranscoderJob#rate_control_mode}
   */
   readonly rateControlMode?: string;
   /**
   * Initial fullness of the Video Buffering Verifier (VBV) buffer in bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#vbv_fullness_bits GoogleTranscoderJob#vbv_fullness_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#vbv_fullness_bits GoogleTranscoderJob#vbv_fullness_bits}
   */
   readonly vbvFullnessBits?: number;
   /**
   * Size of the Video Buffering Verifier (VBV) buffer in bits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#vbv_size_bits GoogleTranscoderJob#vbv_size_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#vbv_size_bits GoogleTranscoderJob#vbv_size_bits}
   */
   readonly vbvSizeBits?: number;
   /**
   * The width of the video in pixels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#width_pixels GoogleTranscoderJob#width_pixels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#width_pixels GoogleTranscoderJob#width_pixels}
   */
   readonly widthPixels?: number;
   /**
   * hlg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#hlg GoogleTranscoderJob#hlg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#hlg GoogleTranscoderJob#hlg}
   */
   readonly hlg?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Hlg;
   /**
   * sdr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#sdr GoogleTranscoderJob#sdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#sdr GoogleTranscoderJob#sdr}
   */
   readonly sdr?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264Sdr;
 }
@@ -794,7 +794,7 @@ export interface GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264 {
 export function googleTranscoderJobConfigElementaryStreamsVideoStreamH264ToTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264OutputReference | GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     bitrate_bps: cdktn.numberToTerraform(struct!.bitrateBps),
@@ -819,7 +819,7 @@ export function googleTranscoderJobConfigElementaryStreamsVideoStreamH264ToTerra
 export function googleTranscoderJobConfigElementaryStreamsVideoStreamH264ToHclTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264OutputReference | GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     bitrate_bps: {
@@ -1272,7 +1272,7 @@ export interface GoogleTranscoderJobConfigElementaryStreamsVideoStream {
   /**
   * h264 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#h264 GoogleTranscoderJob#h264}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#h264 GoogleTranscoderJob#h264}
   */
   readonly h264?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamH264;
 }
@@ -1280,7 +1280,7 @@ export interface GoogleTranscoderJobConfigElementaryStreamsVideoStream {
 export function googleTranscoderJobConfigElementaryStreamsVideoStreamToTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReference | GoogleTranscoderJobConfigElementaryStreamsVideoStream): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     h264: googleTranscoderJobConfigElementaryStreamsVideoStreamH264ToTerraform(struct!.h264),
@@ -1291,7 +1291,7 @@ export function googleTranscoderJobConfigElementaryStreamsVideoStreamToTerraform
 export function googleTranscoderJobConfigElementaryStreamsVideoStreamToHclTerraform(struct?: GoogleTranscoderJobConfigElementaryStreamsVideoStreamOutputReference | GoogleTranscoderJobConfigElementaryStreamsVideoStream): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     h264: {
@@ -1358,19 +1358,19 @@ export interface GoogleTranscoderJobConfigElementaryStreams {
   /**
   * A unique key for this atom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#key GoogleTranscoderJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#key GoogleTranscoderJob#key}
   */
   readonly key?: string;
   /**
   * audio_stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#audio_stream GoogleTranscoderJob#audio_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#audio_stream GoogleTranscoderJob#audio_stream}
   */
   readonly audioStream?: GoogleTranscoderJobConfigElementaryStreamsAudioStream;
   /**
   * video_stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#video_stream GoogleTranscoderJob#video_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#video_stream GoogleTranscoderJob#video_stream}
   */
   readonly videoStream?: GoogleTranscoderJobConfigElementaryStreamsVideoStream;
 }
@@ -1378,7 +1378,7 @@ export interface GoogleTranscoderJobConfigElementaryStreams {
 export function googleTranscoderJobConfigElementaryStreamsToTerraform(struct?: GoogleTranscoderJobConfigElementaryStreams | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -1391,7 +1391,7 @@ export function googleTranscoderJobConfigElementaryStreamsToTerraform(struct?: G
 export function googleTranscoderJobConfigElementaryStreamsToHclTerraform(struct?: GoogleTranscoderJobConfigElementaryStreams | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -1548,7 +1548,7 @@ export interface GoogleTranscoderJobConfigEncryptionsAes128 {
 export function googleTranscoderJobConfigEncryptionsAes128ToTerraform(struct?: GoogleTranscoderJobConfigEncryptionsAes128OutputReference | GoogleTranscoderJobConfigEncryptionsAes128): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1558,7 +1558,7 @@ export function googleTranscoderJobConfigEncryptionsAes128ToTerraform(struct?: G
 export function googleTranscoderJobConfigEncryptionsAes128ToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptionsAes128OutputReference | GoogleTranscoderJobConfigEncryptionsAes128): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1597,7 +1597,7 @@ export interface GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkey {
 export function googleTranscoderJobConfigEncryptionsDrmSystemsClearkeyToTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1607,7 +1607,7 @@ export function googleTranscoderJobConfigEncryptionsDrmSystemsClearkeyToTerrafor
 export function googleTranscoderJobConfigEncryptionsDrmSystemsClearkeyToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkeyOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1646,7 +1646,7 @@ export interface GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplay {
 export function googleTranscoderJobConfigEncryptionsDrmSystemsFairplayToTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplayOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1656,7 +1656,7 @@ export function googleTranscoderJobConfigEncryptionsDrmSystemsFairplayToTerrafor
 export function googleTranscoderJobConfigEncryptionsDrmSystemsFairplayToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplayOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1695,7 +1695,7 @@ export interface GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayready {
 export function googleTranscoderJobConfigEncryptionsDrmSystemsPlayreadyToTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayreadyOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayready): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1705,7 +1705,7 @@ export function googleTranscoderJobConfigEncryptionsDrmSystemsPlayreadyToTerrafo
 export function googleTranscoderJobConfigEncryptionsDrmSystemsPlayreadyToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayreadyOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayready): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1744,7 +1744,7 @@ export interface GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevine {
 export function googleTranscoderJobConfigEncryptionsDrmSystemsWidevineToTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevineOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevine): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1754,7 +1754,7 @@ export function googleTranscoderJobConfigEncryptionsDrmSystemsWidevineToTerrafor
 export function googleTranscoderJobConfigEncryptionsDrmSystemsWidevineToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevineOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevine): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1791,25 +1791,25 @@ export interface GoogleTranscoderJobConfigEncryptionsDrmSystems {
   /**
   * clearkey block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#clearkey GoogleTranscoderJob#clearkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#clearkey GoogleTranscoderJob#clearkey}
   */
   readonly clearkey?: GoogleTranscoderJobConfigEncryptionsDrmSystemsClearkey;
   /**
   * fairplay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#fairplay GoogleTranscoderJob#fairplay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#fairplay GoogleTranscoderJob#fairplay}
   */
   readonly fairplay?: GoogleTranscoderJobConfigEncryptionsDrmSystemsFairplay;
   /**
   * playready block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#playready GoogleTranscoderJob#playready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#playready GoogleTranscoderJob#playready}
   */
   readonly playready?: GoogleTranscoderJobConfigEncryptionsDrmSystemsPlayready;
   /**
   * widevine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#widevine GoogleTranscoderJob#widevine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#widevine GoogleTranscoderJob#widevine}
   */
   readonly widevine?: GoogleTranscoderJobConfigEncryptionsDrmSystemsWidevine;
 }
@@ -1817,7 +1817,7 @@ export interface GoogleTranscoderJobConfigEncryptionsDrmSystems {
 export function googleTranscoderJobConfigEncryptionsDrmSystemsToTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystems): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     clearkey: googleTranscoderJobConfigEncryptionsDrmSystemsClearkeyToTerraform(struct!.clearkey),
@@ -1831,7 +1831,7 @@ export function googleTranscoderJobConfigEncryptionsDrmSystemsToTerraform(struct
 export function googleTranscoderJobConfigEncryptionsDrmSystemsToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptionsDrmSystemsOutputReference | GoogleTranscoderJobConfigEncryptionsDrmSystems): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     clearkey: {
@@ -1982,7 +1982,7 @@ export interface GoogleTranscoderJobConfigEncryptionsMpegCenc {
   /**
   * Specify the encryption scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#scheme GoogleTranscoderJob#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#scheme GoogleTranscoderJob#scheme}
   */
   readonly scheme: string;
 }
@@ -1990,7 +1990,7 @@ export interface GoogleTranscoderJobConfigEncryptionsMpegCenc {
 export function googleTranscoderJobConfigEncryptionsMpegCencToTerraform(struct?: GoogleTranscoderJobConfigEncryptionsMpegCencOutputReference | GoogleTranscoderJobConfigEncryptionsMpegCenc): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     scheme: cdktn.stringToTerraform(struct!.scheme),
@@ -2001,7 +2001,7 @@ export function googleTranscoderJobConfigEncryptionsMpegCencToTerraform(struct?:
 export function googleTranscoderJobConfigEncryptionsMpegCencToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptionsMpegCencOutputReference | GoogleTranscoderJobConfigEncryptionsMpegCenc): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     scheme: {
@@ -2067,7 +2067,7 @@ export interface GoogleTranscoderJobConfigEncryptionsSampleAes {
 export function googleTranscoderJobConfigEncryptionsSampleAesToTerraform(struct?: GoogleTranscoderJobConfigEncryptionsSampleAesOutputReference | GoogleTranscoderJobConfigEncryptionsSampleAes): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -2077,7 +2077,7 @@ export function googleTranscoderJobConfigEncryptionsSampleAesToTerraform(struct?
 export function googleTranscoderJobConfigEncryptionsSampleAesToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptionsSampleAesOutputReference | GoogleTranscoderJobConfigEncryptionsSampleAes): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -2114,7 +2114,7 @@ export interface GoogleTranscoderJobConfigEncryptionsSecretManagerKeySource {
   /**
   * The name of the Secret Version containing the encryption key in the following format: projects/{project}/secrets/{secret_id}/versions/{version_number}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#secret_version GoogleTranscoderJob#secret_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#secret_version GoogleTranscoderJob#secret_version}
   */
   readonly secretVersion: string;
 }
@@ -2122,7 +2122,7 @@ export interface GoogleTranscoderJobConfigEncryptionsSecretManagerKeySource {
 export function googleTranscoderJobConfigEncryptionsSecretManagerKeySourceToTerraform(struct?: GoogleTranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference | GoogleTranscoderJobConfigEncryptionsSecretManagerKeySource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_version: cdktn.stringToTerraform(struct!.secretVersion),
@@ -2133,7 +2133,7 @@ export function googleTranscoderJobConfigEncryptionsSecretManagerKeySourceToTerr
 export function googleTranscoderJobConfigEncryptionsSecretManagerKeySourceToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptionsSecretManagerKeySourceOutputReference | GoogleTranscoderJobConfigEncryptionsSecretManagerKeySource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_version: {
@@ -2197,7 +2197,7 @@ export interface GoogleTranscoderJobConfigEncryptions {
   /**
   * Identifier for this set of encryption options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#id GoogleTranscoderJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#id GoogleTranscoderJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2206,31 +2206,31 @@ export interface GoogleTranscoderJobConfigEncryptions {
   /**
   * aes128 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#aes128 GoogleTranscoderJob#aes128}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#aes128 GoogleTranscoderJob#aes128}
   */
   readonly aes128?: GoogleTranscoderJobConfigEncryptionsAes128;
   /**
   * drm_systems block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#drm_systems GoogleTranscoderJob#drm_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#drm_systems GoogleTranscoderJob#drm_systems}
   */
   readonly drmSystems?: GoogleTranscoderJobConfigEncryptionsDrmSystems;
   /**
   * mpeg_cenc block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#mpeg_cenc GoogleTranscoderJob#mpeg_cenc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#mpeg_cenc GoogleTranscoderJob#mpeg_cenc}
   */
   readonly mpegCenc?: GoogleTranscoderJobConfigEncryptionsMpegCenc;
   /**
   * sample_aes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#sample_aes GoogleTranscoderJob#sample_aes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#sample_aes GoogleTranscoderJob#sample_aes}
   */
   readonly sampleAes?: GoogleTranscoderJobConfigEncryptionsSampleAes;
   /**
   * secret_manager_key_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#secret_manager_key_source GoogleTranscoderJob#secret_manager_key_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#secret_manager_key_source GoogleTranscoderJob#secret_manager_key_source}
   */
   readonly secretManagerKeySource?: GoogleTranscoderJobConfigEncryptionsSecretManagerKeySource;
 }
@@ -2238,7 +2238,7 @@ export interface GoogleTranscoderJobConfigEncryptions {
 export function googleTranscoderJobConfigEncryptionsToTerraform(struct?: GoogleTranscoderJobConfigEncryptions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     id: cdktn.stringToTerraform(struct!.id),
@@ -2254,7 +2254,7 @@ export function googleTranscoderJobConfigEncryptionsToTerraform(struct?: GoogleT
 export function googleTranscoderJobConfigEncryptionsToHclTerraform(struct?: GoogleTranscoderJobConfigEncryptions | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     id: {
@@ -2490,14 +2490,14 @@ export interface GoogleTranscoderJobConfigInputs {
   /**
   * A unique key for this input. Must be specified when using advanced mapping and edit lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#key GoogleTranscoderJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#key GoogleTranscoderJob#key}
   */
   readonly key?: string;
   /**
   * URI of the media. Input files must be at least 5 seconds in duration and stored in Cloud Storage (for example, gs://bucket/inputs/file.mp4).
   * If empty, the value is populated from Job.input_uri.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#uri GoogleTranscoderJob#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#uri GoogleTranscoderJob#uri}
   */
   readonly uri?: string;
 }
@@ -2505,7 +2505,7 @@ export interface GoogleTranscoderJobConfigInputs {
 export function googleTranscoderJobConfigInputsToTerraform(struct?: GoogleTranscoderJobConfigInputs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -2517,7 +2517,7 @@ export function googleTranscoderJobConfigInputsToTerraform(struct?: GoogleTransc
 export function googleTranscoderJobConfigInputsToHclTerraform(struct?: GoogleTranscoderJobConfigInputs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -2644,19 +2644,19 @@ export interface GoogleTranscoderJobConfigManifests {
   /**
   * The name of the generated file. The default is 'manifest'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#file_name GoogleTranscoderJob#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#file_name GoogleTranscoderJob#file_name}
   */
   readonly fileName?: string;
   /**
   * List of user supplied MuxStream.key values that should appear in this manifest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#mux_streams GoogleTranscoderJob#mux_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#mux_streams GoogleTranscoderJob#mux_streams}
   */
   readonly muxStreams?: string[];
   /**
   * Type of the manifest. Possible values: ["MANIFEST_TYPE_UNSPECIFIED", "HLS", "DASH"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#type GoogleTranscoderJob#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#type GoogleTranscoderJob#type}
   */
   readonly type?: string;
 }
@@ -2664,7 +2664,7 @@ export interface GoogleTranscoderJobConfigManifests {
 export function googleTranscoderJobConfigManifestsToTerraform(struct?: GoogleTranscoderJobConfigManifests | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     file_name: cdktn.stringToTerraform(struct!.fileName),
@@ -2677,7 +2677,7 @@ export function googleTranscoderJobConfigManifestsToTerraform(struct?: GoogleTra
 export function googleTranscoderJobConfigManifestsToHclTerraform(struct?: GoogleTranscoderJobConfigManifests | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     file_name: {
@@ -2832,7 +2832,7 @@ export interface GoogleTranscoderJobConfigMuxStreamsSegmentSettings {
   /**
   * Duration of the segments in seconds. The default is '6.0s'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#segment_duration GoogleTranscoderJob#segment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#segment_duration GoogleTranscoderJob#segment_duration}
   */
   readonly segmentDuration?: string;
 }
@@ -2840,7 +2840,7 @@ export interface GoogleTranscoderJobConfigMuxStreamsSegmentSettings {
 export function googleTranscoderJobConfigMuxStreamsSegmentSettingsToTerraform(struct?: GoogleTranscoderJobConfigMuxStreamsSegmentSettingsOutputReference | GoogleTranscoderJobConfigMuxStreamsSegmentSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     segment_duration: cdktn.stringToTerraform(struct!.segmentDuration),
@@ -2851,7 +2851,7 @@ export function googleTranscoderJobConfigMuxStreamsSegmentSettingsToTerraform(st
 export function googleTranscoderJobConfigMuxStreamsSegmentSettingsToHclTerraform(struct?: GoogleTranscoderJobConfigMuxStreamsSegmentSettingsOutputReference | GoogleTranscoderJobConfigMuxStreamsSegmentSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     segment_duration: {
@@ -2918,37 +2918,37 @@ export interface GoogleTranscoderJobConfigMuxStreams {
   /**
   * The container format. The default is 'mp4'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#container GoogleTranscoderJob#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#container GoogleTranscoderJob#container}
   */
   readonly container?: string;
   /**
   * List of ElementaryStream.key values multiplexed in this stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#elementary_streams GoogleTranscoderJob#elementary_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#elementary_streams GoogleTranscoderJob#elementary_streams}
   */
   readonly elementaryStreams?: string[];
   /**
   * Identifier of the encryption configuration to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#encryption_id GoogleTranscoderJob#encryption_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#encryption_id GoogleTranscoderJob#encryption_id}
   */
   readonly encryptionId?: string;
   /**
   * The name of the generated file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#file_name GoogleTranscoderJob#file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#file_name GoogleTranscoderJob#file_name}
   */
   readonly fileName?: string;
   /**
   * A unique key for this multiplexed stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#key GoogleTranscoderJob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#key GoogleTranscoderJob#key}
   */
   readonly key?: string;
   /**
   * segment_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#segment_settings GoogleTranscoderJob#segment_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#segment_settings GoogleTranscoderJob#segment_settings}
   */
   readonly segmentSettings?: GoogleTranscoderJobConfigMuxStreamsSegmentSettings;
 }
@@ -2956,7 +2956,7 @@ export interface GoogleTranscoderJobConfigMuxStreams {
 export function googleTranscoderJobConfigMuxStreamsToTerraform(struct?: GoogleTranscoderJobConfigMuxStreams | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     container: cdktn.stringToTerraform(struct!.container),
@@ -2972,7 +2972,7 @@ export function googleTranscoderJobConfigMuxStreamsToTerraform(struct?: GoogleTr
 export function googleTranscoderJobConfigMuxStreamsToHclTerraform(struct?: GoogleTranscoderJobConfigMuxStreams | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     container: {
@@ -3211,7 +3211,7 @@ export interface GoogleTranscoderJobConfigOutput {
   /**
   * URI for the output file(s). For example, gs://my-bucket/outputs/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#uri GoogleTranscoderJob#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#uri GoogleTranscoderJob#uri}
   */
   readonly uri?: string;
 }
@@ -3219,7 +3219,7 @@ export interface GoogleTranscoderJobConfigOutput {
 export function googleTranscoderJobConfigOutputToTerraform(struct?: GoogleTranscoderJobConfigOutputOutputReference | GoogleTranscoderJobConfigOutput): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     uri: cdktn.stringToTerraform(struct!.uri),
@@ -3230,7 +3230,7 @@ export function googleTranscoderJobConfigOutputToTerraform(struct?: GoogleTransc
 export function googleTranscoderJobConfigOutputToHclTerraform(struct?: GoogleTranscoderJobConfigOutputOutputReference | GoogleTranscoderJobConfigOutput): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     uri: {
@@ -3297,13 +3297,13 @@ export interface GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXy {
   /**
   * Normalized x coordinate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#x GoogleTranscoderJob#x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#x GoogleTranscoderJob#x}
   */
   readonly x?: number;
   /**
   * Normalized y coordinate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#y GoogleTranscoderJob#y}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#y GoogleTranscoderJob#y}
   */
   readonly y?: number;
 }
@@ -3311,7 +3311,7 @@ export interface GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXy {
 export function googleTranscoderJobConfigOverlaysAnimationsAnimationFadeXyToTerraform(struct?: GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXyOutputReference | GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     x: cdktn.numberToTerraform(struct!.x),
@@ -3323,7 +3323,7 @@ export function googleTranscoderJobConfigOverlaysAnimationsAnimationFadeXyToTerr
 export function googleTranscoderJobConfigOverlaysAnimationsAnimationFadeXyToHclTerraform(struct?: GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXyOutputReference | GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     x: {
@@ -3418,7 +3418,7 @@ export interface GoogleTranscoderJobConfigOverlaysAnimationsAnimationFade {
   /**
   * The time to end the fade animation, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#end_time_offset GoogleTranscoderJob#end_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#end_time_offset GoogleTranscoderJob#end_time_offset}
   */
   readonly endTimeOffset?: string;
   /**
@@ -3431,19 +3431,19 @@ export interface GoogleTranscoderJobConfigOverlaysAnimationsAnimationFade {
   * 
   * * 'FADE_OUT': Fade the overlay object out of view. Possible values: ["FADE_TYPE_UNSPECIFIED", "FADE_IN", "FADE_OUT"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#fade_type GoogleTranscoderJob#fade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#fade_type GoogleTranscoderJob#fade_type}
   */
   readonly fadeType: string;
   /**
   * The time to start the fade animation, in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#start_time_offset GoogleTranscoderJob#start_time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#start_time_offset GoogleTranscoderJob#start_time_offset}
   */
   readonly startTimeOffset?: string;
   /**
   * xy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#xy GoogleTranscoderJob#xy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#xy GoogleTranscoderJob#xy}
   */
   readonly xy?: GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeXy;
 }
@@ -3451,7 +3451,7 @@ export interface GoogleTranscoderJobConfigOverlaysAnimationsAnimationFade {
 export function googleTranscoderJobConfigOverlaysAnimationsAnimationFadeToTerraform(struct?: GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeOutputReference | GoogleTranscoderJobConfigOverlaysAnimationsAnimationFade): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     end_time_offset: cdktn.stringToTerraform(struct!.endTimeOffset),
@@ -3465,7 +3465,7 @@ export function googleTranscoderJobConfigOverlaysAnimationsAnimationFadeToTerraf
 export function googleTranscoderJobConfigOverlaysAnimationsAnimationFadeToHclTerraform(struct?: GoogleTranscoderJobConfigOverlaysAnimationsAnimationFadeOutputReference | GoogleTranscoderJobConfigOverlaysAnimationsAnimationFade): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     end_time_offset: {
@@ -3613,7 +3613,7 @@ export interface GoogleTranscoderJobConfigOverlaysAnimations {
   /**
   * animation_fade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#animation_fade GoogleTranscoderJob#animation_fade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#animation_fade GoogleTranscoderJob#animation_fade}
   */
   readonly animationFade?: GoogleTranscoderJobConfigOverlaysAnimationsAnimationFade;
 }
@@ -3621,7 +3621,7 @@ export interface GoogleTranscoderJobConfigOverlaysAnimations {
 export function googleTranscoderJobConfigOverlaysAnimationsToTerraform(struct?: GoogleTranscoderJobConfigOverlaysAnimations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     animation_fade: googleTranscoderJobConfigOverlaysAnimationsAnimationFadeToTerraform(struct!.animationFade),
@@ -3632,7 +3632,7 @@ export function googleTranscoderJobConfigOverlaysAnimationsToTerraform(struct?: 
 export function googleTranscoderJobConfigOverlaysAnimationsToHclTerraform(struct?: GoogleTranscoderJobConfigOverlaysAnimations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     animation_fade: {
@@ -3731,7 +3731,7 @@ export interface GoogleTranscoderJobConfigOverlaysImage {
   /**
   * URI of the image in Cloud Storage. For example, gs://bucket/inputs/image.png.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#uri GoogleTranscoderJob#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#uri GoogleTranscoderJob#uri}
   */
   readonly uri: string;
 }
@@ -3739,7 +3739,7 @@ export interface GoogleTranscoderJobConfigOverlaysImage {
 export function googleTranscoderJobConfigOverlaysImageToTerraform(struct?: GoogleTranscoderJobConfigOverlaysImageOutputReference | GoogleTranscoderJobConfigOverlaysImage): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     uri: cdktn.stringToTerraform(struct!.uri),
@@ -3750,7 +3750,7 @@ export function googleTranscoderJobConfigOverlaysImageToTerraform(struct?: Googl
 export function googleTranscoderJobConfigOverlaysImageToHclTerraform(struct?: GoogleTranscoderJobConfigOverlaysImageOutputReference | GoogleTranscoderJobConfigOverlaysImage): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     uri: {
@@ -3814,13 +3814,13 @@ export interface GoogleTranscoderJobConfigOverlays {
   /**
   * animations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#animations GoogleTranscoderJob#animations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#animations GoogleTranscoderJob#animations}
   */
   readonly animations?: GoogleTranscoderJobConfigOverlaysAnimations[] | cdktn.IResolvable;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#image GoogleTranscoderJob#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#image GoogleTranscoderJob#image}
   */
   readonly image?: GoogleTranscoderJobConfigOverlaysImage;
 }
@@ -3828,7 +3828,7 @@ export interface GoogleTranscoderJobConfigOverlays {
 export function googleTranscoderJobConfigOverlaysToTerraform(struct?: GoogleTranscoderJobConfigOverlays | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     animations: cdktn.listMapper(googleTranscoderJobConfigOverlaysAnimationsToTerraform, true)(struct!.animations),
@@ -3840,7 +3840,7 @@ export function googleTranscoderJobConfigOverlaysToTerraform(struct?: GoogleTran
 export function googleTranscoderJobConfigOverlaysToHclTerraform(struct?: GoogleTranscoderJobConfigOverlays | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     animations: {
@@ -3967,7 +3967,7 @@ export interface GoogleTranscoderJobConfigPubsubDestination {
   /**
   * The name of the Pub/Sub topic to publish job completion notification to. For example: projects/{project}/topics/{topic}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#topic GoogleTranscoderJob#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#topic GoogleTranscoderJob#topic}
   */
   readonly topic?: string;
 }
@@ -3975,7 +3975,7 @@ export interface GoogleTranscoderJobConfigPubsubDestination {
 export function googleTranscoderJobConfigPubsubDestinationToTerraform(struct?: GoogleTranscoderJobConfigPubsubDestinationOutputReference | GoogleTranscoderJobConfigPubsubDestination): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     topic: cdktn.stringToTerraform(struct!.topic),
@@ -3986,7 +3986,7 @@ export function googleTranscoderJobConfigPubsubDestinationToTerraform(struct?: G
 export function googleTranscoderJobConfigPubsubDestinationToHclTerraform(struct?: GoogleTranscoderJobConfigPubsubDestinationOutputReference | GoogleTranscoderJobConfigPubsubDestination): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     topic: {
@@ -4053,61 +4053,61 @@ export interface GoogleTranscoderJobConfigA {
   /**
   * ad_breaks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#ad_breaks GoogleTranscoderJob#ad_breaks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#ad_breaks GoogleTranscoderJob#ad_breaks}
   */
   readonly adBreaks?: GoogleTranscoderJobConfigAdBreaks[] | cdktn.IResolvable;
   /**
   * edit_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#edit_list GoogleTranscoderJob#edit_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#edit_list GoogleTranscoderJob#edit_list}
   */
   readonly editList?: GoogleTranscoderJobConfigEditListStruct[] | cdktn.IResolvable;
   /**
   * elementary_streams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#elementary_streams GoogleTranscoderJob#elementary_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#elementary_streams GoogleTranscoderJob#elementary_streams}
   */
   readonly elementaryStreams?: GoogleTranscoderJobConfigElementaryStreams[] | cdktn.IResolvable;
   /**
   * encryptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#encryptions GoogleTranscoderJob#encryptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#encryptions GoogleTranscoderJob#encryptions}
   */
   readonly encryptions?: GoogleTranscoderJobConfigEncryptions[] | cdktn.IResolvable;
   /**
   * inputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#inputs GoogleTranscoderJob#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#inputs GoogleTranscoderJob#inputs}
   */
   readonly inputs?: GoogleTranscoderJobConfigInputs[] | cdktn.IResolvable;
   /**
   * manifests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#manifests GoogleTranscoderJob#manifests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#manifests GoogleTranscoderJob#manifests}
   */
   readonly manifests?: GoogleTranscoderJobConfigManifests[] | cdktn.IResolvable;
   /**
   * mux_streams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#mux_streams GoogleTranscoderJob#mux_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#mux_streams GoogleTranscoderJob#mux_streams}
   */
   readonly muxStreams?: GoogleTranscoderJobConfigMuxStreams[] | cdktn.IResolvable;
   /**
   * output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#output GoogleTranscoderJob#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#output GoogleTranscoderJob#output}
   */
   readonly output?: GoogleTranscoderJobConfigOutput;
   /**
   * overlays block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#overlays GoogleTranscoderJob#overlays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#overlays GoogleTranscoderJob#overlays}
   */
   readonly overlays?: GoogleTranscoderJobConfigOverlays[] | cdktn.IResolvable;
   /**
   * pubsub_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#pubsub_destination GoogleTranscoderJob#pubsub_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#pubsub_destination GoogleTranscoderJob#pubsub_destination}
   */
   readonly pubsubDestination?: GoogleTranscoderJobConfigPubsubDestination;
 }
@@ -4115,7 +4115,7 @@ export interface GoogleTranscoderJobConfigA {
 export function googleTranscoderJobConfigAToTerraform(struct?: GoogleTranscoderJobConfigAOutputReference | GoogleTranscoderJobConfigA): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     ad_breaks: cdktn.listMapper(googleTranscoderJobConfigAdBreaksToTerraform, true)(struct!.adBreaks),
@@ -4135,7 +4135,7 @@ export function googleTranscoderJobConfigAToTerraform(struct?: GoogleTranscoderJ
 export function googleTranscoderJobConfigAToHclTerraform(struct?: GoogleTranscoderJobConfigAOutputReference | GoogleTranscoderJobConfigA): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     ad_breaks: {
@@ -4452,15 +4452,15 @@ export class GoogleTranscoderJobConfigAOutputReference extends cdktn.ComplexObje
 }
 export interface GoogleTranscoderJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#create GoogleTranscoderJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#create GoogleTranscoderJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#delete GoogleTranscoderJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#delete GoogleTranscoderJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#update GoogleTranscoderJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#update GoogleTranscoderJob#update}
   */
   readonly update?: string;
 }
@@ -4468,7 +4468,7 @@ export interface GoogleTranscoderJobTimeouts {
 export function googleTranscoderJobTimeoutsToTerraform(struct?: GoogleTranscoderJobTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -4481,7 +4481,7 @@ export function googleTranscoderJobTimeoutsToTerraform(struct?: GoogleTranscoder
 export function googleTranscoderJobTimeoutsToHclTerraform(struct?: GoogleTranscoderJobTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -4612,7 +4612,7 @@ export class GoogleTranscoderJobTimeoutsOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job google_transcoder_job}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job google_transcoder_job}
 */
 export class GoogleTranscoderJob extends cdktn.TerraformResource {
 
@@ -4628,7 +4628,7 @@ export class GoogleTranscoderJob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleTranscoderJob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleTranscoderJob to import
-  * @param importFromId The id of the existing GoogleTranscoderJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleTranscoderJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleTranscoderJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4640,7 +4640,7 @@ export class GoogleTranscoderJob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_transcoder_job google_transcoder_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_transcoder_job google_transcoder_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4651,7 +4651,7 @@ export class GoogleTranscoderJob extends cdktn.TerraformResource {
       terraformResourceType: 'google_transcoder_job',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

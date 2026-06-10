@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,7 +21,7 @@ export interface GoogleNetappVolumeReplicationConfig extends cdktn.TerraformMeta
   * For production use, it is recommended to keep this parameter false to avoid accidental volume
   * deletion. Handle with care. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#delete_destination_volume GoogleNetappVolumeReplication#delete_destination_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#delete_destination_volume GoogleNetappVolumeReplication#delete_destination_volume}
   */
   readonly deleteDestinationVolume?: boolean | cdktn.IResolvable;
   /**
@@ -33,13 +33,13 @@ export interface GoogleNetappVolumeReplicationConfig extends cdktn.TerraformMeta
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#deletion_policy GoogleNetappVolumeReplication#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#deletion_policy GoogleNetappVolumeReplication#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An description of this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#description GoogleNetappVolumeReplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#description GoogleNetappVolumeReplication#description}
   */
   readonly description?: string;
   /**
@@ -48,11 +48,11 @@ export interface GoogleNetappVolumeReplicationConfig extends cdktn.TerraformMeta
   * to stop anyway. All data transferred to the destination will be discarded and content of destination
   * volume will remain at the state of the last successful update. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#force_stopping GoogleNetappVolumeReplication#force_stopping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#force_stopping GoogleNetappVolumeReplication#force_stopping}
   */
   readonly forceStopping?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#id GoogleNetappVolumeReplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#id GoogleNetappVolumeReplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,23 +65,23 @@ export interface GoogleNetappVolumeReplicationConfig extends cdktn.TerraformMeta
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#labels GoogleNetappVolumeReplication#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#labels GoogleNetappVolumeReplication#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of region for this resource. The resource needs to be created in the region of the destination volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#location GoogleNetappVolumeReplication#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#location GoogleNetappVolumeReplication#location}
   */
   readonly location: string;
   /**
   * The name of the replication. Needs to be unique per location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#name GoogleNetappVolumeReplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#name GoogleNetappVolumeReplication#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#project GoogleNetappVolumeReplication#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#project GoogleNetappVolumeReplication#project}
   */
   readonly project?: string;
   /**
@@ -90,19 +90,19 @@ export interface GoogleNetappVolumeReplicationConfig extends cdktn.TerraformMeta
   * Set to true to enable/resume the mirror. WARNING: Resuming a mirror overwrites any changes
   * done to the destination volume with the content of the source volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#replication_enabled GoogleNetappVolumeReplication#replication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#replication_enabled GoogleNetappVolumeReplication#replication_enabled}
   */
   readonly replicationEnabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the replication interval. Possible values: ["EVERY_10_MINUTES", "HOURLY", "DAILY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#replication_schedule GoogleNetappVolumeReplication#replication_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#replication_schedule GoogleNetappVolumeReplication#replication_schedule}
   */
   readonly replicationSchedule: string;
   /**
   * The name of the existing source volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#volume_name GoogleNetappVolumeReplication#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#volume_name GoogleNetappVolumeReplication#volume_name}
   */
   readonly volumeName: string;
   /**
@@ -110,19 +110,19 @@ export interface GoogleNetappVolumeReplicationConfig extends cdktn.TerraformMeta
   * for mirror_state to reach MIRRORED. If you want Terraform to wait for the mirror to finish on
   * create/stop/resume operations, set this parameter to true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#wait_for_mirror GoogleNetappVolumeReplication#wait_for_mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#wait_for_mirror GoogleNetappVolumeReplication#wait_for_mirror}
   */
   readonly waitForMirror?: boolean | cdktn.IResolvable;
   /**
   * destination_volume_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#destination_volume_parameters GoogleNetappVolumeReplication#destination_volume_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#destination_volume_parameters GoogleNetappVolumeReplication#destination_volume_parameters}
   */
   readonly destinationVolumeParameters?: GoogleNetappVolumeReplicationDestinationVolumeParameters;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#timeouts GoogleNetappVolumeReplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#timeouts GoogleNetappVolumeReplication#timeouts}
   */
   readonly timeouts?: GoogleNetappVolumeReplicationTimeouts;
 }
@@ -132,7 +132,7 @@ export interface GoogleNetappVolumeReplicationHybridPeeringDetails {
 export function googleNetappVolumeReplicationHybridPeeringDetailsToTerraform(struct?: GoogleNetappVolumeReplicationHybridPeeringDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -142,7 +142,7 @@ export function googleNetappVolumeReplicationHybridPeeringDetailsToTerraform(str
 export function googleNetappVolumeReplicationHybridPeeringDetailsToHclTerraform(struct?: GoogleNetappVolumeReplicationHybridPeeringDetails): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -237,7 +237,7 @@ export interface GoogleNetappVolumeReplicationHybridReplicationUserCommands {
 export function googleNetappVolumeReplicationHybridReplicationUserCommandsToTerraform(struct?: GoogleNetappVolumeReplicationHybridReplicationUserCommands): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -247,7 +247,7 @@ export function googleNetappVolumeReplicationHybridReplicationUserCommandsToTerr
 export function googleNetappVolumeReplicationHybridReplicationUserCommandsToHclTerraform(struct?: GoogleNetappVolumeReplicationHybridReplicationUserCommands): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -312,7 +312,7 @@ export interface GoogleNetappVolumeReplicationTransferStats {
 export function googleNetappVolumeReplicationTransferStatsToTerraform(struct?: GoogleNetappVolumeReplicationTransferStats): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -322,7 +322,7 @@ export function googleNetappVolumeReplicationTransferStatsToTerraform(struct?: G
 export function googleNetappVolumeReplicationTransferStatsToHclTerraform(struct?: GoogleNetappVolumeReplicationTransferStats): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -421,13 +421,13 @@ export interface GoogleNetappVolumeReplicationDestinationVolumeParametersTiering
   * Optional. Time in days to mark the volume's data block as cold and make it eligible for tiering, can be range from 2-183.
   * Default is 31.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#cooling_threshold_days GoogleNetappVolumeReplication#cooling_threshold_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#cooling_threshold_days GoogleNetappVolumeReplication#cooling_threshold_days}
   */
   readonly coolingThresholdDays?: number;
   /**
   * Optional. Flag indicating if the volume has tiering policy enable/pause. Default is PAUSED. Default value: "PAUSED" Possible values: ["ENABLED", "PAUSED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#tier_action GoogleNetappVolumeReplication#tier_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#tier_action GoogleNetappVolumeReplication#tier_action}
   */
   readonly tierAction?: string;
 }
@@ -435,7 +435,7 @@ export interface GoogleNetappVolumeReplicationDestinationVolumeParametersTiering
 export function googleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyToTerraform(struct?: GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference | GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cooling_threshold_days: cdktn.numberToTerraform(struct!.coolingThresholdDays),
@@ -447,7 +447,7 @@ export function googleNetappVolumeReplicationDestinationVolumeParametersTieringP
 export function googleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyToHclTerraform(struct?: GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference | GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cooling_threshold_days: {
@@ -542,31 +542,31 @@ export interface GoogleNetappVolumeReplicationDestinationVolumeParameters {
   /**
   * Description for the destination volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#description GoogleNetappVolumeReplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#description GoogleNetappVolumeReplication#description}
   */
   readonly description?: string;
   /**
   * Share name for destination volume. If not specified, name of source volume's share name will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#share_name GoogleNetappVolumeReplication#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#share_name GoogleNetappVolumeReplication#share_name}
   */
   readonly shareName?: string;
   /**
   * Name of an existing storage pool for the destination volume with format: 'projects/{{project}}/locations/{{location}}/storagePools/{{poolId}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#storage_pool GoogleNetappVolumeReplication#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#storage_pool GoogleNetappVolumeReplication#storage_pool}
   */
   readonly storagePool: string;
   /**
   * Name for the destination volume to be created. If not specified, the name of the source volume will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#volume_id GoogleNetappVolumeReplication#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#volume_id GoogleNetappVolumeReplication#volume_id}
   */
   readonly volumeId?: string;
   /**
   * tiering_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#tiering_policy GoogleNetappVolumeReplication#tiering_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#tiering_policy GoogleNetappVolumeReplication#tiering_policy}
   */
   readonly tieringPolicy?: GoogleNetappVolumeReplicationDestinationVolumeParametersTieringPolicy;
 }
@@ -574,7 +574,7 @@ export interface GoogleNetappVolumeReplicationDestinationVolumeParameters {
 export function googleNetappVolumeReplicationDestinationVolumeParametersToTerraform(struct?: GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference | GoogleNetappVolumeReplicationDestinationVolumeParameters): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -589,7 +589,7 @@ export function googleNetappVolumeReplicationDestinationVolumeParametersToTerraf
 export function googleNetappVolumeReplicationDestinationVolumeParametersToHclTerraform(struct?: GoogleNetappVolumeReplicationDestinationVolumeParametersOutputReference | GoogleNetappVolumeReplicationDestinationVolumeParameters): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -763,15 +763,15 @@ export class GoogleNetappVolumeReplicationDestinationVolumeParametersOutputRefer
 }
 export interface GoogleNetappVolumeReplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#create GoogleNetappVolumeReplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#create GoogleNetappVolumeReplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#delete GoogleNetappVolumeReplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#delete GoogleNetappVolumeReplication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#update GoogleNetappVolumeReplication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#update GoogleNetappVolumeReplication#update}
   */
   readonly update?: string;
 }
@@ -779,7 +779,7 @@ export interface GoogleNetappVolumeReplicationTimeouts {
 export function googleNetappVolumeReplicationTimeoutsToTerraform(struct?: GoogleNetappVolumeReplicationTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -792,7 +792,7 @@ export function googleNetappVolumeReplicationTimeoutsToTerraform(struct?: Google
 export function googleNetappVolumeReplicationTimeoutsToHclTerraform(struct?: GoogleNetappVolumeReplicationTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -923,7 +923,7 @@ export class GoogleNetappVolumeReplicationTimeoutsOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication}
 */
 export class GoogleNetappVolumeReplication extends cdktn.TerraformResource {
 
@@ -939,7 +939,7 @@ export class GoogleNetappVolumeReplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleNetappVolumeReplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetappVolumeReplication to import
-  * @param importFromId The id of the existing GoogleNetappVolumeReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetappVolumeReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetappVolumeReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -951,7 +951,7 @@ export class GoogleNetappVolumeReplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_netapp_volume_replication google_netapp_volume_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -962,7 +962,7 @@ export class GoogleNetappVolumeReplication extends cdktn.TerraformResource {
       terraformResourceType: 'google_netapp_volume_replication',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

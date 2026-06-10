@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleOrganizationPolicyConfig extends cdktn.TerraformMetaArgum
   /**
   * The name of the Constraint the Policy is configuring, for example, serviceuser.services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#constraint GoogleOrganizationPolicy#constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#constraint GoogleOrganizationPolicy#constraint}
   */
   readonly constraint: string;
   /**
@@ -27,48 +27,48 @@ export interface GoogleOrganizationPolicyConfig extends cdktn.TerraformMetaArgum
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#deletion_policy GoogleOrganizationPolicy#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#deletion_policy GoogleOrganizationPolicy#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#id GoogleOrganizationPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#id GoogleOrganizationPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#org_id GoogleOrganizationPolicy#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#org_id GoogleOrganizationPolicy#org_id}
   */
   readonly orgId: string;
   /**
   * Version of the Policy. Default version is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#version GoogleOrganizationPolicy#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#version GoogleOrganizationPolicy#version}
   */
   readonly version?: number;
   /**
   * boolean_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#boolean_policy GoogleOrganizationPolicy#boolean_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#boolean_policy GoogleOrganizationPolicy#boolean_policy}
   */
   readonly booleanPolicy?: GoogleOrganizationPolicyBooleanPolicy;
   /**
   * list_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#list_policy GoogleOrganizationPolicy#list_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#list_policy GoogleOrganizationPolicy#list_policy}
   */
   readonly listPolicy?: GoogleOrganizationPolicyListPolicy;
   /**
   * restore_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#restore_policy GoogleOrganizationPolicy#restore_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#restore_policy GoogleOrganizationPolicy#restore_policy}
   */
   readonly restorePolicy?: GoogleOrganizationPolicyRestorePolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#timeouts GoogleOrganizationPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#timeouts GoogleOrganizationPolicy#timeouts}
   */
   readonly timeouts?: GoogleOrganizationPolicyTimeouts;
 }
@@ -76,7 +76,7 @@ export interface GoogleOrganizationPolicyBooleanPolicy {
   /**
   * If true, then the Policy is enforced. If false, then any configuration is acceptable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#enforced GoogleOrganizationPolicy#enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#enforced GoogleOrganizationPolicy#enforced}
   */
   readonly enforced: boolean | cdktn.IResolvable;
 }
@@ -84,7 +84,7 @@ export interface GoogleOrganizationPolicyBooleanPolicy {
 export function googleOrganizationPolicyBooleanPolicyToTerraform(struct?: GoogleOrganizationPolicyBooleanPolicyOutputReference | GoogleOrganizationPolicyBooleanPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enforced: cdktn.booleanToTerraform(struct!.enforced),
@@ -95,7 +95,7 @@ export function googleOrganizationPolicyBooleanPolicyToTerraform(struct?: Google
 export function googleOrganizationPolicyBooleanPolicyToHclTerraform(struct?: GoogleOrganizationPolicyBooleanPolicyOutputReference | GoogleOrganizationPolicyBooleanPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enforced: {
@@ -159,13 +159,13 @@ export interface GoogleOrganizationPolicyListPolicyAllow {
   /**
   * The policy allows or denies all values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#all GoogleOrganizationPolicy#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#all GoogleOrganizationPolicy#all}
   */
   readonly all?: boolean | cdktn.IResolvable;
   /**
   * The policy can define specific values that are allowed or denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#values GoogleOrganizationPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#values GoogleOrganizationPolicy#values}
   */
   readonly values?: string[];
 }
@@ -173,7 +173,7 @@ export interface GoogleOrganizationPolicyListPolicyAllow {
 export function googleOrganizationPolicyListPolicyAllowToTerraform(struct?: GoogleOrganizationPolicyListPolicyAllowOutputReference | GoogleOrganizationPolicyListPolicyAllow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     all: cdktn.booleanToTerraform(struct!.all),
@@ -185,7 +185,7 @@ export function googleOrganizationPolicyListPolicyAllowToTerraform(struct?: Goog
 export function googleOrganizationPolicyListPolicyAllowToHclTerraform(struct?: GoogleOrganizationPolicyListPolicyAllowOutputReference | GoogleOrganizationPolicyListPolicyAllow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     all: {
@@ -280,13 +280,13 @@ export interface GoogleOrganizationPolicyListPolicyDeny {
   /**
   * The policy allows or denies all values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#all GoogleOrganizationPolicy#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#all GoogleOrganizationPolicy#all}
   */
   readonly all?: boolean | cdktn.IResolvable;
   /**
   * The policy can define specific values that are allowed or denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#values GoogleOrganizationPolicy#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#values GoogleOrganizationPolicy#values}
   */
   readonly values?: string[];
 }
@@ -294,7 +294,7 @@ export interface GoogleOrganizationPolicyListPolicyDeny {
 export function googleOrganizationPolicyListPolicyDenyToTerraform(struct?: GoogleOrganizationPolicyListPolicyDenyOutputReference | GoogleOrganizationPolicyListPolicyDeny): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     all: cdktn.booleanToTerraform(struct!.all),
@@ -306,7 +306,7 @@ export function googleOrganizationPolicyListPolicyDenyToTerraform(struct?: Googl
 export function googleOrganizationPolicyListPolicyDenyToHclTerraform(struct?: GoogleOrganizationPolicyListPolicyDenyOutputReference | GoogleOrganizationPolicyListPolicyDeny): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     all: {
@@ -401,25 +401,25 @@ export interface GoogleOrganizationPolicyListPolicy {
   /**
   * If set to true, the values from the effective Policy of the parent resource are inherited, meaning the values set in this Policy are added to the values inherited up the hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#inherit_from_parent GoogleOrganizationPolicy#inherit_from_parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#inherit_from_parent GoogleOrganizationPolicy#inherit_from_parent}
   */
   readonly inheritFromParent?: boolean | cdktn.IResolvable;
   /**
   * The Google Cloud Console will try to default to a configuration that matches the value specified in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#suggested_value GoogleOrganizationPolicy#suggested_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#suggested_value GoogleOrganizationPolicy#suggested_value}
   */
   readonly suggestedValue?: string;
   /**
   * allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#allow GoogleOrganizationPolicy#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#allow GoogleOrganizationPolicy#allow}
   */
   readonly allow?: GoogleOrganizationPolicyListPolicyAllow;
   /**
   * deny block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#deny GoogleOrganizationPolicy#deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#deny GoogleOrganizationPolicy#deny}
   */
   readonly deny?: GoogleOrganizationPolicyListPolicyDeny;
 }
@@ -427,7 +427,7 @@ export interface GoogleOrganizationPolicyListPolicy {
 export function googleOrganizationPolicyListPolicyToTerraform(struct?: GoogleOrganizationPolicyListPolicyOutputReference | GoogleOrganizationPolicyListPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     inherit_from_parent: cdktn.booleanToTerraform(struct!.inheritFromParent),
@@ -441,7 +441,7 @@ export function googleOrganizationPolicyListPolicyToTerraform(struct?: GoogleOrg
 export function googleOrganizationPolicyListPolicyToHclTerraform(struct?: GoogleOrganizationPolicyListPolicyOutputReference | GoogleOrganizationPolicyListPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     inherit_from_parent: {
@@ -592,7 +592,7 @@ export interface GoogleOrganizationPolicyRestorePolicy {
   /**
   * May only be set to true. If set, then the default Policy is restored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#default GoogleOrganizationPolicy#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#default GoogleOrganizationPolicy#default}
   */
   readonly default: boolean | cdktn.IResolvable;
 }
@@ -600,7 +600,7 @@ export interface GoogleOrganizationPolicyRestorePolicy {
 export function googleOrganizationPolicyRestorePolicyToTerraform(struct?: GoogleOrganizationPolicyRestorePolicyOutputReference | GoogleOrganizationPolicyRestorePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     default: cdktn.booleanToTerraform(struct!.default),
@@ -611,7 +611,7 @@ export function googleOrganizationPolicyRestorePolicyToTerraform(struct?: Google
 export function googleOrganizationPolicyRestorePolicyToHclTerraform(struct?: GoogleOrganizationPolicyRestorePolicyOutputReference | GoogleOrganizationPolicyRestorePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     default: {
@@ -673,19 +673,19 @@ export class GoogleOrganizationPolicyRestorePolicyOutputReference extends cdktn.
 }
 export interface GoogleOrganizationPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#create GoogleOrganizationPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#create GoogleOrganizationPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#delete GoogleOrganizationPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#delete GoogleOrganizationPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#read GoogleOrganizationPolicy#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#read GoogleOrganizationPolicy#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#update GoogleOrganizationPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#update GoogleOrganizationPolicy#update}
   */
   readonly update?: string;
 }
@@ -693,7 +693,7 @@ export interface GoogleOrganizationPolicyTimeouts {
 export function googleOrganizationPolicyTimeoutsToTerraform(struct?: GoogleOrganizationPolicyTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -707,7 +707,7 @@ export function googleOrganizationPolicyTimeoutsToTerraform(struct?: GoogleOrgan
 export function googleOrganizationPolicyTimeoutsToHclTerraform(struct?: GoogleOrganizationPolicyTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -866,7 +866,7 @@ export class GoogleOrganizationPolicyTimeoutsOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy google_organization_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy google_organization_policy}
 */
 export class GoogleOrganizationPolicy extends cdktn.TerraformResource {
 
@@ -882,7 +882,7 @@ export class GoogleOrganizationPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleOrganizationPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleOrganizationPolicy to import
-  * @param importFromId The id of the existing GoogleOrganizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleOrganizationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleOrganizationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -894,7 +894,7 @@ export class GoogleOrganizationPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_organization_policy google_organization_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_organization_policy google_organization_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -905,7 +905,7 @@ export class GoogleOrganizationPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'google_organization_policy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

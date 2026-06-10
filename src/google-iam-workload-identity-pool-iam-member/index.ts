@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,46 +13,46 @@ import * as cdktn from 'cdktn';
 
 export interface GoogleIamWorkloadIdentityPoolIamMemberConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#id GoogleIamWorkloadIdentityPoolIamMember#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#id GoogleIamWorkloadIdentityPoolIamMember#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#member GoogleIamWorkloadIdentityPoolIamMember#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#member GoogleIamWorkloadIdentityPoolIamMember#member}
   */
   readonly member: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#project GoogleIamWorkloadIdentityPoolIamMember#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#project GoogleIamWorkloadIdentityPoolIamMember#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#role GoogleIamWorkloadIdentityPoolIamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#role GoogleIamWorkloadIdentityPoolIamMember#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#workload_identity_pool_id GoogleIamWorkloadIdentityPoolIamMember#workload_identity_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#workload_identity_pool_id GoogleIamWorkloadIdentityPoolIamMember#workload_identity_pool_id}
   */
   readonly workloadIdentityPoolId: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#condition GoogleIamWorkloadIdentityPoolIamMember#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#condition GoogleIamWorkloadIdentityPoolIamMember#condition}
   */
   readonly condition?: GoogleIamWorkloadIdentityPoolIamMemberCondition;
 }
 export interface GoogleIamWorkloadIdentityPoolIamMemberCondition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#description GoogleIamWorkloadIdentityPoolIamMember#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#description GoogleIamWorkloadIdentityPoolIamMember#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#expression GoogleIamWorkloadIdentityPoolIamMember#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#expression GoogleIamWorkloadIdentityPoolIamMember#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#title GoogleIamWorkloadIdentityPoolIamMember#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#title GoogleIamWorkloadIdentityPoolIamMember#title}
   */
   readonly title: string;
 }
@@ -60,7 +60,7 @@ export interface GoogleIamWorkloadIdentityPoolIamMemberCondition {
 export function googleIamWorkloadIdentityPoolIamMemberConditionToTerraform(struct?: GoogleIamWorkloadIdentityPoolIamMemberConditionOutputReference | GoogleIamWorkloadIdentityPoolIamMemberCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -73,7 +73,7 @@ export function googleIamWorkloadIdentityPoolIamMemberConditionToTerraform(struc
 export function googleIamWorkloadIdentityPoolIamMemberConditionToHclTerraform(struct?: GoogleIamWorkloadIdentityPoolIamMemberConditionOutputReference | GoogleIamWorkloadIdentityPoolIamMemberCondition): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -188,7 +188,7 @@ export class GoogleIamWorkloadIdentityPoolIamMemberConditionOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member google_iam_workload_identity_pool_iam_member}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member google_iam_workload_identity_pool_iam_member}
 */
 export class GoogleIamWorkloadIdentityPoolIamMember extends cdktn.TerraformResource {
 
@@ -204,7 +204,7 @@ export class GoogleIamWorkloadIdentityPoolIamMember extends cdktn.TerraformResou
   * Generates CDKTN code for importing a GoogleIamWorkloadIdentityPoolIamMember resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIamWorkloadIdentityPoolIamMember to import
-  * @param importFromId The id of the existing GoogleIamWorkloadIdentityPoolIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIamWorkloadIdentityPoolIamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIamWorkloadIdentityPoolIamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +216,7 @@ export class GoogleIamWorkloadIdentityPoolIamMember extends cdktn.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workload_identity_pool_iam_member google_iam_workload_identity_pool_iam_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workload_identity_pool_iam_member google_iam_workload_identity_pool_iam_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,7 @@ export class GoogleIamWorkloadIdentityPoolIamMember extends cdktn.TerraformResou
       terraformResourceType: 'google_iam_workload_identity_pool_iam_member',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

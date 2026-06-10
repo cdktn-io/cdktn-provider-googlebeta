@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,11 +21,11 @@ export interface GoogleFirebaseAiLogicPromptTemplateLockConfig extends cdktn.Ter
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#deletion_policy GoogleFirebaseAiLogicPromptTemplateLock#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#deletion_policy GoogleFirebaseAiLogicPromptTemplateLock#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#id GoogleFirebaseAiLogicPromptTemplateLock#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#id GoogleFirebaseAiLogicPromptTemplateLock#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,33 +34,41 @@ export interface GoogleFirebaseAiLogicPromptTemplateLockConfig extends cdktn.Ter
   /**
   * The location of the prompt template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#location GoogleFirebaseAiLogicPromptTemplateLock#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#location GoogleFirebaseAiLogicPromptTemplateLock#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#project GoogleFirebaseAiLogicPromptTemplateLock#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#project GoogleFirebaseAiLogicPromptTemplateLock#project}
   */
   readonly project?: string;
   /**
+  * For the 'global' location only. If true, the modifyLock operation will
+  * apply to the global region only. Otherwise, the operation will also
+  * propagate to all applicable regions.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#regional_propagation_disabled GoogleFirebaseAiLogicPromptTemplateLock#regional_propagation_disabled}
+  */
+  readonly regionalPropagationDisabled?: boolean | cdktn.IResolvable;
+  /**
   * The ID of the prompt template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#template_id GoogleFirebaseAiLogicPromptTemplateLock#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#template_id GoogleFirebaseAiLogicPromptTemplateLock#template_id}
   */
   readonly templateId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#timeouts GoogleFirebaseAiLogicPromptTemplateLock#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#timeouts GoogleFirebaseAiLogicPromptTemplateLock#timeouts}
   */
   readonly timeouts?: GoogleFirebaseAiLogicPromptTemplateLockTimeouts;
 }
 export interface GoogleFirebaseAiLogicPromptTemplateLockTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#create GoogleFirebaseAiLogicPromptTemplateLock#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#create GoogleFirebaseAiLogicPromptTemplateLock#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#delete GoogleFirebaseAiLogicPromptTemplateLock#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#delete GoogleFirebaseAiLogicPromptTemplateLock#delete}
   */
   readonly delete?: string;
 }
@@ -68,7 +76,7 @@ export interface GoogleFirebaseAiLogicPromptTemplateLockTimeouts {
 export function googleFirebaseAiLogicPromptTemplateLockTimeoutsToTerraform(struct?: GoogleFirebaseAiLogicPromptTemplateLockTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -80,7 +88,7 @@ export function googleFirebaseAiLogicPromptTemplateLockTimeoutsToTerraform(struc
 export function googleFirebaseAiLogicPromptTemplateLockTimeoutsToHclTerraform(struct?: GoogleFirebaseAiLogicPromptTemplateLockTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -183,7 +191,7 @@ export class GoogleFirebaseAiLogicPromptTemplateLockTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock}
 */
 export class GoogleFirebaseAiLogicPromptTemplateLock extends cdktn.TerraformResource {
 
@@ -199,7 +207,7 @@ export class GoogleFirebaseAiLogicPromptTemplateLock extends cdktn.TerraformReso
   * Generates CDKTN code for importing a GoogleFirebaseAiLogicPromptTemplateLock resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaseAiLogicPromptTemplateLock to import
-  * @param importFromId The id of the existing GoogleFirebaseAiLogicPromptTemplateLock that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleFirebaseAiLogicPromptTemplateLock that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaseAiLogicPromptTemplateLock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -211,7 +219,7 @@ export class GoogleFirebaseAiLogicPromptTemplateLock extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_ai_logic_prompt_template_lock google_firebase_ai_logic_prompt_template_lock} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,7 +230,7 @@ export class GoogleFirebaseAiLogicPromptTemplateLock extends cdktn.TerraformReso
       terraformResourceType: 'google_firebase_ai_logic_prompt_template_lock',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -237,6 +245,7 @@ export class GoogleFirebaseAiLogicPromptTemplateLock extends cdktn.TerraformReso
     this._id = config.id;
     this._location = config.location;
     this._project = config.project;
+    this._regionalPropagationDisabled = config.regionalPropagationDisabled;
     this._templateId = config.templateId;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -316,6 +325,22 @@ export class GoogleFirebaseAiLogicPromptTemplateLock extends cdktn.TerraformReso
     return this._project;
   }
 
+  // regional_propagation_disabled - computed: false, optional: true, required: false
+  private _regionalPropagationDisabled?: boolean | cdktn.IResolvable; 
+  public get regionalPropagationDisabled() {
+    return this.getBooleanAttribute('regional_propagation_disabled');
+  }
+  public set regionalPropagationDisabled(value: boolean | cdktn.IResolvable) {
+    this._regionalPropagationDisabled = value;
+  }
+  public resetRegionalPropagationDisabled() {
+    this._regionalPropagationDisabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get regionalPropagationDisabledInput() {
+    return this._regionalPropagationDisabled;
+  }
+
   // template_id - computed: false, optional: false, required: true
   private _templateId?: string; 
   public get templateId() {
@@ -355,6 +380,7 @@ export class GoogleFirebaseAiLogicPromptTemplateLock extends cdktn.TerraformReso
       id: cdktn.stringToTerraform(this._id),
       location: cdktn.stringToTerraform(this._location),
       project: cdktn.stringToTerraform(this._project),
+      regional_propagation_disabled: cdktn.booleanToTerraform(this._regionalPropagationDisabled),
       template_id: cdktn.stringToTerraform(this._templateId),
       timeouts: googleFirebaseAiLogicPromptTemplateLockTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -385,6 +411,12 @@ export class GoogleFirebaseAiLogicPromptTemplateLock extends cdktn.TerraformReso
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      regional_propagation_disabled: {
+        value: cdktn.booleanToHclTerraform(this._regionalPropagationDisabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       template_id: {
         value: cdktn.stringToHclTerraform(this._templateId),

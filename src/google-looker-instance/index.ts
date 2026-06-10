@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,35 +17,35 @@ export interface GoogleLookerInstanceConfig extends cdktn.TerraformMetaArguments
   * Note that the consumer network may be in a different GCP project than the consumer
   * project that is hosting the Looker Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#consumer_network GoogleLookerInstance#consumer_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#consumer_network GoogleLookerInstance#consumer_network}
   */
   readonly consumerNetwork?: string;
   /**
   * Whether controlled egress is enabled on the Looker instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#controlled_egress_enabled GoogleLookerInstance#controlled_egress_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#controlled_egress_enabled GoogleLookerInstance#controlled_egress_enabled}
   */
   readonly controlledEgressEnabled?: boolean | cdktn.IResolvable;
   /**
   * This field uses a custom implementation please refer to documentation under /hashicorp/terraform-provider-google-beta/website/docs/r/looker_instance.html.markdown for specifics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#deletion_policy GoogleLookerInstance#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#deletion_policy GoogleLookerInstance#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * FIPS 140-2 Encryption enablement for Looker (Google Cloud Core).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#fips_enabled GoogleLookerInstance#fips_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#fips_enabled GoogleLookerInstance#fips_enabled}
   */
   readonly fipsEnabled?: boolean | cdktn.IResolvable;
   /**
   * Gemini enablement for Looker (Google Cloud Core).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#gemini_enabled GoogleLookerInstance#gemini_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#gemini_enabled GoogleLookerInstance#gemini_enabled}
   */
   readonly geminiEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#id GoogleLookerInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ export interface GoogleLookerInstanceConfig extends cdktn.TerraformMetaArguments
   /**
   * The ID of the instance or a fully qualified identifier for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#name GoogleLookerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#name GoogleLookerInstance#name}
   */
   readonly name: string;
   /**
@@ -71,108 +71,108 @@ export interface GoogleLookerInstanceConfig extends cdktn.TerraformMetaArguments
   * - LOOKER_CORE_TRIAL_ENTERPRISE: An enterprise trial edition of Looker (Google Cloud core) product.
   * - LOOKER_CORE_TRIAL_EMBED: An embed trial edition of Looker (Google Cloud core) product. Default value: "LOOKER_CORE_TRIAL" Possible values: ["LOOKER_CORE_TRIAL", "LOOKER_CORE_STANDARD", "LOOKER_CORE_STANDARD_ANNUAL", "LOOKER_CORE_ENTERPRISE_ANNUAL", "LOOKER_CORE_EMBED_ANNUAL", "LOOKER_CORE_NONPROD_STANDARD_ANNUAL", "LOOKER_CORE_NONPROD_ENTERPRISE_ANNUAL", "LOOKER_CORE_NONPROD_EMBED_ANNUAL", "LOOKER_CORE_TRIAL_STANDARD", "LOOKER_CORE_TRIAL_ENTERPRISE", "LOOKER_CORE_TRIAL_EMBED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#platform_edition GoogleLookerInstance#platform_edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#platform_edition GoogleLookerInstance#platform_edition}
   */
   readonly platformEdition?: string;
   /**
   * Whether private IP is enabled on the Looker instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#private_ip_enabled GoogleLookerInstance#private_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#private_ip_enabled GoogleLookerInstance#private_ip_enabled}
   */
   readonly privateIpEnabled?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#project GoogleLookerInstance#project}
   */
   readonly project?: string;
   /**
   * Whether Public Service Connect (PSC) is enabled on the Looker instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#psc_enabled GoogleLookerInstance#psc_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#psc_enabled GoogleLookerInstance#psc_enabled}
   */
   readonly pscEnabled?: boolean | cdktn.IResolvable;
   /**
   * Whether public IP is enabled on the Looker instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#public_ip_enabled GoogleLookerInstance#public_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#public_ip_enabled GoogleLookerInstance#public_ip_enabled}
   */
   readonly publicIpEnabled?: boolean | cdktn.IResolvable;
   /**
   * The name of the Looker region of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#region GoogleLookerInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#region GoogleLookerInstance#region}
   */
   readonly region?: string;
   /**
   * Name of a reserved IP address range within the consumer network, to be used for
   * private service access connection. User may or may not specify this in a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#reserved_range GoogleLookerInstance#reserved_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#reserved_range GoogleLookerInstance#reserved_range}
   */
   readonly reservedRange?: string;
   /**
   * admin_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#admin_settings GoogleLookerInstance#admin_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#admin_settings GoogleLookerInstance#admin_settings}
   */
   readonly adminSettings?: GoogleLookerInstanceAdminSettings;
   /**
   * controlled_egress_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#controlled_egress_config GoogleLookerInstance#controlled_egress_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#controlled_egress_config GoogleLookerInstance#controlled_egress_config}
   */
   readonly controlledEgressConfig?: GoogleLookerInstanceControlledEgressConfig;
   /**
   * custom_domain block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#custom_domain GoogleLookerInstance#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#custom_domain GoogleLookerInstance#custom_domain}
   */
   readonly customDomain?: GoogleLookerInstanceCustomDomain;
   /**
   * deny_maintenance_period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#deny_maintenance_period GoogleLookerInstance#deny_maintenance_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#deny_maintenance_period GoogleLookerInstance#deny_maintenance_period}
   */
   readonly denyMaintenancePeriod?: GoogleLookerInstanceDenyMaintenancePeriod;
   /**
   * encryption_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#encryption_config GoogleLookerInstance#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#encryption_config GoogleLookerInstance#encryption_config}
   */
   readonly encryptionConfig?: GoogleLookerInstanceEncryptionConfig;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#maintenance_window GoogleLookerInstance#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#maintenance_window GoogleLookerInstance#maintenance_window}
   */
   readonly maintenanceWindow?: GoogleLookerInstanceMaintenanceWindow;
   /**
   * oauth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#oauth_config GoogleLookerInstance#oauth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#oauth_config GoogleLookerInstance#oauth_config}
   */
   readonly oauthConfig: GoogleLookerInstanceOauthConfig;
   /**
   * periodic_export_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#periodic_export_config GoogleLookerInstance#periodic_export_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#periodic_export_config GoogleLookerInstance#periodic_export_config}
   */
   readonly periodicExportConfig?: GoogleLookerInstancePeriodicExportConfig;
   /**
   * psc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#psc_config GoogleLookerInstance#psc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#psc_config GoogleLookerInstance#psc_config}
   */
   readonly pscConfig?: GoogleLookerInstancePscConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#timeouts GoogleLookerInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#timeouts GoogleLookerInstance#timeouts}
   */
   readonly timeouts?: GoogleLookerInstanceTimeouts;
   /**
   * user_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#user_metadata GoogleLookerInstance#user_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#user_metadata GoogleLookerInstance#user_metadata}
   */
   readonly userMetadata?: GoogleLookerInstanceUserMetadata;
 }
@@ -185,7 +185,7 @@ export interface GoogleLookerInstanceAdminSettings {
   * means the value provided will be considered as the entire list and not an amendment to the
   * existing list of allowed email domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#allowed_email_domains GoogleLookerInstance#allowed_email_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#allowed_email_domains GoogleLookerInstance#allowed_email_domains}
   */
   readonly allowedEmailDomains?: string[];
 }
@@ -193,7 +193,7 @@ export interface GoogleLookerInstanceAdminSettings {
 export function googleLookerInstanceAdminSettingsToTerraform(struct?: GoogleLookerInstanceAdminSettingsOutputReference | GoogleLookerInstanceAdminSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allowed_email_domains: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedEmailDomains),
@@ -204,7 +204,7 @@ export function googleLookerInstanceAdminSettingsToTerraform(struct?: GoogleLook
 export function googleLookerInstanceAdminSettingsToHclTerraform(struct?: GoogleLookerInstanceAdminSettingsOutputReference | GoogleLookerInstanceAdminSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allowed_email_domains: {
@@ -272,13 +272,13 @@ export interface GoogleLookerInstanceControlledEgressConfig {
   * List of fully qualified domain names to be added to the allowlist for
   * outbound traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#egress_fqdns GoogleLookerInstance#egress_fqdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#egress_fqdns GoogleLookerInstance#egress_fqdns}
   */
   readonly egressFqdns?: string[];
   /**
   * Whether the Looker Marketplace is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#marketplace_enabled GoogleLookerInstance#marketplace_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#marketplace_enabled GoogleLookerInstance#marketplace_enabled}
   */
   readonly marketplaceEnabled?: boolean | cdktn.IResolvable;
 }
@@ -286,7 +286,7 @@ export interface GoogleLookerInstanceControlledEgressConfig {
 export function googleLookerInstanceControlledEgressConfigToTerraform(struct?: GoogleLookerInstanceControlledEgressConfigOutputReference | GoogleLookerInstanceControlledEgressConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     egress_fqdns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.egressFqdns),
@@ -298,7 +298,7 @@ export function googleLookerInstanceControlledEgressConfigToTerraform(struct?: G
 export function googleLookerInstanceControlledEgressConfigToHclTerraform(struct?: GoogleLookerInstanceControlledEgressConfigOutputReference | GoogleLookerInstanceControlledEgressConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     egress_fqdns: {
@@ -393,7 +393,7 @@ export interface GoogleLookerInstanceCustomDomain {
   /**
   * Domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#domain GoogleLookerInstance#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#domain GoogleLookerInstance#domain}
   */
   readonly domain?: string;
 }
@@ -401,7 +401,7 @@ export interface GoogleLookerInstanceCustomDomain {
 export function googleLookerInstanceCustomDomainToTerraform(struct?: GoogleLookerInstanceCustomDomainOutputReference | GoogleLookerInstanceCustomDomain): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     domain: cdktn.stringToTerraform(struct!.domain),
@@ -412,7 +412,7 @@ export function googleLookerInstanceCustomDomainToTerraform(struct?: GoogleLooke
 export function googleLookerInstanceCustomDomainToHclTerraform(struct?: GoogleLookerInstanceCustomDomainOutputReference | GoogleLookerInstanceCustomDomain): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     domain: {
@@ -485,21 +485,21 @@ export interface GoogleLookerInstanceDenyMaintenancePeriodEndDate {
   * Day of a month. Must be from 1 to 31 and valid for the year and month, or 0
   * to specify a year by itself or a year and month where the day isn't significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
   */
   readonly day?: number;
   /**
   * Month of a year. Must be from 1 to 12, or 0 to specify a year without a
   * month and day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
   */
   readonly month?: number;
   /**
   * Year of the date. Must be from 1 to 9999, or 0 to specify a date without
   * a year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
   */
   readonly year?: number;
 }
@@ -507,7 +507,7 @@ export interface GoogleLookerInstanceDenyMaintenancePeriodEndDate {
 export function googleLookerInstanceDenyMaintenancePeriodEndDateToTerraform(struct?: GoogleLookerInstanceDenyMaintenancePeriodEndDateOutputReference | GoogleLookerInstanceDenyMaintenancePeriodEndDate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     day: cdktn.numberToTerraform(struct!.day),
@@ -520,7 +520,7 @@ export function googleLookerInstanceDenyMaintenancePeriodEndDateToTerraform(stru
 export function googleLookerInstanceDenyMaintenancePeriodEndDateToHclTerraform(struct?: GoogleLookerInstanceDenyMaintenancePeriodEndDateOutputReference | GoogleLookerInstanceDenyMaintenancePeriodEndDate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     day: {
@@ -644,21 +644,21 @@ export interface GoogleLookerInstanceDenyMaintenancePeriodStartDate {
   * Day of a month. Must be from 1 to 31 and valid for the year and month, or 0
   * to specify a year by itself or a year and month where the day isn't significant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#day GoogleLookerInstance#day}
   */
   readonly day?: number;
   /**
   * Month of a year. Must be from 1 to 12, or 0 to specify a year without a
   * month and day.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#month GoogleLookerInstance#month}
   */
   readonly month?: number;
   /**
   * Year of the date. Must be from 1 to 9999, or 0 to specify a date without
   * a year.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#year GoogleLookerInstance#year}
   */
   readonly year?: number;
 }
@@ -666,7 +666,7 @@ export interface GoogleLookerInstanceDenyMaintenancePeriodStartDate {
 export function googleLookerInstanceDenyMaintenancePeriodStartDateToTerraform(struct?: GoogleLookerInstanceDenyMaintenancePeriodStartDateOutputReference | GoogleLookerInstanceDenyMaintenancePeriodStartDate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     day: cdktn.numberToTerraform(struct!.day),
@@ -679,7 +679,7 @@ export function googleLookerInstanceDenyMaintenancePeriodStartDateToTerraform(st
 export function googleLookerInstanceDenyMaintenancePeriodStartDateToHclTerraform(struct?: GoogleLookerInstanceDenyMaintenancePeriodStartDateOutputReference | GoogleLookerInstanceDenyMaintenancePeriodStartDate): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     day: {
@@ -802,25 +802,25 @@ export interface GoogleLookerInstanceDenyMaintenancePeriodTime {
   /**
   * Hours of day in 24 hour format. Should be from 0 to 23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
   */
   readonly hours?: number;
   /**
   * Minutes of hour of day. Must be from 0 to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
   */
   readonly minutes?: number;
   /**
   * Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
   */
   readonly nanos?: number;
   /**
   * Seconds of minutes of the time. Must normally be from 0 to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
   */
   readonly seconds?: number;
 }
@@ -828,7 +828,7 @@ export interface GoogleLookerInstanceDenyMaintenancePeriodTime {
 export function googleLookerInstanceDenyMaintenancePeriodTimeToTerraform(struct?: GoogleLookerInstanceDenyMaintenancePeriodTimeOutputReference | GoogleLookerInstanceDenyMaintenancePeriodTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hours: cdktn.numberToTerraform(struct!.hours),
@@ -842,7 +842,7 @@ export function googleLookerInstanceDenyMaintenancePeriodTimeToTerraform(struct?
 export function googleLookerInstanceDenyMaintenancePeriodTimeToHclTerraform(struct?: GoogleLookerInstanceDenyMaintenancePeriodTimeOutputReference | GoogleLookerInstanceDenyMaintenancePeriodTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hours: {
@@ -993,19 +993,19 @@ export interface GoogleLookerInstanceDenyMaintenancePeriod {
   /**
   * end_date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#end_date GoogleLookerInstance#end_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#end_date GoogleLookerInstance#end_date}
   */
   readonly endDate: GoogleLookerInstanceDenyMaintenancePeriodEndDate;
   /**
   * start_date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#start_date GoogleLookerInstance#start_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#start_date GoogleLookerInstance#start_date}
   */
   readonly startDate: GoogleLookerInstanceDenyMaintenancePeriodStartDate;
   /**
   * time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#time GoogleLookerInstance#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#time GoogleLookerInstance#time}
   */
   readonly time: GoogleLookerInstanceDenyMaintenancePeriodTime;
 }
@@ -1013,7 +1013,7 @@ export interface GoogleLookerInstanceDenyMaintenancePeriod {
 export function googleLookerInstanceDenyMaintenancePeriodToTerraform(struct?: GoogleLookerInstanceDenyMaintenancePeriodOutputReference | GoogleLookerInstanceDenyMaintenancePeriod): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     end_date: googleLookerInstanceDenyMaintenancePeriodEndDateToTerraform(struct!.endDate),
@@ -1026,7 +1026,7 @@ export function googleLookerInstanceDenyMaintenancePeriodToTerraform(struct?: Go
 export function googleLookerInstanceDenyMaintenancePeriodToHclTerraform(struct?: GoogleLookerInstanceDenyMaintenancePeriodOutputReference | GoogleLookerInstanceDenyMaintenancePeriod): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     end_date: {
@@ -1140,7 +1140,7 @@ export interface GoogleLookerInstanceEncryptionConfig {
   /**
   * Name of the customer managed encryption key (CMEK) in KMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#kms_key_name GoogleLookerInstance#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#kms_key_name GoogleLookerInstance#kms_key_name}
   */
   readonly kmsKeyName?: string;
 }
@@ -1148,7 +1148,7 @@ export interface GoogleLookerInstanceEncryptionConfig {
 export function googleLookerInstanceEncryptionConfigToTerraform(struct?: GoogleLookerInstanceEncryptionConfigOutputReference | GoogleLookerInstanceEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -1159,7 +1159,7 @@ export function googleLookerInstanceEncryptionConfigToTerraform(struct?: GoogleL
 export function googleLookerInstanceEncryptionConfigToHclTerraform(struct?: GoogleLookerInstanceEncryptionConfigOutputReference | GoogleLookerInstanceEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -1236,25 +1236,25 @@ export interface GoogleLookerInstanceMaintenanceWindowStartTime {
   /**
   * Hours of day in 24 hour format. Should be from 0 to 23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
   */
   readonly hours?: number;
   /**
   * Minutes of hour of day. Must be from 0 to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
   */
   readonly minutes?: number;
   /**
   * Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
   */
   readonly nanos?: number;
   /**
   * Seconds of minutes of the time. Must normally be from 0 to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
   */
   readonly seconds?: number;
 }
@@ -1262,7 +1262,7 @@ export interface GoogleLookerInstanceMaintenanceWindowStartTime {
 export function googleLookerInstanceMaintenanceWindowStartTimeToTerraform(struct?: GoogleLookerInstanceMaintenanceWindowStartTimeOutputReference | GoogleLookerInstanceMaintenanceWindowStartTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hours: cdktn.numberToTerraform(struct!.hours),
@@ -1276,7 +1276,7 @@ export function googleLookerInstanceMaintenanceWindowStartTimeToTerraform(struct
 export function googleLookerInstanceMaintenanceWindowStartTimeToHclTerraform(struct?: GoogleLookerInstanceMaintenanceWindowStartTimeOutputReference | GoogleLookerInstanceMaintenanceWindowStartTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hours: {
@@ -1435,13 +1435,13 @@ export interface GoogleLookerInstanceMaintenanceWindow {
   * - SATURDAY: Saturday
   * - SUNDAY: Sunday Possible values: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#day_of_week GoogleLookerInstance#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#day_of_week GoogleLookerInstance#day_of_week}
   */
   readonly dayOfWeek: string;
   /**
   * start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
   */
   readonly startTime: GoogleLookerInstanceMaintenanceWindowStartTime;
 }
@@ -1449,7 +1449,7 @@ export interface GoogleLookerInstanceMaintenanceWindow {
 export function googleLookerInstanceMaintenanceWindowToTerraform(struct?: GoogleLookerInstanceMaintenanceWindowOutputReference | GoogleLookerInstanceMaintenanceWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     day_of_week: cdktn.stringToTerraform(struct!.dayOfWeek),
@@ -1461,7 +1461,7 @@ export function googleLookerInstanceMaintenanceWindowToTerraform(struct?: Google
 export function googleLookerInstanceMaintenanceWindowToHclTerraform(struct?: GoogleLookerInstanceMaintenanceWindowOutputReference | GoogleLookerInstanceMaintenanceWindow): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     day_of_week: {
@@ -1550,13 +1550,13 @@ export interface GoogleLookerInstanceOauthConfig {
   /**
   * The client ID for the Oauth config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#client_id GoogleLookerInstance#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#client_id GoogleLookerInstance#client_id}
   */
   readonly clientId: string;
   /**
   * The client secret for the Oauth config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#client_secret GoogleLookerInstance#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#client_secret GoogleLookerInstance#client_secret}
   */
   readonly clientSecret: string;
 }
@@ -1564,7 +1564,7 @@ export interface GoogleLookerInstanceOauthConfig {
 export function googleLookerInstanceOauthConfigToTerraform(struct?: GoogleLookerInstanceOauthConfigOutputReference | GoogleLookerInstanceOauthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     client_id: cdktn.stringToTerraform(struct!.clientId),
@@ -1576,7 +1576,7 @@ export function googleLookerInstanceOauthConfigToTerraform(struct?: GoogleLooker
 export function googleLookerInstanceOauthConfigToHclTerraform(struct?: GoogleLookerInstanceOauthConfigOutputReference | GoogleLookerInstanceOauthConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     client_id: {
@@ -1665,25 +1665,25 @@ export interface GoogleLookerInstancePeriodicExportConfigStartTime {
   /**
   * Hours of day in 24 hour format. Should be from 0 to 23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#hours GoogleLookerInstance#hours}
   */
   readonly hours?: number;
   /**
   * Minutes of hour of day. Must be from 0 to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#minutes GoogleLookerInstance#minutes}
   */
   readonly minutes?: number;
   /**
   * Fractions of seconds in nanoseconds. Must be from 0 to 999,999,999.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#nanos GoogleLookerInstance#nanos}
   */
   readonly nanos?: number;
   /**
   * Seconds of minutes of the time. Must normally be from 0 to 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#seconds GoogleLookerInstance#seconds}
   */
   readonly seconds?: number;
 }
@@ -1691,7 +1691,7 @@ export interface GoogleLookerInstancePeriodicExportConfigStartTime {
 export function googleLookerInstancePeriodicExportConfigStartTimeToTerraform(struct?: GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference | GoogleLookerInstancePeriodicExportConfigStartTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hours: cdktn.numberToTerraform(struct!.hours),
@@ -1705,7 +1705,7 @@ export function googleLookerInstancePeriodicExportConfigStartTimeToTerraform(str
 export function googleLookerInstancePeriodicExportConfigStartTimeToHclTerraform(struct?: GoogleLookerInstancePeriodicExportConfigStartTimeOutputReference | GoogleLookerInstancePeriodicExportConfigStartTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hours: {
@@ -1857,7 +1857,7 @@ export interface GoogleLookerInstancePeriodicExportConfig {
   * Cloud Storage bucket URI for periodic export.
   * Format: gs://{bucket_name}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#gcs_uri GoogleLookerInstance#gcs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#gcs_uri GoogleLookerInstance#gcs_uri}
   */
   readonly gcsUri: string;
   /**
@@ -1865,13 +1865,13 @@ export interface GoogleLookerInstancePeriodicExportConfig {
   * Format:
   * projects/{project}/locations/{location}/keyRings/{key_ring}/cryptoKeys/{crypto_key}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#kms_key GoogleLookerInstance#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#kms_key GoogleLookerInstance#kms_key}
   */
   readonly kmsKey: string;
   /**
   * start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#start_time GoogleLookerInstance#start_time}
   */
   readonly startTime: GoogleLookerInstancePeriodicExportConfigStartTime;
 }
@@ -1879,7 +1879,7 @@ export interface GoogleLookerInstancePeriodicExportConfig {
 export function googleLookerInstancePeriodicExportConfigToTerraform(struct?: GoogleLookerInstancePeriodicExportConfigOutputReference | GoogleLookerInstancePeriodicExportConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gcs_uri: cdktn.stringToTerraform(struct!.gcsUri),
@@ -1892,7 +1892,7 @@ export function googleLookerInstancePeriodicExportConfigToTerraform(struct?: Goo
 export function googleLookerInstancePeriodicExportConfigToHclTerraform(struct?: GoogleLookerInstancePeriodicExportConfigOutputReference | GoogleLookerInstancePeriodicExportConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gcs_uri: {
@@ -2006,13 +2006,13 @@ export interface GoogleLookerInstancePscConfigServiceAttachments {
   /**
   * Fully qualified domain name that will be used in the private DNS record created for the service attachment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#local_fqdn GoogleLookerInstance#local_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#local_fqdn GoogleLookerInstance#local_fqdn}
   */
   readonly localFqdn?: string;
   /**
   * URI of the service attachment to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#target_service_attachment_uri GoogleLookerInstance#target_service_attachment_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#target_service_attachment_uri GoogleLookerInstance#target_service_attachment_uri}
   */
   readonly targetServiceAttachmentUri?: string;
 }
@@ -2020,7 +2020,7 @@ export interface GoogleLookerInstancePscConfigServiceAttachments {
 export function googleLookerInstancePscConfigServiceAttachmentsToTerraform(struct?: GoogleLookerInstancePscConfigServiceAttachments | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     local_fqdn: cdktn.stringToTerraform(struct!.localFqdn),
@@ -2032,7 +2032,7 @@ export function googleLookerInstancePscConfigServiceAttachmentsToTerraform(struc
 export function googleLookerInstancePscConfigServiceAttachmentsToHclTerraform(struct?: GoogleLookerInstancePscConfigServiceAttachments | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     local_fqdn: {
@@ -2164,13 +2164,13 @@ export interface GoogleLookerInstancePscConfig {
   /**
   * List of VPCs that are allowed ingress into the Looker instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#allowed_vpcs GoogleLookerInstance#allowed_vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#allowed_vpcs GoogleLookerInstance#allowed_vpcs}
   */
   readonly allowedVpcs?: string[];
   /**
   * service_attachments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#service_attachments GoogleLookerInstance#service_attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#service_attachments GoogleLookerInstance#service_attachments}
   */
   readonly serviceAttachments?: GoogleLookerInstancePscConfigServiceAttachments[] | cdktn.IResolvable;
 }
@@ -2178,7 +2178,7 @@ export interface GoogleLookerInstancePscConfig {
 export function googleLookerInstancePscConfigToTerraform(struct?: GoogleLookerInstancePscConfigOutputReference | GoogleLookerInstancePscConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allowed_vpcs: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedVpcs),
@@ -2190,7 +2190,7 @@ export function googleLookerInstancePscConfigToTerraform(struct?: GoogleLookerIn
 export function googleLookerInstancePscConfigToHclTerraform(struct?: GoogleLookerInstancePscConfigOutputReference | GoogleLookerInstancePscConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allowed_vpcs: {
@@ -2288,15 +2288,15 @@ export class GoogleLookerInstancePscConfigOutputReference extends cdktn.ComplexO
 }
 export interface GoogleLookerInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#create GoogleLookerInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#create GoogleLookerInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#delete GoogleLookerInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#delete GoogleLookerInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#update GoogleLookerInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#update GoogleLookerInstance#update}
   */
   readonly update?: string;
 }
@@ -2304,7 +2304,7 @@ export interface GoogleLookerInstanceTimeouts {
 export function googleLookerInstanceTimeoutsToTerraform(struct?: GoogleLookerInstanceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -2317,7 +2317,7 @@ export function googleLookerInstanceTimeoutsToTerraform(struct?: GoogleLookerIns
 export function googleLookerInstanceTimeoutsToHclTerraform(struct?: GoogleLookerInstanceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -2450,19 +2450,19 @@ export interface GoogleLookerInstanceUserMetadata {
   /**
   * Number of additional Developer Users to allocate to the Looker Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#additional_developer_user_count GoogleLookerInstance#additional_developer_user_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#additional_developer_user_count GoogleLookerInstance#additional_developer_user_count}
   */
   readonly additionalDeveloperUserCount?: number;
   /**
   * Number of additional Standard Users to allocate to the Looker Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#additional_standard_user_count GoogleLookerInstance#additional_standard_user_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#additional_standard_user_count GoogleLookerInstance#additional_standard_user_count}
   */
   readonly additionalStandardUserCount?: number;
   /**
   * Number of additional Viewer Users to allocate to the Looker Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#additional_viewer_user_count GoogleLookerInstance#additional_viewer_user_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#additional_viewer_user_count GoogleLookerInstance#additional_viewer_user_count}
   */
   readonly additionalViewerUserCount?: number;
 }
@@ -2470,7 +2470,7 @@ export interface GoogleLookerInstanceUserMetadata {
 export function googleLookerInstanceUserMetadataToTerraform(struct?: GoogleLookerInstanceUserMetadataOutputReference | GoogleLookerInstanceUserMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     additional_developer_user_count: cdktn.numberToTerraform(struct!.additionalDeveloperUserCount),
@@ -2483,7 +2483,7 @@ export function googleLookerInstanceUserMetadataToTerraform(struct?: GoogleLooke
 export function googleLookerInstanceUserMetadataToHclTerraform(struct?: GoogleLookerInstanceUserMetadataOutputReference | GoogleLookerInstanceUserMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     additional_developer_user_count: {
@@ -2604,7 +2604,7 @@ export class GoogleLookerInstanceUserMetadataOutputReference extends cdktn.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance google_looker_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance google_looker_instance}
 */
 export class GoogleLookerInstance extends cdktn.TerraformResource {
 
@@ -2620,7 +2620,7 @@ export class GoogleLookerInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleLookerInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleLookerInstance to import
-  * @param importFromId The id of the existing GoogleLookerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleLookerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleLookerInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2632,7 +2632,7 @@ export class GoogleLookerInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_looker_instance google_looker_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_looker_instance google_looker_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2643,7 +2643,7 @@ export class GoogleLookerInstance extends cdktn.TerraformResource {
       terraformResourceType: 'google_looker_instance',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

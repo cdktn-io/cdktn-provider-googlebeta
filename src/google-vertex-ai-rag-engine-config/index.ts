@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,36 +21,36 @@ export interface GoogleVertexAiRagEngineConfigConfig extends cdktn.TerraformMeta
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#deletion_policy GoogleVertexAiRagEngineConfig#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#deletion_policy GoogleVertexAiRagEngineConfig#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#id GoogleVertexAiRagEngineConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#id GoogleVertexAiRagEngineConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#project GoogleVertexAiRagEngineConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#project GoogleVertexAiRagEngineConfig#project}
   */
   readonly project?: string;
   /**
   * The region of the RagEngineConfig. eg us-central1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#region GoogleVertexAiRagEngineConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#region GoogleVertexAiRagEngineConfig#region}
   */
   readonly region?: string;
   /**
   * rag_managed_db_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#rag_managed_db_config GoogleVertexAiRagEngineConfig#rag_managed_db_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#rag_managed_db_config GoogleVertexAiRagEngineConfig#rag_managed_db_config}
   */
   readonly ragManagedDbConfig: GoogleVertexAiRagEngineConfigRagManagedDbConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#timeouts GoogleVertexAiRagEngineConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#timeouts GoogleVertexAiRagEngineConfig#timeouts}
   */
   readonly timeouts?: GoogleVertexAiRagEngineConfigTimeouts;
 }
@@ -60,7 +60,7 @@ export interface GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic {
 export function googleVertexAiRagEngineConfigRagManagedDbConfigBasicToTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -70,7 +70,7 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigBasicToTerraform(
 export function googleVertexAiRagEngineConfigRagManagedDbConfigBasicToHclTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigBasicOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -109,7 +109,7 @@ export interface GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled {
 export function googleVertexAiRagEngineConfigRagManagedDbConfigScaledToTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -119,7 +119,7 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigScaledToTerraform
 export function googleVertexAiRagEngineConfigRagManagedDbConfigScaledToHclTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigScaledOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -158,7 +158,7 @@ export interface GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned {
 export function googleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedToTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -168,7 +168,7 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedToTe
 export function googleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedToHclTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisionedOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -205,19 +205,19 @@ export interface GoogleVertexAiRagEngineConfigRagManagedDbConfig {
   /**
   * basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#basic GoogleVertexAiRagEngineConfig#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#basic GoogleVertexAiRagEngineConfig#basic}
   */
   readonly basic?: GoogleVertexAiRagEngineConfigRagManagedDbConfigBasic;
   /**
   * scaled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#scaled GoogleVertexAiRagEngineConfig#scaled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#scaled GoogleVertexAiRagEngineConfig#scaled}
   */
   readonly scaled?: GoogleVertexAiRagEngineConfigRagManagedDbConfigScaled;
   /**
   * unprovisioned block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#unprovisioned GoogleVertexAiRagEngineConfig#unprovisioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#unprovisioned GoogleVertexAiRagEngineConfig#unprovisioned}
   */
   readonly unprovisioned?: GoogleVertexAiRagEngineConfigRagManagedDbConfigUnprovisioned;
 }
@@ -225,7 +225,7 @@ export interface GoogleVertexAiRagEngineConfigRagManagedDbConfig {
 export function googleVertexAiRagEngineConfigRagManagedDbConfigToTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     basic: googleVertexAiRagEngineConfigRagManagedDbConfigBasicToTerraform(struct!.basic),
@@ -238,7 +238,7 @@ export function googleVertexAiRagEngineConfigRagManagedDbConfigToTerraform(struc
 export function googleVertexAiRagEngineConfigRagManagedDbConfigToHclTerraform(struct?: GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference | GoogleVertexAiRagEngineConfigRagManagedDbConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     basic: {
@@ -359,15 +359,15 @@ export class GoogleVertexAiRagEngineConfigRagManagedDbConfigOutputReference exte
 }
 export interface GoogleVertexAiRagEngineConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#create GoogleVertexAiRagEngineConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#create GoogleVertexAiRagEngineConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#delete GoogleVertexAiRagEngineConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#delete GoogleVertexAiRagEngineConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#update GoogleVertexAiRagEngineConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#update GoogleVertexAiRagEngineConfig#update}
   */
   readonly update?: string;
 }
@@ -375,7 +375,7 @@ export interface GoogleVertexAiRagEngineConfigTimeouts {
 export function googleVertexAiRagEngineConfigTimeoutsToTerraform(struct?: GoogleVertexAiRagEngineConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -388,7 +388,7 @@ export function googleVertexAiRagEngineConfigTimeoutsToTerraform(struct?: Google
 export function googleVertexAiRagEngineConfigTimeoutsToHclTerraform(struct?: GoogleVertexAiRagEngineConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -519,7 +519,7 @@ export class GoogleVertexAiRagEngineConfigTimeoutsOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config google_vertex_ai_rag_engine_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config google_vertex_ai_rag_engine_config}
 */
 export class GoogleVertexAiRagEngineConfig extends cdktn.TerraformResource {
 
@@ -535,7 +535,7 @@ export class GoogleVertexAiRagEngineConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleVertexAiRagEngineConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleVertexAiRagEngineConfig to import
-  * @param importFromId The id of the existing GoogleVertexAiRagEngineConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleVertexAiRagEngineConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleVertexAiRagEngineConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -547,7 +547,7 @@ export class GoogleVertexAiRagEngineConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_vertex_ai_rag_engine_config google_vertex_ai_rag_engine_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_vertex_ai_rag_engine_config google_vertex_ai_rag_engine_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -558,7 +558,7 @@ export class GoogleVertexAiRagEngineConfig extends cdktn.TerraformResource {
       terraformResourceType: 'google_vertex_ai_rag_engine_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

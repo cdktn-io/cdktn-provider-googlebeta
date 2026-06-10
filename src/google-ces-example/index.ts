@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleCesExampleConfig extends cdktn.TerraformMetaArguments {
   /**
   * Resource ID segment making up resource 'name', defining the app the example belongs to. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#app GoogleCesExample#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#app GoogleCesExample#app}
   */
   readonly app: string;
   /**
@@ -27,19 +27,19 @@ export interface GoogleCesExampleConfig extends cdktn.TerraformMetaArguments {
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#deletion_policy GoogleCesExample#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#deletion_policy GoogleCesExample#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Human-readable description of the example.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#description GoogleCesExample#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#description GoogleCesExample#description}
   */
   readonly description?: string;
   /**
   * Display name of the example.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#display_name GoogleCesExample#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#display_name GoogleCesExample#display_name}
   */
   readonly displayName: string;
   /**
@@ -47,18 +47,18 @@ export interface GoogleCesExampleConfig extends cdktn.TerraformMetaArguments {
   * example represents a conversation that is handled by the root agent.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#entry_agent GoogleCesExample#entry_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#entry_agent GoogleCesExample#entry_agent}
   */
   readonly entryAgent?: string;
   /**
   * The ID to use for the example, which will become the final component of
   * the example's resource name. In Terraform, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#example_id GoogleCesExample#example_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#example_id GoogleCesExample#example_id}
   */
   readonly exampleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#id GoogleCesExample#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#id GoogleCesExample#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,23 +67,23 @@ export interface GoogleCesExampleConfig extends cdktn.TerraformMetaArguments {
   /**
   * Resource ID segment making up resource 'name', defining what region the parent app is in. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#location GoogleCesExample#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#location GoogleCesExample#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#project GoogleCesExample#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#project GoogleCesExample#project}
   */
   readonly project?: string;
   /**
   * messages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#messages GoogleCesExample#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#messages GoogleCesExample#messages}
   */
   readonly messages?: GoogleCesExampleMessages[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#timeouts GoogleCesExample#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#timeouts GoogleCesExample#timeouts}
   */
   readonly timeouts?: GoogleCesExampleTimeouts;
 }
@@ -93,7 +93,7 @@ export interface GoogleCesExampleMessagesChunksAgentTransfer {
   * handle the conversation from this point forward.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#target_agent GoogleCesExample#target_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#target_agent GoogleCesExample#target_agent}
   */
   readonly targetAgent: string;
 }
@@ -101,7 +101,7 @@ export interface GoogleCesExampleMessagesChunksAgentTransfer {
 export function googleCesExampleMessagesChunksAgentTransferToTerraform(struct?: GoogleCesExampleMessagesChunksAgentTransferOutputReference | GoogleCesExampleMessagesChunksAgentTransfer): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     target_agent: cdktn.stringToTerraform(struct!.targetAgent),
@@ -112,7 +112,7 @@ export function googleCesExampleMessagesChunksAgentTransferToTerraform(struct?: 
 export function googleCesExampleMessagesChunksAgentTransferToHclTerraform(struct?: GoogleCesExampleMessagesChunksAgentTransferOutputReference | GoogleCesExampleMessagesChunksAgentTransfer): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     target_agent: {
@@ -181,7 +181,7 @@ export interface GoogleCesExampleMessagesChunksImage {
   /**
   * Raw bytes of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#data GoogleCesExample#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#data GoogleCesExample#data}
   */
   readonly data: string;
   /**
@@ -191,7 +191,7 @@ export interface GoogleCesExampleMessagesChunksImage {
   * * image/jpeg
   * * image/webp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#mime_type GoogleCesExample#mime_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#mime_type GoogleCesExample#mime_type}
   */
   readonly mimeType: string;
 }
@@ -199,7 +199,7 @@ export interface GoogleCesExampleMessagesChunksImage {
 export function googleCesExampleMessagesChunksImageToTerraform(struct?: GoogleCesExampleMessagesChunksImageOutputReference | GoogleCesExampleMessagesChunksImage): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     data: cdktn.stringToTerraform(struct!.data),
@@ -211,7 +211,7 @@ export function googleCesExampleMessagesChunksImageToTerraform(struct?: GoogleCe
 export function googleCesExampleMessagesChunksImageToHclTerraform(struct?: GoogleCesExampleMessagesChunksImageOutputReference | GoogleCesExampleMessagesChunksImage): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     data: {
@@ -300,7 +300,7 @@ export interface GoogleCesExampleMessagesChunksToolCallToolsetTool {
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#tool_id GoogleCesExample#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#tool_id GoogleCesExample#tool_id}
   */
   readonly toolId?: string;
   /**
@@ -308,7 +308,7 @@ export interface GoogleCesExampleMessagesChunksToolCallToolsetTool {
   * Format:
   * 'projects/{project}/locations/{location}/apps/{app}/toolsets/{toolset}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#toolset GoogleCesExample#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#toolset GoogleCesExample#toolset}
   */
   readonly toolset: string;
 }
@@ -316,7 +316,7 @@ export interface GoogleCesExampleMessagesChunksToolCallToolsetTool {
 export function googleCesExampleMessagesChunksToolCallToolsetToolToTerraform(struct?: GoogleCesExampleMessagesChunksToolCallToolsetToolOutputReference | GoogleCesExampleMessagesChunksToolCallToolsetTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     tool_id: cdktn.stringToTerraform(struct!.toolId),
@@ -328,7 +328,7 @@ export function googleCesExampleMessagesChunksToolCallToolsetToolToTerraform(str
 export function googleCesExampleMessagesChunksToolCallToolsetToolToHclTerraform(struct?: GoogleCesExampleMessagesChunksToolCallToolsetToolOutputReference | GoogleCesExampleMessagesChunksToolCallToolsetTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     tool_id: {
@@ -420,7 +420,7 @@ export interface GoogleCesExampleMessagesChunksToolCall {
   /**
   * The input parameters and values for the tool in JSON object format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#args GoogleCesExample#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#args GoogleCesExample#args}
   */
   readonly args?: string;
   /**
@@ -428,7 +428,7 @@ export interface GoogleCesExampleMessagesChunksToolCall {
   * return the execution result with the matching ID in
   * ToolResponse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#id GoogleCesExample#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#id GoogleCesExample#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -438,13 +438,13 @@ export interface GoogleCesExampleMessagesChunksToolCall {
   * The name of the tool to execute.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/tools/{tool}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#tool GoogleCesExample#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#tool GoogleCesExample#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#toolset_tool GoogleCesExample#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#toolset_tool GoogleCesExample#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesExampleMessagesChunksToolCallToolsetTool;
 }
@@ -452,7 +452,7 @@ export interface GoogleCesExampleMessagesChunksToolCall {
 export function googleCesExampleMessagesChunksToolCallToTerraform(struct?: GoogleCesExampleMessagesChunksToolCallOutputReference | GoogleCesExampleMessagesChunksToolCall): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     args: cdktn.stringToTerraform(struct!.args),
@@ -466,7 +466,7 @@ export function googleCesExampleMessagesChunksToolCallToTerraform(struct?: Googl
 export function googleCesExampleMessagesChunksToolCallToHclTerraform(struct?: GoogleCesExampleMessagesChunksToolCallOutputReference | GoogleCesExampleMessagesChunksToolCall): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     args: {
@@ -622,7 +622,7 @@ export interface GoogleCesExampleMessagesChunksToolResponseToolsetTool {
   /**
   * The tool ID to filter the tools to retrieve the schema for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#tool_id GoogleCesExample#tool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#tool_id GoogleCesExample#tool_id}
   */
   readonly toolId?: string;
   /**
@@ -630,7 +630,7 @@ export interface GoogleCesExampleMessagesChunksToolResponseToolsetTool {
   * Format:
   * 'projects/{project}/locations/{location}/apps/{app}/toolsets/{toolset}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#toolset GoogleCesExample#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#toolset GoogleCesExample#toolset}
   */
   readonly toolset: string;
 }
@@ -638,7 +638,7 @@ export interface GoogleCesExampleMessagesChunksToolResponseToolsetTool {
 export function googleCesExampleMessagesChunksToolResponseToolsetToolToTerraform(struct?: GoogleCesExampleMessagesChunksToolResponseToolsetToolOutputReference | GoogleCesExampleMessagesChunksToolResponseToolsetTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     tool_id: cdktn.stringToTerraform(struct!.toolId),
@@ -650,7 +650,7 @@ export function googleCesExampleMessagesChunksToolResponseToolsetToolToTerraform
 export function googleCesExampleMessagesChunksToolResponseToolsetToolToHclTerraform(struct?: GoogleCesExampleMessagesChunksToolResponseToolsetToolOutputReference | GoogleCesExampleMessagesChunksToolResponseToolsetTool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     tool_id: {
@@ -742,7 +742,7 @@ export interface GoogleCesExampleMessagesChunksToolResponse {
   /**
   * The matching ID of the tool call the response is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#id GoogleCesExample#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#id GoogleCesExample#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -754,20 +754,20 @@ export interface GoogleCesExampleMessagesChunksToolResponse {
   * error details (if any). If "output" and "error" keys are not specified,
   * then whole "response" is treated as tool execution result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#response GoogleCesExample#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#response GoogleCesExample#response}
   */
   readonly response: string;
   /**
   * The name of the tool to execute.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/tools/{tool}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#tool GoogleCesExample#tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#tool GoogleCesExample#tool}
   */
   readonly tool?: string;
   /**
   * toolset_tool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#toolset_tool GoogleCesExample#toolset_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#toolset_tool GoogleCesExample#toolset_tool}
   */
   readonly toolsetTool?: GoogleCesExampleMessagesChunksToolResponseToolsetTool;
 }
@@ -775,7 +775,7 @@ export interface GoogleCesExampleMessagesChunksToolResponse {
 export function googleCesExampleMessagesChunksToolResponseToTerraform(struct?: GoogleCesExampleMessagesChunksToolResponseOutputReference | GoogleCesExampleMessagesChunksToolResponse): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     id: cdktn.stringToTerraform(struct!.id),
@@ -789,7 +789,7 @@ export function googleCesExampleMessagesChunksToolResponseToTerraform(struct?: G
 export function googleCesExampleMessagesChunksToolResponseToHclTerraform(struct?: GoogleCesExampleMessagesChunksToolResponseOutputReference | GoogleCesExampleMessagesChunksToolResponse): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     id: {
@@ -942,38 +942,38 @@ export interface GoogleCesExampleMessagesChunks {
   /**
   * Text data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#text GoogleCesExample#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#text GoogleCesExample#text}
   */
   readonly text?: string;
   /**
   * A struct represents variables that were updated in the conversation,
   * keyed by variable names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#updated_variables GoogleCesExample#updated_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#updated_variables GoogleCesExample#updated_variables}
   */
   readonly updatedVariables?: string;
   /**
   * agent_transfer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#agent_transfer GoogleCesExample#agent_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#agent_transfer GoogleCesExample#agent_transfer}
   */
   readonly agentTransfer?: GoogleCesExampleMessagesChunksAgentTransfer;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#image GoogleCesExample#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#image GoogleCesExample#image}
   */
   readonly image?: GoogleCesExampleMessagesChunksImage;
   /**
   * tool_call block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#tool_call GoogleCesExample#tool_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#tool_call GoogleCesExample#tool_call}
   */
   readonly toolCall?: GoogleCesExampleMessagesChunksToolCall;
   /**
   * tool_response block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#tool_response GoogleCesExample#tool_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#tool_response GoogleCesExample#tool_response}
   */
   readonly toolResponse?: GoogleCesExampleMessagesChunksToolResponse;
 }
@@ -981,7 +981,7 @@ export interface GoogleCesExampleMessagesChunks {
 export function googleCesExampleMessagesChunksToTerraform(struct?: GoogleCesExampleMessagesChunks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     text: cdktn.stringToTerraform(struct!.text),
@@ -997,7 +997,7 @@ export function googleCesExampleMessagesChunksToTerraform(struct?: GoogleCesExam
 export function googleCesExampleMessagesChunksToHclTerraform(struct?: GoogleCesExampleMessagesChunks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     text: {
@@ -1236,13 +1236,13 @@ export interface GoogleCesExampleMessages {
   /**
   * The role within the conversation, e.g., user, agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#role GoogleCesExample#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#role GoogleCesExample#role}
   */
   readonly role?: string;
   /**
   * chunks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#chunks GoogleCesExample#chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#chunks GoogleCesExample#chunks}
   */
   readonly chunks?: GoogleCesExampleMessagesChunks[] | cdktn.IResolvable;
 }
@@ -1250,7 +1250,7 @@ export interface GoogleCesExampleMessages {
 export function googleCesExampleMessagesToTerraform(struct?: GoogleCesExampleMessages | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     role: cdktn.stringToTerraform(struct!.role),
@@ -1262,7 +1262,7 @@ export function googleCesExampleMessagesToTerraform(struct?: GoogleCesExampleMes
 export function googleCesExampleMessagesToHclTerraform(struct?: GoogleCesExampleMessages | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     role: {
@@ -1387,15 +1387,15 @@ export class GoogleCesExampleMessagesList extends cdktn.ComplexList {
 }
 export interface GoogleCesExampleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#create GoogleCesExample#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#create GoogleCesExample#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#delete GoogleCesExample#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#delete GoogleCesExample#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#update GoogleCesExample#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#update GoogleCesExample#update}
   */
   readonly update?: string;
 }
@@ -1403,7 +1403,7 @@ export interface GoogleCesExampleTimeouts {
 export function googleCesExampleTimeoutsToTerraform(struct?: GoogleCesExampleTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1416,7 +1416,7 @@ export function googleCesExampleTimeoutsToTerraform(struct?: GoogleCesExampleTim
 export function googleCesExampleTimeoutsToHclTerraform(struct?: GoogleCesExampleTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1547,7 +1547,7 @@ export class GoogleCesExampleTimeoutsOutputReference extends cdktn.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example google_ces_example}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example google_ces_example}
 */
 export class GoogleCesExample extends cdktn.TerraformResource {
 
@@ -1563,7 +1563,7 @@ export class GoogleCesExample extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesExample resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesExample to import
-  * @param importFromId The id of the existing GoogleCesExample that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesExample that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesExample to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1575,7 +1575,7 @@ export class GoogleCesExample extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_example google_ces_example} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_example google_ces_example} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1586,7 +1586,7 @@ export class GoogleCesExample extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_example',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

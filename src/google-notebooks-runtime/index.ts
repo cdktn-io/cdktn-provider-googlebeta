@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,11 +21,11 @@ export interface GoogleNotebooksRuntimeConfig extends cdktn.TerraformMetaArgumen
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#deletion_policy GoogleNotebooksRuntime#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#deletion_policy GoogleNotebooksRuntime#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#id GoogleNotebooksRuntime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#id GoogleNotebooksRuntime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,47 +43,47 @@ export interface GoogleNotebooksRuntimeConfig extends cdktn.TerraformMetaArgumen
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * A reference to the zone where the machine resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#location GoogleNotebooksRuntime#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#location GoogleNotebooksRuntime#location}
   */
   readonly location: string;
   /**
   * The name specified for the Notebook runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#name GoogleNotebooksRuntime#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#name GoogleNotebooksRuntime#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#project GoogleNotebooksRuntime#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#project GoogleNotebooksRuntime#project}
   */
   readonly project?: string;
   /**
   * access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#access_config GoogleNotebooksRuntime#access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#access_config GoogleNotebooksRuntime#access_config}
   */
   readonly accessConfig?: GoogleNotebooksRuntimeAccessConfig;
   /**
   * software_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#software_config GoogleNotebooksRuntime#software_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#software_config GoogleNotebooksRuntime#software_config}
   */
   readonly softwareConfig?: GoogleNotebooksRuntimeSoftwareConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#timeouts GoogleNotebooksRuntime#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#timeouts GoogleNotebooksRuntime#timeouts}
   */
   readonly timeouts?: GoogleNotebooksRuntimeTimeouts;
   /**
   * virtual_machine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#virtual_machine GoogleNotebooksRuntime#virtual_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#virtual_machine GoogleNotebooksRuntime#virtual_machine}
   */
   readonly virtualMachine?: GoogleNotebooksRuntimeVirtualMachine;
 }
@@ -93,7 +93,7 @@ export interface GoogleNotebooksRuntimeMetrics {
 export function googleNotebooksRuntimeMetricsToTerraform(struct?: GoogleNotebooksRuntimeMetrics): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -103,7 +103,7 @@ export function googleNotebooksRuntimeMetricsToTerraform(struct?: GoogleNotebook
 export function googleNotebooksRuntimeMetricsToHclTerraform(struct?: GoogleNotebooksRuntimeMetrics): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -169,14 +169,14 @@ export interface GoogleNotebooksRuntimeAccessConfig {
   * 'https://cloud.google.com/vertex-ai/docs/workbench/reference/
   * rest/v1/projects.locations.runtimes#RuntimeAccessType'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#access_type GoogleNotebooksRuntime#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#access_type GoogleNotebooksRuntime#access_type}
   */
   readonly accessType?: string;
   /**
   * The owner of this runtime after creation. Format: 'alias@example.com'.
   * Currently supports one owner only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#runtime_owner GoogleNotebooksRuntime#runtime_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#runtime_owner GoogleNotebooksRuntime#runtime_owner}
   */
   readonly runtimeOwner?: string;
 }
@@ -184,7 +184,7 @@ export interface GoogleNotebooksRuntimeAccessConfig {
 export function googleNotebooksRuntimeAccessConfigToTerraform(struct?: GoogleNotebooksRuntimeAccessConfigOutputReference | GoogleNotebooksRuntimeAccessConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     access_type: cdktn.stringToTerraform(struct!.accessType),
@@ -196,7 +196,7 @@ export function googleNotebooksRuntimeAccessConfigToTerraform(struct?: GoogleNot
 export function googleNotebooksRuntimeAccessConfigToHclTerraform(struct?: GoogleNotebooksRuntimeAccessConfigOutputReference | GoogleNotebooksRuntimeAccessConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     access_type: {
@@ -297,13 +297,13 @@ export interface GoogleNotebooksRuntimeSoftwareConfigKernels {
   * The path to the container image repository.
   * For example: gcr.io/{project_id}/{imageName}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#repository GoogleNotebooksRuntime#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#repository GoogleNotebooksRuntime#repository}
   */
   readonly repository: string;
   /**
   * The tag of the container image. If not specified, this defaults to the latest tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#tag GoogleNotebooksRuntime#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#tag GoogleNotebooksRuntime#tag}
   */
   readonly tag?: string;
 }
@@ -311,7 +311,7 @@ export interface GoogleNotebooksRuntimeSoftwareConfigKernels {
 export function googleNotebooksRuntimeSoftwareConfigKernelsToTerraform(struct?: GoogleNotebooksRuntimeSoftwareConfigKernels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     repository: cdktn.stringToTerraform(struct!.repository),
@@ -323,7 +323,7 @@ export function googleNotebooksRuntimeSoftwareConfigKernelsToTerraform(struct?: 
 export function googleNotebooksRuntimeSoftwareConfigKernelsToHclTerraform(struct?: GoogleNotebooksRuntimeSoftwareConfigKernels | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     repository: {
@@ -448,40 +448,40 @@ export interface GoogleNotebooksRuntimeSoftwareConfig {
   * Specify a custom Cloud Storage path where the GPU driver is stored.
   * If not specified, we'll automatically choose from official GPU drivers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#custom_gpu_driver_path GoogleNotebooksRuntime#custom_gpu_driver_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#custom_gpu_driver_path GoogleNotebooksRuntime#custom_gpu_driver_path}
   */
   readonly customGpuDriverPath?: string;
   /**
   * Verifies core internal services are running. Default: True.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#enable_health_monitoring GoogleNotebooksRuntime#enable_health_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#enable_health_monitoring GoogleNotebooksRuntime#enable_health_monitoring}
   */
   readonly enableHealthMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Runtime will automatically shutdown after idle_shutdown_time.
   * Default: True
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#idle_shutdown GoogleNotebooksRuntime#idle_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#idle_shutdown GoogleNotebooksRuntime#idle_shutdown}
   */
   readonly idleShutdown?: boolean | cdktn.IResolvable;
   /**
   * Time in minutes to wait before shuting down runtime.
   * Default: 180 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#idle_shutdown_timeout GoogleNotebooksRuntime#idle_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#idle_shutdown_timeout GoogleNotebooksRuntime#idle_shutdown_timeout}
   */
   readonly idleShutdownTimeout?: number;
   /**
   * Install Nvidia Driver automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#install_gpu_driver GoogleNotebooksRuntime#install_gpu_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#install_gpu_driver GoogleNotebooksRuntime#install_gpu_driver}
   */
   readonly installGpuDriver?: boolean | cdktn.IResolvable;
   /**
   * Cron expression in UTC timezone for schedule instance auto upgrade.
   * Please follow the [cron format](https://en.wikipedia.org/wiki/Cron).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#notebook_upgrade_schedule GoogleNotebooksRuntime#notebook_upgrade_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#notebook_upgrade_schedule GoogleNotebooksRuntime#notebook_upgrade_schedule}
   */
   readonly notebookUpgradeSchedule?: string;
   /**
@@ -489,19 +489,19 @@ export interface GoogleNotebooksRuntimeSoftwareConfig {
   * fully boots up. The path must be a URL or
   * Cloud Storage path (gs://path-to-file/file-name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#post_startup_script GoogleNotebooksRuntime#post_startup_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#post_startup_script GoogleNotebooksRuntime#post_startup_script}
   */
   readonly postStartupScript?: string;
   /**
   * Behavior for the post startup script. Possible values: ["POST_STARTUP_SCRIPT_BEHAVIOR_UNSPECIFIED", "RUN_EVERY_START", "DOWNLOAD_AND_RUN_EVERY_START"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#post_startup_script_behavior GoogleNotebooksRuntime#post_startup_script_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#post_startup_script_behavior GoogleNotebooksRuntime#post_startup_script_behavior}
   */
   readonly postStartupScriptBehavior?: string;
   /**
   * kernels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#kernels GoogleNotebooksRuntime#kernels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#kernels GoogleNotebooksRuntime#kernels}
   */
   readonly kernels?: GoogleNotebooksRuntimeSoftwareConfigKernels[] | cdktn.IResolvable;
 }
@@ -509,7 +509,7 @@ export interface GoogleNotebooksRuntimeSoftwareConfig {
 export function googleNotebooksRuntimeSoftwareConfigToTerraform(struct?: GoogleNotebooksRuntimeSoftwareConfigOutputReference | GoogleNotebooksRuntimeSoftwareConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     custom_gpu_driver_path: cdktn.stringToTerraform(struct!.customGpuDriverPath),
@@ -528,7 +528,7 @@ export function googleNotebooksRuntimeSoftwareConfigToTerraform(struct?: GoogleN
 export function googleNotebooksRuntimeSoftwareConfigToHclTerraform(struct?: GoogleNotebooksRuntimeSoftwareConfigOutputReference | GoogleNotebooksRuntimeSoftwareConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     custom_gpu_driver_path: {
@@ -822,15 +822,15 @@ export class GoogleNotebooksRuntimeSoftwareConfigOutputReference extends cdktn.C
 }
 export interface GoogleNotebooksRuntimeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#create GoogleNotebooksRuntime#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#create GoogleNotebooksRuntime#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#delete GoogleNotebooksRuntime#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#delete GoogleNotebooksRuntime#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#update GoogleNotebooksRuntime#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#update GoogleNotebooksRuntime#update}
   */
   readonly update?: string;
 }
@@ -838,7 +838,7 @@ export interface GoogleNotebooksRuntimeTimeouts {
 export function googleNotebooksRuntimeTimeoutsToTerraform(struct?: GoogleNotebooksRuntimeTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -851,7 +851,7 @@ export function googleNotebooksRuntimeTimeoutsToTerraform(struct?: GoogleNoteboo
 export function googleNotebooksRuntimeTimeoutsToHclTerraform(struct?: GoogleNotebooksRuntimeTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -984,7 +984,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceler
   /**
   * Count of cores of this accelerator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#core_count GoogleNotebooksRuntime#core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#core_count GoogleNotebooksRuntime#core_count}
   */
   readonly coreCount?: number;
   /**
@@ -992,7 +992,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceler
   * 'https://cloud.google.com/vertex-ai/docs/workbench/reference/
   * rest/v1/projects.locations.runtimes#AcceleratorType'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#type GoogleNotebooksRuntime#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#type GoogleNotebooksRuntime#type}
   */
   readonly type?: string;
 }
@@ -1000,7 +1000,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceler
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfigToTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfigOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     core_count: cdktn.numberToTerraform(struct!.coreCount),
@@ -1012,7 +1012,7 @@ export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigAccelera
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfigToHclTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfigOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     core_count: {
@@ -1108,13 +1108,13 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContain
   * The path to the container image repository.
   * For example: gcr.io/{project_id}/{imageName}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#repository GoogleNotebooksRuntime#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#repository GoogleNotebooksRuntime#repository}
   */
   readonly repository: string;
   /**
   * The tag of the container image. If not specified, this defaults to the latest tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#tag GoogleNotebooksRuntime#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#tag GoogleNotebooksRuntime#tag}
   */
   readonly tag?: string;
 }
@@ -1122,7 +1122,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContain
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesToTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImages | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     repository: cdktn.stringToTerraform(struct!.repository),
@@ -1134,7 +1134,7 @@ export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigContaine
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImagesToHclTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImages | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     repository: {
@@ -1258,7 +1258,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
   /**
   * Provide this property when creating the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#description GoogleNotebooksRuntime#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#description GoogleNotebooksRuntime#description}
   */
   readonly description?: string;
   /**
@@ -1267,7 +1267,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
   * instance name exists already in the given zone/region, a
   * new name will be automatically generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#disk_name GoogleNotebooksRuntime#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#disk_name GoogleNotebooksRuntime#disk_name}
   */
   readonly diskName?: string;
   /**
@@ -1276,7 +1276,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
   * (usually 10GB). If specified, the size must be equal to
   * or larger than 10GB. Default 100 GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#disk_size_gb GoogleNotebooksRuntime#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#disk_size_gb GoogleNotebooksRuntime#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
@@ -1285,7 +1285,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
   * see 'https://cloud.google.com/vertex-ai/docs/workbench/
   * reference/rest/v1/projects.locations.runtimes#disktype'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#disk_type GoogleNotebooksRuntime#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#disk_type GoogleNotebooksRuntime#disk_type}
   */
   readonly diskType?: string;
   /**
@@ -1293,7 +1293,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
   * by the disks.setLabels method. This field is only
   * applicable for persistent disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1301,7 +1301,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParamsToTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParamsOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -1316,7 +1316,7 @@ export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParamsToHclTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParamsOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParams): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -1500,7 +1500,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
   * can use either NVME or SCSI. For performance characteristics of SCSI
   * over NVMe, see Local SSD performance. Valid values: * NVME * SCSI".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#interface GoogleNotebooksRuntime#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#interface GoogleNotebooksRuntime#interface}
   */
   readonly interface?: string;
   /**
@@ -1508,27 +1508,27 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
   * or READ_ONLY. If not specified, the default is to attach
   * the disk in READ_WRITE mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#mode GoogleNotebooksRuntime#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#mode GoogleNotebooksRuntime#mode}
   */
   readonly mode?: string;
   /**
   * Specifies a valid partial or full URL to an existing
   * Persistent Disk resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#source GoogleNotebooksRuntime#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#source GoogleNotebooksRuntime#source}
   */
   readonly source?: string;
   /**
   * Specifies the type of the disk, either SCRATCH or PERSISTENT.
   * If not specified, the default is PERSISTENT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#type GoogleNotebooksRuntime#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#type GoogleNotebooksRuntime#type}
   */
   readonly type?: string;
   /**
   * initialize_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#initialize_params GoogleNotebooksRuntime#initialize_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#initialize_params GoogleNotebooksRuntime#initialize_params}
   */
   readonly initializeParams?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskInitializeParams;
 }
@@ -1536,7 +1536,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDis
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskToTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     interface: cdktn.stringToTerraform(struct!.interface),
@@ -1551,7 +1551,7 @@ export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskToHclTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDiskOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     interface: {
@@ -1769,7 +1769,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncrypt
   * 'projects/{PROJECT_ID}/locations/{REGION}/keyRings/
   * {KEY_RING_NAME}/cryptoKeys/{KEY_NAME}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#kms_key GoogleNotebooksRuntime#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#kms_key GoogleNotebooksRuntime#kms_key}
   */
   readonly kmsKey?: string;
 }
@@ -1777,7 +1777,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncrypt
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfigToTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfigOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key: cdktn.stringToTerraform(struct!.kmsKey),
@@ -1788,7 +1788,7 @@ export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncrypti
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfigToHclTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfigOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key: {
@@ -1860,7 +1860,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShielde
   * from the implicitly trusted boot image when the instance is
   * created. Enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#enable_integrity_monitoring GoogleNotebooksRuntime#enable_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#enable_integrity_monitoring GoogleNotebooksRuntime#enable_integrity_monitoring}
   */
   readonly enableIntegrityMonitoring?: boolean | cdktn.IResolvable;
   /**
@@ -1870,14 +1870,14 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShielde
   * halting the boot process if signature verification fails.
   * Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#enable_secure_boot GoogleNotebooksRuntime#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#enable_secure_boot GoogleNotebooksRuntime#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktn.IResolvable;
   /**
   * Defines whether the instance has the vTPM enabled. Enabled by
   * default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#enable_vtpm GoogleNotebooksRuntime#enable_vtpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#enable_vtpm GoogleNotebooksRuntime#enable_vtpm}
   */
   readonly enableVtpm?: boolean | cdktn.IResolvable;
 }
@@ -1885,7 +1885,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShielde
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfigToTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfigOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_integrity_monitoring: cdktn.booleanToTerraform(struct!.enableIntegrityMonitoring),
@@ -1898,7 +1898,7 @@ export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigShielded
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfigToHclTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfigOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_integrity_monitoring: {
@@ -2026,7 +2026,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig {
   * enabled networks, and all dependencies must be configured to be
   * accessible without external IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#internal_ip_only GoogleNotebooksRuntime#internal_ip_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#internal_ip_only GoogleNotebooksRuntime#internal_ip_only}
   */
   readonly internalIpOnly?: boolean | cdktn.IResolvable;
   /**
@@ -2037,13 +2037,13 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig {
   * conform to [RFC 1035](https://www.ietf.org/rfc/rfc1035.txt). No
   * more than 32 labels can be associated with a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#labels GoogleNotebooksRuntime#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The Compute Engine machine type used for runtimes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#machine_type GoogleNotebooksRuntime#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#machine_type GoogleNotebooksRuntime#machine_type}
   */
   readonly machineType: string;
   /**
@@ -2052,7 +2052,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig {
   * /compute/docs/storing-retrieving-metadata#project_and_instance
   * _metadata)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#metadata GoogleNotebooksRuntime#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#metadata GoogleNotebooksRuntime#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
@@ -2071,21 +2071,21 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig {
   *   * Shared VPC (network & subnet are required). Requires
   *   configuring Private Service Access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#network GoogleNotebooksRuntime#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#network GoogleNotebooksRuntime#network}
   */
   readonly network?: string;
   /**
   * The type of vNIC to be used on this interface. This may be gVNIC
   * or VirtioNet. Possible values: ["UNSPECIFIED_NIC_TYPE", "VIRTIO_NET", "GVNIC"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#nic_type GoogleNotebooksRuntime#nic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#nic_type GoogleNotebooksRuntime#nic_type}
   */
   readonly nicType?: string;
   /**
   * Reserved IP Range name is used for VPC Peering. The
   * subnetwork allocation will use the range *name* if it's assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#reserved_ip_range GoogleNotebooksRuntime#reserved_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#reserved_ip_range GoogleNotebooksRuntime#reserved_ip_range}
   */
   readonly reservedIpRange?: string;
   /**
@@ -2096,7 +2096,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig {
   *   regions/us-east1/subnetworks/sub0'
   *   * 'projects/[project_id]/regions/us-east1/subnetworks/sub0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#subnet GoogleNotebooksRuntime#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#subnet GoogleNotebooksRuntime#subnet}
   */
   readonly subnet?: string;
   /**
@@ -2104,37 +2104,37 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig {
   * (https://cloud.google.com/compute/docs/
   * label-or-tag-resources#tags)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#tags GoogleNotebooksRuntime#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#tags GoogleNotebooksRuntime#tags}
   */
   readonly tags?: string[];
   /**
   * accelerator_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#accelerator_config GoogleNotebooksRuntime#accelerator_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#accelerator_config GoogleNotebooksRuntime#accelerator_config}
   */
   readonly acceleratorConfig?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigAcceleratorConfig;
   /**
   * container_images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#container_images GoogleNotebooksRuntime#container_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#container_images GoogleNotebooksRuntime#container_images}
   */
   readonly containerImages?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigContainerImages[] | cdktn.IResolvable;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#data_disk GoogleNotebooksRuntime#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#data_disk GoogleNotebooksRuntime#data_disk}
   */
   readonly dataDisk: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigDataDisk;
   /**
   * encryption_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#encryption_config GoogleNotebooksRuntime#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#encryption_config GoogleNotebooksRuntime#encryption_config}
   */
   readonly encryptionConfig?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigEncryptionConfig;
   /**
   * shielded_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#shielded_instance_config GoogleNotebooksRuntime#shielded_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#shielded_instance_config GoogleNotebooksRuntime#shielded_instance_config}
   */
   readonly shieldedInstanceConfig?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigShieldedInstanceConfig;
 }
@@ -2142,7 +2142,7 @@ export interface GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig {
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigToTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     internal_ip_only: cdktn.booleanToTerraform(struct!.internalIpOnly),
@@ -2166,7 +2166,7 @@ export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigToTerraf
 export function googleNotebooksRuntimeVirtualMachineVirtualMachineConfigToHclTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfigOutputReference | GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     internal_ip_only: {
@@ -2602,7 +2602,7 @@ export interface GoogleNotebooksRuntimeVirtualMachine {
   /**
   * virtual_machine_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#virtual_machine_config GoogleNotebooksRuntime#virtual_machine_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#virtual_machine_config GoogleNotebooksRuntime#virtual_machine_config}
   */
   readonly virtualMachineConfig?: GoogleNotebooksRuntimeVirtualMachineVirtualMachineConfig;
 }
@@ -2610,7 +2610,7 @@ export interface GoogleNotebooksRuntimeVirtualMachine {
 export function googleNotebooksRuntimeVirtualMachineToTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineOutputReference | GoogleNotebooksRuntimeVirtualMachine): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     virtual_machine_config: googleNotebooksRuntimeVirtualMachineVirtualMachineConfigToTerraform(struct!.virtualMachineConfig),
@@ -2621,7 +2621,7 @@ export function googleNotebooksRuntimeVirtualMachineToTerraform(struct?: GoogleN
 export function googleNotebooksRuntimeVirtualMachineToHclTerraform(struct?: GoogleNotebooksRuntimeVirtualMachineOutputReference | GoogleNotebooksRuntimeVirtualMachine): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     virtual_machine_config: {
@@ -2696,7 +2696,7 @@ export class GoogleNotebooksRuntimeVirtualMachineOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime google_notebooks_runtime}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime google_notebooks_runtime}
 */
 export class GoogleNotebooksRuntime extends cdktn.TerraformResource {
 
@@ -2712,7 +2712,7 @@ export class GoogleNotebooksRuntime extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleNotebooksRuntime resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNotebooksRuntime to import
-  * @param importFromId The id of the existing GoogleNotebooksRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNotebooksRuntime that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNotebooksRuntime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2724,7 +2724,7 @@ export class GoogleNotebooksRuntime extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_notebooks_runtime google_notebooks_runtime} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_notebooks_runtime google_notebooks_runtime} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2735,7 +2735,7 @@ export class GoogleNotebooksRuntime extends cdktn.TerraformResource {
       terraformResourceType: 'google_notebooks_runtime',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

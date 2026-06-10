@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,32 +20,32 @@ export interface GoogleAlloydbClusterConfig extends cdktn.TerraformMetaArguments
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#annotations GoogleAlloydbCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#annotations GoogleAlloydbCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The ID of the alloydb cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#cluster_id GoogleAlloydbCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#cluster_id GoogleAlloydbCluster#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The type of cluster. If not set, defaults to PRIMARY. Default value: "PRIMARY" Possible values: ["PRIMARY", "SECONDARY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#cluster_type GoogleAlloydbCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#cluster_type GoogleAlloydbCluster#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * The database engine major version. This is an optional field and it's populated at the Cluster creation time.
   * Note: Changing this field to a higer version results in upgrading the AlloyDB cluster which is an irreversible change.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#database_version GoogleAlloydbCluster#database_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#database_version GoogleAlloydbCluster#database_version}
   */
   readonly databaseVersion?: string;
   /**
   * This field uses a custom implementation please refer to documentation under /hashicorp/terraform-provider-google-beta/website/docs/r/alloydb_cluster.html.markdown for specifics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#deletion_policy GoogleAlloydbCluster#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#deletion_policy GoogleAlloydbCluster#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
@@ -54,23 +54,23 @@ export interface GoogleAlloydbClusterConfig extends cdktn.TerraformMetaArguments
   * or 'terraform destroy' that would delete the cluster will fail.
   * When the field is set to false, deleting the cluster is allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#deletion_protection GoogleAlloydbCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#deletion_protection GoogleAlloydbCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktn.IResolvable;
   /**
   * User-settable and human-readable display name for the Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#display_name GoogleAlloydbCluster#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#display_name GoogleAlloydbCluster#display_name}
   */
   readonly displayName?: string;
   /**
   * For Resource freshness validation (https://google.aip.dev/154)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#etag GoogleAlloydbCluster#etag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#etag GoogleAlloydbCluster#etag}
   */
   readonly etag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#id GoogleAlloydbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,17 +82,17 @@ export interface GoogleAlloydbClusterConfig extends cdktn.TerraformMetaArguments
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location where the alloydb cluster should reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#project GoogleAlloydbCluster#project}
   */
   readonly project?: string;
   /**
@@ -100,97 +100,97 @@ export interface GoogleAlloydbClusterConfig extends cdktn.TerraformMetaArguments
   * Possible values: true, false
   * Default value: "true"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#skip_await_major_version_upgrade GoogleAlloydbCluster#skip_await_major_version_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#skip_await_major_version_upgrade GoogleAlloydbCluster#skip_await_major_version_upgrade}
   */
   readonly skipAwaitMajorVersionUpgrade?: boolean | cdktn.IResolvable;
   /**
   * The subscrition type of cluster. Possible values: ["TRIAL", "STANDARD"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#subscription_type GoogleAlloydbCluster#subscription_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#subscription_type GoogleAlloydbCluster#subscription_type}
   */
   readonly subscriptionType?: string;
   /**
   * automated_backup_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#automated_backup_policy GoogleAlloydbCluster#automated_backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#automated_backup_policy GoogleAlloydbCluster#automated_backup_policy}
   */
   readonly automatedBackupPolicy?: GoogleAlloydbClusterAutomatedBackupPolicy;
   /**
   * continuous_backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#continuous_backup_config GoogleAlloydbCluster#continuous_backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#continuous_backup_config GoogleAlloydbCluster#continuous_backup_config}
   */
   readonly continuousBackupConfig?: GoogleAlloydbClusterContinuousBackupConfig;
   /**
   * dataplex_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#dataplex_config GoogleAlloydbCluster#dataplex_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#dataplex_config GoogleAlloydbCluster#dataplex_config}
   */
   readonly dataplexConfig?: GoogleAlloydbClusterDataplexConfig;
   /**
   * encryption_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
   */
   readonly encryptionConfig?: GoogleAlloydbClusterEncryptionConfig;
   /**
   * initial_user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#initial_user GoogleAlloydbCluster#initial_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#initial_user GoogleAlloydbCluster#initial_user}
   */
   readonly initialUser?: GoogleAlloydbClusterInitialUser;
   /**
   * maintenance_update_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#maintenance_update_policy GoogleAlloydbCluster#maintenance_update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#maintenance_update_policy GoogleAlloydbCluster#maintenance_update_policy}
   */
   readonly maintenanceUpdatePolicy?: GoogleAlloydbClusterMaintenanceUpdatePolicy;
   /**
   * network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#network_config GoogleAlloydbCluster#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#network_config GoogleAlloydbCluster#network_config}
   */
   readonly networkConfig?: GoogleAlloydbClusterNetworkConfig;
   /**
   * psc_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#psc_config GoogleAlloydbCluster#psc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#psc_config GoogleAlloydbCluster#psc_config}
   */
   readonly pscConfig?: GoogleAlloydbClusterPscConfig;
   /**
   * restore_backup_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#restore_backup_source GoogleAlloydbCluster#restore_backup_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#restore_backup_source GoogleAlloydbCluster#restore_backup_source}
   */
   readonly restoreBackupSource?: GoogleAlloydbClusterRestoreBackupSource;
   /**
   * restore_backupdr_backup_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#restore_backupdr_backup_source GoogleAlloydbCluster#restore_backupdr_backup_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#restore_backupdr_backup_source GoogleAlloydbCluster#restore_backupdr_backup_source}
   */
   readonly restoreBackupdrBackupSource?: GoogleAlloydbClusterRestoreBackupdrBackupSource;
   /**
   * restore_backupdr_pitr_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#restore_backupdr_pitr_source GoogleAlloydbCluster#restore_backupdr_pitr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#restore_backupdr_pitr_source GoogleAlloydbCluster#restore_backupdr_pitr_source}
   */
   readonly restoreBackupdrPitrSource?: GoogleAlloydbClusterRestoreBackupdrPitrSource;
   /**
   * restore_continuous_backup_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#restore_continuous_backup_source GoogleAlloydbCluster#restore_continuous_backup_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#restore_continuous_backup_source GoogleAlloydbCluster#restore_continuous_backup_source}
   */
   readonly restoreContinuousBackupSource?: GoogleAlloydbClusterRestoreContinuousBackupSource;
   /**
   * secondary_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#secondary_config GoogleAlloydbCluster#secondary_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#secondary_config GoogleAlloydbCluster#secondary_config}
   */
   readonly secondaryConfig?: GoogleAlloydbClusterSecondaryConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#timeouts GoogleAlloydbCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#timeouts GoogleAlloydbCluster#timeouts}
   */
   readonly timeouts?: GoogleAlloydbClusterTimeouts;
 }
@@ -200,7 +200,7 @@ export interface GoogleAlloydbClusterBackupSource {
 export function googleAlloydbClusterBackupSourceToTerraform(struct?: GoogleAlloydbClusterBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -210,7 +210,7 @@ export function googleAlloydbClusterBackupSourceToTerraform(struct?: GoogleAlloy
 export function googleAlloydbClusterBackupSourceToHclTerraform(struct?: GoogleAlloydbClusterBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -275,7 +275,7 @@ export interface GoogleAlloydbClusterBackupdrBackupSource {
 export function googleAlloydbClusterBackupdrBackupSourceToTerraform(struct?: GoogleAlloydbClusterBackupdrBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -285,7 +285,7 @@ export function googleAlloydbClusterBackupdrBackupSourceToTerraform(struct?: Goo
 export function googleAlloydbClusterBackupdrBackupSourceToHclTerraform(struct?: GoogleAlloydbClusterBackupdrBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -350,7 +350,7 @@ export interface GoogleAlloydbClusterContinuousBackupInfoEncryptionInfo {
 export function googleAlloydbClusterContinuousBackupInfoEncryptionInfoToTerraform(struct?: GoogleAlloydbClusterContinuousBackupInfoEncryptionInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -360,7 +360,7 @@ export function googleAlloydbClusterContinuousBackupInfoEncryptionInfoToTerrafor
 export function googleAlloydbClusterContinuousBackupInfoEncryptionInfoToHclTerraform(struct?: GoogleAlloydbClusterContinuousBackupInfoEncryptionInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -430,7 +430,7 @@ export interface GoogleAlloydbClusterContinuousBackupInfo {
 export function googleAlloydbClusterContinuousBackupInfoToTerraform(struct?: GoogleAlloydbClusterContinuousBackupInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -440,7 +440,7 @@ export function googleAlloydbClusterContinuousBackupInfoToTerraform(struct?: Goo
 export function googleAlloydbClusterContinuousBackupInfoToHclTerraform(struct?: GoogleAlloydbClusterContinuousBackupInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -521,7 +521,7 @@ export interface GoogleAlloydbClusterEncryptionInfo {
 export function googleAlloydbClusterEncryptionInfoToTerraform(struct?: GoogleAlloydbClusterEncryptionInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -531,7 +531,7 @@ export function googleAlloydbClusterEncryptionInfoToTerraform(struct?: GoogleAll
 export function googleAlloydbClusterEncryptionInfoToHclTerraform(struct?: GoogleAlloydbClusterEncryptionInfo): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -601,7 +601,7 @@ export interface GoogleAlloydbClusterMigrationSource {
 export function googleAlloydbClusterMigrationSourceToTerraform(struct?: GoogleAlloydbClusterMigrationSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -611,7 +611,7 @@ export function googleAlloydbClusterMigrationSourceToTerraform(struct?: GoogleAl
 export function googleAlloydbClusterMigrationSourceToHclTerraform(struct?: GoogleAlloydbClusterMigrationSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -686,7 +686,7 @@ export interface GoogleAlloydbClusterTrialMetadata {
 export function googleAlloydbClusterTrialMetadataToTerraform(struct?: GoogleAlloydbClusterTrialMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -696,7 +696,7 @@ export function googleAlloydbClusterTrialMetadataToTerraform(struct?: GoogleAllo
 export function googleAlloydbClusterTrialMetadataToHclTerraform(struct?: GoogleAlloydbClusterTrialMetadata): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -774,7 +774,7 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyEncryptionConfig {
   /**
   * The fully-qualified resource name of the KMS key. Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
   */
   readonly kmsKeyName?: string;
 }
@@ -782,7 +782,7 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyEncryptionConfig {
 export function googleAlloydbClusterAutomatedBackupPolicyEncryptionConfigToTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyEncryptionConfigOutputReference | GoogleAlloydbClusterAutomatedBackupPolicyEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -793,7 +793,7 @@ export function googleAlloydbClusterAutomatedBackupPolicyEncryptionConfigToTerra
 export function googleAlloydbClusterAutomatedBackupPolicyEncryptionConfigToHclTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyEncryptionConfigOutputReference | GoogleAlloydbClusterAutomatedBackupPolicyEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -860,7 +860,7 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetention
   /**
   * The number of backups to retain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#count GoogleAlloydbCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#count GoogleAlloydbCluster#count}
   */
   readonly count?: number;
 }
@@ -868,7 +868,7 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetention
 export function googleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionToTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutputReference | GoogleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetention): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     count: cdktn.numberToTerraform(struct!.count),
@@ -879,7 +879,7 @@ export function googleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionT
 export function googleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionToHclTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetentionOutputReference | GoogleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetention): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     count: {
@@ -947,7 +947,7 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetention {
   * The retention period.
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#retention_period GoogleAlloydbCluster#retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#retention_period GoogleAlloydbCluster#retention_period}
   */
   readonly retentionPeriod?: string;
 }
@@ -955,7 +955,7 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetention {
 export function googleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionToTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOutputReference | GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetention): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     retention_period: cdktn.stringToTerraform(struct!.retentionPeriod),
@@ -966,7 +966,7 @@ export function googleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionToTer
 export function googleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionToHclTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetentionOutputReference | GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetention): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     retention_period: {
@@ -1033,25 +1033,25 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleStartTim
   /**
   * Hours of day in 24 hour format. Should be from 0 to 23. An API may choose to allow the value "24:00:00" for scenarios like business closing time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
   */
   readonly hours?: number;
   /**
   * Minutes of hour of day. Currently, only the value 0 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
   */
   readonly minutes?: number;
   /**
   * Fractions of seconds in nanoseconds. Currently, only the value 0 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
   */
   readonly nanos?: number;
   /**
   * Seconds of minutes of the time. Currently, only the value 0 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
   */
   readonly seconds?: number;
 }
@@ -1059,7 +1059,7 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleStartTim
 export function googleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleStartTimesToTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleStartTimes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hours: cdktn.numberToTerraform(struct!.hours),
@@ -1073,7 +1073,7 @@ export function googleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleStartTime
 export function googleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleStartTimesToHclTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleStartTimes | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hours: {
@@ -1256,13 +1256,13 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyWeeklySchedule {
   /**
   * The days of the week to perform a backup. At least one day of the week must be provided. Possible values: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#days_of_week GoogleAlloydbCluster#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#days_of_week GoogleAlloydbCluster#days_of_week}
   */
   readonly daysOfWeek?: string[];
   /**
   * start_times block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#start_times GoogleAlloydbCluster#start_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#start_times GoogleAlloydbCluster#start_times}
   */
   readonly startTimes: GoogleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleStartTimes[] | cdktn.IResolvable;
 }
@@ -1270,7 +1270,7 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicyWeeklySchedule {
 export function googleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleToTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleOutputReference | GoogleAlloydbClusterAutomatedBackupPolicyWeeklySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     days_of_week: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.daysOfWeek),
@@ -1282,7 +1282,7 @@ export function googleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleToTerrafo
 export function googleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleToHclTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyWeeklyScheduleOutputReference | GoogleAlloydbClusterAutomatedBackupPolicyWeeklySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     days_of_week: {
@@ -1378,49 +1378,49 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicy {
   * 
   * A duration in seconds with up to nine fractional digits, terminated by 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#backup_window GoogleAlloydbCluster#backup_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#backup_window GoogleAlloydbCluster#backup_window}
   */
   readonly backupWindow?: string;
   /**
   * Whether automated backups are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * Labels to apply to backups created using this configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#labels GoogleAlloydbCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location where the backup will be stored. Currently, the only supported option is to store the backup in the same region as the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#location GoogleAlloydbCluster#location}
   */
   readonly location?: string;
   /**
   * encryption_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
   */
   readonly encryptionConfig?: GoogleAlloydbClusterAutomatedBackupPolicyEncryptionConfig;
   /**
   * quantity_based_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#quantity_based_retention GoogleAlloydbCluster#quantity_based_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#quantity_based_retention GoogleAlloydbCluster#quantity_based_retention}
   */
   readonly quantityBasedRetention?: GoogleAlloydbClusterAutomatedBackupPolicyQuantityBasedRetention;
   /**
   * time_based_retention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#time_based_retention GoogleAlloydbCluster#time_based_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#time_based_retention GoogleAlloydbCluster#time_based_retention}
   */
   readonly timeBasedRetention?: GoogleAlloydbClusterAutomatedBackupPolicyTimeBasedRetention;
   /**
   * weekly_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#weekly_schedule GoogleAlloydbCluster#weekly_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#weekly_schedule GoogleAlloydbCluster#weekly_schedule}
   */
   readonly weeklySchedule?: GoogleAlloydbClusterAutomatedBackupPolicyWeeklySchedule;
 }
@@ -1428,7 +1428,7 @@ export interface GoogleAlloydbClusterAutomatedBackupPolicy {
 export function googleAlloydbClusterAutomatedBackupPolicyToTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyOutputReference | GoogleAlloydbClusterAutomatedBackupPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backup_window: cdktn.stringToTerraform(struct!.backupWindow),
@@ -1446,7 +1446,7 @@ export function googleAlloydbClusterAutomatedBackupPolicyToTerraform(struct?: Go
 export function googleAlloydbClusterAutomatedBackupPolicyToHclTerraform(struct?: GoogleAlloydbClusterAutomatedBackupPolicyOutputReference | GoogleAlloydbClusterAutomatedBackupPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backup_window: {
@@ -1709,7 +1709,7 @@ export interface GoogleAlloydbClusterContinuousBackupConfigEncryptionConfig {
   /**
   * The fully-qualified resource name of the KMS key. Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
   */
   readonly kmsKeyName?: string;
 }
@@ -1717,7 +1717,7 @@ export interface GoogleAlloydbClusterContinuousBackupConfigEncryptionConfig {
 export function googleAlloydbClusterContinuousBackupConfigEncryptionConfigToTerraform(struct?: GoogleAlloydbClusterContinuousBackupConfigEncryptionConfigOutputReference | GoogleAlloydbClusterContinuousBackupConfigEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -1728,7 +1728,7 @@ export function googleAlloydbClusterContinuousBackupConfigEncryptionConfigToTerr
 export function googleAlloydbClusterContinuousBackupConfigEncryptionConfigToHclTerraform(struct?: GoogleAlloydbClusterContinuousBackupConfigEncryptionConfigOutputReference | GoogleAlloydbClusterContinuousBackupConfigEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -1795,7 +1795,7 @@ export interface GoogleAlloydbClusterContinuousBackupConfig {
   /**
   * Whether continuous backup recovery is enabled. If not set, defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
@@ -1803,13 +1803,13 @@ export interface GoogleAlloydbClusterContinuousBackupConfig {
   * 
   * If not set, defaults to 14 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#recovery_window_days GoogleAlloydbCluster#recovery_window_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#recovery_window_days GoogleAlloydbCluster#recovery_window_days}
   */
   readonly recoveryWindowDays?: number;
   /**
   * encryption_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#encryption_config GoogleAlloydbCluster#encryption_config}
   */
   readonly encryptionConfig?: GoogleAlloydbClusterContinuousBackupConfigEncryptionConfig;
 }
@@ -1817,7 +1817,7 @@ export interface GoogleAlloydbClusterContinuousBackupConfig {
 export function googleAlloydbClusterContinuousBackupConfigToTerraform(struct?: GoogleAlloydbClusterContinuousBackupConfigOutputReference | GoogleAlloydbClusterContinuousBackupConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -1830,7 +1830,7 @@ export function googleAlloydbClusterContinuousBackupConfigToTerraform(struct?: G
 export function googleAlloydbClusterContinuousBackupConfigToHclTerraform(struct?: GoogleAlloydbClusterContinuousBackupConfigOutputReference | GoogleAlloydbClusterContinuousBackupConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -1953,7 +1953,7 @@ export interface GoogleAlloydbClusterDataplexConfig {
   /**
   * Indicates whether Dataplex integration is enabled for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#enabled GoogleAlloydbCluster#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1961,7 +1961,7 @@ export interface GoogleAlloydbClusterDataplexConfig {
 export function googleAlloydbClusterDataplexConfigToTerraform(struct?: GoogleAlloydbClusterDataplexConfigOutputReference | GoogleAlloydbClusterDataplexConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -1972,7 +1972,7 @@ export function googleAlloydbClusterDataplexConfigToTerraform(struct?: GoogleAll
 export function googleAlloydbClusterDataplexConfigToHclTerraform(struct?: GoogleAlloydbClusterDataplexConfigOutputReference | GoogleAlloydbClusterDataplexConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -2036,7 +2036,7 @@ export interface GoogleAlloydbClusterEncryptionConfig {
   /**
   * The fully-qualified resource name of the KMS key. Each Cloud KMS key is regionalized and has the following format: projects/[PROJECT]/locations/[REGION]/keyRings/[RING]/cryptoKeys/[KEY_NAME].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#kms_key_name GoogleAlloydbCluster#kms_key_name}
   */
   readonly kmsKeyName?: string;
 }
@@ -2044,7 +2044,7 @@ export interface GoogleAlloydbClusterEncryptionConfig {
 export function googleAlloydbClusterEncryptionConfigToTerraform(struct?: GoogleAlloydbClusterEncryptionConfigOutputReference | GoogleAlloydbClusterEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kms_key_name: cdktn.stringToTerraform(struct!.kmsKeyName),
@@ -2055,7 +2055,7 @@ export function googleAlloydbClusterEncryptionConfigToTerraform(struct?: GoogleA
 export function googleAlloydbClusterEncryptionConfigToHclTerraform(struct?: GoogleAlloydbClusterEncryptionConfigOutputReference | GoogleAlloydbClusterEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kms_key_name: {
@@ -2122,25 +2122,25 @@ export interface GoogleAlloydbClusterInitialUser {
   /**
   * The initial password for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#password GoogleAlloydbCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#password GoogleAlloydbCluster#password}
   */
   readonly password?: string;
   /**
   * The initial password for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#password_wo GoogleAlloydbCluster#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#password_wo GoogleAlloydbCluster#password_wo}
   */
   readonly passwordWo?: string;
   /**
   * Triggers update of 'password_wo' write-only. Increment this value when an update to 'password_wo' is needed. For more info see [updating write-only arguments](/docs/providers/google/guides/using_write_only_arguments.html#updating-write-only-arguments)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#password_wo_version GoogleAlloydbCluster#password_wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#password_wo_version GoogleAlloydbCluster#password_wo_version}
   */
   readonly passwordWoVersion?: string;
   /**
   * The database username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#user GoogleAlloydbCluster#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#user GoogleAlloydbCluster#user}
   */
   readonly user?: string;
 }
@@ -2148,7 +2148,7 @@ export interface GoogleAlloydbClusterInitialUser {
 export function googleAlloydbClusterInitialUserToTerraform(struct?: GoogleAlloydbClusterInitialUserOutputReference | GoogleAlloydbClusterInitialUser): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     password: cdktn.stringToTerraform(struct!.password),
@@ -2162,7 +2162,7 @@ export function googleAlloydbClusterInitialUserToTerraform(struct?: GoogleAlloyd
 export function googleAlloydbClusterInitialUserToHclTerraform(struct?: GoogleAlloydbClusterInitialUserOutputReference | GoogleAlloydbClusterInitialUser): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     password: {
@@ -2313,25 +2313,25 @@ export interface GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsSt
   /**
   * Hours of day in 24 hour format. Should be from 0 to 23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#hours GoogleAlloydbCluster#hours}
   */
   readonly hours: number;
   /**
   * Minutes of hour of day. Currently, only the value 0 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#minutes GoogleAlloydbCluster#minutes}
   */
   readonly minutes?: number;
   /**
   * Fractions of seconds in nanoseconds. Currently, only the value 0 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#nanos GoogleAlloydbCluster#nanos}
   */
   readonly nanos?: number;
   /**
   * Seconds of minutes of the time. Currently, only the value 0 is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#seconds GoogleAlloydbCluster#seconds}
   */
   readonly seconds?: number;
 }
@@ -2339,7 +2339,7 @@ export interface GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsSt
 export function googleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsStartTimeToTerraform(struct?: GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsStartTimeOutputReference | GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsStartTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hours: cdktn.numberToTerraform(struct!.hours),
@@ -2353,7 +2353,7 @@ export function googleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsSta
 export function googleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsStartTimeToHclTerraform(struct?: GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsStartTimeOutputReference | GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsStartTime): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hours: {
@@ -2501,13 +2501,13 @@ export interface GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindows {
   /**
   * Preferred day of the week for maintenance, e.g. MONDAY, TUESDAY, etc. Possible values: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#day GoogleAlloydbCluster#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#day GoogleAlloydbCluster#day}
   */
   readonly day: string;
   /**
   * start_time block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#start_time GoogleAlloydbCluster#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#start_time GoogleAlloydbCluster#start_time}
   */
   readonly startTime: GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsStartTime;
 }
@@ -2515,7 +2515,7 @@ export interface GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindows {
 export function googleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsToTerraform(struct?: GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindows | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     day: cdktn.stringToTerraform(struct!.day),
@@ -2527,7 +2527,7 @@ export function googleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsToT
 export function googleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsToHclTerraform(struct?: GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindows | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     day: {
@@ -2648,7 +2648,7 @@ export interface GoogleAlloydbClusterMaintenanceUpdatePolicy {
   /**
   * maintenance_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#maintenance_windows GoogleAlloydbCluster#maintenance_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#maintenance_windows GoogleAlloydbCluster#maintenance_windows}
   */
   readonly maintenanceWindows?: GoogleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindows[] | cdktn.IResolvable;
 }
@@ -2656,7 +2656,7 @@ export interface GoogleAlloydbClusterMaintenanceUpdatePolicy {
 export function googleAlloydbClusterMaintenanceUpdatePolicyToTerraform(struct?: GoogleAlloydbClusterMaintenanceUpdatePolicyOutputReference | GoogleAlloydbClusterMaintenanceUpdatePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     maintenance_windows: cdktn.listMapper(googleAlloydbClusterMaintenanceUpdatePolicyMaintenanceWindowsToTerraform, true)(struct!.maintenanceWindows),
@@ -2667,7 +2667,7 @@ export function googleAlloydbClusterMaintenanceUpdatePolicyToTerraform(struct?: 
 export function googleAlloydbClusterMaintenanceUpdatePolicyToHclTerraform(struct?: GoogleAlloydbClusterMaintenanceUpdatePolicyOutputReference | GoogleAlloydbClusterMaintenanceUpdatePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     maintenance_windows: {
@@ -2735,14 +2735,14 @@ export interface GoogleAlloydbClusterNetworkConfig {
   * The name of the allocated IP range for the private IP AlloyDB cluster. For example: "google-managed-services-default".
   * If set, the instance IPs for this cluster will be created in the allocated range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#allocated_ip_range GoogleAlloydbCluster#allocated_ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#allocated_ip_range GoogleAlloydbCluster#allocated_ip_range}
   */
   readonly allocatedIpRange?: string;
   /**
   * The resource link for the VPC network in which cluster resources are created and from which they are accessible via Private IP. The network must belong to the same project as the cluster.
   * It is specified in the form: "projects/{projectNumber}/global/networks/{network_id}".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#network GoogleAlloydbCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#network GoogleAlloydbCluster#network}
   */
   readonly network?: string;
 }
@@ -2750,7 +2750,7 @@ export interface GoogleAlloydbClusterNetworkConfig {
 export function googleAlloydbClusterNetworkConfigToTerraform(struct?: GoogleAlloydbClusterNetworkConfigOutputReference | GoogleAlloydbClusterNetworkConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allocated_ip_range: cdktn.stringToTerraform(struct!.allocatedIpRange),
@@ -2762,7 +2762,7 @@ export function googleAlloydbClusterNetworkConfigToTerraform(struct?: GoogleAllo
 export function googleAlloydbClusterNetworkConfigToHclTerraform(struct?: GoogleAlloydbClusterNetworkConfigOutputReference | GoogleAlloydbClusterNetworkConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allocated_ip_range: {
@@ -2857,7 +2857,7 @@ export interface GoogleAlloydbClusterPscConfig {
   /**
   * Create an instance that allows connections from Private Service Connect endpoints to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#psc_enabled GoogleAlloydbCluster#psc_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#psc_enabled GoogleAlloydbCluster#psc_enabled}
   */
   readonly pscEnabled?: boolean | cdktn.IResolvable;
 }
@@ -2865,7 +2865,7 @@ export interface GoogleAlloydbClusterPscConfig {
 export function googleAlloydbClusterPscConfigToTerraform(struct?: GoogleAlloydbClusterPscConfigOutputReference | GoogleAlloydbClusterPscConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     psc_enabled: cdktn.booleanToTerraform(struct!.pscEnabled),
@@ -2876,7 +2876,7 @@ export function googleAlloydbClusterPscConfigToTerraform(struct?: GoogleAlloydbC
 export function googleAlloydbClusterPscConfigToHclTerraform(struct?: GoogleAlloydbClusterPscConfigOutputReference | GoogleAlloydbClusterPscConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     psc_enabled: {
@@ -2948,7 +2948,7 @@ export interface GoogleAlloydbClusterRestoreBackupSource {
   /**
   * The name of the backup that this cluster is restored from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#backup_name GoogleAlloydbCluster#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#backup_name GoogleAlloydbCluster#backup_name}
   */
   readonly backupName: string;
 }
@@ -2956,7 +2956,7 @@ export interface GoogleAlloydbClusterRestoreBackupSource {
 export function googleAlloydbClusterRestoreBackupSourceToTerraform(struct?: GoogleAlloydbClusterRestoreBackupSourceOutputReference | GoogleAlloydbClusterRestoreBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backup_name: cdktn.stringToTerraform(struct!.backupName),
@@ -2967,7 +2967,7 @@ export function googleAlloydbClusterRestoreBackupSourceToTerraform(struct?: Goog
 export function googleAlloydbClusterRestoreBackupSourceToHclTerraform(struct?: GoogleAlloydbClusterRestoreBackupSourceOutputReference | GoogleAlloydbClusterRestoreBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backup_name: {
@@ -3031,7 +3031,7 @@ export interface GoogleAlloydbClusterRestoreBackupdrBackupSource {
   /**
   * The name of the BackupDR backup that this cluster is restored from. It must be of the format "projects/[PROJECT]/locations/[LOCATION]/backupVaults/[VAULT_ID]/dataSources/[DATASOURCE_ID]/backups/[BACKUP_ID]"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#backup GoogleAlloydbCluster#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#backup GoogleAlloydbCluster#backup}
   */
   readonly backup: string;
 }
@@ -3039,7 +3039,7 @@ export interface GoogleAlloydbClusterRestoreBackupdrBackupSource {
 export function googleAlloydbClusterRestoreBackupdrBackupSourceToTerraform(struct?: GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference | GoogleAlloydbClusterRestoreBackupdrBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     backup: cdktn.stringToTerraform(struct!.backup),
@@ -3050,7 +3050,7 @@ export function googleAlloydbClusterRestoreBackupdrBackupSourceToTerraform(struc
 export function googleAlloydbClusterRestoreBackupdrBackupSourceToHclTerraform(struct?: GoogleAlloydbClusterRestoreBackupdrBackupSourceOutputReference | GoogleAlloydbClusterRestoreBackupdrBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     backup: {
@@ -3114,13 +3114,13 @@ export interface GoogleAlloydbClusterRestoreBackupdrPitrSource {
   /**
   * The name of the BackupDR data source that this cluster is restore from. It must be of the format "projects/[PROJECT]/locations/[LOCATION]/backupVaults/[VAULT_ID]/dataSources/[DATASOURCE_ID]"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#data_source GoogleAlloydbCluster#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#data_source GoogleAlloydbCluster#data_source}
   */
   readonly dataSource: string;
   /**
   * The point in time that this cluster is restored to, in RFC 3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
   */
   readonly pointInTime: string;
 }
@@ -3128,7 +3128,7 @@ export interface GoogleAlloydbClusterRestoreBackupdrPitrSource {
 export function googleAlloydbClusterRestoreBackupdrPitrSourceToTerraform(struct?: GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference | GoogleAlloydbClusterRestoreBackupdrPitrSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     data_source: cdktn.stringToTerraform(struct!.dataSource),
@@ -3140,7 +3140,7 @@ export function googleAlloydbClusterRestoreBackupdrPitrSourceToTerraform(struct?
 export function googleAlloydbClusterRestoreBackupdrPitrSourceToHclTerraform(struct?: GoogleAlloydbClusterRestoreBackupdrPitrSourceOutputReference | GoogleAlloydbClusterRestoreBackupdrPitrSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     data_source: {
@@ -3229,13 +3229,13 @@ export interface GoogleAlloydbClusterRestoreContinuousBackupSource {
   /**
   * The name of the source cluster that this cluster is restored from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#cluster GoogleAlloydbCluster#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#cluster GoogleAlloydbCluster#cluster}
   */
   readonly cluster: string;
   /**
   * The point in time that this cluster is restored to, in RFC 3339 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#point_in_time GoogleAlloydbCluster#point_in_time}
   */
   readonly pointInTime: string;
 }
@@ -3243,7 +3243,7 @@ export interface GoogleAlloydbClusterRestoreContinuousBackupSource {
 export function googleAlloydbClusterRestoreContinuousBackupSourceToTerraform(struct?: GoogleAlloydbClusterRestoreContinuousBackupSourceOutputReference | GoogleAlloydbClusterRestoreContinuousBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cluster: cdktn.stringToTerraform(struct!.cluster),
@@ -3255,7 +3255,7 @@ export function googleAlloydbClusterRestoreContinuousBackupSourceToTerraform(str
 export function googleAlloydbClusterRestoreContinuousBackupSourceToHclTerraform(struct?: GoogleAlloydbClusterRestoreContinuousBackupSourceOutputReference | GoogleAlloydbClusterRestoreContinuousBackupSource): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cluster: {
@@ -3345,7 +3345,7 @@ export interface GoogleAlloydbClusterSecondaryConfig {
   * Name of the primary cluster must be in the format
   * 'projects/{project}/locations/{location}/clusters/{cluster_id}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#primary_cluster_name GoogleAlloydbCluster#primary_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#primary_cluster_name GoogleAlloydbCluster#primary_cluster_name}
   */
   readonly primaryClusterName: string;
 }
@@ -3353,7 +3353,7 @@ export interface GoogleAlloydbClusterSecondaryConfig {
 export function googleAlloydbClusterSecondaryConfigToTerraform(struct?: GoogleAlloydbClusterSecondaryConfigOutputReference | GoogleAlloydbClusterSecondaryConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     primary_cluster_name: cdktn.stringToTerraform(struct!.primaryClusterName),
@@ -3364,7 +3364,7 @@ export function googleAlloydbClusterSecondaryConfigToTerraform(struct?: GoogleAl
 export function googleAlloydbClusterSecondaryConfigToHclTerraform(struct?: GoogleAlloydbClusterSecondaryConfigOutputReference | GoogleAlloydbClusterSecondaryConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     primary_cluster_name: {
@@ -3426,15 +3426,15 @@ export class GoogleAlloydbClusterSecondaryConfigOutputReference extends cdktn.Co
 }
 export interface GoogleAlloydbClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#create GoogleAlloydbCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#create GoogleAlloydbCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#delete GoogleAlloydbCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#delete GoogleAlloydbCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#update GoogleAlloydbCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#update GoogleAlloydbCluster#update}
   */
   readonly update?: string;
 }
@@ -3442,7 +3442,7 @@ export interface GoogleAlloydbClusterTimeouts {
 export function googleAlloydbClusterTimeoutsToTerraform(struct?: GoogleAlloydbClusterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -3455,7 +3455,7 @@ export function googleAlloydbClusterTimeoutsToTerraform(struct?: GoogleAlloydbCl
 export function googleAlloydbClusterTimeoutsToHclTerraform(struct?: GoogleAlloydbClusterTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -3586,7 +3586,7 @@ export class GoogleAlloydbClusterTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster google_alloydb_cluster}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster google_alloydb_cluster}
 */
 export class GoogleAlloydbCluster extends cdktn.TerraformResource {
 
@@ -3602,7 +3602,7 @@ export class GoogleAlloydbCluster extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleAlloydbCluster resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleAlloydbCluster to import
-  * @param importFromId The id of the existing GoogleAlloydbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleAlloydbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleAlloydbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3614,7 +3614,7 @@ export class GoogleAlloydbCluster extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_alloydb_cluster google_alloydb_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_alloydb_cluster google_alloydb_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3625,7 +3625,7 @@ export class GoogleAlloydbCluster extends cdktn.TerraformResource {
       terraformResourceType: 'google_alloydb_cluster',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

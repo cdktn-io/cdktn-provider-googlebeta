@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,11 +21,11 @@ export interface GooglePubsubLiteTopicConfig extends cdktn.TerraformMetaArgument
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#deletion_policy GooglePubsubLiteTopic#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#deletion_policy GooglePubsubLiteTopic#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#id GooglePubsubLiteTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#id GooglePubsubLiteTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,47 +34,47 @@ export interface GooglePubsubLiteTopicConfig extends cdktn.TerraformMetaArgument
   /**
   * Name of the topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#name GooglePubsubLiteTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#name GooglePubsubLiteTopic#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#project GooglePubsubLiteTopic#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#project GooglePubsubLiteTopic#project}
   */
   readonly project?: string;
   /**
   * The region of the pubsub lite topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#region GooglePubsubLiteTopic#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#region GooglePubsubLiteTopic#region}
   */
   readonly region?: string;
   /**
   * The zone of the pubsub lite topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#zone GooglePubsubLiteTopic#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#zone GooglePubsubLiteTopic#zone}
   */
   readonly zone?: string;
   /**
   * partition_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#partition_config GooglePubsubLiteTopic#partition_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#partition_config GooglePubsubLiteTopic#partition_config}
   */
   readonly partitionConfig?: GooglePubsubLiteTopicPartitionConfig;
   /**
   * reservation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#reservation_config GooglePubsubLiteTopic#reservation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#reservation_config GooglePubsubLiteTopic#reservation_config}
   */
   readonly reservationConfig?: GooglePubsubLiteTopicReservationConfig;
   /**
   * retention_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#retention_config GooglePubsubLiteTopic#retention_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#retention_config GooglePubsubLiteTopic#retention_config}
   */
   readonly retentionConfig?: GooglePubsubLiteTopicRetentionConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#timeouts GooglePubsubLiteTopic#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#timeouts GooglePubsubLiteTopic#timeouts}
   */
   readonly timeouts?: GooglePubsubLiteTopicTimeouts;
 }
@@ -82,13 +82,13 @@ export interface GooglePubsubLiteTopicPartitionConfigCapacity {
   /**
   * Subscribe throughput capacity per partition in MiB/s. Must be >= 4 and <= 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#publish_mib_per_sec GooglePubsubLiteTopic#publish_mib_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#publish_mib_per_sec GooglePubsubLiteTopic#publish_mib_per_sec}
   */
   readonly publishMibPerSec: number;
   /**
   * Publish throughput capacity per partition in MiB/s. Must be >= 4 and <= 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#subscribe_mib_per_sec GooglePubsubLiteTopic#subscribe_mib_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#subscribe_mib_per_sec GooglePubsubLiteTopic#subscribe_mib_per_sec}
   */
   readonly subscribeMibPerSec: number;
 }
@@ -96,7 +96,7 @@ export interface GooglePubsubLiteTopicPartitionConfigCapacity {
 export function googlePubsubLiteTopicPartitionConfigCapacityToTerraform(struct?: GooglePubsubLiteTopicPartitionConfigCapacityOutputReference | GooglePubsubLiteTopicPartitionConfigCapacity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     publish_mib_per_sec: cdktn.numberToTerraform(struct!.publishMibPerSec),
@@ -108,7 +108,7 @@ export function googlePubsubLiteTopicPartitionConfigCapacityToTerraform(struct?:
 export function googlePubsubLiteTopicPartitionConfigCapacityToHclTerraform(struct?: GooglePubsubLiteTopicPartitionConfigCapacityOutputReference | GooglePubsubLiteTopicPartitionConfigCapacity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     publish_mib_per_sec: {
@@ -197,13 +197,13 @@ export interface GooglePubsubLiteTopicPartitionConfig {
   /**
   * The number of partitions in the topic. Must be at least 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#count GooglePubsubLiteTopic#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#count GooglePubsubLiteTopic#count}
   */
   readonly count: number;
   /**
   * capacity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#capacity GooglePubsubLiteTopic#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#capacity GooglePubsubLiteTopic#capacity}
   */
   readonly capacity?: GooglePubsubLiteTopicPartitionConfigCapacity;
 }
@@ -211,7 +211,7 @@ export interface GooglePubsubLiteTopicPartitionConfig {
 export function googlePubsubLiteTopicPartitionConfigToTerraform(struct?: GooglePubsubLiteTopicPartitionConfigOutputReference | GooglePubsubLiteTopicPartitionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     count: cdktn.numberToTerraform(struct!.count),
@@ -223,7 +223,7 @@ export function googlePubsubLiteTopicPartitionConfigToTerraform(struct?: GoogleP
 export function googlePubsubLiteTopicPartitionConfigToHclTerraform(struct?: GooglePubsubLiteTopicPartitionConfigOutputReference | GooglePubsubLiteTopicPartitionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     count: {
@@ -315,7 +315,7 @@ export interface GooglePubsubLiteTopicReservationConfig {
   /**
   * The Reservation to use for this topic's throughput capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#throughput_reservation GooglePubsubLiteTopic#throughput_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#throughput_reservation GooglePubsubLiteTopic#throughput_reservation}
   */
   readonly throughputReservation?: string;
 }
@@ -323,7 +323,7 @@ export interface GooglePubsubLiteTopicReservationConfig {
 export function googlePubsubLiteTopicReservationConfigToTerraform(struct?: GooglePubsubLiteTopicReservationConfigOutputReference | GooglePubsubLiteTopicReservationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     throughput_reservation: cdktn.stringToTerraform(struct!.throughputReservation),
@@ -334,7 +334,7 @@ export function googlePubsubLiteTopicReservationConfigToTerraform(struct?: Googl
 export function googlePubsubLiteTopicReservationConfigToHclTerraform(struct?: GooglePubsubLiteTopicReservationConfigOutputReference | GooglePubsubLiteTopicReservationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     throughput_reservation: {
@@ -403,7 +403,7 @@ export interface GooglePubsubLiteTopicRetentionConfig {
   * in any of the topic's partitions grows beyond this value, older messages will be
   * dropped to make room for newer ones, regardless of the value of period.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#per_partition_bytes GooglePubsubLiteTopic#per_partition_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#per_partition_bytes GooglePubsubLiteTopic#per_partition_bytes}
   */
   readonly perPartitionBytes: string;
   /**
@@ -412,7 +412,7 @@ export interface GooglePubsubLiteTopicRetentionConfig {
   * duration in seconds with up to nine fractional digits, terminated by 's'.
   * Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#period GooglePubsubLiteTopic#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#period GooglePubsubLiteTopic#period}
   */
   readonly period?: string;
 }
@@ -420,7 +420,7 @@ export interface GooglePubsubLiteTopicRetentionConfig {
 export function googlePubsubLiteTopicRetentionConfigToTerraform(struct?: GooglePubsubLiteTopicRetentionConfigOutputReference | GooglePubsubLiteTopicRetentionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     per_partition_bytes: cdktn.stringToTerraform(struct!.perPartitionBytes),
@@ -432,7 +432,7 @@ export function googlePubsubLiteTopicRetentionConfigToTerraform(struct?: GoogleP
 export function googlePubsubLiteTopicRetentionConfigToHclTerraform(struct?: GooglePubsubLiteTopicRetentionConfigOutputReference | GooglePubsubLiteTopicRetentionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     per_partition_bytes: {
@@ -522,15 +522,15 @@ export class GooglePubsubLiteTopicRetentionConfigOutputReference extends cdktn.C
 }
 export interface GooglePubsubLiteTopicTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#create GooglePubsubLiteTopic#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#create GooglePubsubLiteTopic#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#delete GooglePubsubLiteTopic#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#delete GooglePubsubLiteTopic#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#update GooglePubsubLiteTopic#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#update GooglePubsubLiteTopic#update}
   */
   readonly update?: string;
 }
@@ -538,7 +538,7 @@ export interface GooglePubsubLiteTopicTimeouts {
 export function googlePubsubLiteTopicTimeoutsToTerraform(struct?: GooglePubsubLiteTopicTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -551,7 +551,7 @@ export function googlePubsubLiteTopicTimeoutsToTerraform(struct?: GooglePubsubLi
 export function googlePubsubLiteTopicTimeoutsToHclTerraform(struct?: GooglePubsubLiteTopicTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -682,7 +682,7 @@ export class GooglePubsubLiteTopicTimeoutsOutputReference extends cdktn.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic}
 */
 export class GooglePubsubLiteTopic extends cdktn.TerraformResource {
 
@@ -698,7 +698,7 @@ export class GooglePubsubLiteTopic extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GooglePubsubLiteTopic resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GooglePubsubLiteTopic to import
-  * @param importFromId The id of the existing GooglePubsubLiteTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GooglePubsubLiteTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GooglePubsubLiteTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -710,7 +710,7 @@ export class GooglePubsubLiteTopic extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_pubsub_lite_topic google_pubsub_lite_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -721,7 +721,7 @@ export class GooglePubsubLiteTopic extends cdktn.TerraformResource {
       terraformResourceType: 'google_pubsub_lite_topic',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

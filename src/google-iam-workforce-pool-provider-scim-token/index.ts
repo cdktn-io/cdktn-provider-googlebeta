@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleIamWorkforcePoolProviderScimTokenConfig extends cdktn.Ter
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#deletion_policy GoogleIamWorkforcePoolProviderScimToken#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#deletion_policy GoogleIamWorkforcePoolProviderScimToken#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A user-specified display name for the scim token. Cannot exceed 32 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#display_name GoogleIamWorkforcePoolProviderScimToken#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#display_name GoogleIamWorkforcePoolProviderScimToken#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#id GoogleIamWorkforcePoolProviderScimToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,51 +40,51 @@ export interface GoogleIamWorkforcePoolProviderScimTokenConfig extends cdktn.Ter
   /**
   * The location for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#location GoogleIamWorkforcePoolProviderScimToken#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#location GoogleIamWorkforcePoolProviderScimToken#location}
   */
   readonly location: string;
   /**
   * The ID of the Provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#provider_id GoogleIamWorkforcePoolProviderScimToken#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#provider_id GoogleIamWorkforcePoolProviderScimToken#provider_id}
   */
   readonly providerId: string;
   /**
   * The ID of the SCIM Tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_tenant_id GoogleIamWorkforcePoolProviderScimToken#scim_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_tenant_id GoogleIamWorkforcePoolProviderScimToken#scim_tenant_id}
   */
   readonly scimTenantId: string;
   /**
   * The ID to use for the SCIM Token, which becomes the final component of the resource name. This value should be 4-32 characters and follow the pattern: '([a-z]([a-z0-9\\-]{2,30}[a-z0-9]))'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_token_id GoogleIamWorkforcePoolProviderScimToken#scim_token_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#scim_token_id GoogleIamWorkforcePoolProviderScimToken#scim_token_id}
   */
   readonly scimTokenId: string;
   /**
   * The ID of the Workforce Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#workforce_pool_id GoogleIamWorkforcePoolProviderScimToken#workforce_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#workforce_pool_id GoogleIamWorkforcePoolProviderScimToken#workforce_pool_id}
   */
   readonly workforcePoolId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#timeouts GoogleIamWorkforcePoolProviderScimToken#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#timeouts GoogleIamWorkforcePoolProviderScimToken#timeouts}
   */
   readonly timeouts?: GoogleIamWorkforcePoolProviderScimTokenTimeouts;
 }
 export interface GoogleIamWorkforcePoolProviderScimTokenTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#create GoogleIamWorkforcePoolProviderScimToken#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#create GoogleIamWorkforcePoolProviderScimToken#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#delete GoogleIamWorkforcePoolProviderScimToken#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#delete GoogleIamWorkforcePoolProviderScimToken#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#update GoogleIamWorkforcePoolProviderScimToken#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#update GoogleIamWorkforcePoolProviderScimToken#update}
   */
   readonly update?: string;
 }
@@ -92,7 +92,7 @@ export interface GoogleIamWorkforcePoolProviderScimTokenTimeouts {
 export function googleIamWorkforcePoolProviderScimTokenTimeoutsToTerraform(struct?: GoogleIamWorkforcePoolProviderScimTokenTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -105,7 +105,7 @@ export function googleIamWorkforcePoolProviderScimTokenTimeoutsToTerraform(struc
 export function googleIamWorkforcePoolProviderScimTokenTimeoutsToHclTerraform(struct?: GoogleIamWorkforcePoolProviderScimTokenTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -236,7 +236,7 @@ export class GoogleIamWorkforcePoolProviderScimTokenTimeoutsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token}
 */
 export class GoogleIamWorkforcePoolProviderScimToken extends cdktn.TerraformResource {
 
@@ -252,7 +252,7 @@ export class GoogleIamWorkforcePoolProviderScimToken extends cdktn.TerraformReso
   * Generates CDKTN code for importing a GoogleIamWorkforcePoolProviderScimToken resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleIamWorkforcePoolProviderScimToken to import
-  * @param importFromId The id of the existing GoogleIamWorkforcePoolProviderScimToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleIamWorkforcePoolProviderScimToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleIamWorkforcePoolProviderScimToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -264,7 +264,7 @@ export class GoogleIamWorkforcePoolProviderScimToken extends cdktn.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_iam_workforce_pool_provider_scim_token google_iam_workforce_pool_provider_scim_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,7 +275,7 @@ export class GoogleIamWorkforcePoolProviderScimToken extends cdktn.TerraformReso
       terraformResourceType: 'google_iam_workforce_pool_provider_scim_token',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,13 +17,13 @@ export interface GoogleFirebaseHostingCustomDomainConfig extends cdktn.Terraform
   * for your domain name. Spark plan 'CustomDomain's only have access to the
   * 'GROUPED' cert type, while Blaze plan can select any option. Possible values: ["GROUPED", "PROJECT_GROUPED", "DEDICATED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#cert_preference GoogleFirebaseHostingCustomDomain#cert_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#cert_preference GoogleFirebaseHostingCustomDomain#cert_preference}
   */
   readonly certPreference?: string;
   /**
   * The ID of the 'CustomDomain', which is the domain name you'd like to use with Firebase Hosting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#custom_domain GoogleFirebaseHostingCustomDomain#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#custom_domain GoogleFirebaseHostingCustomDomain#custom_domain}
   */
   readonly customDomain: string;
   /**
@@ -35,18 +35,18 @@ export interface GoogleFirebaseHostingCustomDomainConfig extends cdktn.Terraform
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#deletion_policy GoogleFirebaseHostingCustomDomain#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#deletion_policy GoogleFirebaseHostingCustomDomain#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#id GoogleFirebaseHostingCustomDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#id GoogleFirebaseHostingCustomDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#project GoogleFirebaseHostingCustomDomain#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#project GoogleFirebaseHostingCustomDomain#project}
   */
   readonly project?: string;
   /**
@@ -55,13 +55,13 @@ export interface GoogleFirebaseHostingCustomDomainConfig extends cdktn.Terraform
   * with an HTTP 301 code, and route traffic to the specified 'redirect_target'
   * instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#redirect_target GoogleFirebaseHostingCustomDomain#redirect_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#redirect_target GoogleFirebaseHostingCustomDomain#redirect_target}
   */
   readonly redirectTarget?: string;
   /**
   * The ID of the site in which to create this custom domain association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#site_id GoogleFirebaseHostingCustomDomain#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#site_id GoogleFirebaseHostingCustomDomain#site_id}
   */
   readonly siteId: string;
   /**
@@ -69,13 +69,13 @@ export interface GoogleFirebaseHostingCustomDomainConfig extends cdktn.Terraform
   * If false, Terraform will not wait for DNS records on the 'CustomDomain'. Any issues in
   * the 'CustomDomain' will be returned and stored in the Terraform state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#wait_dns_verification GoogleFirebaseHostingCustomDomain#wait_dns_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#wait_dns_verification GoogleFirebaseHostingCustomDomain#wait_dns_verification}
   */
   readonly waitDnsVerification?: boolean | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#timeouts GoogleFirebaseHostingCustomDomain#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#timeouts GoogleFirebaseHostingCustomDomain#timeouts}
   */
   readonly timeouts?: GoogleFirebaseHostingCustomDomainTimeouts;
 }
@@ -85,7 +85,7 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredReco
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecords): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -95,7 +95,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecor
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecordsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDesiredRecords): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -175,7 +175,7 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDnsDesired {
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDesired): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -185,7 +185,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredToTer
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDesiredToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDesired): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -256,7 +256,7 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredR
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecordsToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecords): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -266,7 +266,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRe
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecordsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredRecords): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -346,7 +346,7 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscovered 
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscovered): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -356,7 +356,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredTo
 export function googleFirebaseHostingCustomDomainCertVerificationDnsDiscoveredToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDnsDiscovered): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -427,7 +427,7 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationDns {
 export function googleFirebaseHostingCustomDomainCertVerificationDnsToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDns): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -437,7 +437,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationDnsToTerraform(
 export function googleFirebaseHostingCustomDomainCertVerificationDnsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationDns): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -514,7 +514,7 @@ export interface GoogleFirebaseHostingCustomDomainCertVerificationHttp {
 export function googleFirebaseHostingCustomDomainCertVerificationHttpToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationHttp): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -524,7 +524,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationHttpToTerraform
 export function googleFirebaseHostingCustomDomainCertVerificationHttpToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerificationHttp): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -604,7 +604,7 @@ export interface GoogleFirebaseHostingCustomDomainCertVerification {
 export function googleFirebaseHostingCustomDomainCertVerificationToTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerification): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -614,7 +614,7 @@ export function googleFirebaseHostingCustomDomainCertVerificationToTerraform(str
 export function googleFirebaseHostingCustomDomainCertVerificationToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCertVerification): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -686,7 +686,7 @@ export interface GoogleFirebaseHostingCustomDomainCert {
 export function googleFirebaseHostingCustomDomainCertToTerraform(struct?: GoogleFirebaseHostingCustomDomainCert): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -696,7 +696,7 @@ export function googleFirebaseHostingCustomDomainCertToTerraform(struct?: Google
 export function googleFirebaseHostingCustomDomainCertToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainCert): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -772,7 +772,7 @@ export interface GoogleFirebaseHostingCustomDomainIssues {
 export function googleFirebaseHostingCustomDomainIssuesToTerraform(struct?: GoogleFirebaseHostingCustomDomainIssues): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -782,7 +782,7 @@ export function googleFirebaseHostingCustomDomainIssuesToTerraform(struct?: Goog
 export function googleFirebaseHostingCustomDomainIssuesToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainIssues): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -857,7 +857,7 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecor
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecords): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -867,7 +867,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecord
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecordsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredRecords): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -947,7 +947,7 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesired {
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesired): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -957,7 +957,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredToTerr
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDesiredToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDesired): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1028,7 +1028,7 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRe
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecordsToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecords): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1038,7 +1038,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRec
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecordsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredRecords): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1118,7 +1118,7 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscovered {
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscovered): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1128,7 +1128,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredToT
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscoveredToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesDiscovered): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1199,7 +1199,7 @@ export interface GoogleFirebaseHostingCustomDomainRequiredDnsUpdates {
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesToTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdates): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1209,7 +1209,7 @@ export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesToTerraform(s
 export function googleFirebaseHostingCustomDomainRequiredDnsUpdatesToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainRequiredDnsUpdates): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1282,15 +1282,15 @@ export class GoogleFirebaseHostingCustomDomainRequiredDnsUpdatesList extends cdk
 }
 export interface GoogleFirebaseHostingCustomDomainTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#create GoogleFirebaseHostingCustomDomain#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#create GoogleFirebaseHostingCustomDomain#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#delete GoogleFirebaseHostingCustomDomain#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#delete GoogleFirebaseHostingCustomDomain#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#update GoogleFirebaseHostingCustomDomain#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#update GoogleFirebaseHostingCustomDomain#update}
   */
   readonly update?: string;
 }
@@ -1298,7 +1298,7 @@ export interface GoogleFirebaseHostingCustomDomainTimeouts {
 export function googleFirebaseHostingCustomDomainTimeoutsToTerraform(struct?: GoogleFirebaseHostingCustomDomainTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1311,7 +1311,7 @@ export function googleFirebaseHostingCustomDomainTimeoutsToTerraform(struct?: Go
 export function googleFirebaseHostingCustomDomainTimeoutsToHclTerraform(struct?: GoogleFirebaseHostingCustomDomainTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1442,7 +1442,7 @@ export class GoogleFirebaseHostingCustomDomainTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain}
 */
 export class GoogleFirebaseHostingCustomDomain extends cdktn.TerraformResource {
 
@@ -1458,7 +1458,7 @@ export class GoogleFirebaseHostingCustomDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleFirebaseHostingCustomDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleFirebaseHostingCustomDomain to import
-  * @param importFromId The id of the existing GoogleFirebaseHostingCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleFirebaseHostingCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleFirebaseHostingCustomDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1470,7 +1470,7 @@ export class GoogleFirebaseHostingCustomDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_firebase_hosting_custom_domain google_firebase_hosting_custom_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1481,7 +1481,7 @@ export class GoogleFirebaseHostingCustomDomain extends cdktn.TerraformResource {
       terraformResourceType: 'google_firebase_hosting_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

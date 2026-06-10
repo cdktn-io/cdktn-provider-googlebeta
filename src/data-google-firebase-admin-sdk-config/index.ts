@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_firebase_admin_sdk_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_firebase_admin_sdk_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface DataGoogleFirebaseAdminSdkConfigConfig extends cdktn.TerraformM
   /**
   * The ID of the project in which the resource belongs. If it is not provided, the provider project is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_firebase_admin_sdk_config#project DataGoogleFirebaseAdminSdkConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_firebase_admin_sdk_config#project DataGoogleFirebaseAdminSdkConfig#project}
   */
   readonly project?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config}
 */
 export class DataGoogleFirebaseAdminSdkConfig extends cdktn.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataGoogleFirebaseAdminSdkConfig extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataGoogleFirebaseAdminSdkConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleFirebaseAdminSdkConfig to import
-  * @param importFromId The id of the existing DataGoogleFirebaseAdminSdkConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_firebase_admin_sdk_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGoogleFirebaseAdminSdkConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_firebase_admin_sdk_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleFirebaseAdminSdkConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataGoogleFirebaseAdminSdkConfig extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_firebase_admin_sdk_config google_firebase_admin_sdk_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,7 +60,7 @@ export class DataGoogleFirebaseAdminSdkConfig extends cdktn.TerraformDataSource 
       terraformResourceType: 'google_firebase_admin_sdk_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

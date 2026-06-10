@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,29 +21,29 @@ export interface GoogleDnsManagedZoneConfig extends cdktn.TerraformMetaArguments
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#deletion_policy GoogleDnsManagedZone#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#deletion_policy GoogleDnsManagedZone#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A textual description field. Defaults to 'Managed by Terraform'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#description GoogleDnsManagedZone#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#description GoogleDnsManagedZone#description}
   */
   readonly description?: string;
   /**
   * The DNS name of this managed zone, for instance "example.com.".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#dns_name GoogleDnsManagedZone#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#dns_name GoogleDnsManagedZone#dns_name}
   */
   readonly dnsName: string;
   /**
   * Set this true to delete all records in the zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#force_destroy GoogleDnsManagedZone#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#force_destroy GoogleDnsManagedZone#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#id GoogleDnsManagedZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#id GoogleDnsManagedZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,18 +56,18 @@ export interface GoogleDnsManagedZoneConfig extends cdktn.TerraformMetaArguments
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#labels GoogleDnsManagedZone#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#labels GoogleDnsManagedZone#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * User assigned name for this resource.
   * Must be unique within the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#name GoogleDnsManagedZone#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#name GoogleDnsManagedZone#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#project GoogleDnsManagedZone#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#project GoogleDnsManagedZone#project}
   */
   readonly project?: string;
   /**
@@ -75,56 +75,56 @@ export interface GoogleDnsManagedZoneConfig extends cdktn.TerraformMetaArguments
   * lookup queries using automatically configured records for VPC resources. This only applies
   * to networks listed under 'private_visibility_config'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#reverse_lookup GoogleDnsManagedZone#reverse_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#reverse_lookup GoogleDnsManagedZone#reverse_lookup}
   */
   readonly reverseLookup?: boolean | cdktn.IResolvable;
   /**
   * The zone's visibility: public zones are exposed to the Internet,
   * while private zones are visible only to Virtual Private Cloud resources. Default value: "public" Possible values: ["private", "public"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#visibility GoogleDnsManagedZone#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#visibility GoogleDnsManagedZone#visibility}
   */
   readonly visibility?: string;
   /**
   * cloud_logging_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#cloud_logging_config GoogleDnsManagedZone#cloud_logging_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#cloud_logging_config GoogleDnsManagedZone#cloud_logging_config}
   */
   readonly cloudLoggingConfig?: GoogleDnsManagedZoneCloudLoggingConfig;
   /**
   * dnssec_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#dnssec_config GoogleDnsManagedZone#dnssec_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#dnssec_config GoogleDnsManagedZone#dnssec_config}
   */
   readonly dnssecConfig?: GoogleDnsManagedZoneDnssecConfig;
   /**
   * forwarding_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#forwarding_config GoogleDnsManagedZone#forwarding_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#forwarding_config GoogleDnsManagedZone#forwarding_config}
   */
   readonly forwardingConfig?: GoogleDnsManagedZoneForwardingConfig;
   /**
   * peering_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#peering_config GoogleDnsManagedZone#peering_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#peering_config GoogleDnsManagedZone#peering_config}
   */
   readonly peeringConfig?: GoogleDnsManagedZonePeeringConfig;
   /**
   * private_visibility_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#private_visibility_config GoogleDnsManagedZone#private_visibility_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#private_visibility_config GoogleDnsManagedZone#private_visibility_config}
   */
   readonly privateVisibilityConfig?: GoogleDnsManagedZonePrivateVisibilityConfig;
   /**
   * service_directory_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#service_directory_config GoogleDnsManagedZone#service_directory_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#service_directory_config GoogleDnsManagedZone#service_directory_config}
   */
   readonly serviceDirectoryConfig?: GoogleDnsManagedZoneServiceDirectoryConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#timeouts GoogleDnsManagedZone#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#timeouts GoogleDnsManagedZone#timeouts}
   */
   readonly timeouts?: GoogleDnsManagedZoneTimeouts;
 }
@@ -132,7 +132,7 @@ export interface GoogleDnsManagedZoneCloudLoggingConfig {
   /**
   * If set, enable query logging for this ManagedZone. False by default, making logging opt-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#enable_logging GoogleDnsManagedZone#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#enable_logging GoogleDnsManagedZone#enable_logging}
   */
   readonly enableLogging: boolean | cdktn.IResolvable;
 }
@@ -140,7 +140,7 @@ export interface GoogleDnsManagedZoneCloudLoggingConfig {
 export function googleDnsManagedZoneCloudLoggingConfigToTerraform(struct?: GoogleDnsManagedZoneCloudLoggingConfigOutputReference | GoogleDnsManagedZoneCloudLoggingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_logging: cdktn.booleanToTerraform(struct!.enableLogging),
@@ -151,7 +151,7 @@ export function googleDnsManagedZoneCloudLoggingConfigToTerraform(struct?: Googl
 export function googleDnsManagedZoneCloudLoggingConfigToHclTerraform(struct?: GoogleDnsManagedZoneCloudLoggingConfigOutputReference | GoogleDnsManagedZoneCloudLoggingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_logging: {
@@ -215,13 +215,13 @@ export interface GoogleDnsManagedZoneDnssecConfigDefaultKeySpecs {
   /**
   * String mnemonic specifying the DNSSEC algorithm of this key Possible values: ["ecdsap256sha256", "ecdsap384sha384", "rsasha1", "rsasha256", "rsasha512"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#algorithm GoogleDnsManagedZone#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#algorithm GoogleDnsManagedZone#algorithm}
   */
   readonly algorithm?: string;
   /**
   * Length of the keys in bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#key_length GoogleDnsManagedZone#key_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#key_length GoogleDnsManagedZone#key_length}
   */
   readonly keyLength?: number;
   /**
@@ -232,13 +232,13 @@ export interface GoogleDnsManagedZoneDnssecConfigDefaultKeySpecs {
   * not have the Secure Entry Point flag set and will be used
   * to sign all other types of resource record sets. Possible values: ["keySigning", "zoneSigning"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#key_type GoogleDnsManagedZone#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#key_type GoogleDnsManagedZone#key_type}
   */
   readonly keyType?: string;
   /**
   * Identifies what kind of resource this is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#kind GoogleDnsManagedZone#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#kind GoogleDnsManagedZone#kind}
   */
   readonly kind?: string;
 }
@@ -246,7 +246,7 @@ export interface GoogleDnsManagedZoneDnssecConfigDefaultKeySpecs {
 export function googleDnsManagedZoneDnssecConfigDefaultKeySpecsToTerraform(struct?: GoogleDnsManagedZoneDnssecConfigDefaultKeySpecs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     algorithm: cdktn.stringToTerraform(struct!.algorithm),
@@ -260,7 +260,7 @@ export function googleDnsManagedZoneDnssecConfigDefaultKeySpecsToTerraform(struc
 export function googleDnsManagedZoneDnssecConfigDefaultKeySpecsToHclTerraform(struct?: GoogleDnsManagedZoneDnssecConfigDefaultKeySpecs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     algorithm: {
@@ -443,26 +443,26 @@ export interface GoogleDnsManagedZoneDnssecConfig {
   /**
   * Identifies what kind of resource this is
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#kind GoogleDnsManagedZone#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#kind GoogleDnsManagedZone#kind}
   */
   readonly kind?: string;
   /**
   * Specifies the mechanism used to provide authenticated denial-of-existence responses.
   * non_existence can only be updated when the state is 'off'. Possible values: ["nsec", "nsec3"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#non_existence GoogleDnsManagedZone#non_existence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#non_existence GoogleDnsManagedZone#non_existence}
   */
   readonly nonExistence?: string;
   /**
   * Specifies whether DNSSEC is enabled, and what mode it is in Possible values: ["off", "on", "transfer"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#state GoogleDnsManagedZone#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#state GoogleDnsManagedZone#state}
   */
   readonly state?: string;
   /**
   * default_key_specs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#default_key_specs GoogleDnsManagedZone#default_key_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#default_key_specs GoogleDnsManagedZone#default_key_specs}
   */
   readonly defaultKeySpecs?: GoogleDnsManagedZoneDnssecConfigDefaultKeySpecs[] | cdktn.IResolvable;
 }
@@ -470,7 +470,7 @@ export interface GoogleDnsManagedZoneDnssecConfig {
 export function googleDnsManagedZoneDnssecConfigToTerraform(struct?: GoogleDnsManagedZoneDnssecConfigOutputReference | GoogleDnsManagedZoneDnssecConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     kind: cdktn.stringToTerraform(struct!.kind),
@@ -484,7 +484,7 @@ export function googleDnsManagedZoneDnssecConfigToTerraform(struct?: GoogleDnsMa
 export function googleDnsManagedZoneDnssecConfigToHclTerraform(struct?: GoogleDnsManagedZoneDnssecConfigOutputReference | GoogleDnsManagedZoneDnssecConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     kind: {
@@ -635,7 +635,7 @@ export interface GoogleDnsManagedZoneForwardingConfigTargetNameServers {
   /**
   * Fully qualified domain name for the forwarding target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#domain_name GoogleDnsManagedZone#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#domain_name GoogleDnsManagedZone#domain_name}
   */
   readonly domainName?: string;
   /**
@@ -645,21 +645,21 @@ export interface GoogleDnsManagedZoneForwardingConfigTargetNameServers {
   * to the Internet. When set to 'private', Cloud DNS will always
   * send queries through VPC for this target. Possible values: ["default", "private"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#forwarding_path GoogleDnsManagedZone#forwarding_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#forwarding_path GoogleDnsManagedZone#forwarding_path}
   */
   readonly forwardingPath?: string;
   /**
   * IPv4 address of a target name server.
   * Does not accept both fields (ipv4 & ipv6) being populated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#ipv4_address GoogleDnsManagedZone#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#ipv4_address GoogleDnsManagedZone#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * IPv6 address of a target name server.
   * Does not accept both fields (ipv4 & ipv6) being populated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#ipv6_address GoogleDnsManagedZone#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#ipv6_address GoogleDnsManagedZone#ipv6_address}
   */
   readonly ipv6Address?: string;
 }
@@ -667,7 +667,7 @@ export interface GoogleDnsManagedZoneForwardingConfigTargetNameServers {
 export function googleDnsManagedZoneForwardingConfigTargetNameServersToTerraform(struct?: GoogleDnsManagedZoneForwardingConfigTargetNameServers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     domain_name: cdktn.stringToTerraform(struct!.domainName),
@@ -681,7 +681,7 @@ export function googleDnsManagedZoneForwardingConfigTargetNameServersToTerraform
 export function googleDnsManagedZoneForwardingConfigTargetNameServersToHclTerraform(struct?: GoogleDnsManagedZoneForwardingConfigTargetNameServers | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     domain_name: {
@@ -864,7 +864,7 @@ export interface GoogleDnsManagedZoneForwardingConfig {
   /**
   * target_name_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#target_name_servers GoogleDnsManagedZone#target_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#target_name_servers GoogleDnsManagedZone#target_name_servers}
   */
   readonly targetNameServers: GoogleDnsManagedZoneForwardingConfigTargetNameServers[] | cdktn.IResolvable;
 }
@@ -872,7 +872,7 @@ export interface GoogleDnsManagedZoneForwardingConfig {
 export function googleDnsManagedZoneForwardingConfigToTerraform(struct?: GoogleDnsManagedZoneForwardingConfigOutputReference | GoogleDnsManagedZoneForwardingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     target_name_servers: cdktn.listMapper(googleDnsManagedZoneForwardingConfigTargetNameServersToTerraform, true)(struct!.targetNameServers),
@@ -883,7 +883,7 @@ export function googleDnsManagedZoneForwardingConfigToTerraform(struct?: GoogleD
 export function googleDnsManagedZoneForwardingConfigToHclTerraform(struct?: GoogleDnsManagedZoneForwardingConfigOutputReference | GoogleDnsManagedZoneForwardingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     target_name_servers: {
@@ -949,7 +949,7 @@ export interface GoogleDnsManagedZonePeeringConfigTargetNetwork {
   * This should be formatted like 'projects/{project}/global/networks/{network}' or
   * 'https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#network_url GoogleDnsManagedZone#network_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#network_url GoogleDnsManagedZone#network_url}
   */
   readonly networkUrl: string;
 }
@@ -957,7 +957,7 @@ export interface GoogleDnsManagedZonePeeringConfigTargetNetwork {
 export function googleDnsManagedZonePeeringConfigTargetNetworkToTerraform(struct?: GoogleDnsManagedZonePeeringConfigTargetNetworkOutputReference | GoogleDnsManagedZonePeeringConfigTargetNetwork): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     network_url: cdktn.stringToTerraform(struct!.networkUrl),
@@ -968,7 +968,7 @@ export function googleDnsManagedZonePeeringConfigTargetNetworkToTerraform(struct
 export function googleDnsManagedZonePeeringConfigTargetNetworkToHclTerraform(struct?: GoogleDnsManagedZonePeeringConfigTargetNetworkOutputReference | GoogleDnsManagedZonePeeringConfigTargetNetwork): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     network_url: {
@@ -1032,7 +1032,7 @@ export interface GoogleDnsManagedZonePeeringConfig {
   /**
   * target_network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#target_network GoogleDnsManagedZone#target_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#target_network GoogleDnsManagedZone#target_network}
   */
   readonly targetNetwork: GoogleDnsManagedZonePeeringConfigTargetNetwork;
 }
@@ -1040,7 +1040,7 @@ export interface GoogleDnsManagedZonePeeringConfig {
 export function googleDnsManagedZonePeeringConfigToTerraform(struct?: GoogleDnsManagedZonePeeringConfigOutputReference | GoogleDnsManagedZonePeeringConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     target_network: googleDnsManagedZonePeeringConfigTargetNetworkToTerraform(struct!.targetNetwork),
@@ -1051,7 +1051,7 @@ export function googleDnsManagedZonePeeringConfigToTerraform(struct?: GoogleDnsM
 export function googleDnsManagedZonePeeringConfigToHclTerraform(struct?: GoogleDnsManagedZonePeeringConfigOutputReference | GoogleDnsManagedZonePeeringConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     target_network: {
@@ -1117,7 +1117,7 @@ export interface GoogleDnsManagedZonePrivateVisibilityConfigGkeClusters {
   * This should be specified in the format like
   * 'projects/* /locations/* /clusters/*'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#gke_cluster_name GoogleDnsManagedZone#gke_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#gke_cluster_name GoogleDnsManagedZone#gke_cluster_name}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -1127,7 +1127,7 @@ export interface GoogleDnsManagedZonePrivateVisibilityConfigGkeClusters {
 export function googleDnsManagedZonePrivateVisibilityConfigGkeClustersToTerraform(struct?: GoogleDnsManagedZonePrivateVisibilityConfigGkeClusters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gke_cluster_name: cdktn.stringToTerraform(struct!.gkeClusterName),
@@ -1138,7 +1138,7 @@ export function googleDnsManagedZonePrivateVisibilityConfigGkeClustersToTerrafor
 export function googleDnsManagedZonePrivateVisibilityConfigGkeClustersToHclTerraform(struct?: GoogleDnsManagedZonePrivateVisibilityConfigGkeClusters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gke_cluster_name: {
@@ -1236,7 +1236,7 @@ export interface GoogleDnsManagedZonePrivateVisibilityConfigNetworks {
   * This should be formatted like 'projects/{project}/global/networks/{network}' or
   * 'https://www.googleapis.com/compute/v1/projects/{project}/global/networks/{network}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#network_url GoogleDnsManagedZone#network_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#network_url GoogleDnsManagedZone#network_url}
   */
   readonly networkUrl: string;
 }
@@ -1244,7 +1244,7 @@ export interface GoogleDnsManagedZonePrivateVisibilityConfigNetworks {
 export function googleDnsManagedZonePrivateVisibilityConfigNetworksToTerraform(struct?: GoogleDnsManagedZonePrivateVisibilityConfigNetworks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     network_url: cdktn.stringToTerraform(struct!.networkUrl),
@@ -1255,7 +1255,7 @@ export function googleDnsManagedZonePrivateVisibilityConfigNetworksToTerraform(s
 export function googleDnsManagedZonePrivateVisibilityConfigNetworksToHclTerraform(struct?: GoogleDnsManagedZonePrivateVisibilityConfigNetworks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     network_url: {
@@ -1351,13 +1351,13 @@ export interface GoogleDnsManagedZonePrivateVisibilityConfig {
   /**
   * gke_clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#gke_clusters GoogleDnsManagedZone#gke_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#gke_clusters GoogleDnsManagedZone#gke_clusters}
   */
   readonly gkeClusters?: GoogleDnsManagedZonePrivateVisibilityConfigGkeClusters[] | cdktn.IResolvable;
   /**
   * networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#networks GoogleDnsManagedZone#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#networks GoogleDnsManagedZone#networks}
   */
   readonly networks?: GoogleDnsManagedZonePrivateVisibilityConfigNetworks[] | cdktn.IResolvable;
 }
@@ -1365,7 +1365,7 @@ export interface GoogleDnsManagedZonePrivateVisibilityConfig {
 export function googleDnsManagedZonePrivateVisibilityConfigToTerraform(struct?: GoogleDnsManagedZonePrivateVisibilityConfigOutputReference | GoogleDnsManagedZonePrivateVisibilityConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gke_clusters: cdktn.listMapper(googleDnsManagedZonePrivateVisibilityConfigGkeClustersToTerraform, true)(struct!.gkeClusters),
@@ -1377,7 +1377,7 @@ export function googleDnsManagedZonePrivateVisibilityConfigToTerraform(struct?: 
 export function googleDnsManagedZonePrivateVisibilityConfigToHclTerraform(struct?: GoogleDnsManagedZonePrivateVisibilityConfigOutputReference | GoogleDnsManagedZonePrivateVisibilityConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gke_clusters: {
@@ -1476,7 +1476,7 @@ export interface GoogleDnsManagedZoneServiceDirectoryConfigNamespace {
   * or simply 'projects/{project}/locations/{location}/namespaces/{namespace_id}'
   * Ignored for 'public' visibility zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#namespace_url GoogleDnsManagedZone#namespace_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#namespace_url GoogleDnsManagedZone#namespace_url}
   */
   readonly namespaceUrl: string;
 }
@@ -1484,7 +1484,7 @@ export interface GoogleDnsManagedZoneServiceDirectoryConfigNamespace {
 export function googleDnsManagedZoneServiceDirectoryConfigNamespaceToTerraform(struct?: GoogleDnsManagedZoneServiceDirectoryConfigNamespaceOutputReference | GoogleDnsManagedZoneServiceDirectoryConfigNamespace): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     namespace_url: cdktn.stringToTerraform(struct!.namespaceUrl),
@@ -1495,7 +1495,7 @@ export function googleDnsManagedZoneServiceDirectoryConfigNamespaceToTerraform(s
 export function googleDnsManagedZoneServiceDirectoryConfigNamespaceToHclTerraform(struct?: GoogleDnsManagedZoneServiceDirectoryConfigNamespaceOutputReference | GoogleDnsManagedZoneServiceDirectoryConfigNamespace): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     namespace_url: {
@@ -1559,7 +1559,7 @@ export interface GoogleDnsManagedZoneServiceDirectoryConfig {
   /**
   * namespace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#namespace GoogleDnsManagedZone#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#namespace GoogleDnsManagedZone#namespace}
   */
   readonly namespace: GoogleDnsManagedZoneServiceDirectoryConfigNamespace;
 }
@@ -1567,7 +1567,7 @@ export interface GoogleDnsManagedZoneServiceDirectoryConfig {
 export function googleDnsManagedZoneServiceDirectoryConfigToTerraform(struct?: GoogleDnsManagedZoneServiceDirectoryConfigOutputReference | GoogleDnsManagedZoneServiceDirectoryConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     namespace: googleDnsManagedZoneServiceDirectoryConfigNamespaceToTerraform(struct!.namespace),
@@ -1578,7 +1578,7 @@ export function googleDnsManagedZoneServiceDirectoryConfigToTerraform(struct?: G
 export function googleDnsManagedZoneServiceDirectoryConfigToHclTerraform(struct?: GoogleDnsManagedZoneServiceDirectoryConfigOutputReference | GoogleDnsManagedZoneServiceDirectoryConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     namespace: {
@@ -1640,15 +1640,15 @@ export class GoogleDnsManagedZoneServiceDirectoryConfigOutputReference extends c
 }
 export interface GoogleDnsManagedZoneTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#create GoogleDnsManagedZone#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#create GoogleDnsManagedZone#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#delete GoogleDnsManagedZone#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#delete GoogleDnsManagedZone#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#update GoogleDnsManagedZone#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#update GoogleDnsManagedZone#update}
   */
   readonly update?: string;
 }
@@ -1656,7 +1656,7 @@ export interface GoogleDnsManagedZoneTimeouts {
 export function googleDnsManagedZoneTimeoutsToTerraform(struct?: GoogleDnsManagedZoneTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1669,7 +1669,7 @@ export function googleDnsManagedZoneTimeoutsToTerraform(struct?: GoogleDnsManage
 export function googleDnsManagedZoneTimeoutsToHclTerraform(struct?: GoogleDnsManagedZoneTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1800,7 +1800,7 @@ export class GoogleDnsManagedZoneTimeoutsOutputReference extends cdktn.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone google_dns_managed_zone}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone google_dns_managed_zone}
 */
 export class GoogleDnsManagedZone extends cdktn.TerraformResource {
 
@@ -1816,7 +1816,7 @@ export class GoogleDnsManagedZone extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDnsManagedZone resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDnsManagedZone to import
-  * @param importFromId The id of the existing GoogleDnsManagedZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDnsManagedZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDnsManagedZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1828,7 +1828,7 @@ export class GoogleDnsManagedZone extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dns_managed_zone google_dns_managed_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dns_managed_zone google_dns_managed_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1839,7 +1839,7 @@ export class GoogleDnsManagedZone extends cdktn.TerraformResource {
       terraformResourceType: 'google_dns_managed_zone',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

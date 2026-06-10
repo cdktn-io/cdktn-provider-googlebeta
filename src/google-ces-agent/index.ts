@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,20 +17,20 @@ export interface GoogleCesAgentConfig extends cdktn.TerraformMetaArguments {
   * the agent's resource name. If not provided, a unique ID will be
   * automatically assigned for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#agent_id GoogleCesAgent#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#agent_id GoogleCesAgent#agent_id}
   */
   readonly agentId?: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#app GoogleCesAgent#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#app GoogleCesAgent#app}
   */
   readonly app: string;
   /**
   * List of child agents in the agent tree.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#child_agents GoogleCesAgent#child_agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#child_agents GoogleCesAgent#child_agents}
   */
   readonly childAgents?: string[];
   /**
@@ -42,19 +42,19 @@ export interface GoogleCesAgentConfig extends cdktn.TerraformMetaArguments {
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#deletion_policy GoogleCesAgent#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#deletion_policy GoogleCesAgent#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Human-readable description of the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Display name of the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#display_name GoogleCesAgent#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#display_name GoogleCesAgent#display_name}
   */
   readonly displayName: string;
   /**
@@ -62,11 +62,11 @@ export interface GoogleCesAgentConfig extends cdktn.TerraformMetaArguments {
   * Format:
   * 'projects/{project}/locations/{location}/apps/{app}/guardrails/{guardrail}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#guardrails GoogleCesAgent#guardrails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#guardrails GoogleCesAgent#guardrails}
   */
   readonly guardrails?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#id GoogleCesAgent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#id GoogleCesAgent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,90 +75,90 @@ export interface GoogleCesAgentConfig extends cdktn.TerraformMetaArguments {
   /**
   * Instructions for the LLM model to guide the agent's behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#instruction GoogleCesAgent#instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#instruction GoogleCesAgent#instruction}
   */
   readonly instruction?: string;
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#location GoogleCesAgent#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#location GoogleCesAgent#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#project GoogleCesAgent#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#project GoogleCesAgent#project}
   */
   readonly project?: string;
   /**
   * List of available tools for the agent.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/tools/{tool}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#tools GoogleCesAgent#tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#tools GoogleCesAgent#tools}
   */
   readonly tools?: string[];
   /**
   * after_agent_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#after_agent_callbacks GoogleCesAgent#after_agent_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#after_agent_callbacks GoogleCesAgent#after_agent_callbacks}
   */
   readonly afterAgentCallbacks?: GoogleCesAgentAfterAgentCallbacks[] | cdktn.IResolvable;
   /**
   * after_model_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#after_model_callbacks GoogleCesAgent#after_model_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#after_model_callbacks GoogleCesAgent#after_model_callbacks}
   */
   readonly afterModelCallbacks?: GoogleCesAgentAfterModelCallbacks[] | cdktn.IResolvable;
   /**
   * after_tool_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#after_tool_callbacks GoogleCesAgent#after_tool_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#after_tool_callbacks GoogleCesAgent#after_tool_callbacks}
   */
   readonly afterToolCallbacks?: GoogleCesAgentAfterToolCallbacks[] | cdktn.IResolvable;
   /**
   * before_agent_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#before_agent_callbacks GoogleCesAgent#before_agent_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#before_agent_callbacks GoogleCesAgent#before_agent_callbacks}
   */
   readonly beforeAgentCallbacks?: GoogleCesAgentBeforeAgentCallbacks[] | cdktn.IResolvable;
   /**
   * before_model_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#before_model_callbacks GoogleCesAgent#before_model_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#before_model_callbacks GoogleCesAgent#before_model_callbacks}
   */
   readonly beforeModelCallbacks?: GoogleCesAgentBeforeModelCallbacks[] | cdktn.IResolvable;
   /**
   * before_tool_callbacks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#before_tool_callbacks GoogleCesAgent#before_tool_callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#before_tool_callbacks GoogleCesAgent#before_tool_callbacks}
   */
   readonly beforeToolCallbacks?: GoogleCesAgentBeforeToolCallbacks[] | cdktn.IResolvable;
   /**
   * llm_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#llm_agent GoogleCesAgent#llm_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#llm_agent GoogleCesAgent#llm_agent}
   */
   readonly llmAgent?: GoogleCesAgentLlmAgent;
   /**
   * model_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#model_settings GoogleCesAgent#model_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#model_settings GoogleCesAgent#model_settings}
   */
   readonly modelSettings?: GoogleCesAgentModelSettings;
   /**
   * remote_dialogflow_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#remote_dialogflow_agent GoogleCesAgent#remote_dialogflow_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#remote_dialogflow_agent GoogleCesAgent#remote_dialogflow_agent}
   */
   readonly remoteDialogflowAgent?: GoogleCesAgentRemoteDialogflowAgent;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#timeouts GoogleCesAgent#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#timeouts GoogleCesAgent#timeouts}
   */
   readonly timeouts?: GoogleCesAgentTimeouts;
   /**
   * toolsets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#toolsets GoogleCesAgent#toolsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#toolsets GoogleCesAgent#toolsets}
   */
   readonly toolsets?: GoogleCesAgentToolsets[] | cdktn.IResolvable;
 }
@@ -166,20 +166,20 @@ export interface GoogleCesAgentAfterAgentCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -187,7 +187,7 @@ export interface GoogleCesAgentAfterAgentCallbacks {
 export function googleCesAgentAfterAgentCallbacksToTerraform(struct?: GoogleCesAgentAfterAgentCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -200,7 +200,7 @@ export function googleCesAgentAfterAgentCallbacksToTerraform(struct?: GoogleCesA
 export function googleCesAgentAfterAgentCallbacksToHclTerraform(struct?: GoogleCesAgentAfterAgentCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -352,20 +352,20 @@ export interface GoogleCesAgentAfterModelCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -373,7 +373,7 @@ export interface GoogleCesAgentAfterModelCallbacks {
 export function googleCesAgentAfterModelCallbacksToTerraform(struct?: GoogleCesAgentAfterModelCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -386,7 +386,7 @@ export function googleCesAgentAfterModelCallbacksToTerraform(struct?: GoogleCesA
 export function googleCesAgentAfterModelCallbacksToHclTerraform(struct?: GoogleCesAgentAfterModelCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -538,20 +538,20 @@ export interface GoogleCesAgentAfterToolCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -559,7 +559,7 @@ export interface GoogleCesAgentAfterToolCallbacks {
 export function googleCesAgentAfterToolCallbacksToTerraform(struct?: GoogleCesAgentAfterToolCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -572,7 +572,7 @@ export function googleCesAgentAfterToolCallbacksToTerraform(struct?: GoogleCesAg
 export function googleCesAgentAfterToolCallbacksToHclTerraform(struct?: GoogleCesAgentAfterToolCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -724,20 +724,20 @@ export interface GoogleCesAgentBeforeAgentCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -745,7 +745,7 @@ export interface GoogleCesAgentBeforeAgentCallbacks {
 export function googleCesAgentBeforeAgentCallbacksToTerraform(struct?: GoogleCesAgentBeforeAgentCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -758,7 +758,7 @@ export function googleCesAgentBeforeAgentCallbacksToTerraform(struct?: GoogleCes
 export function googleCesAgentBeforeAgentCallbacksToHclTerraform(struct?: GoogleCesAgentBeforeAgentCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -910,20 +910,20 @@ export interface GoogleCesAgentBeforeModelCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -931,7 +931,7 @@ export interface GoogleCesAgentBeforeModelCallbacks {
 export function googleCesAgentBeforeModelCallbacksToTerraform(struct?: GoogleCesAgentBeforeModelCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -944,7 +944,7 @@ export function googleCesAgentBeforeModelCallbacksToTerraform(struct?: GoogleCes
 export function googleCesAgentBeforeModelCallbacksToHclTerraform(struct?: GoogleCesAgentBeforeModelCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -1096,20 +1096,20 @@ export interface GoogleCesAgentBeforeToolCallbacks {
   /**
   * Human-readable description of the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#description GoogleCesAgent#description}
   */
   readonly description?: string;
   /**
   * Whether the callback is disabled. Disabled callbacks are ignored by the
   * agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#disabled GoogleCesAgent#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * The python code to execute for the callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#python_code GoogleCesAgent#python_code}
   */
   readonly pythonCode: string;
 }
@@ -1117,7 +1117,7 @@ export interface GoogleCesAgentBeforeToolCallbacks {
 export function googleCesAgentBeforeToolCallbacksToTerraform(struct?: GoogleCesAgentBeforeToolCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -1130,7 +1130,7 @@ export function googleCesAgentBeforeToolCallbacksToTerraform(struct?: GoogleCesA
 export function googleCesAgentBeforeToolCallbacksToHclTerraform(struct?: GoogleCesAgentBeforeToolCallbacks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -1284,7 +1284,7 @@ export interface GoogleCesAgentLlmAgent {
 export function googleCesAgentLlmAgentToTerraform(struct?: GoogleCesAgentLlmAgentOutputReference | GoogleCesAgentLlmAgent): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1294,7 +1294,7 @@ export function googleCesAgentLlmAgentToTerraform(struct?: GoogleCesAgentLlmAgen
 export function googleCesAgentLlmAgentToHclTerraform(struct?: GoogleCesAgentLlmAgentOutputReference | GoogleCesAgentLlmAgent): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1332,7 +1332,7 @@ export interface GoogleCesAgentModelSettings {
   * The LLM model that the agent should use.
   * If not set, the agent will inherit the model from its parent agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#model GoogleCesAgent#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#model GoogleCesAgent#model}
   */
   readonly model?: string;
   /**
@@ -1341,7 +1341,7 @@ export interface GoogleCesAgentModelSettings {
   * produce responses that are more predictable. Higher temperatures produce
   * responses that are more creative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#temperature GoogleCesAgent#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#temperature GoogleCesAgent#temperature}
   */
   readonly temperature?: number;
 }
@@ -1349,7 +1349,7 @@ export interface GoogleCesAgentModelSettings {
 export function googleCesAgentModelSettingsToTerraform(struct?: GoogleCesAgentModelSettingsOutputReference | GoogleCesAgentModelSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     model: cdktn.stringToTerraform(struct!.model),
@@ -1361,7 +1361,7 @@ export function googleCesAgentModelSettingsToTerraform(struct?: GoogleCesAgentMo
 export function googleCesAgentModelSettingsToHclTerraform(struct?: GoogleCesAgentModelSettingsOutputReference | GoogleCesAgentModelSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     model: {
@@ -1459,27 +1459,27 @@ export interface GoogleCesAgentRemoteDialogflowAgent {
   * agent resource name.
   * Format: 'projects/{project}/locations/{location}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#agent GoogleCesAgent#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#agent GoogleCesAgent#agent}
   */
   readonly agent: string;
   /**
   * The environment ID of the Dialogflow agent be used for the agent
   * execution. If not specified, the draft environment will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#environment_id GoogleCesAgent#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#environment_id GoogleCesAgent#environment_id}
   */
   readonly environmentId?: string;
   /**
   * The flow ID of the flow in the Dialogflow agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#flow_id GoogleCesAgent#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#flow_id GoogleCesAgent#flow_id}
   */
   readonly flowId: string;
   /**
   * The mapping of the app variables names to the Dialogflow session
   * parameters names to be sent to the Dialogflow agent as input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#input_variable_mapping GoogleCesAgent#input_variable_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#input_variable_mapping GoogleCesAgent#input_variable_mapping}
   */
   readonly inputVariableMapping?: { [key: string]: string };
   /**
@@ -1487,13 +1487,13 @@ export interface GoogleCesAgentRemoteDialogflowAgent {
   * variables names to be sent back to the CES agent after the Dialogflow
   * agent execution ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#output_variable_mapping GoogleCesAgent#output_variable_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#output_variable_mapping GoogleCesAgent#output_variable_mapping}
   */
   readonly outputVariableMapping?: { [key: string]: string };
   /**
   * Indicates whether to respect the message-level interruption settings configured in the Dialogflow agent. * If false: all response messages from the Dialogflow agent follow the app-level barge-in settings. * If true: only response messages with ['allow_playback_interruption'](https://docs.cloud.google.com/dialogflow/cx/docs/reference/rpc/google.cloud.dialogflow.cx.v3#text) set to true will be interruptable, all other messages follow the app-level barge-in settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#respect_response_interruption_settings GoogleCesAgent#respect_response_interruption_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#respect_response_interruption_settings GoogleCesAgent#respect_response_interruption_settings}
   */
   readonly respectResponseInterruptionSettings?: boolean | cdktn.IResolvable;
 }
@@ -1501,7 +1501,7 @@ export interface GoogleCesAgentRemoteDialogflowAgent {
 export function googleCesAgentRemoteDialogflowAgentToTerraform(struct?: GoogleCesAgentRemoteDialogflowAgentOutputReference | GoogleCesAgentRemoteDialogflowAgent): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     agent: cdktn.stringToTerraform(struct!.agent),
@@ -1517,7 +1517,7 @@ export function googleCesAgentRemoteDialogflowAgentToTerraform(struct?: GoogleCe
 export function googleCesAgentRemoteDialogflowAgentToHclTerraform(struct?: GoogleCesAgentRemoteDialogflowAgentOutputReference | GoogleCesAgentRemoteDialogflowAgent): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     agent: {
@@ -1716,15 +1716,15 @@ export class GoogleCesAgentRemoteDialogflowAgentOutputReference extends cdktn.Co
 }
 export interface GoogleCesAgentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#create GoogleCesAgent#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#create GoogleCesAgent#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#delete GoogleCesAgent#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#delete GoogleCesAgent#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#update GoogleCesAgent#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#update GoogleCesAgent#update}
   */
   readonly update?: string;
 }
@@ -1732,7 +1732,7 @@ export interface GoogleCesAgentTimeouts {
 export function googleCesAgentTimeoutsToTerraform(struct?: GoogleCesAgentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1745,7 +1745,7 @@ export function googleCesAgentTimeoutsToTerraform(struct?: GoogleCesAgentTimeout
 export function googleCesAgentTimeoutsToHclTerraform(struct?: GoogleCesAgentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1878,7 +1878,7 @@ export interface GoogleCesAgentToolsets {
   /**
   * The tools IDs to filter the toolset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#tool_ids GoogleCesAgent#tool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#tool_ids GoogleCesAgent#tool_ids}
   */
   readonly toolIds?: string[];
   /**
@@ -1886,7 +1886,7 @@ export interface GoogleCesAgentToolsets {
   * Format:
   * 'projects/{project}/locations/{location}/apps/{app}/toolsets/{toolset}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#toolset GoogleCesAgent#toolset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#toolset GoogleCesAgent#toolset}
   */
   readonly toolset: string;
 }
@@ -1894,7 +1894,7 @@ export interface GoogleCesAgentToolsets {
 export function googleCesAgentToolsetsToTerraform(struct?: GoogleCesAgentToolsets | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     tool_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.toolIds),
@@ -1906,7 +1906,7 @@ export function googleCesAgentToolsetsToTerraform(struct?: GoogleCesAgentToolset
 export function googleCesAgentToolsetsToHclTerraform(struct?: GoogleCesAgentToolsets | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     tool_ids: {
@@ -2028,7 +2028,7 @@ export class GoogleCesAgentToolsetsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent google_ces_agent}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent google_ces_agent}
 */
 export class GoogleCesAgent extends cdktn.TerraformResource {
 
@@ -2044,7 +2044,7 @@ export class GoogleCesAgent extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesAgent resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesAgent to import
-  * @param importFromId The id of the existing GoogleCesAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2056,7 +2056,7 @@ export class GoogleCesAgent extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_agent google_ces_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_agent google_ces_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2067,7 +2067,7 @@ export class GoogleCesAgent extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_agent',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,17 +21,17 @@ export interface GoogleGkeHubRolloutSequenceConfig extends cdktn.TerraformMetaAr
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#deletion_policy GoogleGkeHubRolloutSequence#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#deletion_policy GoogleGkeHubRolloutSequence#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Human readable display name of the Rollout Sequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#display_name GoogleGkeHubRolloutSequence#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#display_name GoogleGkeHubRolloutSequence#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#id GoogleGkeHubRolloutSequence#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#id GoogleGkeHubRolloutSequence#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,41 +44,41 @@ export interface GoogleGkeHubRolloutSequenceConfig extends cdktn.TerraformMetaAr
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#labels GoogleGkeHubRolloutSequence#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#labels GoogleGkeHubRolloutSequence#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#project GoogleGkeHubRolloutSequence#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#project GoogleGkeHubRolloutSequence#project}
   */
   readonly project?: string;
   /**
   * The user-provided identifier of the RolloutSequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#rollout_sequence_id GoogleGkeHubRolloutSequence#rollout_sequence_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#rollout_sequence_id GoogleGkeHubRolloutSequence#rollout_sequence_id}
   */
   readonly rolloutSequenceId: string;
   /**
   * auto_upgrade_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#auto_upgrade_config GoogleGkeHubRolloutSequence#auto_upgrade_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#auto_upgrade_config GoogleGkeHubRolloutSequence#auto_upgrade_config}
   */
   readonly autoUpgradeConfig?: GoogleGkeHubRolloutSequenceAutoUpgradeConfig;
   /**
   * ignored_clusters_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#ignored_clusters_selector GoogleGkeHubRolloutSequence#ignored_clusters_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#ignored_clusters_selector GoogleGkeHubRolloutSequence#ignored_clusters_selector}
   */
   readonly ignoredClustersSelector?: GoogleGkeHubRolloutSequenceIgnoredClustersSelector;
   /**
   * stages block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#stages GoogleGkeHubRolloutSequence#stages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#stages GoogleGkeHubRolloutSequence#stages}
   */
   readonly stages: GoogleGkeHubRolloutSequenceStages[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#timeouts GoogleGkeHubRolloutSequence#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#timeouts GoogleGkeHubRolloutSequence#timeouts}
   */
   readonly timeouts?: GoogleGkeHubRolloutSequenceTimeouts;
 }
@@ -87,7 +87,7 @@ export interface GoogleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScop
   * The list of enabled upgrade types.
   * Current valid values are 'CONTROL_PLANE_MINOR', 'CONTROL_PLANE_PATCH', 'NODE_MINOR', and 'NODE_PATCH'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#upgrade_types GoogleGkeHubRolloutSequence#upgrade_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#upgrade_types GoogleGkeHubRolloutSequence#upgrade_types}
   */
   readonly upgradeTypes?: string[];
 }
@@ -95,7 +95,7 @@ export interface GoogleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScop
 export function googleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScopeToTerraform(struct?: GoogleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScopeOutputReference | GoogleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScope): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     upgrade_types: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.upgradeTypes),
@@ -106,7 +106,7 @@ export function googleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScope
 export function googleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScopeToHclTerraform(struct?: GoogleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScopeOutputReference | GoogleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScope): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     upgrade_types: {
@@ -173,7 +173,7 @@ export interface GoogleGkeHubRolloutSequenceAutoUpgradeConfig {
   /**
   * rollout_creation_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#rollout_creation_scope GoogleGkeHubRolloutSequence#rollout_creation_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#rollout_creation_scope GoogleGkeHubRolloutSequence#rollout_creation_scope}
   */
   readonly rolloutCreationScope?: GoogleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScope;
 }
@@ -181,7 +181,7 @@ export interface GoogleGkeHubRolloutSequenceAutoUpgradeConfig {
 export function googleGkeHubRolloutSequenceAutoUpgradeConfigToTerraform(struct?: GoogleGkeHubRolloutSequenceAutoUpgradeConfigOutputReference | GoogleGkeHubRolloutSequenceAutoUpgradeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     rollout_creation_scope: googleGkeHubRolloutSequenceAutoUpgradeConfigRolloutCreationScopeToTerraform(struct!.rolloutCreationScope),
@@ -192,7 +192,7 @@ export function googleGkeHubRolloutSequenceAutoUpgradeConfigToTerraform(struct?:
 export function googleGkeHubRolloutSequenceAutoUpgradeConfigToHclTerraform(struct?: GoogleGkeHubRolloutSequenceAutoUpgradeConfigOutputReference | GoogleGkeHubRolloutSequenceAutoUpgradeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     rollout_creation_scope: {
@@ -260,7 +260,7 @@ export interface GoogleGkeHubRolloutSequenceIgnoredClustersSelector {
   * The label selector must be a valid CEL (Common Expression Language) expression which
   * evaluates resource.labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#label_selector GoogleGkeHubRolloutSequence#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#label_selector GoogleGkeHubRolloutSequence#label_selector}
   */
   readonly labelSelector: string;
 }
@@ -268,7 +268,7 @@ export interface GoogleGkeHubRolloutSequenceIgnoredClustersSelector {
 export function googleGkeHubRolloutSequenceIgnoredClustersSelectorToTerraform(struct?: GoogleGkeHubRolloutSequenceIgnoredClustersSelectorOutputReference | GoogleGkeHubRolloutSequenceIgnoredClustersSelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     label_selector: cdktn.stringToTerraform(struct!.labelSelector),
@@ -279,7 +279,7 @@ export function googleGkeHubRolloutSequenceIgnoredClustersSelectorToTerraform(st
 export function googleGkeHubRolloutSequenceIgnoredClustersSelectorToHclTerraform(struct?: GoogleGkeHubRolloutSequenceIgnoredClustersSelectorOutputReference | GoogleGkeHubRolloutSequenceIgnoredClustersSelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     label_selector: {
@@ -344,7 +344,7 @@ export interface GoogleGkeHubRolloutSequenceStagesClusterSelector {
   * The label selector must be a valid CEL (Common Expression Language) expression which
   * evaluates resource.labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#label_selector GoogleGkeHubRolloutSequence#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#label_selector GoogleGkeHubRolloutSequence#label_selector}
   */
   readonly labelSelector: string;
 }
@@ -352,7 +352,7 @@ export interface GoogleGkeHubRolloutSequenceStagesClusterSelector {
 export function googleGkeHubRolloutSequenceStagesClusterSelectorToTerraform(struct?: GoogleGkeHubRolloutSequenceStagesClusterSelectorOutputReference | GoogleGkeHubRolloutSequenceStagesClusterSelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     label_selector: cdktn.stringToTerraform(struct!.labelSelector),
@@ -363,7 +363,7 @@ export function googleGkeHubRolloutSequenceStagesClusterSelectorToTerraform(stru
 export function googleGkeHubRolloutSequenceStagesClusterSelectorToHclTerraform(struct?: GoogleGkeHubRolloutSequenceStagesClusterSelectorOutputReference | GoogleGkeHubRolloutSequenceStagesClusterSelector): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     label_selector: {
@@ -428,19 +428,19 @@ export interface GoogleGkeHubRolloutSequenceStages {
   * List of Fleet projects to select the clusters from.
   * Expected format: projects/{project}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#fleet_projects GoogleGkeHubRolloutSequence#fleet_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#fleet_projects GoogleGkeHubRolloutSequence#fleet_projects}
   */
   readonly fleetProjects: string[];
   /**
   * Soak time after upgrading all the clusters in the stage, specified in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#soak_duration GoogleGkeHubRolloutSequence#soak_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#soak_duration GoogleGkeHubRolloutSequence#soak_duration}
   */
   readonly soakDuration?: string;
   /**
   * cluster_selector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#cluster_selector GoogleGkeHubRolloutSequence#cluster_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#cluster_selector GoogleGkeHubRolloutSequence#cluster_selector}
   */
   readonly clusterSelector?: GoogleGkeHubRolloutSequenceStagesClusterSelector;
 }
@@ -448,7 +448,7 @@ export interface GoogleGkeHubRolloutSequenceStages {
 export function googleGkeHubRolloutSequenceStagesToTerraform(struct?: GoogleGkeHubRolloutSequenceStages | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fleet_projects: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fleetProjects),
@@ -461,7 +461,7 @@ export function googleGkeHubRolloutSequenceStagesToTerraform(struct?: GoogleGkeH
 export function googleGkeHubRolloutSequenceStagesToHclTerraform(struct?: GoogleGkeHubRolloutSequenceStages | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fleet_projects: {
@@ -611,15 +611,15 @@ export class GoogleGkeHubRolloutSequenceStagesList extends cdktn.ComplexList {
 }
 export interface GoogleGkeHubRolloutSequenceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#create GoogleGkeHubRolloutSequence#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#create GoogleGkeHubRolloutSequence#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#delete GoogleGkeHubRolloutSequence#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#delete GoogleGkeHubRolloutSequence#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#update GoogleGkeHubRolloutSequence#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#update GoogleGkeHubRolloutSequence#update}
   */
   readonly update?: string;
 }
@@ -627,7 +627,7 @@ export interface GoogleGkeHubRolloutSequenceTimeouts {
 export function googleGkeHubRolloutSequenceTimeoutsToTerraform(struct?: GoogleGkeHubRolloutSequenceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -640,7 +640,7 @@ export function googleGkeHubRolloutSequenceTimeoutsToTerraform(struct?: GoogleGk
 export function googleGkeHubRolloutSequenceTimeoutsToHclTerraform(struct?: GoogleGkeHubRolloutSequenceTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -771,7 +771,7 @@ export class GoogleGkeHubRolloutSequenceTimeoutsOutputReference extends cdktn.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence}
 */
 export class GoogleGkeHubRolloutSequence extends cdktn.TerraformResource {
 
@@ -787,7 +787,7 @@ export class GoogleGkeHubRolloutSequence extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleGkeHubRolloutSequence resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleGkeHubRolloutSequence to import
-  * @param importFromId The id of the existing GoogleGkeHubRolloutSequence that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleGkeHubRolloutSequence that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleGkeHubRolloutSequence to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -799,7 +799,7 @@ export class GoogleGkeHubRolloutSequence extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_gke_hub_rollout_sequence google_gke_hub_rollout_sequence} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -810,7 +810,7 @@ export class GoogleGkeHubRolloutSequence extends cdktn.TerraformResource {
       terraformResourceType: 'google_gke_hub_rollout_sequence',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

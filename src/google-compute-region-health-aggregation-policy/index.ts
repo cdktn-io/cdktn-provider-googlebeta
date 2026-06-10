@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,14 +21,14 @@ export interface GoogleComputeRegionHealthAggregationPolicyConfig extends cdktn.
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#deletion_policy GoogleComputeRegionHealthAggregationPolicy#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#deletion_policy GoogleComputeRegionHealthAggregationPolicy#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * An optional description of this resource. Provide this property when you
   * create the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#description GoogleComputeRegionHealthAggregationPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#description GoogleComputeRegionHealthAggregationPolicy#description}
   */
   readonly description?: string;
   /**
@@ -44,7 +44,7 @@ export interface GoogleComputeRegionHealthAggregationPolicyConfig extends cdktn.
   * endpoints within a Network Endpoint Group or instances within an Instance
   * Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#healthy_percent_threshold GoogleComputeRegionHealthAggregationPolicy#healthy_percent_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#healthy_percent_threshold GoogleComputeRegionHealthAggregationPolicy#healthy_percent_threshold}
   */
   readonly healthyPercentThreshold?: number;
   /**
@@ -60,7 +60,7 @@ export interface GoogleComputeRegionHealthAggregationPolicyConfig extends cdktn.
   * network endpoints within a Network Endpoint Group or instances within an
   * Instance Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#min_healthy_threshold GoogleComputeRegionHealthAggregationPolicy#min_healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#min_healthy_threshold GoogleComputeRegionHealthAggregationPolicy#min_healthy_threshold}
   */
   readonly minHealthyThreshold?: number;
   /**
@@ -72,7 +72,7 @@ export interface GoogleComputeRegionHealthAggregationPolicyConfig extends cdktn.
   * be a dash, lowercase letter, or digit, except the last character, which
   * cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#name GoogleComputeRegionHealthAggregationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#name GoogleComputeRegionHealthAggregationPolicy#name}
   */
   readonly name: string;
   /**
@@ -82,37 +82,37 @@ export interface GoogleComputeRegionHealthAggregationPolicyConfig extends cdktn.
   * be specified when the healthAggregationPolicy is created, and cannot be
   * mutated. Default value: "BACKEND_SERVICE_POLICY" Possible values: ["DNS_PUBLIC_IP_POLICY", "BACKEND_SERVICE_POLICY"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#policy_type GoogleComputeRegionHealthAggregationPolicy#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#policy_type GoogleComputeRegionHealthAggregationPolicy#policy_type}
   */
   readonly policyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#project GoogleComputeRegionHealthAggregationPolicy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#project GoogleComputeRegionHealthAggregationPolicy#project}
   */
   readonly project?: string;
   /**
   * URL of the region where the health aggregation policy resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#region GoogleComputeRegionHealthAggregationPolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#region GoogleComputeRegionHealthAggregationPolicy#region}
   */
   readonly region: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#timeouts GoogleComputeRegionHealthAggregationPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#timeouts GoogleComputeRegionHealthAggregationPolicy#timeouts}
   */
   readonly timeouts?: GoogleComputeRegionHealthAggregationPolicyTimeouts;
 }
 export interface GoogleComputeRegionHealthAggregationPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#create GoogleComputeRegionHealthAggregationPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#create GoogleComputeRegionHealthAggregationPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#delete GoogleComputeRegionHealthAggregationPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#delete GoogleComputeRegionHealthAggregationPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#update GoogleComputeRegionHealthAggregationPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#update GoogleComputeRegionHealthAggregationPolicy#update}
   */
   readonly update?: string;
 }
@@ -120,7 +120,7 @@ export interface GoogleComputeRegionHealthAggregationPolicyTimeouts {
 export function googleComputeRegionHealthAggregationPolicyTimeoutsToTerraform(struct?: GoogleComputeRegionHealthAggregationPolicyTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -133,7 +133,7 @@ export function googleComputeRegionHealthAggregationPolicyTimeoutsToTerraform(st
 export function googleComputeRegionHealthAggregationPolicyTimeoutsToHclTerraform(struct?: GoogleComputeRegionHealthAggregationPolicyTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -264,7 +264,7 @@ export class GoogleComputeRegionHealthAggregationPolicyTimeoutsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy}
 */
 export class GoogleComputeRegionHealthAggregationPolicy extends cdktn.TerraformResource {
 
@@ -280,7 +280,7 @@ export class GoogleComputeRegionHealthAggregationPolicy extends cdktn.TerraformR
   * Generates CDKTN code for importing a GoogleComputeRegionHealthAggregationPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleComputeRegionHealthAggregationPolicy to import
-  * @param importFromId The id of the existing GoogleComputeRegionHealthAggregationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleComputeRegionHealthAggregationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleComputeRegionHealthAggregationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -292,7 +292,7 @@ export class GoogleComputeRegionHealthAggregationPolicy extends cdktn.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_compute_region_health_aggregation_policy google_compute_region_health_aggregation_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,7 +303,7 @@ export class GoogleComputeRegionHealthAggregationPolicy extends cdktn.TerraformR
       terraformResourceType: 'google_compute_region_health_aggregation_policy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,23 +21,23 @@ export interface GoogleDialogflowEntityTypeConfig extends cdktn.TerraformMetaArg
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#deletion_policy GoogleDialogflowEntityType#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#deletion_policy GoogleDialogflowEntityType#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The name of this entity type to be displayed on the console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#display_name GoogleDialogflowEntityType#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#display_name GoogleDialogflowEntityType#display_name}
   */
   readonly displayName: string;
   /**
   * Enables fuzzy entity extraction during classification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#enable_fuzzy_extraction GoogleDialogflowEntityType#enable_fuzzy_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#enable_fuzzy_extraction GoogleDialogflowEntityType#enable_fuzzy_extraction}
   */
   readonly enableFuzzyExtraction?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#id GoogleDialogflowEntityType#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,23 +50,23 @@ export interface GoogleDialogflowEntityTypeConfig extends cdktn.TerraformMetaArg
   * types can contain references to other entity types (with or without aliases).
   * * KIND_REGEXP: Regexp entity types allow to specify regular expressions in entries values. Possible values: ["KIND_MAP", "KIND_LIST", "KIND_REGEXP"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#kind GoogleDialogflowEntityType#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#kind GoogleDialogflowEntityType#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#project GoogleDialogflowEntityType#project}
   */
   readonly project?: string;
   /**
   * entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#entities GoogleDialogflowEntityType#entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#entities GoogleDialogflowEntityType#entities}
   */
   readonly entities?: GoogleDialogflowEntityTypeEntities[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#timeouts GoogleDialogflowEntityType#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#timeouts GoogleDialogflowEntityType#timeouts}
   */
   readonly timeouts?: GoogleDialogflowEntityTypeTimeouts;
 }
@@ -77,7 +77,7 @@ export interface GoogleDialogflowEntityTypeEntities {
   * For KIND_LIST entity types:
   * * This collection must contain exactly one synonym equal to value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#synonyms GoogleDialogflowEntityType#synonyms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#synonyms GoogleDialogflowEntityType#synonyms}
   */
   readonly synonyms: string[];
   /**
@@ -88,7 +88,7 @@ export interface GoogleDialogflowEntityTypeEntities {
   * For KIND_LIST entity types:
   * * A string that can contain references to other entity types (with or without aliases).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#value GoogleDialogflowEntityType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#value GoogleDialogflowEntityType#value}
   */
   readonly value: string;
 }
@@ -96,7 +96,7 @@ export interface GoogleDialogflowEntityTypeEntities {
 export function googleDialogflowEntityTypeEntitiesToTerraform(struct?: GoogleDialogflowEntityTypeEntities | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     synonyms: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.synonyms),
@@ -108,7 +108,7 @@ export function googleDialogflowEntityTypeEntitiesToTerraform(struct?: GoogleDia
 export function googleDialogflowEntityTypeEntitiesToHclTerraform(struct?: GoogleDialogflowEntityTypeEntities | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     synonyms: {
@@ -227,15 +227,15 @@ export class GoogleDialogflowEntityTypeEntitiesList extends cdktn.ComplexList {
 }
 export interface GoogleDialogflowEntityTypeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#create GoogleDialogflowEntityType#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#create GoogleDialogflowEntityType#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#delete GoogleDialogflowEntityType#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#delete GoogleDialogflowEntityType#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#update GoogleDialogflowEntityType#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#update GoogleDialogflowEntityType#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export interface GoogleDialogflowEntityTypeTimeouts {
 export function googleDialogflowEntityTypeTimeoutsToTerraform(struct?: GoogleDialogflowEntityTypeTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -256,7 +256,7 @@ export function googleDialogflowEntityTypeTimeoutsToTerraform(struct?: GoogleDia
 export function googleDialogflowEntityTypeTimeoutsToHclTerraform(struct?: GoogleDialogflowEntityTypeTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -387,7 +387,7 @@ export class GoogleDialogflowEntityTypeTimeoutsOutputReference extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type google_dialogflow_entity_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type google_dialogflow_entity_type}
 */
 export class GoogleDialogflowEntityType extends cdktn.TerraformResource {
 
@@ -403,7 +403,7 @@ export class GoogleDialogflowEntityType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleDialogflowEntityType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleDialogflowEntityType to import
-  * @param importFromId The id of the existing GoogleDialogflowEntityType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleDialogflowEntityType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleDialogflowEntityType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -415,7 +415,7 @@ export class GoogleDialogflowEntityType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_dialogflow_entity_type google_dialogflow_entity_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_dialogflow_entity_type google_dialogflow_entity_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,7 +426,7 @@ export class GoogleDialogflowEntityType extends cdktn.TerraformResource {
       terraformResourceType: 'google_dialogflow_entity_type',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleStorageObjectAccessControlConfig extends cdktn.TerraformM
   /**
   * The name of the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#bucket GoogleStorageObjectAccessControl#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#bucket GoogleStorageObjectAccessControl#bucket}
   */
   readonly bucket: string;
   /**
@@ -27,7 +27,7 @@ export interface GoogleStorageObjectAccessControlConfig extends cdktn.TerraformM
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#deletion_policy GoogleStorageObjectAccessControl#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#deletion_policy GoogleStorageObjectAccessControl#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
@@ -41,11 +41,11 @@ export interface GoogleStorageObjectAccessControlConfig extends cdktn.TerraformM
   *   * allUsers
   *   * allAuthenticatedUsers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#entity GoogleStorageObjectAccessControl#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#entity GoogleStorageObjectAccessControl#entity}
   */
   readonly entity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#id GoogleStorageObjectAccessControl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#id GoogleStorageObjectAccessControl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,19 +54,19 @@ export interface GoogleStorageObjectAccessControlConfig extends cdktn.TerraformM
   /**
   * The name of the object to apply the access control to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#object GoogleStorageObjectAccessControl#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#object GoogleStorageObjectAccessControl#object}
   */
   readonly object: string;
   /**
   * The access permission for the entity. Possible values: ["OWNER", "READER"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#role GoogleStorageObjectAccessControl#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#role GoogleStorageObjectAccessControl#role}
   */
   readonly role: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#timeouts GoogleStorageObjectAccessControl#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#timeouts GoogleStorageObjectAccessControl#timeouts}
   */
   readonly timeouts?: GoogleStorageObjectAccessControlTimeouts;
 }
@@ -76,7 +76,7 @@ export interface GoogleStorageObjectAccessControlProjectTeam {
 export function googleStorageObjectAccessControlProjectTeamToTerraform(struct?: GoogleStorageObjectAccessControlProjectTeam): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -86,7 +86,7 @@ export function googleStorageObjectAccessControlProjectTeamToTerraform(struct?: 
 export function googleStorageObjectAccessControlProjectTeamToHclTerraform(struct?: GoogleStorageObjectAccessControlProjectTeam): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -152,15 +152,15 @@ export class GoogleStorageObjectAccessControlProjectTeamList extends cdktn.Compl
 }
 export interface GoogleStorageObjectAccessControlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#create GoogleStorageObjectAccessControl#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#create GoogleStorageObjectAccessControl#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#delete GoogleStorageObjectAccessControl#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#delete GoogleStorageObjectAccessControl#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#update GoogleStorageObjectAccessControl#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#update GoogleStorageObjectAccessControl#update}
   */
   readonly update?: string;
 }
@@ -168,7 +168,7 @@ export interface GoogleStorageObjectAccessControlTimeouts {
 export function googleStorageObjectAccessControlTimeoutsToTerraform(struct?: GoogleStorageObjectAccessControlTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -181,7 +181,7 @@ export function googleStorageObjectAccessControlTimeoutsToTerraform(struct?: Goo
 export function googleStorageObjectAccessControlTimeoutsToHclTerraform(struct?: GoogleStorageObjectAccessControlTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -312,7 +312,7 @@ export class GoogleStorageObjectAccessControlTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control google_storage_object_access_control}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control google_storage_object_access_control}
 */
 export class GoogleStorageObjectAccessControl extends cdktn.TerraformResource {
 
@@ -328,7 +328,7 @@ export class GoogleStorageObjectAccessControl extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleStorageObjectAccessControl resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleStorageObjectAccessControl to import
-  * @param importFromId The id of the existing GoogleStorageObjectAccessControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleStorageObjectAccessControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleStorageObjectAccessControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -340,7 +340,7 @@ export class GoogleStorageObjectAccessControl extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_storage_object_access_control google_storage_object_access_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_storage_object_access_control google_storage_object_access_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -351,7 +351,7 @@ export class GoogleStorageObjectAccessControl extends cdktn.TerraformResource {
       terraformResourceType: 'google_storage_object_access_control',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleCesDeploymentConfig extends cdktn.TerraformMetaArguments 
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#app GoogleCesDeployment#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#app GoogleCesDeployment#app}
   */
   readonly app: string;
   /**
@@ -23,7 +23,7 @@ export interface GoogleCesDeploymentConfig extends cdktn.TerraformMetaArguments 
   * Format:
   * projects/{project}/locations/{location}/apps/{app}/versions/{version}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#app_version GoogleCesDeployment#app_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#app_version GoogleCesDeployment#app_version}
   */
   readonly appVersion: string;
   /**
@@ -35,17 +35,17 @@ export interface GoogleCesDeploymentConfig extends cdktn.TerraformMetaArguments 
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#deletion_policy GoogleCesDeployment#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#deletion_policy GoogleCesDeployment#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Display name of the deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#display_name GoogleCesDeployment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#display_name GoogleCesDeployment#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#id GoogleCesDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#id GoogleCesDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,23 +54,23 @@ export interface GoogleCesDeploymentConfig extends cdktn.TerraformMetaArguments 
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#location GoogleCesDeployment#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#location GoogleCesDeployment#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#project GoogleCesDeployment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#project GoogleCesDeployment#project}
   */
   readonly project?: string;
   /**
   * channel_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#channel_profile GoogleCesDeployment#channel_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#channel_profile GoogleCesDeployment#channel_profile}
   */
   readonly channelProfile: GoogleCesDeploymentChannelProfile;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#timeouts GoogleCesDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#timeouts GoogleCesDeployment#timeouts}
   */
   readonly timeouts?: GoogleCesDeploymentTimeouts;
 }
@@ -82,7 +82,7 @@ export interface GoogleCesDeploymentChannelProfilePersonaProperty {
   * CONCISE
   * CHATTY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#persona GoogleCesDeployment#persona}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#persona GoogleCesDeployment#persona}
   */
   readonly persona?: string;
 }
@@ -90,7 +90,7 @@ export interface GoogleCesDeploymentChannelProfilePersonaProperty {
 export function googleCesDeploymentChannelProfilePersonaPropertyToTerraform(struct?: GoogleCesDeploymentChannelProfilePersonaPropertyOutputReference | GoogleCesDeploymentChannelProfilePersonaProperty): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     persona: cdktn.stringToTerraform(struct!.persona),
@@ -101,7 +101,7 @@ export function googleCesDeploymentChannelProfilePersonaPropertyToTerraform(stru
 export function googleCesDeploymentChannelProfilePersonaPropertyToHclTerraform(struct?: GoogleCesDeploymentChannelProfilePersonaPropertyOutputReference | GoogleCesDeploymentChannelProfilePersonaProperty): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     persona: {
@@ -168,25 +168,25 @@ export interface GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySetting
   /**
   * The origins that are allowed to host the web widget. An origin is defined by RFC 6454. If empty, all origins are allowed. A maximum of 100 origins is allowed. Example: "https://example.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#allowed_origins GoogleCesDeployment#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#allowed_origins GoogleCesDeployment#allowed_origins}
   */
   readonly allowedOrigins?: string[];
   /**
   * Indicates whether origin check for the web widget is enabled. If true, the web widget will check the origin of the website that loads the web widget and only allow it to be loaded in the same origin or any of the allowed origins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#enable_origin_check GoogleCesDeployment#enable_origin_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#enable_origin_check GoogleCesDeployment#enable_origin_check}
   */
   readonly enableOriginCheck?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether public access to the web widget is enabled. If true, the web widget will be publicly accessible. If false, the web widget must be integrated with your own authentication and authorization system to return valid credentials for accessing the CES agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#enable_public_access GoogleCesDeployment#enable_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#enable_public_access GoogleCesDeployment#enable_public_access}
   */
   readonly enablePublicAccess?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether reCAPTCHA verification for the web widget is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#enable_recaptcha GoogleCesDeployment#enable_recaptcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#enable_recaptcha GoogleCesDeployment#enable_recaptcha}
   */
   readonly enableRecaptcha?: boolean | cdktn.IResolvable;
 }
@@ -194,7 +194,7 @@ export interface GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySetting
 export function googleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsToTerraform(struct?: GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference | GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allowed_origins: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedOrigins),
@@ -208,7 +208,7 @@ export function googleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings
 export function googleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsToHclTerraform(struct?: GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettingsOutputReference | GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allowed_origins: {
@@ -365,7 +365,7 @@ export interface GoogleCesDeploymentChannelProfileWebWidgetConfig {
   * CHAT_ONLY
   * CHAT_VOICE_AND_VIDEO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#modality GoogleCesDeployment#modality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#modality GoogleCesDeployment#modality}
   */
   readonly modality?: string;
   /**
@@ -375,19 +375,19 @@ export interface GoogleCesDeploymentChannelProfileWebWidgetConfig {
   * LIGHT
   * DARK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#theme GoogleCesDeployment#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#theme GoogleCesDeployment#theme}
   */
   readonly theme?: string;
   /**
   * The title of the web widget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#web_widget_title GoogleCesDeployment#web_widget_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#web_widget_title GoogleCesDeployment#web_widget_title}
   */
   readonly webWidgetTitle?: string;
   /**
   * security_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#security_settings GoogleCesDeployment#security_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#security_settings GoogleCesDeployment#security_settings}
   */
   readonly securitySettings?: GoogleCesDeploymentChannelProfileWebWidgetConfigSecuritySettings;
 }
@@ -395,7 +395,7 @@ export interface GoogleCesDeploymentChannelProfileWebWidgetConfig {
 export function googleCesDeploymentChannelProfileWebWidgetConfigToTerraform(struct?: GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference | GoogleCesDeploymentChannelProfileWebWidgetConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     modality: cdktn.stringToTerraform(struct!.modality),
@@ -409,7 +409,7 @@ export function googleCesDeploymentChannelProfileWebWidgetConfigToTerraform(stru
 export function googleCesDeploymentChannelProfileWebWidgetConfigToHclTerraform(struct?: GoogleCesDeploymentChannelProfileWebWidgetConfigOutputReference | GoogleCesDeploymentChannelProfileWebWidgetConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     modality: {
@@ -569,7 +569,7 @@ export interface GoogleCesDeploymentChannelProfile {
   * FIVE9
   * CONTACT_CENTER_INTEGRATION
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#channel_type GoogleCesDeployment#channel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#channel_type GoogleCesDeployment#channel_type}
   */
   readonly channelType?: string;
   /**
@@ -578,31 +578,31 @@ export interface GoogleCesDeploymentChannelProfile {
   * - **false**: The agent retains automatic control over when the user can
   * interrupt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#disable_barge_in_control GoogleCesDeployment#disable_barge_in_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#disable_barge_in_control GoogleCesDeployment#disable_barge_in_control}
   */
   readonly disableBargeInControl?: boolean | cdktn.IResolvable;
   /**
   * Whether to disable DTMF (dual-tone multi-frequency).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#disable_dtmf GoogleCesDeployment#disable_dtmf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#disable_dtmf GoogleCesDeployment#disable_dtmf}
   */
   readonly disableDtmf?: boolean | cdktn.IResolvable;
   /**
   * The unique identifier of the channel profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#profile_id GoogleCesDeployment#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#profile_id GoogleCesDeployment#profile_id}
   */
   readonly profileId?: string;
   /**
   * persona_property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#persona_property GoogleCesDeployment#persona_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#persona_property GoogleCesDeployment#persona_property}
   */
   readonly personaProperty?: GoogleCesDeploymentChannelProfilePersonaProperty;
   /**
   * web_widget_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#web_widget_config GoogleCesDeployment#web_widget_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#web_widget_config GoogleCesDeployment#web_widget_config}
   */
   readonly webWidgetConfig?: GoogleCesDeploymentChannelProfileWebWidgetConfig;
 }
@@ -610,7 +610,7 @@ export interface GoogleCesDeploymentChannelProfile {
 export function googleCesDeploymentChannelProfileToTerraform(struct?: GoogleCesDeploymentChannelProfileOutputReference | GoogleCesDeploymentChannelProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     channel_type: cdktn.stringToTerraform(struct!.channelType),
@@ -626,7 +626,7 @@ export function googleCesDeploymentChannelProfileToTerraform(struct?: GoogleCesD
 export function googleCesDeploymentChannelProfileToHclTerraform(struct?: GoogleCesDeploymentChannelProfileOutputReference | GoogleCesDeploymentChannelProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     channel_type: {
@@ -831,15 +831,15 @@ export class GoogleCesDeploymentChannelProfileOutputReference extends cdktn.Comp
 }
 export interface GoogleCesDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#create GoogleCesDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#create GoogleCesDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#delete GoogleCesDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#delete GoogleCesDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#update GoogleCesDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#update GoogleCesDeployment#update}
   */
   readonly update?: string;
 }
@@ -847,7 +847,7 @@ export interface GoogleCesDeploymentTimeouts {
 export function googleCesDeploymentTimeoutsToTerraform(struct?: GoogleCesDeploymentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -860,7 +860,7 @@ export function googleCesDeploymentTimeoutsToTerraform(struct?: GoogleCesDeploym
 export function googleCesDeploymentTimeoutsToHclTerraform(struct?: GoogleCesDeploymentTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -991,7 +991,7 @@ export class GoogleCesDeploymentTimeoutsOutputReference extends cdktn.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment google_ces_deployment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment google_ces_deployment}
 */
 export class GoogleCesDeployment extends cdktn.TerraformResource {
 
@@ -1007,7 +1007,7 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesDeployment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesDeployment to import
-  * @param importFromId The id of the existing GoogleCesDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1019,7 +1019,7 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_deployment google_ces_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_deployment google_ces_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1030,7 +1030,7 @@ export class GoogleCesDeployment extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_deployment',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

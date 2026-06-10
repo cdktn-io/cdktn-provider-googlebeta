@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -18,7 +18,7 @@ export interface GoogleClouddeployTargetConfig extends cdktn.TerraformMetaArgume
   * **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
   * Please refer to the field `effective_annotations` for all of the annotations present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#annotations GoogleClouddeployTarget#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
@@ -30,23 +30,23 @@ export interface GoogleClouddeployTargetConfig extends cdktn.TerraformMetaArgume
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#deletion_policy GoogleClouddeployTarget#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#deletion_policy GoogleClouddeployTarget#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Optional. The deploy parameters to use for this target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#deploy_parameters GoogleClouddeployTarget#deploy_parameters}
   */
   readonly deployParameters?: { [key: string]: string };
   /**
   * Optional. Description of the `Target`. Max length is 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#description GoogleClouddeployTarget#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#id GoogleClouddeployTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,79 +58,79 @@ export interface GoogleClouddeployTargetConfig extends cdktn.TerraformMetaArgume
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field `effective_labels` for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#labels GoogleClouddeployTarget#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The location for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
   */
   readonly location: string;
   /**
   * Name of the `Target`. Format is `[a-z]([a-z0-9-]{0,61}[a-z0-9])?`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#name GoogleClouddeployTarget#name}
   */
   readonly name: string;
   /**
   * The project for the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#project GoogleClouddeployTarget#project}
   */
   readonly project?: string;
   /**
   * Optional. Whether or not the `Target` requires approval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#require_approval GoogleClouddeployTarget#require_approval}
   */
   readonly requireApproval?: boolean | cdktn.IResolvable;
   /**
   * anthos_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#anthos_cluster GoogleClouddeployTarget#anthos_cluster}
   */
   readonly anthosCluster?: GoogleClouddeployTargetAnthosCluster;
   /**
   * associated_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#associated_entities GoogleClouddeployTarget#associated_entities}
   */
   readonly associatedEntities?: GoogleClouddeployTargetAssociatedEntities[] | cdktn.IResolvable;
   /**
   * custom_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#custom_target GoogleClouddeployTarget#custom_target}
   */
   readonly customTarget?: GoogleClouddeployTargetCustomTarget;
   /**
   * execution_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#execution_configs GoogleClouddeployTarget#execution_configs}
   */
   readonly executionConfigs?: GoogleClouddeployTargetExecutionConfigs[] | cdktn.IResolvable;
   /**
   * gke block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#gke GoogleClouddeployTarget#gke}
   */
   readonly gke?: GoogleClouddeployTargetGke;
   /**
   * multi_target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#multi_target GoogleClouddeployTarget#multi_target}
   */
   readonly multiTarget?: GoogleClouddeployTargetMultiTarget;
   /**
   * run block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#run GoogleClouddeployTarget#run}
   */
   readonly run?: GoogleClouddeployTargetRun;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#timeouts GoogleClouddeployTarget#timeouts}
   */
   readonly timeouts?: GoogleClouddeployTargetTimeouts;
 }
@@ -138,7 +138,7 @@ export interface GoogleClouddeployTargetAnthosCluster {
   /**
   * Membership of the GKE Hub-registered cluster to which to apply the Skaffold configuration. Format is `projects/{project}/locations/{location}/memberships/{membership_name}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
   */
   readonly membership?: string;
 }
@@ -146,7 +146,7 @@ export interface GoogleClouddeployTargetAnthosCluster {
 export function googleClouddeployTargetAnthosClusterToTerraform(struct?: GoogleClouddeployTargetAnthosClusterOutputReference | GoogleClouddeployTargetAnthosCluster): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     membership: cdktn.stringToTerraform(struct!.membership),
@@ -157,7 +157,7 @@ export function googleClouddeployTargetAnthosClusterToTerraform(struct?: GoogleC
 export function googleClouddeployTargetAnthosClusterToHclTerraform(struct?: GoogleClouddeployTargetAnthosClusterOutputReference | GoogleClouddeployTargetAnthosCluster): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     membership: {
@@ -224,7 +224,7 @@ export interface GoogleClouddeployTargetAssociatedEntitiesAnthosClusters {
   /**
   * Optional. Membership of the GKE Hub-registered cluster to which to apply the Skaffold configuration. Format is `projects/{project}/locations/{location}/memberships/{membership_name}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#membership GoogleClouddeployTarget#membership}
   */
   readonly membership?: string;
 }
@@ -232,7 +232,7 @@ export interface GoogleClouddeployTargetAssociatedEntitiesAnthosClusters {
 export function googleClouddeployTargetAssociatedEntitiesAnthosClustersToTerraform(struct?: GoogleClouddeployTargetAssociatedEntitiesAnthosClusters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     membership: cdktn.stringToTerraform(struct!.membership),
@@ -243,7 +243,7 @@ export function googleClouddeployTargetAssociatedEntitiesAnthosClustersToTerrafo
 export function googleClouddeployTargetAssociatedEntitiesAnthosClustersToHclTerraform(struct?: GoogleClouddeployTargetAssociatedEntitiesAnthosClusters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     membership: {
@@ -342,19 +342,19 @@ export interface GoogleClouddeployTargetAssociatedEntitiesGkeClusters {
   /**
   * Optional. Information specifying a GKE Cluster. Format is `projects/{project_id}/locations/{location_id}/clusters/{cluster_id}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
   */
   readonly cluster?: string;
   /**
   * Optional. If true, `cluster` is accessed using the private IP address of the control plane endpoint. Otherwise, the default IP address of the control plane endpoint is used. The default IP address is the private IP address for clusters with private control-plane endpoints and the public IP address otherwise. Only specify this option when `cluster` is a [private GKE cluster](https://cloud.google.com/kubernetes-engine/docs/concepts/private-cluster-concept).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
   */
   readonly internalIp?: boolean | cdktn.IResolvable;
   /**
   * Optional. If set, used to configure a [proxy](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#proxy) to the Kubernetes server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
   */
   readonly proxyUrl?: string;
 }
@@ -362,7 +362,7 @@ export interface GoogleClouddeployTargetAssociatedEntitiesGkeClusters {
 export function googleClouddeployTargetAssociatedEntitiesGkeClustersToTerraform(struct?: GoogleClouddeployTargetAssociatedEntitiesGkeClusters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cluster: cdktn.stringToTerraform(struct!.cluster),
@@ -375,7 +375,7 @@ export function googleClouddeployTargetAssociatedEntitiesGkeClustersToTerraform(
 export function googleClouddeployTargetAssociatedEntitiesGkeClustersToHclTerraform(struct?: GoogleClouddeployTargetAssociatedEntitiesGkeClusters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cluster: {
@@ -530,19 +530,19 @@ export interface GoogleClouddeployTargetAssociatedEntities {
   /**
   * The name for the key in the map for which this object is mapped to in the API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#entity_id GoogleClouddeployTarget#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#entity_id GoogleClouddeployTarget#entity_id}
   */
   readonly entityId: string;
   /**
   * anthos_clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#anthos_clusters GoogleClouddeployTarget#anthos_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#anthos_clusters GoogleClouddeployTarget#anthos_clusters}
   */
   readonly anthosClusters?: GoogleClouddeployTargetAssociatedEntitiesAnthosClusters[] | cdktn.IResolvable;
   /**
   * gke_clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#gke_clusters GoogleClouddeployTarget#gke_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#gke_clusters GoogleClouddeployTarget#gke_clusters}
   */
   readonly gkeClusters?: GoogleClouddeployTargetAssociatedEntitiesGkeClusters[] | cdktn.IResolvable;
 }
@@ -550,7 +550,7 @@ export interface GoogleClouddeployTargetAssociatedEntities {
 export function googleClouddeployTargetAssociatedEntitiesToTerraform(struct?: GoogleClouddeployTargetAssociatedEntities | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     entity_id: cdktn.stringToTerraform(struct!.entityId),
@@ -563,7 +563,7 @@ export function googleClouddeployTargetAssociatedEntitiesToTerraform(struct?: Go
 export function googleClouddeployTargetAssociatedEntitiesToHclTerraform(struct?: GoogleClouddeployTargetAssociatedEntities | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     entity_id: {
@@ -715,7 +715,7 @@ export interface GoogleClouddeployTargetCustomTarget {
   /**
   * Required. The name of the CustomTargetType. Format must be `projects/{project}/locations/{location}/customTargetTypes/{custom_target_type}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#custom_target_type GoogleClouddeployTarget#custom_target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#custom_target_type GoogleClouddeployTarget#custom_target_type}
   */
   readonly customTargetType: string;
 }
@@ -723,7 +723,7 @@ export interface GoogleClouddeployTargetCustomTarget {
 export function googleClouddeployTargetCustomTargetToTerraform(struct?: GoogleClouddeployTargetCustomTargetOutputReference | GoogleClouddeployTargetCustomTarget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     custom_target_type: cdktn.stringToTerraform(struct!.customTargetType),
@@ -734,7 +734,7 @@ export function googleClouddeployTargetCustomTargetToTerraform(struct?: GoogleCl
 export function googleClouddeployTargetCustomTargetToHclTerraform(struct?: GoogleClouddeployTargetCustomTargetOutputReference | GoogleClouddeployTargetCustomTarget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     custom_target_type: {
@@ -798,13 +798,13 @@ export interface GoogleClouddeployTargetExecutionConfigsDefaultPool {
   /**
   * Optional. Cloud Storage location where execution outputs should be stored. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
   */
   readonly artifactStorage?: string;
   /**
   * Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
   */
   readonly serviceAccount?: string;
 }
@@ -812,7 +812,7 @@ export interface GoogleClouddeployTargetExecutionConfigsDefaultPool {
 export function googleClouddeployTargetExecutionConfigsDefaultPoolToTerraform(struct?: GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference | GoogleClouddeployTargetExecutionConfigsDefaultPool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     artifact_storage: cdktn.stringToTerraform(struct!.artifactStorage),
@@ -824,7 +824,7 @@ export function googleClouddeployTargetExecutionConfigsDefaultPoolToTerraform(st
 export function googleClouddeployTargetExecutionConfigsDefaultPoolToHclTerraform(struct?: GoogleClouddeployTargetExecutionConfigsDefaultPoolOutputReference | GoogleClouddeployTargetExecutionConfigsDefaultPool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     artifact_storage: {
@@ -919,19 +919,19 @@ export interface GoogleClouddeployTargetExecutionConfigsPrivatePool {
   /**
   * Optional. Cloud Storage location where execution outputs should be stored. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
   */
   readonly artifactStorage?: string;
   /**
   * Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Required. Resource name of the Cloud Build worker pool to use. The format is `projects/{project}/locations/{location}/workerPools/{pool}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
   */
   readonly workerPool: string;
 }
@@ -939,7 +939,7 @@ export interface GoogleClouddeployTargetExecutionConfigsPrivatePool {
 export function googleClouddeployTargetExecutionConfigsPrivatePoolToTerraform(struct?: GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference | GoogleClouddeployTargetExecutionConfigsPrivatePool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     artifact_storage: cdktn.stringToTerraform(struct!.artifactStorage),
@@ -952,7 +952,7 @@ export function googleClouddeployTargetExecutionConfigsPrivatePoolToTerraform(st
 export function googleClouddeployTargetExecutionConfigsPrivatePoolToHclTerraform(struct?: GoogleClouddeployTargetExecutionConfigsPrivatePoolOutputReference | GoogleClouddeployTargetExecutionConfigsPrivatePool): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     artifact_storage: {
@@ -1072,49 +1072,49 @@ export interface GoogleClouddeployTargetExecutionConfigs {
   /**
   * Optional. Cloud Storage location in which to store execution outputs. This can either be a bucket ("gs://my-bucket") or a path within a bucket ("gs://my-bucket/my-dir"). If unspecified, a default bucket located in the same region will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#artifact_storage GoogleClouddeployTarget#artifact_storage}
   */
   readonly artifactStorage?: string;
   /**
   * Optional. Execution timeout for a Cloud Build Execution. This must be between 10m and 24h in seconds format. If unspecified, a default timeout of 1h is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#execution_timeout GoogleClouddeployTarget#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#execution_timeout GoogleClouddeployTarget#execution_timeout}
   */
   readonly executionTimeout?: string;
   /**
   * Optional. Google service account to use for execution. If unspecified, the project execution service account (-compute@developer.gserviceaccount.com) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#service_account GoogleClouddeployTarget#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Required. Usages when this configuration should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#usages GoogleClouddeployTarget#usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#usages GoogleClouddeployTarget#usages}
   */
   readonly usages: string[];
   /**
   * Optional. If true, additional logging will be enabled when running builds in this execution environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#verbose GoogleClouddeployTarget#verbose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#verbose GoogleClouddeployTarget#verbose}
   */
   readonly verbose?: boolean | cdktn.IResolvable;
   /**
   * Optional. The resource name of the `WorkerPool`, with the format `projects/{project}/locations/{location}/workerPools/{worker_pool}`. If this optional field is unspecified, the default Cloud Build pool will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#worker_pool GoogleClouddeployTarget#worker_pool}
   */
   readonly workerPool?: string;
   /**
   * default_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#default_pool GoogleClouddeployTarget#default_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#default_pool GoogleClouddeployTarget#default_pool}
   */
   readonly defaultPool?: GoogleClouddeployTargetExecutionConfigsDefaultPool;
   /**
   * private_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#private_pool GoogleClouddeployTarget#private_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#private_pool GoogleClouddeployTarget#private_pool}
   */
   readonly privatePool?: GoogleClouddeployTargetExecutionConfigsPrivatePool;
 }
@@ -1122,7 +1122,7 @@ export interface GoogleClouddeployTargetExecutionConfigs {
 export function googleClouddeployTargetExecutionConfigsToTerraform(struct?: GoogleClouddeployTargetExecutionConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     artifact_storage: cdktn.stringToTerraform(struct!.artifactStorage),
@@ -1140,7 +1140,7 @@ export function googleClouddeployTargetExecutionConfigsToTerraform(struct?: Goog
 export function googleClouddeployTargetExecutionConfigsToHclTerraform(struct?: GoogleClouddeployTargetExecutionConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     artifact_storage: {
@@ -1432,25 +1432,25 @@ export interface GoogleClouddeployTargetGke {
   /**
   * Information specifying a GKE Cluster. Format is `projects/{project_id}/locations/{location_id}/clusters/{cluster_id}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#cluster GoogleClouddeployTarget#cluster}
   */
   readonly cluster?: string;
   /**
   * Optional. If set, the cluster will be accessed using the DNS endpoint. Note that both `dns_endpoint` and `internal_ip` cannot be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#dns_endpoint GoogleClouddeployTarget#dns_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#dns_endpoint GoogleClouddeployTarget#dns_endpoint}
   */
   readonly dnsEndpoint?: boolean | cdktn.IResolvable;
   /**
   * Optional. If true, `cluster` is accessed using the private IP address of the control plane endpoint. Otherwise, the default IP address of the control plane endpoint is used. The default IP address is the private IP address for clusters with private control-plane endpoints and the public IP address otherwise. Only specify this option when `cluster` is a [private GKE cluster](https://cloud.google.com/kubernetes-engine/docs/concepts/private-cluster-concept).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#internal_ip GoogleClouddeployTarget#internal_ip}
   */
   readonly internalIp?: boolean | cdktn.IResolvable;
   /**
   * Optional. If set, used to configure a [proxy](https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/#proxy) to the Kubernetes server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#proxy_url GoogleClouddeployTarget#proxy_url}
   */
   readonly proxyUrl?: string;
 }
@@ -1458,7 +1458,7 @@ export interface GoogleClouddeployTargetGke {
 export function googleClouddeployTargetGkeToTerraform(struct?: GoogleClouddeployTargetGkeOutputReference | GoogleClouddeployTargetGke): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cluster: cdktn.stringToTerraform(struct!.cluster),
@@ -1472,7 +1472,7 @@ export function googleClouddeployTargetGkeToTerraform(struct?: GoogleClouddeploy
 export function googleClouddeployTargetGkeToHclTerraform(struct?: GoogleClouddeployTargetGkeOutputReference | GoogleClouddeployTargetGke): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cluster: {
@@ -1623,7 +1623,7 @@ export interface GoogleClouddeployTargetMultiTarget {
   /**
   * Required. The target_ids of this multiTarget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#target_ids GoogleClouddeployTarget#target_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#target_ids GoogleClouddeployTarget#target_ids}
   */
   readonly targetIds: string[];
 }
@@ -1631,7 +1631,7 @@ export interface GoogleClouddeployTargetMultiTarget {
 export function googleClouddeployTargetMultiTargetToTerraform(struct?: GoogleClouddeployTargetMultiTargetOutputReference | GoogleClouddeployTargetMultiTarget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     target_ids: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.targetIds),
@@ -1642,7 +1642,7 @@ export function googleClouddeployTargetMultiTargetToTerraform(struct?: GoogleClo
 export function googleClouddeployTargetMultiTargetToHclTerraform(struct?: GoogleClouddeployTargetMultiTargetOutputReference | GoogleClouddeployTargetMultiTarget): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     target_ids: {
@@ -1706,7 +1706,7 @@ export interface GoogleClouddeployTargetRun {
   /**
   * Required. The location where the Cloud Run Service should be located. Format is `projects/{project}/locations/{location}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#location GoogleClouddeployTarget#location}
   */
   readonly location: string;
 }
@@ -1714,7 +1714,7 @@ export interface GoogleClouddeployTargetRun {
 export function googleClouddeployTargetRunToTerraform(struct?: GoogleClouddeployTargetRunOutputReference | GoogleClouddeployTargetRun): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     location: cdktn.stringToTerraform(struct!.location),
@@ -1725,7 +1725,7 @@ export function googleClouddeployTargetRunToTerraform(struct?: GoogleClouddeploy
 export function googleClouddeployTargetRunToHclTerraform(struct?: GoogleClouddeployTargetRunOutputReference | GoogleClouddeployTargetRun): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     location: {
@@ -1787,15 +1787,15 @@ export class GoogleClouddeployTargetRunOutputReference extends cdktn.ComplexObje
 }
 export interface GoogleClouddeployTargetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#create GoogleClouddeployTarget#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#delete GoogleClouddeployTarget#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#update GoogleClouddeployTarget#update}
   */
   readonly update?: string;
 }
@@ -1803,7 +1803,7 @@ export interface GoogleClouddeployTargetTimeouts {
 export function googleClouddeployTargetTimeoutsToTerraform(struct?: GoogleClouddeployTargetTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -1816,7 +1816,7 @@ export function googleClouddeployTargetTimeoutsToTerraform(struct?: GoogleCloudd
 export function googleClouddeployTargetTimeoutsToHclTerraform(struct?: GoogleClouddeployTargetTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -1947,7 +1947,7 @@ export class GoogleClouddeployTargetTimeoutsOutputReference extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target google_clouddeploy_target}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target google_clouddeploy_target}
 */
 export class GoogleClouddeployTarget extends cdktn.TerraformResource {
 
@@ -1963,7 +1963,7 @@ export class GoogleClouddeployTarget extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleClouddeployTarget resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleClouddeployTarget to import
-  * @param importFromId The id of the existing GoogleClouddeployTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleClouddeployTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleClouddeployTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1975,7 +1975,7 @@ export class GoogleClouddeployTarget extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_clouddeploy_target google_clouddeploy_target} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_clouddeploy_target google_clouddeploy_target} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1986,7 +1986,7 @@ export class GoogleClouddeployTarget extends cdktn.TerraformResource {
       terraformResourceType: 'google_clouddeploy_target',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

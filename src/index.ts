@@ -49,6 +49,7 @@ export * as googleApigeeApiProduct from './google-apigee-api-product/index';
 export * as googleApigeeAppGroup from './google-apigee-app-group/index';
 export * as googleApigeeControlPlaneAccess from './google-apigee-control-plane-access/index';
 export * as googleApigeeDataCollector from './google-apigee-data-collector/index';
+export * as googleApigeeDatastore from './google-apigee-datastore/index';
 export * as googleApigeeDeveloper from './google-apigee-developer/index';
 export * as googleApigeeDeveloperApp from './google-apigee-developer-app/index';
 export * as googleApigeeDnsZone from './google-apigee-dns-zone/index';
@@ -175,6 +176,9 @@ export * as googleBigqueryReservation from './google-bigquery-reservation/index'
 export * as googleBigqueryReservationAssignment from './google-bigquery-reservation-assignment/index';
 export * as googleBigqueryReservationGroup from './google-bigquery-reservation-group/index';
 export * as googleBigqueryRoutine from './google-bigquery-routine/index';
+export * as googleBigqueryRoutineIamBinding from './google-bigquery-routine-iam-binding/index';
+export * as googleBigqueryRoutineIamMember from './google-bigquery-routine-iam-member/index';
+export * as googleBigqueryRoutineIamPolicy from './google-bigquery-routine-iam-policy/index';
 export * as googleBigqueryRowAccessPolicy from './google-bigquery-row-access-policy/index';
 export * as googleBigqueryTable from './google-bigquery-table/index';
 export * as googleBigqueryTableIamBinding from './google-bigquery-table-iam-binding/index';
@@ -223,11 +227,13 @@ export * as googleCesGuardrail from './google-ces-guardrail/index';
 export * as googleCesSecuritySettings from './google-ces-security-settings/index';
 export * as googleCesTool from './google-ces-tool/index';
 export * as googleCesToolset from './google-ces-toolset/index';
+export * as googleChronicleCustomList from './google-chronicle-custom-list/index';
 export * as googleChronicleDashboardChart from './google-chronicle-dashboard-chart/index';
 export * as googleChronicleDataAccessLabel from './google-chronicle-data-access-label/index';
 export * as googleChronicleDataAccessScope from './google-chronicle-data-access-scope/index';
 export * as googleChronicleDataTable from './google-chronicle-data-table/index';
 export * as googleChronicleDataTableRow from './google-chronicle-data-table-row/index';
+export * as googleChronicleEnvironment from './google-chronicle-environment/index';
 export * as googleChronicleFeed from './google-chronicle-feed/index';
 export * as googleChronicleFindingsRefinement from './google-chronicle-findings-refinement/index';
 export * as googleChronicleNativeDashboard from './google-chronicle-native-dashboard/index';
@@ -568,6 +574,9 @@ export * as googleDataplexAssetIamPolicy from './google-dataplex-asset-iam-polic
 export * as googleDataplexDataAsset from './google-dataplex-data-asset/index';
 export * as googleDataplexDataProduct from './google-dataplex-data-product/index';
 export * as googleDataplexDataProductDataAsset from './google-dataplex-data-product-data-asset/index';
+export * as googleDataplexDataProductIamBinding from './google-dataplex-data-product-iam-binding/index';
+export * as googleDataplexDataProductIamMember from './google-dataplex-data-product-iam-member/index';
+export * as googleDataplexDataProductIamPolicy from './google-dataplex-data-product-iam-policy/index';
 export * as googleDataplexDatascan from './google-dataplex-datascan/index';
 export * as googleDataplexDatascanIamBinding from './google-dataplex-datascan-iam-binding/index';
 export * as googleDataplexDatascanIamMember from './google-dataplex-datascan-iam-member/index';
@@ -676,6 +685,9 @@ export * as googleDiscoveryEngineLicenseConfig from './google-discovery-engine-l
 export * as googleDiscoveryEngineRecommendationEngine from './google-discovery-engine-recommendation-engine/index';
 export * as googleDiscoveryEngineSchema from './google-discovery-engine-schema/index';
 export * as googleDiscoveryEngineSearchEngine from './google-discovery-engine-search-engine/index';
+export * as googleDiscoveryEngineSearchEngineIamBinding from './google-discovery-engine-search-engine-iam-binding/index';
+export * as googleDiscoveryEngineSearchEngineIamMember from './google-discovery-engine-search-engine-iam-member/index';
+export * as googleDiscoveryEngineSearchEngineIamPolicy from './google-discovery-engine-search-engine-iam-policy/index';
 export * as googleDiscoveryEngineServingConfig from './google-discovery-engine-serving-config/index';
 export * as googleDiscoveryEngineSitemap from './google-discovery-engine-sitemap/index';
 export * as googleDiscoveryEngineTargetSite from './google-discovery-engine-target-site/index';
@@ -844,6 +856,7 @@ export * as googleIamFolderAccessPolicy from './google-iam-folder-access-policy/
 export * as googleIamFoldersPolicyBinding from './google-iam-folders-policy-binding/index';
 export * as googleIamOauthClient from './google-iam-oauth-client/index';
 export * as googleIamOauthClientCredential from './google-iam-oauth-client-credential/index';
+export * as googleIamOrganizationAccessPolicy from './google-iam-organization-access-policy/index';
 export * as googleIamOrganizationsPolicyBinding from './google-iam-organizations-policy-binding/index';
 export * as googleIamPrincipalAccessBoundaryPolicy from './google-iam-principal-access-boundary-policy/index';
 export * as googleIamProjectAccessPolicy from './google-iam-project-access-policy/index';
@@ -946,6 +959,7 @@ export * as googleKmsOrganizationKajPolicyConfig from './google-kms-organization
 export * as googleKmsProjectAutokeyConfig from './google-kms-project-autokey-config/index';
 export * as googleKmsProjectKajPolicyConfig from './google-kms-project-kaj-policy-config/index';
 export * as googleKmsSecretCiphertext from './google-kms-secret-ciphertext/index';
+export * as googleLicenseManagerConfiguration from './google-license-manager-configuration/index';
 export * as googleLoggingBillingAccountBucketConfig from './google-logging-billing-account-bucket-config/index';
 export * as googleLoggingBillingAccountExclusion from './google-logging-billing-account-exclusion/index';
 export * as googleLoggingBillingAccountSink from './google-logging-billing-account-sink/index';
@@ -981,6 +995,7 @@ export * as googleMemorystoreInstanceDesiredUserCreatedEndpoints from './google-
 export * as googleMigrationCenterAssetsExportJob from './google-migration-center-assets-export-job/index';
 export * as googleMigrationCenterDiscoveryClient from './google-migration-center-discovery-client/index';
 export * as googleMigrationCenterGroup from './google-migration-center-group/index';
+export * as googleMigrationCenterImportJob from './google-migration-center-import-job/index';
 export * as googleMigrationCenterPreferenceSet from './google-migration-center-preference-set/index';
 export * as googleMigrationCenterReport from './google-migration-center-report/index';
 export * as googleMigrationCenterReportConfig from './google-migration-center-report-config/index';
@@ -1411,6 +1426,7 @@ export * as dataGoogleApiGatewayApiConfigIamPolicy from './data-google-api-gatew
 export * as dataGoogleApiGatewayApiIamPolicy from './data-google-api-gateway-api-iam-policy/index';
 export * as dataGoogleApiGatewayGatewayIamPolicy from './data-google-api-gateway-gateway-iam-policy/index';
 export * as dataGoogleApigeeEnvironmentIamPolicy from './data-google-apigee-environment-iam-policy/index';
+export * as dataGoogleApigeeInstance from './data-google-apigee-instance/index';
 export * as dataGoogleAppEngineDefaultServiceAccount from './data-google-app-engine-default-service-account/index';
 export * as dataGoogleApphubApplication from './data-google-apphub-application/index';
 export * as dataGoogleApphubDiscoveredService from './data-google-apphub-discovered-service/index';
@@ -1462,6 +1478,7 @@ export * as dataGoogleBigqueryDataset from './data-google-bigquery-dataset/index
 export * as dataGoogleBigqueryDatasetIamPolicy from './data-google-bigquery-dataset-iam-policy/index';
 export * as dataGoogleBigqueryDatasets from './data-google-bigquery-datasets/index';
 export * as dataGoogleBigqueryDefaultServiceAccount from './data-google-bigquery-default-service-account/index';
+export * as dataGoogleBigqueryRoutineIamPolicy from './data-google-bigquery-routine-iam-policy/index';
 export * as dataGoogleBigqueryTable from './data-google-bigquery-table/index';
 export * as dataGoogleBigqueryTableIamPolicy from './data-google-bigquery-table-iam-policy/index';
 export * as dataGoogleBigqueryTables from './data-google-bigquery-tables/index';
@@ -1602,6 +1619,7 @@ export * as dataGoogleDataLineageConfig from './data-google-data-lineage-config/
 export * as dataGoogleDataformRepositoryIamPolicy from './data-google-dataform-repository-iam-policy/index';
 export * as dataGoogleDataplexAspectTypeIamPolicy from './data-google-dataplex-aspect-type-iam-policy/index';
 export * as dataGoogleDataplexAssetIamPolicy from './data-google-dataplex-asset-iam-policy/index';
+export * as dataGoogleDataplexDataProductIamPolicy from './data-google-dataplex-data-product-iam-policy/index';
 export * as dataGoogleDataplexDataQualityRules from './data-google-dataplex-data-quality-rules/index';
 export * as dataGoogleDataplexDatascanIamPolicy from './data-google-dataplex-datascan-iam-policy/index';
 export * as dataGoogleDataplexEntryGroupIamPolicy from './data-google-dataplex-entry-group-iam-policy/index';
@@ -1621,6 +1639,7 @@ export * as dataGoogleDataprocMetastoreTableIamPolicy from './data-google-datapr
 export * as dataGoogleDatastreamStaticIps from './data-google-datastream-static-ips/index';
 export * as dataGoogleDiscoveryEngineDataStore from './data-google-discovery-engine-data-store/index';
 export * as dataGoogleDiscoveryEngineDataStores from './data-google-discovery-engine-data-stores/index';
+export * as dataGoogleDiscoveryEngineSearchEngineIamPolicy from './data-google-discovery-engine-search-engine-iam-policy/index';
 export * as dataGoogleDnsKeys from './data-google-dns-keys/index';
 export * as dataGoogleDnsManagedZone from './data-google-dns-managed-zone/index';
 export * as dataGoogleDnsManagedZoneIamPolicy from './data-google-dns-managed-zone-iam-policy/index';
@@ -1733,6 +1752,7 @@ export * as dataGoogleOracleDatabaseDbNodes from './data-google-oracle-database-
 export * as dataGoogleOracleDatabaseDbServers from './data-google-oracle-database-db-servers/index';
 export * as dataGoogleOracleDatabaseGoldengateConnectionTypes from './data-google-oracle-database-goldengate-connection-types/index';
 export * as dataGoogleOracleDatabaseGoldengateDeploymentEnvironments from './data-google-oracle-database-goldengate-deployment-environments/index';
+export * as dataGoogleOracleDatabaseGoldengateDeploymentTypes from './data-google-oracle-database-goldengate-deployment-types/index';
 export * as dataGoogleOracleDatabaseOdbNetwork from './data-google-oracle-database-odb-network/index';
 export * as dataGoogleOracleDatabaseOdbSubnet from './data-google-oracle-database-odb-subnet/index';
 export * as dataGoogleOrganization from './data-google-organization/index';

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -21,20 +21,20 @@ export interface GoogleNetworkServicesHttpRouteConfig extends cdktn.TerraformMet
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#deletion_policy GoogleNetworkServicesHttpRoute#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#deletion_policy GoogleNetworkServicesHttpRoute#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * A free-text description of the resource. Max length 1024 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#description GoogleNetworkServicesHttpRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#description GoogleNetworkServicesHttpRoute#description}
   */
   readonly description?: string;
   /**
   * Gateways defines a list of gateways this HttpRoute is attached to, as one of the routing rules to route the requests served by the gateway.
   * Each gateway reference should match the pattern: projects/* /locations/global/gateways/<gateway_name>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#gateways GoogleNetworkServicesHttpRoute#gateways}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#gateways GoogleNetworkServicesHttpRoute#gateways}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -42,11 +42,11 @@ export interface GoogleNetworkServicesHttpRouteConfig extends cdktn.TerraformMet
   /**
   * Set of hosts that should match against the HTTP host header to select a HttpRoute to process the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#hostnames GoogleNetworkServicesHttpRoute#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#hostnames GoogleNetworkServicesHttpRoute#hostnames}
   */
   readonly hostnames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#id GoogleNetworkServicesHttpRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#id GoogleNetworkServicesHttpRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ export interface GoogleNetworkServicesHttpRouteConfig extends cdktn.TerraformMet
   * **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
   * Please refer to the field 'effective_labels' for all of the labels present on the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#labels GoogleNetworkServicesHttpRoute#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#labels GoogleNetworkServicesHttpRoute#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
@@ -66,7 +66,7 @@ export interface GoogleNetworkServicesHttpRouteConfig extends cdktn.TerraformMet
   * Each mesh reference should match the pattern: projects/* /locations/global/meshes/<mesh_name>.
   * The attached Mesh should be of a type SIDECAR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#meshes GoogleNetworkServicesHttpRoute#meshes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#meshes GoogleNetworkServicesHttpRoute#meshes}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -74,23 +74,23 @@ export interface GoogleNetworkServicesHttpRouteConfig extends cdktn.TerraformMet
   /**
   * Name of the HttpRoute resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#name GoogleNetworkServicesHttpRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#name GoogleNetworkServicesHttpRoute#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#project GoogleNetworkServicesHttpRoute#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#project GoogleNetworkServicesHttpRoute#project}
   */
   readonly project?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#rules GoogleNetworkServicesHttpRoute#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#rules GoogleNetworkServicesHttpRoute#rules}
   */
   readonly rules: GoogleNetworkServicesHttpRouteRules[] | cdktn.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#timeouts GoogleNetworkServicesHttpRoute#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#timeouts GoogleNetworkServicesHttpRoute#timeouts}
   */
   readonly timeouts?: GoogleNetworkServicesHttpRouteTimeouts;
 }
@@ -98,49 +98,49 @@ export interface GoogleNetworkServicesHttpRouteRulesActionCorsPolicy {
   /**
   * In response to a preflight request, setting this to true indicates that the actual request can include user credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#allow_credentials GoogleNetworkServicesHttpRoute#allow_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#allow_credentials GoogleNetworkServicesHttpRoute#allow_credentials}
   */
   readonly allowCredentials?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for Access-Control-Allow-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#allow_headers GoogleNetworkServicesHttpRoute#allow_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#allow_headers GoogleNetworkServicesHttpRoute#allow_headers}
   */
   readonly allowHeaders?: string[];
   /**
   * Specifies the content for Access-Control-Allow-Methods header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#allow_methods GoogleNetworkServicesHttpRoute#allow_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#allow_methods GoogleNetworkServicesHttpRoute#allow_methods}
   */
   readonly allowMethods?: string[];
   /**
   * Specifies the regular expression patterns that match allowed origins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#allow_origin_regexes GoogleNetworkServicesHttpRoute#allow_origin_regexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#allow_origin_regexes GoogleNetworkServicesHttpRoute#allow_origin_regexes}
   */
   readonly allowOriginRegexes?: string[];
   /**
   * Specifies the list of origins that will be allowed to do CORS requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#allow_origins GoogleNetworkServicesHttpRoute#allow_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#allow_origins GoogleNetworkServicesHttpRoute#allow_origins}
   */
   readonly allowOrigins?: string[];
   /**
   * If true, the CORS policy is disabled. The default value is false, which indicates that the CORS policy is in effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#disabled GoogleNetworkServicesHttpRoute#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#disabled GoogleNetworkServicesHttpRoute#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
   /**
   * Specifies the content for Access-Control-Expose-Headers header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#expose_headers GoogleNetworkServicesHttpRoute#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#expose_headers GoogleNetworkServicesHttpRoute#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Specifies how long result of a preflight request can be cached in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#max_age GoogleNetworkServicesHttpRoute#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#max_age GoogleNetworkServicesHttpRoute#max_age}
   */
   readonly maxAge?: string;
 }
@@ -148,7 +148,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionCorsPolicy {
 export function googleNetworkServicesHttpRouteRulesActionCorsPolicyToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionCorsPolicyOutputReference | GoogleNetworkServicesHttpRouteRulesActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allow_credentials: cdktn.booleanToTerraform(struct!.allowCredentials),
@@ -166,7 +166,7 @@ export function googleNetworkServicesHttpRouteRulesActionCorsPolicyToTerraform(s
 export function googleNetworkServicesHttpRouteRulesActionCorsPolicyToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionCorsPolicyOutputReference | GoogleNetworkServicesHttpRouteRulesActionCorsPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allow_credentials: {
@@ -429,7 +429,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionDestinations {
   /**
   * The URL of a BackendService to route traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#service_name GoogleNetworkServicesHttpRoute#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#service_name GoogleNetworkServicesHttpRoute#service_name}
   */
   readonly serviceName?: string;
   /**
@@ -438,7 +438,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionDestinations {
   * If weights are specified for any one service name, they need to be specified for all of them.
   * If weights are unspecified for all services, then, traffic is distributed in equal proportions to all of them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#weight GoogleNetworkServicesHttpRoute#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#weight GoogleNetworkServicesHttpRoute#weight}
   */
   readonly weight?: number;
 }
@@ -446,7 +446,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionDestinations {
 export function googleNetworkServicesHttpRouteRulesActionDestinationsToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionDestinations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     service_name: cdktn.stringToTerraform(struct!.serviceName),
@@ -458,7 +458,7 @@ export function googleNetworkServicesHttpRouteRulesActionDestinationsToTerraform
 export function googleNetworkServicesHttpRouteRulesActionDestinationsToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionDestinations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     service_name: {
@@ -585,13 +585,13 @@ export interface GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAb
   /**
   * The HTTP status code used to abort the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#http_status GoogleNetworkServicesHttpRoute#http_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#http_status GoogleNetworkServicesHttpRoute#http_status}
   */
   readonly httpStatus?: number;
   /**
   * The percentage of traffic which will be aborted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#percentage GoogleNetworkServicesHttpRoute#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#percentage GoogleNetworkServicesHttpRoute#percentage}
   */
   readonly percentage?: number;
 }
@@ -599,7 +599,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAb
 export function googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAbortToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAbortOutputReference | GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     http_status: cdktn.numberToTerraform(struct!.httpStatus),
@@ -611,7 +611,7 @@ export function googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAbo
 export function googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAbortToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAbortOutputReference | GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAbort): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     http_status: {
@@ -706,13 +706,13 @@ export interface GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDe
   /**
   * Specify a fixed delay before forwarding the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#fixed_delay GoogleNetworkServicesHttpRoute#fixed_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#fixed_delay GoogleNetworkServicesHttpRoute#fixed_delay}
   */
   readonly fixedDelay?: string;
   /**
   * The percentage of traffic on which delay will be injected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#percentage GoogleNetworkServicesHttpRoute#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#percentage GoogleNetworkServicesHttpRoute#percentage}
   */
   readonly percentage?: number;
 }
@@ -720,7 +720,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDe
 export function googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDelayToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDelayOutputReference | GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fixed_delay: cdktn.stringToTerraform(struct!.fixedDelay),
@@ -732,7 +732,7 @@ export function googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDel
 export function googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDelayToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDelayOutputReference | GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDelay): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fixed_delay: {
@@ -827,13 +827,13 @@ export interface GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicy {
   /**
   * abort block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#abort GoogleNetworkServicesHttpRoute#abort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#abort GoogleNetworkServicesHttpRoute#abort}
   */
   readonly abort?: GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAbort;
   /**
   * delay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#delay GoogleNetworkServicesHttpRoute#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#delay GoogleNetworkServicesHttpRoute#delay}
   */
   readonly delay?: GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyDelay;
 }
@@ -841,7 +841,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicy {
 export function googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyOutputReference | GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     abort: googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyAbortToTerraform(struct!.abort),
@@ -853,7 +853,7 @@ export function googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyToT
 export function googleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicyOutputReference | GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     abort: {
@@ -948,43 +948,43 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRedirect {
   /**
   * The host that will be used in the redirect response instead of the one that was supplied in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#host_redirect GoogleNetworkServicesHttpRoute#host_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#host_redirect GoogleNetworkServicesHttpRoute#host_redirect}
   */
   readonly hostRedirect?: string;
   /**
   * If set to true, the URL scheme in the redirected request is set to https.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#https_redirect GoogleNetworkServicesHttpRoute#https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#https_redirect GoogleNetworkServicesHttpRoute#https_redirect}
   */
   readonly httpsRedirect?: boolean | cdktn.IResolvable;
   /**
   * The path that will be used in the redirect response instead of the one that was supplied in the request. pathRedirect can not be supplied together with prefixRedirect. Supply one alone or neither. If neither is supplied, the path of the original request will be used for the redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#path_redirect GoogleNetworkServicesHttpRoute#path_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#path_redirect GoogleNetworkServicesHttpRoute#path_redirect}
   */
   readonly pathRedirect?: string;
   /**
   * The port that will be used in the redirected request instead of the one that was supplied in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#port_redirect GoogleNetworkServicesHttpRoute#port_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#port_redirect GoogleNetworkServicesHttpRoute#port_redirect}
   */
   readonly portRedirect?: number;
   /**
   * Indicates that during redirection, the matched prefix (or path) should be swapped with this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#prefix_rewrite GoogleNetworkServicesHttpRoute#prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#prefix_rewrite GoogleNetworkServicesHttpRoute#prefix_rewrite}
   */
   readonly prefixRewrite?: string;
   /**
   * The HTTP Status code to use for the redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#response_code GoogleNetworkServicesHttpRoute#response_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#response_code GoogleNetworkServicesHttpRoute#response_code}
   */
   readonly responseCode?: string;
   /**
   * If set to true, any accompanying query portion of the original URL is removed prior to redirecting the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#strip_query GoogleNetworkServicesHttpRoute#strip_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#strip_query GoogleNetworkServicesHttpRoute#strip_query}
   */
   readonly stripQuery?: boolean | cdktn.IResolvable;
 }
@@ -992,7 +992,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRedirect {
 export function googleNetworkServicesHttpRouteRulesActionRedirectToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRedirectOutputReference | GoogleNetworkServicesHttpRouteRulesActionRedirect): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host_redirect: cdktn.stringToTerraform(struct!.hostRedirect),
@@ -1009,7 +1009,7 @@ export function googleNetworkServicesHttpRouteRulesActionRedirectToTerraform(str
 export function googleNetworkServicesHttpRouteRulesActionRedirectToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRedirectOutputReference | GoogleNetworkServicesHttpRouteRulesActionRedirect): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host_redirect: {
@@ -1244,19 +1244,19 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRequestHeaderModifier 
   /**
   * Add the headers with given map where key is the name of the header, value is the value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#add GoogleNetworkServicesHttpRoute#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#add GoogleNetworkServicesHttpRoute#add}
   */
   readonly add?: { [key: string]: string };
   /**
   * Remove headers (matching by header names) specified in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#remove GoogleNetworkServicesHttpRoute#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#remove GoogleNetworkServicesHttpRoute#remove}
   */
   readonly remove?: string[];
   /**
   * Completely overwrite/replace the headers with given map where key is the name of the header, value is the value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#set GoogleNetworkServicesHttpRoute#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#set GoogleNetworkServicesHttpRoute#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -1264,7 +1264,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRequestHeaderModifier 
 export function googleNetworkServicesHttpRouteRulesActionRequestHeaderModifierToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRequestHeaderModifierOutputReference | GoogleNetworkServicesHttpRouteRulesActionRequestHeaderModifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     add: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.add),
@@ -1277,7 +1277,7 @@ export function googleNetworkServicesHttpRouteRulesActionRequestHeaderModifierTo
 export function googleNetworkServicesHttpRouteRulesActionRequestHeaderModifierToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRequestHeaderModifierOutputReference | GoogleNetworkServicesHttpRouteRulesActionRequestHeaderModifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     add: {
@@ -1400,7 +1400,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDes
   /**
   * The URL of a BackendService to route traffic to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#service_name GoogleNetworkServicesHttpRoute#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#service_name GoogleNetworkServicesHttpRoute#service_name}
   */
   readonly serviceName?: string;
   /**
@@ -1409,7 +1409,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDes
   * If weights are specified for any one service name, they need to be specified for all of them.
   * If weights are unspecified for all services, then, traffic is distributed in equal proportions to all of them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#weight GoogleNetworkServicesHttpRoute#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#weight GoogleNetworkServicesHttpRoute#weight}
   */
   readonly weight?: number;
 }
@@ -1417,7 +1417,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDes
 export function googleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestinationToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestinationOutputReference | GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestination): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     service_name: cdktn.stringToTerraform(struct!.serviceName),
@@ -1429,7 +1429,7 @@ export function googleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDest
 export function googleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestinationToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestinationOutputReference | GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestination): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     service_name: {
@@ -1524,7 +1524,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicy {
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#destination GoogleNetworkServicesHttpRoute#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#destination GoogleNetworkServicesHttpRoute#destination}
   */
   readonly destination?: GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestination;
 }
@@ -1532,7 +1532,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicy {
 export function googleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference | GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     destination: googleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestinationToTerraform(struct!.destination),
@@ -1543,7 +1543,7 @@ export function googleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyToTe
 export function googleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference | GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     destination: {
@@ -1610,19 +1610,19 @@ export interface GoogleNetworkServicesHttpRouteRulesActionResponseHeaderModifier
   /**
   * Add the headers with given map where key is the name of the header, value is the value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#add GoogleNetworkServicesHttpRoute#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#add GoogleNetworkServicesHttpRoute#add}
   */
   readonly add?: { [key: string]: string };
   /**
   * Remove headers (matching by header names) specified in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#remove GoogleNetworkServicesHttpRoute#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#remove GoogleNetworkServicesHttpRoute#remove}
   */
   readonly remove?: string[];
   /**
   * Completely overwrite/replace the headers with given map where key is the name of the header, value is the value of the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#set GoogleNetworkServicesHttpRoute#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#set GoogleNetworkServicesHttpRoute#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -1630,7 +1630,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionResponseHeaderModifier
 export function googleNetworkServicesHttpRouteRulesActionResponseHeaderModifierToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionResponseHeaderModifierOutputReference | GoogleNetworkServicesHttpRouteRulesActionResponseHeaderModifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     add: cdktn.hashMapper(cdktn.stringToTerraform)(struct!.add),
@@ -1643,7 +1643,7 @@ export function googleNetworkServicesHttpRouteRulesActionResponseHeaderModifierT
 export function googleNetworkServicesHttpRouteRulesActionResponseHeaderModifierToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionResponseHeaderModifierOutputReference | GoogleNetworkServicesHttpRouteRulesActionResponseHeaderModifier): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     add: {
@@ -1766,19 +1766,19 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRetryPolicy {
   /**
   * Specifies the allowed number of retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#num_retries GoogleNetworkServicesHttpRoute#num_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#num_retries GoogleNetworkServicesHttpRoute#num_retries}
   */
   readonly numRetries?: number;
   /**
   * Specifies a non-zero timeout per retry attempt. A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#per_try_timeout GoogleNetworkServicesHttpRoute#per_try_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#per_try_timeout GoogleNetworkServicesHttpRoute#per_try_timeout}
   */
   readonly perTryTimeout?: string;
   /**
   * Specifies one or more conditions when this retry policy applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#retry_conditions GoogleNetworkServicesHttpRoute#retry_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#retry_conditions GoogleNetworkServicesHttpRoute#retry_conditions}
   */
   readonly retryConditions?: string[];
 }
@@ -1786,7 +1786,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionRetryPolicy {
 export function googleNetworkServicesHttpRouteRulesActionRetryPolicyToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRetryPolicyOutputReference | GoogleNetworkServicesHttpRouteRulesActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     num_retries: cdktn.numberToTerraform(struct!.numRetries),
@@ -1799,7 +1799,7 @@ export function googleNetworkServicesHttpRouteRulesActionRetryPolicyToTerraform(
 export function googleNetworkServicesHttpRouteRulesActionRetryPolicyToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionRetryPolicyOutputReference | GoogleNetworkServicesHttpRouteRulesActionRetryPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     num_retries: {
@@ -1922,13 +1922,13 @@ export interface GoogleNetworkServicesHttpRouteRulesActionUrlRewrite {
   /**
   * Prior to forwarding the request to the selected destination, the requests host header is replaced by this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#host_rewrite GoogleNetworkServicesHttpRoute#host_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#host_rewrite GoogleNetworkServicesHttpRoute#host_rewrite}
   */
   readonly hostRewrite?: string;
   /**
   * Prior to forwarding the request to the selected destination, the matching portion of the requests path is replaced by this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#path_prefix_rewrite GoogleNetworkServicesHttpRoute#path_prefix_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#path_prefix_rewrite GoogleNetworkServicesHttpRoute#path_prefix_rewrite}
   */
   readonly pathPrefixRewrite?: string;
 }
@@ -1936,7 +1936,7 @@ export interface GoogleNetworkServicesHttpRouteRulesActionUrlRewrite {
 export function googleNetworkServicesHttpRouteRulesActionUrlRewriteToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionUrlRewriteOutputReference | GoogleNetworkServicesHttpRouteRulesActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     host_rewrite: cdktn.stringToTerraform(struct!.hostRewrite),
@@ -1948,7 +1948,7 @@ export function googleNetworkServicesHttpRouteRulesActionUrlRewriteToTerraform(s
 export function googleNetworkServicesHttpRouteRulesActionUrlRewriteToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionUrlRewriteOutputReference | GoogleNetworkServicesHttpRouteRulesActionUrlRewrite): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     host_rewrite: {
@@ -2043,61 +2043,61 @@ export interface GoogleNetworkServicesHttpRouteRulesAction {
   /**
   * Specifies the timeout for selected route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#timeout GoogleNetworkServicesHttpRoute#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#timeout GoogleNetworkServicesHttpRoute#timeout}
   */
   readonly timeout?: string;
   /**
   * cors_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#cors_policy GoogleNetworkServicesHttpRoute#cors_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#cors_policy GoogleNetworkServicesHttpRoute#cors_policy}
   */
   readonly corsPolicy?: GoogleNetworkServicesHttpRouteRulesActionCorsPolicy;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#destinations GoogleNetworkServicesHttpRoute#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#destinations GoogleNetworkServicesHttpRoute#destinations}
   */
   readonly destinations?: GoogleNetworkServicesHttpRouteRulesActionDestinations[] | cdktn.IResolvable;
   /**
   * fault_injection_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#fault_injection_policy GoogleNetworkServicesHttpRoute#fault_injection_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#fault_injection_policy GoogleNetworkServicesHttpRoute#fault_injection_policy}
   */
   readonly faultInjectionPolicy?: GoogleNetworkServicesHttpRouteRulesActionFaultInjectionPolicy;
   /**
   * redirect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#redirect GoogleNetworkServicesHttpRoute#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#redirect GoogleNetworkServicesHttpRoute#redirect}
   */
   readonly redirect?: GoogleNetworkServicesHttpRouteRulesActionRedirect;
   /**
   * request_header_modifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#request_header_modifier GoogleNetworkServicesHttpRoute#request_header_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#request_header_modifier GoogleNetworkServicesHttpRoute#request_header_modifier}
   */
   readonly requestHeaderModifier?: GoogleNetworkServicesHttpRouteRulesActionRequestHeaderModifier;
   /**
   * request_mirror_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#request_mirror_policy GoogleNetworkServicesHttpRoute#request_mirror_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#request_mirror_policy GoogleNetworkServicesHttpRoute#request_mirror_policy}
   */
   readonly requestMirrorPolicy?: GoogleNetworkServicesHttpRouteRulesActionRequestMirrorPolicy;
   /**
   * response_header_modifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#response_header_modifier GoogleNetworkServicesHttpRoute#response_header_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#response_header_modifier GoogleNetworkServicesHttpRoute#response_header_modifier}
   */
   readonly responseHeaderModifier?: GoogleNetworkServicesHttpRouteRulesActionResponseHeaderModifier;
   /**
   * retry_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#retry_policy GoogleNetworkServicesHttpRoute#retry_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#retry_policy GoogleNetworkServicesHttpRoute#retry_policy}
   */
   readonly retryPolicy?: GoogleNetworkServicesHttpRouteRulesActionRetryPolicy;
   /**
   * url_rewrite block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#url_rewrite GoogleNetworkServicesHttpRoute#url_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#url_rewrite GoogleNetworkServicesHttpRoute#url_rewrite}
   */
   readonly urlRewrite?: GoogleNetworkServicesHttpRouteRulesActionUrlRewrite;
 }
@@ -2105,7 +2105,7 @@ export interface GoogleNetworkServicesHttpRouteRulesAction {
 export function googleNetworkServicesHttpRouteRulesActionToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionOutputReference | GoogleNetworkServicesHttpRouteRulesAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     timeout: cdktn.stringToTerraform(struct!.timeout),
@@ -2125,7 +2125,7 @@ export function googleNetworkServicesHttpRouteRulesActionToTerraform(struct?: Go
 export function googleNetworkServicesHttpRouteRulesActionToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesActionOutputReference | GoogleNetworkServicesHttpRouteRulesAction): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     timeout: {
@@ -2444,13 +2444,13 @@ export interface GoogleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatch {
   /**
   * End of the range (exclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#end GoogleNetworkServicesHttpRoute#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#end GoogleNetworkServicesHttpRoute#end}
   */
   readonly end: number;
   /**
   * Start of the range (inclusive).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#start GoogleNetworkServicesHttpRoute#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#start GoogleNetworkServicesHttpRoute#start}
   */
   readonly start: number;
 }
@@ -2458,7 +2458,7 @@ export interface GoogleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatch {
 export function googleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatchToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatchOutputReference | GoogleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatch): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     end: cdktn.numberToTerraform(struct!.end),
@@ -2470,7 +2470,7 @@ export function googleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatchToTer
 export function googleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatchToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatchOutputReference | GoogleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatch): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     end: {
@@ -2559,49 +2559,49 @@ export interface GoogleNetworkServicesHttpRouteRulesMatchesHeaders {
   /**
   * The value of the header should match exactly the content of exactMatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#exact_match GoogleNetworkServicesHttpRoute#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#exact_match GoogleNetworkServicesHttpRoute#exact_match}
   */
   readonly exactMatch?: string;
   /**
   * The name of the HTTP header to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#header GoogleNetworkServicesHttpRoute#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#header GoogleNetworkServicesHttpRoute#header}
   */
   readonly header?: string;
   /**
   * If specified, the match result will be inverted before checking. Default value is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#invert_match GoogleNetworkServicesHttpRoute#invert_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#invert_match GoogleNetworkServicesHttpRoute#invert_match}
   */
   readonly invertMatch?: boolean | cdktn.IResolvable;
   /**
   * The value of the header must start with the contents of prefixMatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#prefix_match GoogleNetworkServicesHttpRoute#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#prefix_match GoogleNetworkServicesHttpRoute#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
   * A header with headerName must exist. The match takes place whether or not the header has a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#present_match GoogleNetworkServicesHttpRoute#present_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#present_match GoogleNetworkServicesHttpRoute#present_match}
   */
   readonly presentMatch?: boolean | cdktn.IResolvable;
   /**
   * The value of the header must match the regular expression specified in regexMatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#regex_match GoogleNetworkServicesHttpRoute#regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#regex_match GoogleNetworkServicesHttpRoute#regex_match}
   */
   readonly regexMatch?: string;
   /**
   * The value of the header must end with the contents of suffixMatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#suffix_match GoogleNetworkServicesHttpRoute#suffix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#suffix_match GoogleNetworkServicesHttpRoute#suffix_match}
   */
   readonly suffixMatch?: string;
   /**
   * range_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#range_match GoogleNetworkServicesHttpRoute#range_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#range_match GoogleNetworkServicesHttpRoute#range_match}
   */
   readonly rangeMatch?: GoogleNetworkServicesHttpRouteRulesMatchesHeadersRangeMatch;
 }
@@ -2609,7 +2609,7 @@ export interface GoogleNetworkServicesHttpRouteRulesMatchesHeaders {
 export function googleNetworkServicesHttpRouteRulesMatchesHeadersToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesMatchesHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     exact_match: cdktn.stringToTerraform(struct!.exactMatch),
@@ -2627,7 +2627,7 @@ export function googleNetworkServicesHttpRouteRulesMatchesHeadersToTerraform(str
 export function googleNetworkServicesHttpRouteRulesMatchesHeadersToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesMatchesHeaders | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     exact_match: {
@@ -2922,25 +2922,25 @@ export interface GoogleNetworkServicesHttpRouteRulesMatchesQueryParameters {
   /**
   * The value of the query parameter must exactly match the contents of exactMatch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#exact_match GoogleNetworkServicesHttpRoute#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#exact_match GoogleNetworkServicesHttpRoute#exact_match}
   */
   readonly exactMatch?: string;
   /**
   * Specifies that the QueryParameterMatcher matches if request contains query parameter, irrespective of whether the parameter has a value or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#present_match GoogleNetworkServicesHttpRoute#present_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#present_match GoogleNetworkServicesHttpRoute#present_match}
   */
   readonly presentMatch?: boolean | cdktn.IResolvable;
   /**
   * The name of the query parameter to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#query_parameter GoogleNetworkServicesHttpRoute#query_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#query_parameter GoogleNetworkServicesHttpRoute#query_parameter}
   */
   readonly queryParameter?: string;
   /**
   * The value of the query parameter must match the regular expression specified by regexMatch.For regular expression grammar, please see https://github.com/google/re2/wiki/Syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#regex_match GoogleNetworkServicesHttpRoute#regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#regex_match GoogleNetworkServicesHttpRoute#regex_match}
   */
   readonly regexMatch?: string;
 }
@@ -2948,7 +2948,7 @@ export interface GoogleNetworkServicesHttpRouteRulesMatchesQueryParameters {
 export function googleNetworkServicesHttpRouteRulesMatchesQueryParametersToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesMatchesQueryParameters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     exact_match: cdktn.stringToTerraform(struct!.exactMatch),
@@ -2962,7 +2962,7 @@ export function googleNetworkServicesHttpRouteRulesMatchesQueryParametersToTerra
 export function googleNetworkServicesHttpRouteRulesMatchesQueryParametersToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesMatchesQueryParameters | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     exact_match: {
@@ -3145,37 +3145,37 @@ export interface GoogleNetworkServicesHttpRouteRulesMatches {
   /**
   * The HTTP request path value should exactly match this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#full_path_match GoogleNetworkServicesHttpRoute#full_path_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#full_path_match GoogleNetworkServicesHttpRoute#full_path_match}
   */
   readonly fullPathMatch?: string;
   /**
   * Specifies if prefixMatch and fullPathMatch matches are case sensitive. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#ignore_case GoogleNetworkServicesHttpRoute#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#ignore_case GoogleNetworkServicesHttpRoute#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktn.IResolvable;
   /**
   * The HTTP request path value must begin with specified prefixMatch. prefixMatch must begin with a /.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#prefix_match GoogleNetworkServicesHttpRoute#prefix_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#prefix_match GoogleNetworkServicesHttpRoute#prefix_match}
   */
   readonly prefixMatch?: string;
   /**
   * The HTTP request path value must satisfy the regular expression specified by regexMatch after removing any query parameters and anchor supplied with the original URL. For regular expression grammar, please see https://github.com/google/re2/wiki/Syntax
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#regex_match GoogleNetworkServicesHttpRoute#regex_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#regex_match GoogleNetworkServicesHttpRoute#regex_match}
   */
   readonly regexMatch?: string;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#headers GoogleNetworkServicesHttpRoute#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#headers GoogleNetworkServicesHttpRoute#headers}
   */
   readonly headers?: GoogleNetworkServicesHttpRouteRulesMatchesHeaders[] | cdktn.IResolvable;
   /**
   * query_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#query_parameters GoogleNetworkServicesHttpRoute#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#query_parameters GoogleNetworkServicesHttpRoute#query_parameters}
   */
   readonly queryParameters?: GoogleNetworkServicesHttpRouteRulesMatchesQueryParameters[] | cdktn.IResolvable;
 }
@@ -3183,7 +3183,7 @@ export interface GoogleNetworkServicesHttpRouteRulesMatches {
 export function googleNetworkServicesHttpRouteRulesMatchesToTerraform(struct?: GoogleNetworkServicesHttpRouteRulesMatches | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     full_path_match: cdktn.stringToTerraform(struct!.fullPathMatch),
@@ -3199,7 +3199,7 @@ export function googleNetworkServicesHttpRouteRulesMatchesToTerraform(struct?: G
 export function googleNetworkServicesHttpRouteRulesMatchesToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRulesMatches | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     full_path_match: {
@@ -3438,13 +3438,13 @@ export interface GoogleNetworkServicesHttpRouteRules {
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#action GoogleNetworkServicesHttpRoute#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#action GoogleNetworkServicesHttpRoute#action}
   */
   readonly action?: GoogleNetworkServicesHttpRouteRulesAction;
   /**
   * matches block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#matches GoogleNetworkServicesHttpRoute#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#matches GoogleNetworkServicesHttpRoute#matches}
   */
   readonly matches?: GoogleNetworkServicesHttpRouteRulesMatches[] | cdktn.IResolvable;
 }
@@ -3452,7 +3452,7 @@ export interface GoogleNetworkServicesHttpRouteRules {
 export function googleNetworkServicesHttpRouteRulesToTerraform(struct?: GoogleNetworkServicesHttpRouteRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     action: googleNetworkServicesHttpRouteRulesActionToTerraform(struct!.action),
@@ -3464,7 +3464,7 @@ export function googleNetworkServicesHttpRouteRulesToTerraform(struct?: GoogleNe
 export function googleNetworkServicesHttpRouteRulesToHclTerraform(struct?: GoogleNetworkServicesHttpRouteRules | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     action: {
@@ -3589,15 +3589,15 @@ export class GoogleNetworkServicesHttpRouteRulesList extends cdktn.ComplexList {
 }
 export interface GoogleNetworkServicesHttpRouteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#create GoogleNetworkServicesHttpRoute#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#create GoogleNetworkServicesHttpRoute#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#delete GoogleNetworkServicesHttpRoute#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#delete GoogleNetworkServicesHttpRoute#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#update GoogleNetworkServicesHttpRoute#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#update GoogleNetworkServicesHttpRoute#update}
   */
   readonly update?: string;
 }
@@ -3605,7 +3605,7 @@ export interface GoogleNetworkServicesHttpRouteTimeouts {
 export function googleNetworkServicesHttpRouteTimeoutsToTerraform(struct?: GoogleNetworkServicesHttpRouteTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -3618,7 +3618,7 @@ export function googleNetworkServicesHttpRouteTimeoutsToTerraform(struct?: Googl
 export function googleNetworkServicesHttpRouteTimeoutsToHclTerraform(struct?: GoogleNetworkServicesHttpRouteTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -3749,7 +3749,7 @@ export class GoogleNetworkServicesHttpRouteTimeoutsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route google_network_services_http_route}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route google_network_services_http_route}
 */
 export class GoogleNetworkServicesHttpRoute extends cdktn.TerraformResource {
 
@@ -3765,7 +3765,7 @@ export class GoogleNetworkServicesHttpRoute extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleNetworkServicesHttpRoute resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleNetworkServicesHttpRoute to import
-  * @param importFromId The id of the existing GoogleNetworkServicesHttpRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleNetworkServicesHttpRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleNetworkServicesHttpRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3777,7 +3777,7 @@ export class GoogleNetworkServicesHttpRoute extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_network_services_http_route google_network_services_http_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_network_services_http_route google_network_services_http_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3788,7 +3788,7 @@ export class GoogleNetworkServicesHttpRoute extends cdktn.TerraformResource {
       terraformResourceType: 'google_network_services_http_route',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

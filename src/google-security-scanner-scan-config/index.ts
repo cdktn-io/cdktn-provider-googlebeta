@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -16,7 +16,7 @@ export interface GoogleSecurityScannerScanConfigConfig extends cdktn.TerraformMe
   * The blacklist URL patterns as described in
   * https://cloud.google.com/security-scanner/docs/excluded-urls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#blacklist_patterns GoogleSecurityScannerScanConfig#blacklist_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#blacklist_patterns GoogleSecurityScannerScanConfig#blacklist_patterns}
   */
   readonly blacklistPatterns?: string[];
   /**
@@ -28,73 +28,79 @@ export interface GoogleSecurityScannerScanConfigConfig extends cdktn.TerraformMe
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#deletion_policy GoogleSecurityScannerScanConfig#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#deletion_policy GoogleSecurityScannerScanConfig#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * The user provider display name of the ScanConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#display_name GoogleSecurityScannerScanConfig#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#display_name GoogleSecurityScannerScanConfig#display_name}
   */
   readonly displayName: string;
   /**
   * Controls export of scan configurations and results to Cloud Security Command Center. Default value: "ENABLED" Possible values: ["ENABLED", "DISABLED"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#export_to_security_command_center GoogleSecurityScannerScanConfig#export_to_security_command_center}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#export_to_security_command_center GoogleSecurityScannerScanConfig#export_to_security_command_center}
   */
   readonly exportToSecurityCommandCenter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#id GoogleSecurityScannerScanConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#id GoogleSecurityScannerScanConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * Whether to keep scanning even if most requests return HTTP error codes.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#ignore_http_status_errors GoogleSecurityScannerScanConfig#ignore_http_status_errors}
+  */
+  readonly ignoreHttpStatusErrors?: boolean | cdktn.IResolvable;
+  /**
   * The maximum QPS during scanning. A valid value ranges from 5 to 20 inclusively.
   * Defaults to 15.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#max_qps GoogleSecurityScannerScanConfig#max_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#max_qps GoogleSecurityScannerScanConfig#max_qps}
   */
   readonly maxQps?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#project GoogleSecurityScannerScanConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#project GoogleSecurityScannerScanConfig#project}
   */
   readonly project?: string;
   /**
   * The starting URLs from which the scanner finds site pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#starting_urls GoogleSecurityScannerScanConfig#starting_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#starting_urls GoogleSecurityScannerScanConfig#starting_urls}
   */
   readonly startingUrls: string[];
   /**
   * Set of Cloud Platforms targeted by the scan. If empty, APP_ENGINE will be used as a default. Possible values: ["APP_ENGINE", "COMPUTE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#target_platforms GoogleSecurityScannerScanConfig#target_platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#target_platforms GoogleSecurityScannerScanConfig#target_platforms}
   */
   readonly targetPlatforms?: string[];
   /**
   * Type of the user agents used for scanning Default value: "CHROME_LINUX" Possible values: ["USER_AGENT_UNSPECIFIED", "CHROME_LINUX", "CHROME_ANDROID", "SAFARI_IPHONE"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#user_agent GoogleSecurityScannerScanConfig#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#user_agent GoogleSecurityScannerScanConfig#user_agent}
   */
   readonly userAgent?: string;
   /**
   * authentication block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#authentication GoogleSecurityScannerScanConfig#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#authentication GoogleSecurityScannerScanConfig#authentication}
   */
   readonly authentication?: GoogleSecurityScannerScanConfigAuthentication;
   /**
   * schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#schedule GoogleSecurityScannerScanConfig#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#schedule GoogleSecurityScannerScanConfig#schedule}
   */
   readonly schedule?: GoogleSecurityScannerScanConfigSchedule;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#timeouts GoogleSecurityScannerScanConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#timeouts GoogleSecurityScannerScanConfig#timeouts}
   */
   readonly timeouts?: GoogleSecurityScannerScanConfigTimeouts;
 }
@@ -102,20 +108,20 @@ export interface GoogleSecurityScannerScanConfigAuthenticationCustomAccount {
   /**
   * The login form URL of the website.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#login_url GoogleSecurityScannerScanConfig#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#login_url GoogleSecurityScannerScanConfig#login_url}
   */
   readonly loginUrl: string;
   /**
   * The password of the custom account. The credential is stored encrypted
   * in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#password GoogleSecurityScannerScanConfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#password GoogleSecurityScannerScanConfig#password}
   */
   readonly password: string;
   /**
   * The user name of the custom account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#username GoogleSecurityScannerScanConfig#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#username GoogleSecurityScannerScanConfig#username}
   */
   readonly username: string;
 }
@@ -123,7 +129,7 @@ export interface GoogleSecurityScannerScanConfigAuthenticationCustomAccount {
 export function googleSecurityScannerScanConfigAuthenticationCustomAccountToTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference | GoogleSecurityScannerScanConfigAuthenticationCustomAccount): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     login_url: cdktn.stringToTerraform(struct!.loginUrl),
@@ -136,7 +142,7 @@ export function googleSecurityScannerScanConfigAuthenticationCustomAccountToTerr
 export function googleSecurityScannerScanConfigAuthenticationCustomAccountToHclTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationCustomAccountOutputReference | GoogleSecurityScannerScanConfigAuthenticationCustomAccount): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     login_url: {
@@ -251,13 +257,13 @@ export interface GoogleSecurityScannerScanConfigAuthenticationGoogleAccount {
   * The password of the Google account. The credential is stored encrypted
   * in GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#password GoogleSecurityScannerScanConfig#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#password GoogleSecurityScannerScanConfig#password}
   */
   readonly password: string;
   /**
   * The user name of the Google account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#username GoogleSecurityScannerScanConfig#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#username GoogleSecurityScannerScanConfig#username}
   */
   readonly username: string;
 }
@@ -265,7 +271,7 @@ export interface GoogleSecurityScannerScanConfigAuthenticationGoogleAccount {
 export function googleSecurityScannerScanConfigAuthenticationGoogleAccountToTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationGoogleAccountOutputReference | GoogleSecurityScannerScanConfigAuthenticationGoogleAccount): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     password: cdktn.stringToTerraform(struct!.password),
@@ -277,7 +283,7 @@ export function googleSecurityScannerScanConfigAuthenticationGoogleAccountToTerr
 export function googleSecurityScannerScanConfigAuthenticationGoogleAccountToHclTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationGoogleAccountOutputReference | GoogleSecurityScannerScanConfigAuthenticationGoogleAccount): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     password: {
@@ -366,13 +372,13 @@ export interface GoogleSecurityScannerScanConfigAuthentication {
   /**
   * custom_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#custom_account GoogleSecurityScannerScanConfig#custom_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#custom_account GoogleSecurityScannerScanConfig#custom_account}
   */
   readonly customAccount?: GoogleSecurityScannerScanConfigAuthenticationCustomAccount;
   /**
   * google_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#google_account GoogleSecurityScannerScanConfig#google_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#google_account GoogleSecurityScannerScanConfig#google_account}
   */
   readonly googleAccount?: GoogleSecurityScannerScanConfigAuthenticationGoogleAccount;
 }
@@ -380,7 +386,7 @@ export interface GoogleSecurityScannerScanConfigAuthentication {
 export function googleSecurityScannerScanConfigAuthenticationToTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationOutputReference | GoogleSecurityScannerScanConfigAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     custom_account: googleSecurityScannerScanConfigAuthenticationCustomAccountToTerraform(struct!.customAccount),
@@ -392,7 +398,7 @@ export function googleSecurityScannerScanConfigAuthenticationToTerraform(struct?
 export function googleSecurityScannerScanConfigAuthenticationToHclTerraform(struct?: GoogleSecurityScannerScanConfigAuthenticationOutputReference | GoogleSecurityScannerScanConfigAuthentication): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     custom_account: {
@@ -487,7 +493,7 @@ export interface GoogleSecurityScannerScanConfigSchedule {
   /**
   * The duration of time between executions in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#interval_duration_days GoogleSecurityScannerScanConfig#interval_duration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#interval_duration_days GoogleSecurityScannerScanConfig#interval_duration_days}
   */
   readonly intervalDurationDays: number;
   /**
@@ -495,7 +501,7 @@ export interface GoogleSecurityScannerScanConfigSchedule {
   * by the server after each run. If unspecified, it will default to current server time,
   * which means the scan will be scheduled to start immediately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#schedule_time GoogleSecurityScannerScanConfig#schedule_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#schedule_time GoogleSecurityScannerScanConfig#schedule_time}
   */
   readonly scheduleTime?: string;
 }
@@ -503,7 +509,7 @@ export interface GoogleSecurityScannerScanConfigSchedule {
 export function googleSecurityScannerScanConfigScheduleToTerraform(struct?: GoogleSecurityScannerScanConfigScheduleOutputReference | GoogleSecurityScannerScanConfigSchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     interval_duration_days: cdktn.numberToTerraform(struct!.intervalDurationDays),
@@ -515,7 +521,7 @@ export function googleSecurityScannerScanConfigScheduleToTerraform(struct?: Goog
 export function googleSecurityScannerScanConfigScheduleToHclTerraform(struct?: GoogleSecurityScannerScanConfigScheduleOutputReference | GoogleSecurityScannerScanConfigSchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     interval_duration_days: {
@@ -605,15 +611,15 @@ export class GoogleSecurityScannerScanConfigScheduleOutputReference extends cdkt
 }
 export interface GoogleSecurityScannerScanConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#create GoogleSecurityScannerScanConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#create GoogleSecurityScannerScanConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#delete GoogleSecurityScannerScanConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#delete GoogleSecurityScannerScanConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#update GoogleSecurityScannerScanConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#update GoogleSecurityScannerScanConfig#update}
   */
   readonly update?: string;
 }
@@ -621,7 +627,7 @@ export interface GoogleSecurityScannerScanConfigTimeouts {
 export function googleSecurityScannerScanConfigTimeoutsToTerraform(struct?: GoogleSecurityScannerScanConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -634,7 +640,7 @@ export function googleSecurityScannerScanConfigTimeoutsToTerraform(struct?: Goog
 export function googleSecurityScannerScanConfigTimeoutsToHclTerraform(struct?: GoogleSecurityScannerScanConfigTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -765,7 +771,7 @@ export class GoogleSecurityScannerScanConfigTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config}
 */
 export class GoogleSecurityScannerScanConfig extends cdktn.TerraformResource {
 
@@ -781,7 +787,7 @@ export class GoogleSecurityScannerScanConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleSecurityScannerScanConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleSecurityScannerScanConfig to import
-  * @param importFromId The id of the existing GoogleSecurityScannerScanConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleSecurityScannerScanConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleSecurityScannerScanConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -793,7 +799,7 @@ export class GoogleSecurityScannerScanConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_security_scanner_scan_config google_security_scanner_scan_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -804,7 +810,7 @@ export class GoogleSecurityScannerScanConfig extends cdktn.TerraformResource {
       terraformResourceType: 'google_security_scanner_scan_config',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
@@ -820,6 +826,7 @@ export class GoogleSecurityScannerScanConfig extends cdktn.TerraformResource {
     this._displayName = config.displayName;
     this._exportToSecurityCommandCenter = config.exportToSecurityCommandCenter;
     this._id = config.id;
+    this._ignoreHttpStatusErrors = config.ignoreHttpStatusErrors;
     this._maxQps = config.maxQps;
     this._project = config.project;
     this._startingUrls = config.startingUrls;
@@ -909,6 +916,22 @@ export class GoogleSecurityScannerScanConfig extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // ignore_http_status_errors - computed: false, optional: true, required: false
+  private _ignoreHttpStatusErrors?: boolean | cdktn.IResolvable; 
+  public get ignoreHttpStatusErrors() {
+    return this.getBooleanAttribute('ignore_http_status_errors');
+  }
+  public set ignoreHttpStatusErrors(value: boolean | cdktn.IResolvable) {
+    this._ignoreHttpStatusErrors = value;
+  }
+  public resetIgnoreHttpStatusErrors() {
+    this._ignoreHttpStatusErrors = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ignoreHttpStatusErrorsInput() {
+    return this._ignoreHttpStatusErrors;
   }
 
   // max_qps - computed: false, optional: true, required: false
@@ -1052,6 +1075,7 @@ export class GoogleSecurityScannerScanConfig extends cdktn.TerraformResource {
       display_name: cdktn.stringToTerraform(this._displayName),
       export_to_security_command_center: cdktn.stringToTerraform(this._exportToSecurityCommandCenter),
       id: cdktn.stringToTerraform(this._id),
+      ignore_http_status_errors: cdktn.booleanToTerraform(this._ignoreHttpStatusErrors),
       max_qps: cdktn.numberToTerraform(this._maxQps),
       project: cdktn.stringToTerraform(this._project),
       starting_urls: cdktn.listMapper(cdktn.stringToTerraform, false)(this._startingUrls),
@@ -1094,6 +1118,12 @@ export class GoogleSecurityScannerScanConfig extends cdktn.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      ignore_http_status_errors: {
+        value: cdktn.booleanToHclTerraform(this._ignoreHttpStatusErrors),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       max_qps: {
         value: cdktn.numberToHclTerraform(this._maxQps),

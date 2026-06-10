@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface GoogleContainerNodePoolConfig extends cdktn.TerraformMetaArgume
   /**
   * The cluster to create the node pool for. Cluster must be present in location provided for zonal clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#cluster GoogleContainerNodePool#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#cluster GoogleContainerNodePool#cluster}
   */
   readonly cluster: string;
   /**
@@ -27,11 +27,11 @@ export interface GoogleContainerNodePoolConfig extends cdktn.TerraformMetaArgume
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#deletion_policy GoogleContainerNodePool#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#deletion_policy GoogleContainerNodePool#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#id GoogleContainerNodePool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,109 +40,109 @@ export interface GoogleContainerNodePoolConfig extends cdktn.TerraformMetaArgume
   /**
   * The initial number of nodes for the pool. In regional or multi-zonal clusters, this is the number of nodes per zone. Changing this will force recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#initial_node_count GoogleContainerNodePool#initial_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#initial_node_count GoogleContainerNodePool#initial_node_count}
   */
   readonly initialNodeCount?: number;
   /**
   * The location (region or zone) of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#location GoogleContainerNodePool#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#location GoogleContainerNodePool#location}
   */
   readonly location?: string;
   /**
   * The maximum number of pods per node in this node pool. Note that this does not work on node pools which are "route-based" - that is, node pools belonging to clusters that do not have IP Aliasing enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
   * The name of the node pool. If left blank, Terraform will auto-generate a unique name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#name GoogleContainerNodePool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#name GoogleContainerNodePool#name}
   */
   readonly name?: string;
   /**
   * Creates a unique name for the node pool beginning with the specified prefix. Conflicts with name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#name_prefix GoogleContainerNodePool#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#name_prefix GoogleContainerNodePool#name_prefix}
   */
   readonly namePrefix?: string;
   /**
   * The number of nodes per instance group. This field can be used to update the number of nodes per instance group but should not be used alongside autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#node_count GoogleContainerNodePool#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#node_count GoogleContainerNodePool#node_count}
   */
   readonly nodeCount?: number;
   /**
   * The list of zones in which the node pool's nodes should be located. Nodes must be in the region of their regional cluster or in the same region as their cluster's zone for zonal clusters. If unspecified, the cluster-level node_locations will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#node_locations GoogleContainerNodePool#node_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#node_locations GoogleContainerNodePool#node_locations}
   */
   readonly nodeLocations?: string[];
   /**
   * The ID of the project in which to create the node pool. If blank, the provider-configured project will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#project GoogleContainerNodePool#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#project GoogleContainerNodePool#project}
   */
   readonly project?: string;
   /**
   * The Kubernetes version for the nodes in this pool. Note that if this field and auto_upgrade are both specified, they will fight each other for what the node version should be, so setting both is highly discouraged. While a fuzzy version can be specified, it's recommended that you specify explicit versions as Terraform will see spurious diffs when fuzzy versions are used. See the google_container_engine_versions data source's version_prefix field to approximate fuzzy versions in a Terraform-compatible way.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#version GoogleContainerNodePool#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#version GoogleContainerNodePool#version}
   */
   readonly version?: string;
   /**
   * autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#autoscaling GoogleContainerNodePool#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#autoscaling GoogleContainerNodePool#autoscaling}
   */
   readonly autoscaling?: GoogleContainerNodePoolAutoscaling;
   /**
   * management block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#management GoogleContainerNodePool#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#management GoogleContainerNodePool#management}
   */
   readonly management?: GoogleContainerNodePoolManagement;
   /**
   * network_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#network_config GoogleContainerNodePool#network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#network_config GoogleContainerNodePool#network_config}
   */
   readonly networkConfig?: GoogleContainerNodePoolNetworkConfig;
   /**
   * node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#node_config GoogleContainerNodePool#node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#node_config GoogleContainerNodePool#node_config}
   */
   readonly nodeConfig?: GoogleContainerNodePoolNodeConfig;
   /**
   * node_drain_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#node_drain_config GoogleContainerNodePool#node_drain_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#node_drain_config GoogleContainerNodePool#node_drain_config}
   */
   readonly nodeDrainConfig?: GoogleContainerNodePoolNodeDrainConfig[] | cdktn.IResolvable;
   /**
   * placement_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#placement_policy GoogleContainerNodePool#placement_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#placement_policy GoogleContainerNodePool#placement_policy}
   */
   readonly placementPolicy?: GoogleContainerNodePoolPlacementPolicy;
   /**
   * queued_provisioning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#queued_provisioning GoogleContainerNodePool#queued_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#queued_provisioning GoogleContainerNodePool#queued_provisioning}
   */
   readonly queuedProvisioning?: GoogleContainerNodePoolQueuedProvisioning;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#timeouts GoogleContainerNodePool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#timeouts GoogleContainerNodePool#timeouts}
   */
   readonly timeouts?: GoogleContainerNodePoolTimeouts;
   /**
   * upgrade_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#upgrade_settings GoogleContainerNodePool#upgrade_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#upgrade_settings GoogleContainerNodePool#upgrade_settings}
   */
   readonly upgradeSettings?: GoogleContainerNodePoolUpgradeSettings;
 }
@@ -150,31 +150,31 @@ export interface GoogleContainerNodePoolAutoscaling {
   /**
   * Location policy specifies the algorithm used when scaling-up the node pool. "BALANCED" - Is a best effort policy that aims to balance the sizes of available zones. "ANY" - Instructs the cluster autoscaler to prioritize utilization of unused reservations, and reduces preemption risk for Spot VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#location_policy GoogleContainerNodePool#location_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#location_policy GoogleContainerNodePool#location_policy}
   */
   readonly locationPolicy?: string;
   /**
   * Maximum number of nodes per zone in the node pool. Must be >= min_node_count. Cannot be used with total limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#max_node_count GoogleContainerNodePool#max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#max_node_count GoogleContainerNodePool#max_node_count}
   */
   readonly maxNodeCount?: number;
   /**
   * Minimum number of nodes per zone in the node pool. Must be >=0 and <= max_node_count. Cannot be used with total limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#min_node_count GoogleContainerNodePool#min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#min_node_count GoogleContainerNodePool#min_node_count}
   */
   readonly minNodeCount?: number;
   /**
   * Maximum number of all nodes in the node pool. Must be >= total_min_node_count. Cannot be used with per zone limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#total_max_node_count GoogleContainerNodePool#total_max_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#total_max_node_count GoogleContainerNodePool#total_max_node_count}
   */
   readonly totalMaxNodeCount?: number;
   /**
   * Minimum number of all nodes in the node pool. Must be >=0 and <= total_max_node_count. Cannot be used with per zone limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#total_min_node_count GoogleContainerNodePool#total_min_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#total_min_node_count GoogleContainerNodePool#total_min_node_count}
   */
   readonly totalMinNodeCount?: number;
 }
@@ -182,7 +182,7 @@ export interface GoogleContainerNodePoolAutoscaling {
 export function googleContainerNodePoolAutoscalingToTerraform(struct?: GoogleContainerNodePoolAutoscalingOutputReference | GoogleContainerNodePoolAutoscaling): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     location_policy: cdktn.stringToTerraform(struct!.locationPolicy),
@@ -197,7 +197,7 @@ export function googleContainerNodePoolAutoscalingToTerraform(struct?: GoogleCon
 export function googleContainerNodePoolAutoscalingToHclTerraform(struct?: GoogleContainerNodePoolAutoscalingOutputReference | GoogleContainerNodePoolAutoscaling): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     location_policy: {
@@ -376,13 +376,13 @@ export interface GoogleContainerNodePoolManagement {
   /**
   * Whether the nodes will be automatically repaired. Enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#auto_repair GoogleContainerNodePool#auto_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#auto_repair GoogleContainerNodePool#auto_repair}
   */
   readonly autoRepair?: boolean | cdktn.IResolvable;
   /**
   * Whether the nodes will be automatically upgraded. Enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#auto_upgrade GoogleContainerNodePool#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#auto_upgrade GoogleContainerNodePool#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktn.IResolvable;
 }
@@ -390,7 +390,7 @@ export interface GoogleContainerNodePoolManagement {
 export function googleContainerNodePoolManagementToTerraform(struct?: GoogleContainerNodePoolManagementOutputReference | GoogleContainerNodePoolManagement): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     auto_repair: cdktn.booleanToTerraform(struct!.autoRepair),
@@ -402,7 +402,7 @@ export function googleContainerNodePoolManagementToTerraform(struct?: GoogleCont
 export function googleContainerNodePoolManagementToHclTerraform(struct?: GoogleContainerNodePoolManagementOutputReference | GoogleContainerNodePoolManagement): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     auto_repair: {
@@ -497,13 +497,13 @@ export interface GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfig
   /**
   * Name of the VPC where the additional interface belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#network GoogleContainerNodePool#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#network GoogleContainerNodePool#network}
   */
   readonly network?: string;
   /**
   * Name of the subnetwork where the additional interface belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
   */
   readonly subnetwork?: string;
 }
@@ -511,7 +511,7 @@ export interface GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfig
 export function googleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsToTerraform(struct?: GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     network: cdktn.stringToTerraform(struct!.network),
@@ -523,7 +523,7 @@ export function googleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigs
 export function googleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigsToHclTerraform(struct?: GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     network: {
@@ -650,19 +650,19 @@ export interface GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigs
   /**
   * The maximum number of pods per node which use this pod network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#max_pods_per_node GoogleContainerNodePool#max_pods_per_node}
   */
   readonly maxPodsPerNode?: number;
   /**
   * The name of the secondary range on the subnet which provides IP address for this pod range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#secondary_pod_range GoogleContainerNodePool#secondary_pod_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#secondary_pod_range GoogleContainerNodePool#secondary_pod_range}
   */
   readonly secondaryPodRange?: string;
   /**
   * Name of the subnetwork where the additional pod network belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
   */
   readonly subnetwork?: string;
 }
@@ -670,7 +670,7 @@ export interface GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigs
 export function googleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsToTerraform(struct?: GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_pods_per_node: cdktn.numberToTerraform(struct!.maxPodsPerNode),
@@ -683,7 +683,7 @@ export function googleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsT
 export function googleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigsToHclTerraform(struct?: GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_pods_per_node: {
@@ -838,7 +838,7 @@ export interface GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfig {
   /**
   * Specifies the total network bandwidth tier for the NodePool. [Valid values](https://cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters.nodePools#NodePool.Tier) include: "TIER_1" and "TIER_UNSPECIFIED".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#total_egress_bandwidth_tier GoogleContainerNodePool#total_egress_bandwidth_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#total_egress_bandwidth_tier GoogleContainerNodePool#total_egress_bandwidth_tier}
   */
   readonly totalEgressBandwidthTier: string;
 }
@@ -846,7 +846,7 @@ export interface GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfig {
 export function googleContainerNodePoolNetworkConfigNetworkPerformanceConfigToTerraform(struct?: GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReference | GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     total_egress_bandwidth_tier: cdktn.stringToTerraform(struct!.totalEgressBandwidthTier),
@@ -857,7 +857,7 @@ export function googleContainerNodePoolNetworkConfigNetworkPerformanceConfigToTe
 export function googleContainerNodePoolNetworkConfigNetworkPerformanceConfigToHclTerraform(struct?: GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputReference | GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     total_egress_bandwidth_tier: {
@@ -919,7 +919,7 @@ export class GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfigOutputR
 }
 export interface GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}
   */
   readonly disabled: boolean | cdktn.IResolvable;
 }
@@ -927,7 +927,7 @@ export interface GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig 
 export function googleContainerNodePoolNetworkConfigPodCidrOverprovisionConfigToTerraform(struct?: GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference | GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disabled: cdktn.booleanToTerraform(struct!.disabled),
@@ -938,7 +938,7 @@ export function googleContainerNodePoolNetworkConfigPodCidrOverprovisionConfigTo
 export function googleContainerNodePoolNetworkConfigPodCidrOverprovisionConfigToHclTerraform(struct?: GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfigOutputReference | GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disabled: {
@@ -1002,61 +1002,61 @@ export interface GoogleContainerNodePoolNetworkConfig {
   /**
   * The accelerator network profile to use for this node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#accelerator_network_profile GoogleContainerNodePool#accelerator_network_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#accelerator_network_profile GoogleContainerNodePool#accelerator_network_profile}
   */
   readonly acceleratorNetworkProfile?: string;
   /**
   * Whether to create a new range for pod IPs in this node pool. Defaults are provided for pod_range and pod_ipv4_cidr_block if they are not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#create_pod_range GoogleContainerNodePool#create_pod_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#create_pod_range GoogleContainerNodePool#create_pod_range}
   */
   readonly createPodRange?: boolean | cdktn.IResolvable;
   /**
   * Whether nodes have internal IP addresses only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enable_private_nodes GoogleContainerNodePool#enable_private_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enable_private_nodes GoogleContainerNodePool#enable_private_nodes}
   */
   readonly enablePrivateNodes?: boolean | cdktn.IResolvable;
   /**
   * The IP address range for pod IPs in this node pool. Only applicable if create_pod_range is true. Set to blank to have a range chosen with the default size. Set to /netmask (e.g. /14) to have a range chosen with a specific netmask. Set to a CIDR notation (e.g. 10.96.0.0/14) to pick a specific range to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#pod_ipv4_cidr_block GoogleContainerNodePool#pod_ipv4_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#pod_ipv4_cidr_block GoogleContainerNodePool#pod_ipv4_cidr_block}
   */
   readonly podIpv4CidrBlock?: string;
   /**
   * The ID of the secondary range for pod IPs. If create_pod_range is true, this ID is used for the new range. If create_pod_range is false, uses an existing secondary range with this ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#pod_range GoogleContainerNodePool#pod_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#pod_range GoogleContainerNodePool#pod_range}
   */
   readonly podRange?: string;
   /**
   * The subnetwork name/path for the node pool. Format: subnetwork or projects/{project}/regions/{region}/subnetworks/{subnetwork}. This value may be specified via the nested network_config block (setting this attribute directly is supported for backward compatibility). Once created the node pool's subnetwork is immutable. If not set, the provider/API will choose the subnetwork (e.g. based on IP utilization) and report it here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#subnetwork GoogleContainerNodePool#subnetwork}
   */
   readonly subnetwork?: string;
   /**
   * additional_node_network_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#additional_node_network_configs GoogleContainerNodePool#additional_node_network_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#additional_node_network_configs GoogleContainerNodePool#additional_node_network_configs}
   */
   readonly additionalNodeNetworkConfigs?: GoogleContainerNodePoolNetworkConfigAdditionalNodeNetworkConfigs[] | cdktn.IResolvable;
   /**
   * additional_pod_network_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#additional_pod_network_configs GoogleContainerNodePool#additional_pod_network_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#additional_pod_network_configs GoogleContainerNodePool#additional_pod_network_configs}
   */
   readonly additionalPodNetworkConfigs?: GoogleContainerNodePoolNetworkConfigAdditionalPodNetworkConfigs[] | cdktn.IResolvable;
   /**
   * network_performance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#network_performance_config GoogleContainerNodePool#network_performance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#network_performance_config GoogleContainerNodePool#network_performance_config}
   */
   readonly networkPerformanceConfig?: GoogleContainerNodePoolNetworkConfigNetworkPerformanceConfig;
   /**
   * pod_cidr_overprovision_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#pod_cidr_overprovision_config GoogleContainerNodePool#pod_cidr_overprovision_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#pod_cidr_overprovision_config GoogleContainerNodePool#pod_cidr_overprovision_config}
   */
   readonly podCidrOverprovisionConfig?: GoogleContainerNodePoolNetworkConfigPodCidrOverprovisionConfig;
 }
@@ -1064,7 +1064,7 @@ export interface GoogleContainerNodePoolNetworkConfig {
 export function googleContainerNodePoolNetworkConfigToTerraform(struct?: GoogleContainerNodePoolNetworkConfigOutputReference | GoogleContainerNodePoolNetworkConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     accelerator_network_profile: cdktn.stringToTerraform(struct!.acceleratorNetworkProfile),
@@ -1084,7 +1084,7 @@ export function googleContainerNodePoolNetworkConfigToTerraform(struct?: GoogleC
 export function googleContainerNodePoolNetworkConfigToHclTerraform(struct?: GoogleContainerNodePoolNetworkConfigOutputReference | GoogleContainerNodePoolNetworkConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     accelerator_network_profile: {
@@ -1405,7 +1405,7 @@ export interface GoogleContainerNodePoolNodeConfigEffectiveTaints {
 export function googleContainerNodePoolNodeConfigEffectiveTaintsToTerraform(struct?: GoogleContainerNodePoolNodeConfigEffectiveTaints): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1415,7 +1415,7 @@ export function googleContainerNodePoolNodeConfigEffectiveTaintsToTerraform(stru
 export function googleContainerNodePoolNodeConfigEffectiveTaintsToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigEffectiveTaints): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1488,19 +1488,19 @@ export interface GoogleContainerNodePoolNodeConfigAdvancedMachineFeatures {
   /**
   * Whether the node should have nested virtualization enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enable_nested_virtualization GoogleContainerNodePool#enable_nested_virtualization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enable_nested_virtualization GoogleContainerNodePool#enable_nested_virtualization}
   */
   readonly enableNestedVirtualization?: boolean | cdktn.IResolvable;
   /**
   * Level of Performance Monitoring Unit (PMU) requested. If unset, no access to the PMU is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#performance_monitoring_unit GoogleContainerNodePool#performance_monitoring_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#performance_monitoring_unit GoogleContainerNodePool#performance_monitoring_unit}
   */
   readonly performanceMonitoringUnit?: string;
   /**
   * The number of threads per physical core. To disable simultaneous multithreading (SMT) set this to 1. If unset, the maximum number of threads supported per core by the underlying processor is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#threads_per_core GoogleContainerNodePool#threads_per_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#threads_per_core GoogleContainerNodePool#threads_per_core}
   */
   readonly threadsPerCore: number;
 }
@@ -1508,7 +1508,7 @@ export interface GoogleContainerNodePoolNodeConfigAdvancedMachineFeatures {
 export function googleContainerNodePoolNodeConfigAdvancedMachineFeaturesToTerraform(struct?: GoogleContainerNodePoolNodeConfigAdvancedMachineFeaturesOutputReference | GoogleContainerNodePoolNodeConfigAdvancedMachineFeatures): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_nested_virtualization: cdktn.booleanToTerraform(struct!.enableNestedVirtualization),
@@ -1521,7 +1521,7 @@ export function googleContainerNodePoolNodeConfigAdvancedMachineFeaturesToTerraf
 export function googleContainerNodePoolNodeConfigAdvancedMachineFeaturesToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigAdvancedMachineFeaturesOutputReference | GoogleContainerNodePoolNodeConfigAdvancedMachineFeatures): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_nested_virtualization: {
@@ -1641,25 +1641,25 @@ export interface GoogleContainerNodePoolNodeConfigBootDisk {
   /**
   * Type of the disk attached to each node. Such as pd-standard, pd-balanced or pd-ssd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
   */
   readonly diskType?: string;
   /**
   * Configured IOPs provisioning. Only valid with disk type hyperdisk-balanced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#provisioned_iops GoogleContainerNodePool#provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#provisioned_iops GoogleContainerNodePool#provisioned_iops}
   */
   readonly provisionedIops?: number;
   /**
   * Configured throughput provisioning. Only valid with disk type hyperdisk-balanced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#provisioned_throughput GoogleContainerNodePool#provisioned_throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#provisioned_throughput GoogleContainerNodePool#provisioned_throughput}
   */
   readonly provisionedThroughput?: number;
   /**
   * Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#size_gb GoogleContainerNodePool#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#size_gb GoogleContainerNodePool#size_gb}
   */
   readonly sizeGb?: number;
 }
@@ -1667,7 +1667,7 @@ export interface GoogleContainerNodePoolNodeConfigBootDisk {
 export function googleContainerNodePoolNodeConfigBootDiskToTerraform(struct?: GoogleContainerNodePoolNodeConfigBootDiskOutputReference | GoogleContainerNodePoolNodeConfigBootDisk): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disk_type: cdktn.stringToTerraform(struct!.diskType),
@@ -1681,7 +1681,7 @@ export function googleContainerNodePoolNodeConfigBootDiskToTerraform(struct?: Go
 export function googleContainerNodePoolNodeConfigBootDiskToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigBootDiskOutputReference | GoogleContainerNodePoolNodeConfigBootDisk): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disk_type: {
@@ -1832,13 +1832,13 @@ export interface GoogleContainerNodePoolNodeConfigConfidentialNodes {
   /**
   * Defines the type of technology used by the confidential node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#confidential_instance_type GoogleContainerNodePool#confidential_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#confidential_instance_type GoogleContainerNodePool#confidential_instance_type}
   */
   readonly confidentialInstanceType?: string;
   /**
   * Whether Confidential Nodes feature is enabled for all nodes in this pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -1846,7 +1846,7 @@ export interface GoogleContainerNodePoolNodeConfigConfidentialNodes {
 export function googleContainerNodePoolNodeConfigConfidentialNodesToTerraform(struct?: GoogleContainerNodePoolNodeConfigConfidentialNodesOutputReference | GoogleContainerNodePoolNodeConfigConfidentialNodes): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     confidential_instance_type: cdktn.stringToTerraform(struct!.confidentialInstanceType),
@@ -1858,7 +1858,7 @@ export function googleContainerNodePoolNodeConfigConfidentialNodesToTerraform(st
 export function googleContainerNodePoolNodeConfigConfidentialNodesToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigConfidentialNodesOutputReference | GoogleContainerNodePoolNodeConfigConfidentialNodes): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     confidential_instance_type: {
@@ -1950,7 +1950,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistr
   /**
   * URI for the secret that hosts a certificate. Must be in the format 'projects/PROJECT_NUM/secrets/SECRET_NAME/versions/VERSION_OR_LATEST'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#secret_uri GoogleContainerNodePool#secret_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#secret_uri GoogleContainerNodePool#secret_uri}
   */
   readonly secretUri: string;
 }
@@ -1958,7 +1958,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistr
 export function googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     secret_uri: cdktn.stringToTerraform(struct!.secretUri),
@@ -1969,7 +1969,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistry
 export function googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfigOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     secret_uri: {
@@ -2033,13 +2033,13 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistr
   /**
   * List of fully-qualified-domain-names. IPv4s and port specification are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#fqdns GoogleContainerNodePool#fqdns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#fqdns GoogleContainerNodePool#fqdns}
   */
   readonly fqdns: string[];
   /**
   * gcp_secret_manager_certificate_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gcp_secret_manager_certificate_config GoogleContainerNodePool#gcp_secret_manager_certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gcp_secret_manager_certificate_config GoogleContainerNodePool#gcp_secret_manager_certificate_config}
   */
   readonly gcpSecretManagerCertificateConfig: GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigGcpSecretManagerCertificateConfig;
 }
@@ -2047,7 +2047,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistr
 export function googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     fqdns: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.fqdns),
@@ -2059,7 +2059,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistry
 export function googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     fqdns: {
@@ -2180,13 +2180,13 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistr
   /**
   * Whether or not private registries are configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
   /**
   * certificate_authority_domain_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#certificate_authority_domain_config GoogleContainerNodePool#certificate_authority_domain_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#certificate_authority_domain_config GoogleContainerNodePool#certificate_authority_domain_config}
   */
   readonly certificateAuthorityDomainConfig?: GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigCertificateAuthorityDomainConfig[] | cdktn.IResolvable;
 }
@@ -2194,7 +2194,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistr
 export function googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -2206,7 +2206,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistry
 export function googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -2298,7 +2298,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
   /**
   * URI for the Secret Manager secret that hosts the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
   */
   readonly gcpSecretManagerSecretUri?: string;
 }
@@ -2306,7 +2306,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gcp_secret_manager_secret_uri: cdktn.stringToTerraform(struct!.gcpSecretManagerSecretUri),
@@ -2317,7 +2317,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHo
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCaToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gcp_secret_manager_secret_uri: {
@@ -2416,7 +2416,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
   /**
   * URI for the Secret Manager secret that hosts the client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
   */
   readonly gcpSecretManagerSecretUri?: string;
 }
@@ -2424,7 +2424,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gcp_secret_manager_secret_uri: cdktn.stringToTerraform(struct!.gcpSecretManagerSecretUri),
@@ -2435,7 +2435,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHo
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gcp_secret_manager_secret_uri: {
@@ -2502,7 +2502,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
   /**
   * URI for the Secret Manager secret that hosts the private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gcp_secret_manager_secret_uri GoogleContainerNodePool#gcp_secret_manager_secret_uri}
   */
   readonly gcpSecretManagerSecretUri?: string;
 }
@@ -2510,7 +2510,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gcp_secret_manager_secret_uri: cdktn.stringToTerraform(struct!.gcpSecretManagerSecretUri),
@@ -2521,7 +2521,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHo
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKeyOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gcp_secret_manager_secret_uri: {
@@ -2588,13 +2588,13 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
   /**
   * cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#cert GoogleContainerNodePool#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#cert GoogleContainerNodePool#cert}
   */
   readonly cert: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCert;
   /**
   * key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
   */
   readonly key?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientKey;
 }
@@ -2602,7 +2602,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cert: googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientCertToTerraform(struct!.cert),
@@ -2614,7 +2614,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHo
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClientToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cert: {
@@ -2738,13 +2738,13 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
   /**
   * Configures the header key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
   */
   readonly key: string;
   /**
   * Configures the header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
   */
   readonly value: string[];
 }
@@ -2752,7 +2752,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -2764,7 +2764,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHo
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeaderToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -2885,43 +2885,43 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
   /**
   * Represent the capabilities of the registry host, specifying what operations a host is capable of performing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#capabilities GoogleContainerNodePool#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#capabilities GoogleContainerNodePool#capabilities}
   */
   readonly capabilities?: string[];
   /**
   * Specifies the maximum duration allowed for a connection attempt to complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#dial_timeout GoogleContainerNodePool#dial_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#dial_timeout GoogleContainerNodePool#dial_timeout}
   */
   readonly dialTimeout?: string;
   /**
   * Configures the registry host/mirror.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#host GoogleContainerNodePool#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#host GoogleContainerNodePool#host}
   */
   readonly host: string;
   /**
   * Indicate the host's API root endpoint is defined in the URL path rather than by the API specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#override_path GoogleContainerNodePool#override_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#override_path GoogleContainerNodePool#override_path}
   */
   readonly overridePath?: boolean | cdktn.IResolvable;
   /**
   * ca block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#ca GoogleContainerNodePool#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#ca GoogleContainerNodePool#ca}
   */
   readonly ca?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsCa[] | cdktn.IResolvable;
   /**
   * client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#client GoogleContainerNodePool#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#client GoogleContainerNodePool#client}
   */
   readonly client?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsClient[] | cdktn.IResolvable;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#header GoogleContainerNodePool#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#header GoogleContainerNodePool#header}
   */
   readonly header?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsHeader[] | cdktn.IResolvable;
 }
@@ -2929,7 +2929,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsH
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     capabilities: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.capabilities),
@@ -2946,7 +2946,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHo
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHostsToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     capabilities: {
@@ -3210,13 +3210,13 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts 
   /**
   * Defines the host name of the registry server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#server GoogleContainerNodePool#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#server GoogleContainerNodePool#server}
   */
   readonly server: string;
   /**
   * hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#hosts GoogleContainerNodePool#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#hosts GoogleContainerNodePool#hosts}
   */
   readonly hosts?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHostsHosts[] | cdktn.IResolvable;
 }
@@ -3224,7 +3224,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts 
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     server: cdktn.stringToTerraform(struct!.server),
@@ -3236,7 +3236,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsTo
 export function googleContainerNodePoolNodeConfigContainerdConfigRegistryHostsToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     server: {
@@ -3360,7 +3360,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroup
   /**
   * Whether writable cgroups are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -3368,7 +3368,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroup
 export function googleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -3379,7 +3379,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigWritableCgroups
 export function googleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroupsOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -3443,19 +3443,19 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfig {
   /**
   * private_registry_access_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#private_registry_access_config GoogleContainerNodePool#private_registry_access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#private_registry_access_config GoogleContainerNodePool#private_registry_access_config}
   */
   readonly privateRegistryAccessConfig?: GoogleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfig;
   /**
   * registry_hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#registry_hosts GoogleContainerNodePool#registry_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#registry_hosts GoogleContainerNodePool#registry_hosts}
   */
   readonly registryHosts?: GoogleContainerNodePoolNodeConfigContainerdConfigRegistryHosts[] | cdktn.IResolvable;
   /**
   * writable_cgroups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#writable_cgroups GoogleContainerNodePool#writable_cgroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#writable_cgroups GoogleContainerNodePool#writable_cgroups}
   */
   readonly writableCgroups?: GoogleContainerNodePoolNodeConfigContainerdConfigWritableCgroups;
 }
@@ -3463,7 +3463,7 @@ export interface GoogleContainerNodePoolNodeConfigContainerdConfig {
 export function googleContainerNodePoolNodeConfigContainerdConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     private_registry_access_config: googleContainerNodePoolNodeConfigContainerdConfigPrivateRegistryAccessConfigToTerraform(struct!.privateRegistryAccessConfig),
@@ -3476,7 +3476,7 @@ export function googleContainerNodePoolNodeConfigContainerdConfigToTerraform(str
 export function googleContainerNodePoolNodeConfigContainerdConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigContainerdConfigOutputReference | GoogleContainerNodePoolNodeConfigContainerdConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     private_registry_access_config: {
@@ -3599,7 +3599,7 @@ export interface GoogleContainerNodePoolNodeConfigEphemeralStorageConfig {
   /**
   * Number of local SSDs to use to back ephemeral storage. Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
   */
   readonly localSsdCount: number;
 }
@@ -3607,7 +3607,7 @@ export interface GoogleContainerNodePoolNodeConfigEphemeralStorageConfig {
 export function googleContainerNodePoolNodeConfigEphemeralStorageConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigEphemeralStorageConfigOutputReference | GoogleContainerNodePoolNodeConfigEphemeralStorageConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     local_ssd_count: cdktn.numberToTerraform(struct!.localSsdCount),
@@ -3618,7 +3618,7 @@ export function googleContainerNodePoolNodeConfigEphemeralStorageConfigToTerrafo
 export function googleContainerNodePoolNodeConfigEphemeralStorageConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigEphemeralStorageConfigOutputReference | GoogleContainerNodePoolNodeConfigEphemeralStorageConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     local_ssd_count: {
@@ -3682,13 +3682,13 @@ export interface GoogleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfig
   /**
   * Number of local SSDs to be utilized for GKE Data Cache. Uses NVMe interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#data_cache_count GoogleContainerNodePool#data_cache_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#data_cache_count GoogleContainerNodePool#data_cache_count}
   */
   readonly dataCacheCount?: number;
   /**
   * Number of local SSDs to use to back ephemeral storage. Uses NVMe interfaces. Each local SSD must be 375 or 3000 GB in size, and all local SSDs must share the same size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
   */
   readonly localSsdCount: number;
 }
@@ -3696,7 +3696,7 @@ export interface GoogleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfig
 export function googleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReference | GoogleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     data_cache_count: cdktn.numberToTerraform(struct!.dataCacheCount),
@@ -3708,7 +3708,7 @@ export function googleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfigT
 export function googleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfigOutputReference | GoogleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     data_cache_count: {
@@ -3800,7 +3800,7 @@ export interface GoogleContainerNodePoolNodeConfigFastSocket {
   /**
   * Whether or not NCCL Fast Socket is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -3808,7 +3808,7 @@ export interface GoogleContainerNodePoolNodeConfigFastSocket {
 export function googleContainerNodePoolNodeConfigFastSocketToTerraform(struct?: GoogleContainerNodePoolNodeConfigFastSocketOutputReference | GoogleContainerNodePoolNodeConfigFastSocket): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -3819,7 +3819,7 @@ export function googleContainerNodePoolNodeConfigFastSocketToTerraform(struct?: 
 export function googleContainerNodePoolNodeConfigFastSocketToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigFastSocketOutputReference | GoogleContainerNodePoolNodeConfigFastSocket): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -3883,7 +3883,7 @@ export interface GoogleContainerNodePoolNodeConfigGcfsConfig {
   /**
   * Whether or not GCFS is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -3891,7 +3891,7 @@ export interface GoogleContainerNodePoolNodeConfigGcfsConfig {
 export function googleContainerNodePoolNodeConfigGcfsConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigGcfsConfigOutputReference | GoogleContainerNodePoolNodeConfigGcfsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -3902,7 +3902,7 @@ export function googleContainerNodePoolNodeConfigGcfsConfigToTerraform(struct?: 
 export function googleContainerNodePoolNodeConfigGcfsConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigGcfsConfigOutputReference | GoogleContainerNodePoolNodeConfigGcfsConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -3966,7 +3966,7 @@ export interface GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInsta
   /**
   * Mode for how the GPU driver is installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gpu_driver_version GoogleContainerNodePool#gpu_driver_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gpu_driver_version GoogleContainerNodePool#gpu_driver_version}
   */
   readonly gpuDriverVersion: string;
 }
@@ -3974,7 +3974,7 @@ export interface GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInsta
 export function googleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigOutputReference | GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gpu_driver_version: cdktn.stringToTerraform(struct!.gpuDriverVersion),
@@ -3985,7 +3985,7 @@ export function googleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInstal
 export function googleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfigOutputReference | GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gpu_driver_version: {
@@ -4049,13 +4049,13 @@ export interface GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConf
   /**
   * The type of GPU sharing strategy to enable on the GPU node. Possible values are described in the API package (https://pkg.go.dev/google.golang.org/api/container/v1#GPUSharingConfig)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gpu_sharing_strategy GoogleContainerNodePool#gpu_sharing_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gpu_sharing_strategy GoogleContainerNodePool#gpu_sharing_strategy}
   */
   readonly gpuSharingStrategy: string;
   /**
   * The maximum number of containers that can share a GPU.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#max_shared_clients_per_gpu GoogleContainerNodePool#max_shared_clients_per_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#max_shared_clients_per_gpu GoogleContainerNodePool#max_shared_clients_per_gpu}
   */
   readonly maxSharedClientsPerGpu: number;
 }
@@ -4063,7 +4063,7 @@ export interface GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConf
 export function googleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConfigOutputReference | GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gpu_sharing_strategy: cdktn.stringToTerraform(struct!.gpuSharingStrategy),
@@ -4075,7 +4075,7 @@ export function googleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConfi
 export function googleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConfigOutputReference | GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gpu_sharing_strategy: {
@@ -4164,31 +4164,31 @@ export interface GoogleContainerNodePoolNodeConfigGuestAccelerator {
   /**
   * The number of the accelerator cards exposed to an instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#count GoogleContainerNodePool#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#count GoogleContainerNodePool#count}
   */
   readonly count: number;
   /**
   * Size of partitions to create on the GPU. Valid values are described in the NVIDIA mig user guide (https://docs.nvidia.com/datacenter/tesla/mig-user-guide/#partitioning)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gpu_partition_size GoogleContainerNodePool#gpu_partition_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gpu_partition_size GoogleContainerNodePool#gpu_partition_size}
   */
   readonly gpuPartitionSize?: string;
   /**
   * The accelerator type resource name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
   */
   readonly type: string;
   /**
   * gpu_driver_installation_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gpu_driver_installation_config GoogleContainerNodePool#gpu_driver_installation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gpu_driver_installation_config GoogleContainerNodePool#gpu_driver_installation_config}
   */
   readonly gpuDriverInstallationConfig?: GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuDriverInstallationConfig;
   /**
   * gpu_sharing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gpu_sharing_config GoogleContainerNodePool#gpu_sharing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gpu_sharing_config GoogleContainerNodePool#gpu_sharing_config}
   */
   readonly gpuSharingConfig?: GoogleContainerNodePoolNodeConfigGuestAcceleratorGpuSharingConfig;
 }
@@ -4196,7 +4196,7 @@ export interface GoogleContainerNodePoolNodeConfigGuestAccelerator {
 export function googleContainerNodePoolNodeConfigGuestAcceleratorToTerraform(struct?: GoogleContainerNodePoolNodeConfigGuestAccelerator | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     count: cdktn.numberToTerraform(struct!.count),
@@ -4211,7 +4211,7 @@ export function googleContainerNodePoolNodeConfigGuestAcceleratorToTerraform(str
 export function googleContainerNodePoolNodeConfigGuestAcceleratorToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigGuestAccelerator | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     count: {
@@ -4416,7 +4416,7 @@ export interface GoogleContainerNodePoolNodeConfigGvnic {
   /**
   * Whether or not gvnic is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -4424,7 +4424,7 @@ export interface GoogleContainerNodePoolNodeConfigGvnic {
 export function googleContainerNodePoolNodeConfigGvnicToTerraform(struct?: GoogleContainerNodePoolNodeConfigGvnicOutputReference | GoogleContainerNodePoolNodeConfigGvnic): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -4435,7 +4435,7 @@ export function googleContainerNodePoolNodeConfigGvnicToTerraform(struct?: Googl
 export function googleContainerNodePoolNodeConfigGvnicToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigGvnicOutputReference | GoogleContainerNodePoolNodeConfigGvnic): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -4499,7 +4499,7 @@ export interface GoogleContainerNodePoolNodeConfigHostMaintenancePolicy {
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#maintenance_interval GoogleContainerNodePool#maintenance_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#maintenance_interval GoogleContainerNodePool#maintenance_interval}
   */
   readonly maintenanceInterval: string;
 }
@@ -4507,7 +4507,7 @@ export interface GoogleContainerNodePoolNodeConfigHostMaintenancePolicy {
 export function googleContainerNodePoolNodeConfigHostMaintenancePolicyToTerraform(struct?: GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference | GoogleContainerNodePoolNodeConfigHostMaintenancePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     maintenance_interval: cdktn.stringToTerraform(struct!.maintenanceInterval),
@@ -4518,7 +4518,7 @@ export function googleContainerNodePoolNodeConfigHostMaintenancePolicyToTerrafor
 export function googleContainerNodePoolNodeConfigHostMaintenancePolicyToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference | GoogleContainerNodePoolNodeConfigHostMaintenancePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     maintenance_interval: {
@@ -4582,7 +4582,7 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOff 
   /**
   * The maximum duration the backoff delay can accrue to for container restarts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#max_container_restart_period GoogleContainerNodePool#max_container_restart_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#max_container_restart_period GoogleContainerNodePool#max_container_restart_period}
   */
   readonly maxContainerRestartPeriod?: string;
 }
@@ -4590,7 +4590,7 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOff 
 export function googleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOffToTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOffOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOff): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_container_restart_period: cdktn.stringToTerraform(struct!.maxContainerRestartPeriod),
@@ -4601,7 +4601,7 @@ export function googleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOffTo
 export function googleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOffToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOffOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOff): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_container_restart_period: {
@@ -4668,37 +4668,37 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumRe
   /**
   * Defines percentage of minimum reclaim for imagefs.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
   */
   readonly imagefsAvailable?: string;
   /**
   * Defines percentage of minimum reclaim for imagefs.inodesFree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
   */
   readonly imagefsInodesFree?: string;
   /**
   * Defines percentage of minimum reclaim for memory.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
   */
   readonly memoryAvailable?: string;
   /**
   * Defines percentage of minimum reclaim for nodefs.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
   */
   readonly nodefsAvailable?: string;
   /**
   * Defines percentage of minimum reclaim for nodefs.inodesFree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
   */
   readonly nodefsInodesFree?: string;
   /**
   * Defines percentage of minimum reclaim for pid.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
   */
   readonly pidAvailable?: string;
 }
@@ -4706,7 +4706,7 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumRe
 export function googleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimToTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     imagefs_available: cdktn.stringToTerraform(struct!.imagefsAvailable),
@@ -4722,7 +4722,7 @@ export function googleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumRec
 export function googleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaimOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     imagefs_available: {
@@ -4929,37 +4929,37 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoft {
   /**
   * Defines percentage of soft eviction threshold for imagefs.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
   */
   readonly imagefsAvailable?: string;
   /**
   * Defines percentage of soft eviction threshold for imagefs.inodesFree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
   */
   readonly imagefsInodesFree?: string;
   /**
   * Defines quantity of soft eviction threshold for memory.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
   */
   readonly memoryAvailable?: string;
   /**
   * Defines percentage of soft eviction threshold for nodefs.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
   */
   readonly nodefsAvailable?: string;
   /**
   * Defines percentage of soft eviction threshold for nodefs.inodesFree.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
   */
   readonly nodefsInodesFree?: string;
   /**
   * Defines percentage of soft eviction threshold for pid.available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
   */
   readonly pidAvailable?: string;
 }
@@ -4967,7 +4967,7 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoft {
 export function googleContainerNodePoolNodeConfigKubeletConfigEvictionSoftToTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoft): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     imagefs_available: cdktn.stringToTerraform(struct!.imagefsAvailable),
@@ -4983,7 +4983,7 @@ export function googleContainerNodePoolNodeConfigKubeletConfigEvictionSoftToTerr
 export function googleContainerNodePoolNodeConfigKubeletConfigEvictionSoftToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoft): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     imagefs_available: {
@@ -5190,37 +5190,37 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGrace
   /**
   * Defines grace period for the imagefs.available soft eviction threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#imagefs_available GoogleContainerNodePool#imagefs_available}
   */
   readonly imagefsAvailable?: string;
   /**
   * Defines grace period for the imagefs.inodesFree soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#imagefs_inodes_free GoogleContainerNodePool#imagefs_inodes_free}
   */
   readonly imagefsInodesFree?: string;
   /**
   * Defines grace period for the memory.available soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#memory_available GoogleContainerNodePool#memory_available}
   */
   readonly memoryAvailable?: string;
   /**
   * Defines grace period for the nodefs.available soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#nodefs_available GoogleContainerNodePool#nodefs_available}
   */
   readonly nodefsAvailable?: string;
   /**
   * Defines grace period for the nodefs.inodesFree soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#nodefs_inodes_free GoogleContainerNodePool#nodefs_inodes_free}
   */
   readonly nodefsInodesFree?: string;
   /**
   * Defines grace period for the pid.available soft eviction threshold.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#pid_available GoogleContainerNodePool#pid_available}
   */
   readonly pidAvailable?: string;
 }
@@ -5228,7 +5228,7 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGrace
 export function googleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriodToTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriod): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     imagefs_available: cdktn.stringToTerraform(struct!.imagefsAvailable),
@@ -5244,7 +5244,7 @@ export function googleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGraceP
 export function googleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriodToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriodOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriod): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     imagefs_available: {
@@ -5451,7 +5451,7 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager {
   /**
   * The Memory Manager policy to use. This policy guides how memory and hugepages are allocated and managed for pods on the node, influencing NUMA affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
   */
   readonly policy?: string;
 }
@@ -5459,7 +5459,7 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager {
 export function googleContainerNodePoolNodeConfigKubeletConfigMemoryManagerToTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     policy: cdktn.stringToTerraform(struct!.policy),
@@ -5470,7 +5470,7 @@ export function googleContainerNodePoolNodeConfigKubeletConfigMemoryManagerToTer
 export function googleContainerNodePoolNodeConfigKubeletConfigMemoryManagerToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManagerOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     policy: {
@@ -5537,13 +5537,13 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager {
   /**
   * The Topology Manager policy to use. This policy dictates how resource alignment is handled on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
   */
   readonly policy?: string;
   /**
   * The Topology Manager scope, defining the granularity at which policy decisions are applied. Valid values are "container" (resources are aligned per container within a pod) or "pod" (resources are aligned for the entire pod).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#scope GoogleContainerNodePool#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#scope GoogleContainerNodePool#scope}
   */
   readonly scope?: string;
 }
@@ -5551,7 +5551,7 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager {
 export function googleContainerNodePoolNodeConfigKubeletConfigTopologyManagerToTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     policy: cdktn.stringToTerraform(struct!.policy),
@@ -5563,7 +5563,7 @@ export function googleContainerNodePoolNodeConfigKubeletConfigTopologyManagerToT
 export function googleContainerNodePoolNodeConfigKubeletConfigTopologyManagerToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManagerOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     policy: {
@@ -5658,127 +5658,127 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfig {
   /**
   * Defines a comma-separated allowlist of unsafe sysctls or sysctl patterns which can be set on the Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#allowed_unsafe_sysctls GoogleContainerNodePool#allowed_unsafe_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#allowed_unsafe_sysctls GoogleContainerNodePool#allowed_unsafe_sysctls}
   */
   readonly allowedUnsafeSysctls?: string[];
   /**
   * Defines the maximum number of container log files that can be present for a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#container_log_max_files GoogleContainerNodePool#container_log_max_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#container_log_max_files GoogleContainerNodePool#container_log_max_files}
   */
   readonly containerLogMaxFiles?: number;
   /**
   * Defines the maximum size of the container log file before it is rotated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#container_log_max_size GoogleContainerNodePool#container_log_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#container_log_max_size GoogleContainerNodePool#container_log_max_size}
   */
   readonly containerLogMaxSize?: string;
   /**
   * Enable CPU CFS quota enforcement for containers that specify CPU limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#cpu_cfs_quota GoogleContainerNodePool#cpu_cfs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#cpu_cfs_quota GoogleContainerNodePool#cpu_cfs_quota}
   */
   readonly cpuCfsQuota?: boolean | cdktn.IResolvable;
   /**
   * Set the CPU CFS quota period value 'cpu.cfs_period_us'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#cpu_cfs_quota_period GoogleContainerNodePool#cpu_cfs_quota_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#cpu_cfs_quota_period GoogleContainerNodePool#cpu_cfs_quota_period}
   */
   readonly cpuCfsQuotaPeriod?: string;
   /**
   * Control the CPU management policy on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#cpu_manager_policy GoogleContainerNodePool#cpu_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#cpu_manager_policy GoogleContainerNodePool#cpu_manager_policy}
   */
   readonly cpuManagerPolicy?: string;
   /**
   * Defines the maximum allowed grace period (in seconds) to use when terminating pods in response to a soft eviction threshold being met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#eviction_max_pod_grace_period_seconds GoogleContainerNodePool#eviction_max_pod_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#eviction_max_pod_grace_period_seconds GoogleContainerNodePool#eviction_max_pod_grace_period_seconds}
   */
   readonly evictionMaxPodGracePeriodSeconds?: number;
   /**
   * Defines the percent of disk usage after which image garbage collection is always run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#image_gc_high_threshold_percent GoogleContainerNodePool#image_gc_high_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#image_gc_high_threshold_percent GoogleContainerNodePool#image_gc_high_threshold_percent}
   */
   readonly imageGcHighThresholdPercent?: number;
   /**
   * Defines the percent of disk usage before which image garbage collection is never run. Lowest disk usage to garbage collect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#image_gc_low_threshold_percent GoogleContainerNodePool#image_gc_low_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#image_gc_low_threshold_percent GoogleContainerNodePool#image_gc_low_threshold_percent}
   */
   readonly imageGcLowThresholdPercent?: number;
   /**
   * Defines the maximum age an image can be unused before it is garbage collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#image_maximum_gc_age GoogleContainerNodePool#image_maximum_gc_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#image_maximum_gc_age GoogleContainerNodePool#image_maximum_gc_age}
   */
   readonly imageMaximumGcAge?: string;
   /**
   * Defines the minimum age for an unused image before it is garbage collected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#image_minimum_gc_age GoogleContainerNodePool#image_minimum_gc_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#image_minimum_gc_age GoogleContainerNodePool#image_minimum_gc_age}
   */
   readonly imageMinimumGcAge?: string;
   /**
   * Controls whether the kubelet read-only port is enabled. It is strongly recommended to set this to `FALSE`. Possible values: `TRUE`, `FALSE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#insecure_kubelet_readonly_port_enabled GoogleContainerNodePool#insecure_kubelet_readonly_port_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#insecure_kubelet_readonly_port_enabled GoogleContainerNodePool#insecure_kubelet_readonly_port_enabled}
   */
   readonly insecureKubeletReadonlyPortEnabled?: string;
   /**
   * Set the maximum number of image pulls in parallel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#max_parallel_image_pulls GoogleContainerNodePool#max_parallel_image_pulls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#max_parallel_image_pulls GoogleContainerNodePool#max_parallel_image_pulls}
   */
   readonly maxParallelImagePulls?: number;
   /**
   * Controls the maximum number of processes allowed to run in a pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#pod_pids_limit GoogleContainerNodePool#pod_pids_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#pod_pids_limit GoogleContainerNodePool#pod_pids_limit}
   */
   readonly podPidsLimit?: number;
   /**
   * Defines whether to enable single process OOM killer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#single_process_oom_kill GoogleContainerNodePool#single_process_oom_kill}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#single_process_oom_kill GoogleContainerNodePool#single_process_oom_kill}
   */
   readonly singleProcessOomKill?: boolean | cdktn.IResolvable;
   /**
   * crash_loop_back_off block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#crash_loop_back_off GoogleContainerNodePool#crash_loop_back_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#crash_loop_back_off GoogleContainerNodePool#crash_loop_back_off}
   */
   readonly crashLoopBackOff?: GoogleContainerNodePoolNodeConfigKubeletConfigCrashLoopBackOff;
   /**
   * eviction_minimum_reclaim block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#eviction_minimum_reclaim GoogleContainerNodePool#eviction_minimum_reclaim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#eviction_minimum_reclaim GoogleContainerNodePool#eviction_minimum_reclaim}
   */
   readonly evictionMinimumReclaim?: GoogleContainerNodePoolNodeConfigKubeletConfigEvictionMinimumReclaim;
   /**
   * eviction_soft block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#eviction_soft GoogleContainerNodePool#eviction_soft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#eviction_soft GoogleContainerNodePool#eviction_soft}
   */
   readonly evictionSoft?: GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoft;
   /**
   * eviction_soft_grace_period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#eviction_soft_grace_period GoogleContainerNodePool#eviction_soft_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#eviction_soft_grace_period GoogleContainerNodePool#eviction_soft_grace_period}
   */
   readonly evictionSoftGracePeriod?: GoogleContainerNodePoolNodeConfigKubeletConfigEvictionSoftGracePeriod;
   /**
   * memory_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#memory_manager GoogleContainerNodePool#memory_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#memory_manager GoogleContainerNodePool#memory_manager}
   */
   readonly memoryManager?: GoogleContainerNodePoolNodeConfigKubeletConfigMemoryManager;
   /**
   * topology_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#topology_manager GoogleContainerNodePool#topology_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#topology_manager GoogleContainerNodePool#topology_manager}
   */
   readonly topologyManager?: GoogleContainerNodePoolNodeConfigKubeletConfigTopologyManager;
 }
@@ -5786,7 +5786,7 @@ export interface GoogleContainerNodePoolNodeConfigKubeletConfig {
 export function googleContainerNodePoolNodeConfigKubeletConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     allowed_unsafe_sysctls: cdktn.listMapper(cdktn.stringToTerraform, false)(struct!.allowedUnsafeSysctls),
@@ -5817,7 +5817,7 @@ export function googleContainerNodePoolNodeConfigKubeletConfigToTerraform(struct
 export function googleContainerNodePoolNodeConfigKubeletConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigKubeletConfigOutputReference | GoogleContainerNodePoolNodeConfigKubeletConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     allowed_unsafe_sysctls: {
@@ -6444,7 +6444,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeCon
   /**
   * Whether to enable accurate time synchronization with PTP-KVM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enable_ptp_kvm_time_sync GoogleContainerNodePool#enable_ptp_kvm_time_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enable_ptp_kvm_time_sync GoogleContainerNodePool#enable_ptp_kvm_time_sync}
   */
   readonly enablePtpKvmTimeSync?: boolean | cdktn.IResolvable;
 }
@@ -6452,7 +6452,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeCon
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_ptp_kvm_time_sync: cdktn.booleanToTerraform(struct!.enablePtpKvmTimeSync),
@@ -6463,7 +6463,7 @@ export function googleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConf
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_ptp_kvm_time_sync: {
@@ -6530,13 +6530,13 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig
   /**
   * Amount of 1G hugepages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#hugepage_size_1g GoogleContainerNodePool#hugepage_size_1g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#hugepage_size_1g GoogleContainerNodePool#hugepage_size_1g}
   */
   readonly hugepageSize1G?: number;
   /**
   * Amount of 2M hugepages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#hugepage_size_2m GoogleContainerNodePool#hugepage_size_2m}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#hugepage_size_2m GoogleContainerNodePool#hugepage_size_2m}
   */
   readonly hugepageSize2M?: number;
 }
@@ -6544,7 +6544,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     hugepage_size_1g: cdktn.numberToTerraform(struct!.hugepageSize1G),
@@ -6556,7 +6556,7 @@ export function googleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigT
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     hugepage_size_1g: {
@@ -6651,7 +6651,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModul
   /**
   * The policy for kernel module loading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#policy GoogleContainerNodePool#policy}
   */
   readonly policy?: string;
 }
@@ -6659,7 +6659,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModul
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingToTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     policy: cdktn.stringToTerraform(struct!.policy),
@@ -6670,7 +6670,7 @@ export function googleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModule
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoadingOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     policy: {
@@ -6737,13 +6737,13 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootD
   /**
   * Specifies the size of the swap space in gibibytes (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
   */
   readonly swapSizeGib?: number;
   /**
   * Specifies the size of the swap space as a percentage of the boot disk size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
   */
   readonly swapSizePercent?: number;
 }
@@ -6751,7 +6751,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootD
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileToTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     swap_size_gib: cdktn.numberToTerraform(struct!.swapSizeGib),
@@ -6763,7 +6763,7 @@ export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDi
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfileOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     swap_size_gib: {
@@ -6858,7 +6858,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedic
   /**
   * The number of physical local NVMe SSD disks to attach.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#disk_count GoogleContainerNodePool#disk_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#disk_count GoogleContainerNodePool#disk_count}
   */
   readonly diskCount?: number;
 }
@@ -6866,7 +6866,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedic
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileToTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disk_count: cdktn.numberToTerraform(struct!.diskCount),
@@ -6877,7 +6877,7 @@ export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedica
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfileOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disk_count: {
@@ -6944,7 +6944,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncry
   /**
   * If true, swap space will not be encrypted. Defaults to false (encrypted).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#disabled GoogleContainerNodePool#disabled}
   */
   readonly disabled?: boolean | cdktn.IResolvable;
 }
@@ -6952,7 +6952,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncry
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disabled: cdktn.booleanToTerraform(struct!.disabled),
@@ -6963,7 +6963,7 @@ export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryp
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disabled: {
@@ -7030,13 +7030,13 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphem
   /**
   * Specifies the size of the swap space in gibibytes (GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#swap_size_gib GoogleContainerNodePool#swap_size_gib}
   */
   readonly swapSizeGib?: number;
   /**
   * Specifies the size of the swap space as a percentage of the ephemeral local SSD capacity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#swap_size_percent GoogleContainerNodePool#swap_size_percent}
   */
   readonly swapSizePercent?: number;
 }
@@ -7044,7 +7044,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphem
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileToTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     swap_size_gib: cdktn.numberToTerraform(struct!.swapSizeGib),
@@ -7056,7 +7056,7 @@ export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEpheme
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfileOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     swap_size_gib: {
@@ -7151,31 +7151,31 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig {
   /**
   * Enables or disables swap for the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * boot_disk_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#boot_disk_profile GoogleContainerNodePool#boot_disk_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#boot_disk_profile GoogleContainerNodePool#boot_disk_profile}
   */
   readonly bootDiskProfile?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigBootDiskProfile;
   /**
   * dedicated_local_ssd_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#dedicated_local_ssd_profile GoogleContainerNodePool#dedicated_local_ssd_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#dedicated_local_ssd_profile GoogleContainerNodePool#dedicated_local_ssd_profile}
   */
   readonly dedicatedLocalSsdProfile?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigDedicatedLocalSsdProfile;
   /**
   * encryption_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#encryption_config GoogleContainerNodePool#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#encryption_config GoogleContainerNodePool#encryption_config}
   */
   readonly encryptionConfig?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEncryptionConfig;
   /**
   * ephemeral_local_ssd_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#ephemeral_local_ssd_profile GoogleContainerNodePool#ephemeral_local_ssd_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#ephemeral_local_ssd_profile GoogleContainerNodePool#ephemeral_local_ssd_profile}
   */
   readonly ephemeralLocalSsdProfile?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigEphemeralLocalSsdProfile;
 }
@@ -7183,7 +7183,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig {
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -7198,7 +7198,7 @@ export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigToTerr
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -7377,49 +7377,49 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfig {
   /**
   * cgroupMode specifies the cgroup mode to be used on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#cgroup_mode GoogleContainerNodePool#cgroup_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#cgroup_mode GoogleContainerNodePool#cgroup_mode}
   */
   readonly cgroupMode?: string;
   /**
   * The Linux kernel parameters to be applied to the nodes and all pods running on the nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#sysctls GoogleContainerNodePool#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#sysctls GoogleContainerNodePool#sysctls}
   */
   readonly sysctls?: { [key: string]: string };
   /**
   * The Linux kernel transparent hugepage defrag setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#transparent_hugepage_defrag GoogleContainerNodePool#transparent_hugepage_defrag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#transparent_hugepage_defrag GoogleContainerNodePool#transparent_hugepage_defrag}
   */
   readonly transparentHugepageDefrag?: string;
   /**
   * The Linux kernel transparent hugepage setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#transparent_hugepage_enabled GoogleContainerNodePool#transparent_hugepage_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#transparent_hugepage_enabled GoogleContainerNodePool#transparent_hugepage_enabled}
   */
   readonly transparentHugepageEnabled?: string;
   /**
   * accurate_time_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#accurate_time_config GoogleContainerNodePool#accurate_time_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#accurate_time_config GoogleContainerNodePool#accurate_time_config}
   */
   readonly accurateTimeConfig?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigAccurateTimeConfig;
   /**
   * hugepages_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#hugepages_config GoogleContainerNodePool#hugepages_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#hugepages_config GoogleContainerNodePool#hugepages_config}
   */
   readonly hugepagesConfig?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigHugepagesConfig;
   /**
   * node_kernel_module_loading block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#node_kernel_module_loading GoogleContainerNodePool#node_kernel_module_loading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#node_kernel_module_loading GoogleContainerNodePool#node_kernel_module_loading}
   */
   readonly nodeKernelModuleLoading?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigNodeKernelModuleLoading;
   /**
   * swap_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#swap_config GoogleContainerNodePool#swap_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#swap_config GoogleContainerNodePool#swap_config}
   */
   readonly swapConfig?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigSwapConfig;
 }
@@ -7427,7 +7427,7 @@ export interface GoogleContainerNodePoolNodeConfigLinuxNodeConfig {
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     cgroup_mode: cdktn.stringToTerraform(struct!.cgroupMode),
@@ -7445,7 +7445,7 @@ export function googleContainerNodePoolNodeConfigLinuxNodeConfigToTerraform(stru
 export function googleContainerNodePoolNodeConfigLinuxNodeConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLinuxNodeConfigOutputReference | GoogleContainerNodePoolNodeConfigLinuxNodeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     cgroup_mode: {
@@ -7708,7 +7708,7 @@ export interface GoogleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfig {
   /**
   * Number of raw-block local NVMe SSD disks to be attached to the node. Each local SSD is 375 GB in size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
   */
   readonly localSsdCount: number;
 }
@@ -7716,7 +7716,7 @@ export interface GoogleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfig {
 export function googleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputReference | GoogleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     local_ssd_count: cdktn.numberToTerraform(struct!.localSsdCount),
@@ -7727,7 +7727,7 @@ export function googleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigToTerraf
 export function googleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfigOutputReference | GoogleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     local_ssd_count: {
@@ -7791,19 +7791,19 @@ export interface GoogleContainerNodePoolNodeConfigReservationAffinity {
   /**
   * Corresponds to the type of reservation consumption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#consume_reservation_type GoogleContainerNodePool#consume_reservation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#consume_reservation_type GoogleContainerNodePool#consume_reservation_type}
   */
   readonly consumeReservationType: string;
   /**
   * The label key of a reservation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
   */
   readonly key?: string;
   /**
   * The label values of the reservation resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
   */
   readonly values?: string[];
 }
@@ -7811,7 +7811,7 @@ export interface GoogleContainerNodePoolNodeConfigReservationAffinity {
 export function googleContainerNodePoolNodeConfigReservationAffinityToTerraform(struct?: GoogleContainerNodePoolNodeConfigReservationAffinityOutputReference | GoogleContainerNodePoolNodeConfigReservationAffinity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     consume_reservation_type: cdktn.stringToTerraform(struct!.consumeReservationType),
@@ -7824,7 +7824,7 @@ export function googleContainerNodePoolNodeConfigReservationAffinityToTerraform(
 export function googleContainerNodePoolNodeConfigReservationAffinityToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigReservationAffinityOutputReference | GoogleContainerNodePoolNodeConfigReservationAffinity): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     consume_reservation_type: {
@@ -7944,13 +7944,13 @@ export interface GoogleContainerNodePoolNodeConfigSandboxConfig {
   /**
   * Type of the sandbox to use for the node (e.g. 'gvisor'). Deprecated in favor of type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#sandbox_type GoogleContainerNodePool#sandbox_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#sandbox_type GoogleContainerNodePool#sandbox_type}
   */
   readonly sandboxType?: string;
   /**
   * Type of the sandbox to use for the node (e.g. 'GVISOR').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
   */
   readonly type?: string;
 }
@@ -7958,7 +7958,7 @@ export interface GoogleContainerNodePoolNodeConfigSandboxConfig {
 export function googleContainerNodePoolNodeConfigSandboxConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference | GoogleContainerNodePoolNodeConfigSandboxConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     sandbox_type: cdktn.stringToTerraform(struct!.sandboxType),
@@ -7970,7 +7970,7 @@ export function googleContainerNodePoolNodeConfigSandboxConfigToTerraform(struct
 export function googleContainerNodePoolNodeConfigSandboxConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigSandboxConfigOutputReference | GoogleContainerNodePoolNodeConfigSandboxConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     sandbox_type: {
@@ -8065,13 +8065,13 @@ export interface GoogleContainerNodePoolNodeConfigSecondaryBootDisks {
   /**
   * Disk image to create the secondary boot disk from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#disk_image GoogleContainerNodePool#disk_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#disk_image GoogleContainerNodePool#disk_image}
   */
   readonly diskImage: string;
   /**
   * Mode for how the secondary boot disk is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
   */
   readonly mode?: string;
 }
@@ -8079,7 +8079,7 @@ export interface GoogleContainerNodePoolNodeConfigSecondaryBootDisks {
 export function googleContainerNodePoolNodeConfigSecondaryBootDisksToTerraform(struct?: GoogleContainerNodePoolNodeConfigSecondaryBootDisks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disk_image: cdktn.stringToTerraform(struct!.diskImage),
@@ -8091,7 +8091,7 @@ export function googleContainerNodePoolNodeConfigSecondaryBootDisksToTerraform(s
 export function googleContainerNodePoolNodeConfigSecondaryBootDisksToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigSecondaryBootDisks | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disk_image: {
@@ -8215,13 +8215,13 @@ export interface GoogleContainerNodePoolNodeConfigShieldedInstanceConfig {
   /**
   * Defines whether the instance has integrity monitoring enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enable_integrity_monitoring GoogleContainerNodePool#enable_integrity_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enable_integrity_monitoring GoogleContainerNodePool#enable_integrity_monitoring}
   */
   readonly enableIntegrityMonitoring?: boolean | cdktn.IResolvable;
   /**
   * Defines whether the instance has Secure Boot enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enable_secure_boot GoogleContainerNodePool#enable_secure_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enable_secure_boot GoogleContainerNodePool#enable_secure_boot}
   */
   readonly enableSecureBoot?: boolean | cdktn.IResolvable;
 }
@@ -8229,7 +8229,7 @@ export interface GoogleContainerNodePoolNodeConfigShieldedInstanceConfig {
 export function googleContainerNodePoolNodeConfigShieldedInstanceConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigShieldedInstanceConfigOutputReference | GoogleContainerNodePoolNodeConfigShieldedInstanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_integrity_monitoring: cdktn.booleanToTerraform(struct!.enableIntegrityMonitoring),
@@ -8241,7 +8241,7 @@ export function googleContainerNodePoolNodeConfigShieldedInstanceConfigToTerrafo
 export function googleContainerNodePoolNodeConfigShieldedInstanceConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigShieldedInstanceConfigOutputReference | GoogleContainerNodePoolNodeConfigShieldedInstanceConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_integrity_monitoring: {
@@ -8336,19 +8336,19 @@ export interface GoogleContainerNodePoolNodeConfigSoleTenantConfigNodeAffinity {
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
   */
   readonly key: string;
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#operator GoogleContainerNodePool#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#operator GoogleContainerNodePool#operator}
   */
   readonly operator: string;
   /**
   * .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#values GoogleContainerNodePool#values}
   */
   readonly values: string[];
 }
@@ -8356,7 +8356,7 @@ export interface GoogleContainerNodePoolNodeConfigSoleTenantConfigNodeAffinity {
 export function googleContainerNodePoolNodeConfigSoleTenantConfigNodeAffinityToTerraform(struct?: GoogleContainerNodePoolNodeConfigSoleTenantConfigNodeAffinity | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     key: cdktn.stringToTerraform(struct!.key),
@@ -8369,7 +8369,7 @@ export function googleContainerNodePoolNodeConfigSoleTenantConfigNodeAffinityToT
 export function googleContainerNodePoolNodeConfigSoleTenantConfigNodeAffinityToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigSoleTenantConfigNodeAffinity | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     key: {
@@ -8515,13 +8515,13 @@ export interface GoogleContainerNodePoolNodeConfigSoleTenantConfig {
   /**
   * Specifies the minimum number of vCPUs that each sole tenant node must have to use CPU overcommit. If not specified, the CPU overcommit feature is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#min_node_cpus GoogleContainerNodePool#min_node_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#min_node_cpus GoogleContainerNodePool#min_node_cpus}
   */
   readonly minNodeCpus?: number;
   /**
   * node_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#node_affinity GoogleContainerNodePool#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#node_affinity GoogleContainerNodePool#node_affinity}
   */
   readonly nodeAffinity: GoogleContainerNodePoolNodeConfigSoleTenantConfigNodeAffinity[] | cdktn.IResolvable;
 }
@@ -8529,7 +8529,7 @@ export interface GoogleContainerNodePoolNodeConfigSoleTenantConfig {
 export function googleContainerNodePoolNodeConfigSoleTenantConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigSoleTenantConfigOutputReference | GoogleContainerNodePoolNodeConfigSoleTenantConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     min_node_cpus: cdktn.numberToTerraform(struct!.minNodeCpus),
@@ -8541,7 +8541,7 @@ export function googleContainerNodePoolNodeConfigSoleTenantConfigToTerraform(str
 export function googleContainerNodePoolNodeConfigSoleTenantConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigSoleTenantConfigOutputReference | GoogleContainerNodePoolNodeConfigSoleTenantConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     min_node_cpus: {
@@ -8633,19 +8633,19 @@ export interface GoogleContainerNodePoolNodeConfigTaint {
   /**
   * Effect for taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#effect GoogleContainerNodePool#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#effect GoogleContainerNodePool#effect}
   */
   readonly effect: string;
   /**
   * Key for taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#key GoogleContainerNodePool#key}
   */
   readonly key: string;
   /**
   * Value for taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#value GoogleContainerNodePool#value}
   */
   readonly value: string;
 }
@@ -8653,7 +8653,7 @@ export interface GoogleContainerNodePoolNodeConfigTaint {
 export function googleContainerNodePoolNodeConfigTaintToTerraform(struct?: GoogleContainerNodePoolNodeConfigTaint | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     effect: cdktn.stringToTerraform(struct!.effect),
@@ -8666,7 +8666,7 @@ export function googleContainerNodePoolNodeConfigTaintToTerraform(struct?: Googl
 export function googleContainerNodePoolNodeConfigTaintToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigTaint | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     effect: {
@@ -8812,7 +8812,7 @@ export interface GoogleContainerNodePoolNodeConfigWindowsNodeConfig {
   /**
   * The OS Version of the windows nodepool.Values are OS_VERSION_UNSPECIFIED,OS_VERSION_LTSC2019 and OS_VERSION_LTSC2022
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#osversion GoogleContainerNodePool#osversion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#osversion GoogleContainerNodePool#osversion}
   */
   readonly osversion?: string;
 }
@@ -8820,7 +8820,7 @@ export interface GoogleContainerNodePoolNodeConfigWindowsNodeConfig {
 export function googleContainerNodePoolNodeConfigWindowsNodeConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigWindowsNodeConfigOutputReference | GoogleContainerNodePoolNodeConfigWindowsNodeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     osversion: cdktn.stringToTerraform(struct!.osversion),
@@ -8831,7 +8831,7 @@ export function googleContainerNodePoolNodeConfigWindowsNodeConfigToTerraform(st
 export function googleContainerNodePoolNodeConfigWindowsNodeConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigWindowsNodeConfigOutputReference | GoogleContainerNodePoolNodeConfigWindowsNodeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     osversion: {
@@ -8898,7 +8898,7 @@ export interface GoogleContainerNodePoolNodeConfigWorkloadMetadataConfig {
   /**
   * Mode is the configuration for how to expose metadata to workloads running on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#mode GoogleContainerNodePool#mode}
   */
   readonly mode: string;
 }
@@ -8906,7 +8906,7 @@ export interface GoogleContainerNodePoolNodeConfigWorkloadMetadataConfig {
 export function googleContainerNodePoolNodeConfigWorkloadMetadataConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigWorkloadMetadataConfigOutputReference | GoogleContainerNodePoolNodeConfigWorkloadMetadataConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     mode: cdktn.stringToTerraform(struct!.mode),
@@ -8917,7 +8917,7 @@ export function googleContainerNodePoolNodeConfigWorkloadMetadataConfigToTerrafo
 export function googleContainerNodePoolNodeConfigWorkloadMetadataConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigWorkloadMetadataConfigOutputReference | GoogleContainerNodePoolNodeConfigWorkloadMetadataConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     mode: {
@@ -8981,277 +8981,277 @@ export interface GoogleContainerNodePoolNodeConfig {
   /**
   * The Customer Managed Encryption Key used to encrypt the boot disk attached to each node in the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#boot_disk_kms_key GoogleContainerNodePool#boot_disk_kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#boot_disk_kms_key GoogleContainerNodePool#boot_disk_kms_key}
   */
   readonly bootDiskKmsKey?: string;
   /**
   * Size of the disk attached to each node, specified in GB. The smallest allowed disk size is 10GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#disk_size_gb GoogleContainerNodePool#disk_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#disk_size_gb GoogleContainerNodePool#disk_size_gb}
   */
   readonly diskSizeGb?: number;
   /**
   * Type of the disk attached to each node. Such as pd-standard, pd-balanced or pd-ssd
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#disk_type GoogleContainerNodePool#disk_type}
   */
   readonly diskType?: string;
   /**
   * If enabled boot disks are configured with confidential mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enable_confidential_storage GoogleContainerNodePool#enable_confidential_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enable_confidential_storage GoogleContainerNodePool#enable_confidential_storage}
   */
   readonly enableConfidentialStorage?: boolean | cdktn.IResolvable;
   /**
   * Enables Flex Start provisioning model for the node pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#flex_start GoogleContainerNodePool#flex_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#flex_start GoogleContainerNodePool#flex_start}
   */
   readonly flexStart?: boolean | cdktn.IResolvable;
   /**
   * The type of GPUDirect strategy to enable on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gpudirect_strategy GoogleContainerNodePool#gpudirect_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gpudirect_strategy GoogleContainerNodePool#gpudirect_strategy}
   */
   readonly gpudirectStrategy?: string;
   /**
   * The image type to use for this node. Note that for a given image type, the latest version of it will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#image_type GoogleContainerNodePool#image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#image_type GoogleContainerNodePool#image_type}
   */
   readonly imageType?: string;
   /**
   * The map of Kubernetes labels (key/value pairs) to be applied to each node. These will added in addition to any default label(s) that Kubernetes may apply to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#labels GoogleContainerNodePool#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#labels GoogleContainerNodePool#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The number of local SSD disks to be attached to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#local_ssd_count GoogleContainerNodePool#local_ssd_count}
   */
   readonly localSsdCount?: number;
   /**
   * LocalSsdEncryptionMode specified the method used for encrypting the local SSDs attached to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#local_ssd_encryption_mode GoogleContainerNodePool#local_ssd_encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#local_ssd_encryption_mode GoogleContainerNodePool#local_ssd_encryption_mode}
   */
   readonly localSsdEncryptionMode?: string;
   /**
   * Type of logging agent that is used as the default value for node pools in the cluster. Valid values include DEFAULT and MAX_THROUGHPUT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#logging_variant GoogleContainerNodePool#logging_variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#logging_variant GoogleContainerNodePool#logging_variant}
   */
   readonly loggingVariant?: string;
   /**
   * The name of a Google Compute Engine machine type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#machine_type GoogleContainerNodePool#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#machine_type GoogleContainerNodePool#machine_type}
   */
   readonly machineType?: string;
   /**
   * The runtime of each node in the node pool in seconds, terminated by 's'. Example: "3600s".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#max_run_duration GoogleContainerNodePool#max_run_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#max_run_duration GoogleContainerNodePool#max_run_duration}
   */
   readonly maxRunDuration?: string;
   /**
   * The metadata key/value pairs assigned to instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#metadata GoogleContainerNodePool#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#metadata GoogleContainerNodePool#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Minimum CPU platform to be used by this instance. The instance may be scheduled on the specified or newer CPU platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#min_cpu_platform GoogleContainerNodePool#min_cpu_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#min_cpu_platform GoogleContainerNodePool#min_cpu_platform}
   */
   readonly minCpuPlatform?: string;
   /**
   * Setting this field will assign instances of this pool to run on the specified node group. This is useful for running workloads on sole tenant nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#node_group GoogleContainerNodePool#node_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#node_group GoogleContainerNodePool#node_group}
   */
   readonly nodeGroup?: string;
   /**
   * The set of Google API scopes to be made available on all of the node VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#oauth_scopes GoogleContainerNodePool#oauth_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#oauth_scopes GoogleContainerNodePool#oauth_scopes}
   */
   readonly oauthScopes?: string[];
   /**
   * Whether the nodes are created as preemptible VM instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#preemptible GoogleContainerNodePool#preemptible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#preemptible GoogleContainerNodePool#preemptible}
   */
   readonly preemptible?: boolean | cdktn.IResolvable;
   /**
   * The GCE resource labels (a map of key/value pairs) to be applied to the node pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#resource_labels GoogleContainerNodePool#resource_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#resource_labels GoogleContainerNodePool#resource_labels}
   */
   readonly resourceLabels?: { [key: string]: string };
   /**
   * A map of resource manager tags. Resource manager tag keys and values have the same definition as resource manager tags. Keys must be in the format tagKeys/{tag_key_id}, and values are in the format tagValues/456. The field is ignored (both PUT & PATCH) when empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#resource_manager_tags GoogleContainerNodePool#resource_manager_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#resource_manager_tags GoogleContainerNodePool#resource_manager_tags}
   */
   readonly resourceManagerTags?: { [key: string]: string };
   /**
   * The Google Cloud Platform Service Account to be used by the node VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#service_account GoogleContainerNodePool#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#service_account GoogleContainerNodePool#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Whether the nodes are created as spot VM instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#spot GoogleContainerNodePool#spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#spot GoogleContainerNodePool#spot}
   */
   readonly spot?: boolean | cdktn.IResolvable;
   /**
   * The list of Storage Pools where boot disks are provisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#storage_pools GoogleContainerNodePool#storage_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#storage_pools GoogleContainerNodePool#storage_pools}
   */
   readonly storagePools?: string[];
   /**
   * The list of instance tags applied to all nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#tags GoogleContainerNodePool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#tags GoogleContainerNodePool#tags}
   */
   readonly tags?: string[];
   /**
   * advanced_machine_features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#advanced_machine_features GoogleContainerNodePool#advanced_machine_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#advanced_machine_features GoogleContainerNodePool#advanced_machine_features}
   */
   readonly advancedMachineFeatures?: GoogleContainerNodePoolNodeConfigAdvancedMachineFeatures;
   /**
   * boot_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#boot_disk GoogleContainerNodePool#boot_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#boot_disk GoogleContainerNodePool#boot_disk}
   */
   readonly bootDisk?: GoogleContainerNodePoolNodeConfigBootDisk;
   /**
   * confidential_nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#confidential_nodes GoogleContainerNodePool#confidential_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#confidential_nodes GoogleContainerNodePool#confidential_nodes}
   */
   readonly confidentialNodes?: GoogleContainerNodePoolNodeConfigConfidentialNodes;
   /**
   * containerd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#containerd_config GoogleContainerNodePool#containerd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#containerd_config GoogleContainerNodePool#containerd_config}
   */
   readonly containerdConfig?: GoogleContainerNodePoolNodeConfigContainerdConfig;
   /**
   * ephemeral_storage_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#ephemeral_storage_config GoogleContainerNodePool#ephemeral_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#ephemeral_storage_config GoogleContainerNodePool#ephemeral_storage_config}
   */
   readonly ephemeralStorageConfig?: GoogleContainerNodePoolNodeConfigEphemeralStorageConfig;
   /**
   * ephemeral_storage_local_ssd_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#ephemeral_storage_local_ssd_config GoogleContainerNodePool#ephemeral_storage_local_ssd_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#ephemeral_storage_local_ssd_config GoogleContainerNodePool#ephemeral_storage_local_ssd_config}
   */
   readonly ephemeralStorageLocalSsdConfig?: GoogleContainerNodePoolNodeConfigEphemeralStorageLocalSsdConfig;
   /**
   * fast_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#fast_socket GoogleContainerNodePool#fast_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#fast_socket GoogleContainerNodePool#fast_socket}
   */
   readonly fastSocket?: GoogleContainerNodePoolNodeConfigFastSocket;
   /**
   * gcfs_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gcfs_config GoogleContainerNodePool#gcfs_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gcfs_config GoogleContainerNodePool#gcfs_config}
   */
   readonly gcfsConfig?: GoogleContainerNodePoolNodeConfigGcfsConfig;
   /**
   * guest_accelerator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#guest_accelerator GoogleContainerNodePool#guest_accelerator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#guest_accelerator GoogleContainerNodePool#guest_accelerator}
   */
   readonly guestAccelerator?: GoogleContainerNodePoolNodeConfigGuestAccelerator[] | cdktn.IResolvable;
   /**
   * gvnic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#gvnic GoogleContainerNodePool#gvnic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#gvnic GoogleContainerNodePool#gvnic}
   */
   readonly gvnic?: GoogleContainerNodePoolNodeConfigGvnic;
   /**
   * host_maintenance_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#host_maintenance_policy GoogleContainerNodePool#host_maintenance_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#host_maintenance_policy GoogleContainerNodePool#host_maintenance_policy}
   */
   readonly hostMaintenancePolicy?: GoogleContainerNodePoolNodeConfigHostMaintenancePolicy;
   /**
   * kubelet_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#kubelet_config GoogleContainerNodePool#kubelet_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#kubelet_config GoogleContainerNodePool#kubelet_config}
   */
   readonly kubeletConfig?: GoogleContainerNodePoolNodeConfigKubeletConfig;
   /**
   * linux_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#linux_node_config GoogleContainerNodePool#linux_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#linux_node_config GoogleContainerNodePool#linux_node_config}
   */
   readonly linuxNodeConfig?: GoogleContainerNodePoolNodeConfigLinuxNodeConfig;
   /**
   * local_nvme_ssd_block_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#local_nvme_ssd_block_config GoogleContainerNodePool#local_nvme_ssd_block_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#local_nvme_ssd_block_config GoogleContainerNodePool#local_nvme_ssd_block_config}
   */
   readonly localNvmeSsdBlockConfig?: GoogleContainerNodePoolNodeConfigLocalNvmeSsdBlockConfig;
   /**
   * reservation_affinity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#reservation_affinity GoogleContainerNodePool#reservation_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#reservation_affinity GoogleContainerNodePool#reservation_affinity}
   */
   readonly reservationAffinity?: GoogleContainerNodePoolNodeConfigReservationAffinity;
   /**
   * sandbox_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#sandbox_config GoogleContainerNodePool#sandbox_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#sandbox_config GoogleContainerNodePool#sandbox_config}
   */
   readonly sandboxConfig?: GoogleContainerNodePoolNodeConfigSandboxConfig;
   /**
   * secondary_boot_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#secondary_boot_disks GoogleContainerNodePool#secondary_boot_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#secondary_boot_disks GoogleContainerNodePool#secondary_boot_disks}
   */
   readonly secondaryBootDisks?: GoogleContainerNodePoolNodeConfigSecondaryBootDisks[] | cdktn.IResolvable;
   /**
   * shielded_instance_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#shielded_instance_config GoogleContainerNodePool#shielded_instance_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#shielded_instance_config GoogleContainerNodePool#shielded_instance_config}
   */
   readonly shieldedInstanceConfig?: GoogleContainerNodePoolNodeConfigShieldedInstanceConfig;
   /**
   * sole_tenant_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#sole_tenant_config GoogleContainerNodePool#sole_tenant_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#sole_tenant_config GoogleContainerNodePool#sole_tenant_config}
   */
   readonly soleTenantConfig?: GoogleContainerNodePoolNodeConfigSoleTenantConfig;
   /**
   * taint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#taint GoogleContainerNodePool#taint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#taint GoogleContainerNodePool#taint}
   */
   readonly taint?: GoogleContainerNodePoolNodeConfigTaint[] | cdktn.IResolvable;
   /**
   * windows_node_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#windows_node_config GoogleContainerNodePool#windows_node_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#windows_node_config GoogleContainerNodePool#windows_node_config}
   */
   readonly windowsNodeConfig?: GoogleContainerNodePoolNodeConfigWindowsNodeConfig;
   /**
   * workload_metadata_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#workload_metadata_config GoogleContainerNodePool#workload_metadata_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#workload_metadata_config GoogleContainerNodePool#workload_metadata_config}
   */
   readonly workloadMetadataConfig?: GoogleContainerNodePoolNodeConfigWorkloadMetadataConfig;
 }
@@ -9259,7 +9259,7 @@ export interface GoogleContainerNodePoolNodeConfig {
 export function googleContainerNodePoolNodeConfigToTerraform(struct?: GoogleContainerNodePoolNodeConfigOutputReference | GoogleContainerNodePoolNodeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     boot_disk_kms_key: cdktn.stringToTerraform(struct!.bootDiskKmsKey),
@@ -9315,7 +9315,7 @@ export function googleContainerNodePoolNodeConfigToTerraform(struct?: GoogleCont
 export function googleContainerNodePoolNodeConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeConfigOutputReference | GoogleContainerNodePoolNodeConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     boot_disk_kms_key: {
@@ -10646,9 +10646,21 @@ export class GoogleContainerNodePoolNodeConfigOutputReference extends cdktn.Comp
 }
 export interface GoogleContainerNodePoolNodeDrainConfig {
   /**
+  * The duration of the grace termination period for node drain.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#grace_termination_duration GoogleContainerNodePool#grace_termination_duration}
+  */
+  readonly graceTerminationDuration?: string;
+  /**
+  * The duration of the PDB timeout period for node drain.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#pdb_timeout_duration GoogleContainerNodePool#pdb_timeout_duration}
+  */
+  readonly pdbTimeoutDuration?: string;
+  /**
   * Whether to respect PodDisruptionBudget policy during node pool deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#respect_pdb_during_node_pool_deletion GoogleContainerNodePool#respect_pdb_during_node_pool_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#respect_pdb_during_node_pool_deletion GoogleContainerNodePool#respect_pdb_during_node_pool_deletion}
   */
   readonly respectPdbDuringNodePoolDeletion?: boolean | cdktn.IResolvable;
 }
@@ -10656,9 +10668,11 @@ export interface GoogleContainerNodePoolNodeDrainConfig {
 export function googleContainerNodePoolNodeDrainConfigToTerraform(struct?: GoogleContainerNodePoolNodeDrainConfig | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
+    grace_termination_duration: cdktn.stringToTerraform(struct!.graceTerminationDuration),
+    pdb_timeout_duration: cdktn.stringToTerraform(struct!.pdbTimeoutDuration),
     respect_pdb_during_node_pool_deletion: cdktn.booleanToTerraform(struct!.respectPdbDuringNodePoolDeletion),
   }
 }
@@ -10667,9 +10681,21 @@ export function googleContainerNodePoolNodeDrainConfigToTerraform(struct?: Googl
 export function googleContainerNodePoolNodeDrainConfigToHclTerraform(struct?: GoogleContainerNodePoolNodeDrainConfig | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
+    grace_termination_duration: {
+      value: cdktn.stringToHclTerraform(struct!.graceTerminationDuration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    pdb_timeout_duration: {
+      value: cdktn.stringToHclTerraform(struct!.pdbTimeoutDuration),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     respect_pdb_during_node_pool_deletion: {
       value: cdktn.booleanToHclTerraform(struct!.respectPdbDuringNodePoolDeletion),
       isBlock: false,
@@ -10702,6 +10728,14 @@ export class GoogleContainerNodePoolNodeDrainConfigOutputReference extends cdktn
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._graceTerminationDuration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.graceTerminationDuration = this._graceTerminationDuration;
+    }
+    if (this._pdbTimeoutDuration !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.pdbTimeoutDuration = this._pdbTimeoutDuration;
+    }
     if (this._respectPdbDuringNodePoolDeletion !== undefined) {
       hasAnyValues = true;
       internalValueResult.respectPdbDuringNodePoolDeletion = this._respectPdbDuringNodePoolDeletion;
@@ -10713,6 +10747,8 @@ export class GoogleContainerNodePoolNodeDrainConfigOutputReference extends cdktn
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._graceTerminationDuration = undefined;
+      this._pdbTimeoutDuration = undefined;
       this._respectPdbDuringNodePoolDeletion = undefined;
     }
     else if (cdktn.Tokenization.isResolvable(value)) {
@@ -10722,8 +10758,42 @@ export class GoogleContainerNodePoolNodeDrainConfigOutputReference extends cdktn
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._graceTerminationDuration = value.graceTerminationDuration;
+      this._pdbTimeoutDuration = value.pdbTimeoutDuration;
       this._respectPdbDuringNodePoolDeletion = value.respectPdbDuringNodePoolDeletion;
     }
+  }
+
+  // grace_termination_duration - computed: false, optional: true, required: false
+  private _graceTerminationDuration?: string; 
+  public get graceTerminationDuration() {
+    return this.getStringAttribute('grace_termination_duration');
+  }
+  public set graceTerminationDuration(value: string) {
+    this._graceTerminationDuration = value;
+  }
+  public resetGraceTerminationDuration() {
+    this._graceTerminationDuration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get graceTerminationDurationInput() {
+    return this._graceTerminationDuration;
+  }
+
+  // pdb_timeout_duration - computed: false, optional: true, required: false
+  private _pdbTimeoutDuration?: string; 
+  public get pdbTimeoutDuration() {
+    return this.getStringAttribute('pdb_timeout_duration');
+  }
+  public set pdbTimeoutDuration(value: string) {
+    this._pdbTimeoutDuration = value;
+  }
+  public resetPdbTimeoutDuration() {
+    this._pdbTimeoutDuration = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get pdbTimeoutDurationInput() {
+    return this._pdbTimeoutDuration;
   }
 
   // respect_pdb_during_node_pool_deletion - computed: false, optional: true, required: false
@@ -10766,19 +10836,19 @@ export interface GoogleContainerNodePoolPlacementPolicy {
   /**
   * If set, refers to the name of a custom resource policy supplied by the user. The resource policy must be in the same project and region as the node pool. If not found, InvalidArgument error is returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#policy_name GoogleContainerNodePool#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#policy_name GoogleContainerNodePool#policy_name}
   */
   readonly policyName?: string;
   /**
   * The TPU topology like "2x4" or "2x2x2". https://cloud.google.com/kubernetes-engine/docs/concepts/plan-tpus#topology
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#tpu_topology GoogleContainerNodePool#tpu_topology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#tpu_topology GoogleContainerNodePool#tpu_topology}
   */
   readonly tpuTopology?: string;
   /**
   * Type defines the type of placement policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#type GoogleContainerNodePool#type}
   */
   readonly type: string;
 }
@@ -10786,7 +10856,7 @@ export interface GoogleContainerNodePoolPlacementPolicy {
 export function googleContainerNodePoolPlacementPolicyToTerraform(struct?: GoogleContainerNodePoolPlacementPolicyOutputReference | GoogleContainerNodePoolPlacementPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     policy_name: cdktn.stringToTerraform(struct!.policyName),
@@ -10799,7 +10869,7 @@ export function googleContainerNodePoolPlacementPolicyToTerraform(struct?: Googl
 export function googleContainerNodePoolPlacementPolicyToHclTerraform(struct?: GoogleContainerNodePoolPlacementPolicyOutputReference | GoogleContainerNodePoolPlacementPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     policy_name: {
@@ -10919,7 +10989,7 @@ export interface GoogleContainerNodePoolQueuedProvisioning {
   /**
   * Whether nodes in this node pool are obtainable solely through the ProvisioningRequest API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#enabled GoogleContainerNodePool#enabled}
   */
   readonly enabled: boolean | cdktn.IResolvable;
 }
@@ -10927,7 +10997,7 @@ export interface GoogleContainerNodePoolQueuedProvisioning {
 export function googleContainerNodePoolQueuedProvisioningToTerraform(struct?: GoogleContainerNodePoolQueuedProvisioningOutputReference | GoogleContainerNodePoolQueuedProvisioning): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enabled: cdktn.booleanToTerraform(struct!.enabled),
@@ -10938,7 +11008,7 @@ export function googleContainerNodePoolQueuedProvisioningToTerraform(struct?: Go
 export function googleContainerNodePoolQueuedProvisioningToHclTerraform(struct?: GoogleContainerNodePoolQueuedProvisioningOutputReference | GoogleContainerNodePoolQueuedProvisioning): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enabled: {
@@ -11000,15 +11070,15 @@ export class GoogleContainerNodePoolQueuedProvisioningOutputReference extends cd
 }
 export interface GoogleContainerNodePoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#create GoogleContainerNodePool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#delete GoogleContainerNodePool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#update GoogleContainerNodePool#update}
   */
   readonly update?: string;
 }
@@ -11016,7 +11086,7 @@ export interface GoogleContainerNodePoolTimeouts {
 export function googleContainerNodePoolTimeoutsToTerraform(struct?: GoogleContainerNodePoolTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -11029,7 +11099,7 @@ export function googleContainerNodePoolTimeoutsToTerraform(struct?: GoogleContai
 export function googleContainerNodePoolTimeoutsToHclTerraform(struct?: GoogleContainerNodePoolTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -11162,7 +11232,7 @@ export interface GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscal
   /**
   * Time in seconds to wait after cordoning the blue pool before draining the nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#wait_for_drain_duration GoogleContainerNodePool#wait_for_drain_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#wait_for_drain_duration GoogleContainerNodePool#wait_for_drain_duration}
   */
   readonly waitForDrainDuration?: string;
 }
@@ -11170,7 +11240,7 @@ export interface GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscal
 export function googleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyToTerraform(struct?: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference | GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     wait_for_drain_duration: cdktn.stringToTerraform(struct!.waitForDrainDuration),
@@ -11181,7 +11251,7 @@ export function googleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscale
 export function googleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyToHclTerraform(struct?: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicyOutputReference | GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     wait_for_drain_duration: {
@@ -11248,19 +11318,19 @@ export interface GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandard
   /**
   * Number of blue nodes to drain in a batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#batch_node_count GoogleContainerNodePool#batch_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#batch_node_count GoogleContainerNodePool#batch_node_count}
   */
   readonly batchNodeCount?: number;
   /**
   * Percentage of the blue pool nodes to drain in a batch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#batch_percentage GoogleContainerNodePool#batch_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#batch_percentage GoogleContainerNodePool#batch_percentage}
   */
   readonly batchPercentage?: number;
   /**
   * Soak time after each batch gets drained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#batch_soak_duration GoogleContainerNodePool#batch_soak_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#batch_soak_duration GoogleContainerNodePool#batch_soak_duration}
   */
   readonly batchSoakDuration?: string;
 }
@@ -11268,7 +11338,7 @@ export interface GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandard
 export function googleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicyToTerraform(struct?: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicyOutputReference | GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     batch_node_count: cdktn.numberToTerraform(struct!.batchNodeCount),
@@ -11281,7 +11351,7 @@ export function googleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardR
 export function googleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicyToHclTerraform(struct?: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicyOutputReference | GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     batch_node_count: {
@@ -11404,19 +11474,19 @@ export interface GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings {
   /**
   * Time needed after draining entire blue pool. After this period, blue pool will be cleaned up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#node_pool_soak_duration GoogleContainerNodePool#node_pool_soak_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#node_pool_soak_duration GoogleContainerNodePool#node_pool_soak_duration}
   */
   readonly nodePoolSoakDuration?: string;
   /**
   * autoscaled_rollout_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#autoscaled_rollout_policy GoogleContainerNodePool#autoscaled_rollout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#autoscaled_rollout_policy GoogleContainerNodePool#autoscaled_rollout_policy}
   */
   readonly autoscaledRolloutPolicy?: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsAutoscaledRolloutPolicy;
   /**
   * standard_rollout_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#standard_rollout_policy GoogleContainerNodePool#standard_rollout_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#standard_rollout_policy GoogleContainerNodePool#standard_rollout_policy}
   */
   readonly standardRolloutPolicy?: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsStandardRolloutPolicy;
 }
@@ -11424,7 +11494,7 @@ export interface GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings {
 export function googleContainerNodePoolUpgradeSettingsBlueGreenSettingsToTerraform(struct?: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference | GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     node_pool_soak_duration: cdktn.stringToTerraform(struct!.nodePoolSoakDuration),
@@ -11437,7 +11507,7 @@ export function googleContainerNodePoolUpgradeSettingsBlueGreenSettingsToTerrafo
 export function googleContainerNodePoolUpgradeSettingsBlueGreenSettingsToHclTerraform(struct?: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettingsOutputReference | GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     node_pool_soak_duration: {
@@ -11560,25 +11630,25 @@ export interface GoogleContainerNodePoolUpgradeSettings {
   /**
   * The number of additional nodes that can be added to the node pool during an upgrade. Increasing max_surge raises the number of nodes that can be upgraded simultaneously. Can be set to 0 or greater.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#max_surge GoogleContainerNodePool#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#max_surge GoogleContainerNodePool#max_surge}
   */
   readonly maxSurge?: number;
   /**
   * The number of nodes that can be simultaneously unavailable during an upgrade. Increasing max_unavailable raises the number of nodes that can be upgraded in parallel. Can be set to 0 or greater.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#max_unavailable GoogleContainerNodePool#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#max_unavailable GoogleContainerNodePool#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
   * Update strategy for the given nodepool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#strategy GoogleContainerNodePool#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#strategy GoogleContainerNodePool#strategy}
   */
   readonly strategy?: string;
   /**
   * blue_green_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#blue_green_settings GoogleContainerNodePool#blue_green_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#blue_green_settings GoogleContainerNodePool#blue_green_settings}
   */
   readonly blueGreenSettings?: GoogleContainerNodePoolUpgradeSettingsBlueGreenSettings;
 }
@@ -11586,7 +11656,7 @@ export interface GoogleContainerNodePoolUpgradeSettings {
 export function googleContainerNodePoolUpgradeSettingsToTerraform(struct?: GoogleContainerNodePoolUpgradeSettingsOutputReference | GoogleContainerNodePoolUpgradeSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     max_surge: cdktn.numberToTerraform(struct!.maxSurge),
@@ -11600,7 +11670,7 @@ export function googleContainerNodePoolUpgradeSettingsToTerraform(struct?: Googl
 export function googleContainerNodePoolUpgradeSettingsToHclTerraform(struct?: GoogleContainerNodePoolUpgradeSettingsOutputReference | GoogleContainerNodePoolUpgradeSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     max_surge: {
@@ -11749,7 +11819,7 @@ export class GoogleContainerNodePoolUpgradeSettingsOutputReference extends cdktn
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool google_container_node_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool google_container_node_pool}
 */
 export class GoogleContainerNodePool extends cdktn.TerraformResource {
 
@@ -11765,7 +11835,7 @@ export class GoogleContainerNodePool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleContainerNodePool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleContainerNodePool to import
-  * @param importFromId The id of the existing GoogleContainerNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleContainerNodePool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleContainerNodePool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -11777,7 +11847,7 @@ export class GoogleContainerNodePool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_container_node_pool google_container_node_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_container_node_pool google_container_node_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11788,7 +11858,7 @@ export class GoogleContainerNodePool extends cdktn.TerraformResource {
       terraformResourceType: 'google_container_node_pool',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -17,7 +17,7 @@ export interface GoogleCesAppConfig extends cdktn.TerraformMetaArguments {
   * the app's resource name. If not provided, a unique ID will be
   * automatically assigned for the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#app_id GoogleCesApp#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#app_id GoogleCesApp#app_id}
   */
   readonly appId: string;
   /**
@@ -29,19 +29,19 @@ export interface GoogleCesAppConfig extends cdktn.TerraformMetaArguments {
   * When set to "DELETE", deleting the resource is allowed.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#deletion_policy GoogleCesApp#deletion_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#deletion_policy GoogleCesApp#deletion_policy}
   */
   readonly deletionPolicy?: string;
   /**
   * Human-readable description of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#description GoogleCesApp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#description GoogleCesApp#description}
   */
   readonly description?: string;
   /**
   * Display name of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#display_name GoogleCesApp#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#display_name GoogleCesApp#display_name}
   */
   readonly displayName: string;
   /**
@@ -49,7 +49,7 @@ export interface GoogleCesAppConfig extends cdktn.TerraformMetaArguments {
   * You can use this instruction to set up a stable identity or personality
   * across all the agents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#global_instruction GoogleCesApp#global_instruction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#global_instruction GoogleCesApp#global_instruction}
   */
   readonly globalInstruction?: string;
   /**
@@ -57,11 +57,11 @@ export interface GoogleCesAppConfig extends cdktn.TerraformMetaArguments {
   * Format:
   * 'projects/{project}/locations/{location}/apps/{app}/guardrails/{guardrail}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#guardrails GoogleCesApp#guardrails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#guardrails GoogleCesApp#guardrails}
   */
   readonly guardrails?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#id GoogleCesApp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#id GoogleCesApp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,104 +70,104 @@ export interface GoogleCesAppConfig extends cdktn.TerraformMetaArguments {
   /**
   * Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#location GoogleCesApp#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#location GoogleCesApp#location}
   */
   readonly location: string;
   /**
   * Metadata about the app. This field can be used to store additional
   * information relevant to the app's details or intended usages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#metadata GoogleCesApp#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#metadata GoogleCesApp#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Whether the app is pinned in the app list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#pinned GoogleCesApp#pinned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#pinned GoogleCesApp#pinned}
   */
   readonly pinned?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#project GoogleCesApp#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#project GoogleCesApp#project}
   */
   readonly project?: string;
   /**
   * The root agent is the entry point of the app.
   * Format: 'projects/{project}/locations/{location}/apps/{app}/agents/{agent}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#root_agent GoogleCesApp#root_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#root_agent GoogleCesApp#root_agent}
   */
   readonly rootAgent?: string;
   /**
   * The tool execution mode for the app.
   * See the [API reference](https://docs.cloud.google.com/customer-engagement-ai/conversational-agents/ps/reference/rpc/google.cloud.ces.v1#google.cloud.ces.v1.App.ToolExecutionMode) for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#tool_execution_mode GoogleCesApp#tool_execution_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#tool_execution_mode GoogleCesApp#tool_execution_mode}
   */
   readonly toolExecutionMode?: string;
   /**
   * audio_processing_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#audio_processing_config GoogleCesApp#audio_processing_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#audio_processing_config GoogleCesApp#audio_processing_config}
   */
   readonly audioProcessingConfig?: GoogleCesAppAudioProcessingConfig;
   /**
   * client_certificate_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#client_certificate_settings GoogleCesApp#client_certificate_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#client_certificate_settings GoogleCesApp#client_certificate_settings}
   */
   readonly clientCertificateSettings?: GoogleCesAppClientCertificateSettings;
   /**
   * data_store_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#data_store_settings GoogleCesApp#data_store_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#data_store_settings GoogleCesApp#data_store_settings}
   */
   readonly dataStoreSettings?: GoogleCesAppDataStoreSettings;
   /**
   * default_channel_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#default_channel_profile GoogleCesApp#default_channel_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#default_channel_profile GoogleCesApp#default_channel_profile}
   */
   readonly defaultChannelProfile?: GoogleCesAppDefaultChannelProfile;
   /**
   * evaluation_metrics_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#evaluation_metrics_thresholds GoogleCesApp#evaluation_metrics_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#evaluation_metrics_thresholds GoogleCesApp#evaluation_metrics_thresholds}
   */
   readonly evaluationMetricsThresholds?: GoogleCesAppEvaluationMetricsThresholds;
   /**
   * language_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#language_settings GoogleCesApp#language_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#language_settings GoogleCesApp#language_settings}
   */
   readonly languageSettings?: GoogleCesAppLanguageSettings;
   /**
   * logging_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#logging_settings GoogleCesApp#logging_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#logging_settings GoogleCesApp#logging_settings}
   */
   readonly loggingSettings?: GoogleCesAppLoggingSettings;
   /**
   * model_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#model_settings GoogleCesApp#model_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#model_settings GoogleCesApp#model_settings}
   */
   readonly modelSettings?: GoogleCesAppModelSettings;
   /**
   * time_zone_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#time_zone_settings GoogleCesApp#time_zone_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#time_zone_settings GoogleCesApp#time_zone_settings}
   */
   readonly timeZoneSettings?: GoogleCesAppTimeZoneSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#timeouts GoogleCesApp#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#timeouts GoogleCesApp#timeouts}
   */
   readonly timeouts?: GoogleCesAppTimeouts;
   /**
   * variable_declarations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#variable_declarations GoogleCesApp#variable_declarations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#variable_declarations GoogleCesApp#variable_declarations}
   */
   readonly variableDeclarations?: GoogleCesAppVariableDeclarations[] | cdktn.IResolvable;
 }
@@ -179,7 +179,7 @@ export interface GoogleCesAppAudioProcessingConfigAmbientSoundConfig {
   * 'service-@gcp-sa-ces.iam.gserviceaccount.com' has
   * 'storage.objects.get' permission to the Cloud Storage object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#gcs_uri GoogleCesApp#gcs_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#gcs_uri GoogleCesApp#gcs_uri}
   */
   readonly gcsUri?: string;
   /**
@@ -189,7 +189,7 @@ export interface GoogleCesAppAudioProcessingConfigAmbientSoundConfig {
   * -"room_1" - "room_2" - "room_3"
   * -"room_4" - "room_5" - "air_conditioner"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#prebuilt_ambient_sound GoogleCesApp#prebuilt_ambient_sound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#prebuilt_ambient_sound GoogleCesApp#prebuilt_ambient_sound}
   */
   readonly prebuiltAmbientSound?: string;
   /**
@@ -202,7 +202,7 @@ export interface GoogleCesAppAudioProcessingConfigAmbientSoundConfig {
   * to exceed +10 (dB) as there's usually no effective increase in loudness for
   * any value greater than that.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#volume_gain_db GoogleCesApp#volume_gain_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#volume_gain_db GoogleCesApp#volume_gain_db}
   */
   readonly volumeGainDb?: number;
 }
@@ -210,7 +210,7 @@ export interface GoogleCesAppAudioProcessingConfigAmbientSoundConfig {
 export function googleCesAppAudioProcessingConfigAmbientSoundConfigToTerraform(struct?: GoogleCesAppAudioProcessingConfigAmbientSoundConfigOutputReference | GoogleCesAppAudioProcessingConfigAmbientSoundConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gcs_uri: cdktn.stringToTerraform(struct!.gcsUri),
@@ -223,7 +223,7 @@ export function googleCesAppAudioProcessingConfigAmbientSoundConfigToTerraform(s
 export function googleCesAppAudioProcessingConfigAmbientSoundConfigToHclTerraform(struct?: GoogleCesAppAudioProcessingConfigAmbientSoundConfigOutputReference | GoogleCesAppAudioProcessingConfigAmbientSoundConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gcs_uri: {
@@ -349,7 +349,7 @@ export interface GoogleCesAppAudioProcessingConfigBargeInConfig {
   * This should not be used in scenarios where agent responses are displayed
   * visually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#barge_in_awareness GoogleCesApp#barge_in_awareness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#barge_in_awareness GoogleCesApp#barge_in_awareness}
   */
   readonly bargeInAwareness?: boolean | cdktn.IResolvable;
 }
@@ -357,7 +357,7 @@ export interface GoogleCesAppAudioProcessingConfigBargeInConfig {
 export function googleCesAppAudioProcessingConfigBargeInConfigToTerraform(struct?: GoogleCesAppAudioProcessingConfigBargeInConfigOutputReference | GoogleCesAppAudioProcessingConfigBargeInConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     barge_in_awareness: cdktn.booleanToTerraform(struct!.bargeInAwareness),
@@ -368,7 +368,7 @@ export function googleCesAppAudioProcessingConfigBargeInConfigToTerraform(struct
 export function googleCesAppAudioProcessingConfigBargeInConfigToHclTerraform(struct?: GoogleCesAppAudioProcessingConfigBargeInConfigOutputReference | GoogleCesAppAudioProcessingConfigBargeInConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     barge_in_awareness: {
@@ -433,7 +433,7 @@ export class GoogleCesAppAudioProcessingConfigBargeInConfigOutputReference exten
 }
 export interface GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#language_code GoogleCesApp#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#language_code GoogleCesApp#language_code}
   */
   readonly languageCode: string;
   /**
@@ -441,7 +441,7 @@ export interface GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs {
   * speed supported by the specific voice. 2.0 is twice as fast, and 0.5 is
   * half as fast. Values outside of the range [0.25, 2.0] will return an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#speaking_rate GoogleCesApp#speaking_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#speaking_rate GoogleCesApp#speaking_rate}
   */
   readonly speakingRate?: number;
   /**
@@ -450,7 +450,7 @@ export interface GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs {
   * For the list of available voices, please refer to Supported voices and
   * languages from Cloud Text-to-Speech.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#voice GoogleCesApp#voice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#voice GoogleCesApp#voice}
   */
   readonly voice?: string;
 }
@@ -458,7 +458,7 @@ export interface GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs {
 export function googleCesAppAudioProcessingConfigSynthesizeSpeechConfigsToTerraform(struct?: GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     language_code: cdktn.stringToTerraform(struct!.languageCode),
@@ -471,7 +471,7 @@ export function googleCesAppAudioProcessingConfigSynthesizeSpeechConfigsToTerraf
 export function googleCesAppAudioProcessingConfigSynthesizeSpeechConfigsToHclTerraform(struct?: GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     language_code: {
@@ -625,25 +625,25 @@ export interface GoogleCesAppAudioProcessingConfig {
   * prompts the user for reengagement. If not set, the agent will not prompt
   * the user for reengagement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#inactivity_timeout GoogleCesApp#inactivity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#inactivity_timeout GoogleCesApp#inactivity_timeout}
   */
   readonly inactivityTimeout?: string;
   /**
   * ambient_sound_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#ambient_sound_config GoogleCesApp#ambient_sound_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#ambient_sound_config GoogleCesApp#ambient_sound_config}
   */
   readonly ambientSoundConfig?: GoogleCesAppAudioProcessingConfigAmbientSoundConfig;
   /**
   * barge_in_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#barge_in_config GoogleCesApp#barge_in_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#barge_in_config GoogleCesApp#barge_in_config}
   */
   readonly bargeInConfig?: GoogleCesAppAudioProcessingConfigBargeInConfig;
   /**
   * synthesize_speech_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#synthesize_speech_configs GoogleCesApp#synthesize_speech_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#synthesize_speech_configs GoogleCesApp#synthesize_speech_configs}
   */
   readonly synthesizeSpeechConfigs?: GoogleCesAppAudioProcessingConfigSynthesizeSpeechConfigs[] | cdktn.IResolvable;
 }
@@ -651,7 +651,7 @@ export interface GoogleCesAppAudioProcessingConfig {
 export function googleCesAppAudioProcessingConfigToTerraform(struct?: GoogleCesAppAudioProcessingConfigOutputReference | GoogleCesAppAudioProcessingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     inactivity_timeout: cdktn.stringToTerraform(struct!.inactivityTimeout),
@@ -665,7 +665,7 @@ export function googleCesAppAudioProcessingConfigToTerraform(struct?: GoogleCesA
 export function googleCesAppAudioProcessingConfigToHclTerraform(struct?: GoogleCesAppAudioProcessingConfigOutputReference | GoogleCesAppAudioProcessingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     inactivity_timeout: {
@@ -817,7 +817,7 @@ export interface GoogleCesAppClientCertificateSettings {
   * The passphrase to decrypt the private key.
   * Should be left unset if the private key is not encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#passphrase GoogleCesApp#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#passphrase GoogleCesApp#passphrase}
   */
   readonly passphrase?: string;
   /**
@@ -825,14 +825,14 @@ export interface GoogleCesAppClientCertificateSettings {
   * storing the private key encoded in PEM format.
   * Format: projects/{project}/secrets/{secret}/versions/{version}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#private_key GoogleCesApp#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#private_key GoogleCesApp#private_key}
   */
   readonly privateKey: string;
   /**
   * The TLS certificate encoded in PEM format.
   * This string must include the begin header and end footer lines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#tls_certificate GoogleCesApp#tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#tls_certificate GoogleCesApp#tls_certificate}
   */
   readonly tlsCertificate: string;
 }
@@ -840,7 +840,7 @@ export interface GoogleCesAppClientCertificateSettings {
 export function googleCesAppClientCertificateSettingsToTerraform(struct?: GoogleCesAppClientCertificateSettingsOutputReference | GoogleCesAppClientCertificateSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     passphrase: cdktn.stringToTerraform(struct!.passphrase),
@@ -853,7 +853,7 @@ export function googleCesAppClientCertificateSettingsToTerraform(struct?: Google
 export function googleCesAppClientCertificateSettingsToHclTerraform(struct?: GoogleCesAppClientCertificateSettingsOutputReference | GoogleCesAppClientCertificateSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     passphrase: {
@@ -972,7 +972,7 @@ export interface GoogleCesAppDataStoreSettingsEngines {
 export function googleCesAppDataStoreSettingsEnginesToTerraform(struct?: GoogleCesAppDataStoreSettingsEngines): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -982,7 +982,7 @@ export function googleCesAppDataStoreSettingsEnginesToTerraform(struct?: GoogleC
 export function googleCesAppDataStoreSettingsEnginesToHclTerraform(struct?: GoogleCesAppDataStoreSettingsEngines): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1052,7 +1052,7 @@ export interface GoogleCesAppDataStoreSettings {
 export function googleCesAppDataStoreSettingsToTerraform(struct?: GoogleCesAppDataStoreSettingsOutputReference | GoogleCesAppDataStoreSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1062,7 +1062,7 @@ export function googleCesAppDataStoreSettingsToTerraform(struct?: GoogleCesAppDa
 export function googleCesAppDataStoreSettingsToHclTerraform(struct?: GoogleCesAppDataStoreSettingsOutputReference | GoogleCesAppDataStoreSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1109,7 +1109,7 @@ export interface GoogleCesAppDefaultChannelProfilePersonaProperty {
   * CONCISE
   * CHATTY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#persona GoogleCesApp#persona}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#persona GoogleCesApp#persona}
   */
   readonly persona?: string;
 }
@@ -1117,7 +1117,7 @@ export interface GoogleCesAppDefaultChannelProfilePersonaProperty {
 export function googleCesAppDefaultChannelProfilePersonaPropertyToTerraform(struct?: GoogleCesAppDefaultChannelProfilePersonaPropertyOutputReference | GoogleCesAppDefaultChannelProfilePersonaProperty): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     persona: cdktn.stringToTerraform(struct!.persona),
@@ -1128,7 +1128,7 @@ export function googleCesAppDefaultChannelProfilePersonaPropertyToTerraform(stru
 export function googleCesAppDefaultChannelProfilePersonaPropertyToHclTerraform(struct?: GoogleCesAppDefaultChannelProfilePersonaPropertyOutputReference | GoogleCesAppDefaultChannelProfilePersonaProperty): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     persona: {
@@ -1200,7 +1200,7 @@ export interface GoogleCesAppDefaultChannelProfileWebWidgetConfig {
   * VOICE_ONLY
   * CHAT_ONLY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#modality GoogleCesApp#modality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#modality GoogleCesApp#modality}
   */
   readonly modality?: string;
   /**
@@ -1210,13 +1210,13 @@ export interface GoogleCesAppDefaultChannelProfileWebWidgetConfig {
   * LIGHT
   * DARK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#theme GoogleCesApp#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#theme GoogleCesApp#theme}
   */
   readonly theme?: string;
   /**
   * The title of the web widget.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#web_widget_title GoogleCesApp#web_widget_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#web_widget_title GoogleCesApp#web_widget_title}
   */
   readonly webWidgetTitle?: string;
 }
@@ -1224,7 +1224,7 @@ export interface GoogleCesAppDefaultChannelProfileWebWidgetConfig {
 export function googleCesAppDefaultChannelProfileWebWidgetConfigToTerraform(struct?: GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference | GoogleCesAppDefaultChannelProfileWebWidgetConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     modality: cdktn.stringToTerraform(struct!.modality),
@@ -1237,7 +1237,7 @@ export function googleCesAppDefaultChannelProfileWebWidgetConfigToTerraform(stru
 export function googleCesAppDefaultChannelProfileWebWidgetConfigToHclTerraform(struct?: GoogleCesAppDefaultChannelProfileWebWidgetConfigOutputReference | GoogleCesAppDefaultChannelProfileWebWidgetConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     modality: {
@@ -1367,7 +1367,7 @@ export interface GoogleCesAppDefaultChannelProfile {
   * GOOGLE_TELEPHONY_PLATFORM
   * CONTACT_CENTER_AS_A_SERVICE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#channel_type GoogleCesApp#channel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#channel_type GoogleCesApp#channel_type}
   */
   readonly channelType?: string;
   /**
@@ -1375,31 +1375,31 @@ export interface GoogleCesAppDefaultChannelProfile {
   * - true: User interruptions are disabled while the agent is speaking.
   * - false: The agent retains automatic control over when the user can interrupt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#disable_barge_in_control GoogleCesApp#disable_barge_in_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#disable_barge_in_control GoogleCesApp#disable_barge_in_control}
   */
   readonly disableBargeInControl?: boolean | cdktn.IResolvable;
   /**
   * Whether to disable DTMF (dual-tone multi-frequency).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#disable_dtmf GoogleCesApp#disable_dtmf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#disable_dtmf GoogleCesApp#disable_dtmf}
   */
   readonly disableDtmf?: boolean | cdktn.IResolvable;
   /**
   * The unique identifier of the channel profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#profile_id GoogleCesApp#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#profile_id GoogleCesApp#profile_id}
   */
   readonly profileId?: string;
   /**
   * persona_property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#persona_property GoogleCesApp#persona_property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#persona_property GoogleCesApp#persona_property}
   */
   readonly personaProperty?: GoogleCesAppDefaultChannelProfilePersonaProperty;
   /**
   * web_widget_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#web_widget_config GoogleCesApp#web_widget_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#web_widget_config GoogleCesApp#web_widget_config}
   */
   readonly webWidgetConfig?: GoogleCesAppDefaultChannelProfileWebWidgetConfig;
 }
@@ -1407,7 +1407,7 @@ export interface GoogleCesAppDefaultChannelProfile {
 export function googleCesAppDefaultChannelProfileToTerraform(struct?: GoogleCesAppDefaultChannelProfileOutputReference | GoogleCesAppDefaultChannelProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     channel_type: cdktn.stringToTerraform(struct!.channelType),
@@ -1423,7 +1423,7 @@ export function googleCesAppDefaultChannelProfileToTerraform(struct?: GoogleCesA
 export function googleCesAppDefaultChannelProfileToHclTerraform(struct?: GoogleCesAppDefaultChannelProfileOutputReference | GoogleCesAppDefaultChannelProfile): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     channel_type: {
@@ -1631,7 +1631,7 @@ export interface GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsT
   * The success threshold for individual tool invocation parameter
   * correctness. Must be a float between 0 and 1. Default is 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#tool_invocation_parameter_correctness_threshold GoogleCesApp#tool_invocation_parameter_correctness_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#tool_invocation_parameter_correctness_threshold GoogleCesApp#tool_invocation_parameter_correctness_threshold}
   */
   readonly toolInvocationParameterCorrectnessThreshold?: number;
 }
@@ -1639,7 +1639,7 @@ export interface GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsT
 export function googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsToTerraform(struct?: GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference | GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     tool_invocation_parameter_correctness_threshold: cdktn.numberToTerraform(struct!.toolInvocationParameterCorrectnessThreshold),
@@ -1650,7 +1650,7 @@ export function googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsTh
 export function googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsToHclTerraform(struct?: GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsOutputReference | GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     tool_invocation_parameter_correctness_threshold: {
@@ -1718,14 +1718,14 @@ export interface GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsT
   * The success threshold for overall tool invocation correctness. Must be
   * a float between 0 and 1. Default is 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#overall_tool_invocation_correctness_threshold GoogleCesApp#overall_tool_invocation_correctness_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#overall_tool_invocation_correctness_threshold GoogleCesApp#overall_tool_invocation_correctness_threshold}
   */
   readonly overallToolInvocationCorrectnessThreshold?: number;
   /**
   * The success threshold for semantic similarity. Must be an integer
   * between 0 and 4. Default is >= 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#semantic_similarity_success_threshold GoogleCesApp#semantic_similarity_success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#semantic_similarity_success_threshold GoogleCesApp#semantic_similarity_success_threshold}
   */
   readonly semanticSimilaritySuccessThreshold?: number;
 }
@@ -1733,7 +1733,7 @@ export interface GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsT
 export function googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsToTerraform(struct?: GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference | GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     overall_tool_invocation_correctness_threshold: cdktn.numberToTerraform(struct!.overallToolInvocationCorrectnessThreshold),
@@ -1745,7 +1745,7 @@ export function googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsTh
 export function googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsToHclTerraform(struct?: GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference | GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     overall_tool_invocation_correctness_threshold: {
@@ -1840,13 +1840,13 @@ export interface GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsT
   /**
   * expectation_level_metrics_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#expectation_level_metrics_thresholds GoogleCesApp#expectation_level_metrics_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#expectation_level_metrics_thresholds GoogleCesApp#expectation_level_metrics_thresholds}
   */
   readonly expectationLevelMetricsThresholds?: GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds;
   /**
   * turn_level_metrics_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#turn_level_metrics_thresholds GoogleCesApp#turn_level_metrics_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#turn_level_metrics_thresholds GoogleCesApp#turn_level_metrics_thresholds}
   */
   readonly turnLevelMetricsThresholds?: GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds;
 }
@@ -1854,7 +1854,7 @@ export interface GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsT
 export function googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToTerraform(struct?: GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference | GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     expectation_level_metrics_thresholds: googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholdsToTerraform(struct!.expectationLevelMetricsThresholds),
@@ -1866,7 +1866,7 @@ export function googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsTh
 export function googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToHclTerraform(struct?: GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference | GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     expectation_level_metrics_thresholds: {
@@ -1961,7 +1961,7 @@ export interface GoogleCesAppEvaluationMetricsThresholds {
   /**
   * golden_evaluation_metrics_thresholds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#golden_evaluation_metrics_thresholds GoogleCesApp#golden_evaluation_metrics_thresholds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#golden_evaluation_metrics_thresholds GoogleCesApp#golden_evaluation_metrics_thresholds}
   */
   readonly goldenEvaluationMetricsThresholds?: GoogleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholds;
 }
@@ -1969,7 +1969,7 @@ export interface GoogleCesAppEvaluationMetricsThresholds {
 export function googleCesAppEvaluationMetricsThresholdsToTerraform(struct?: GoogleCesAppEvaluationMetricsThresholdsOutputReference | GoogleCesAppEvaluationMetricsThresholds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     golden_evaluation_metrics_thresholds: googleCesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToTerraform(struct!.goldenEvaluationMetricsThresholds),
@@ -1980,7 +1980,7 @@ export function googleCesAppEvaluationMetricsThresholdsToTerraform(struct?: Goog
 export function googleCesAppEvaluationMetricsThresholdsToHclTerraform(struct?: GoogleCesAppEvaluationMetricsThresholdsOutputReference | GoogleCesAppEvaluationMetricsThresholds): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     golden_evaluation_metrics_thresholds: {
@@ -2047,14 +2047,14 @@ export interface GoogleCesAppLanguageSettings {
   /**
   * The default language code of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#default_language_code GoogleCesApp#default_language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#default_language_code GoogleCesApp#default_language_code}
   */
   readonly defaultLanguageCode?: string;
   /**
   * Enables multilingual support. If true, agents in the app will use pre-built
   * instructions to improve handling of multilingual input.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#enable_multilingual_support GoogleCesApp#enable_multilingual_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#enable_multilingual_support GoogleCesApp#enable_multilingual_support}
   */
   readonly enableMultilingualSupport?: boolean | cdktn.IResolvable;
   /**
@@ -2067,14 +2067,14 @@ export interface GoogleCesAppLanguageSettings {
   * an EndSession signal with corresponding metadata
   * to terminate the conversation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#fallback_action GoogleCesApp#fallback_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#fallback_action GoogleCesApp#fallback_action}
   */
   readonly fallbackAction?: string;
   /**
   * List of languages codes supported by the app, in addition to the
   * 'default_language_code'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#supported_language_codes GoogleCesApp#supported_language_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#supported_language_codes GoogleCesApp#supported_language_codes}
   */
   readonly supportedLanguageCodes?: string[];
 }
@@ -2082,7 +2082,7 @@ export interface GoogleCesAppLanguageSettings {
 export function googleCesAppLanguageSettingsToTerraform(struct?: GoogleCesAppLanguageSettingsOutputReference | GoogleCesAppLanguageSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     default_language_code: cdktn.stringToTerraform(struct!.defaultLanguageCode),
@@ -2096,7 +2096,7 @@ export function googleCesAppLanguageSettingsToTerraform(struct?: GoogleCesAppLan
 export function googleCesAppLanguageSettingsToHclTerraform(struct?: GoogleCesAppLanguageSettingsOutputReference | GoogleCesAppLanguageSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     default_language_code: {
@@ -2251,7 +2251,7 @@ export interface GoogleCesAppLoggingSettingsAudioRecordingConfig {
   * you should grant 'storage.objects.create' permission to the CES service
   * agent 'service-@gcp-sa-ces.iam.gserviceaccount.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#gcs_bucket GoogleCesApp#gcs_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#gcs_bucket GoogleCesApp#gcs_bucket}
   */
   readonly gcsBucket?: string;
   /**
@@ -2266,7 +2266,7 @@ export interface GoogleCesAppLoggingSettingsAudioRecordingConfig {
   * If the path prefix is not specified, the default prefix
   * '$project/$location/$app/$date/$session/' will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#gcs_path_prefix GoogleCesApp#gcs_path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#gcs_path_prefix GoogleCesApp#gcs_path_prefix}
   */
   readonly gcsPathPrefix?: string;
 }
@@ -2274,7 +2274,7 @@ export interface GoogleCesAppLoggingSettingsAudioRecordingConfig {
 export function googleCesAppLoggingSettingsAudioRecordingConfigToTerraform(struct?: GoogleCesAppLoggingSettingsAudioRecordingConfigOutputReference | GoogleCesAppLoggingSettingsAudioRecordingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     gcs_bucket: cdktn.stringToTerraform(struct!.gcsBucket),
@@ -2286,7 +2286,7 @@ export function googleCesAppLoggingSettingsAudioRecordingConfigToTerraform(struc
 export function googleCesAppLoggingSettingsAudioRecordingConfigToHclTerraform(struct?: GoogleCesAppLoggingSettingsAudioRecordingConfigOutputReference | GoogleCesAppLoggingSettingsAudioRecordingConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     gcs_bucket: {
@@ -2381,13 +2381,13 @@ export interface GoogleCesAppLoggingSettingsBigqueryExportSettings {
   /**
   * The BigQuery dataset to export the data to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#dataset GoogleCesApp#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#dataset GoogleCesApp#dataset}
   */
   readonly dataset?: string;
   /**
   * Indicates whether the BigQuery export is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#enabled GoogleCesApp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#enabled GoogleCesApp#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
@@ -2396,7 +2396,7 @@ export interface GoogleCesAppLoggingSettingsBigqueryExportSettings {
   * roles/bigquery.admin role to the CES service agent service-<PROJECT-
   * NUMBER>@gcp-sa-ces.iam.gserviceaccount.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#project GoogleCesApp#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#project GoogleCesApp#project}
   */
   readonly project?: string;
 }
@@ -2404,7 +2404,7 @@ export interface GoogleCesAppLoggingSettingsBigqueryExportSettings {
 export function googleCesAppLoggingSettingsBigqueryExportSettingsToTerraform(struct?: GoogleCesAppLoggingSettingsBigqueryExportSettingsOutputReference | GoogleCesAppLoggingSettingsBigqueryExportSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     dataset: cdktn.stringToTerraform(struct!.dataset),
@@ -2417,7 +2417,7 @@ export function googleCesAppLoggingSettingsBigqueryExportSettingsToTerraform(str
 export function googleCesAppLoggingSettingsBigqueryExportSettingsToHclTerraform(struct?: GoogleCesAppLoggingSettingsBigqueryExportSettingsOutputReference | GoogleCesAppLoggingSettingsBigqueryExportSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     dataset: {
@@ -2540,7 +2540,7 @@ export interface GoogleCesAppLoggingSettingsCloudLoggingSettings {
   /**
   * Whether to enable Cloud Logging for the sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#enable_cloud_logging GoogleCesApp#enable_cloud_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#enable_cloud_logging GoogleCesApp#enable_cloud_logging}
   */
   readonly enableCloudLogging?: boolean | cdktn.IResolvable;
 }
@@ -2548,7 +2548,7 @@ export interface GoogleCesAppLoggingSettingsCloudLoggingSettings {
 export function googleCesAppLoggingSettingsCloudLoggingSettingsToTerraform(struct?: GoogleCesAppLoggingSettingsCloudLoggingSettingsOutputReference | GoogleCesAppLoggingSettingsCloudLoggingSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     enable_cloud_logging: cdktn.booleanToTerraform(struct!.enableCloudLogging),
@@ -2559,7 +2559,7 @@ export function googleCesAppLoggingSettingsCloudLoggingSettingsToTerraform(struc
 export function googleCesAppLoggingSettingsCloudLoggingSettingsToHclTerraform(struct?: GoogleCesAppLoggingSettingsCloudLoggingSettingsOutputReference | GoogleCesAppLoggingSettingsCloudLoggingSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     enable_cloud_logging: {
@@ -2626,7 +2626,7 @@ export interface GoogleCesAppLoggingSettingsConversationLoggingSettings {
   /**
   * Whether to disable conversation logging for the sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#disable_conversation_logging GoogleCesApp#disable_conversation_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#disable_conversation_logging GoogleCesApp#disable_conversation_logging}
   */
   readonly disableConversationLogging?: boolean | cdktn.IResolvable;
 }
@@ -2634,7 +2634,7 @@ export interface GoogleCesAppLoggingSettingsConversationLoggingSettings {
 export function googleCesAppLoggingSettingsConversationLoggingSettingsToTerraform(struct?: GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference | GoogleCesAppLoggingSettingsConversationLoggingSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     disable_conversation_logging: cdktn.booleanToTerraform(struct!.disableConversationLogging),
@@ -2645,7 +2645,7 @@ export function googleCesAppLoggingSettingsConversationLoggingSettingsToTerrafor
 export function googleCesAppLoggingSettingsConversationLoggingSettingsToHclTerraform(struct?: GoogleCesAppLoggingSettingsConversationLoggingSettingsOutputReference | GoogleCesAppLoggingSettingsConversationLoggingSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     disable_conversation_logging: {
@@ -2715,14 +2715,14 @@ export interface GoogleCesAppLoggingSettingsRedactionConfig {
   * Format:
   * 'projects/{project}/locations/{location}/deidentifyTemplates/{deidentify_template}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#deidentify_template GoogleCesApp#deidentify_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#deidentify_template GoogleCesApp#deidentify_template}
   */
   readonly deidentifyTemplate?: string;
   /**
   * If true, redaction will be applied in various logging scenarios, including
   * conversation history, Cloud Logging and audio recording.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#enable_redaction GoogleCesApp#enable_redaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#enable_redaction GoogleCesApp#enable_redaction}
   */
   readonly enableRedaction?: boolean | cdktn.IResolvable;
   /**
@@ -2731,7 +2731,7 @@ export interface GoogleCesAppLoggingSettingsRedactionConfig {
   * Format:
   * 'projects/{project}/locations/{location}/inspectTemplates/{inspect_template}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#inspect_template GoogleCesApp#inspect_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#inspect_template GoogleCesApp#inspect_template}
   */
   readonly inspectTemplate?: string;
 }
@@ -2739,7 +2739,7 @@ export interface GoogleCesAppLoggingSettingsRedactionConfig {
 export function googleCesAppLoggingSettingsRedactionConfigToTerraform(struct?: GoogleCesAppLoggingSettingsRedactionConfigOutputReference | GoogleCesAppLoggingSettingsRedactionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     deidentify_template: cdktn.stringToTerraform(struct!.deidentifyTemplate),
@@ -2752,7 +2752,7 @@ export function googleCesAppLoggingSettingsRedactionConfigToTerraform(struct?: G
 export function googleCesAppLoggingSettingsRedactionConfigToHclTerraform(struct?: GoogleCesAppLoggingSettingsRedactionConfigOutputReference | GoogleCesAppLoggingSettingsRedactionConfig): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     deidentify_template: {
@@ -2875,31 +2875,31 @@ export interface GoogleCesAppLoggingSettings {
   /**
   * audio_recording_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#audio_recording_config GoogleCesApp#audio_recording_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#audio_recording_config GoogleCesApp#audio_recording_config}
   */
   readonly audioRecordingConfig?: GoogleCesAppLoggingSettingsAudioRecordingConfig;
   /**
   * bigquery_export_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#bigquery_export_settings GoogleCesApp#bigquery_export_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#bigquery_export_settings GoogleCesApp#bigquery_export_settings}
   */
   readonly bigqueryExportSettings?: GoogleCesAppLoggingSettingsBigqueryExportSettings;
   /**
   * cloud_logging_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#cloud_logging_settings GoogleCesApp#cloud_logging_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#cloud_logging_settings GoogleCesApp#cloud_logging_settings}
   */
   readonly cloudLoggingSettings?: GoogleCesAppLoggingSettingsCloudLoggingSettings;
   /**
   * conversation_logging_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#conversation_logging_settings GoogleCesApp#conversation_logging_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#conversation_logging_settings GoogleCesApp#conversation_logging_settings}
   */
   readonly conversationLoggingSettings?: GoogleCesAppLoggingSettingsConversationLoggingSettings;
   /**
   * redaction_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#redaction_config GoogleCesApp#redaction_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#redaction_config GoogleCesApp#redaction_config}
   */
   readonly redactionConfig?: GoogleCesAppLoggingSettingsRedactionConfig;
 }
@@ -2907,7 +2907,7 @@ export interface GoogleCesAppLoggingSettings {
 export function googleCesAppLoggingSettingsToTerraform(struct?: GoogleCesAppLoggingSettingsOutputReference | GoogleCesAppLoggingSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     audio_recording_config: googleCesAppLoggingSettingsAudioRecordingConfigToTerraform(struct!.audioRecordingConfig),
@@ -2922,7 +2922,7 @@ export function googleCesAppLoggingSettingsToTerraform(struct?: GoogleCesAppLogg
 export function googleCesAppLoggingSettingsToHclTerraform(struct?: GoogleCesAppLoggingSettingsOutputReference | GoogleCesAppLoggingSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     audio_recording_config: {
@@ -3102,7 +3102,7 @@ export interface GoogleCesAppModelSettings {
   * The LLM model that the agent should use.
   * If not set, the agent will inherit the model from its parent agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#model GoogleCesApp#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#model GoogleCesApp#model}
   */
   readonly model?: string;
   /**
@@ -3111,7 +3111,7 @@ export interface GoogleCesAppModelSettings {
   * produce responses that are more predictable. Higher temperatures produce
   * responses that are more creative.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#temperature GoogleCesApp#temperature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#temperature GoogleCesApp#temperature}
   */
   readonly temperature?: number;
 }
@@ -3119,7 +3119,7 @@ export interface GoogleCesAppModelSettings {
 export function googleCesAppModelSettingsToTerraform(struct?: GoogleCesAppModelSettingsOutputReference | GoogleCesAppModelSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     model: cdktn.stringToTerraform(struct!.model),
@@ -3131,7 +3131,7 @@ export function googleCesAppModelSettingsToTerraform(struct?: GoogleCesAppModelS
 export function googleCesAppModelSettingsToHclTerraform(struct?: GoogleCesAppModelSettingsOutputReference | GoogleCesAppModelSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     model: {
@@ -3226,7 +3226,7 @@ export interface GoogleCesAppTimeZoneSettings {
   /**
   * The time zone of the app from the time zone database, e.g., America/Los_Angeles, Europe/Paris.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#time_zone GoogleCesApp#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#time_zone GoogleCesApp#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -3234,7 +3234,7 @@ export interface GoogleCesAppTimeZoneSettings {
 export function googleCesAppTimeZoneSettingsToTerraform(struct?: GoogleCesAppTimeZoneSettingsOutputReference | GoogleCesAppTimeZoneSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     time_zone: cdktn.stringToTerraform(struct!.timeZone),
@@ -3245,7 +3245,7 @@ export function googleCesAppTimeZoneSettingsToTerraform(struct?: GoogleCesAppTim
 export function googleCesAppTimeZoneSettingsToHclTerraform(struct?: GoogleCesAppTimeZoneSettingsOutputReference | GoogleCesAppTimeZoneSettings): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     time_zone: {
@@ -3310,15 +3310,15 @@ export class GoogleCesAppTimeZoneSettingsOutputReference extends cdktn.ComplexOb
 }
 export interface GoogleCesAppTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#create GoogleCesApp#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#create GoogleCesApp#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#delete GoogleCesApp#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#delete GoogleCesApp#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#update GoogleCesApp#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#update GoogleCesApp#update}
   */
   readonly update?: string;
 }
@@ -3326,7 +3326,7 @@ export interface GoogleCesAppTimeouts {
 export function googleCesAppTimeoutsToTerraform(struct?: GoogleCesAppTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     create: cdktn.stringToTerraform(struct!.create),
@@ -3339,7 +3339,7 @@ export function googleCesAppTimeoutsToTerraform(struct?: GoogleCesAppTimeouts | 
 export function googleCesAppTimeoutsToHclTerraform(struct?: GoogleCesAppTimeouts | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     create: {
@@ -3474,13 +3474,13 @@ export interface GoogleCesAppVariableDeclarationsSchema {
   * The value must be a valid JSON string representing the Schema object.
   * (Note: OpenAPI also allows a boolean, this definition expects a Schema JSON).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#additional_properties GoogleCesApp#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#additional_properties GoogleCesApp#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * Optional. The instance value should be valid against at least one of the schemas in this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#any_of GoogleCesApp#any_of}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#any_of GoogleCesApp#any_of}
   */
   readonly anyOf?: string;
   /**
@@ -3489,19 +3489,19 @@ export interface GoogleCesAppVariableDeclarationsSchema {
   * or a list of values. The provided default value must be encoded as a JSON string.
   * Use 'jsonencode' in Terraform HCL to encode the default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#default GoogleCesApp#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#default GoogleCesApp#default}
   */
   readonly default?: string;
   /**
   * A map of definitions for use by ref. Only allowed at the root of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#defs GoogleCesApp#defs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#defs GoogleCesApp#defs}
   */
   readonly defs?: string;
   /**
   * The description of the data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#description GoogleCesApp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#description GoogleCesApp#description}
   */
   readonly description?: string;
   /**
@@ -3512,31 +3512,31 @@ export interface GoogleCesAppVariableDeclarationsSchema {
   * 2. We can define apartment number as :
   * {type:INTEGER, format:enum, enum:["101", "201", "301"]}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#enum GoogleCesApp#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#enum GoogleCesApp#enum}
   */
   readonly enum?: string[];
   /**
   * Schema of the elements of Type.ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#items GoogleCesApp#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#items GoogleCesApp#items}
   */
   readonly items?: string;
   /**
   * Indicates if the value may be null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#nullable GoogleCesApp#nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#nullable GoogleCesApp#nullable}
   */
   readonly nullable?: boolean | cdktn.IResolvable;
   /**
   * Optional. Schemas of initial elements of Type.ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#prefix_items GoogleCesApp#prefix_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#prefix_items GoogleCesApp#prefix_items}
   */
   readonly prefixItems?: string;
   /**
   * Properties of Type.OBJECT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#properties GoogleCesApp#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#properties GoogleCesApp#properties}
   */
   readonly properties?: string;
   /**
@@ -3559,19 +3559,19 @@ export interface GoogleCesAppVariableDeclarationsSchema {
   * See details in
   * https://json-schema.org/understanding-json-schema/structuring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#ref GoogleCesApp#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#ref GoogleCesApp#ref}
   */
   readonly ref?: string;
   /**
   * Required properties of Type.OBJECT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#required GoogleCesApp#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#required GoogleCesApp#required}
   */
   readonly required?: string[];
   /**
   * The title of the schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#title GoogleCesApp#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#title GoogleCesApp#title}
   */
   readonly title?: string;
   /**
@@ -3584,13 +3584,13 @@ export interface GoogleCesAppVariableDeclarationsSchema {
   * OBJECT
   * ARRAY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#type GoogleCesApp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#type GoogleCesApp#type}
   */
   readonly type: string;
   /**
   * Indicate the items in the array must be unique. Only applies to TYPE.ARRAY.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#unique_items GoogleCesApp#unique_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#unique_items GoogleCesApp#unique_items}
   */
   readonly uniqueItems?: boolean | cdktn.IResolvable;
 }
@@ -3598,7 +3598,7 @@ export interface GoogleCesAppVariableDeclarationsSchema {
 export function googleCesAppVariableDeclarationsSchemaToTerraform(struct?: GoogleCesAppVariableDeclarationsSchemaOutputReference | GoogleCesAppVariableDeclarationsSchema): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     additional_properties: cdktn.stringToTerraform(struct!.additionalProperties),
@@ -3623,7 +3623,7 @@ export function googleCesAppVariableDeclarationsSchemaToTerraform(struct?: Googl
 export function googleCesAppVariableDeclarationsSchemaToHclTerraform(struct?: GoogleCesAppVariableDeclarationsSchemaOutputReference | GoogleCesAppVariableDeclarationsSchema): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     additional_properties: {
@@ -4079,20 +4079,20 @@ export interface GoogleCesAppVariableDeclarations {
   /**
   * The description of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#description GoogleCesApp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#description GoogleCesApp#description}
   */
   readonly description: string;
   /**
   * The name of the variable. The name must start with a letter or underscore
   * and contain only letters, numbers, or underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#name GoogleCesApp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#name GoogleCesApp#name}
   */
   readonly name: string;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#schema GoogleCesApp#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#schema GoogleCesApp#schema}
   */
   readonly schema: GoogleCesAppVariableDeclarationsSchema;
 }
@@ -4100,7 +4100,7 @@ export interface GoogleCesAppVariableDeclarations {
 export function googleCesAppVariableDeclarationsToTerraform(struct?: GoogleCesAppVariableDeclarations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
     description: cdktn.stringToTerraform(struct!.description),
@@ -4113,7 +4113,7 @@ export function googleCesAppVariableDeclarationsToTerraform(struct?: GoogleCesAp
 export function googleCesAppVariableDeclarationsToHclTerraform(struct?: GoogleCesAppVariableDeclarations | cdktn.IResolvable): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
     description: {
@@ -4257,7 +4257,7 @@ export class GoogleCesAppVariableDeclarationsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app google_ces_app}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app google_ces_app}
 */
 export class GoogleCesApp extends cdktn.TerraformResource {
 
@@ -4273,7 +4273,7 @@ export class GoogleCesApp extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GoogleCesApp resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GoogleCesApp to import
-  * @param importFromId The id of the existing GoogleCesApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GoogleCesApp that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GoogleCesApp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -4285,7 +4285,7 @@ export class GoogleCesApp extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/resources/google_ces_app google_ces_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/resources/google_ces_app google_ces_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4296,7 +4296,7 @@ export class GoogleCesApp extends cdktn.TerraformResource {
       terraformResourceType: 'google_ces_app',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_compute_resource_policy
+// https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_resource_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -13,7 +13,7 @@ import * as cdktn from 'cdktn';
 
 export interface DataGoogleComputeResourcePolicyConfig extends cdktn.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_compute_resource_policy#id DataGoogleComputeResourcePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_resource_policy#id DataGoogleComputeResourcePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -28,17 +28,17 @@ export interface DataGoogleComputeResourcePolicyConfig extends cdktn.TerraformMe
   * must be a dash, lowercase letter, or digit, except the last character,
   * which cannot be a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_compute_resource_policy#name DataGoogleComputeResourcePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_resource_policy#name DataGoogleComputeResourcePolicy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_compute_resource_policy#project DataGoogleComputeResourcePolicy#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_resource_policy#project DataGoogleComputeResourcePolicy#project}
   */
   readonly project?: string;
   /**
   * Region where resource policy resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_compute_resource_policy#region DataGoogleComputeResourcePolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_resource_policy#region DataGoogleComputeResourcePolicy#region}
   */
   readonly region?: string;
 }
@@ -48,7 +48,7 @@ export interface DataGoogleComputeResourcePolicyDiskConsistencyGroupPolicy {
 export function dataGoogleComputeResourcePolicyDiskConsistencyGroupPolicyToTerraform(struct?: DataGoogleComputeResourcePolicyDiskConsistencyGroupPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -58,7 +58,7 @@ export function dataGoogleComputeResourcePolicyDiskConsistencyGroupPolicyToTerra
 export function dataGoogleComputeResourcePolicyDiskConsistencyGroupPolicyToHclTerraform(struct?: DataGoogleComputeResourcePolicyDiskConsistencyGroupPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -123,7 +123,7 @@ export interface DataGoogleComputeResourcePolicyGroupPlacementPolicy {
 export function dataGoogleComputeResourcePolicyGroupPlacementPolicyToTerraform(struct?: DataGoogleComputeResourcePolicyGroupPlacementPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -133,7 +133,7 @@ export function dataGoogleComputeResourcePolicyGroupPlacementPolicyToTerraform(s
 export function dataGoogleComputeResourcePolicyGroupPlacementPolicyToHclTerraform(struct?: DataGoogleComputeResourcePolicyGroupPlacementPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -223,7 +223,7 @@ export interface DataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStartSch
 export function dataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStartScheduleToTerraform(struct?: DataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStartSchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -233,7 +233,7 @@ export function dataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStartSche
 export function dataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStartScheduleToHclTerraform(struct?: DataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStartSchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -298,7 +298,7 @@ export interface DataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStopSche
 export function dataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStopScheduleToTerraform(struct?: DataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStopSchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -308,7 +308,7 @@ export function dataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStopSched
 export function dataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStopScheduleToHclTerraform(struct?: DataGoogleComputeResourcePolicyInstanceSchedulePolicyVmStopSchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -373,7 +373,7 @@ export interface DataGoogleComputeResourcePolicyInstanceSchedulePolicy {
 export function dataGoogleComputeResourcePolicyInstanceSchedulePolicyToTerraform(struct?: DataGoogleComputeResourcePolicyInstanceSchedulePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -383,7 +383,7 @@ export function dataGoogleComputeResourcePolicyInstanceSchedulePolicyToTerraform
 export function dataGoogleComputeResourcePolicyInstanceSchedulePolicyToHclTerraform(struct?: DataGoogleComputeResourcePolicyInstanceSchedulePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -470,7 +470,7 @@ export interface DataGoogleComputeResourcePolicySnapshotSchedulePolicyRetentionP
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyRetentionPolicyToTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyRetentionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -480,7 +480,7 @@ export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyRetentionPo
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyRetentionPolicyToHclTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyRetentionPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -550,7 +550,7 @@ export interface DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDa
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDailyScheduleToTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDailySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -560,7 +560,7 @@ export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDai
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDailyScheduleToHclTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleDailySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -630,7 +630,7 @@ export interface DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHo
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHourlyScheduleToTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHourlySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -640,7 +640,7 @@ export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHou
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHourlyScheduleToHclTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleHourlySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -710,7 +710,7 @@ export interface DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWe
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleDayOfWeeksToTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleDayOfWeeks): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -720,7 +720,7 @@ export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWee
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleDayOfWeeksToHclTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleDayOfWeeks): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -790,7 +790,7 @@ export interface DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWe
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleToTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -800,7 +800,7 @@ export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWee
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklyScheduleToHclTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleWeeklySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -866,7 +866,7 @@ export interface DataGoogleComputeResourcePolicySnapshotSchedulePolicySchedule {
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleToTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -876,7 +876,7 @@ export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleToT
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyScheduleToHclTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicySchedule): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -954,7 +954,7 @@ export interface DataGoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPr
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPropertiesToTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicySnapshotProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -964,7 +964,7 @@ export function dataGoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPro
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicySnapshotPropertiesToHclTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicySnapshotProperties): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1045,7 +1045,7 @@ export interface DataGoogleComputeResourcePolicySnapshotSchedulePolicy {
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyToTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1055,7 +1055,7 @@ export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyToTerraform
 export function dataGoogleComputeResourcePolicySnapshotSchedulePolicyToHclTerraform(struct?: DataGoogleComputeResourcePolicySnapshotSchedulePolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1133,7 +1133,7 @@ export interface DataGoogleComputeResourcePolicyWorkloadPolicy {
 export function dataGoogleComputeResourcePolicyWorkloadPolicyToTerraform(struct?: DataGoogleComputeResourcePolicyWorkloadPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   return {
   }
@@ -1143,7 +1143,7 @@ export function dataGoogleComputeResourcePolicyWorkloadPolicyToTerraform(struct?
 export function dataGoogleComputeResourcePolicyWorkloadPolicyToHclTerraform(struct?: DataGoogleComputeResourcePolicyWorkloadPolicy): any {
   if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktn.isComplexElement(struct)) {
-    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
   }
   const attrs = {
   };
@@ -1219,7 +1219,7 @@ export class DataGoogleComputeResourcePolicyWorkloadPolicyList extends cdktn.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_compute_resource_policy google_compute_resource_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_resource_policy google_compute_resource_policy}
 */
 export class DataGoogleComputeResourcePolicy extends cdktn.TerraformDataSource {
 
@@ -1235,7 +1235,7 @@ export class DataGoogleComputeResourcePolicy extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataGoogleComputeResourcePolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGoogleComputeResourcePolicy to import
-  * @param importFromId The id of the existing DataGoogleComputeResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_compute_resource_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGoogleComputeResourcePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_resource_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGoogleComputeResourcePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1247,7 +1247,7 @@ export class DataGoogleComputeResourcePolicy extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.35.0/docs/data-sources/google_compute_resource_policy google_compute_resource_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/google-beta/7.36.0/docs/data-sources/google_compute_resource_policy google_compute_resource_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1258,7 +1258,7 @@ export class DataGoogleComputeResourcePolicy extends cdktn.TerraformDataSource {
       terraformResourceType: 'google_compute_resource_policy',
       terraformGeneratorMetadata: {
         providerName: 'google-beta',
-        providerVersion: '7.35.0',
+        providerVersion: '7.36.0',
         providerVersionConstraint: '~> 7.0'
       },
       provider: config.provider,
